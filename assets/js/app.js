@@ -13,6 +13,7 @@ const pages = {
   plans: () => import('./pages/plans.js'),
   gacha: () => import('./pages/gacha.js'),
   names: () => import('./pages/names.js'),
+  memo: () => import('./pages/memo.js'),
   settings: () => import('./pages/settings.js'),
 };
 

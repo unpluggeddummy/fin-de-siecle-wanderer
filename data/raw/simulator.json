@@ -1,0 +1,4299 @@
+{
+ "source": "reverse1999-simulator.com (버틴의 여행가방) /ko/skin, /ko/character",
+ "extracted": "2026-10-18",
+ "skin_types": {
+  "Garment": "일반 의상",
+  "Advanced Garment": "어드밴스드 가먼트",
+  "Unique": "유니크",
+  "Insight": "2통찰 기본 의상"
+ },
+ "characters": [
+  {
+   "id": 74,
+   "name": "드레이크",
+   "version": "4.0",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 73,
+   "name": "헌츠원 릴리아",
+   "version": "4.0",
+   "rarity": 6,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 72,
+   "name": "나르키소스",
+   "version": "3.9",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 71,
+   "name": "헤도네",
+   "version": "3.9",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 70,
+   "name": "코너스톤",
+   "version": "3.8",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": true
+  },
+  {
+   "id": 69,
+   "name": "에버에코",
+   "version": "3.8",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": true
+  },
+  {
+   "id": 67,
+   "name": "코펠리아",
+   "version": "3.7",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 66,
+   "name": "미스 스트레인저",
+   "version": "3.7",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 65,
+   "name": "리아논",
+   "version": "3.7",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 68,
+   "name": "쌍둥이",
+   "version": "콜라보",
+   "rarity": 6,
+   "afflatus": [
+    "천체",
+    "암석"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 64,
+   "name": "이니그마",
+   "version": "3.6",
+   "rarity": 6,
+   "afflatus": [
+    "지능"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 63,
+   "name": "라모나",
+   "version": "3.5",
+   "rarity": 6,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 62,
+   "name": "로렌츠 버터플라이",
+   "version": "3.5",
+   "rarity": 6,
+   "afflatus": [
+    "지능"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 61,
+   "name": "정화광",
+   "version": "3.4",
+   "rarity": 6,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 60,
+   "name": "노사전",
+   "version": "3.4",
+   "rarity": 6,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 59,
+   "name": "이고르",
+   "version": "3.3",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 58,
+   "name": "마샤",
+   "version": "3.3",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 57,
+   "name": "브룸",
+   "version": "3.2",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 56,
+   "name": "베릴",
+   "version": "3.2",
+   "rarity": 6,
+   "afflatus": [
+    "지능"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 55,
+   "name": "코르부스",
+   "version": "3.1",
+   "rarity": 6,
+   "afflatus": [
+    "지능"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 54,
+   "name": "루부스카",
+   "version": "3.1",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 53,
+   "name": "카론",
+   "version": "3.0",
+   "rarity": 6,
+   "afflatus": [
+    "영혼"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 52,
+   "name": "센티널",
+   "version": "3.0",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 51,
+   "name": "몰디르",
+   "version": "2.8",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 50,
+   "name": "울리히",
+   "version": "2.8",
+   "rarity": 6,
+   "afflatus": [
+    "지능"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 49,
+   "name": "노티카",
+   "version": "2.8",
+   "rarity": 6,
+   "afflatus": [
+    "영혼"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 48,
+   "name": "카산드라",
+   "version": "콜라보",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 47,
+   "name": "에지오 아디토레",
+   "version": "콜라보",
+   "rarity": 6,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 46,
+   "name": "키페리나",
+   "version": "2.7",
+   "rarity": 6,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 45,
+   "name": "히사베스",
+   "version": "2.7",
+   "rarity": 6,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 44,
+   "name": "알레프",
+   "version": "2.6",
+   "rarity": 6,
+   "afflatus": [
+    "지능"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 43,
+   "name": "레콜레타",
+   "version": "2.6",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 42,
+   "name": "누아르",
+   "version": "2.5",
+   "rarity": 6,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "보조",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 41,
+   "name": "양월",
+   "version": "2.5",
+   "rarity": 6,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 40,
+   "name": "파투투",
+   "version": "2.4",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 39,
+   "name": "바르카롤라",
+   "version": "2.4",
+   "rarity": 6,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 38,
+   "name": "플러터 페이지",
+   "version": "2.3",
+   "rarity": 6,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 37,
+   "name": "윌로우",
+   "version": "2.3",
+   "rarity": 6,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 36,
+   "name": "로페라",
+   "version": "2.2",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 35,
+   "name": "안조 날라",
+   "version": "2.2",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 34,
+   "name": "아르고스",
+   "version": "2.1",
+   "rarity": 6,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 33,
+   "name": "튜즈데이",
+   "version": "2.1",
+   "rarity": 6,
+   "afflatus": [
+    "영혼"
+   ],
+   "role": "보조",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 32,
+   "name": "J",
+   "version": "2.0",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 31,
+   "name": "머큐리아",
+   "version": "2.0",
+   "rarity": 6,
+   "afflatus": [
+    "영혼"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 30,
+   "name": "카카니아",
+   "version": "1.9",
+   "rarity": 6,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 29,
+   "name": "루시",
+   "version": "1.9",
+   "rarity": 6,
+   "afflatus": [
+    "지능"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 28,
+   "name": "제멜바이스",
+   "version": "1.9",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 27,
+   "name": "윈드송",
+   "version": "1.8",
+   "rarity": 6,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 26,
+   "name": "빌라",
+   "version": "1.8",
+   "rarity": 6,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "방어",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 25,
+   "name": "마커스",
+   "version": "1.7",
+   "rarity": 6,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "보조",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 24,
+   "name": "이졸데",
+   "version": "1.7",
+   "rarity": 6,
+   "afflatus": [
+    "영혼"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 23,
+   "name": "갈천",
+   "version": "1.6",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "보조",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 22,
+   "name": "곡랑",
+   "version": "1.6",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 21,
+   "name": "에즈라",
+   "version": "1.5",
+   "rarity": 6,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 20,
+   "name": "스파토데아",
+   "version": "1.5",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "보조",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 19,
+   "name": "6",
+   "version": "1.4",
+   "rarity": 6,
+   "afflatus": [
+    "지능"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 18,
+   "name": "37",
+   "version": "1.4",
+   "rarity": 6,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 17,
+   "name": "갈기 모래",
+   "version": "1.3",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 16,
+   "name": "갈라보나",
+   "version": "1.3",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 15,
+   "name": "제시카",
+   "version": "1.2",
+   "rarity": 6,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "보조",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 14,
+   "name": "투스 페어리",
+   "version": "1.2",
+   "rarity": 6,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 13,
+   "name": "피클즈",
+   "version": "1.1",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 12,
+   "name": "멜라니아",
+   "version": "1.1",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 11,
+   "name": "보이저",
+   "version": "1.0",
+   "rarity": 6,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 10,
+   "name": "뉴바벨",
+   "version": "1.0",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "방어",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 9,
+   "name": "이터니티",
+   "version": "1.0",
+   "rarity": 6,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 8,
+   "name": "메디슨 포켓",
+   "version": "1.0",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "방어",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 7,
+   "name": "안안 리",
+   "version": "1.0",
+   "rarity": 6,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "보조",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 6,
+   "name": "센츄리온",
+   "version": "1.0",
+   "rarity": 6,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 5,
+   "name": "레굴루스",
+   "version": "1.0",
+   "rarity": 6,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "보조",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 4,
+   "name": "소더비",
+   "version": "1.0",
+   "rarity": 6,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 3,
+   "name": "A 나이트",
+   "version": "1.0",
+   "rarity": 6,
+   "afflatus": [
+    "영혼"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 2,
+   "name": "릴리아",
+   "version": "1.0",
+   "rarity": 6,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 1,
+   "name": "드루비스",
+   "version": "1.0",
+   "rarity": 6,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 130,
+   "name": "은빛 이글",
+   "version": "3.7",
+   "rarity": 5,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 129,
+   "name": "버디 페어차일드",
+   "version": "2.8",
+   "rarity": 5,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 128,
+   "name": "알렉시오스",
+   "version": "콜라보",
+   "rarity": 5,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 127,
+   "name": "네임데이",
+   "version": "2.7",
+   "rarity": 5,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 126,
+   "name": "로거헤드",
+   "version": "2.5",
+   "rarity": 5,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 125,
+   "name": "슬라우치 햇",
+   "version": "2.3",
+   "rarity": 5,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 124,
+   "name": "던컨",
+   "version": "2.2",
+   "rarity": 5,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 123,
+   "name": "바바라",
+   "version": "2.1",
+   "rarity": 5,
+   "afflatus": [
+    "영혼"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 122,
+   "name": "로렐라이",
+   "version": "1.9",
+   "rarity": 5,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 121,
+   "name": "아브구스트",
+   "version": "1.8",
+   "rarity": 5,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 120,
+   "name": "예니세이",
+   "version": "1.6",
+   "rarity": 5,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 119,
+   "name": "울루",
+   "version": "1.5",
+   "rarity": 5,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 118,
+   "name": "데저트 플란넬",
+   "version": "1.5",
+   "rarity": 5,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 117,
+   "name": "칸지라",
+   "version": "1.3",
+   "rarity": 5,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 116,
+   "name": "호러피디아",
+   "version": "1.2",
+   "rarity": 5,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 115,
+   "name": "블로니",
+   "version": "1.2",
+   "rarity": 5,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 114,
+   "name": "디거스",
+   "version": "1.1",
+   "rarity": 5,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 113,
+   "name": "클릭",
+   "version": "1.0",
+   "rarity": 5,
+   "afflatus": [
+    "영혼"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 112,
+   "name": "테넌트",
+   "version": "1.0",
+   "rarity": 5,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 111,
+   "name": "사츠키",
+   "version": "1.0",
+   "rarity": 5,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 110,
+   "name": "네크롤로지스트",
+   "version": "1.0",
+   "rarity": 5,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 109,
+   "name": "벌룬 파티",
+   "version": "1.0",
+   "rarity": 5,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 108,
+   "name": "디케",
+   "version": "1.0",
+   "rarity": 5,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 107,
+   "name": "콘블룸",
+   "version": "1.0",
+   "rarity": 5,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "밸런스",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 106,
+   "name": "찰리",
+   "version": "1.0",
+   "rarity": 5,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 105,
+   "name": "베이비 블루",
+   "version": "1.0",
+   "rarity": 5,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 104,
+   "name": "마릴린",
+   "version": "1.0",
+   "rarity": 5,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 103,
+   "name": "X",
+   "version": "1.0",
+   "rarity": 5,
+   "afflatus": [
+    "지능"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 102,
+   "name": "마틸다",
+   "version": "1.0",
+   "rarity": 5,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "공격",
+   "euphoria": true,
+   "new": false
+  },
+  {
+   "id": 101,
+   "name": "소네트",
+   "version": "1.0",
+   "rarity": 5,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 220,
+   "name": "글린두르",
+   "version": "4.0",
+   "rarity": 4,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 218,
+   "name": "호숫가의 여인",
+   "version": "3.7",
+   "rarity": 4,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 219,
+   "name": "노라",
+   "version": "콜라보",
+   "rarity": 4,
+   "afflatus": [
+    "영혼"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 217,
+   "name": "노초결",
+   "version": "3.4",
+   "rarity": 4,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 215,
+   "name": "화이트 럼",
+   "version": "2.2",
+   "rarity": 4,
+   "afflatus": [
+    "지능"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 216,
+   "name": "TTT",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 214,
+   "name": "폴터가이스트",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "영혼"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 213,
+   "name": "에릭",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 212,
+   "name": "메스머 주니어",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "지능"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 211,
+   "name": "무아상",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 210,
+   "name": "레이비스",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 209,
+   "name": "크리스탈로",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 208,
+   "name": "APPLe",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 207,
+   "name": "빨간 망토",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 206,
+   "name": "올리버 포그",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 205,
+   "name": "파비아",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 204,
+   "name": "바니바니",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 203,
+   "name": "겨울",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 202,
+   "name": "이글",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 201,
+   "name": "닉 보텀",
+   "version": "1.0",
+   "rarity": 4,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 311,
+   "name": "파이오니어",
+   "version": "2.0",
+   "rarity": 3,
+   "afflatus": [
+    "영혼"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 310,
+   "name": "스푸트니크",
+   "version": "1.0",
+   "rarity": 3,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 309,
+   "name": "어니언",
+   "version": "1.0",
+   "rarity": 3,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "공격",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 308,
+   "name": "다그닥 달리",
+   "version": "1.0",
+   "rarity": 3,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 307,
+   "name": "베티",
+   "version": "1.0",
+   "rarity": 3,
+   "afflatus": [
+    "암석"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 306,
+   "name": "리사&루이스",
+   "version": "1.0",
+   "rarity": 3,
+   "afflatus": [
+    "영혼"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 305,
+   "name": "존 티토",
+   "version": "1.0",
+   "rarity": 3,
+   "afflatus": [
+    "지능"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 304,
+   "name": "레일라니",
+   "version": "1.0",
+   "rarity": 3,
+   "afflatus": [
+    "야수"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 303,
+   "name": "에일리언 T",
+   "version": "1.0",
+   "rarity": 3,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 302,
+   "name": "라 수르스",
+   "version": "1.0",
+   "rarity": 3,
+   "afflatus": [
+    "나무"
+   ],
+   "role": "보조",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 301,
+   "name": "광대",
+   "version": "1.0",
+   "rarity": 3,
+   "afflatus": [
+    "천체"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 402,
+   "name": "문",
+   "version": "1.0",
+   "rarity": 2,
+   "afflatus": [
+    "지능"
+   ],
+   "role": "밸런스",
+   "euphoria": false,
+   "new": false
+  },
+  {
+   "id": 401,
+   "name": "미스 라디오",
+   "version": "1.0",
+   "rarity": 2,
+   "afflatus": [
+    "영혼"
+   ],
+   "role": "방어",
+   "euphoria": false,
+   "new": false
+  }
+ ],
+ "skins": [
+  {
+   "id": 1137,
+   "version": "4.0",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "암초의 메아리",
+   "character": "로렐라이"
+  },
+  {
+   "id": 1136,
+   "version": "4.0",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "저녁별의 목자",
+   "character": "키페리나"
+  },
+  {
+   "id": 1135,
+   "version": "4.0",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "무료",
+   "tarot": null,
+   "name": "최강의 음",
+   "character": "레굴루스"
+  },
+  {
+   "id": 1134,
+   "version": "4.0",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "우주의 물결이 밀려올 때",
+   "character": "보이저"
+  },
+  {
+   "id": 1133,
+   "version": "4.0",
+   "type": "Unique",
+   "type_ko": "유니크",
+   "source": "판매",
+   "tarot": null,
+   "name": "현으로 풀어내는 운명",
+   "character": "베릴"
+  },
+  {
+   "id": 1132,
+   "version": "4.0",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "생명의 집",
+   "character": "코너스톤"
+  },
+  {
+   "id": 1131,
+   "version": "4.0",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "영혼에 바치는 노래",
+   "character": "에버에코"
+  },
+  {
+   "id": 1130,
+   "version": "4.0",
+   "type": "Unique",
+   "type_ko": "유니크",
+   "source": "판매",
+   "tarot": 7,
+   "name": "무지갯빛 왕관",
+   "character": "헌츠원 릴리아"
+  },
+  {
+   "id": 1129,
+   "version": "4.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "글린두르 2통찰",
+   "character": "글린두르"
+  },
+  {
+   "id": 1128,
+   "version": "4.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "드레이크 2통찰",
+   "character": "드레이크"
+  },
+  {
+   "id": 1127,
+   "version": "4.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "헌츠원 릴리아 2통찰",
+   "character": "헌츠원 릴리아"
+  },
+  {
+   "id": 1124,
+   "version": "3.9",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "콜라보 판매",
+   "tarot": null,
+   "name": "미식 상담가",
+   "character": "카카니아"
+  },
+  {
+   "id": 1123,
+   "version": "3.9",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "콜라보 판매",
+   "tarot": null,
+   "name": "바다 소금 질주",
+   "character": "브룸"
+  },
+  {
+   "id": 1122,
+   "version": "3.9",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "스포츠 속보",
+   "character": "어니언"
+  },
+  {
+   "id": 1121,
+   "version": "3.9",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "장미 속 낮잠",
+   "character": "몰디르"
+  },
+  {
+   "id": 1120,
+   "version": "3.9",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "가라앉은 그림자의 탱고",
+   "character": "미스 스트레인저"
+  },
+  {
+   "id": 1119,
+   "version": "3.9",
+   "type": "Unique",
+   "type_ko": "유니크",
+   "source": "판매",
+   "tarot": null,
+   "name": "헤엄과 물음",
+   "character": "이니그마"
+  },
+  {
+   "id": 1118,
+   "version": "3.9",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "나르키소스 2통찰",
+   "character": "나르키소스"
+  },
+  {
+   "id": 1117,
+   "version": "3.9",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "헤도네 2통찰",
+   "character": "헤도네"
+  },
+  {
+   "id": 1126,
+   "version": "3.8",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "코너스톤 2통찰",
+   "character": "코너스톤"
+  },
+  {
+   "id": 1125,
+   "version": "3.8",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "에버에코 2통찰",
+   "character": "에버에코"
+  },
+  {
+   "id": 1116,
+   "version": "3.8",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "프레임을 채우는 삶",
+   "character": "베티"
+  },
+  {
+   "id": 1115,
+   "version": "3.8",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "혜성을 어루만지는 노래",
+   "character": "히사베스"
+  },
+  {
+   "id": 1114,
+   "version": "3.8",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": 4,
+   "name": "돌아올 길 없는 명계",
+   "character": "이고르"
+  },
+  {
+   "id": 1113,
+   "version": "3.8",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "은빛 피날레",
+   "character": "로렌츠 버터플라이"
+  },
+  {
+   "id": 1106,
+   "version": "3.7",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "영원한 침묵",
+   "character": "네임데이"
+  },
+  {
+   "id": 1105,
+   "version": "3.7",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "완벽한 유체",
+   "character": "37"
+  },
+  {
+   "id": 1104,
+   "version": "3.7",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "불의 연꽃",
+   "character": "스파토데아"
+  },
+  {
+   "id": 1103,
+   "version": "3.7",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": 13,
+   "name": "망자의 은총",
+   "character": "카론"
+  },
+  {
+   "id": 1102,
+   "version": "3.7",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "지나간 꿈의 틈새",
+   "character": "파투투"
+  },
+  {
+   "id": 1101,
+   "version": "3.7",
+   "type": "Unique",
+   "type_ko": "유니크",
+   "source": "판매",
+   "tarot": null,
+   "name": "빛의 이름으로",
+   "character": "노티카"
+  },
+  {
+   "id": 1100,
+   "version": "3.7",
+   "type": "Unique",
+   "type_ko": "유니크",
+   "source": "판매",
+   "tarot": null,
+   "name": "깨우는 소리",
+   "character": "코펠리아"
+  },
+  {
+   "id": 1099,
+   "version": "3.7",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "호숫가의 여인 2통찰",
+   "character": "호숫가의 여인"
+  },
+  {
+   "id": 1098,
+   "version": "3.7",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "은빛 이글 2통찰",
+   "character": "은빛 이글"
+  },
+  {
+   "id": 1097,
+   "version": "3.7",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "코펠리아 2통찰",
+   "character": "코펠리아"
+  },
+  {
+   "id": 1096,
+   "version": "3.7",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "미스 스트레인저 2통찰",
+   "character": "미스 스트레인저"
+  },
+  {
+   "id": 1095,
+   "version": "3.7",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "리아논 2통찰",
+   "character": "리아논"
+  },
+  {
+   "id": 1112,
+   "version": "콜라보",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": 11,
+   "name": "죄악과 정의의 무게",
+   "character": "센티널"
+  },
+  {
+   "id": 1111,
+   "version": "콜라보",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "은빛 등고선",
+   "character": "윈드송"
+  },
+  {
+   "id": 1110,
+   "version": "콜라보",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "무료",
+   "tarot": null,
+   "name": "소트 레인저",
+   "character": "슬라우치 햇"
+  },
+  {
+   "id": 1109,
+   "version": "콜라보",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "콜라보 판매",
+   "tarot": null,
+   "name": "공생화",
+   "character": "안안 리"
+  },
+  {
+   "id": 1108,
+   "version": "콜라보",
+   "type": "Unique",
+   "type_ko": "유니크",
+   "source": "콜라보 판매",
+   "tarot": null,
+   "name": "아토믹 알람",
+   "character": "플러터 페이지"
+  },
+  {
+   "id": 1107,
+   "version": "콜라보",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "콜라보 판매",
+   "tarot": null,
+   "name": "프로그래머블 추모곡",
+   "character": "쌍둥이"
+  },
+  {
+   "id": 1094,
+   "version": "3.6",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "이니그마 2통찰",
+   "character": "이니그마"
+  },
+  {
+   "id": 127,
+   "version": "3.6",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "우주 항해",
+   "character": "화이트 럼"
+  },
+  {
+   "id": 126,
+   "version": "3.6",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "문자, 그 시작과 끝",
+   "character": "레콜레타"
+  },
+  {
+   "id": 125,
+   "version": "3.6",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": 8,
+   "name": "꺼지지 않는 품속",
+   "character": "마샤"
+  },
+  {
+   "id": 1092,
+   "version": "3.5",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "라모나 2통찰",
+   "character": "라모나"
+  },
+  {
+   "id": 1091,
+   "version": "3.5",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "로렌츠 버터플라이 2통찰",
+   "character": "로렌츠 버터플라이"
+  },
+  {
+   "id": 124,
+   "version": "3.5",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "차가운 포대기",
+   "character": "튜즈데이"
+  },
+  {
+   "id": 123,
+   "version": "3.5",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "무료",
+   "tarot": null,
+   "name": "‘보텀의 꿈’",
+   "character": "닉 보텀"
+  },
+  {
+   "id": 122,
+   "version": "3.5",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "유리 유토피아",
+   "character": "키페리나"
+  },
+  {
+   "id": 121,
+   "version": "3.5",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "슬픔조차 불태우리",
+   "character": "코르부스"
+  },
+  {
+   "id": 1090,
+   "version": "3.4",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "노초결 2통찰",
+   "character": "노초결"
+  },
+  {
+   "id": 1089,
+   "version": "3.4",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "정화광 2통찰",
+   "character": "정화광"
+  },
+  {
+   "id": 1088,
+   "version": "3.4",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "노사전 2통찰",
+   "character": "노사전"
+  },
+  {
+   "id": 120,
+   "version": "3.4",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": 9,
+   "name": "고독한 찬송가",
+   "character": "6"
+  },
+  {
+   "id": 119,
+   "version": "3.4",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "봄날의 옷",
+   "character": "윌로우"
+  },
+  {
+   "id": 118,
+   "version": "3.4",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "무료",
+   "tarot": null,
+   "name": "미친 도사",
+   "character": "호러피디아"
+  },
+  {
+   "id": 117,
+   "version": "3.4",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "무료",
+   "tarot": null,
+   "name": "속세의 일",
+   "character": "누아르"
+  },
+  {
+   "id": 116,
+   "version": "3.4",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "답영가",
+   "character": "루부스카"
+  },
+  {
+   "id": 115,
+   "version": "3.4",
+   "type": "Unique",
+   "type_ko": "유니크",
+   "source": "판매",
+   "tarot": null,
+   "name": "채의곡",
+   "character": "투스 페어리"
+  },
+  {
+   "id": 114,
+   "version": "3.4",
+   "type": "Unique",
+   "type_ko": "유니크",
+   "source": "판매",
+   "tarot": null,
+   "name": "조설명",
+   "character": "양월"
+  },
+  {
+   "id": 1093,
+   "version": "3.3",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "이고르 2통찰",
+   "character": "이고르"
+  },
+  {
+   "id": 1087,
+   "version": "3.3",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "마샤 2통찰",
+   "character": "마샤"
+  },
+  {
+   "id": 113,
+   "version": "3.3",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "시종의 하루",
+   "character": "바니바니"
+  },
+  {
+   "id": 112,
+   "version": "3.3",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": 12,
+   "name": "영생은 덧없다",
+   "character": "메디슨 포켓"
+  },
+  {
+   "id": 110,
+   "version": "3.3",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "석조성의 만가",
+   "character": "몰디르"
+  },
+  {
+   "id": 109,
+   "version": "3.3",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "거울회랑의 선언",
+   "character": "센티널"
+  },
+  {
+   "id": 1056,
+   "version": "3.2",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "브룸 2통찰",
+   "character": "브룸"
+  },
+  {
+   "id": 1055,
+   "version": "3.2",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "베릴 2통찰",
+   "character": "베릴"
+  },
+  {
+   "id": 108,
+   "version": "3.2",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "피부 장식물",
+   "character": "파이오니어"
+  },
+  {
+   "id": 107,
+   "version": "3.2",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "태양이 질 때까지",
+   "character": "갈라보나"
+  },
+  {
+   "id": 106,
+   "version": "3.2",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": 16,
+   "name": "시대병의 간병인",
+   "character": "카카니아"
+  },
+  {
+   "id": 105,
+   "version": "3.2",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "죽음을 향해 날개짓한다면",
+   "character": "이졸데"
+  },
+  {
+   "id": 104,
+   "version": "3.2",
+   "type": "Unique",
+   "type_ko": "유니크",
+   "source": "판매",
+   "tarot": 15,
+   "name": "금단의 열매",
+   "character": "안조 날라"
+  },
+  {
+   "id": 1054,
+   "version": "3.1",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "코르부스 2통찰",
+   "character": "코르부스"
+  },
+  {
+   "id": 1053,
+   "version": "3.1",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "루부스카 2통찰",
+   "character": "루부스카"
+  },
+  {
+   "id": 111,
+   "version": "3.1",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "호러 나이트의 찬가",
+   "character": "머큐리아"
+  },
+  {
+   "id": 103,
+   "version": "3.1",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "유리창 앞의 꿈",
+   "character": "크리스탈로"
+  },
+  {
+   "id": 102,
+   "version": "3.1",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": 20,
+   "name": "늘푸른 영혼",
+   "character": "A 나이트"
+  },
+  {
+   "id": 101,
+   "version": "3.1",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "악몽과 밤",
+   "character": "윈드송"
+  },
+  {
+   "id": 100,
+   "version": "3.1",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "표상의 만찬",
+   "character": "알레프"
+  },
+  {
+   "id": 1052,
+   "version": "3.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "카론 2통찰",
+   "character": "카론"
+  },
+  {
+   "id": 1051,
+   "version": "3.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "센티널 2통찰",
+   "character": "센티널"
+  },
+  {
+   "id": 99,
+   "version": "3.0",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "전장의 생명선",
+   "character": "미스 라디오"
+  },
+  {
+   "id": 98,
+   "version": "3.0",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": 18,
+   "name": "마음의 손익",
+   "character": "제멜바이스"
+  },
+  {
+   "id": 97,
+   "version": "3.0",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "늑대의 포효",
+   "character": "J"
+  },
+  {
+   "id": 96,
+   "version": "3.0",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "내일을 여는 봄바람",
+   "character": "플러터 페이지"
+  },
+  {
+   "id": 1085,
+   "version": "2.8",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "버디 페어차일드 2통찰",
+   "character": "버디 페어차일드"
+  },
+  {
+   "id": 1050,
+   "version": "2.8",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "몰디르 2통찰",
+   "character": "몰디르"
+  },
+  {
+   "id": 1049,
+   "version": "2.8",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "울리히 2통찰",
+   "character": "울리히"
+  },
+  {
+   "id": 1048,
+   "version": "2.8",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "노티카 2통찰",
+   "character": "노티카"
+  },
+  {
+   "id": 95,
+   "version": "2.8",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "폰의 승급 왈츠",
+   "character": "리사&루이스"
+  },
+  {
+   "id": 94,
+   "version": "2.8",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": 6,
+   "name": "낙원의 소리",
+   "character": "제시카"
+  },
+  {
+   "id": 93,
+   "version": "2.8",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "룩의 껍데기 속 우주",
+   "character": "키페리나"
+  },
+  {
+   "id": 92,
+   "version": "2.8",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "나이트 오브 라만차",
+   "character": "레콜레타"
+  },
+  {
+   "id": 91,
+   "version": "2.8",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": 21,
+   "name": "우주와의 공명",
+   "character": "울리히"
+  },
+  {
+   "id": 90,
+   "version": "2.8",
+   "type": "Unique",
+   "type_ko": "유니크",
+   "source": "판매",
+   "tarot": null,
+   "name": "체스라는 삶",
+   "character": "루시"
+  },
+  {
+   "id": 1084,
+   "version": "콜라보",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "알렉시오스 2통찰",
+   "character": "알렉시오스"
+  },
+  {
+   "id": 1047,
+   "version": "콜라보",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "카산드라 2통찰",
+   "character": "카산드라"
+  },
+  {
+   "id": 1046,
+   "version": "콜라보",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "에지오 아디토레 2통찰",
+   "character": "에지오 아디토레"
+  },
+  {
+   "id": 89,
+   "version": "콜라보",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "지혜의 열매",
+   "character": "APPLe"
+  },
+  {
+   "id": 88,
+   "version": "콜라보",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": 3,
+   "name": "풍요의 손길",
+   "character": "이터니티"
+  },
+  {
+   "id": 87,
+   "version": "콜라보",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "콜라보 판매",
+   "tarot": null,
+   "name": "지하세계의 문으로",
+   "character": "마커스"
+  },
+  {
+   "id": 86,
+   "version": "콜라보",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "콜라보 판매",
+   "tarot": null,
+   "name": "꿈틀대는 봄",
+   "character": "히사베스"
+  },
+  {
+   "id": 85,
+   "version": "콜라보",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "콜라보 판매",
+   "tarot": null,
+   "name": "와인 색 바다의 딸",
+   "character": "빌라"
+  },
+  {
+   "id": 1083,
+   "version": "2.7",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "네임데이 2통찰",
+   "character": "네임데이"
+  },
+  {
+   "id": 1045,
+   "version": "2.7",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "키페리나 2통찰",
+   "character": "키페리나"
+  },
+  {
+   "id": 1044,
+   "version": "2.7",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "히사베스 2통찰",
+   "character": "히사베스"
+  },
+  {
+   "id": 84,
+   "version": "2.7",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "우주 유람기",
+   "character": "레이비스"
+  },
+  {
+   "id": 83,
+   "version": "2.7",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": 17,
+   "name": "별들의 합창",
+   "character": "보이저"
+  },
+  {
+   "id": 82,
+   "version": "2.7",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "성간 사냥꾼",
+   "character": "아르고스"
+  },
+  {
+   "id": 81,
+   "version": "2.7",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "소행성 알레그로",
+   "character": "바르카롤라"
+  },
+  {
+   "id": 1043,
+   "version": "2.6",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "알레프 2통찰",
+   "character": "알레프"
+  },
+  {
+   "id": 1042,
+   "version": "2.6",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "레콜레타 2통찰",
+   "character": "레콜레타"
+  },
+  {
+   "id": 80,
+   "version": "2.6",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "맹세와 가치",
+   "character": "에릭"
+  },
+  {
+   "id": 79,
+   "version": "2.6",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": 1,
+   "name": "레드&화이트",
+   "character": "멜라니아"
+  },
+  {
+   "id": 78,
+   "version": "2.6",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "허리케인 캣의 친구",
+   "character": "로페라"
+  },
+  {
+   "id": 77,
+   "version": "2.6",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "두 번째 징조",
+   "character": "윌로우"
+  },
+  {
+   "id": 1082,
+   "version": "2.5",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "로거헤드 2통찰",
+   "character": "로거헤드"
+  },
+  {
+   "id": 1041,
+   "version": "2.5",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "누아르 2통찰",
+   "character": "누아르"
+  },
+  {
+   "id": 1040,
+   "version": "2.5",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "양월 2통찰",
+   "character": "양월"
+  },
+  {
+   "id": 76,
+   "version": "2.5",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "그림자 놀이꾼",
+   "character": "광대"
+  },
+  {
+   "id": 75,
+   "version": "2.5",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": 2,
+   "name": "가시덤불이 감싸인 곳",
+   "character": "드루비스"
+  },
+  {
+   "id": 74,
+   "version": "2.5",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "붉은 실의 인연",
+   "character": "소더비"
+  },
+  {
+   "id": 73,
+   "version": "2.5",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "무료",
+   "tarot": null,
+   "name": "착옥기",
+   "character": "윈드송"
+  },
+  {
+   "id": 72,
+   "version": "2.5",
+   "type": "Unique",
+   "type_ko": "유니크",
+   "source": "판매",
+   "tarot": null,
+   "name": "담 위의 별천지",
+   "character": "곡랑"
+  },
+  {
+   "id": 71,
+   "version": "2.5",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "옥병보감",
+   "character": "튜즈데이"
+  },
+  {
+   "id": 1039,
+   "version": "2.4",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "파투투 2통찰",
+   "character": "파투투"
+  },
+  {
+   "id": 1038,
+   "version": "2.4",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "바르카롤라 2통찰",
+   "character": "바르카롤라"
+  },
+  {
+   "id": 70,
+   "version": "2.4",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "콜라보 판매",
+   "tarot": null,
+   "name": "곡선의 집",
+   "character": "파투투"
+  },
+  {
+   "id": 69,
+   "version": "2.4",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "콜라보 판매",
+   "tarot": null,
+   "name": "불타버린 폐허에서",
+   "character": "6"
+  },
+  {
+   "id": 68,
+   "version": "2.4",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "은빛 총신",
+   "character": "빨간 망토"
+  },
+  {
+   "id": 67,
+   "version": "2.4",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "끝이 없는 항해",
+   "character": "네크롤로지스트"
+  },
+  {
+   "id": 66,
+   "version": "2.4",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "선의의 입찰",
+   "character": "뉴바벨"
+  },
+  {
+   "id": 65,
+   "version": "2.4",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "심금의 살롱",
+   "character": "카카니아"
+  },
+  {
+   "id": 64,
+   "version": "2.4",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "한밤의 맘보",
+   "character": "머큐리아"
+  },
+  {
+   "id": 1081,
+   "version": "2.3",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "슬라우치 햇 2통찰",
+   "character": "슬라우치 햇"
+  },
+  {
+   "id": 1037,
+   "version": "2.3",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "플러터 페이지 2통찰",
+   "character": "플러터 페이지"
+  },
+  {
+   "id": 1036,
+   "version": "2.3",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "윌로우 2통찰",
+   "character": "윌로우"
+  },
+  {
+   "id": 63,
+   "version": "2.3",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "빠른 전진",
+   "character": "존 티토"
+  },
+  {
+   "id": 62,
+   "version": "2.3",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "감정사의 전쟁",
+   "character": "테넌트"
+  },
+  {
+   "id": 61,
+   "version": "2.3",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "지연되지 않는 공정",
+   "character": "릴리아"
+  },
+  {
+   "id": 60,
+   "version": "2.3",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "노크 에티켓",
+   "character": "제멜바이스"
+  },
+  {
+   "id": 1080,
+   "version": "2.2",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "던컨 2통찰",
+   "character": "던컨"
+  },
+  {
+   "id": 1035,
+   "version": "2.2",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "로페라 2통찰",
+   "character": "로페라"
+  },
+  {
+   "id": 1034,
+   "version": "2.2",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "안조 날라 2통찰",
+   "character": "안조 날라"
+  },
+  {
+   "id": 59,
+   "version": "2.2",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "색다른 바닷속에서",
+   "character": "폴터가이스트"
+  },
+  {
+   "id": 58,
+   "version": "2.2",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "강가 산책",
+   "character": "예니세이"
+  },
+  {
+   "id": 57,
+   "version": "2.2",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "흰 모래와 바람",
+   "character": "마커스"
+  },
+  {
+   "id": 56,
+   "version": "2.2",
+   "type": "Unique",
+   "type_ko": "유니크",
+   "source": "판매",
+   "tarot": null,
+   "name": "동굴 깊은 곳",
+   "character": "37"
+  },
+  {
+   "id": 55,
+   "version": "2.2",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "마나우스의 흔적",
+   "character": "갈기 모래"
+  },
+  {
+   "id": 54,
+   "version": "2.2",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "멀리서 본 색채",
+   "character": "빌라"
+  },
+  {
+   "id": 1079,
+   "version": "2.1",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "바바라 2통찰",
+   "character": "바바라"
+  },
+  {
+   "id": 1033,
+   "version": "2.1",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "아르고스 2통찰",
+   "character": "아르고스"
+  },
+  {
+   "id": 1032,
+   "version": "2.1",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "튜즈데이 2통찰",
+   "character": "튜즈데이"
+  },
+  {
+   "id": 53,
+   "version": "2.1",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "토요일 스페셜",
+   "character": "TTT"
+  },
+  {
+   "id": 52,
+   "version": "2.1",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "엉성한 지알로 영화",
+   "character": "블로니"
+  },
+  {
+   "id": 51,
+   "version": "2.1",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "Yee-Haw!",
+   "character": "에즈라"
+  },
+  {
+   "id": 50,
+   "version": "2.1",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "올 댓 재즈",
+   "character": "이졸데"
+  },
+  {
+   "id": 1031,
+   "version": "2.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "J 2통찰",
+   "character": "J"
+  },
+  {
+   "id": 1030,
+   "version": "2.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "머큐리아 2통찰",
+   "character": "머큐리아"
+  },
+  {
+   "id": 49,
+   "version": "2.0",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "콜라보 판매",
+   "tarot": null,
+   "name": "새벽 무도회의 요정",
+   "character": "투스 페어리"
+  },
+  {
+   "id": 48,
+   "version": "2.0",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "콜라보 판매",
+   "tarot": null,
+   "name": "입애굽기",
+   "character": "갈천"
+  },
+  {
+   "id": 47,
+   "version": "2.0",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "끽, 끼긱?!",
+   "character": "스푸트니크"
+  },
+  {
+   "id": 46,
+   "version": "2.0",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "한밤의 손님",
+   "character": "칸지라"
+  },
+  {
+   "id": 45,
+   "version": "2.0",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "승리를 위하여!",
+   "character": "스파토데아"
+  },
+  {
+   "id": 44,
+   "version": "2.0",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "언제 어디서나",
+   "character": "6"
+  },
+  {
+   "id": 1078,
+   "version": "1.9",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "로렐라이 2통찰",
+   "character": "로렐라이"
+  },
+  {
+   "id": 1029,
+   "version": "1.9",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "카카니아 2통찰",
+   "character": "카카니아"
+  },
+  {
+   "id": 1028,
+   "version": "1.9",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "루시 2통찰",
+   "character": "루시"
+  },
+  {
+   "id": 1027,
+   "version": "1.9",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "제멜바이스 2통찰",
+   "character": "제멜바이스"
+  },
+  {
+   "id": 43,
+   "version": "1.9",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "콜라보 판매",
+   "tarot": null,
+   "name": "주말 탐험대",
+   "character": "이글"
+  },
+  {
+   "id": 42,
+   "version": "1.9",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "휴일",
+   "character": "메스머 주니어"
+  },
+  {
+   "id": 41,
+   "version": "1.9",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "중첩된 어구",
+   "character": "소네트"
+  },
+  {
+   "id": 40,
+   "version": "1.9",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "야생의 부름",
+   "character": "데저트 플란넬"
+  },
+  {
+   "id": 39,
+   "version": "1.9",
+   "type": "Unique",
+   "type_ko": "유니크",
+   "source": "판매",
+   "tarot": null,
+   "name": "출발! 내일로",
+   "character": "레굴루스"
+  },
+  {
+   "id": 38,
+   "version": "1.9",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "다시 길 위로",
+   "character": "보이저"
+  },
+  {
+   "id": 37,
+   "version": "1.9",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "오후의 예항",
+   "character": "제시카"
+  },
+  {
+   "id": 1077,
+   "version": "1.8",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "아브구스트 2통찰",
+   "character": "아브구스트"
+  },
+  {
+   "id": 1026,
+   "version": "1.8",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "윈드송 2통찰",
+   "character": "윈드송"
+  },
+  {
+   "id": 1025,
+   "version": "1.8",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "빌라 2통찰",
+   "character": "빌라"
+  },
+  {
+   "id": 36,
+   "version": "1.8",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "클럽에서 만나",
+   "character": "올리버 포그"
+  },
+  {
+   "id": 35,
+   "version": "1.8",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "산 위의 참새",
+   "character": "베이비 블루"
+  },
+  {
+   "id": 34,
+   "version": "1.8",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "콜라보 판매",
+   "tarot": null,
+   "name": "위대한 맛의 조사관 (중섭)",
+   "character": "마틸다"
+  },
+  {
+   "id": 33,
+   "version": "1.8",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "우주를 찍는 자",
+   "character": "메디슨 포켓"
+  },
+  {
+   "id": 32,
+   "version": "1.8",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "극지 조망",
+   "character": "이터니티"
+  },
+  {
+   "id": 1024,
+   "version": "1.7",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "마커스 2통찰",
+   "character": "마커스"
+  },
+  {
+   "id": 1023,
+   "version": "1.7",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "이졸데 2통찰",
+   "character": "이졸데"
+  },
+  {
+   "id": 31,
+   "version": "1.7",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "준비, 도약, 착지",
+   "character": "갈라보나"
+  },
+  {
+   "id": 30,
+   "version": "1.7",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "예배당 밖에서",
+   "character": "무아상"
+  },
+  {
+   "id": 29,
+   "version": "1.7",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "실버 로즈",
+   "character": "사츠키"
+  },
+  {
+   "id": 28,
+   "version": "1.7",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "이토록 상서로운 밤",
+   "character": "멜라니아"
+  },
+  {
+   "id": 27,
+   "version": "1.7",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "행복한 새 사냥꾼",
+   "character": "37"
+  },
+  {
+   "id": 1076,
+   "version": "1.6",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "예니세이 2통찰",
+   "character": "예니세이"
+  },
+  {
+   "id": 1022,
+   "version": "1.6",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "갈천 2통찰",
+   "character": "갈천"
+  },
+  {
+   "id": 1021,
+   "version": "1.6",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "곡랑 2통찰",
+   "character": "곡랑"
+  },
+  {
+   "id": 26,
+   "version": "1.6",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "산에서의 하루",
+   "character": "겨울"
+  },
+  {
+   "id": 25,
+   "version": "1.6",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "은빛 나비",
+   "character": "벌룬 파티"
+  },
+  {
+   "id": 24,
+   "version": "1.6",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "요아",
+   "character": "드루비스"
+  },
+  {
+   "id": 23,
+   "version": "1.6",
+   "type": "Advanced Garment",
+   "type_ko": "어드밴스드",
+   "source": "판매",
+   "tarot": null,
+   "name": "세상을 가로질러",
+   "character": "A 나이트"
+  },
+  {
+   "id": 22,
+   "version": "1.6",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "무료",
+   "tarot": null,
+   "name": "송운지간",
+   "character": "안안 리"
+  },
+  {
+   "id": 1075,
+   "version": "1.5",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "울루 2통찰",
+   "character": "울루"
+  },
+  {
+   "id": 1074,
+   "version": "1.5",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "데저트 플란넬 2통찰",
+   "character": "데저트 플란넬"
+  },
+  {
+   "id": 1020,
+   "version": "1.5",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "에즈라 2통찰",
+   "character": "에즈라"
+  },
+  {
+   "id": 1019,
+   "version": "1.5",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "스파토데아 2통찰",
+   "character": "스파토데아"
+  },
+  {
+   "id": 21,
+   "version": "1.5",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "마장마술",
+   "character": "다그닥 달리"
+  },
+  {
+   "id": 20,
+   "version": "1.5",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "늑대의 도약",
+   "character": "파비아"
+  },
+  {
+   "id": 19,
+   "version": "1.5",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "위로 향한 창끝",
+   "character": "디케"
+  },
+  {
+   "id": 18,
+   "version": "1.5",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "베이글 코어",
+   "character": "투스 페어리"
+  },
+  {
+   "id": 1018,
+   "version": "1.4",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "6 2통찰",
+   "character": "6"
+  },
+  {
+   "id": 1017,
+   "version": "1.4",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "37 2통찰",
+   "character": "37"
+  },
+  {
+   "id": 17,
+   "version": "1.4",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "이율배반",
+   "character": "라 수르스"
+  },
+  {
+   "id": 16,
+   "version": "1.4",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "비너스의 전도",
+   "character": "마릴린"
+  },
+  {
+   "id": 15,
+   "version": "1.4",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "세 번째 가설",
+   "character": "디거스"
+  },
+  {
+   "id": 14,
+   "version": "1.4",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "기하학적 기예",
+   "character": "릴리아"
+  },
+  {
+   "id": 1073,
+   "version": "1.3",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "칸지라 2통찰",
+   "character": "칸지라"
+  },
+  {
+   "id": 1016,
+   "version": "1.3",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "갈기 모래 2통찰",
+   "character": "갈기 모래"
+  },
+  {
+   "id": 1015,
+   "version": "1.3",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "갈라보나 2통찰",
+   "character": "갈라보나"
+  },
+  {
+   "id": 13,
+   "version": "1.3",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "봉우리 순례",
+   "character": "레일라니"
+  },
+  {
+   "id": 12,
+   "version": "1.3",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "천재의 휴일",
+   "character": "마틸다"
+  },
+  {
+   "id": 11,
+   "version": "1.3",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "델리의 산책길",
+   "character": "테넌트"
+  },
+  {
+   "id": 10,
+   "version": "1.3",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "개와 바다",
+   "character": "피클즈"
+  },
+  {
+   "id": 1072,
+   "version": "1.2",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "호러피디아 2통찰",
+   "character": "호러피디아"
+  },
+  {
+   "id": 1071,
+   "version": "1.2",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "블로니 2통찰",
+   "character": "블로니"
+  },
+  {
+   "id": 1014,
+   "version": "1.2",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "제시카 2통찰",
+   "character": "제시카"
+  },
+  {
+   "id": 1013,
+   "version": "1.2",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "투스 페어리 2통찰",
+   "character": "투스 페어리"
+  },
+  {
+   "id": 9,
+   "version": "1.2",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "6번째 감각",
+   "character": "이글"
+  },
+  {
+   "id": 8,
+   "version": "1.2",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "침묵의 숨결",
+   "character": "X"
+  },
+  {
+   "id": 7,
+   "version": "1.2",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "진홍의 진실",
+   "character": "콘블룸"
+  },
+  {
+   "id": 6,
+   "version": "1.2",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "딥 인 더 커튼",
+   "character": "소더비"
+  },
+  {
+   "id": 1070,
+   "version": "1.1",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "디거스 2통찰",
+   "character": "디거스"
+  },
+  {
+   "id": 1012,
+   "version": "1.1",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "피클즈 2통찰",
+   "character": "피클즈"
+  },
+  {
+   "id": 1011,
+   "version": "1.1",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "멜라니아 2통찰",
+   "character": "멜라니아"
+  },
+  {
+   "id": 5,
+   "version": "1.1",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "컨텐츠",
+   "tarot": null,
+   "name": "우드스톡의 메아리",
+   "character": "APPLe"
+  },
+  {
+   "id": 4,
+   "version": "1.1",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "열혈팬",
+   "character": "레굴루스"
+  },
+  {
+   "id": 3,
+   "version": "1.1",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "판매",
+   "tarot": null,
+   "name": "글로벌 스타",
+   "character": "센츄리온"
+  },
+  {
+   "id": 2,
+   "version": "1.1",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "주크박스",
+   "tarot": null,
+   "name": "거울 속 인터루드",
+   "character": "찰리"
+  },
+  {
+   "id": 1086,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "닉 보텀 2통찰",
+   "character": "닉 보텀"
+  },
+  {
+   "id": 1069,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "클릭 2통찰",
+   "character": "클릭"
+  },
+  {
+   "id": 1068,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "테넌트 2통찰",
+   "character": "테넌트"
+  },
+  {
+   "id": 1067,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "사츠키 2통찰",
+   "character": "사츠키"
+  },
+  {
+   "id": 1066,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "네크롤로지스트 2통찰",
+   "character": "네크롤로지스트"
+  },
+  {
+   "id": 1065,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "벌룬 파티 2통찰",
+   "character": "벌룬 파티"
+  },
+  {
+   "id": 1064,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "디케 2통찰",
+   "character": "디케"
+  },
+  {
+   "id": 1063,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "콘블룸 2통찰",
+   "character": "콘블룸"
+  },
+  {
+   "id": 1062,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "찰리 2통찰",
+   "character": "찰리"
+  },
+  {
+   "id": 1061,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "베이비 블루 2통찰",
+   "character": "베이비 블루"
+  },
+  {
+   "id": 1060,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "마릴린 2통찰",
+   "character": "마릴린"
+  },
+  {
+   "id": 1059,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "X 2통찰",
+   "character": "X"
+  },
+  {
+   "id": 1058,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "마틸다 2통찰",
+   "character": "마틸다"
+  },
+  {
+   "id": 1010,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "보이저 2통찰",
+   "character": "보이저"
+  },
+  {
+   "id": 1009,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "뉴바벨 2통찰",
+   "character": "뉴바벨"
+  },
+  {
+   "id": 1008,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "이터니티 2통찰",
+   "character": "이터니티"
+  },
+  {
+   "id": 1007,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "메디슨 포켓 2통찰",
+   "character": "메디슨 포켓"
+  },
+  {
+   "id": 1006,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "안안 리 2통찰",
+   "character": "안안 리"
+  },
+  {
+   "id": 1005,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "센츄리온 2통찰",
+   "character": "센츄리온"
+  },
+  {
+   "id": 1004,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "레굴루스 2통찰",
+   "character": "레굴루스"
+  },
+  {
+   "id": 1003,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "소더비 2통찰",
+   "character": "소더비"
+  },
+  {
+   "id": 1002,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "A 나이트 2통찰",
+   "character": "A 나이트"
+  },
+  {
+   "id": 1001,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "릴리아 2통찰",
+   "character": "릴리아"
+  },
+  {
+   "id": 1000,
+   "version": "1.0",
+   "type": "Insight",
+   "type_ko": "2통찰",
+   "source": "2통찰 달성",
+   "tarot": null,
+   "name": "드루비스 2통찰",
+   "character": "드루비스"
+  },
+  {
+   "id": 1,
+   "version": "1.0",
+   "type": "Garment",
+   "type_ko": "일반 의상",
+   "source": "무료",
+   "tarot": null,
+   "name": "순례의 노래",
+   "character": "소네트"
+  }
+ ]
+}

@@ -65,7 +65,8 @@
    }
   ],
   "version": "1.4",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3079,
@@ -133,7 +134,8 @@
    }
   ],
   "version": "1.4",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3007,
@@ -200,182 +202,8 @@
    }
   ],
   "version": "1.0",
-  "versionEstimated": false
- },
- {
-  "id": 3158,
-  "name": {
-   "ko": "Drake",
-   "en": "Drake",
-   "ja": "",
-   "zhCN": "德雷克",
-   "zhTW": ""
-  },
-  "rarity": 6,
-  "afflatus": "beast",
-  "dmg": "unknown",
-  "released": false,
-  "euphoria": 0,
-  "defaultSkin": 315801,
-  "insightSkin": 315802,
-  "skins": [
-   315801,
-   315802
-  ],
-  "kb": "Drake",
-  "nameChecked": false,
-  "tunings": [
-   {
-    "id": 0,
-    "name": "평화",
-    "icon": "assets/img/tuning/Z-shape_0.webp"
-   },
-   {
-    "id": 5,
-    "name": "이해",
-    "icon": "assets/img/tuning/Z-shape_5.webp"
-   },
-   {
-    "id": 4,
-    "name": "정성",
-    "icon": "assets/img/tuning/Z-shape_4.webp"
-   },
-   {
-    "id": 11,
-    "name": "연민",
-    "icon": "assets/img/tuning/Z-shape_11.webp"
-   },
-   {
-    "id": 12,
-    "name": "편안과 태연",
-    "icon": "assets/img/tuning/Z-shape_12.webp"
-   },
-   {
-    "id": 13,
-    "name": "순환 균형",
-    "icon": "assets/img/tuning/Z-shape_13.webp"
-   }
-  ],
-  "euphorias": [],
-  "version": "3.7",
-  "versionEstimated": true
- },
- {
-  "id": 3156,
-  "name": {
-   "ko": "Hedone",
-   "en": "Hedone",
-   "ja": "",
-   "zhCN": "赫多涅",
-   "zhTW": "赫多涅"
-  },
-  "rarity": 6,
-  "afflatus": "mineral",
-  "dmg": "unknown",
-  "released": true,
-  "euphoria": 0,
-  "defaultSkin": 315601,
-  "insightSkin": 315602,
-  "skins": [
-   315601,
-   315602
-  ],
-  "kb": "Hedone",
-  "nameChecked": false,
-  "tunings": [
-   {
-    "id": 0,
-    "name": "평화",
-    "icon": "assets/img/tuning/Z-shape_0.webp"
-   },
-   {
-    "id": 5,
-    "name": "이해",
-    "icon": "assets/img/tuning/Z-shape_5.webp"
-   },
-   {
-    "id": 4,
-    "name": "정성",
-    "icon": "assets/img/tuning/Z-shape_4.webp"
-   },
-   {
-    "id": 11,
-    "name": "연민",
-    "icon": "assets/img/tuning/Z-shape_11.webp"
-   },
-   {
-    "id": 12,
-    "name": "편안과 태연",
-    "icon": "assets/img/tuning/Z-shape_12.webp"
-   },
-   {
-    "id": 13,
-    "name": "순환 균형",
-    "icon": "assets/img/tuning/Z-shape_13.webp"
-   }
-  ],
-  "euphorias": [],
-  "version": "3.7",
-  "versionEstimated": true
- },
- {
-  "id": 3155,
-  "name": {
-   "ko": "Huntsworn Lilya",
-   "en": "Huntsworn Lilya",
-   "ja": "",
-   "zhCN": "狩勋女巫红弩箭",
-   "zhTW": ""
-  },
-  "rarity": 6,
-  "afflatus": "star",
-  "dmg": "unknown",
-  "released": false,
-  "euphoria": 0,
-  "defaultSkin": 315501,
-  "insightSkin": 315502,
-  "skins": [
-   315501,
-   315502,
-   315503
-  ],
-  "kb": "Huntsworn Lilya",
-  "nameChecked": false,
-  "tunings": [
-   {
-    "id": 0,
-    "name": "평화",
-    "icon": "assets/img/tuning/Cross_0.webp"
-   },
-   {
-    "id": 5,
-    "name": "이해",
-    "icon": "assets/img/tuning/Cross_5.webp"
-   },
-   {
-    "id": 4,
-    "name": "정성",
-    "icon": "assets/img/tuning/Cross_4.webp"
-   },
-   {
-    "id": 14,
-    "name": "불시의 의아함",
-    "icon": "assets/img/tuning/Cross_14.webp"
-   },
-   {
-    "id": 2,
-    "name": "희망",
-    "icon": "assets/img/tuning/Cross_2.webp"
-   },
-   {
-    "id": 6,
-    "name": "순식간의 광증",
-    "icon": "assets/img/tuning/Cross_6.webp"
-   }
-  ],
-  "euphorias": [],
-  "version": "3.7",
-  "versionEstimated": true
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3094,
@@ -441,65 +269,8 @@
    }
   ],
   "version": "2.0",
-  "versionEstimated": false
- },
- {
-  "id": 3157,
-  "name": {
-   "ko": "Narcissus",
-   "en": "Narcissus",
-   "ja": "",
-   "zhCN": "纳西索斯",
-   "zhTW": "納西索斯"
-  },
-  "rarity": 6,
-  "afflatus": "beast",
-  "dmg": "unknown",
-  "released": true,
-  "euphoria": 0,
-  "defaultSkin": 315701,
-  "insightSkin": 315702,
-  "skins": [
-   315701,
-   315702
-  ],
-  "kb": "Narcissus",
-  "nameChecked": false,
-  "tunings": [
-   {
-    "id": 0,
-    "name": "평화",
-    "icon": "assets/img/tuning/U-shape_0.webp"
-   },
-   {
-    "id": 1,
-    "name": "광분",
-    "icon": "assets/img/tuning/U-shape_1.webp"
-   },
-   {
-    "id": 8,
-    "name": "포식",
-    "icon": "assets/img/tuning/U-shape_8.webp"
-   },
-   {
-    "id": 9,
-    "name": "고요",
-    "icon": "assets/img/tuning/U-shape_9.webp"
-   },
-   {
-    "id": 10,
-    "name": "절제",
-    "icon": "assets/img/tuning/U-shape_10.webp"
-   },
-   {
-    "id": 12,
-    "name": "편안과 태연",
-    "icon": "assets/img/tuning/U-shape_12.webp"
-   }
-  ],
-  "euphorias": [],
-  "version": "3.7",
-  "versionEstimated": true
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3072,
@@ -565,7 +336,8 @@
    }
   ],
   "version": "1.3",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3070,
@@ -632,7 +404,8 @@
    }
   ],
   "version": "1.3",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3084,
@@ -698,7 +471,8 @@
    }
   ],
   "version": "1.6",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3083,
@@ -764,7 +538,67 @@
    }
   ],
   "version": "1.6",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
+ },
+ {
+  "id": 3157,
+  "name": {
+   "ko": "나르키소스",
+   "en": "Narcissus",
+   "ja": "",
+   "zhCN": "纳西索斯",
+   "zhTW": "納西索斯"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "unknown",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 315701,
+  "insightSkin": 315702,
+  "skins": [
+   315701,
+   315702
+  ],
+  "kb": "Narcissus",
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": [],
+  "version": "3.9",
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3141,
@@ -822,7 +656,8 @@
   ],
   "euphorias": [],
   "version": "3.4",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3120,
@@ -888,7 +723,8 @@
    }
   ],
   "version": "2.8",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3111,
@@ -954,7 +790,8 @@
    }
   ],
   "version": "2.5",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3052,
@@ -1019,8 +856,68 @@
     "icon": "assets/img/euphoria/305201.webp"
    }
   ],
-  "version": "1.3",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "방어"
+ },
+ {
+  "id": 3158,
+  "name": {
+   "ko": "드레이크",
+   "en": "Drake",
+   "ja": "",
+   "zhCN": "德雷克",
+   "zhTW": ""
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "unknown",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 315801,
+  "insightSkin": 315802,
+  "skins": [
+   315801,
+   315802
+  ],
+  "kb": "Drake",
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [],
+  "version": "4.0",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3003,
@@ -1092,8 +989,9 @@
     "icon": "assets/img/euphoria/300302.webp"
    }
   ],
-  "version": "1.1",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3142,
@@ -1151,7 +1049,8 @@
   ],
   "euphorias": [],
   "version": "3.5",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3025,
@@ -1173,7 +1072,8 @@
    302501,
    302502,
    302503,
-   302504
+   302504,
+   302507
   ],
   "kb": "Regulus",
   "nameChecked": true,
@@ -1223,8 +1123,9 @@
     "icon": "assets/img/euphoria/302502.webp"
    }
   ],
-  "version": "1.2",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3114,
@@ -1291,7 +1192,8 @@
    }
   ],
   "version": "2.6",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3139,
@@ -1350,7 +1252,8 @@
   ],
   "euphorias": [],
   "version": "3.5",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3102,
@@ -1416,7 +1319,8 @@
    }
   ],
   "version": "2.2",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3125,
@@ -1475,7 +1379,8 @@
   ],
   "euphorias": [],
   "version": "3.1",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3086,
@@ -1541,7 +1446,8 @@
    }
   ],
   "version": "1.9",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3146,
@@ -1599,7 +1505,8 @@
   ],
   "euphorias": [],
   "version": "3.7",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3004,
@@ -1671,8 +1578,9 @@
     "icon": "assets/img/euphoria/300402.webp"
    }
   ],
-  "version": "1.1",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3127,
@@ -1731,7 +1639,8 @@
   ],
   "euphorias": [],
   "version": "3.3",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3065,
@@ -1798,7 +1707,8 @@
    }
   ],
   "version": "1.7",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3095,
@@ -1865,7 +1775,8 @@
    }
   ],
   "version": "2.0",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3047,
@@ -1931,8 +1842,9 @@
     "icon": "assets/img/euphoria/304701.webp"
    }
   ],
-  "version": "1.3",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3062,
@@ -1999,7 +1911,8 @@
    }
   ],
   "version": "1.1",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3121,
@@ -2020,7 +1933,8 @@
   "skins": [
    312101,
    312102,
-   312103
+   312103,
+   312104
   ],
   "kb": "Moldir",
   "nameChecked": true,
@@ -2065,7 +1979,8 @@
    }
   ],
   "version": "2.8",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3147,
@@ -2085,7 +2000,8 @@
   "insightSkin": 314702,
   "skins": [
    314701,
-   314702
+   314702,
+   314704
   ],
   "kb": "Ms. Stranger",
   "nameChecked": true,
@@ -2123,7 +2039,8 @@
   ],
   "euphorias": [],
   "version": "3.7",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3108,
@@ -2182,7 +2099,8 @@
   ],
   "euphorias": [],
   "version": "2.4",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3134,
@@ -2202,7 +2120,8 @@
   "insightSkin": 313402,
   "skins": [
    313401,
-   313402
+   313402,
+   313403
   ],
   "kb": "Beryl",
   "nameChecked": true,
@@ -2247,7 +2166,8 @@
    }
   ],
   "version": "3.2",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3048,
@@ -2269,7 +2189,8 @@
    304801,
    304802,
    304803,
-   304804
+   304804,
+   304805
   ],
   "kb": "Voyager",
   "nameChecked": true,
@@ -2313,8 +2234,9 @@
     "icon": "assets/img/euphoria/304801.webp"
    }
   ],
-  "version": "1.1",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3135,
@@ -2334,7 +2256,8 @@
   "insightSkin": 313502,
   "skins": [
    313501,
-   313502
+   313502,
+   313503
   ],
   "kb": "Brume",
   "nameChecked": true,
@@ -2372,7 +2295,8 @@
   ],
   "euphorias": [],
   "version": "3.2",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3087,
@@ -2439,7 +2363,8 @@
    }
   ],
   "version": "1.8",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3032,
@@ -2504,8 +2429,9 @@
     "icon": "assets/img/euphoria/303201.webp"
    }
   ],
-  "version": "1.2",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3126,
@@ -2565,7 +2491,8 @@
   ],
   "euphorias": [],
   "version": "3.0",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3009,
@@ -2632,7 +2559,8 @@
    }
   ],
   "version": "1.0",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3073,
@@ -2699,7 +2627,8 @@
    }
   ],
   "version": "1.5",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3149,
@@ -2757,8 +2686,9 @@
    }
   ],
   "euphorias": [],
-  "version": "3.7",
-  "versionEstimated": true
+  "version": "콜라보",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3097,
@@ -2824,7 +2754,8 @@
    }
   ],
   "version": "2.1",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3039,
@@ -2896,8 +2827,9 @@
     "icon": "assets/img/euphoria/303902.webp"
    }
   ],
-  "version": "1.2",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3100,
@@ -2963,7 +2895,8 @@
    }
   ],
   "version": "2.2",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3113,
@@ -3022,7 +2955,8 @@
   ],
   "euphorias": [],
   "version": "2.6",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3110,
@@ -3088,7 +3022,8 @@
    }
   ],
   "version": "2.5",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3145,
@@ -3147,7 +3082,8 @@
   ],
   "euphorias": [],
   "version": "3.8",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3074,
@@ -3188,7 +3124,8 @@
    }
   ],
   "version": "1.5",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3123,
@@ -3245,8 +3182,9 @@
    }
   ],
   "euphorias": [],
-  "version": "2.8",
-  "versionEstimated": true
+  "version": "콜라보",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3107,
@@ -3304,8 +3242,9 @@
    }
   ],
   "euphorias": [],
-  "version": "3.2",
-  "versionEstimated": false
+  "version": "2.8",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3077,
@@ -3373,7 +3312,8 @@
    }
   ],
   "version": "1.8",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3104,
@@ -3440,7 +3380,8 @@
    }
   ],
   "version": "2.3",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3092,
@@ -3499,7 +3440,8 @@
   ],
   "euphorias": [],
   "version": "3.3",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3143,
@@ -3519,7 +3461,8 @@
   "insightSkin": 314302,
   "skins": [
    314301,
-   314302
+   314302,
+   314303
   ],
   "kb": "Enigma",
   "nameChecked": true,
@@ -3557,7 +3500,8 @@
   ],
   "euphorias": [],
   "version": "3.6",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3081,
@@ -3624,7 +3568,8 @@
    }
   ],
   "version": "1.7",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3051,
@@ -3696,8 +3641,9 @@
     "icon": "assets/img/euphoria/305102.webp"
    }
   ],
-  "version": "1.2",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3137,
@@ -3755,7 +3701,8 @@
   ],
   "euphorias": [],
   "version": "3.4",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3088,
@@ -3821,8 +3768,9 @@
     "icon": "assets/img/euphoria/308801.webp"
    }
   ],
-  "version": "2.5",
-  "versionEstimated": false
+  "version": "1.9",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3056,
@@ -3895,7 +3843,8 @@
    }
   ],
   "version": "1.2",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3128,
@@ -3954,7 +3903,8 @@
   ],
   "euphorias": [],
   "version": "3.0",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3124,
@@ -4011,8 +3961,9 @@
    }
   ],
   "euphorias": [],
-  "version": "2.8",
-  "versionEstimated": true
+  "version": "콜라보",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3080,
@@ -4034,7 +3985,8 @@
    308001,
    308002,
    308003,
-   308004
+   308004,
+   308005
   ],
   "kb": "Kakania",
   "nameChecked": true,
@@ -4072,7 +4024,8 @@
   ],
   "euphorias": [],
   "version": "1.9",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3140,
@@ -4131,7 +4084,8 @@
   ],
   "euphorias": [],
   "version": "3.8",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3132,
@@ -4190,7 +4144,8 @@
   ],
   "euphorias": [],
   "version": "3.1",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3144,
@@ -4248,8 +4203,9 @@
    }
   ],
   "euphorias": [],
-  "version": "3.6",
-  "versionEstimated": true
+  "version": "3.7",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3117,
@@ -4271,7 +4227,8 @@
    311701,
    311702,
    311703,
-   311704
+   311704,
+   311705
   ],
   "kb": "Kiperina",
   "nameChecked": true,
@@ -4309,7 +4266,8 @@
   ],
   "euphorias": [],
   "version": "2.7",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3053,
@@ -4377,7 +4335,8 @@
    }
   ],
   "version": "1.2",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3098,
@@ -4444,7 +4403,8 @@
    }
   ],
   "version": "2.1",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3109,
@@ -4504,7 +4464,8 @@
   ],
   "euphorias": [],
   "version": "2.4",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3105,
@@ -4564,7 +4525,8 @@
   ],
   "euphorias": [],
   "version": "2.3",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3063,
@@ -4630,7 +4592,127 @@
    }
   ],
   "version": "1.1",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
+ },
+ {
+  "id": 3155,
+  "name": {
+   "ko": "헌츠원 릴리아",
+   "en": "Huntsworn Lilya",
+   "ja": "",
+   "zhCN": "狩勋女巫红弩箭",
+   "zhTW": ""
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "unknown",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 315501,
+  "insightSkin": 315502,
+  "skins": [
+   315501,
+   315502,
+   315503
+  ],
+  "kb": "Huntsworn Lilya",
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [],
+  "version": "4.0",
+  "versionEstimated": false,
+  "role": "공격"
+ },
+ {
+  "id": 3156,
+  "name": {
+   "ko": "헤도네",
+   "en": "Hedone",
+   "ja": "",
+   "zhCN": "赫多涅",
+   "zhTW": "赫多涅"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "unknown",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 315601,
+  "insightSkin": 315602,
+  "skins": [
+   315601,
+   315602
+  ],
+  "kb": "Hedone",
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [],
+  "version": "3.9",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3116,
@@ -4697,7 +4779,8 @@
    }
   ],
   "version": "2.7",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3010,
@@ -4756,7 +4839,8 @@
   ],
   "euphorias": [],
   "version": "1.0",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3118,
@@ -4815,7 +4899,8 @@
   ],
   "euphorias": [],
   "version": "2.7",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3037,
@@ -4873,8 +4958,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.1",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3103,
@@ -4932,7 +5018,8 @@
   ],
   "euphorias": [],
   "version": "2.2",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3075,
@@ -4991,7 +5078,8 @@
   ],
   "euphorias": [],
   "version": "1.5",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3064,
@@ -5050,7 +5138,8 @@
   ],
   "euphorias": [],
   "version": "1.1",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3022,
@@ -5108,8 +5197,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3112,
@@ -5167,7 +5257,8 @@
   ],
   "euphorias": [],
   "version": "2.5",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3091,
@@ -5187,7 +5278,8 @@
   "insightSkin": 309102,
   "skins": [
    309101,
-   309102
+   309102,
+   309103
   ],
   "kb": "Lorelei",
   "nameChecked": true,
@@ -5224,8 +5316,9 @@
    }
   ],
   "euphorias": [],
-  "version": "2.5",
-  "versionEstimated": true
+  "version": "1.9",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3011,
@@ -5283,8 +5376,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.1",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3041,
@@ -5305,7 +5399,8 @@
   "skins": [
    304101,
    304102,
-   304103
+   304103,
+   304104
   ],
   "kb": "Matilda",
   "nameChecked": true,
@@ -5349,8 +5444,9 @@
     "icon": "assets/img/euphoria/304101.webp"
    }
   ],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3099,
@@ -5408,7 +5504,8 @@
   ],
   "euphorias": [],
   "version": "2.1",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3115,
@@ -5465,8 +5562,9 @@
    }
   ],
   "euphorias": [],
-  "version": "2.6",
-  "versionEstimated": true
+  "version": "2.8",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3024,
@@ -5524,8 +5622,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.1",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3016,
@@ -5583,8 +5682,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.1",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3060,
@@ -5643,7 +5743,8 @@
   ],
   "euphorias": [],
   "version": "1.2",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3038,
@@ -5701,8 +5802,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3023,
@@ -5760,8 +5862,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3106,
@@ -5820,7 +5923,8 @@
   ],
   "euphorias": [],
   "version": "2.3",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3078,
@@ -5878,7 +5982,8 @@
   ],
   "euphorias": [],
   "version": "1.8",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3122,
@@ -5935,8 +6040,9 @@
    }
   ],
   "euphorias": [],
-  "version": "2.8",
-  "versionEstimated": true
+  "version": "콜라보",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3082,
@@ -5995,7 +6101,8 @@
   ],
   "euphorias": [],
   "version": "1.6",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3076,
@@ -6053,7 +6160,8 @@
   ],
   "euphorias": [],
   "version": "1.5",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3154,
@@ -6111,7 +6219,8 @@
   ],
   "euphorias": [],
   "version": "3.7",
-  "versionEstimated": true
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3017,
@@ -6170,7 +6279,8 @@
   ],
   "euphorias": [],
   "version": "1.0",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3071,
@@ -6229,7 +6339,8 @@
   ],
   "euphorias": [],
   "version": "1.3",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3020,
@@ -6295,7 +6406,8 @@
    }
   ],
   "version": "1.0",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3049,
@@ -6352,8 +6464,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.1",
-  "versionEstimated": false
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3043,
@@ -6420,7 +6533,8 @@
    }
   ],
   "version": "1.0",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3061,
@@ -6479,7 +6593,8 @@
   ],
   "euphorias": [],
   "version": "1.2",
-  "versionEstimated": false
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3136,
@@ -6505,8 +6620,9 @@
   "nameChecked": true,
   "tunings": [],
   "euphorias": [],
-  "version": "3.2",
-  "versionEstimated": true
+  "version": "3.7",
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3028,
@@ -6565,66 +6681,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
- },
- {
-  "id": 3163,
-  "name": {
-   "ko": "Glyndŵr",
-   "en": "Glyndŵr",
-   "ja": "",
-   "zhCN": "格林杜尔",
-   "zhTW": ""
-  },
-  "rarity": 4,
-  "afflatus": "beast",
-  "dmg": "unknown",
-  "released": false,
-  "euphoria": 0,
-  "defaultSkin": 316301,
-  "insightSkin": 316302,
-  "skins": [
-   316301,
-   316302
-  ],
-  "kb": "Glyndŵr",
-  "nameChecked": false,
-  "tunings": [
-   {
-    "id": 0,
-    "name": "평화",
-    "icon": "assets/img/tuning/Cross_0.webp"
-   },
-   {
-    "id": 5,
-    "name": "이해",
-    "icon": "assets/img/tuning/Cross_5.webp"
-   },
-   {
-    "id": 4,
-    "name": "정성",
-    "icon": "assets/img/tuning/Cross_4.webp"
-   },
-   {
-    "id": 14,
-    "name": "불시의 의아함",
-    "icon": "assets/img/tuning/Cross_14.webp"
-   },
-   {
-    "id": 2,
-    "name": "희망",
-    "icon": "assets/img/tuning/Cross_2.webp"
-   },
-   {
-    "id": 6,
-    "name": "순식간의 광증",
-    "icon": "assets/img/tuning/Cross_6.webp"
-   }
-  ],
-  "euphorias": [],
-  "version": "3.7",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3033,
@@ -6682,8 +6741,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3013,
@@ -6741,8 +6801,68 @@
    }
   ],
   "euphorias": [],
-  "version": "1.1",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "보조"
+ },
+ {
+  "id": 3163,
+  "name": {
+   "ko": "글린두르",
+   "en": "Glyndŵr",
+   "ja": "",
+   "zhCN": "格林杜尔",
+   "zhTW": ""
+  },
+  "rarity": 4,
+  "afflatus": "beast",
+  "dmg": "unknown",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 316301,
+  "insightSkin": 316302,
+  "skins": [
+   316301,
+   316302
+  ],
+  "kb": "Glyndŵr",
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [],
+  "version": "4.0",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3151,
@@ -6799,8 +6919,9 @@
    }
   ],
   "euphorias": [],
-  "version": "3.7",
-  "versionEstimated": true
+  "version": "콜라보",
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3138,
@@ -6858,7 +6979,8 @@
   ],
   "euphorias": [],
   "version": "3.4",
-  "versionEstimated": true
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3005,
@@ -6916,8 +7038,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.1",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3042,
@@ -6975,8 +7098,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3057,
@@ -7034,8 +7158,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3044,
@@ -7094,7 +7219,8 @@
   ],
   "euphorias": [],
   "version": "1.0",
-  "versionEstimated": true
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3014,
@@ -7152,8 +7278,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.1",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3026,
@@ -7211,8 +7338,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3058,
@@ -7270,8 +7398,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3018,
@@ -7330,7 +7459,8 @@
   ],
   "euphorias": [],
   "version": "1.0",
-  "versionEstimated": true
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3006,
@@ -7351,7 +7481,8 @@
   "skins": [
    300601,
    300602,
-   300603
+   300603,
+   300604
   ],
   "kb": "Eagle",
   "nameChecked": true,
@@ -7388,8 +7519,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.1",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3031,
@@ -7447,8 +7579,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3015,
@@ -7506,8 +7639,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.1",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3046,
@@ -7566,7 +7700,8 @@
   ],
   "euphorias": [],
   "version": "1.0",
-  "versionEstimated": true
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3101,
@@ -7625,7 +7760,8 @@
   ],
   "euphorias": [],
   "version": "2.2",
-  "versionEstimated": true
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3012,
@@ -7682,8 +7818,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.1",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3050,
@@ -7740,8 +7877,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.1",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3030,
@@ -7798,8 +7936,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "보조"
  },
  {
   "id": 3035,
@@ -7856,8 +7995,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3040,
@@ -7914,8 +8054,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3045,
@@ -7973,7 +8114,8 @@
   ],
   "euphorias": [],
   "version": "1.0",
-  "versionEstimated": true
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3055,
@@ -8030,8 +8172,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3054,
@@ -8050,7 +8193,8 @@
   "defaultSkin": 305401,
   "insightSkin": null,
   "skins": [
-   305401
+   305401,
+   305403
   ],
   "kb": "ONiON",
   "nameChecked": true,
@@ -8087,8 +8231,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "공격"
  },
  {
   "id": 3034,
@@ -8144,8 +8289,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3036,
@@ -8202,8 +8348,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3096,
@@ -8261,7 +8408,8 @@
   ],
   "euphorias": [],
   "version": "2.0",
-  "versionEstimated": true
+  "versionEstimated": false,
+  "role": "방어"
  },
  {
   "id": 3059,
@@ -8317,8 +8465,9 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "밸런스"
  },
  {
   "id": 3027,
@@ -8375,7 +8524,8 @@
    }
   ],
   "euphorias": [],
-  "version": "1.2",
-  "versionEstimated": true
+  "version": "1.0",
+  "versionEstimated": false,
+  "role": "방어"
  }
 ]

@@ -9,10 +9,37 @@ export const SECTIONS = {
   decks:     { file: 'data/user/decks.json',     label: '덱',           def: () => ({ decks: [] }) },
   plans:     { file: 'data/user/plans.json',     label: '육성 계획',     def: () => ({ plans: [], inventory: {}, materialNames: {} }) },
   gacha:     { file: 'data/user/gacha.json',     label: '모집 기록',     def: () => ({ pity: 0, pityLimit: 70, guaranteed: false, currencies: [{ name: '순결의 빗방울', amount: 0 }, { name: '순수의 빗방울', amount: 0 }, { name: '모노로그', amount: 0 }, { name: '데카로그', amount: 0 }], banners: [], wishlist: [] }) },
+  memo:      { file: 'data/user/memo.json',      label: '메모',         def: () => ({ v: 1, salt: null, iv: null, data: null }) },
+  profile:   { file: 'data/user/profile.json',   label: '소개',         def: () => defaultProfile() },
   settings:  { file: 'data/user/settings.json',  label: '설정',         def: () => ({ title: '세기말의 방랑자', titleEn: 'Fin de Siècle Wanderer', subtitle: '리버스: 1999 개인 기록', showNames: false, server: '한섭' }) },
 };
 
 const DRAFT = 'r1999.draft.';
+
+/** 처음 쓰는 소개 기본값 (트위터 소개 카드 내용 중 게임 관련 부분) — 이름으로 출품작을 찾는다 */
+function defaultProfile() {
+  const id = (ko) => state.game?.characters.find((c) => c.name.ko === ko)?.id || null;
+  const ids = (...names) => names.map(id).filter(Boolean);
+  return {
+    nickname: '빈',
+    avatar: { type: 'char', char: id('미스 스트레인저'), file: null },
+    lines: ['파사 / ID : 701088348 / KR', '게임 스토리 + 엔드컨텐츠 위주'],
+    favorites: [
+      { label: '하늘이 내려준 사랑', chars: ids('미스 스트레인저', '윌로우') },
+      { label: '운명이 내려준 사랑', chars: ids('베릴', '루시') },
+    ],
+    intro: '최애캐 다수 / 버틴 애호 / 라플라스 애호',
+    notes: [
+      { label: '지뢰', text: '알아서 피해 갑니다 ~' },
+      { label: '스포', text: '게임 정보는 중섭발 미래시 언급 / 스토리는 한섭 기준' },
+    ],
+    cps: [
+      { name: '윈빌', a: id('윈드송'), b: id('빌라'), note: '' },
+      { name: '카졸데', a: id('카론'), b: id('이졸데'), note: '' },
+    ],
+    showcase: ids('미스 스트레인저', '윌로우', '베릴', '루시').map((c) => ({ char: c, skin: null })),
+  };
+}
 const listeners = new Set();
 export const state = {
   game: null,          // { characters, skins, psychubes, materials, bulletin, meta }
@@ -153,8 +180,12 @@ export const skinById = (id) => idx.skin.get(+id);
 export const psyById = (id) => idx.psy.get(+id);
 
 export const AFFLATUS = {
-  star: '별', mineral: '암석', plant: '나무', beast: '야수', spirit: '영혼', intellect: '지능', 'mineral-star': '암석·별', unknown: '미상',
+  star: '천체', mineral: '암석', plant: '나무', beast: '야수', spirit: '영혼', intellect: '지능', 'mineral-star': '암석·천체', unknown: '미상',
 };
+/** 영감 고유 그림 */
+export const afIcon = (key) => (AFFLATUS[key] && key !== 'unknown' ? `assets/img/afflatus/${key}.webp` : null);
+/** 장착한 의지 목록 (예전 한 개짜리 기록 호환) */
+export const psyList = (r) => (r?.psychubes?.length ? r.psychubes : (r?.psychube ? [r.psychube] : []));
 export const DMG = { reality: '현실', mental: '정신', unknown: '' };
 
 export function charName(c) {
@@ -169,7 +200,7 @@ export function charRecord(id) {
 
 export function ensureChar(id) {
   const r = state.user.roster.chars;
-  if (!r[id]) r[id] = { owned: false, level: 1, insight: 0, resonance: 1, portray: 0, euphoria: 0, euphorias: [], euphoriaLevel: 0, tuning: null, tunings: [], psychube: null, skin: null, spectrum: '', note: '' };
+  if (!r[id]) r[id] = { owned: false, level: 1, insight: 0, resonance: 1, portray: 0, euphoria: 0, euphorias: [], euphoriaLevel: 0, tuning: null, tunings: [], psychubes: [], skin: null, spectrum: '', note: '' };
   return r[id];
 }
 

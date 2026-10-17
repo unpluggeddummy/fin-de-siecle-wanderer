@@ -271,6 +271,7 @@ def main():
     attach_tunings_euphorias(characters, G, CN, a.kornblume, kb_chars, tr, imgs, load_json)
     attach_versions(characters, G, load_json)
     enrich_skins(skins_out, characters, G, tr, load_json)
+    apply_simulator(characters, skins_out, os.path.join(a.out, "data", "raw", "simulator.json"), load_json, imgs, CN)
 
     characters.sort(key=lambda c: (-c["rarity"], c["name"]["ko"]))
 
@@ -565,6 +566,88 @@ def enrich_skins(skins_out, characters, G, tr, load_json):
             ver = char_ver.get(s["char"])
         s["version"] = ver
         s["order"] = goods_order.get(s["id"])
+
+
+def apply_simulator(characters, skins_out, path, load_json, imgs=None, CN=None):
+    """reverse1999-simulator.com 에서 정리한 자료(data/raw/simulator.json)가 있으면
+    한섭 기준 출시 버전·역할, 스킨 버전·등급(Garment/Advanced/Unique)·획득처·타로 번호를 덮어쓴다."""
+    if not os.path.exists(path):
+        return
+    sim = load_json(path)
+    clean = lambda t: re.sub(r"[\s'‘’\"“”·.,!?~\-<>]", "", t or "")
+    by_name = {clean(c["name"]["ko"]): c for c in characters}
+    for x in sim.get("characters", []):
+        c = by_name.get(clean(x["name"]))
+        if not c:
+            continue
+        c["version"] = x.get("version") or c.get("version")
+        c["versionEstimated"] = False
+        c["released"] = True
+        c["role"] = x.get("role")
+        if not re.search("[가-힣]", c["name"].get("ko") or ""):
+            c["name"]["ko"] = x["name"]
+    char_by_id = {c["id"]: c for c in characters}
+    idx = {}
+    for s in skins_out:
+        ch = char_by_id.get(s["char"])
+        if ch:
+            key = (clean(ch["name"]["ko"]), "insight" if s["type"] == "insight" else clean(s["name"]))
+            idx[key] = s
+    grade_order = {"Garment": 1, "Advanced Garment": 2, "Unique": 3}
+    known_ids = {s["id"] for s in skins_out}
+    cn_cache = {}
+
+    def cn_candidates(cid):
+        """CN 에셋에 있지만 아직 목록에 없는 그 출품작의 스킨 번호"""
+        if cid in cn_cache:
+            return cn_cache[cid]
+        found = set()
+        for d in ("store/skin", "characterskin", "headicon_middle"):
+            full = os.path.join(CN or "", d)
+            if CN and os.path.isdir(full):
+                for f in os.listdir(full):
+                    if f[:6].isdigit() and int(f[:6]) // 100 == cid and int(f[:6]) not in known_ids:
+                        found.add(int(f[:6]))
+        cn_cache[cid] = sorted(found)
+        return cn_cache[cid]
+
+    for x in sorted(sim.get("skins", []), key=lambda x: x.get("id", 0)):
+        key = (clean(x["character"]), "insight" if x.get("type") == "Insight" else clean(x["name"]))
+        s = idx.get(key)
+        if not s and x.get("type") != "Insight":
+            ch = by_name.get(clean(x["character"]))
+            if ch:
+                # 1) 이름이 한국어가 아닌(중국어 등) 기존 스킨이 있으면 그 스킨으로 본다
+                cand = [k for k in skins_out if k["char"] == ch["id"] and k["type"] not in ("default", "insight")
+                        and not k.get("gradeName") and (not re.search("[가-힣]", k["name"] or "") or k["name"] == ch["name"]["ko"])]
+                if cand:
+                    s = cand[0]
+                    s["name"] = x["name"]
+                # 2) 없으면 CN 에셋에서 아직 안 쓴 스킨 그림을 찾아 새로 만든다 (한섭 선행 스킨)
+                elif imgs is not None and cn_candidates(ch["id"]):
+                    sid = cn_candidates(ch["id"]).pop(0)
+                    known_ids.add(sid)
+                    portrait = imgs.put([os.path.join(CN, "headicon_middle", f"{sid}.png"),
+                                         os.path.join(CN, "headskinicon_middle", f"{sid}.png")], f"char/{sid}.webp", max_w=360)
+                    art = imgs.put([os.path.join(CN, "store", "skin", f"{sid}.png"),
+                                    os.path.join(CN, "characterskin", f"{sid}.png")], f"skin/{sid}.webp", max_w=640)
+                    s = {"id": sid, "char": ch["id"], "type": "shop", "name": x["name"], "nameEn": "", "rare": 0, "gain": None,
+                         "portrait": portrait or art, "art": art, "cat": "shop", "series": "", "seriesGroup": "", "grade": 0,
+                         "version": None, "order": None}
+                    skins_out.append(s)
+                    ch.setdefault("skins", []).append(sid)
+        if not s:
+            continue
+        s["version"] = x.get("version") or s.get("version")
+        s["source"] = x.get("source")
+        if x.get("type") in grade_order:
+            s["gradeName"] = x["type"]
+            s["grade"] = grade_order[x["type"]]
+        if x.get("tarot") is not None:
+            s["tarot"] = x["tarot"]
+            s["cat"] = "tarot"
+        elif "콜라보" in (x.get("source") or ""):
+            s["cat"] = "collab"
 
 
 def parse_level_costs(ts):

@@ -2,7 +2,7 @@
 import { h, img, drawer, stepper, chip, field, toast, pickFile, readFileText, lightbox, fill } from '../ui.js';
 import * as store from '../store.js';
 import { rerender } from '../app.js';
-import { stars, afClass, ROMAN } from '../components.js';
+import { stars, afClass, afImg, ROMAN } from '../components.js';
 import { importRosterJSON } from '../importer.js';
 
 const AF_ORDER = ['star', 'mineral', 'beast', 'plant', 'spirit', 'intellect'];
@@ -45,7 +45,7 @@ export function render(root, { arg }) {
       h('div.chips', own.map(([v, t]) => chip(t, view.own === v, () => { view.own = v; draw(); }))),
       h('div.chips', [6, 5, 4, 3, 2].map((r) => chip(`${r}성`, view.rarity.has(r), () => { toggle(view.rarity, r); draw(); }))),
       h('div.chips', AF_ORDER.map((a) => chip(store.AFFLATUS[a], view.af.has(a), () => { toggle(view.af, a); draw(); },
-        h('i.sw', { style: { background: `var(--${a})` } })))),
+        afImg(a, 'chip-ico')))),
       h('div.chips',
         chip('광상 있음', view.euph, () => { view.euph = !view.euph; draw(); }),
         chip('미출시 포함', view.unreleased, () => { view.unreleased = !view.unreleased; draw(); })),
@@ -129,11 +129,11 @@ export function render(root, { arg }) {
       for (const c of list) { const k = keyFn(c); if (!m.has(k)) m.set(k, []); m.get(k).push(c); }
       return [...m.entries()].sort((a, b) => order(a[0], b[0])).map(([k, l]) => [labelFn(k, l), l.sort(byRar)]);
     };
-    const vnum = (v) => (v ? v.split('.').reduce((a, x) => a * 100 + +x, 0) : -1);
+    const vnum = (v) => (v && /^\d/.test(v) ? v.split('.').reduce((a, x) => a * 100 + +x, 0) : (v === '콜라보' ? 0.5 : -1));
     if (view.sort === 'rarity') return make((c) => c.rarity, (a, b) => b - a, (k) => `${k}성`);
     if (view.sort === 'version') {
       return make((c) => (c.released ? (c.version || '?') : '미출시'), (a, b) => (a === '미출시' ? -1 : b === '미출시' ? 1 : vnum(b) - vnum(a)),
-        (k, l) => (k === '미출시' || k === '?' ? (k === '?' ? '버전 미상' : '미출시') : [`${k} 버전`, l.some((c) => c.versionEstimated) ? h('span.est', '추정 포함') : null]));
+        (k, l) => (k === '미출시' || k === '?' ? (k === '?' ? '버전 미상' : '미출시') : k === '콜라보' ? '콜라보' : [`${k} 버전`, l.some((c) => c.versionEstimated) ? h('span.est', '추정 포함') : null]));
     }
     if (view.sort === 'portray') return make((c) => (rec(c).owned ? rec(c).portray || 0 : -1), (a, b) => b - a, (k) => (k < 0 ? '미보유' : `형상 P${k}`));
     if (view.sort === 'resonance') return make((c) => (rec(c).owned ? rec(c).resonance || 1 : -1), (a, b) => b - a, (k) => (k < 0 ? '미보유' : `공명 ${k}`));
@@ -170,7 +170,7 @@ function card(c, onClick) {
   const r = store.charRecord(c.id) || {};
   const picked = view.selecting && view.picked.has(c.id);
   const cls = ['ccard', afClass(c), r.owned ? '' : 'unowned', c.released ? '' : 'unreleased', picked ? 'picked' : ''].filter(Boolean).join('.');
-  const psy = r.owned && r.psychube ? store.psyById(r.psychube) : null;
+  const psys = r.owned ? store.psyList(r).map((id) => store.psyById(id)).filter(Boolean) : [];
   const tun = r.owned && r.tuning ? (c.tunings || []).find((t) => t.id === r.tuning) : null;
   const eu = r.owned && r.euphoria ? (c.euphorias || []).find((e) => e.id === r.euphoria) : null;
   const statBits = r.owned ? [
@@ -182,13 +182,14 @@ function card(c, onClick) {
     'aria-label': `${store.charName(c)} ${c.rarity}성 ${r.owned ? '보유' : '미보유'}` },
     h('div.art',
       h('i.af-bar'),
+      h('span.af-badge', afImg(c.afflatus)),
       h('span.stars', stars(c.rarity)),
       eu ? h('span.euph', { title: `광상 ${ROMAN[eu.id]} ${eu.name}` }, eu.icon ? img(eu.icon, '') : null, `${ROMAN[eu.id]}${r.euphoriaLevel ? '·' + r.euphoriaLevel : ''}`) : null,
       img(store.charPortrait(c), ''),
       h('span.cname', store.charName(c)),
-      psy || tun ? h('span.gear',
+      psys.length || tun ? h('span.gear',
         tun ? h('span.tun', { title: `공명변조: ${tun.name}` }, img(tun.icon, tun.name)) : null,
-        psy ? h('span.psy', { title: psy.name.ko }, img(psy.icon, psy.name.ko)) : null) : null,
+        psys.map((psy) => h('span.psy', { title: psy.name.ko }, img(psy.icon, psy.name.ko)))) : null,
       view.selecting ? h('span.tick', { 'aria-hidden': 'true' }, picked ? '✓' : '') : null,
     ),
     h('div.cstats', statBits),
@@ -214,7 +215,8 @@ export function openChar(c) {
     h('div.meta',
       h('div', h('span', { style: { color: 'var(--gold)' } }, stars(c.rarity))),
       h('div.tagline',
-        h('span.tag.af', store.AFFLATUS[c.afflatus]),
+        h('span.tag.af', afImg(c.afflatus, 'tag-ico'), store.AFFLATUS[c.afflatus]),
+        c.role ? h('span.tag', c.role) : null,
         store.DMG[c.dmg] ? h('span.tag', store.DMG[c.dmg]) : null,
         c.euphoria ? h('span.tag', `광상 ${c.euphoria}종`) : null,
         c.released ? (c.version ? h('span.tag', `${c.version} 버전${c.versionEstimated ? ' (추정)' : ''}`) : null) : h('span.tag', '미출시'),
@@ -296,7 +298,7 @@ export function openChar(c) {
         h('div.lbl', h('span', '장착한 광상 단계')),
         stepper([0, 1, 2, 3, 4], r.euphoriaLevel || 0, (v) => upd((x) => { x.euphoriaLevel = v; }), (v) => v ? `${v}단계` : '—', { aria: '광상 단계' }),
       ) : null,
-      h('div.form-row', h('div.lbl', h('span', '장착 의지'), h('span.faint', '눌러서 장착 · 다시 누르면 해제')), psyGrid(r.psychube, (v) => upd((x) => { x.psychube = v; }))),
+      h('div.form-row', h('div.lbl', h('span', '장착 의지'), h('span.faint', '눌러서 장착 · 여러 개 가능 · 다시 누르면 해제')), psyGrid(store.psyList(r), (v) => upd((x) => { x.psychubes = v; delete x.psychube; }))),
       h('div.fields.form-row',
         field('공명 스펙트럼 코드', h('input', { type: 'text', value: r.spectrum || '', placeholder: '예: 공명 코드 또는 배치 메모', onchange: (e) => upd((x) => { x.spectrum = e.target.value; }) }), 'wide'),
         field('메모', h('textarea', { rows: 3, onchange: (e) => upd((x) => { x.note = e.target.value; }) }, r.note || ''), 'wide'),
@@ -325,26 +327,28 @@ function iconPicker({ items, has, main, onToggle, onMain, label, wide }) {
   return box;
 }
 
-/** 의지 이미지 선택판 */
+/** 의지 이미지 선택판 (여러 개 장착 가능) */
 function psyGrid(value, onChange) {
-  let cur = value || null;
+  let cur = [...(value || [])];
   let q = ''; let onlyOwned = Object.values(store.state.user.psychubes.items).some((x) => x.owned);
   const mine = store.state.user.psychubes.items;
   const grid = h('div.psy-pick');
-  const sel = h('div.psy-current');
+  const sel = h('div.psy-current-list');
   const drawCur = () => {
-    const p = cur && store.psyById(cur);
-    fill(sel, p ? [img(p.icon, ''), h('div', h('b', p.name.ko), h('span.faint', `${p.rarity}성${mine[p.id]?.owned ? ` · Lv.${mine[p.id].level || 1} · 증폭 ${mine[p.id].amp || 1}` : ''}`)),
-      h('button.btn.small.ghost', { type: 'button', onclick: () => { cur = null; onChange(null); drawCur(); draw(); } }, '해제')]
-      : h('span.faint', '장착한 의지가 없어요.'));
+    fill(sel, cur.length ? cur.map((id) => {
+      const p = store.psyById(id);
+      if (!p) return null;
+      return h('div.psy-current', img(p.icon, ''), h('div', h('b', p.name.ko), h('span.faint', `${p.rarity}성${mine[p.id]?.owned ? ` · Lv.${mine[p.id].level || 1} · 증폭 ${mine[p.id].amp || 1}` : ''}`)),
+        h('button.btn.small.ghost', { type: 'button', onclick: () => { cur = cur.filter((x) => x !== id); onChange([...cur]); drawCur(); draw(); } }, '해제'));
+    }) : h('div.psy-current', h('span.faint', '장착한 의지가 없어요.')));
   };
   const draw = () => {
     const list = store.state.game.psychubes.filter((p) => p.rarity >= 4 && !p.refine)
-      .filter((p) => !onlyOwned || mine[p.id]?.owned || p.id === cur)
+      .filter((p) => !onlyOwned || mine[p.id]?.owned || cur.includes(p.id))
       .filter((p) => !q || Object.values(p.name).join(' ').toLowerCase().includes(q));
     fill(grid, list.length ? list.map((p) => h('button' + (mine[p.id]?.owned ? '' : '.no'), {
-      type: 'button', title: `${p.name.ko} (${p.rarity}성)`, 'aria-pressed': String(p.id === cur),
-      onclick: () => { cur = cur === p.id ? null : p.id; onChange(cur); drawCur(); draw(); },
+      type: 'button', title: `${p.name.ko} (${p.rarity}성)`, 'aria-pressed': String(cur.includes(p.id)),
+      onclick: () => { cur = cur.includes(p.id) ? cur.filter((x) => x !== p.id) : [...cur, p.id]; onChange([...cur]); drawCur(); draw(); },
     }, img(p.icon, p.name.ko), h('span', p.name.ko))) : h('p.faint', { style: { margin: 0, fontSize: '13px' } }, onlyOwned ? '보유한 의지가 없어요. "보유만"을 꺼 보세요.' : '없어요.'));
   };
   drawCur(); draw();
@@ -358,7 +362,7 @@ function psyGrid(value, onChange) {
 
 function readOnly(c, r) {
   if (!r.owned) return h('p.muted', '아직 보유하지 않은 출품작입니다.');
-  const p = r.psychube && store.psyById(r.psychube);
+  const ps = store.psyList(r).map((id) => store.psyById(id)).filter(Boolean);
   const tuns = (c.tunings || []).filter((t) => (r.tunings || []).includes(t.id));
   const eus = (c.euphorias || []).filter((e) => euphList(r).includes(e.id));
   const iconRow = (list, isMain, name) => h('div.icon-row', list.map((t) => h('span.ir' + (isMain(t) ? '.main' : ''), { title: name(t) }, img(t.icon, ''), h('span', name(t)))));
@@ -368,7 +372,7 @@ function readOnly(c, r) {
     ['형상', `P${r.portray || 0}`],
     tuns.length ? ['공명변조', iconRow(tuns, (t) => t.id === r.tuning, (t) => t.name)] : null,
     eus.length ? ['광상', iconRow(eus, (e) => e.id === r.euphoria, (e) => `광상 ${ROMAN[e.id]}${e.id === r.euphoria && r.euphoriaLevel ? ` ${r.euphoriaLevel}단계` : ''}`)] : null,
-    ['의지', p ? h('span.icon-row', h('span.ir.main', img(p.icon, ''), h('span', p.name.ko))) : '없음'],
+    ['의지', ps.length ? h('span.icon-row', ps.map((p) => h('span.ir.main', img(p.icon, ''), h('span', p.name.ko)))) : '없음'],
     r.spectrum ? ['공명 스펙트럼', r.spectrum] : null,
     r.modulation ? ['변조 메모', r.modulation] : null,
     r.note ? ['메모', r.note] : null,

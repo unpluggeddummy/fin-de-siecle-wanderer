@@ -98,7 +98,10 @@ export function render(root) {
         h('p.muted', { style: { marginTop: 0, fontSize: '14px' } },
           '깃허브 액션이 매주 월요일 새벽에 게임 데이터와 이미지를 받아 저장소에 커밋합니다. 새 출품작이나 스킨이 나왔을 때 바로 갱신하려면 아래 버튼을 누르세요. 내 기록(data/user)은 건드리지 않아요.'),
         h('p.faint', { style: { fontSize: '13px' } }, `마지막 갱신: ${new Date(store.state.game.meta.updatedAt).toLocaleString('ko-KR')}`),
-        h('div.toolbar', { style: { margin: 0 } }, runBtn, actionsURL ? h('a.btn.ghost', { href: actionsURL, target: '_blank', rel: 'noopener' }, '실행 기록 보기') : null),
+        h('div.toolbar', { style: { margin: 0 } }, runBtn,
+          h('button.btn', { type: 'button', disabled: !gh.hasToken(), onclick: async () => {
+            try { await gh.runWorkflow('scrape-simulator.yml'); toast('정보 받기를 시작했어요. 몇 분 뒤 저장소의 data/raw 폴더에 쌓여요.'); } catch (e) { toast(e.message, 'err'); }
+          } }, '시뮬레이터·위키 정보 받기'), actionsURL ? h('a.btn.ghost', { href: actionsURL, target: '_blank', rel: 'noopener' }, '실행 기록 보기') : null),
       ),
       h('section.panel',
         h('h3', '백업'),
@@ -143,7 +146,7 @@ function lockScreen(root) {
     }
   };
   box.append(
-    h('p.code', 'Restricted · Laplace Archive'),
+    h('p.code', 'Restricted · Reverse Archive'),
     h('h1', '관리자 확인'),
     h('p', '설정은 사이트 주인만 열 수 있어요.'),
     h('form', { onsubmit: submit }, input, err, h('button.btn.primary', { type: 'submit' }, '확인')),

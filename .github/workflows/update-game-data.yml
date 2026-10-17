@@ -71,6 +71,9 @@ jobs:
             --kornblume ../src/kornblume --roster ../src/roster \
             --out . $FORCE
 
+      - name: 시뮬레이터(한섭) 자료로 버전·등급 맞추기
+        run: python scripts/apply_simulator.py --out .
+
       - name: 빠진 스킨 그림을 팬덤 위키에서 채우기
         continue-on-error: true
         run: python scripts/fill_from_wiki.py --out .

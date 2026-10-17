@@ -30,8 +30,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.1",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 300305,
@@ -46,9 +47,11 @@
   "cat": "dushuo",
   "series": "덧없는 꿈",
   "seriesGroup": "도삭 절기",
-  "grade": 4,
-  "version": null,
-  "order": 510012
+  "grade": 2,
+  "version": "1.6",
+  "order": 510012,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 300306,
@@ -63,9 +66,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "2.5",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment",
+  "tarot": 2
  },
  {
   "id": 300401,
@@ -98,8 +104,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.1",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 300403,
@@ -114,9 +121,11 @@
   "cat": "series",
   "series": "선과 숫자 사이",
   "seriesGroup": "세계의 섬",
-  "grade": 3,
-  "version": null,
-  "order": 510007
+  "grade": 1,
+  "version": "1.4",
+  "order": 510007,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 300404,
@@ -131,9 +140,11 @@
   "cat": "series",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 4,
-  "version": null,
-  "order": 510029
+  "grade": 2,
+  "version": "2.3",
+  "order": 510029,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 300501,
@@ -166,8 +177,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.1",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 300503,
@@ -184,7 +196,9 @@
   "seriesGroup": "예술을 초월한 서사",
   "grade": 1,
   "version": "3.5",
-  "order": null
+  "order": null,
+  "source": "무료",
+  "gradeName": "Garment"
  },
  {
   "id": 300601,
@@ -234,8 +248,10 @@
   "series": "패닉쇼",
   "seriesGroup": "예술을 초월한 서사",
   "grade": 1,
-  "version": null,
-  "order": 750009
+  "version": "1.2",
+  "order": 750009,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 300701,
@@ -269,7 +285,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.0",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 300703,
@@ -284,9 +301,11 @@
   "cat": "dushuo",
   "series": "덧없는 꿈",
   "seriesGroup": "도삭 절기",
-  "grade": 4,
-  "version": null,
-  "order": 510011
+  "grade": 2,
+  "version": "1.6",
+  "order": 510011,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 300731,
@@ -301,9 +320,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "3.1",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment",
+  "tarot": 20
  },
  {
   "id": 300901,
@@ -337,7 +359,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.0",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 300903,
@@ -352,9 +375,11 @@
   "cat": "series",
   "series": "패닉쇼",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 3,
-  "version": null,
-  "order": 510003
+  "grade": 1,
+  "version": "1.2",
+  "order": 510003,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 300904,
@@ -369,9 +394,11 @@
   "cat": "dushuo",
   "series": "오래된 책장의 새로운 이야기",
   "seriesGroup": "도삭 절기",
-  "grade": 4,
-  "version": null,
-  "order": 510036
+  "grade": 2,
+  "version": "2.5",
+  "order": 510036,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 301001,
@@ -405,7 +432,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.0",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 301003,
@@ -420,9 +448,11 @@
   "cat": "series",
   "series": "패닉쇼",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 3,
-  "version": null,
-  "order": 510004
+  "grade": 1,
+  "version": "1.2",
+  "order": 510004,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 301101,
@@ -455,8 +485,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.1",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 301103,
@@ -471,9 +502,11 @@
   "cat": "series",
   "series": "선과 숫자 사이",
   "seriesGroup": "세계의 섬",
-  "grade": 3,
-  "version": "2.8",
-  "order": 100000000
+  "grade": 1,
+  "version": "1.4",
+  "order": 100000000,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 301201,
@@ -507,7 +540,9 @@
   "seriesGroup": "도삭 절기",
   "grade": 1,
   "version": "2.5",
-  "order": 100000000
+  "order": 100000000,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 301301,
@@ -557,8 +592,10 @@
   "series": "덧없는 꿈",
   "seriesGroup": "도삭 절기",
   "grade": 1,
-  "version": "2.9",
-  "order": 100000000
+  "version": "1.6",
+  "order": 100000000,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 301401,
@@ -609,7 +646,9 @@
   "seriesGroup": "세계의 섬",
   "grade": 1,
   "version": "3.3",
-  "order": null
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 301501,
@@ -658,9 +697,11 @@
   "cat": "series",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 3,
-  "version": null,
-  "order": 510010
+  "grade": 1,
+  "version": "1.5",
+  "order": 510010,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 301601,
@@ -693,8 +734,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.1",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 301603,
@@ -709,9 +751,11 @@
   "cat": "series",
   "series": "컴포지션 개념",
   "seriesGroup": "세계의 섬",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "1.8",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 301701,
@@ -745,13 +789,14 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.0",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 301703,
   "char": 3017,
   "type": "shop",
-  "name": "찰리",
+  "name": "거울 속 인터루드",
   "nameEn": "Charlie",
   "rare": 4,
   "gain": 4,
@@ -760,9 +805,11 @@
   "cat": "series",
   "series": "푸르른 축제",
   "seriesGroup": "생명의 맥박",
-  "grade": 3,
-  "version": null,
-  "order": 700005
+  "grade": 1,
+  "version": "1.1",
+  "order": 700005,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 301801,
@@ -812,8 +859,10 @@
   "series": "컴포지션 개념",
   "seriesGroup": "세계의 섬",
   "grade": 1,
-  "version": null,
-  "order": 803206
+  "version": "1.8",
+  "order": 803206,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 302001,
@@ -847,7 +896,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.0",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 302003,
@@ -862,9 +912,11 @@
   "cat": "series",
   "series": "패닉쇼",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 3,
-  "version": null,
-  "order": 700008
+  "grade": 1,
+  "version": "1.2",
+  "order": 700008,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 302201,
@@ -897,8 +949,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.2",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 302203,
@@ -913,9 +966,11 @@
   "cat": "series",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 3,
-  "version": "3.0",
-  "order": 100000000
+  "grade": 1,
+  "version": "1.5",
+  "order": 100000000,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 302301,
@@ -947,9 +1002,11 @@
   "cat": "event",
   "series": "올리브 가지 전선",
   "seriesGroup": "게임 속 군상",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "1.0",
+  "order": null,
+  "source": "무료",
+  "gradeName": "Garment"
  },
  {
   "id": 302304,
@@ -964,9 +1021,11 @@
   "cat": "shop",
   "series": "",
   "seriesGroup": "",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "1.9",
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 302401,
@@ -999,8 +1058,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.1",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 302403,
@@ -1015,9 +1075,11 @@
   "cat": "dushuo",
   "series": "덧없는 꿈",
   "seriesGroup": "도삭 절기",
-  "grade": 3,
-  "version": "2.9",
-  "order": 100000000
+  "grade": 1,
+  "version": "1.6",
+  "order": 100000000,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 302501,
@@ -1050,8 +1112,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.2",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 302503,
@@ -1066,9 +1129,11 @@
   "cat": "series",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 3,
-  "version": null,
-  "order": 510002
+  "grade": 1,
+  "version": "1.1",
+  "order": 510002,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 302504,
@@ -1083,9 +1148,11 @@
   "cat": "series",
   "series": "신세계의 바람",
   "seriesGroup": "코스튬 집합론",
-  "grade": 5,
-  "version": null,
-  "order": 510017
+  "grade": 3,
+  "version": "1.9",
+  "order": 510017,
+  "source": "판매",
+  "gradeName": "Unique"
  },
  {
   "id": 302601,
@@ -1136,7 +1203,9 @@
   "seriesGroup": "돌아온 클래식",
   "grade": 1,
   "version": "2.4",
-  "order": 100000000
+  "order": 100000000,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 302701,
@@ -1170,7 +1239,9 @@
   "seriesGroup": "게임 속 군상",
   "grade": 1,
   "version": "3.0",
-  "order": null
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 302801,
@@ -1220,8 +1291,10 @@
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
   "grade": 1,
-  "version": null,
-  "order": 750001
+  "version": "1.1",
+  "order": 750001,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 302804,
@@ -1237,8 +1310,10 @@
   "series": "올림포스를 나는 독수리처럼",
   "seriesGroup": "비의 장막 밖",
   "grade": 1,
-  "version": "3.0",
-  "order": null
+  "version": "콜라보",
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 303001,
@@ -1271,8 +1346,10 @@
   "series": "선과 숫자 사이",
   "seriesGroup": "세계의 섬",
   "grade": 1,
-  "version": "2.8",
-  "order": 100000000
+  "version": "1.4",
+  "order": 100000000,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 303101,
@@ -1323,7 +1400,9 @@
   "seriesGroup": "예술을 초월한 서사",
   "grade": 1,
   "version": "3.1",
-  "order": null
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 303201,
@@ -1356,8 +1435,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.2",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 303203,
@@ -1372,9 +1452,11 @@
   "cat": "series",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 3,
-  "version": null,
-  "order": 510001
+  "grade": 1,
+  "version": "1.1",
+  "order": 510001,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 303301,
@@ -1425,7 +1507,9 @@
   "seriesGroup": "세계의 섬",
   "grade": 1,
   "version": "2.1",
-  "order": 100000000
+  "order": 100000000,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 303401,
@@ -1475,8 +1559,10 @@
   "series": "남방 유람기",
   "seriesGroup": "세계의 섬",
   "grade": 1,
-  "version": null,
-  "order": 770008
+  "version": "1.3",
+  "order": 770008,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 303601,
@@ -1510,7 +1596,9 @@
   "seriesGroup": "생명의 맥박",
   "grade": 1,
   "version": "2.3",
-  "order": 100000000
+  "order": 100000000,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 303701,
@@ -1543,8 +1631,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.1",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 303703,
@@ -1559,9 +1648,11 @@
   "cat": "series",
   "series": "‘침몰하지 않는’ 배",
   "seriesGroup": "돌아온 클래식",
-  "grade": 3,
-  "version": null,
-  "order": 510034
+  "grade": 1,
+  "version": "2.4",
+  "order": 510034,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 303801,
@@ -1594,8 +1685,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.2",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 303803,
@@ -1610,9 +1702,11 @@
   "cat": "series",
   "series": "아리아의 순간",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 3,
-  "version": "3.1",
-  "order": 100000000
+  "grade": 1,
+  "version": "1.7",
+  "order": 100000000,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 303901,
@@ -1645,8 +1739,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.2",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 303903,
@@ -1661,9 +1756,11 @@
   "cat": "dushuo",
   "series": "덧없는 꿈",
   "seriesGroup": "도삭 절기",
-  "grade": 3,
-  "version": null,
-  "order": 750003
+  "grade": 1,
+  "version": "1.6",
+  "order": 750003,
+  "source": "무료",
+  "gradeName": "Garment"
  },
  {
   "id": 303904,
@@ -1678,9 +1775,11 @@
   "cat": "collab",
   "series": "조립식 미래",
   "seriesGroup": "비의 장막 밖",
-  "grade": 0,
-  "version": null,
-  "order": 510070
+  "grade": 1,
+  "version": "콜라보",
+  "order": 510070,
+  "source": "콜라보 판매",
+  "gradeName": "Garment"
  },
  {
   "id": 304001,
@@ -1714,7 +1813,9 @@
   "seriesGroup": "코스튬 집합론",
   "grade": 1,
   "version": "2.8",
-  "order": null
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 304101,
@@ -1747,8 +1848,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.2",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 304103,
@@ -1763,9 +1865,11 @@
   "cat": "series",
   "series": "남방 유람기",
   "seriesGroup": "세계의 섬",
-  "grade": 3,
-  "version": null,
-  "order": 770005
+  "grade": 1,
+  "version": "1.3",
+  "order": 770005,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 304201,
@@ -1816,7 +1920,9 @@
   "seriesGroup": "코스튬 집합론",
   "grade": 1,
   "version": "2.7",
-  "order": null
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 304301,
@@ -1850,7 +1956,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.0",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 304303,
@@ -1865,9 +1972,11 @@
   "cat": "series",
   "series": "남방 유람기",
   "seriesGroup": "세계의 섬",
-  "grade": 3,
-  "version": null,
-  "order": 510006
+  "grade": 1,
+  "version": "1.3",
+  "order": 510006,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 304304,
@@ -1882,9 +1991,11 @@
   "cat": "series",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "2.3",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 304401,
@@ -1934,8 +2045,10 @@
   "series": "아리아의 순간",
   "seriesGroup": "예술을 초월한 서사",
   "grade": 1,
-  "version": "3.1",
-  "order": 100000000
+  "version": "1.7",
+  "order": 100000000,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 304501,
@@ -1969,7 +2082,9 @@
   "seriesGroup": "세계의 섬",
   "grade": 1,
   "version": "3.8",
-  "order": null
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 304601,
@@ -2020,7 +2135,9 @@
   "seriesGroup": "황금 휴일",
   "grade": 1,
   "version": "2.2",
-  "order": 100000000
+  "order": 100000000,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 304701,
@@ -2053,8 +2170,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.3",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 304703,
@@ -2069,9 +2187,11 @@
   "cat": "series",
   "series": "컴포지션 개념",
   "seriesGroup": "세계의 섬",
-  "grade": 3,
-  "version": null,
-  "order": 510016
+  "grade": 1,
+  "version": "1.8",
+  "order": 510016,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 304704,
@@ -2086,9 +2206,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "3.3",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment",
+  "tarot": 12
  },
  {
   "id": 304801,
@@ -2121,8 +2244,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.1",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 304803,
@@ -2137,9 +2261,11 @@
   "cat": "series",
   "series": "신세계의 바람",
   "seriesGroup": "코스튬 집합론",
-  "grade": 3,
-  "version": null,
-  "order": 510019
+  "grade": 1,
+  "version": "1.9",
+  "order": 510019,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 304804,
@@ -2154,9 +2280,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "2.7",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment",
+  "tarot": 17
  },
  {
   "id": 304901,
@@ -2189,8 +2318,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.1",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 305001,
@@ -2223,8 +2353,10 @@
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
   "grade": 1,
-  "version": "3.0",
-  "order": 100000000
+  "version": "1.5",
+  "order": 100000000,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 305101,
@@ -2257,8 +2389,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.2",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 305103,
@@ -2273,9 +2406,11 @@
   "cat": "series",
   "series": "컴포지션 개념",
   "seriesGroup": "세계의 섬",
-  "grade": 3,
-  "version": null,
-  "order": 510015
+  "grade": 1,
+  "version": "1.8",
+  "order": 510015,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 305104,
@@ -2290,9 +2425,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "콜라보",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment",
+  "tarot": 3
  },
  {
   "id": 305201,
@@ -2325,8 +2463,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "1.3",
-  "order": null
+  "version": "1.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 305203,
@@ -2341,9 +2480,11 @@
   "cat": "event",
   "series": "‘침몰하지 않는’ 배",
   "seriesGroup": "돌아온 클래식",
-  "grade": 3,
+  "grade": 1,
   "version": "2.4",
-  "order": null
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 305301,
@@ -2377,7 +2518,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.2",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 305303,
@@ -2392,9 +2534,11 @@
   "cat": "series",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 3,
-  "version": null,
-  "order": 510009
+  "grade": 1,
+  "version": "1.5",
+  "order": 510009,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 305304,
@@ -2409,9 +2553,11 @@
   "cat": "collab",
   "series": "제3행성의 이상한 여정",
   "seriesGroup": "비의 장막 밖",
-  "grade": 4,
-  "version": null,
-  "order": 510031
+  "grade": 2,
+  "version": "2.0",
+  "order": 510031,
+  "source": "콜라보 판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 305305,
@@ -2426,9 +2572,11 @@
   "cat": "dushuo",
   "series": "속세의 손님",
   "seriesGroup": "도삭 절기",
-  "grade": 5,
-  "version": null,
-  "order": 510058
+  "grade": 3,
+  "version": "3.4",
+  "order": 510058,
+  "source": "판매",
+  "gradeName": "Unique"
  },
  {
   "id": 305401,
@@ -2479,7 +2627,9 @@
   "seriesGroup": "예술을 초월한 서사",
   "grade": 1,
   "version": "2.0",
-  "order": 100000000
+  "order": 100000000,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 305601,
@@ -2513,7 +2663,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.2",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 305603,
@@ -2528,9 +2679,11 @@
   "cat": "series",
   "series": "신세계의 바람",
   "seriesGroup": "코스튬 집합론",
-  "grade": 4,
-  "version": null,
-  "order": 510018
+  "grade": 2,
+  "version": "1.9",
+  "order": 510018,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 305604,
@@ -2545,9 +2698,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "2.8",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment",
+  "tarot": 6
  },
  {
   "id": 305701,
@@ -2597,8 +2753,10 @@
   "series": "신세계의 바람",
   "seriesGroup": "코스튬 집합론",
   "grade": 1,
-  "version": "3.3",
-  "order": 100000000
+  "version": "1.9",
+  "order": 100000000,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 305801,
@@ -2649,7 +2807,9 @@
   "seriesGroup": "코스튬 집합론",
   "grade": 1,
   "version": "2.6",
-  "order": null
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 305901,
@@ -2700,7 +2860,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.2",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 306003,
@@ -2715,9 +2876,11 @@
   "cat": "series",
   "series": "77번 국도를 따라",
   "seriesGroup": "세계의 섬",
-  "grade": 3,
-  "version": "3.5",
-  "order": 100000000
+  "grade": 1,
+  "version": "2.1",
+  "order": 100000000,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 306101,
@@ -2751,7 +2914,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.2",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 306103,
@@ -2766,9 +2930,11 @@
   "cat": "dushuo",
   "series": "속세의 손님",
   "seriesGroup": "도삭 절기",
-  "grade": 2,
+  "grade": 1,
   "version": "3.4",
-  "order": null
+  "order": null,
+  "source": "무료",
+  "gradeName": "Garment"
  },
  {
   "id": 306201,
@@ -2802,7 +2968,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.1",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 306203,
@@ -2817,9 +2984,11 @@
   "cat": "series",
   "series": "아리아의 순간",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 3,
-  "version": null,
-  "order": 510013
+  "grade": 1,
+  "version": "1.7",
+  "order": 510013,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 306204,
@@ -2834,9 +3003,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "2.6",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment",
+  "tarot": 1
  },
  {
   "id": 306301,
@@ -2870,7 +3042,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.1",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 306303,
@@ -2885,9 +3058,11 @@
   "cat": "series",
   "series": "남방 유람기",
   "seriesGroup": "세계의 섬",
-  "grade": 3,
-  "version": null,
-  "order": 510005
+  "grade": 1,
+  "version": "1.3",
+  "order": 510005,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 306401,
@@ -2921,7 +3096,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.1",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 306403,
@@ -2936,9 +3112,11 @@
   "cat": "series",
   "series": "반시대적 물결",
   "seriesGroup": "게임 속 군상",
-  "grade": 3,
-  "version": null,
-  "order": 510008
+  "grade": 1,
+  "version": "1.4",
+  "order": 510008,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 307001,
@@ -2972,7 +3150,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.3",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 307003,
@@ -2987,9 +3166,11 @@
   "cat": "series",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 4,
-  "version": null,
-  "order": 510022
+  "grade": 2,
+  "version": "1.7",
+  "order": 510022,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 307004,
@@ -3004,9 +3185,11 @@
   "cat": "series",
   "series": "반시대적 물결",
   "seriesGroup": "게임 속 군상",
-  "grade": 3,
-  "version": null,
-  "order": 510053
+  "grade": 1,
+  "version": "3.2",
+  "order": 510053,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 307101,
@@ -3040,7 +3223,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.3",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 307103,
@@ -3055,9 +3239,11 @@
   "cat": "series",
   "series": "16 비트 향연",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "2.0",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 307201,
@@ -3091,7 +3277,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.3",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 307203,
@@ -3106,9 +3293,11 @@
   "cat": "series",
   "series": "파울리스타나의 무더위",
   "seriesGroup": "황금 휴일",
-  "grade": 3,
-  "version": null,
-  "order": 510028
+  "grade": 1,
+  "version": "2.2",
+  "order": 510028,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 306601,
@@ -3142,7 +3331,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.4",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 306603,
@@ -3157,9 +3347,11 @@
   "cat": "series",
   "series": "아리아의 순간",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 3,
-  "version": null,
-  "order": 510014
+  "grade": 1,
+  "version": "1.7",
+  "order": 510014,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 306604,
@@ -3174,9 +3366,11 @@
   "cat": "series",
   "series": "파울리스타나의 무더위",
   "seriesGroup": "황금 휴일",
-  "grade": 5,
-  "version": null,
-  "order": 510025
+  "grade": 3,
+  "version": "2.2",
+  "order": 510025,
+  "source": "판매",
+  "gradeName": "Unique"
  },
  {
   "id": 306605,
@@ -3191,9 +3385,11 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "3.7",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 307901,
@@ -3227,7 +3423,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.4",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 307903,
@@ -3242,9 +3439,11 @@
   "cat": "series",
   "series": "16 비트 향연",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 3,
-  "version": null,
-  "order": 510021
+  "grade": 1,
+  "version": "2.0",
+  "order": 510021,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 307904,
@@ -3259,9 +3458,11 @@
   "cat": "collab",
   "series": "제3행성의 이상한 여정",
   "seriesGroup": "비의 장막 밖",
-  "grade": 4,
-  "version": null,
-  "order": 510043
+  "grade": 2,
+  "version": "2.4",
+  "order": 510043,
+  "source": "콜라보 판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 307905,
@@ -3276,9 +3477,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 4,
-  "version": null,
-  "order": 510060
+  "grade": 1,
+  "version": "3.4",
+  "order": 510060,
+  "source": "판매",
+  "gradeName": "Garment",
+  "tarot": 9
  },
  {
   "id": 307301,
@@ -3312,7 +3516,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.5",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 307303,
@@ -3327,9 +3532,11 @@
   "cat": "series",
   "series": "16 비트 향연",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 4,
-  "version": null,
-  "order": 510020
+  "grade": 2,
+  "version": "2.0",
+  "order": 510020,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 307304,
@@ -3344,9 +3551,11 @@
   "cat": "dushuo",
   "series": "오래된 책장의 새로운 이야기",
   "seriesGroup": "도삭 절기",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "3.7",
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 307401,
@@ -3380,7 +3589,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.5",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 307403,
@@ -3395,9 +3605,11 @@
   "cat": "series",
   "series": "77번 국도를 따라",
   "seriesGroup": "세계의 섬",
-  "grade": 3,
-  "version": null,
-  "order": 510024
+  "grade": 1,
+  "version": "2.1",
+  "order": 510024,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 307501,
@@ -3431,7 +3643,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.5",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 307503,
@@ -3446,9 +3659,11 @@
   "cat": "series",
   "series": "신세계의 바람",
   "seriesGroup": "코스튬 집합론",
-  "grade": 3,
-  "version": "3.3",
-  "order": 100000000
+  "grade": 1,
+  "version": "1.9",
+  "order": 100000000,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 307601,
@@ -3482,7 +3697,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.5",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 308201,
@@ -3516,7 +3732,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.6",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 308203,
@@ -3531,9 +3748,11 @@
   "cat": "series",
   "series": "파울리스타나의 무더위",
   "seriesGroup": "황금 휴일",
-  "grade": 3,
-  "version": "3.6",
-  "order": 100000000
+  "grade": 1,
+  "version": "2.2",
+  "order": 100000000,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 308301,
@@ -3567,7 +3786,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.6",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 308303,
@@ -3582,9 +3802,11 @@
   "cat": "dushuo",
   "series": "오래된 책장의 새로운 이야기",
   "seriesGroup": "도삭 절기",
-  "grade": 5,
-  "version": null,
-  "order": 510035
+  "grade": 3,
+  "version": "2.5",
+  "order": 510035,
+  "source": "판매",
+  "gradeName": "Unique"
  },
  {
   "id": 308401,
@@ -3618,7 +3840,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.6",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 308404,
@@ -3633,9 +3856,11 @@
   "cat": "collab",
   "series": "제3행성의 이상한 여정",
   "seriesGroup": "비의 장막 밖",
-  "grade": 3,
-  "version": null,
-  "order": 510032
+  "grade": 1,
+  "version": "2.0",
+  "order": 510032,
+  "source": "콜라보 판매",
+  "gradeName": "Garment"
  },
  {
   "id": 306501,
@@ -3669,7 +3894,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.7",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 306503,
@@ -3684,9 +3910,11 @@
   "cat": "series",
   "series": "파울리스타나의 무더위",
   "seriesGroup": "황금 휴일",
-  "grade": 4,
-  "version": null,
-  "order": 510027
+  "grade": 2,
+  "version": "2.2",
+  "order": 510027,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 306504,
@@ -3701,9 +3929,11 @@
   "cat": "collab",
   "series": "올림포스를 나는 독수리처럼",
   "seriesGroup": "비의 장막 밖",
-  "grade": 4,
-  "version": null,
-  "order": 510048
+  "grade": 2,
+  "version": "콜라보",
+  "order": 510048,
+  "source": "콜라보 판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 308101,
@@ -3737,7 +3967,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.7",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 308103,
@@ -3752,9 +3983,11 @@
   "cat": "series",
   "series": "77번 국도를 따라",
   "seriesGroup": "세계의 섬",
-  "grade": 4,
-  "version": null,
-  "order": 510023
+  "grade": 2,
+  "version": "2.1",
+  "order": 510023,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 308104,
@@ -3769,9 +4002,11 @@
   "cat": "series",
   "series": "반시대적 물결",
   "seriesGroup": "게임 속 군상",
-  "grade": 4,
-  "version": null,
-  "order": 510052
+  "grade": 2,
+  "version": "3.2",
+  "order": 510052,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 307701,
@@ -3805,7 +4040,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.8",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 307703,
@@ -3820,9 +4056,11 @@
   "cat": "dushuo",
   "series": "오래된 책장의 새로운 이야기",
   "seriesGroup": "도삭 절기",
-  "grade": 3,
+  "grade": 1,
   "version": "2.5",
-  "order": 100000000
+  "order": 100000000,
+  "source": "무료",
+  "gradeName": "Garment"
  },
  {
   "id": 307704,
@@ -3837,9 +4075,11 @@
   "cat": "series",
   "series": "기괴한 불면의 밤",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 4,
-  "version": null,
-  "order": 510050
+  "grade": 2,
+  "version": "3.1",
+  "order": 510050,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 307705,
@@ -3854,9 +4094,11 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 0,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "콜라보",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 307801,
@@ -3890,7 +4132,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.8",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 308701,
@@ -3924,7 +4167,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.8",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 308703,
@@ -3939,9 +4183,11 @@
   "cat": "series",
   "series": "파울리스타나의 무더위",
   "seriesGroup": "황금 휴일",
-  "grade": 4,
-  "version": null,
-  "order": 510026
+  "grade": 2,
+  "version": "2.2",
+  "order": 510026,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 308704,
@@ -3956,9 +4202,11 @@
   "cat": "collab",
   "series": "올림포스를 나는 독수리처럼",
   "seriesGroup": "비의 장막 밖",
-  "grade": 4,
-  "version": null,
-  "order": 510047
+  "grade": 2,
+  "version": "콜라보",
+  "order": 510047,
+  "source": "콜라보 판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 308601,
@@ -3992,7 +4240,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.9",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 308603,
@@ -4007,9 +4256,11 @@
   "cat": "series",
   "series": "64칸의 흑백",
   "seriesGroup": "코스튬 집합론",
-  "grade": 5,
+  "grade": 3,
   "version": "2.8",
-  "order": 100000000
+  "order": 100000000,
+  "source": "판매",
+  "gradeName": "Unique"
  },
  {
   "id": 308801,
@@ -4042,8 +4293,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "2.5",
-  "order": null
+  "version": "1.9",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 308803,
@@ -4058,9 +4310,11 @@
   "cat": "series",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 3,
-  "version": null,
-  "order": 510030
+  "grade": 1,
+  "version": "2.3",
+  "order": 510030,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 308804,
@@ -4075,9 +4329,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "3.0",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment",
+  "tarot": 18
  },
  {
   "id": 308001,
@@ -4111,7 +4368,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "1.9",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 308003,
@@ -4126,9 +4384,11 @@
   "cat": "series",
   "series": "‘침몰하지 않는’ 배",
   "seriesGroup": "돌아온 클래식",
-  "grade": 4,
-  "version": null,
-  "order": 510033
+  "grade": 2,
+  "version": "2.4",
+  "order": 510033,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 308004,
@@ -4143,9 +4403,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "3.2",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment",
+  "tarot": 16
  },
  {
   "id": 309101,
@@ -4178,8 +4441,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "2.5",
-  "order": null
+  "version": "1.9",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 309401,
@@ -4213,7 +4477,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.0",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 309403,
@@ -4228,9 +4493,11 @@
   "cat": "series",
   "series": "올리브 가지 전선",
   "seriesGroup": "게임 속 군상",
-  "grade": 4,
-  "version": null,
-  "order": 510045
+  "grade": 2,
+  "version": "3.0",
+  "order": 510045,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 309501,
@@ -4264,7 +4531,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.0",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 309503,
@@ -4279,9 +4547,11 @@
   "cat": "series",
   "series": "‘침몰하지 않는’ 배",
   "seriesGroup": "돌아온 클래식",
-  "grade": 3,
-  "version": "3.8",
-  "order": 100000000
+  "grade": 1,
+  "version": "2.4",
+  "order": 100000000,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 309504,
@@ -4296,9 +4566,11 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 4,
-  "version": null,
-  "order": 510056
+  "grade": 2,
+  "version": "3.1",
+  "order": 510056,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 309601,
@@ -4332,7 +4604,9 @@
   "seriesGroup": "게임 속 군상",
   "grade": 1,
   "version": "3.2",
-  "order": null
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 309701,
@@ -4366,7 +4640,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.1",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 309703,
@@ -4381,9 +4656,11 @@
   "cat": "series",
   "series": "1987 우주 산책",
   "seriesGroup": "코스튬 집합론",
-  "grade": 3,
-  "version": null,
-  "order": 510941
+  "grade": 1,
+  "version": "2.7",
+  "order": 510941,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 309801,
@@ -4417,7 +4694,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.1",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 309803,
@@ -4432,9 +4710,11 @@
   "cat": "dushuo",
   "series": "오래된 책장의 새로운 이야기",
   "seriesGroup": "도삭 절기",
-  "grade": 4,
-  "version": null,
-  "order": 510037
+  "grade": 2,
+  "version": "2.5",
+  "order": 510037,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 309804,
@@ -4449,9 +4729,11 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "3.5",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 309901,
@@ -4485,7 +4767,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.1",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 310001,
@@ -4519,7 +4802,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.2",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 310003,
@@ -4534,9 +4818,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 5,
-  "version": null,
-  "order": 510051
+  "grade": 3,
+  "version": "3.2",
+  "order": 510051,
+  "source": "판매",
+  "gradeName": "Unique",
+  "tarot": 15
  },
  {
   "id": 310101,
@@ -4587,7 +4874,9 @@
   "seriesGroup": "코스튬 집합론",
   "grade": 1,
   "version": "3.6",
-  "order": null
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 310201,
@@ -4621,7 +4910,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.2",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 310203,
@@ -4636,9 +4926,11 @@
   "cat": "series",
   "series": "비이성의 미궁",
   "seriesGroup": "코스튬 집합론",
-  "grade": 3,
-  "version": null,
-  "order": 510039
+  "grade": 1,
+  "version": "2.6",
+  "order": 510039,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 310301,
@@ -4672,7 +4964,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.2",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 310401,
@@ -4706,7 +4999,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.3",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 310403,
@@ -4721,9 +5015,11 @@
   "cat": "series",
   "series": "비이성의 미궁",
   "seriesGroup": "코스튬 집합론",
-  "grade": 4,
-  "version": null,
-  "order": 510038
+  "grade": 2,
+  "version": "2.6",
+  "order": 510038,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 310404,
@@ -4738,9 +5034,11 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "3.4",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 310501,
@@ -4774,7 +5072,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.3",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 310503,
@@ -4789,9 +5088,11 @@
   "cat": "series",
   "series": "올리브 가지 전선",
   "seriesGroup": "게임 속 군상",
-  "grade": 4,
-  "version": null,
-  "order": 510044
+  "grade": 2,
+  "version": "3.0",
+  "order": 510044,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 310504,
@@ -4806,9 +5107,11 @@
   "cat": "collab",
   "series": "조립식 미래",
   "seriesGroup": "비의 장막 밖",
-  "grade": 0,
-  "version": null,
-  "order": 510068
+  "grade": 3,
+  "version": "콜라보",
+  "order": 510068,
+  "source": "콜라보 판매",
+  "gradeName": "Unique"
  },
  {
   "id": 310601,
@@ -4842,7 +5145,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.3",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 310604,
@@ -4857,9 +5161,11 @@
   "cat": "collab",
   "series": "조립식 미래",
   "seriesGroup": "비의 장막 밖",
-  "grade": 0,
-  "version": "3.8",
-  "order": null
+  "grade": 1,
+  "version": "콜라보",
+  "order": null,
+  "source": "무료",
+  "gradeName": "Garment"
  },
  {
   "id": 310801,
@@ -4893,7 +5199,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.4",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 310803,
@@ -4908,9 +5215,11 @@
   "cat": "series",
   "series": "1987 우주 산책",
   "seriesGroup": "코스튬 집합론",
-  "grade": 4,
-  "version": null,
-  "order": 510940
+  "grade": 2,
+  "version": "2.7",
+  "order": 510940,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 310901,
@@ -4944,7 +5253,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.4",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 310903,
@@ -4959,9 +5269,11 @@
   "cat": "collab",
   "series": "제3행성의 이상한 여정",
   "seriesGroup": "비의 장막 밖",
-  "grade": 3,
-  "version": null,
-  "order": 510042
+  "grade": 1,
+  "version": "2.4",
+  "order": 510042,
+  "source": "콜라보 판매",
+  "gradeName": "Garment"
  },
  {
   "id": 310905,
@@ -4976,9 +5288,11 @@
   "cat": "series",
   "series": "삶과 죽음의 문답",
   "seriesGroup": "커튼의 안쪽",
-  "grade": 4,
-  "version": null,
-  "order": 510067
+  "grade": 2,
+  "version": "3.7",
+  "order": 510067,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 311001,
@@ -5012,7 +5326,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.5",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 311003,
@@ -5027,9 +5342,11 @@
   "cat": "dushuo",
   "series": "속세의 손님",
   "seriesGroup": "도삭 절기",
-  "grade": 5,
-  "version": null,
-  "order": 510057
+  "grade": 3,
+  "version": "3.4",
+  "order": 510057,
+  "source": "판매",
+  "gradeName": "Unique"
  },
  {
   "id": 311101,
@@ -5063,7 +5380,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.5",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 311103,
@@ -5078,9 +5396,11 @@
   "cat": "dushuo",
   "series": "속세의 손님",
   "seriesGroup": "도삭 절기",
-  "grade": 3,
+  "grade": 1,
   "version": "3.4",
-  "order": null
+  "order": null,
+  "source": "무료",
+  "gradeName": "Garment"
  },
  {
   "id": 311201,
@@ -5114,7 +5434,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.5",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 311401,
@@ -5148,7 +5469,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.6",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 311403,
@@ -5163,9 +5485,11 @@
   "cat": "series",
   "series": "64칸의 흑백",
   "seriesGroup": "코스튬 집합론",
-  "grade": 4,
+  "grade": 2,
   "version": "2.8",
-  "order": 100000000
+  "order": 100000000,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 311404,
@@ -5180,9 +5504,11 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "3.6",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 311301,
@@ -5216,7 +5542,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.6",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 311303,
@@ -5231,9 +5558,11 @@
   "cat": "series",
   "series": "기괴한 불면의 밤",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 4,
-  "version": null,
-  "order": 510049
+  "grade": 2,
+  "version": "3.1",
+  "order": 510049,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 311601,
@@ -5267,7 +5596,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.7",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 311603,
@@ -5282,9 +5612,11 @@
   "cat": "collab",
   "series": "올림포스를 나는 독수리처럼",
   "seriesGroup": "비의 장막 밖",
-  "grade": 4,
-  "version": null,
-  "order": 510046
+  "grade": 2,
+  "version": "콜라보",
+  "order": 510046,
+  "source": "콜라보 판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 311604,
@@ -5299,9 +5631,11 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 3,
-  "version": null,
-  "order": null
+  "grade": 1,
+  "version": "3.8",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment"
  },
  {
   "id": 311701,
@@ -5335,7 +5669,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.7",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 311703,
@@ -5350,9 +5685,11 @@
   "cat": "series",
   "series": "64칸의 흑백",
   "seriesGroup": "코스튬 집합론",
-  "grade": 3,
+  "grade": 1,
   "version": "2.8",
-  "order": 100000000
+  "order": 100000000,
+  "source": "판매",
+  "gradeName": "Garment"
  },
  {
   "id": 311704,
@@ -5367,9 +5704,11 @@
   "cat": "series",
   "series": "색채의 지각",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 4,
-  "version": null,
-  "order": 510061
+  "grade": 2,
+  "version": "3.5",
+  "order": 510061,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 311801,
@@ -5403,7 +5742,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.7",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 311803,
@@ -5418,9 +5758,11 @@
   "cat": "event",
   "series": "삶과 죽음의 문답",
   "seriesGroup": "커튼의 안쪽",
-  "grade": 2,
+  "grade": 1,
   "version": "3.7",
-  "order": null
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  },
  {
   "id": 310701,
@@ -5453,8 +5795,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "3.2",
-  "order": null
+  "version": "2.8",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 310703,
@@ -5469,9 +5812,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 4,
+  "grade": 2,
   "version": "2.8",
-  "order": 100000000
+  "order": 100000000,
+  "source": "판매",
+  "gradeName": "Advanced Garment",
+  "tarot": 21
  },
  {
   "id": 311501,
@@ -5504,8 +5850,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "2.6",
-  "order": null
+  "version": "2.8",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 312001,
@@ -5539,7 +5886,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.8",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 312003,
@@ -5554,9 +5902,11 @@
   "cat": "series",
   "series": "삶과 죽음의 문답",
   "seriesGroup": "커튼의 안쪽",
-  "grade": 5,
-  "version": null,
-  "order": 510066
+  "grade": 3,
+  "version": "3.7",
+  "order": 510066,
+  "source": "판매",
+  "gradeName": "Unique"
  },
  {
   "id": 312101,
@@ -5590,7 +5940,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "2.8",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 312103,
@@ -5605,9 +5956,11 @@
   "cat": "series",
   "series": "철과 고성의 노래",
   "seriesGroup": "세계의 섬",
-  "grade": 4,
-  "version": null,
-  "order": 510055
+  "grade": 2,
+  "version": "3.3",
+  "order": 510055,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 312601,
@@ -5641,7 +5994,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.0",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 312603,
@@ -5656,9 +6010,11 @@
   "cat": "series",
   "series": "철과 고성의 노래",
   "seriesGroup": "세계의 섬",
-  "grade": 4,
-  "version": null,
-  "order": 510054
+  "grade": 2,
+  "version": "3.3",
+  "order": 510054,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 312606,
@@ -5673,9 +6029,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 0,
-  "version": null,
-  "order": 510071
+  "grade": 2,
+  "version": "콜라보",
+  "order": 510071,
+  "source": "판매",
+  "gradeName": "Advanced Garment",
+  "tarot": 11
  },
  {
   "id": 312801,
@@ -5709,7 +6068,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.0",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 312803,
@@ -5724,9 +6084,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 3,
-  "version": null,
-  "order": 510064
+  "grade": 1,
+  "version": "3.7",
+  "order": 510064,
+  "source": "판매",
+  "gradeName": "Garment",
+  "tarot": 13
  },
  {
   "id": 312201,
@@ -5759,8 +6122,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "2.8",
-  "order": null
+  "version": "콜라보",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 312301,
@@ -5793,8 +6157,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "2.8",
-  "order": null
+  "version": "콜라보",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 312401,
@@ -5827,8 +6192,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "2.8",
-  "order": null
+  "version": "콜라보",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 312501,
@@ -5862,7 +6228,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.1",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 312503,
@@ -5877,9 +6244,11 @@
   "cat": "dushuo",
   "series": "속세의 손님",
   "seriesGroup": "도삭 절기",
-  "grade": 4,
-  "version": null,
-  "order": 510059
+  "grade": 2,
+  "version": "3.4",
+  "order": 510059,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 313201,
@@ -5913,7 +6282,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.1",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 313203,
@@ -5928,9 +6298,11 @@
   "cat": "series",
   "series": "색채의 지각",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 4,
-  "version": null,
-  "order": 510062
+  "grade": 2,
+  "version": "3.5",
+  "order": 510062,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 313401,
@@ -5964,7 +6336,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.2",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 313501,
@@ -5998,7 +6371,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.2",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 312701,
@@ -6032,7 +6406,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.3",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 312703,
@@ -6047,9 +6422,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 4,
-  "version": null,
-  "order": 510063
+  "grade": 2,
+  "version": "3.6",
+  "order": 510063,
+  "source": "판매",
+  "gradeName": "Advanced Garment",
+  "tarot": 8
  },
  {
   "id": 309201,
@@ -6083,7 +6461,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.3",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 309203,
@@ -6098,9 +6477,12 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 4,
-  "version": null,
-  "order": 510073
+  "grade": 2,
+  "version": "3.8",
+  "order": 510073,
+  "source": "판매",
+  "gradeName": "Advanced Garment",
+  "tarot": 4
  },
  {
   "id": 314101,
@@ -6134,7 +6516,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.4",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 313701,
@@ -6168,7 +6551,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.4",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 313801,
@@ -6202,7 +6586,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.4",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 313901,
@@ -6236,7 +6621,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.5",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 313903,
@@ -6251,9 +6637,11 @@
   "cat": "series",
   "series": "미래의 토대",
   "seriesGroup": "세계의 섬",
-  "grade": 4,
-  "version": null,
-  "order": 510072
+  "grade": 2,
+  "version": "3.8",
+  "order": 510072,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 314201,
@@ -6287,7 +6675,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.5",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 313601,
@@ -6320,8 +6709,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "3.2",
-  "order": null
+  "version": "3.7",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 314301,
@@ -6355,7 +6745,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.6",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 314601,
@@ -6389,7 +6780,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.7",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 314701,
@@ -6423,7 +6815,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.7",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 314401,
@@ -6456,8 +6849,9 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "3.6",
-  "order": null
+  "version": "3.7",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 314403,
@@ -6472,9 +6866,11 @@
   "cat": "series",
   "series": "삶과 죽음의 문답",
   "seriesGroup": "커튼의 안쪽",
-  "grade": 5,
-  "version": null,
-  "order": 510065
+  "grade": 3,
+  "version": "3.7",
+  "order": 510065,
+  "source": "판매",
+  "gradeName": "Unique"
  },
  {
   "id": 314501,
@@ -6508,7 +6904,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.8",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 314503,
@@ -6523,9 +6920,11 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 4,
-  "version": null,
-  "order": 510077
+  "grade": 2,
+  "version": "4.0",
+  "order": 510077,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 314001,
@@ -6559,7 +6958,8 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.8",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 314003,
@@ -6574,9 +6974,11 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 4,
-  "version": null,
-  "order": 510078
+  "grade": 2,
+  "version": "4.0",
+  "order": 510078,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 314901,
@@ -6625,9 +7027,11 @@
   "cat": "collab",
   "series": "조립식 미래",
   "seriesGroup": "비의 장막 밖",
-  "grade": 0,
-  "version": null,
-  "order": 510069
+  "grade": 2,
+  "version": "콜라보",
+  "order": 510069,
+  "source": "콜라보 판매",
+  "gradeName": "Advanced Garment"
  },
  {
   "id": 315101,
@@ -6695,13 +7099,14 @@
   "seriesGroup": "",
   "grade": 0,
   "version": "3.7",
-  "order": null
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 315801,
   "char": 3158,
   "type": "default",
-  "name": "Drake",
+  "name": "드레이크",
   "nameEn": "",
   "rare": 0,
   "gain": null,
@@ -6718,7 +7123,7 @@
   "id": 315802,
   "char": 3158,
   "type": "insight",
-  "name": "Drake",
+  "name": "드레이크",
   "nameEn": "Idylls of the Knight",
   "rare": 0,
   "gain": null,
@@ -6728,14 +7133,15 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "3.7",
-  "order": null
+  "version": "4.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 315701,
   "char": 3157,
   "type": "default",
-  "name": "Narcissus",
+  "name": "나르키소스",
   "nameEn": "",
   "rare": 0,
   "gain": null,
@@ -6752,7 +7158,7 @@
   "id": 315702,
   "char": 3157,
   "type": "insight",
-  "name": "Narcissus",
+  "name": "나르키소스",
   "nameEn": "Ripples Yet to Bloom",
   "rare": 0,
   "gain": null,
@@ -6762,14 +7168,15 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "3.7",
-  "order": null
+  "version": "3.9",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 315601,
   "char": 3156,
   "type": "default",
-  "name": "Hedone",
+  "name": "헤도네",
   "nameEn": "",
   "rare": 0,
   "gain": null,
@@ -6786,7 +7193,7 @@
   "id": 315602,
   "char": 3156,
   "type": "insight",
-  "name": "Hedone",
+  "name": "헤도네",
   "nameEn": "A Cheers to the Past",
   "rare": 0,
   "gain": null,
@@ -6796,14 +7203,15 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "3.7",
-  "order": null
+  "version": "3.9",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 315501,
   "char": 3155,
   "type": "default",
-  "name": "Huntsworn Lilya",
+  "name": "헌츠원 릴리아",
   "nameEn": "",
   "rare": 0,
   "gain": null,
@@ -6820,7 +7228,7 @@
   "id": 315502,
   "char": 3155,
   "type": "insight",
-  "name": "Huntsworn Lilya",
+  "name": "헌츠원 릴리아",
   "nameEn": "The Arrow That Sunders the Tempest",
   "rare": 0,
   "gain": null,
@@ -6830,31 +7238,35 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "3.7",
-  "order": null
+  "version": "4.0",
+  "order": null,
+  "source": "2통찰 달성"
  },
  {
   "id": 315503,
   "char": 3155,
   "type": "shop",
-  "name": "虹色冠冕",
+  "name": "무지갯빛 왕관",
   "nameEn": "Rainbow-Colored Crown",
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315503.webp",
   "art": "assets/img/skin/315503.webp",
-  "cat": "shop",
+  "cat": "tarot",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
-  "version": null,
-  "order": null
+  "grade": 3,
+  "version": "4.0",
+  "order": null,
+  "source": "판매",
+  "gradeName": "Unique",
+  "tarot": 7
  },
  {
   "id": 316301,
   "char": 3163,
   "type": "default",
-  "name": "Glyndŵr",
+  "name": "글린두르",
   "nameEn": "",
   "rare": 0,
   "gain": null,
@@ -6871,7 +7283,7 @@
   "id": 316302,
   "char": 3163,
   "type": "insight",
-  "name": "Glyndŵr",
+  "name": "글린두르",
   "nameEn": "Till the Wind Ceases",
   "rare": 0,
   "gain": null,
@@ -6881,7 +7293,255 @@
   "series": "",
   "seriesGroup": "",
   "grade": 0,
-  "version": "3.7",
-  "order": null
+  "version": "4.0",
+  "order": null,
+  "source": "2통찰 달성"
+ },
+ {
+  "id": 304104,
+  "char": 3041,
+  "type": "shop",
+  "name": "위대한 맛의 조사관 (중섭)",
+  "nameEn": "",
+  "rare": 0,
+  "gain": null,
+  "portrait": "assets/img/char/304104.webp",
+  "art": "assets/img/skin/304104.webp",
+  "cat": "collab",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 1,
+  "version": "1.8",
+  "order": null,
+  "source": "콜라보 판매",
+  "gradeName": "Garment"
+ },
+ {
+  "id": 300604,
+  "char": 3006,
+  "type": "shop",
+  "name": "주말 탐험대",
+  "nameEn": "",
+  "rare": 0,
+  "gain": null,
+  "portrait": "assets/img/char/300604.webp",
+  "art": "assets/img/skin/300604.webp",
+  "cat": "collab",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 1,
+  "version": "1.9",
+  "order": null,
+  "source": "콜라보 판매",
+  "gradeName": "Garment"
+ },
+ {
+  "id": 314303,
+  "char": 3143,
+  "type": "shop",
+  "name": "헤엄과 물음",
+  "nameEn": "",
+  "rare": 0,
+  "gain": null,
+  "portrait": "assets/img/char/314303.webp",
+  "art": "assets/img/skin/314303.webp",
+  "cat": "shop",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 3,
+  "version": "3.9",
+  "order": null,
+  "source": "판매",
+  "gradeName": "Unique"
+ },
+ {
+  "id": 314704,
+  "char": 3147,
+  "type": "shop",
+  "name": "가라앉은 그림자의 탱고",
+  "nameEn": "",
+  "rare": 0,
+  "gain": null,
+  "portrait": "assets/img/char/314704.webp",
+  "art": "assets/img/skin/314704.webp",
+  "cat": "shop",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 1,
+  "version": "3.9",
+  "order": null,
+  "source": "판매",
+  "gradeName": "Garment"
+ },
+ {
+  "id": 312104,
+  "char": 3121,
+  "type": "shop",
+  "name": "장미 속 낮잠",
+  "nameEn": "",
+  "rare": 0,
+  "gain": null,
+  "portrait": "assets/img/char/312104.webp",
+  "art": "assets/img/skin/312104.webp",
+  "cat": "shop",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 1,
+  "version": "3.9",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment"
+ },
+ {
+  "id": 305403,
+  "char": 3054,
+  "type": "shop",
+  "name": "스포츠 속보",
+  "nameEn": "",
+  "rare": 0,
+  "gain": null,
+  "portrait": "assets/img/char/305403.webp",
+  "art": "assets/img/skin/305403.webp",
+  "cat": "shop",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 1,
+  "version": "3.9",
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
+ },
+ {
+  "id": 313503,
+  "char": 3135,
+  "type": "shop",
+  "name": "바다 소금 질주",
+  "nameEn": "",
+  "rare": 0,
+  "gain": null,
+  "portrait": "assets/img/char/313503.webp",
+  "art": "assets/img/skin/313503.webp",
+  "cat": "collab",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 1,
+  "version": "3.9",
+  "order": null,
+  "source": "콜라보 판매",
+  "gradeName": "Garment"
+ },
+ {
+  "id": 308005,
+  "char": 3080,
+  "type": "shop",
+  "name": "미식 상담가",
+  "nameEn": "",
+  "rare": 0,
+  "gain": null,
+  "portrait": "assets/img/char/308005.webp",
+  "art": "assets/img/skin/308005.webp",
+  "cat": "collab",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 1,
+  "version": "3.9",
+  "order": null,
+  "source": "콜라보 판매",
+  "gradeName": "Garment"
+ },
+ {
+  "id": 313403,
+  "char": 3134,
+  "type": "shop",
+  "name": "현으로 풀어내는 운명",
+  "nameEn": "",
+  "rare": 0,
+  "gain": null,
+  "portrait": "assets/img/char/313403.webp",
+  "art": "assets/img/skin/313403.webp",
+  "cat": "shop",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 3,
+  "version": "4.0",
+  "order": null,
+  "source": "판매",
+  "gradeName": "Unique"
+ },
+ {
+  "id": 304805,
+  "char": 3048,
+  "type": "shop",
+  "name": "우주의 물결이 밀려올 때",
+  "nameEn": "",
+  "rare": 0,
+  "gain": null,
+  "portrait": "assets/img/char/304805.webp",
+  "art": "assets/img/skin/304805.webp",
+  "cat": "shop",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 2,
+  "version": "4.0",
+  "order": null,
+  "source": "판매",
+  "gradeName": "Advanced Garment"
+ },
+ {
+  "id": 302507,
+  "char": 3025,
+  "type": "shop",
+  "name": "최강의 음",
+  "nameEn": "",
+  "rare": 0,
+  "gain": null,
+  "portrait": "assets/img/char/302507.webp",
+  "art": "assets/img/skin/302507.webp",
+  "cat": "shop",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 1,
+  "version": "4.0",
+  "order": null,
+  "source": "무료",
+  "gradeName": "Garment"
+ },
+ {
+  "id": 311705,
+  "char": 3117,
+  "type": "shop",
+  "name": "저녁별의 목자",
+  "nameEn": "",
+  "rare": 0,
+  "gain": null,
+  "portrait": "assets/img/char/311705.webp",
+  "art": "assets/img/skin/311705.webp",
+  "cat": "shop",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 1,
+  "version": "4.0",
+  "order": null,
+  "source": "주크박스",
+  "gradeName": "Garment"
+ },
+ {
+  "id": 309103,
+  "char": 3091,
+  "type": "shop",
+  "name": "암초의 메아리",
+  "nameEn": "",
+  "rare": 0,
+  "gain": null,
+  "portrait": "assets/img/char/309103.webp",
+  "art": "assets/img/skin/309103.webp",
+  "cat": "shop",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 1,
+  "version": "4.0",
+  "order": null,
+  "source": "컨텐츠",
+  "gradeName": "Garment"
  }
 ]

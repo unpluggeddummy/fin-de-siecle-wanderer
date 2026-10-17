@@ -13,9 +13,11 @@ const mine = (id) => store.state.user.psychubes.items[id] || {};
 function holders() {
   const map = new Map();
   for (const [cid, r] of Object.entries(store.state.user.roster.chars)) {
-    if (!r.owned || !r.psychube) continue;
-    if (!map.has(r.psychube)) map.set(r.psychube, []);
-    map.get(r.psychube).push(+cid);
+    if (!r.owned) continue;
+    for (const pid of store.psyList(r)) {
+      if (!map.has(pid)) map.set(pid, []);
+      map.get(pid).push(+cid);
+    }
   }
   return map;
 }

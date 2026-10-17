@@ -1,5 +1,5 @@
 // 여러 화면에서 함께 쓰는 조각
-import { h, img } from './ui.js';
+import { h, img, drawer } from './ui.js';
 import * as store from './store.js';
 
 export function face(charId, skinId) {
@@ -60,7 +60,7 @@ export function teamEditor(members, onChange) {
       const next = [...members];
       next[i] = { ...m, ...patch };
       if (patch.char !== undefined && patch.char && !next[i].psychube) {
-        next[i].psychube = store.charRecord(patch.char)?.psychube || null; // 캐릭터에 장착한 의지를 기본값으로
+        next[i].psychube = store.psyList(store.charRecord(patch.char))[0] || null; // 출품작에 장착한 의지를 기본값으로
       }
       onChange(next);
     };
@@ -77,5 +77,52 @@ export function stars(n) { return '★'.repeat(n); }
 
 export function afClass(c) { return 'af-' + (c?.afflatus || 'unknown'); }
 
+/** 영감 아이콘 */
+export function afImg(key, cls = 'af-ico') { const src = store.afIcon(key); return src ? h('img.' + cls, { src, alt: store.AFFLATUS[key], title: store.AFFLATUS[key] }) : null; }
+
 export function insightLabel(n) { return ['통찰 0', '통찰 Ⅰ', '통찰 Ⅱ', '통찰 Ⅲ'][n] || `통찰 ${n}`; }
 export const ROMAN = ['0', 'Ⅰ', 'Ⅱ', 'Ⅲ', 'Ⅳ', 'Ⅴ'];
+
+/**
+ * 출품작 이미지 선택 창.
+ * charPicker({ title, multi, selected: [ids], min, onDone(ids) })
+ */
+export function charPicker({ title = '출품작 고르기', multi = false, selected = [], min = 1, onDone }) {
+  const pick = new Set(selected.filter(Boolean));
+  let q = '';
+  let ownedOnly = false;
+  const grid = h('div.char-pick');
+  const countEl = h('span.faint');
+  const draw = () => {
+    const rec = store.state.user.roster.chars;
+    const list = store.state.game.characters
+      .filter((c) => c.released || rec[c.id]?.owned)
+      .filter((c) => !ownedOnly || rec[c.id]?.owned)
+      .filter((c) => !q || [store.charName(c), ...Object.values(c.name)].join(' ').toLowerCase().includes(q))
+      .sort((a, b) => (pick.has(b.id) - pick.has(a.id)) || b.rarity - a.rarity || store.charName(a).localeCompare(store.charName(b), 'ko'));
+    grid.replaceChildren(...list.map((c) => h('button', {
+      type: 'button', class: afClass(c), 'aria-pressed': String(pick.has(c.id)), title: store.charName(c),
+      onclick: () => {
+        if (multi) { pick.has(c.id) ? pick.delete(c.id) : pick.add(c.id); draw(); } else { onDone([c.id]); d.close(); }
+      },
+    }, img(store.charPortrait(c), ''), h('span', store.charName(c)), multi && pick.has(c.id) ? h('i.order', [...pick].indexOf(c.id) + 1) : null)));
+    countEl.textContent = multi ? `${pick.size}개 선택` : '';
+  };
+  const body = [
+    h('div.toolbar', { style: { marginBottom: '10px' } },
+      h('div.grow', h('input', { type: 'search', placeholder: '이름 검색', 'aria-label': '출품작 검색', oninput: (e) => { q = e.target.value.trim().toLowerCase(); draw(); } })),
+      h('label.check', { style: { fontSize: '13px' } }, h('input', { type: 'checkbox', onchange: (e) => { ownedOnly = e.target.checked; draw(); } }), '보유만'),
+      countEl),
+    grid,
+  ];
+  const foot = multi ? [
+    h('button.btn', { type: 'button', onclick: () => d.close() }, '취소'),
+    h('button.btn.primary', { type: 'button', onclick: () => {
+      if (pick.size < min) { countEl.textContent = `${min}개 이상 골라 주세요`; return; }
+      onDone([...pick]); d.close();
+    } }, '확인'),
+  ] : [h('button.btn', { type: 'button', onclick: () => d.close() }, '취소')];
+  draw();
+  const d = drawer({ title, body, foot, wide: true });
+  return d;
+}

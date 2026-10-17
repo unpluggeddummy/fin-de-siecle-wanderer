@@ -1659,966 +1659,6 @@
     }
    ]
   },
-  "3158": {
-   "insight": [
-    {
-     "Id": 1,
-     "Material": [
-      "Sharpodonty",
-      "Page of Beastly Thirst",
-      "Spell of Banishing",
-      "Sharp Needle"
-     ],
-     "Quantity": [
-      18000,
-      6,
-      6,
-      5
-     ]
-    },
-    {
-     "Id": 2,
-     "Material": [
-      "Sharpodonty",
-      "Scroll of Beastly Thirst",
-      "Liquefied Terror",
-      "Heartfelt Easter Egg"
-     ],
-     "Quantity": [
-      40000,
-      10,
-      5,
-      6
-     ]
-    },
-    {
-     "Id": 3,
-     "Material": [
-      "Sharpodonty",
-      "Tome of Beastly Thirst",
-      "Glowing Mothwing",
-      "Serpent Scepter"
-     ],
-     "Quantity": [
-      200000,
-      16,
-      6,
-      3
-     ]
-    }
-   ],
-   "resonance": [
-    {
-     "Id": 2,
-     "Material": [
-      "Moment of Dissonance"
-     ],
-     "Quantity": [
-      5
-     ]
-    },
-    {
-     "Id": 3,
-     "Material": [
-      "Moment of Dissonance",
-      "Spell of Banishing"
-     ],
-     "Quantity": [
-      5,
-      6
-     ]
-    },
-    {
-     "Id": 4,
-     "Material": [
-      "Moment of Dissonance",
-      "Magnesia Crystal",
-      "Solidus"
-     ],
-     "Quantity": [
-      5,
-      4,
-      3
-     ]
-    },
-    {
-     "Id": 5,
-     "Material": [
-      "Brief Cacophony",
-      "Liquefied Terror",
-      "Sharp Needle"
-     ],
-     "Quantity": [
-      5,
-      3,
-      4
-     ]
-    },
-    {
-     "Id": 6,
-     "Material": [
-      "Sharpodonty",
-      "Brief Cacophony",
-      "Clawed Pendulum"
-     ],
-     "Quantity": [
-      30000,
-      5,
-      3
-     ]
-    },
-    {
-     "Id": 7,
-     "Material": [
-      "Brief Cacophony",
-      "Golden Herb Incense"
-     ],
-     "Quantity": [
-      6,
-      5
-     ]
-    },
-    {
-     "Id": 8,
-     "Material": [
-      "Brief Cacophony",
-      "Biting Box",
-      "Rough Silver Ingot"
-     ],
-     "Quantity": [
-      6,
-      4,
-      6
-     ]
-    },
-    {
-     "Id": 9,
-     "Material": [
-      "Brief Cacophony",
-      "Bifurcated Skeleton",
-      "Esoteric Bones"
-     ],
-     "Quantity": [
-      8,
-      5,
-      8
-     ]
-    },
-    {
-     "Id": 10,
-     "Material": [
-      "Sinuous Howl",
-      "Sonorous Knell",
-      "Clawed Pendulum",
-      "Holy Silver"
-     ],
-     "Quantity": [
-      1,
-      5,
-      6,
-      7
-     ]
-    },
-    {
-     "Id": 11,
-     "Material": [
-      "Sharpodonty",
-      "Sinuous Howl",
-      "Sonorous Knell",
-      "Rootbox Rabbit"
-     ],
-     "Quantity": [
-      120000,
-      1,
-      5,
-      4
-     ]
-    },
-    {
-     "Id": 12,
-     "Material": [
-      "Sinuous Howl",
-      "Sonorous Knell",
-      "Jadeite Tablet",
-      "Bifurcated Skeleton"
-     ],
-     "Quantity": [
-      1,
-      6,
-      4,
-      5
-     ]
-    },
-    {
-     "Id": 13,
-     "Material": [
-      "Sinuous Howl",
-      "Sonorous Knell",
-      "Bogeyman",
-      "Goose Neck"
-     ],
-     "Quantity": [
-      1,
-      6,
-      5,
-      5
-     ]
-    },
-    {
-     "Id": 14,
-     "Material": [
-      "Sinuous Howl",
-      "Sonorous Knell",
-      "Golden Fleece",
-      "Glowing Mothwing"
-     ],
-     "Quantity": [
-      1,
-      8,
-      2,
-      4
-     ]
-    },
-    {
-     "Id": 15,
-     "Material": [
-      "Sinuous Howl",
-      "Sonorous Knell",
-      "Rhine Gold",
-      "Golden Compass"
-     ],
-     "Quantity": [
-      1,
-      8,
-      3,
-      4
-     ]
-    }
-   ],
-   "euphoria": [],
-   "frequency": [
-    {
-     "Type": "Z-shape",
-     "Id": 5,
-     "Material": [
-      "Roaming Terror Hut",
-      "Wyrmling Skeleton",
-      "Biting Box",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      3,
-      120000
-     ]
-    },
-    {
-     "Type": "Z-shape",
-     "Id": 4,
-     "Material": [
-      "Roaming Terror Hut",
-      "Glowing Mothwing",
-      "Holy Silver",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      4,
-      120000
-     ]
-    },
-    {
-     "Type": "Z-shape",
-     "Id": 11,
-     "Material": [
-      "Serpent Scepter",
-      "Rootbox Rabbit",
-      "Bifurcated Skeleton",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      4,
-      120000
-     ]
-    },
-    {
-     "Type": "Z-shape",
-     "Id": 12,
-     "Material": [
-      "Mistilteinn",
-      "Golden Compass",
-      "Red Lacquer Tablet",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      3,
-      120000
-     ]
-    },
-    {
-     "Type": "Z-shape",
-     "Id": 13,
-     "Material": [
-      "Golden Fleece",
-      "Jadeite Tablet",
-      "Winged Key",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      3,
-      120000
-     ]
-    }
-   ]
-  },
-  "3156": {
-   "insight": [
-    {
-     "Id": 1,
-     "Material": [
-      "Sharpodonty",
-      "Page of Mineral Wealth",
-      "Spell of Banishing",
-      "Solidus"
-     ],
-     "Quantity": [
-      18000,
-      6,
-      6,
-      5
-     ]
-    },
-    {
-     "Id": 2,
-     "Material": [
-      "Sharpodonty",
-      "Scroll of Mineral Wealth",
-      "Cicada Wings",
-      "Winged Key"
-     ],
-     "Quantity": [
-      40000,
-      10,
-      6,
-      5
-     ]
-    },
-    {
-     "Id": 3,
-     "Material": [
-      "Sharpodonty",
-      "Tome of Mineral Wealth",
-      "Silver Bullet",
-      "Fruit of Good and Evil"
-     ],
-     "Quantity": [
-      200000,
-      16,
-      6,
-      3
-     ]
-    }
-   ],
-   "resonance": [
-    {
-     "Id": 2,
-     "Material": [
-      "Moment of Dissonance"
-     ],
-     "Quantity": [
-      5
-     ]
-    },
-    {
-     "Id": 3,
-     "Material": [
-      "Moment of Dissonance",
-      "Trembling Tooth"
-     ],
-     "Quantity": [
-      5,
-      6
-     ]
-    },
-    {
-     "Id": 4,
-     "Material": [
-      "Moment of Dissonance",
-      "Shattered Bones",
-      "Solidus"
-     ],
-     "Quantity": [
-      5,
-      4,
-      3
-     ]
-    },
-    {
-     "Id": 5,
-     "Material": [
-      "Brief Cacophony",
-      "Cicada Wings",
-      "Alopecurus Pratensis"
-     ],
-     "Quantity": [
-      5,
-      5,
-      4
-     ]
-    },
-    {
-     "Id": 6,
-     "Material": [
-      "Sharpodonty",
-      "Brief Cacophony",
-      "Clawed Pendulum"
-     ],
-     "Quantity": [
-      30000,
-      5,
-      3
-     ]
-    },
-    {
-     "Id": 7,
-     "Material": [
-      "Brief Cacophony",
-      "Red Lacquer Tablet"
-     ],
-     "Quantity": [
-      6,
-      5
-     ]
-    },
-    {
-     "Id": 8,
-     "Material": [
-      "Brief Cacophony",
-      "Golden Herb Incense",
-      "Sharp Needle"
-     ],
-     "Quantity": [
-      6,
-      4,
-      4
-     ]
-    },
-    {
-     "Id": 9,
-     "Material": [
-      "Brief Cacophony",
-      "Goose Neck",
-      "Esoteric Bones"
-     ],
-     "Quantity": [
-      8,
-      4,
-      5
-     ]
-    },
-    {
-     "Id": 10,
-     "Material": [
-      "Sinuous Howl",
-      "Sonorous Knell",
-      "Heartfelt Easter Egg",
-      "Biting Box"
-     ],
-     "Quantity": [
-      1,
-      5,
-      8,
-      6
-     ]
-    },
-    {
-     "Id": 11,
-     "Material": [
-      "Sinuous Howl",
-      "Sharpodonty",
-      "Sonorous Knell",
-      "Golden Bell Essence Bottle"
-     ],
-     "Quantity": [
-      1,
-      120000,
-      5,
-      4
-     ]
-    },
-    {
-     "Id": 12,
-     "Material": [
-      "Sinuous Howl",
-      "Sonorous Knell",
-      "Watch Core",
-      "Bifurcated Skeleton"
-     ],
-     "Quantity": [
-      1,
-      6,
-      4,
-      5
-     ]
-    },
-    {
-     "Id": 13,
-     "Material": [
-      "Sinuous Howl",
-      "Sonorous Knell",
-      "Wyrmling Skeleton",
-      "Golden Beetle"
-     ],
-     "Quantity": [
-      1,
-      6,
-      5,
-      5
-     ]
-    },
-    {
-     "Id": 14,
-     "Material": [
-      "Sinuous Howl",
-      "Sonorous Knell",
-      "Mistilteinn",
-      "Glowing Mothwing"
-     ],
-     "Quantity": [
-      1,
-      8,
-      2,
-      4
-     ]
-    },
-    {
-     "Id": 15,
-     "Material": [
-      "Sinuous Howl",
-      "Sonorous Knell",
-      "Fruit of Good and Evil",
-      "Rootbox Rabbit"
-     ],
-     "Quantity": [
-      1,
-      8,
-      3,
-      4
-     ]
-    }
-   ],
-   "euphoria": [],
-   "frequency": [
-    {
-     "Type": "Z-shape",
-     "Id": 5,
-     "Material": [
-      "Golden Fleece",
-      "Golden Bell Essence Bottle",
-      "Clawed Pendulum",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      3,
-      120000
-     ]
-    },
-    {
-     "Type": "Z-shape",
-     "Id": 4,
-     "Material": [
-      "Rhine Gold",
-      "Platinum Ouija",
-      "Salted Mandrake",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      3,
-      120000
-     ]
-    },
-    {
-     "Type": "Z-shape",
-     "Id": 11,
-     "Material": [
-      "Mistilteinn",
-      "Golden Compass",
-      "Prophetic Bird",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      5,
-      120000
-     ]
-    },
-    {
-     "Type": "Z-shape",
-     "Id": 12,
-     "Material": [
-      "Serpent Scepter",
-      "Incorrupt Monkeypaw",
-      "Biting Box",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      3,
-      120000
-     ]
-    },
-    {
-     "Type": "Z-shape",
-     "Id": 13,
-     "Material": [
-      "Mistilteinn",
-      "Platinum Ouija",
-      "Golden Beetle",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      3,
-      120000
-     ]
-    }
-   ]
-  },
-  "3155": {
-   "insight": [
-    {
-     "Id": 1,
-     "Material": [
-      "Sharpodonty",
-      "Page of Starlit Ascent",
-      "Shattered Bones",
-      "Alopecurus Pratensis"
-     ],
-     "Quantity": [
-      18000,
-      6,
-      6,
-      6
-     ]
-    },
-    {
-     "Id": 2,
-     "Material": [
-      "Sharpodonty",
-      "Scroll of Starlit Ascent",
-      "Perpetual Cog",
-      "Winged Key"
-     ],
-     "Quantity": [
-      40000,
-      10,
-      5,
-      6
-     ]
-    },
-    {
-     "Id": 3,
-     "Material": [
-      "Sharpodonty",
-      "Tome of Starlit Ascent",
-      "Silver Bullet",
-      "Fruit of Good and Evil"
-     ],
-     "Quantity": [
-      200000,
-      16,
-      6,
-      3
-     ]
-    }
-   ],
-   "resonance": [
-    {
-     "Id": 2,
-     "Material": [
-      "Moment of Dissonance"
-     ],
-     "Quantity": [
-      5
-     ]
-    },
-    {
-     "Id": 3,
-     "Material": [
-      "Moment of Dissonance",
-      "Silver Ore"
-     ],
-     "Quantity": [
-      5,
-      5
-     ]
-    },
-    {
-     "Id": 4,
-     "Material": [
-      "Moment of Dissonance",
-      "Trembling Tooth",
-      "Pyroxene Ore"
-     ],
-     "Quantity": [
-      5,
-      4,
-      4
-     ]
-    },
-    {
-     "Id": 5,
-     "Material": [
-      "Brief Cacophony",
-      "Solidus",
-      "Alopecurus Pratensis"
-     ],
-     "Quantity": [
-      5,
-      2,
-      4
-     ]
-    },
-    {
-     "Id": 6,
-     "Material": [
-      "Sharpodonty",
-      "Brief Cacophony",
-      "Clawed Pendulum"
-     ],
-     "Quantity": [
-      30000,
-      5,
-      3
-     ]
-    },
-    {
-     "Id": 7,
-     "Material": [
-      "Brief Cacophony",
-      "Red Lacquer Tablet"
-     ],
-     "Quantity": [
-      6,
-      4
-     ]
-    },
-    {
-     "Id": 8,
-     "Material": [
-      "Brief Cacophony",
-      "Golden Beetle",
-      "Perpetual Cog"
-     ],
-     "Quantity": [
-      6,
-      4,
-      4
-     ]
-    },
-    {
-     "Id": 9,
-     "Material": [
-      "Brief Cacophony",
-      "Heartfelt Easter Egg",
-      "Esoteric Bones"
-     ],
-     "Quantity": [
-      8,
-      5,
-      8
-     ]
-    },
-    {
-     "Id": 10,
-     "Material": [
-      "Interlaced Shudder",
-      "Sonorous Knell",
-      "Winged Key",
-      "Bifurcated Skeleton"
-     ],
-     "Quantity": [
-      1,
-      5,
-      6,
-      8
-     ]
-    },
-    {
-     "Id": 11,
-     "Material": [
-      "Sharpodonty",
-      "Interlaced Shudder",
-      "Sonorous Knell",
-      "Rootbox Rabbit"
-     ],
-     "Quantity": [
-      120000,
-      1,
-      5,
-      4
-     ]
-    },
-    {
-     "Id": 12,
-     "Material": [
-      "Interlaced Shudder",
-      "Sonorous Knell",
-      "Golden Bell Essence Bottle",
-      "Clawed Pendulum"
-     ],
-     "Quantity": [
-      1,
-      6,
-      4,
-      5
-     ]
-    },
-    {
-     "Id": 13,
-     "Material": [
-      "Interlaced Shudder",
-      "Sonorous Knell",
-      "Wyrmling Skeleton",
-      "Bifurcated Skeleton"
-     ],
-     "Quantity": [
-      1,
-      6,
-      5,
-      6
-     ]
-    },
-    {
-     "Id": 14,
-     "Material": [
-      "Interlaced Shudder",
-      "Sonorous Knell",
-      "Rhine Gold",
-      "Silver Bullet"
-     ],
-     "Quantity": [
-      1,
-      8,
-      2,
-      4
-     ]
-    },
-    {
-     "Id": 15,
-     "Material": [
-      "Interlaced Shudder",
-      "Sonorous Knell",
-      "Mistilteinn",
-      "Jadeite Tablet"
-     ],
-     "Quantity": [
-      1,
-      8,
-      3,
-      4
-     ]
-    }
-   ],
-   "euphoria": [],
-   "frequency": [
-    {
-     "Type": "Cross",
-     "Id": 5,
-     "Material": [
-      "Rhine Gold",
-      "Golden Bell Essence Bottle",
-      "Goose Neck",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      3,
-      120000
-     ]
-    },
-    {
-     "Type": "Cross",
-     "Id": 4,
-     "Material": [
-      "Golden Fleece",
-      "Silver Bullet",
-      "Golden Beetle",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      3,
-      120000
-     ]
-    },
-    {
-     "Type": "Cross",
-     "Id": 14,
-     "Material": [
-      "Serpent Scepter",
-      "Platinum Ouija",
-      "Golden Herb Incense",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      3,
-      120000
-     ]
-    },
-    {
-     "Type": "Cross",
-     "Id": 2,
-     "Material": [
-      "Fruit of Good and Evil",
-      "Bogeyman",
-      "Clawed Pendulum",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      3,
-      120000
-     ]
-    },
-    {
-     "Type": "Cross",
-     "Id": 6,
-     "Material": [
-      "Mistilteinn",
-      "Watch Core",
-      "Heartfelt Easter Egg",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      3,
-      120000
-     ]
-    }
-   ]
-  },
   "3094": {
    "insight": [
     {
@@ -2950,326 +1990,6 @@
       1,
       2,
       3,
-      120000
-     ]
-    }
-   ]
-  },
-  "3157": {
-   "insight": [
-    {
-     "Id": 1,
-     "Material": [
-      "Sharpodonty",
-      "Page of Beastly Thirst",
-      "Trembling Tooth",
-      "Esoteric Bones"
-     ],
-     "Quantity": [
-      18000,
-      6,
-      6,
-      5
-     ]
-    },
-    {
-     "Id": 2,
-     "Material": [
-      "Sharpodonty",
-      "Scroll of Beastly Thirst",
-      "Perpetual Cog",
-      "Red Lacquer Tablet"
-     ],
-     "Quantity": [
-      40000,
-      10,
-      6,
-      6
-     ]
-    },
-    {
-     "Id": 3,
-     "Material": [
-      "Sharpodonty",
-      "Tome of Beastly Thirst",
-      "Glowing Mothwing",
-      "Rhine Gold"
-     ],
-     "Quantity": [
-      200000,
-      16,
-      6,
-      3
-     ]
-    }
-   ],
-   "resonance": [
-    {
-     "Id": 2,
-     "Material": [
-      "Moment of Dissonance"
-     ],
-     "Quantity": [
-      5
-     ]
-    },
-    {
-     "Id": 3,
-     "Material": [
-      "Moment of Dissonance",
-      "Spell of Banishing"
-     ],
-     "Quantity": [
-      5,
-      6
-     ]
-    },
-    {
-     "Id": 4,
-     "Material": [
-      "Moment of Dissonance",
-      "Silver Ore",
-      "Solidus"
-     ],
-     "Quantity": [
-      5,
-      4,
-      3
-     ]
-    },
-    {
-     "Id": 5,
-     "Material": [
-      "Brief Cacophony",
-      "Liquefied Terror",
-      "Pyroxene Ore"
-     ],
-     "Quantity": [
-      5,
-      4,
-      3
-     ]
-    },
-    {
-     "Id": 6,
-     "Material": [
-      "Sharpodonty",
-      "Brief Cacophony",
-      "Red Lacquer Tablet"
-     ],
-     "Quantity": [
-      30000,
-      5,
-      3
-     ]
-    },
-    {
-     "Id": 7,
-     "Material": [
-      "Brief Cacophony",
-      "Golden Herb Incense"
-     ],
-     "Quantity": [
-      6,
-      5
-     ]
-    },
-    {
-     "Id": 8,
-     "Material": [
-      "Brief Cacophony",
-      "Goose Neck",
-      "Rough Silver Ingot"
-     ],
-     "Quantity": [
-      6,
-      4,
-      4
-     ]
-    },
-    {
-     "Id": 9,
-     "Material": [
-      "Brief Cacophony",
-      "Clawed Pendulum",
-      "Esoteric Bones"
-     ],
-     "Quantity": [
-      8,
-      4,
-      5
-     ]
-    },
-    {
-     "Id": 10,
-     "Material": [
-      "Hoarse Echo",
-      "Sonorous Knell",
-      "Holy Silver",
-      "Heartfelt Easter Egg"
-     ],
-     "Quantity": [
-      1,
-      5,
-      8,
-      8
-     ]
-    },
-    {
-     "Id": 11,
-     "Material": [
-      "Hoarse Echo",
-      "Sharpodonty",
-      "Sonorous Knell",
-      "Rootbox Rabbit"
-     ],
-     "Quantity": [
-      1,
-      120000,
-      5,
-      4
-     ]
-    },
-    {
-     "Id": 12,
-     "Material": [
-      "Hoarse Echo",
-      "Sonorous Knell",
-      "Glowing Mothwing",
-      "Golden Beetle"
-     ],
-     "Quantity": [
-      1,
-      6,
-      4,
-      5
-     ]
-    },
-    {
-     "Id": 13,
-     "Material": [
-      "Hoarse Echo",
-      "Sonorous Knell",
-      "Wyrmling Skeleton",
-      "Biting Box"
-     ],
-     "Quantity": [
-      1,
-      6,
-      5,
-      5
-     ]
-    },
-    {
-     "Id": 14,
-     "Material": [
-      "Hoarse Echo",
-      "Sonorous Knell",
-      "Fruit of Good and Evil",
-      "Jadeite Tablet"
-     ],
-     "Quantity": [
-      1,
-      8,
-      2,
-      4
-     ]
-    },
-    {
-     "Id": 15,
-     "Material": [
-      "Hoarse Echo",
-      "Sonorous Knell",
-      "Roaming Terror Hut",
-      "Silver Bullet"
-     ],
-     "Quantity": [
-      1,
-      8,
-      3,
-      4
-     ]
-    }
-   ],
-   "euphoria": [],
-   "frequency": [
-    {
-     "Type": "U-shape",
-     "Id": 1,
-     "Material": [
-      "Golden Fleece",
-      "Bogeyman",
-      "Clawed Pendulum",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      3,
-      120000
-     ]
-    },
-    {
-     "Type": "U-shape",
-     "Id": 8,
-     "Material": [
-      "Golden Fleece",
-      "Golden Bell Essence Bottle",
-      "Bifurcated Skeleton",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      4,
-      120000
-     ]
-    },
-    {
-     "Type": "U-shape",
-     "Id": 9,
-     "Material": [
-      "Fruit of Good and Evil",
-      "Wyrmling Skeleton",
-      "Salted Mandrake",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      3,
-      120000
-     ]
-    },
-    {
-     "Type": "U-shape",
-     "Id": 10,
-     "Material": [
-      "Fruit of Good and Evil",
-      "Glowing Mothwing",
-      "Bifurcated Skeleton",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      4,
-      120000
-     ]
-    },
-    {
-     "Type": "U-shape",
-     "Id": 12,
-     "Material": [
-      "Golden Fleece",
-      "Watch Core",
-      "Holy Silver",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      1,
-      2,
-      4,
       120000
      ]
     }
@@ -4619,6 +3339,326 @@
     }
    ]
   },
+  "3157": {
+   "insight": [
+    {
+     "Id": 1,
+     "Material": [
+      "Sharpodonty",
+      "Page of Beastly Thirst",
+      "Trembling Tooth",
+      "Esoteric Bones"
+     ],
+     "Quantity": [
+      18000,
+      6,
+      6,
+      5
+     ]
+    },
+    {
+     "Id": 2,
+     "Material": [
+      "Sharpodonty",
+      "Scroll of Beastly Thirst",
+      "Perpetual Cog",
+      "Red Lacquer Tablet"
+     ],
+     "Quantity": [
+      40000,
+      10,
+      6,
+      6
+     ]
+    },
+    {
+     "Id": 3,
+     "Material": [
+      "Sharpodonty",
+      "Tome of Beastly Thirst",
+      "Glowing Mothwing",
+      "Rhine Gold"
+     ],
+     "Quantity": [
+      200000,
+      16,
+      6,
+      3
+     ]
+    }
+   ],
+   "resonance": [
+    {
+     "Id": 2,
+     "Material": [
+      "Moment of Dissonance"
+     ],
+     "Quantity": [
+      5
+     ]
+    },
+    {
+     "Id": 3,
+     "Material": [
+      "Moment of Dissonance",
+      "Spell of Banishing"
+     ],
+     "Quantity": [
+      5,
+      6
+     ]
+    },
+    {
+     "Id": 4,
+     "Material": [
+      "Moment of Dissonance",
+      "Silver Ore",
+      "Solidus"
+     ],
+     "Quantity": [
+      5,
+      4,
+      3
+     ]
+    },
+    {
+     "Id": 5,
+     "Material": [
+      "Brief Cacophony",
+      "Liquefied Terror",
+      "Pyroxene Ore"
+     ],
+     "Quantity": [
+      5,
+      4,
+      3
+     ]
+    },
+    {
+     "Id": 6,
+     "Material": [
+      "Sharpodonty",
+      "Brief Cacophony",
+      "Red Lacquer Tablet"
+     ],
+     "Quantity": [
+      30000,
+      5,
+      3
+     ]
+    },
+    {
+     "Id": 7,
+     "Material": [
+      "Brief Cacophony",
+      "Golden Herb Incense"
+     ],
+     "Quantity": [
+      6,
+      5
+     ]
+    },
+    {
+     "Id": 8,
+     "Material": [
+      "Brief Cacophony",
+      "Goose Neck",
+      "Rough Silver Ingot"
+     ],
+     "Quantity": [
+      6,
+      4,
+      4
+     ]
+    },
+    {
+     "Id": 9,
+     "Material": [
+      "Brief Cacophony",
+      "Clawed Pendulum",
+      "Esoteric Bones"
+     ],
+     "Quantity": [
+      8,
+      4,
+      5
+     ]
+    },
+    {
+     "Id": 10,
+     "Material": [
+      "Hoarse Echo",
+      "Sonorous Knell",
+      "Holy Silver",
+      "Heartfelt Easter Egg"
+     ],
+     "Quantity": [
+      1,
+      5,
+      8,
+      8
+     ]
+    },
+    {
+     "Id": 11,
+     "Material": [
+      "Hoarse Echo",
+      "Sharpodonty",
+      "Sonorous Knell",
+      "Rootbox Rabbit"
+     ],
+     "Quantity": [
+      1,
+      120000,
+      5,
+      4
+     ]
+    },
+    {
+     "Id": 12,
+     "Material": [
+      "Hoarse Echo",
+      "Sonorous Knell",
+      "Glowing Mothwing",
+      "Golden Beetle"
+     ],
+     "Quantity": [
+      1,
+      6,
+      4,
+      5
+     ]
+    },
+    {
+     "Id": 13,
+     "Material": [
+      "Hoarse Echo",
+      "Sonorous Knell",
+      "Wyrmling Skeleton",
+      "Biting Box"
+     ],
+     "Quantity": [
+      1,
+      6,
+      5,
+      5
+     ]
+    },
+    {
+     "Id": 14,
+     "Material": [
+      "Hoarse Echo",
+      "Sonorous Knell",
+      "Fruit of Good and Evil",
+      "Jadeite Tablet"
+     ],
+     "Quantity": [
+      1,
+      8,
+      2,
+      4
+     ]
+    },
+    {
+     "Id": 15,
+     "Material": [
+      "Hoarse Echo",
+      "Sonorous Knell",
+      "Roaming Terror Hut",
+      "Silver Bullet"
+     ],
+     "Quantity": [
+      1,
+      8,
+      3,
+      4
+     ]
+    }
+   ],
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Golden Fleece",
+      "Bogeyman",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Wyrmling Skeleton",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Glowing Mothwing",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Fleece",
+      "Watch Core",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
+   ]
+  },
   "3141": {
    "insight": [
     {
@@ -5948,6 +4988,326 @@
       1,
       2,
       5,
+      120000
+     ]
+    }
+   ]
+  },
+  "3158": {
+   "insight": [
+    {
+     "Id": 1,
+     "Material": [
+      "Sharpodonty",
+      "Page of Beastly Thirst",
+      "Spell of Banishing",
+      "Sharp Needle"
+     ],
+     "Quantity": [
+      18000,
+      6,
+      6,
+      5
+     ]
+    },
+    {
+     "Id": 2,
+     "Material": [
+      "Sharpodonty",
+      "Scroll of Beastly Thirst",
+      "Liquefied Terror",
+      "Heartfelt Easter Egg"
+     ],
+     "Quantity": [
+      40000,
+      10,
+      5,
+      6
+     ]
+    },
+    {
+     "Id": 3,
+     "Material": [
+      "Sharpodonty",
+      "Tome of Beastly Thirst",
+      "Glowing Mothwing",
+      "Serpent Scepter"
+     ],
+     "Quantity": [
+      200000,
+      16,
+      6,
+      3
+     ]
+    }
+   ],
+   "resonance": [
+    {
+     "Id": 2,
+     "Material": [
+      "Moment of Dissonance"
+     ],
+     "Quantity": [
+      5
+     ]
+    },
+    {
+     "Id": 3,
+     "Material": [
+      "Moment of Dissonance",
+      "Spell of Banishing"
+     ],
+     "Quantity": [
+      5,
+      6
+     ]
+    },
+    {
+     "Id": 4,
+     "Material": [
+      "Moment of Dissonance",
+      "Magnesia Crystal",
+      "Solidus"
+     ],
+     "Quantity": [
+      5,
+      4,
+      3
+     ]
+    },
+    {
+     "Id": 5,
+     "Material": [
+      "Brief Cacophony",
+      "Liquefied Terror",
+      "Sharp Needle"
+     ],
+     "Quantity": [
+      5,
+      3,
+      4
+     ]
+    },
+    {
+     "Id": 6,
+     "Material": [
+      "Sharpodonty",
+      "Brief Cacophony",
+      "Clawed Pendulum"
+     ],
+     "Quantity": [
+      30000,
+      5,
+      3
+     ]
+    },
+    {
+     "Id": 7,
+     "Material": [
+      "Brief Cacophony",
+      "Golden Herb Incense"
+     ],
+     "Quantity": [
+      6,
+      5
+     ]
+    },
+    {
+     "Id": 8,
+     "Material": [
+      "Brief Cacophony",
+      "Biting Box",
+      "Rough Silver Ingot"
+     ],
+     "Quantity": [
+      6,
+      4,
+      6
+     ]
+    },
+    {
+     "Id": 9,
+     "Material": [
+      "Brief Cacophony",
+      "Bifurcated Skeleton",
+      "Esoteric Bones"
+     ],
+     "Quantity": [
+      8,
+      5,
+      8
+     ]
+    },
+    {
+     "Id": 10,
+     "Material": [
+      "Sinuous Howl",
+      "Sonorous Knell",
+      "Clawed Pendulum",
+      "Holy Silver"
+     ],
+     "Quantity": [
+      1,
+      5,
+      6,
+      7
+     ]
+    },
+    {
+     "Id": 11,
+     "Material": [
+      "Sharpodonty",
+      "Sinuous Howl",
+      "Sonorous Knell",
+      "Rootbox Rabbit"
+     ],
+     "Quantity": [
+      120000,
+      1,
+      5,
+      4
+     ]
+    },
+    {
+     "Id": 12,
+     "Material": [
+      "Sinuous Howl",
+      "Sonorous Knell",
+      "Jadeite Tablet",
+      "Bifurcated Skeleton"
+     ],
+     "Quantity": [
+      1,
+      6,
+      4,
+      5
+     ]
+    },
+    {
+     "Id": 13,
+     "Material": [
+      "Sinuous Howl",
+      "Sonorous Knell",
+      "Bogeyman",
+      "Goose Neck"
+     ],
+     "Quantity": [
+      1,
+      6,
+      5,
+      5
+     ]
+    },
+    {
+     "Id": 14,
+     "Material": [
+      "Sinuous Howl",
+      "Sonorous Knell",
+      "Golden Fleece",
+      "Glowing Mothwing"
+     ],
+     "Quantity": [
+      1,
+      8,
+      2,
+      4
+     ]
+    },
+    {
+     "Id": 15,
+     "Material": [
+      "Sinuous Howl",
+      "Sonorous Knell",
+      "Rhine Gold",
+      "Golden Compass"
+     ],
+     "Quantity": [
+      1,
+      8,
+      3,
+      4
+     ]
+    }
+   ],
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Roaming Terror Hut",
+      "Wyrmling Skeleton",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Roaming Terror Hut",
+      "Glowing Mothwing",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Serpent Scepter",
+      "Rootbox Rabbit",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Mistilteinn",
+      "Golden Compass",
+      "Red Lacquer Tablet",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Golden Fleece",
+      "Jadeite Tablet",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
       120000
      ]
     }
@@ -24518,6 +23878,646 @@
     }
    ]
   },
+  "3155": {
+   "insight": [
+    {
+     "Id": 1,
+     "Material": [
+      "Sharpodonty",
+      "Page of Starlit Ascent",
+      "Shattered Bones",
+      "Alopecurus Pratensis"
+     ],
+     "Quantity": [
+      18000,
+      6,
+      6,
+      6
+     ]
+    },
+    {
+     "Id": 2,
+     "Material": [
+      "Sharpodonty",
+      "Scroll of Starlit Ascent",
+      "Perpetual Cog",
+      "Winged Key"
+     ],
+     "Quantity": [
+      40000,
+      10,
+      5,
+      6
+     ]
+    },
+    {
+     "Id": 3,
+     "Material": [
+      "Sharpodonty",
+      "Tome of Starlit Ascent",
+      "Silver Bullet",
+      "Fruit of Good and Evil"
+     ],
+     "Quantity": [
+      200000,
+      16,
+      6,
+      3
+     ]
+    }
+   ],
+   "resonance": [
+    {
+     "Id": 2,
+     "Material": [
+      "Moment of Dissonance"
+     ],
+     "Quantity": [
+      5
+     ]
+    },
+    {
+     "Id": 3,
+     "Material": [
+      "Moment of Dissonance",
+      "Silver Ore"
+     ],
+     "Quantity": [
+      5,
+      5
+     ]
+    },
+    {
+     "Id": 4,
+     "Material": [
+      "Moment of Dissonance",
+      "Trembling Tooth",
+      "Pyroxene Ore"
+     ],
+     "Quantity": [
+      5,
+      4,
+      4
+     ]
+    },
+    {
+     "Id": 5,
+     "Material": [
+      "Brief Cacophony",
+      "Solidus",
+      "Alopecurus Pratensis"
+     ],
+     "Quantity": [
+      5,
+      2,
+      4
+     ]
+    },
+    {
+     "Id": 6,
+     "Material": [
+      "Sharpodonty",
+      "Brief Cacophony",
+      "Clawed Pendulum"
+     ],
+     "Quantity": [
+      30000,
+      5,
+      3
+     ]
+    },
+    {
+     "Id": 7,
+     "Material": [
+      "Brief Cacophony",
+      "Red Lacquer Tablet"
+     ],
+     "Quantity": [
+      6,
+      4
+     ]
+    },
+    {
+     "Id": 8,
+     "Material": [
+      "Brief Cacophony",
+      "Golden Beetle",
+      "Perpetual Cog"
+     ],
+     "Quantity": [
+      6,
+      4,
+      4
+     ]
+    },
+    {
+     "Id": 9,
+     "Material": [
+      "Brief Cacophony",
+      "Heartfelt Easter Egg",
+      "Esoteric Bones"
+     ],
+     "Quantity": [
+      8,
+      5,
+      8
+     ]
+    },
+    {
+     "Id": 10,
+     "Material": [
+      "Interlaced Shudder",
+      "Sonorous Knell",
+      "Winged Key",
+      "Bifurcated Skeleton"
+     ],
+     "Quantity": [
+      1,
+      5,
+      6,
+      8
+     ]
+    },
+    {
+     "Id": 11,
+     "Material": [
+      "Sharpodonty",
+      "Interlaced Shudder",
+      "Sonorous Knell",
+      "Rootbox Rabbit"
+     ],
+     "Quantity": [
+      120000,
+      1,
+      5,
+      4
+     ]
+    },
+    {
+     "Id": 12,
+     "Material": [
+      "Interlaced Shudder",
+      "Sonorous Knell",
+      "Golden Bell Essence Bottle",
+      "Clawed Pendulum"
+     ],
+     "Quantity": [
+      1,
+      6,
+      4,
+      5
+     ]
+    },
+    {
+     "Id": 13,
+     "Material": [
+      "Interlaced Shudder",
+      "Sonorous Knell",
+      "Wyrmling Skeleton",
+      "Bifurcated Skeleton"
+     ],
+     "Quantity": [
+      1,
+      6,
+      5,
+      6
+     ]
+    },
+    {
+     "Id": 14,
+     "Material": [
+      "Interlaced Shudder",
+      "Sonorous Knell",
+      "Rhine Gold",
+      "Silver Bullet"
+     ],
+     "Quantity": [
+      1,
+      8,
+      2,
+      4
+     ]
+    },
+    {
+     "Id": 15,
+     "Material": [
+      "Interlaced Shudder",
+      "Sonorous Knell",
+      "Mistilteinn",
+      "Jadeite Tablet"
+     ],
+     "Quantity": [
+      1,
+      8,
+      3,
+      4
+     ]
+    }
+   ],
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Rhine Gold",
+      "Golden Bell Essence Bottle",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Golden Fleece",
+      "Silver Bullet",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Serpent Scepter",
+      "Platinum Ouija",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Bogeyman",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Mistilteinn",
+      "Watch Core",
+      "Heartfelt Easter Egg",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
+  },
+  "3156": {
+   "insight": [
+    {
+     "Id": 1,
+     "Material": [
+      "Sharpodonty",
+      "Page of Mineral Wealth",
+      "Spell of Banishing",
+      "Solidus"
+     ],
+     "Quantity": [
+      18000,
+      6,
+      6,
+      5
+     ]
+    },
+    {
+     "Id": 2,
+     "Material": [
+      "Sharpodonty",
+      "Scroll of Mineral Wealth",
+      "Cicada Wings",
+      "Winged Key"
+     ],
+     "Quantity": [
+      40000,
+      10,
+      6,
+      5
+     ]
+    },
+    {
+     "Id": 3,
+     "Material": [
+      "Sharpodonty",
+      "Tome of Mineral Wealth",
+      "Silver Bullet",
+      "Fruit of Good and Evil"
+     ],
+     "Quantity": [
+      200000,
+      16,
+      6,
+      3
+     ]
+    }
+   ],
+   "resonance": [
+    {
+     "Id": 2,
+     "Material": [
+      "Moment of Dissonance"
+     ],
+     "Quantity": [
+      5
+     ]
+    },
+    {
+     "Id": 3,
+     "Material": [
+      "Moment of Dissonance",
+      "Trembling Tooth"
+     ],
+     "Quantity": [
+      5,
+      6
+     ]
+    },
+    {
+     "Id": 4,
+     "Material": [
+      "Moment of Dissonance",
+      "Shattered Bones",
+      "Solidus"
+     ],
+     "Quantity": [
+      5,
+      4,
+      3
+     ]
+    },
+    {
+     "Id": 5,
+     "Material": [
+      "Brief Cacophony",
+      "Cicada Wings",
+      "Alopecurus Pratensis"
+     ],
+     "Quantity": [
+      5,
+      5,
+      4
+     ]
+    },
+    {
+     "Id": 6,
+     "Material": [
+      "Sharpodonty",
+      "Brief Cacophony",
+      "Clawed Pendulum"
+     ],
+     "Quantity": [
+      30000,
+      5,
+      3
+     ]
+    },
+    {
+     "Id": 7,
+     "Material": [
+      "Brief Cacophony",
+      "Red Lacquer Tablet"
+     ],
+     "Quantity": [
+      6,
+      5
+     ]
+    },
+    {
+     "Id": 8,
+     "Material": [
+      "Brief Cacophony",
+      "Golden Herb Incense",
+      "Sharp Needle"
+     ],
+     "Quantity": [
+      6,
+      4,
+      4
+     ]
+    },
+    {
+     "Id": 9,
+     "Material": [
+      "Brief Cacophony",
+      "Goose Neck",
+      "Esoteric Bones"
+     ],
+     "Quantity": [
+      8,
+      4,
+      5
+     ]
+    },
+    {
+     "Id": 10,
+     "Material": [
+      "Sinuous Howl",
+      "Sonorous Knell",
+      "Heartfelt Easter Egg",
+      "Biting Box"
+     ],
+     "Quantity": [
+      1,
+      5,
+      8,
+      6
+     ]
+    },
+    {
+     "Id": 11,
+     "Material": [
+      "Sinuous Howl",
+      "Sharpodonty",
+      "Sonorous Knell",
+      "Golden Bell Essence Bottle"
+     ],
+     "Quantity": [
+      1,
+      120000,
+      5,
+      4
+     ]
+    },
+    {
+     "Id": 12,
+     "Material": [
+      "Sinuous Howl",
+      "Sonorous Knell",
+      "Watch Core",
+      "Bifurcated Skeleton"
+     ],
+     "Quantity": [
+      1,
+      6,
+      4,
+      5
+     ]
+    },
+    {
+     "Id": 13,
+     "Material": [
+      "Sinuous Howl",
+      "Sonorous Knell",
+      "Wyrmling Skeleton",
+      "Golden Beetle"
+     ],
+     "Quantity": [
+      1,
+      6,
+      5,
+      5
+     ]
+    },
+    {
+     "Id": 14,
+     "Material": [
+      "Sinuous Howl",
+      "Sonorous Knell",
+      "Mistilteinn",
+      "Glowing Mothwing"
+     ],
+     "Quantity": [
+      1,
+      8,
+      2,
+      4
+     ]
+    },
+    {
+     "Id": 15,
+     "Material": [
+      "Sinuous Howl",
+      "Sonorous Knell",
+      "Fruit of Good and Evil",
+      "Rootbox Rabbit"
+     ],
+     "Quantity": [
+      1,
+      8,
+      3,
+      4
+     ]
+    }
+   ],
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Platinum Ouija",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Mistilteinn",
+      "Golden Compass",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Serpent Scepter",
+      "Incorrupt Monkeypaw",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Mistilteinn",
+      "Platinum Ouija",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
+  },
   "3116": {
    "insight": [
     {
@@ -34445,216 +34445,6 @@
     }
    ]
   },
-  "3163": {
-   "insight": [
-    {
-     "Id": 1,
-     "Material": [
-      "Sharpodonty",
-      "Page of Beastly Thirst",
-      "Magnesia Crystal",
-      "Perpetual Cog"
-     ],
-     "Quantity": [
-      8000,
-      4,
-      3,
-      2
-     ]
-    },
-    {
-     "Id": 2,
-     "Material": [
-      "Sharpodonty",
-      "Scroll of Beastly Thirst",
-      "Alopecurus Pratensis",
-      "Red Lacquer Tablet"
-     ],
-     "Quantity": [
-      25000,
-      8,
-      3,
-      2
-     ]
-    }
-   ],
-   "resonance": [
-    {
-     "Id": 2,
-     "Material": [
-      "Moment of Dissonance"
-     ],
-     "Quantity": [
-      3
-     ]
-    },
-    {
-     "Id": 3,
-     "Material": [
-      "Moment of Dissonance",
-      "Trembling Tooth"
-     ],
-     "Quantity": [
-      3,
-      2
-     ]
-    },
-    {
-     "Id": 4,
-     "Material": [
-      "Moment of Dissonance",
-      "Spell of Banishing",
-      "Solidus"
-     ],
-     "Quantity": [
-      3,
-      3,
-      2
-     ]
-    },
-    {
-     "Id": 5,
-     "Material": [
-      "Brief Cacophony",
-      "Cicada Wings",
-      "Rough Silver Ingot"
-     ],
-     "Quantity": [
-      3,
-      1,
-      2
-     ]
-    },
-    {
-     "Id": 6,
-     "Material": [
-      "Sharpodonty",
-      "Brief Cacophony",
-      "Holy Silver"
-     ],
-     "Quantity": [
-      20000,
-      3,
-      1
-     ]
-    },
-    {
-     "Id": 7,
-     "Material": [
-      "Brief Cacophony",
-      "Golden Beetle"
-     ],
-     "Quantity": [
-      4,
-      2
-     ]
-    },
-    {
-     "Id": 8,
-     "Material": [
-      "Brief Cacophony",
-      "Winged Key",
-      "Alopecurus Pratensis"
-     ],
-     "Quantity": [
-      4,
-      2,
-      2
-     ]
-    },
-    {
-     "Id": 9,
-     "Material": [
-      "Brief Cacophony",
-      "Golden Herb Incense",
-      "Esoteric Bones"
-     ],
-     "Quantity": [
-      5,
-      3,
-      6
-     ]
-    },
-    {
-     "Id": 10,
-     "Material": [
-      "Interlaced Shudder",
-      "Sonorous Knell",
-      "Heartfelt Easter Egg",
-      "Clawed Pendulum"
-     ],
-     "Quantity": [
-      1,
-      3,
-      4,
-      4
-     ]
-    }
-   ],
-   "euphoria": [],
-   "frequency": [
-    {
-     "Type": "Cross",
-     "Id": 5,
-     "Material": [
-      "Bifurcated Skeleton",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      4,
-      50000
-     ]
-    },
-    {
-     "Type": "Cross",
-     "Id": 4,
-     "Material": [
-      "Holy Silver",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      4,
-      50000
-     ]
-    },
-    {
-     "Type": "Cross",
-     "Id": 14,
-     "Material": [
-      "Biting Box",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      3,
-      50000
-     ]
-    },
-    {
-     "Type": "Cross",
-     "Id": 2,
-     "Material": [
-      "Golden Beetle",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      3,
-      50000
-     ]
-    },
-    {
-     "Type": "Cross",
-     "Id": 6,
-     "Material": [
-      "Clawed Pendulum",
-      "Sharpodonty"
-     ],
-     "Quantity": [
-      3,
-      50000
-     ]
-    }
-   ]
-  },
   "3033": {
    "insight": [
     {
@@ -35070,6 +34860,216 @@
      ],
      "Quantity": [
       5,
+      50000
+     ]
+    }
+   ]
+  },
+  "3163": {
+   "insight": [
+    {
+     "Id": 1,
+     "Material": [
+      "Sharpodonty",
+      "Page of Beastly Thirst",
+      "Magnesia Crystal",
+      "Perpetual Cog"
+     ],
+     "Quantity": [
+      8000,
+      4,
+      3,
+      2
+     ]
+    },
+    {
+     "Id": 2,
+     "Material": [
+      "Sharpodonty",
+      "Scroll of Beastly Thirst",
+      "Alopecurus Pratensis",
+      "Red Lacquer Tablet"
+     ],
+     "Quantity": [
+      25000,
+      8,
+      3,
+      2
+     ]
+    }
+   ],
+   "resonance": [
+    {
+     "Id": 2,
+     "Material": [
+      "Moment of Dissonance"
+     ],
+     "Quantity": [
+      3
+     ]
+    },
+    {
+     "Id": 3,
+     "Material": [
+      "Moment of Dissonance",
+      "Trembling Tooth"
+     ],
+     "Quantity": [
+      3,
+      2
+     ]
+    },
+    {
+     "Id": 4,
+     "Material": [
+      "Moment of Dissonance",
+      "Spell of Banishing",
+      "Solidus"
+     ],
+     "Quantity": [
+      3,
+      3,
+      2
+     ]
+    },
+    {
+     "Id": 5,
+     "Material": [
+      "Brief Cacophony",
+      "Cicada Wings",
+      "Rough Silver Ingot"
+     ],
+     "Quantity": [
+      3,
+      1,
+      2
+     ]
+    },
+    {
+     "Id": 6,
+     "Material": [
+      "Sharpodonty",
+      "Brief Cacophony",
+      "Holy Silver"
+     ],
+     "Quantity": [
+      20000,
+      3,
+      1
+     ]
+    },
+    {
+     "Id": 7,
+     "Material": [
+      "Brief Cacophony",
+      "Golden Beetle"
+     ],
+     "Quantity": [
+      4,
+      2
+     ]
+    },
+    {
+     "Id": 8,
+     "Material": [
+      "Brief Cacophony",
+      "Winged Key",
+      "Alopecurus Pratensis"
+     ],
+     "Quantity": [
+      4,
+      2,
+      2
+     ]
+    },
+    {
+     "Id": 9,
+     "Material": [
+      "Brief Cacophony",
+      "Golden Herb Incense",
+      "Esoteric Bones"
+     ],
+     "Quantity": [
+      5,
+      3,
+      6
+     ]
+    },
+    {
+     "Id": 10,
+     "Material": [
+      "Interlaced Shudder",
+      "Sonorous Knell",
+      "Heartfelt Easter Egg",
+      "Clawed Pendulum"
+     ],
+     "Quantity": [
+      1,
+      3,
+      4,
+      4
+     ]
+    }
+   ],
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
       50000
      ]
     }
