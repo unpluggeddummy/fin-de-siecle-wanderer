@@ -83,7 +83,8 @@
   "1430": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1431": {
    "amp": 1,
@@ -103,7 +104,8 @@
   "1434": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1435": {
    "amp": 1,
@@ -113,12 +115,14 @@
   "1436": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1437": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1438": {
    "amp": 1,
@@ -128,7 +132,8 @@
   "1439": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1440": {
    "amp": 1,
@@ -153,12 +158,14 @@
   "1444": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1445": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1446": {
    "amp": 1,
@@ -183,12 +190,14 @@
   "1501": {
    "amp": 2,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1502": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1503": {
    "amp": 2,
@@ -198,7 +207,8 @@
   "1504": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1507": {
    "amp": 1,
@@ -208,12 +218,14 @@
   "1508": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1509": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1510": {
    "amp": 1,
@@ -233,7 +245,8 @@
   "1513": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1514": {
    "amp": 1,
@@ -243,12 +256,14 @@
   "1515": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1521": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1522": {
    "amp": 1,
@@ -258,32 +273,38 @@
   "1523": {
    "amp": 2,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1524": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1525": {
    "amp": 2,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1526": {
    "amp": 2,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1527": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1528": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1530": {
    "amp": 1,
@@ -293,22 +314,26 @@
   "1531": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1532": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1533": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1534": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1535": {
    "amp": 4,
@@ -318,37 +343,44 @@
   "1536": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1537": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1538": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1539": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1540": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1541": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1542": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1543": {
    "amp": 1,
@@ -358,57 +390,68 @@
   "1544": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1545": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1546": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1547": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1548": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1549": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1550": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1551": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1552": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1553": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1554": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1555": {
    "amp": 1,
@@ -418,97 +461,116 @@
   "1556": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1557": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1558": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1559": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1560": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1561": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1562": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1563": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1564": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1565": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1566": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1567": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1568": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1569": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1570": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1571": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1572": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1573": {
    "amp": 5,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "1574": {
    "amp": 1,
    "count": 1,
-   "owned": true
+   "owned": true,
+   "level": 60
   },
   "4104": {
    "amp": 1,
