@@ -2,6 +2,7 @@ import { h, img, fmt } from '../ui.js';
 import * as store from '../store.js';
 import { face, teamView, afClass } from '../components.js';
 import { seasonTotals } from './bulletin.js';
+import { skinInfo } from './skins.js';
 
 export function render(root) {
   const g = store.state.game;
@@ -14,7 +15,7 @@ export function render(root) {
   const ins3 = owned.filter((c) => (chars[c.id].insight || 0) >= 3);
   const euph = owned.filter((c) => (chars[c.id].euphoria || 0) > 0);
 
-  const costumes = g.skins.filter((s) => ['shop', 'shop-art', 'event'].includes(s.type) && store.charById(s.char)?.released);
+  const costumes = g.skins.filter((s) => !['default', 'insight'].includes(skinInfo(s).cat) && store.charById(s.char)?.released);
   const skinOwned = costumes.filter((s) => u.skins.items[s.id]?.owned).length;
   const skinWish = costumes.filter((s) => u.skins.items[s.id]?.wish && !u.skins.items[s.id]?.owned);
   const psyOwned = Object.values(u.psychubes.items).filter((x) => x.owned).length;

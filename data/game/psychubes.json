@@ -881,7 +881,8 @@
   },
   "rarity": 6,
   "icon": "assets/img/psychube/1000.webp",
-  "skill": "뱀 혀의 촉감"
+  "skill": "뱀 혀의 촉감",
+  "refine": true
  },
  {
   "id": 4104,
@@ -1414,7 +1415,8 @@
   },
   "rarity": 5,
   "icon": "assets/img/psychube/1001.webp",
-  "skill": "뱀 혀의 촉감"
+  "skill": "뱀 혀의 촉감",
+  "refine": true
  },
  {
   "id": 1310,

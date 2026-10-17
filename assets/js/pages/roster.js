@@ -28,7 +28,7 @@ export function render(root, { arg }) {
   const filterBar = h('div.toolbar',
     h('div.grow', search),
     h('select', { 'aria-label': '정렬', style: { width: 'auto' }, onchange: (e) => { view.sort = e.target.value; draw(); } },
-      [['rarity', '성급별'], ['name', '이름순'], ['resonance', '공명 높은 순'], ['portray', '형상 높은 순'], ['level', '육성 높은 순']]
+      [['rarity', '성급별'], ['version', '버전별'], ['portray', '형상별'], ['resonance', '공명별'], ['name', '이름순'], ['level', '육성 높은 순']]
         .map(([v, t]) => h('option', { value: v, selected: view.sort === v }, t))),
     h('button.btn.edit-only', { type: 'button', 'aria-pressed': String(view.selecting), onclick: () => { view.selecting = !view.selecting; view.picked.clear(); rerender(); } },
       view.selecting ? '선택 끝내기' : '여러 개 선택'),
@@ -80,7 +80,7 @@ export function render(root, { arg }) {
       portray: (a, b) => (rec(b).portray || 0) * score(b) - (rec(a).portray || 0) * score(a) || b.rarity - a.rarity,
       level: (a, b) => growth(rec(b)) * score(b) - growth(rec(a)) * score(a) || b.rarity - a.rarity,
     };
-    return [...list].sort(by[view.sort]);
+    return [...list].sort(by[view.sort] || by.rarity);
   }
 
   function drawBulk(list) {
@@ -108,16 +108,36 @@ export function render(root, { arg }) {
     const onCard = (c) => {
       if (view.selecting) { toggle(view.picked, c.id); draw(); } else openChar(c);
     };
-    if (view.sort === 'rarity') {
-      const groups = [6, 5, 4, 3, 2].map((r) => [r, list.filter((c) => c.rarity === r)]).filter(([, l]) => l.length);
-      fill(grid, groups.map(([r, l]) => h('section.roster-group',
-        h('h2', `${r}성`, h('small', `${l.filter((c) => chars[c.id]?.owned).length} / ${l.length} 보유`),
-          view.selecting ? h('button.btn.small.ghost', { type: 'button', style: { marginLeft: 'auto' }, onclick: () => { l.forEach((c) => view.picked.add(c.id)); draw(); } }, `${r}성 모두 선택`) : null),
+    const groups = grouped(list);
+    if (groups) {
+      fill(grid, groups.map(([label, l, sub]) => h('section.roster-group',
+        h('h2', label, h('small', sub ?? `${l.filter((c) => chars[c.id]?.owned).length} / ${l.length} 보유`),
+          view.selecting ? h('button.btn.small.ghost', { type: 'button', style: { marginLeft: 'auto' }, onclick: () => { l.forEach((c) => view.picked.add(c.id)); draw(); } }, '이 묶음 모두 선택') : null),
         h('div.card-grid', l.map((c) => card(c, onCard))),
       )));
     } else {
       fill(grid, h('div.card-grid', list.map((c) => card(c, onCard))));
     }
+  }
+
+  /** 정렬 방식에 따라 묶음 [제목, 목록, 보조 문구] */
+  function grouped(list) {
+    const rec = (c) => chars[c.id] || {};
+    const byRar = (a, b) => b.rarity - a.rarity || store.charName(a).localeCompare(store.charName(b), 'ko');
+    const make = (keyFn, order, labelFn) => {
+      const m = new Map();
+      for (const c of list) { const k = keyFn(c); if (!m.has(k)) m.set(k, []); m.get(k).push(c); }
+      return [...m.entries()].sort((a, b) => order(a[0], b[0])).map(([k, l]) => [labelFn(k, l), l.sort(byRar)]);
+    };
+    const vnum = (v) => (v ? v.split('.').reduce((a, x) => a * 100 + +x, 0) : -1);
+    if (view.sort === 'rarity') return make((c) => c.rarity, (a, b) => b - a, (k) => `${k}성`);
+    if (view.sort === 'version') {
+      return make((c) => (c.released ? (c.version || '?') : '미출시'), (a, b) => (a === '미출시' ? -1 : b === '미출시' ? 1 : vnum(b) - vnum(a)),
+        (k, l) => (k === '미출시' || k === '?' ? (k === '?' ? '버전 미상' : '미출시') : [`${k} 버전`, l.some((c) => c.versionEstimated) ? h('span.est', '추정 포함') : null]));
+    }
+    if (view.sort === 'portray') return make((c) => (rec(c).owned ? rec(c).portray || 0 : -1), (a, b) => b - a, (k) => (k < 0 ? '미보유' : `형상 P${k}`));
+    if (view.sort === 'resonance') return make((c) => (rec(c).owned ? rec(c).resonance || 1 : -1), (a, b) => b - a, (k) => (k < 0 ? '미보유' : `공명 ${k}`));
+    return null;
   }
 
   function quickOwn(v) {
@@ -197,7 +217,7 @@ export function openChar(c) {
         h('span.tag.af', store.AFFLATUS[c.afflatus]),
         store.DMG[c.dmg] ? h('span.tag', store.DMG[c.dmg]) : null,
         c.euphoria ? h('span.tag', `광상 ${c.euphoria}종`) : null,
-        c.released ? null : h('span.tag', '미출시'),
+        c.released ? (c.version ? h('span.tag', `${c.version} 버전${c.versionEstimated ? ' (추정)' : ''}`) : null) : h('span.tag', '미출시'),
       ),
       h('div.faint', { style: { fontSize: '13px' } }, [c.name.en, c.name.ja, c.name.zhCN].filter(Boolean).join(' / ')),
     ),
@@ -314,12 +334,12 @@ function psyGrid(value, onChange) {
   const sel = h('div.psy-current');
   const drawCur = () => {
     const p = cur && store.psyById(cur);
-    fill(sel, p ? [img(p.icon, ''), h('div', h('b', p.name.ko), h('span.faint', `${p.rarity}성${mine[p.id]?.owned ? ` · 증폭 ${mine[p.id].amp || 1}` : ''}`)),
+    fill(sel, p ? [img(p.icon, ''), h('div', h('b', p.name.ko), h('span.faint', `${p.rarity}성${mine[p.id]?.owned ? ` · Lv.${mine[p.id].level || 1} · 증폭 ${mine[p.id].amp || 1}` : ''}`)),
       h('button.btn.small.ghost', { type: 'button', onclick: () => { cur = null; onChange(null); drawCur(); draw(); } }, '해제')]
       : h('span.faint', '장착한 의지가 없어요.'));
   };
   const draw = () => {
-    const list = store.state.game.psychubes.filter((p) => p.rarity >= 4)
+    const list = store.state.game.psychubes.filter((p) => p.rarity >= 4 && !p.refine)
       .filter((p) => !onlyOwned || mine[p.id]?.owned || p.id === cur)
       .filter((p) => !q || Object.values(p.name).join(' ').toLowerCase().includes(q));
     fill(grid, list.length ? list.map((p) => h('button' + (mine[p.id]?.owned ? '' : '.no'), {

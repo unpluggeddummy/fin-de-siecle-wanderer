@@ -23,7 +23,7 @@ export function charSelect(value, onChange, { allowEmpty = true, ownedFirst = tr
 
 /** 의지 선택 <select> (보유 의지 우선) */
 export function psySelect(value, onChange, { label = '의지 선택' } = {}) {
-  const all = store.state.game.psychubes.filter((p) => p.rarity >= 4);
+  const all = store.state.game.psychubes.filter((p) => p.rarity >= 4 && !p.refine);
   const mine = store.state.user.psychubes.items;
   const owned = all.filter((p) => mine[p.id]?.owned);
   const rest = all.filter((p) => !mine[p.id]?.owned);

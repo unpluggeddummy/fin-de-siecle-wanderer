@@ -63,7 +63,9 @@
     "name": "",
     "icon": "assets/img/euphoria/306601.webp"
    }
-  ]
+  ],
+  "version": "1.4",
+  "versionEstimated": false
  },
  {
   "id": 3079,
@@ -129,7 +131,9 @@
     "name": "만물의 이치 조화",
     "icon": "assets/img/euphoria/307901.webp"
    }
-  ]
+  ],
+  "version": "1.4",
+  "versionEstimated": false
  },
  {
   "id": 3007,
@@ -194,7 +198,9 @@
     "name": "천국과 인간 세상에 울려 퍼지리라",
     "icon": "assets/img/euphoria/300701.webp"
    }
-  ]
+  ],
+  "version": "1.0",
+  "versionEstimated": false
  },
  {
   "id": 3158,
@@ -250,7 +256,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.7",
+  "versionEstimated": true
  },
  {
   "id": 3156,
@@ -306,7 +314,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.7",
+  "versionEstimated": true
  },
  {
   "id": 3155,
@@ -363,7 +373,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.7",
+  "versionEstimated": true
  },
  {
   "id": 3094,
@@ -427,7 +439,9 @@
     "name": "뛰어들어, 운명을 담금질하라",
     "icon": "assets/img/euphoria/309401.webp"
    }
-  ]
+  ],
+  "version": "2.0",
+  "versionEstimated": false
  },
  {
   "id": 3157,
@@ -483,7 +497,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.7",
+  "versionEstimated": true
  },
  {
   "id": 3072,
@@ -547,7 +563,9 @@
     "name": "성지순례의 여정",
     "icon": "assets/img/euphoria/307201.webp"
    }
-  ]
+  ],
+  "version": "1.3",
+  "versionEstimated": false
  },
  {
   "id": 3070,
@@ -612,7 +630,9 @@
     "name": "우주를 품은 눈동자",
     "icon": "assets/img/euphoria/307001.webp"
    }
-  ]
+  ],
+  "version": "1.3",
+  "versionEstimated": false
  },
  {
   "id": 3084,
@@ -676,7 +696,9 @@
     "name": "쓸쓸한 이별의 순간",
     "icon": "assets/img/euphoria/308401.webp"
    }
-  ]
+  ],
+  "version": "1.6",
+  "versionEstimated": false
  },
  {
   "id": 3083,
@@ -740,7 +762,9 @@
     "name": "하늘의 별이 바치는 술",
     "icon": "assets/img/euphoria/308301.webp"
    }
-  ]
+  ],
+  "version": "1.6",
+  "versionEstimated": false
  },
  {
   "id": 3141,
@@ -796,7 +820,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.4",
+  "versionEstimated": false
  },
  {
   "id": 3120,
@@ -860,7 +886,9 @@
     "name": "말 없는 별을 지켜주는 밤",
     "icon": "assets/img/euphoria/312001.webp"
    }
-  ]
+  ],
+  "version": "2.8",
+  "versionEstimated": false
  },
  {
   "id": 3111,
@@ -924,7 +952,9 @@
     "name": "",
     "icon": "assets/img/euphoria/311101.webp"
    }
-  ]
+  ],
+  "version": "2.5",
+  "versionEstimated": false
  },
  {
   "id": 3052,
@@ -988,7 +1018,9 @@
     "name": "고탑은 야심으로 지어야 한다",
     "icon": "assets/img/euphoria/305201.webp"
    }
-  ]
+  ],
+  "version": "1.3",
+  "versionEstimated": false
  },
  {
   "id": 3003,
@@ -1059,7 +1091,9 @@
     "name": "재와 불의 새싹",
     "icon": "assets/img/euphoria/300302.webp"
    }
-  ]
+  ],
+  "version": "1.1",
+  "versionEstimated": false
  },
  {
   "id": 3142,
@@ -1115,7 +1149,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.5",
+  "versionEstimated": false
  },
  {
   "id": 3025,
@@ -1186,7 +1222,9 @@
     "name": "터져 나온 사자후",
     "icon": "assets/img/euphoria/302502.webp"
    }
-  ]
+  ],
+  "version": "1.2",
+  "versionEstimated": false
  },
  {
   "id": 3114,
@@ -1251,7 +1289,9 @@
     "name": "<미완의 챕터>",
     "icon": "assets/img/euphoria/311401.webp"
    }
-  ]
+  ],
+  "version": "2.6",
+  "versionEstimated": false
  },
  {
   "id": 3139,
@@ -1308,7 +1348,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.5",
+  "versionEstimated": false
  },
  {
   "id": 3102,
@@ -1372,7 +1414,9 @@
     "name": "위험 속에서도 새싹은 자란다",
     "icon": "assets/img/euphoria/310201.webp"
    }
-  ]
+  ],
+  "version": "2.2",
+  "versionEstimated": false
  },
  {
   "id": 3125,
@@ -1429,7 +1473,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.1",
+  "versionEstimated": false
  },
  {
   "id": 3086,
@@ -1493,7 +1539,9 @@
     "name": "계단 끝은 새벽",
     "icon": "assets/img/euphoria/308601.webp"
    }
-  ]
+  ],
+  "version": "1.9",
+  "versionEstimated": false
  },
  {
   "id": 3146,
@@ -1549,7 +1597,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.7",
+  "versionEstimated": false
  },
  {
   "id": 3004,
@@ -1620,7 +1670,9 @@
     "name": "캄차카에서의 사냥",
     "icon": "assets/img/euphoria/300402.webp"
    }
-  ]
+  ],
+  "version": "1.1",
+  "versionEstimated": false
  },
  {
   "id": 3127,
@@ -1677,7 +1729,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.3",
+  "versionEstimated": false
  },
  {
   "id": 3065,
@@ -1742,7 +1796,9 @@
     "name": "이전 페이지가 소중한 이유",
     "icon": "assets/img/euphoria/306501.webp"
    }
-  ]
+  ],
+  "version": "1.7",
+  "versionEstimated": false
  },
  {
   "id": 3095,
@@ -1807,7 +1863,9 @@
     "name": "우주의 황홀한 빛",
     "icon": "assets/img/euphoria/309501.webp"
    }
-  ]
+  ],
+  "version": "2.0",
+  "versionEstimated": false
  },
  {
   "id": 3047,
@@ -1872,7 +1930,9 @@
     "name": "5ml 혈액 연금술",
     "icon": "assets/img/euphoria/304701.webp"
    }
-  ]
+  ],
+  "version": "1.3",
+  "versionEstimated": false
  },
  {
   "id": 3062,
@@ -1937,7 +1997,9 @@
     "name": "점, 선, 면을 넘나드는 자",
     "icon": "assets/img/euphoria/306201.webp"
    }
-  ]
+  ],
+  "version": "1.1",
+  "versionEstimated": false
  },
  {
   "id": 3121,
@@ -2001,7 +2063,9 @@
     "name": "",
     "icon": "assets/img/euphoria/312101.webp"
    }
-  ]
+  ],
+  "version": "2.8",
+  "versionEstimated": false
  },
  {
   "id": 3147,
@@ -2057,7 +2121,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.7",
+  "versionEstimated": false
  },
  {
   "id": 3108,
@@ -2114,7 +2180,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.4",
+  "versionEstimated": false
  },
  {
   "id": 3134,
@@ -2177,7 +2245,9 @@
     "name": "",
     "icon": "assets/img/euphoria/313401.webp"
    }
-  ]
+  ],
+  "version": "3.2",
+  "versionEstimated": false
  },
  {
   "id": 3048,
@@ -2242,7 +2312,9 @@
     "name": "억겁의 세월을 넘어 울리는 소나타",
     "icon": "assets/img/euphoria/304801.webp"
    }
-  ]
+  ],
+  "version": "1.1",
+  "versionEstimated": false
  },
  {
   "id": 3135,
@@ -2298,7 +2370,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.2",
+  "versionEstimated": false
  },
  {
   "id": 3087,
@@ -2363,7 +2437,9 @@
     "name": "하나의 이상을 받드는 방법",
     "icon": "assets/img/euphoria/308701.webp"
    }
-  ]
+  ],
+  "version": "1.8",
+  "versionEstimated": false
  },
  {
   "id": 3032,
@@ -2427,7 +2503,9 @@
     "name": "운명이 기우는 방향",
     "icon": "assets/img/euphoria/303201.webp"
    }
-  ]
+  ],
+  "version": "1.2",
+  "versionEstimated": false
  },
  {
   "id": 3126,
@@ -2485,7 +2563,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.0",
+  "versionEstimated": false
  },
  {
   "id": 3009,
@@ -2550,7 +2630,9 @@
     "name": "약간의 몽상, 충분한 동심",
     "icon": "assets/img/euphoria/300901.webp"
    }
-  ]
+  ],
+  "version": "1.0",
+  "versionEstimated": false
  },
  {
   "id": 3073,
@@ -2615,7 +2697,9 @@
     "name": "천 년간 타오른 꿈",
     "icon": "assets/img/euphoria/307301.webp"
    }
-  ]
+  ],
+  "version": "1.5",
+  "versionEstimated": false
  },
  {
   "id": 3149,
@@ -2672,7 +2756,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.7",
+  "versionEstimated": true
  },
  {
   "id": 3097,
@@ -2736,7 +2822,9 @@
     "name": "수많은 생명의 소멸, 여전히 뜨거운 총구",
     "icon": "assets/img/euphoria/309701.webp"
    }
-  ]
+  ],
+  "version": "2.1",
+  "versionEstimated": false
  },
  {
   "id": 3039,
@@ -2807,7 +2895,9 @@
     "name": "3000볼트 초고속 소환",
     "icon": "assets/img/euphoria/303902.webp"
    }
-  ]
+  ],
+  "version": "1.2",
+  "versionEstimated": false
  },
  {
   "id": 3100,
@@ -2871,7 +2961,9 @@
     "name": "찬란했던 시절의 여운",
     "icon": "assets/img/euphoria/310001.webp"
    }
-  ]
+  ],
+  "version": "2.2",
+  "versionEstimated": false
  },
  {
   "id": 3113,
@@ -2928,7 +3020,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.6",
+  "versionEstimated": false
  },
  {
   "id": 3110,
@@ -2992,7 +3086,9 @@
     "name": "별을 따라 세상 평정",
     "icon": "assets/img/euphoria/311001.webp"
    }
-  ]
+  ],
+  "version": "2.5",
+  "versionEstimated": false
  },
  {
   "id": 3145,
@@ -3049,7 +3145,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.8",
+  "versionEstimated": false
  },
  {
   "id": 3074,
@@ -3088,7 +3186,9 @@
     "name": "꺼지지 않는 씨앗",
     "icon": "assets/img/euphoria/307402.webp"
    }
-  ]
+  ],
+  "version": "1.5",
+  "versionEstimated": false
  },
  {
   "id": 3123,
@@ -3144,7 +3244,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.8",
+  "versionEstimated": true
  },
  {
   "id": 3107,
@@ -3201,7 +3303,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.2",
+  "versionEstimated": false
  },
  {
   "id": 3077,
@@ -3267,7 +3371,9 @@
     "name": "내 손으로 만 리를 재다",
     "icon": "assets/img/euphoria/307701.webp"
    }
-  ]
+  ],
+  "version": "1.8",
+  "versionEstimated": false
  },
  {
   "id": 3104,
@@ -3332,7 +3438,9 @@
     "name": "대지를 떠나기 위한 날갯짓",
     "icon": "assets/img/euphoria/310401.webp"
    }
-  ]
+  ],
+  "version": "2.3",
+  "versionEstimated": false
  },
  {
   "id": 3092,
@@ -3389,7 +3497,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.3",
+  "versionEstimated": false
  },
  {
   "id": 3143,
@@ -3445,7 +3555,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.6",
+  "versionEstimated": false
  },
  {
   "id": 3081,
@@ -3510,7 +3622,9 @@
     "name": "영혼이 날아 잠든다",
     "icon": "assets/img/euphoria/308101.webp"
    }
-  ]
+  ],
+  "version": "1.7",
+  "versionEstimated": false
  },
  {
   "id": 3051,
@@ -3581,7 +3695,9 @@
     "name": "조석처럼 바뀌는 생명",
     "icon": "assets/img/euphoria/305102.webp"
    }
-  ]
+  ],
+  "version": "1.2",
+  "versionEstimated": false
  },
  {
   "id": 3137,
@@ -3637,7 +3753,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.4",
+  "versionEstimated": false
  },
  {
   "id": 3088,
@@ -3702,7 +3820,9 @@
     "name": "천 개의 달처럼 붉은",
     "icon": "assets/img/euphoria/308801.webp"
    }
-  ]
+  ],
+  "version": "2.5",
+  "versionEstimated": false
  },
  {
   "id": 3056,
@@ -3773,7 +3893,9 @@
     "name": "가는 가지로 엮어야 할 이야기",
     "icon": "assets/img/euphoria/305602.webp"
    }
-  ]
+  ],
+  "version": "1.2",
+  "versionEstimated": false
  },
  {
   "id": 3128,
@@ -3830,7 +3952,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.0",
+  "versionEstimated": false
  },
  {
   "id": 3124,
@@ -3886,7 +4010,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.8",
+  "versionEstimated": true
  },
  {
   "id": 3080,
@@ -3944,7 +4070,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.9",
+  "versionEstimated": false
  },
  {
   "id": 3140,
@@ -4001,7 +4129,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.8",
+  "versionEstimated": false
  },
  {
   "id": 3132,
@@ -4058,7 +4188,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.1",
+  "versionEstimated": false
  },
  {
   "id": 3144,
@@ -4115,7 +4247,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.6",
+  "versionEstimated": true
  },
  {
   "id": 3117,
@@ -4173,7 +4307,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.7",
+  "versionEstimated": false
  },
  {
   "id": 3053,
@@ -4239,7 +4375,9 @@
     "name": "달콤 쌉싸름한 고통의 무도",
     "icon": "assets/img/euphoria/305301.webp"
    }
-  ]
+  ],
+  "version": "1.2",
+  "versionEstimated": false
  },
  {
   "id": 3098,
@@ -4304,7 +4442,9 @@
     "name": "문 앞에 멈춰선 희망",
     "icon": "assets/img/euphoria/309801.webp"
    }
-  ]
+  ],
+  "version": "2.1",
+  "versionEstimated": false
  },
  {
   "id": 3109,
@@ -4362,7 +4502,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.4",
+  "versionEstimated": false
  },
  {
   "id": 3105,
@@ -4420,7 +4562,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.3",
+  "versionEstimated": false
  },
  {
   "id": 3063,
@@ -4484,7 +4628,9 @@
     "name": "개는 생각한다, 고로 존재한다",
     "icon": "assets/img/euphoria/306301.webp"
    }
-  ]
+  ],
+  "version": "1.1",
+  "versionEstimated": false
  },
  {
   "id": 3116,
@@ -4549,7 +4695,9 @@
     "name": "생각의 한계, 그 너머의 무한",
     "icon": "assets/img/euphoria/311601.webp"
    }
-  ]
+  ],
+  "version": "2.7",
+  "versionEstimated": false
  },
  {
   "id": 3010,
@@ -4606,7 +4754,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.0",
+  "versionEstimated": false
  },
  {
   "id": 3118,
@@ -4663,7 +4813,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.7",
+  "versionEstimated": false
  },
  {
   "id": 3037,
@@ -4720,7 +4872,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.1",
+  "versionEstimated": false
  },
  {
   "id": 3103,
@@ -4776,7 +4930,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.2",
+  "versionEstimated": false
  },
  {
   "id": 3075,
@@ -4833,7 +4989,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.5",
+  "versionEstimated": false
  },
  {
   "id": 3064,
@@ -4890,7 +5048,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.1",
+  "versionEstimated": false
  },
  {
   "id": 3022,
@@ -4947,7 +5107,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": false
  },
  {
   "id": 3112,
@@ -5003,7 +5165,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.5",
+  "versionEstimated": false
  },
  {
   "id": 3091,
@@ -5059,7 +5223,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.5",
+  "versionEstimated": true
  },
  {
   "id": 3011,
@@ -5116,7 +5282,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.1",
+  "versionEstimated": false
  },
  {
   "id": 3041,
@@ -5180,7 +5348,9 @@
     "name": "수정처럼 맑은 내일",
     "icon": "assets/img/euphoria/304101.webp"
    }
-  ]
+  ],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3099,
@@ -5236,7 +5406,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.1",
+  "versionEstimated": false
  },
  {
   "id": 3115,
@@ -5292,7 +5464,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.6",
+  "versionEstimated": true
  },
  {
   "id": 3024,
@@ -5349,7 +5523,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.1",
+  "versionEstimated": false
  },
  {
   "id": 3016,
@@ -5406,7 +5582,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.1",
+  "versionEstimated": false
  },
  {
   "id": 3060,
@@ -5463,7 +5641,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": false
  },
  {
   "id": 3038,
@@ -5520,7 +5700,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": false
  },
  {
   "id": 3023,
@@ -5577,7 +5759,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3106,
@@ -5634,7 +5818,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.3",
+  "versionEstimated": false
  },
  {
   "id": 3078,
@@ -5690,7 +5876,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.8",
+  "versionEstimated": false
  },
  {
   "id": 3122,
@@ -5746,7 +5934,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.8",
+  "versionEstimated": true
  },
  {
   "id": 3082,
@@ -5803,7 +5993,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.6",
+  "versionEstimated": false
  },
  {
   "id": 3076,
@@ -5859,7 +6051,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.5",
+  "versionEstimated": false
  },
  {
   "id": 3154,
@@ -5915,7 +6109,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.7",
+  "versionEstimated": true
  },
  {
   "id": 3017,
@@ -5972,7 +6168,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.0",
+  "versionEstimated": false
  },
  {
   "id": 3071,
@@ -6029,7 +6227,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.3",
+  "versionEstimated": false
  },
  {
   "id": 3020,
@@ -6093,7 +6293,9 @@
     "name": "방안의 속삭임, 귓속의 봄",
     "icon": "assets/img/euphoria/302001.webp"
    }
-  ]
+  ],
+  "version": "1.0",
+  "versionEstimated": false
  },
  {
   "id": 3049,
@@ -6149,7 +6351,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.1",
+  "versionEstimated": false
  },
  {
   "id": 3043,
@@ -6214,7 +6418,9 @@
     "name": "불꽃색의 공모자",
     "icon": "assets/img/euphoria/304301.webp"
    }
-  ]
+  ],
+  "version": "1.0",
+  "versionEstimated": false
  },
  {
   "id": 3061,
@@ -6271,7 +6477,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": false
  },
  {
   "id": 3136,
@@ -6296,7 +6504,9 @@
   "kb": null,
   "nameChecked": true,
   "tunings": [],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.2",
+  "versionEstimated": true
  },
  {
   "id": 3028,
@@ -6354,7 +6564,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3163,
@@ -6410,7 +6622,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.7",
+  "versionEstimated": true
  },
  {
   "id": 3033,
@@ -6467,7 +6681,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3013,
@@ -6524,7 +6740,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.1",
+  "versionEstimated": true
  },
  {
   "id": 3151,
@@ -6580,7 +6798,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.7",
+  "versionEstimated": true
  },
  {
   "id": 3138,
@@ -6636,7 +6856,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "3.4",
+  "versionEstimated": true
  },
  {
   "id": 3005,
@@ -6693,7 +6915,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.1",
+  "versionEstimated": true
  },
  {
   "id": 3042,
@@ -6750,7 +6974,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3057,
@@ -6807,7 +7033,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3044,
@@ -6864,7 +7092,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.0",
+  "versionEstimated": true
  },
  {
   "id": 3014,
@@ -6921,7 +7151,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.1",
+  "versionEstimated": true
  },
  {
   "id": 3026,
@@ -6978,7 +7210,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3058,
@@ -7035,7 +7269,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3018,
@@ -7092,7 +7328,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.0",
+  "versionEstimated": true
  },
  {
   "id": 3006,
@@ -7149,7 +7387,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.1",
+  "versionEstimated": true
  },
  {
   "id": 3031,
@@ -7206,7 +7446,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3015,
@@ -7263,7 +7505,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.1",
+  "versionEstimated": true
  },
  {
   "id": 3046,
@@ -7320,7 +7564,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.0",
+  "versionEstimated": true
  },
  {
   "id": 3101,
@@ -7377,7 +7623,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.2",
+  "versionEstimated": true
  },
  {
   "id": 3012,
@@ -7433,7 +7681,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.1",
+  "versionEstimated": true
  },
  {
   "id": 3050,
@@ -7489,7 +7739,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.1",
+  "versionEstimated": true
  },
  {
   "id": 3030,
@@ -7545,7 +7797,9 @@
     "icon": "assets/img/tuning/Inverted-T_7.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3035,
@@ -7601,7 +7855,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3040,
@@ -7657,7 +7913,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3045,
@@ -7713,7 +7971,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.0",
+  "versionEstimated": true
  },
  {
   "id": 3055,
@@ -7769,7 +8029,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3054,
@@ -7824,7 +8086,9 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3034,
@@ -7879,7 +8143,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3036,
@@ -7935,7 +8201,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3096,
@@ -7991,7 +8259,9 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "2.0",
+  "versionEstimated": true
  },
  {
   "id": 3059,
@@ -8046,7 +8316,9 @@
     "icon": "assets/img/tuning/Z-shape_13.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  },
  {
   "id": 3027,
@@ -8102,6 +8374,8 @@
     "icon": "assets/img/tuning/U-shape_12.webp"
    }
   ],
-  "euphorias": []
+  "euphorias": [],
+  "version": "1.2",
+  "versionEstimated": true
  }
 ]

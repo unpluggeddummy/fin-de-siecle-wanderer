@@ -8,7 +8,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/300301.webp",
-  "art": "assets/img/skin/300301.webp"
+  "art": "assets/img/skin/300301.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 300302,
@@ -19,7 +25,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/300302.webp",
-  "art": "assets/img/skin/300302.webp"
+  "art": "assets/img/skin/300302.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 300305,
@@ -30,7 +42,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/300305.webp",
-  "art": "assets/img/skin/300305.webp"
+  "art": "assets/img/skin/300305.webp",
+  "cat": "dushuo",
+  "series": "덧없는 꿈",
+  "seriesGroup": "도삭 절기",
+  "grade": 4,
+  "version": null,
+  "order": 510012
  },
  {
   "id": 300306,
@@ -41,7 +59,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/300306.webp",
-  "art": "assets/img/skin/300306.webp"
+  "art": "assets/img/skin/300306.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 300401,
@@ -52,7 +76,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/300401.webp",
-  "art": "assets/img/skin/300401.webp"
+  "art": "assets/img/skin/300401.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 300402,
@@ -63,7 +93,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/300402.webp",
-  "art": "assets/img/skin/300402.webp"
+  "art": "assets/img/skin/300402.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 300403,
@@ -74,7 +110,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/300403.webp",
-  "art": "assets/img/skin/300403.webp"
+  "art": "assets/img/skin/300403.webp",
+  "cat": "series",
+  "series": "선과 숫자 사이",
+  "seriesGroup": "세계의 섬",
+  "grade": 3,
+  "version": null,
+  "order": 510007
  },
  {
   "id": 300404,
@@ -85,7 +127,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/300404.webp",
-  "art": "assets/img/skin/300404.webp"
+  "art": "assets/img/skin/300404.webp",
+  "cat": "series",
+  "series": "안개의 도시 선수권 대회",
+  "seriesGroup": "생명의 맥박",
+  "grade": 4,
+  "version": null,
+  "order": 510029
  },
  {
   "id": 300501,
@@ -96,7 +144,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/300501.webp",
-  "art": "assets/img/skin/300501.webp"
+  "art": "assets/img/skin/300501.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 300502,
@@ -107,7 +161,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/300502.webp",
-  "art": "assets/img/skin/300502.webp"
+  "art": "assets/img/skin/300502.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 300503,
@@ -118,7 +178,13 @@
   "rare": 4,
   "gain": 13511,
   "portrait": "assets/img/char/300503.webp",
-  "art": "assets/img/skin/300503.webp"
+  "art": "assets/img/skin/300503.webp",
+  "cat": "event",
+  "series": "색채의 지각",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 1,
+  "version": "3.5",
+  "order": null
  },
  {
   "id": 300601,
@@ -129,7 +195,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/300601.webp",
-  "art": "assets/img/skin/300601.webp"
+  "art": "assets/img/skin/300601.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 300602,
@@ -140,7 +212,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/300602.webp",
-  "art": "assets/img/skin/300602.webp"
+  "art": "assets/img/skin/300602.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 300603,
@@ -151,7 +229,13 @@
   "rare": 4,
   "gain": 3,
   "portrait": "assets/img/char/300603.webp",
-  "art": "assets/img/skin/300603.webp"
+  "art": "assets/img/skin/300603.webp",
+  "cat": "series",
+  "series": "패닉쇼",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 1,
+  "version": null,
+  "order": 750009
  },
  {
   "id": 300701,
@@ -162,7 +246,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/300701.webp",
-  "art": "assets/img/skin/300701.webp"
+  "art": "assets/img/skin/300701.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 300702,
@@ -173,7 +263,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/300702.webp",
-  "art": "assets/img/skin/300702.webp"
+  "art": "assets/img/skin/300702.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 300703,
@@ -184,7 +280,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/300703.webp",
-  "art": "assets/img/skin/300703.webp"
+  "art": "assets/img/skin/300703.webp",
+  "cat": "dushuo",
+  "series": "덧없는 꿈",
+  "seriesGroup": "도삭 절기",
+  "grade": 4,
+  "version": null,
+  "order": 510011
  },
  {
   "id": 300731,
@@ -195,7 +297,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/300731.webp",
-  "art": "assets/img/skin/300731.webp"
+  "art": "assets/img/skin/300731.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 300901,
@@ -206,7 +314,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/300901.webp",
-  "art": "assets/img/skin/300901.webp"
+  "art": "assets/img/skin/300901.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 300902,
@@ -217,7 +331,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/300902.webp",
-  "art": "assets/img/skin/300902.webp"
+  "art": "assets/img/skin/300902.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 300903,
@@ -228,7 +348,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/300903.webp",
-  "art": "assets/img/skin/300903.webp"
+  "art": "assets/img/skin/300903.webp",
+  "cat": "series",
+  "series": "패닉쇼",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 3,
+  "version": null,
+  "order": 510003
  },
  {
   "id": 300904,
@@ -239,7 +365,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/300904.webp",
-  "art": "assets/img/skin/300904.webp"
+  "art": "assets/img/skin/300904.webp",
+  "cat": "dushuo",
+  "series": "오래된 책장의 새로운 이야기",
+  "seriesGroup": "도삭 절기",
+  "grade": 4,
+  "version": null,
+  "order": 510036
  },
  {
   "id": 301001,
@@ -250,7 +382,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/301001.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 301002,
@@ -261,7 +399,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/301002.webp",
-  "art": "assets/img/skin/301002.webp"
+  "art": "assets/img/skin/301002.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 301003,
@@ -272,7 +416,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/301003.webp",
-  "art": "assets/img/skin/301003.webp"
+  "art": "assets/img/skin/301003.webp",
+  "cat": "series",
+  "series": "패닉쇼",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 3,
+  "version": null,
+  "order": 510004
  },
  {
   "id": 301101,
@@ -283,7 +433,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/301101.webp",
-  "art": "assets/img/skin/301101.webp"
+  "art": "assets/img/skin/301101.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 301102,
@@ -294,7 +450,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/301102.webp",
-  "art": "assets/img/skin/301102.webp"
+  "art": "assets/img/skin/301102.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 301103,
@@ -305,7 +467,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/301103.webp",
-  "art": "assets/img/skin/301103.webp"
+  "art": "assets/img/skin/301103.webp",
+  "cat": "series",
+  "series": "선과 숫자 사이",
+  "seriesGroup": "세계의 섬",
+  "grade": 3,
+  "version": "2.8",
+  "order": 100000000
  },
  {
   "id": 301201,
@@ -316,7 +484,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/301201.webp",
-  "art": "assets/img/skin/301201.webp"
+  "art": "assets/img/skin/301201.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 301202,
@@ -327,7 +501,13 @@
   "rare": 4,
   "gain": 12504,
   "portrait": "assets/img/char/301202.webp",
-  "art": "assets/img/skin/301202.webp"
+  "art": "assets/img/skin/301202.webp",
+  "cat": "dushuo",
+  "series": "오래된 책장의 새로운 이야기",
+  "seriesGroup": "도삭 절기",
+  "grade": 1,
+  "version": "2.5",
+  "order": 100000000
  },
  {
   "id": 301301,
@@ -338,7 +518,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/301301.webp",
-  "art": "assets/img/skin/301301.webp"
+  "art": "assets/img/skin/301301.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 301302,
@@ -349,7 +535,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/301302.webp",
-  "art": "assets/img/skin/301302.webp"
+  "art": "assets/img/skin/301302.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 301303,
@@ -360,7 +552,13 @@
   "rare": 4,
   "gain": 3,
   "portrait": "assets/img/char/301303.webp",
-  "art": "assets/img/skin/301303.webp"
+  "art": "assets/img/skin/301303.webp",
+  "cat": "dushuo",
+  "series": "덧없는 꿈",
+  "seriesGroup": "도삭 절기",
+  "grade": 1,
+  "version": "2.9",
+  "order": 100000000
  },
  {
   "id": 301401,
@@ -371,7 +569,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/301401.webp",
-  "art": "assets/img/skin/301401.webp"
+  "art": "assets/img/skin/301401.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 301402,
@@ -382,7 +586,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/301402.webp",
-  "art": "assets/img/skin/301402.webp"
+  "art": "assets/img/skin/301402.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 301403,
@@ -393,7 +603,13 @@
   "rare": 4,
   "gain": 13309,
   "portrait": "assets/img/char/301403.webp",
-  "art": "assets/img/skin/301403.webp"
+  "art": "assets/img/skin/301403.webp",
+  "cat": "event",
+  "series": "철과 고성의 노래",
+  "seriesGroup": "세계의 섬",
+  "grade": 1,
+  "version": "3.3",
+  "order": null
  },
  {
   "id": 301501,
@@ -404,7 +620,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/301501.webp",
-  "art": "assets/img/skin/301501.webp"
+  "art": "assets/img/skin/301501.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 301502,
@@ -415,7 +637,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/301502.webp",
-  "art": "assets/img/skin/301502.webp"
+  "art": "assets/img/skin/301502.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 301503,
@@ -426,7 +654,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/301503.webp",
-  "art": "assets/img/skin/301503.webp"
+  "art": "assets/img/skin/301503.webp",
+  "cat": "series",
+  "series": "안개의 도시 선수권 대회",
+  "seriesGroup": "생명의 맥박",
+  "grade": 3,
+  "version": null,
+  "order": 510010
  },
  {
   "id": 301601,
@@ -437,7 +671,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/301601.webp",
-  "art": "assets/img/skin/301601.webp"
+  "art": "assets/img/skin/301601.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 301602,
@@ -448,7 +688,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/301602.webp",
-  "art": "assets/img/skin/301602.webp"
+  "art": "assets/img/skin/301602.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 301603,
@@ -459,7 +705,13 @@
   "rare": 4,
   "gain": 4,
   "portrait": "assets/img/char/301603.webp",
-  "art": "assets/img/skin/301603.webp"
+  "art": "assets/img/skin/301603.webp",
+  "cat": "series",
+  "series": "컴포지션 개념",
+  "seriesGroup": "세계의 섬",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 301701,
@@ -470,7 +722,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/301701.webp",
-  "art": "assets/img/skin/301701.webp"
+  "art": "assets/img/skin/301701.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 301702,
@@ -481,7 +739,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/301702.webp",
-  "art": "assets/img/skin/301702.webp"
+  "art": "assets/img/skin/301702.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 301703,
@@ -492,7 +756,13 @@
   "rare": 4,
   "gain": 4,
   "portrait": "assets/img/char/301703.webp",
-  "art": "assets/img/skin/301703.webp"
+  "art": "assets/img/skin/301703.webp",
+  "cat": "series",
+  "series": "푸르른 축제",
+  "seriesGroup": "생명의 맥박",
+  "grade": 3,
+  "version": null,
+  "order": 700005
  },
  {
   "id": 301801,
@@ -503,7 +773,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/301801.webp",
-  "art": "assets/img/skin/301801.webp"
+  "art": "assets/img/skin/301801.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 301802,
@@ -514,7 +790,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/301802.webp",
-  "art": "assets/img/skin/301802.webp"
+  "art": "assets/img/skin/301802.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 301803,
@@ -525,7 +807,13 @@
   "rare": 4,
   "gain": 3,
   "portrait": "assets/img/char/301803.webp",
-  "art": "assets/img/skin/301803.webp"
+  "art": "assets/img/skin/301803.webp",
+  "cat": "series",
+  "series": "컴포지션 개념",
+  "seriesGroup": "세계의 섬",
+  "grade": 1,
+  "version": null,
+  "order": 803206
  },
  {
   "id": 302001,
@@ -536,7 +824,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/302001.webp",
-  "art": "assets/img/skin/302001.webp"
+  "art": "assets/img/skin/302001.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 302002,
@@ -547,7 +841,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/302002.webp",
-  "art": "assets/img/skin/302002.webp"
+  "art": "assets/img/skin/302002.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 302003,
@@ -558,7 +858,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/302003.webp",
-  "art": "assets/img/skin/302003.webp"
+  "art": "assets/img/skin/302003.webp",
+  "cat": "series",
+  "series": "패닉쇼",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 3,
+  "version": null,
+  "order": 700008
  },
  {
   "id": 302201,
@@ -569,7 +875,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/302201.webp",
-  "art": "assets/img/skin/302201.webp"
+  "art": "assets/img/skin/302201.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 302202,
@@ -580,7 +892,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/302202.webp",
-  "art": "assets/img/skin/302202.webp"
+  "art": "assets/img/skin/302202.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 302203,
@@ -591,7 +909,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/302203.webp",
-  "art": "assets/img/skin/302203.webp"
+  "art": "assets/img/skin/302203.webp",
+  "cat": "series",
+  "series": "안개의 도시 선수권 대회",
+  "seriesGroup": "생명의 맥박",
+  "grade": 3,
+  "version": "3.0",
+  "order": 100000000
  },
  {
   "id": 302301,
@@ -602,7 +926,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/302301.webp",
-  "art": "assets/img/skin/302301.webp"
+  "art": "assets/img/skin/302301.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 302303,
@@ -613,7 +943,13 @@
   "rare": 4,
   "gain": 10003,
   "portrait": "assets/img/char/302303.webp",
-  "art": "assets/img/skin/302303.webp"
+  "art": "assets/img/skin/302303.webp",
+  "cat": "event",
+  "series": "올리브 가지 전선",
+  "seriesGroup": "게임 속 군상",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 302304,
@@ -624,7 +960,13 @@
   "rare": 5,
   "gain": 5,
   "portrait": "assets/img/char/302304.webp",
-  "art": "assets/img/skin/302304.webp"
+  "art": "assets/img/skin/302304.webp",
+  "cat": "shop",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 302401,
@@ -635,7 +977,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/302401.webp",
-  "art": "assets/img/skin/302401.webp"
+  "art": "assets/img/skin/302401.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 302402,
@@ -646,7 +994,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/302402.webp",
-  "art": "assets/img/skin/302402.webp"
+  "art": "assets/img/skin/302402.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 302403,
@@ -657,7 +1011,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/302403.webp",
-  "art": "assets/img/skin/302403.webp"
+  "art": "assets/img/skin/302403.webp",
+  "cat": "dushuo",
+  "series": "덧없는 꿈",
+  "seriesGroup": "도삭 절기",
+  "grade": 3,
+  "version": "2.9",
+  "order": 100000000
  },
  {
   "id": 302501,
@@ -668,7 +1028,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/302501.webp",
-  "art": "assets/img/skin/302501.webp"
+  "art": "assets/img/skin/302501.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 302502,
@@ -679,7 +1045,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/302502.webp",
-  "art": "assets/img/skin/302502.webp"
+  "art": "assets/img/skin/302502.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 302503,
@@ -690,7 +1062,13 @@
   "rare": 4,
   "gain": 2,
   "portrait": "assets/img/char/302503.webp",
-  "art": "assets/img/skin/302503.webp"
+  "art": "assets/img/skin/302503.webp",
+  "cat": "series",
+  "series": "안개의 도시 선수권 대회",
+  "seriesGroup": "생명의 맥박",
+  "grade": 3,
+  "version": null,
+  "order": 510002
  },
  {
   "id": 302504,
@@ -701,7 +1079,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/302504.webp",
-  "art": "assets/img/skin/302504.webp"
+  "art": "assets/img/skin/302504.webp",
+  "cat": "series",
+  "series": "신세계의 바람",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 5,
+  "version": null,
+  "order": 510017
  },
  {
   "id": 302601,
@@ -712,7 +1096,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/302601.webp",
-  "art": "assets/img/skin/302601.webp"
+  "art": "assets/img/skin/302601.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 302602,
@@ -723,7 +1113,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/302602.webp",
-  "art": "assets/img/skin/302602.webp"
+  "art": "assets/img/skin/302602.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 302603,
@@ -734,7 +1130,13 @@
   "rare": 4,
   "gain": 12400,
   "portrait": "assets/img/char/302603.webp",
-  "art": "assets/img/skin/302603.webp"
+  "art": "assets/img/skin/302603.webp",
+  "cat": "event",
+  "series": "‘침몰하지 않는’ 배",
+  "seriesGroup": "돌아온 클래식",
+  "grade": 1,
+  "version": "2.4",
+  "order": 100000000
  },
  {
   "id": 302701,
@@ -745,7 +1147,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/302701.webp",
-  "art": "assets/img/skin/302701.webp"
+  "art": "assets/img/skin/302701.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 302702,
@@ -756,7 +1164,13 @@
   "rare": 4,
   "gain": 13000,
   "portrait": "assets/img/char/302702.webp",
-  "art": "assets/img/skin/302702.webp"
+  "art": "assets/img/skin/302702.webp",
+  "cat": "event",
+  "series": "올리브 가지 전선",
+  "seriesGroup": "게임 속 군상",
+  "grade": 1,
+  "version": "3.0",
+  "order": null
  },
  {
   "id": 302801,
@@ -767,7 +1181,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/302801.webp",
-  "art": "assets/img/skin/302801.webp"
+  "art": "assets/img/skin/302801.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 302802,
@@ -778,7 +1198,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/302802.webp",
-  "art": "assets/img/skin/302802.webp"
+  "art": "assets/img/skin/302802.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 302803,
@@ -789,7 +1215,13 @@
   "rare": 4,
   "gain": 3,
   "portrait": "assets/img/char/302803.webp",
-  "art": "assets/img/skin/302803.webp"
+  "art": "assets/img/skin/302803.webp",
+  "cat": "series",
+  "series": "안개의 도시 선수권 대회",
+  "seriesGroup": "생명의 맥박",
+  "grade": 1,
+  "version": null,
+  "order": 750001
  },
  {
   "id": 302804,
@@ -800,7 +1232,13 @@
   "rare": 4,
   "gain": 130506,
   "portrait": "assets/img/char/302804.webp",
-  "art": "assets/img/skin/302804.webp"
+  "art": "assets/img/skin/302804.webp",
+  "cat": "collab",
+  "series": "올림포스를 나는 독수리처럼",
+  "seriesGroup": "비의 장막 밖",
+  "grade": 1,
+  "version": "3.0",
+  "order": null
  },
  {
   "id": 303001,
@@ -811,7 +1249,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/303001.webp",
-  "art": "assets/img/skin/303001.webp"
+  "art": "assets/img/skin/303001.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 303002,
@@ -822,7 +1266,13 @@
   "rare": 4,
   "gain": 3,
   "portrait": "assets/img/char/303002.webp",
-  "art": "assets/img/skin/303002.webp"
+  "art": "assets/img/skin/303002.webp",
+  "cat": "series",
+  "series": "선과 숫자 사이",
+  "seriesGroup": "세계의 섬",
+  "grade": 1,
+  "version": "2.8",
+  "order": 100000000
  },
  {
   "id": 303101,
@@ -833,7 +1283,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/303101.webp",
-  "art": "assets/img/skin/303101.webp"
+  "art": "assets/img/skin/303101.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 303102,
@@ -844,7 +1300,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/303102.webp",
-  "art": "assets/img/skin/303102.webp"
+  "art": "assets/img/skin/303102.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 303103,
@@ -855,7 +1317,13 @@
   "rare": 4,
   "gain": 13115,
   "portrait": "assets/img/char/303103.webp",
-  "art": "assets/img/skin/303103.webp"
+  "art": "assets/img/skin/303103.webp",
+  "cat": "event",
+  "series": "기괴한 불면의 밤",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 1,
+  "version": "3.1",
+  "order": null
  },
  {
   "id": 303201,
@@ -866,7 +1334,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/303201.webp",
-  "art": "assets/img/skin/303201.webp"
+  "art": "assets/img/skin/303201.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 303202,
@@ -877,7 +1351,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/303202.webp",
-  "art": "assets/img/skin/303202.webp"
+  "art": "assets/img/skin/303202.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 303203,
@@ -888,7 +1368,13 @@
   "rare": 4,
   "gain": 2,
   "portrait": "assets/img/char/303203.webp",
-  "art": "assets/img/skin/303203.webp"
+  "art": "assets/img/skin/303203.webp",
+  "cat": "series",
+  "series": "안개의 도시 선수권 대회",
+  "seriesGroup": "생명의 맥박",
+  "grade": 3,
+  "version": null,
+  "order": 510001
  },
  {
   "id": 303301,
@@ -899,7 +1385,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/303301.webp",
-  "art": "assets/img/skin/303301.webp"
+  "art": "assets/img/skin/303301.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 303302,
@@ -910,7 +1402,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/303302.webp",
-  "art": "assets/img/skin/303302.webp"
+  "art": "assets/img/skin/303302.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 303303,
@@ -921,7 +1419,13 @@
   "rare": 4,
   "gain": 12116,
   "portrait": "assets/img/char/303303.webp",
-  "art": "assets/img/skin/303303.webp"
+  "art": "assets/img/skin/303303.webp",
+  "cat": "event",
+  "series": "77번 국도를 따라",
+  "seriesGroup": "세계의 섬",
+  "grade": 1,
+  "version": "2.1",
+  "order": 100000000
  },
  {
   "id": 303401,
@@ -932,7 +1436,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/303401.webp",
-  "art": "assets/img/skin/303401.webp"
+  "art": "assets/img/skin/303401.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 303501,
@@ -943,7 +1453,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/303501.webp",
-  "art": "assets/img/skin/303501.webp"
+  "art": "assets/img/skin/303501.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 303502,
@@ -954,7 +1470,13 @@
   "rare": 4,
   "gain": 3,
   "portrait": "assets/img/char/303502.webp",
-  "art": "assets/img/skin/303502.webp"
+  "art": "assets/img/skin/303502.webp",
+  "cat": "series",
+  "series": "남방 유람기",
+  "seriesGroup": "세계의 섬",
+  "grade": 1,
+  "version": null,
+  "order": 770008
  },
  {
   "id": 303601,
@@ -965,7 +1487,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/303601.webp",
-  "art": "assets/img/skin/303601.webp"
+  "art": "assets/img/skin/303601.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 303602,
@@ -976,7 +1504,13 @@
   "rare": 4,
   "gain": 12315,
   "portrait": "assets/img/char/303602.webp",
-  "art": "assets/img/skin/303602.webp"
+  "art": "assets/img/skin/303602.webp",
+  "cat": "event",
+  "series": "안개의 도시 선수권 대회",
+  "seriesGroup": "생명의 맥박",
+  "grade": 1,
+  "version": "2.3",
+  "order": 100000000
  },
  {
   "id": 303701,
@@ -987,7 +1521,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/303701.webp",
-  "art": "assets/img/skin/303701.webp"
+  "art": "assets/img/skin/303701.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 303702,
@@ -998,7 +1538,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/303702.webp",
-  "art": "assets/img/skin/303702.webp"
+  "art": "assets/img/skin/303702.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 303703,
@@ -1009,7 +1555,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/303703.webp",
-  "art": "assets/img/skin/303703.webp"
+  "art": "assets/img/skin/303703.webp",
+  "cat": "series",
+  "series": "‘침몰하지 않는’ 배",
+  "seriesGroup": "돌아온 클래식",
+  "grade": 3,
+  "version": null,
+  "order": 510034
  },
  {
   "id": 303801,
@@ -1020,7 +1572,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/303801.webp",
-  "art": "assets/img/skin/303801.webp"
+  "art": "assets/img/skin/303801.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 303802,
@@ -1031,7 +1589,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/303802.webp",
-  "art": "assets/img/skin/303802.webp"
+  "art": "assets/img/skin/303802.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 303803,
@@ -1042,7 +1606,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/303803.webp",
-  "art": "assets/img/skin/303803.webp"
+  "art": "assets/img/skin/303803.webp",
+  "cat": "series",
+  "series": "아리아의 순간",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 3,
+  "version": "3.1",
+  "order": 100000000
  },
  {
   "id": 303901,
@@ -1053,7 +1623,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/303901.webp",
-  "art": "assets/img/skin/303901.webp"
+  "art": "assets/img/skin/303901.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 303902,
@@ -1064,7 +1640,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/303902.webp",
-  "art": "assets/img/skin/303902.webp"
+  "art": "assets/img/skin/303902.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 303903,
@@ -1075,7 +1657,13 @@
   "rare": 5,
   "gain": 3,
   "portrait": "assets/img/char/303903.webp",
-  "art": "assets/img/skin/303903.webp"
+  "art": "assets/img/skin/303903.webp",
+  "cat": "dushuo",
+  "series": "덧없는 꿈",
+  "seriesGroup": "도삭 절기",
+  "grade": 3,
+  "version": null,
+  "order": 750003
  },
  {
   "id": 303904,
@@ -1086,7 +1674,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/303904.webp",
-  "art": "assets/img/skin/303904.webp"
+  "art": "assets/img/skin/303904.webp",
+  "cat": "collab",
+  "series": "조립식 미래",
+  "seriesGroup": "비의 장막 밖",
+  "grade": 0,
+  "version": null,
+  "order": 510070
  },
  {
   "id": 304001,
@@ -1097,7 +1691,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/304001.webp",
-  "art": "assets/img/skin/304001.webp"
+  "art": "assets/img/skin/304001.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 304002,
@@ -1108,7 +1708,13 @@
   "rare": 4,
   "gain": 12807,
   "portrait": "assets/img/char/304002.webp",
-  "art": "assets/img/skin/304002.webp"
+  "art": "assets/img/skin/304002.webp",
+  "cat": "event",
+  "series": "64칸의 흑백",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 1,
+  "version": "2.8",
+  "order": null
  },
  {
   "id": 304101,
@@ -1119,7 +1725,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/304101.webp",
-  "art": "assets/img/skin/304101.webp"
+  "art": "assets/img/skin/304101.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 304102,
@@ -1130,7 +1742,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/304102.webp",
-  "art": "assets/img/skin/304102.webp"
+  "art": "assets/img/skin/304102.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 304103,
@@ -1141,7 +1759,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/304103.webp",
-  "art": "assets/img/skin/304103.webp"
+  "art": "assets/img/skin/304103.webp",
+  "cat": "series",
+  "series": "남방 유람기",
+  "seriesGroup": "세계의 섬",
+  "grade": 3,
+  "version": null,
+  "order": 770005
  },
  {
   "id": 304201,
@@ -1152,7 +1776,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/304201.webp",
-  "art": "assets/img/skin/304201.webp"
+  "art": "assets/img/skin/304201.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 304202,
@@ -1163,7 +1793,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/304202.webp",
-  "art": "assets/img/skin/304202.webp"
+  "art": "assets/img/skin/304202.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 304203,
@@ -1174,7 +1810,13 @@
   "rare": 4,
   "gain": 12701,
   "portrait": "assets/img/char/304203.webp",
-  "art": "assets/img/skin/304203.webp"
+  "art": "assets/img/skin/304203.webp",
+  "cat": "event",
+  "series": "1987 우주 산책",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 1,
+  "version": "2.7",
+  "order": null
  },
  {
   "id": 304301,
@@ -1185,7 +1827,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/304301.webp",
-  "art": "assets/img/skin/304301.webp"
+  "art": "assets/img/skin/304301.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 304302,
@@ -1196,7 +1844,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/304302.webp",
-  "art": "assets/img/skin/304302.webp"
+  "art": "assets/img/skin/304302.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 304303,
@@ -1207,7 +1861,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/304303.webp",
-  "art": "assets/img/skin/304303.webp"
+  "art": "assets/img/skin/304303.webp",
+  "cat": "series",
+  "series": "남방 유람기",
+  "seriesGroup": "세계의 섬",
+  "grade": 3,
+  "version": null,
+  "order": 510006
  },
  {
   "id": 304304,
@@ -1218,7 +1878,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/304304.webp",
-  "art": "assets/img/skin/304304.webp"
+  "art": "assets/img/skin/304304.webp",
+  "cat": "series",
+  "series": "안개의 도시 선수권 대회",
+  "seriesGroup": "생명의 맥박",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 304401,
@@ -1229,7 +1895,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/304401.webp",
-  "art": "assets/img/skin/304401.webp"
+  "art": "assets/img/skin/304401.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 304402,
@@ -1240,7 +1912,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/304402.webp",
-  "art": "assets/img/skin/304402.webp"
+  "art": "assets/img/skin/304402.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 304403,
@@ -1251,7 +1929,13 @@
   "rare": 4,
   "gain": 3,
   "portrait": "assets/img/char/304403.webp",
-  "art": "assets/img/skin/304403.webp"
+  "art": "assets/img/skin/304403.webp",
+  "cat": "series",
+  "series": "아리아의 순간",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 1,
+  "version": "3.1",
+  "order": 100000000
  },
  {
   "id": 304501,
@@ -1262,7 +1946,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/304501.webp",
-  "art": "assets/img/skin/304501.webp"
+  "art": "assets/img/skin/304501.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 304504,
@@ -1273,7 +1963,13 @@
   "rare": 4,
   "gain": 13808,
   "portrait": "assets/img/char/304504.webp",
-  "art": "assets/img/skin/304504.webp"
+  "art": "assets/img/skin/304504.webp",
+  "cat": "event",
+  "series": "미래의 토대",
+  "seriesGroup": "세계의 섬",
+  "grade": 1,
+  "version": "3.8",
+  "order": null
  },
  {
   "id": 304601,
@@ -1284,7 +1980,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/304601.webp",
-  "art": "assets/img/skin/304601.webp"
+  "art": "assets/img/skin/304601.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 304602,
@@ -1295,7 +1997,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/304602.webp",
-  "art": "assets/img/skin/304602.webp"
+  "art": "assets/img/skin/304602.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.0",
+  "order": null
  },
  {
   "id": 304603,
@@ -1306,7 +2014,13 @@
   "rare": 4,
   "gain": 12210,
   "portrait": "assets/img/char/304603.webp",
-  "art": "assets/img/skin/304603.webp"
+  "art": "assets/img/skin/304603.webp",
+  "cat": "event",
+  "series": "파울리스타나의 무더위",
+  "seriesGroup": "황금 휴일",
+  "grade": 1,
+  "version": "2.2",
+  "order": 100000000
  },
  {
   "id": 304701,
@@ -1317,7 +2031,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/304701.webp",
-  "art": "assets/img/skin/304701.webp"
+  "art": "assets/img/skin/304701.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.3",
+  "order": null
  },
  {
   "id": 304702,
@@ -1328,7 +2048,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/304702.webp",
-  "art": "assets/img/skin/304702.webp"
+  "art": "assets/img/skin/304702.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.3",
+  "order": null
  },
  {
   "id": 304703,
@@ -1339,7 +2065,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/304703.webp",
-  "art": "assets/img/skin/304703.webp"
+  "art": "assets/img/skin/304703.webp",
+  "cat": "series",
+  "series": "컴포지션 개념",
+  "seriesGroup": "세계의 섬",
+  "grade": 3,
+  "version": null,
+  "order": 510016
  },
  {
   "id": 304704,
@@ -1350,7 +2082,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/304704.webp",
-  "art": "assets/img/skin/304704.webp"
+  "art": "assets/img/skin/304704.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 304801,
@@ -1361,7 +2099,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/304801.webp",
-  "art": "assets/img/skin/304801.webp"
+  "art": "assets/img/skin/304801.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 304802,
@@ -1372,7 +2116,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/304802.webp",
-  "art": "assets/img/skin/304802.webp"
+  "art": "assets/img/skin/304802.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 304803,
@@ -1383,7 +2133,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/304803.webp",
-  "art": "assets/img/skin/304803.webp"
+  "art": "assets/img/skin/304803.webp",
+  "cat": "series",
+  "series": "신세계의 바람",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 3,
+  "version": null,
+  "order": 510019
  },
  {
   "id": 304804,
@@ -1394,7 +2150,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/304804.webp",
-  "art": "assets/img/skin/304804.webp"
+  "art": "assets/img/skin/304804.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 304901,
@@ -1405,7 +2167,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/304901.webp",
-  "art": "assets/img/skin/304901.webp"
+  "art": "assets/img/skin/304901.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 304902,
@@ -1416,7 +2184,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/304902.webp",
-  "art": "assets/img/skin/304902.webp"
+  "art": "assets/img/skin/304902.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 305001,
@@ -1427,7 +2201,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/305001.webp",
-  "art": "assets/img/skin/305001.webp"
+  "art": "assets/img/skin/305001.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 305002,
@@ -1438,7 +2218,13 @@
   "rare": 4,
   "gain": 3,
   "portrait": "assets/img/char/305002.webp",
-  "art": "assets/img/skin/305002.webp"
+  "art": "assets/img/skin/305002.webp",
+  "cat": "series",
+  "series": "안개의 도시 선수권 대회",
+  "seriesGroup": "생명의 맥박",
+  "grade": 1,
+  "version": "3.0",
+  "order": 100000000
  },
  {
   "id": 305101,
@@ -1449,7 +2235,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/305101.webp",
-  "art": "assets/img/skin/305101.webp"
+  "art": "assets/img/skin/305101.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 305102,
@@ -1460,7 +2252,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/305102.webp",
-  "art": "assets/img/skin/305102.webp"
+  "art": "assets/img/skin/305102.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 305103,
@@ -1471,7 +2269,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/305103.webp",
-  "art": "assets/img/skin/305103.webp"
+  "art": "assets/img/skin/305103.webp",
+  "cat": "series",
+  "series": "컴포지션 개념",
+  "seriesGroup": "세계의 섬",
+  "grade": 3,
+  "version": null,
+  "order": 510015
  },
  {
   "id": 305104,
@@ -1482,7 +2286,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/305104.webp",
-  "art": "assets/img/skin/305104.webp"
+  "art": "assets/img/skin/305104.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 305201,
@@ -1493,7 +2303,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/305201.webp",
-  "art": "assets/img/skin/305201.webp"
+  "art": "assets/img/skin/305201.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.3",
+  "order": null
  },
  {
   "id": 305202,
@@ -1504,7 +2320,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/305202.webp",
-  "art": "assets/img/skin/305202.webp"
+  "art": "assets/img/skin/305202.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.3",
+  "order": null
  },
  {
   "id": 305203,
@@ -1515,7 +2337,13 @@
   "rare": 5,
   "gain": 12409,
   "portrait": "assets/img/char/305203.webp",
-  "art": "assets/img/skin/305203.webp"
+  "art": "assets/img/skin/305203.webp",
+  "cat": "event",
+  "series": "‘침몰하지 않는’ 배",
+  "seriesGroup": "돌아온 클래식",
+  "grade": 3,
+  "version": "2.4",
+  "order": null
  },
  {
   "id": 305301,
@@ -1526,7 +2354,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/305301.webp",
-  "art": "assets/img/skin/305301.webp"
+  "art": "assets/img/skin/305301.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 305302,
@@ -1537,7 +2371,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/305302.webp",
-  "art": "assets/img/skin/305302.webp"
+  "art": "assets/img/skin/305302.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 305303,
@@ -1548,7 +2388,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/305303.webp",
-  "art": "assets/img/skin/305303.webp"
+  "art": "assets/img/skin/305303.webp",
+  "cat": "series",
+  "series": "안개의 도시 선수권 대회",
+  "seriesGroup": "생명의 맥박",
+  "grade": 3,
+  "version": null,
+  "order": 510009
  },
  {
   "id": 305304,
@@ -1559,7 +2405,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/305304.webp",
-  "art": "assets/img/skin/305304.webp"
+  "art": "assets/img/skin/305304.webp",
+  "cat": "collab",
+  "series": "제3행성의 이상한 여정",
+  "seriesGroup": "비의 장막 밖",
+  "grade": 4,
+  "version": null,
+  "order": 510031
  },
  {
   "id": 305305,
@@ -1570,7 +2422,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/305305.webp",
-  "art": "assets/img/skin/305305.webp"
+  "art": "assets/img/skin/305305.webp",
+  "cat": "dushuo",
+  "series": "속세의 손님",
+  "seriesGroup": "도삭 절기",
+  "grade": 5,
+  "version": null,
+  "order": 510058
  },
  {
   "id": 305401,
@@ -1581,7 +2439,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/305401.webp",
-  "art": "assets/img/skin/305401.webp"
+  "art": "assets/img/skin/305401.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 305501,
@@ -1592,7 +2456,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/305501.webp",
-  "art": "assets/img/skin/305501.webp"
+  "art": "assets/img/skin/305501.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 305502,
@@ -1603,7 +2473,13 @@
   "rare": 4,
   "gain": 12006,
   "portrait": "assets/img/char/305502.webp",
-  "art": "assets/img/skin/305502.webp"
+  "art": "assets/img/skin/305502.webp",
+  "cat": "event",
+  "series": "16 비트 향연",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 1,
+  "version": "2.0",
+  "order": 100000000
  },
  {
   "id": 305601,
@@ -1614,7 +2490,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/305601.webp",
-  "art": "assets/img/skin/305601.webp"
+  "art": "assets/img/skin/305601.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 305602,
@@ -1625,7 +2507,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/305602.webp",
-  "art": "assets/img/skin/305602.webp"
+  "art": "assets/img/skin/305602.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 305603,
@@ -1636,7 +2524,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/305603.webp",
-  "art": "assets/img/skin/305603.webp"
+  "art": "assets/img/skin/305603.webp",
+  "cat": "series",
+  "series": "신세계의 바람",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 4,
+  "version": null,
+  "order": 510018
  },
  {
   "id": 305604,
@@ -1647,7 +2541,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/305604.webp",
-  "art": "assets/img/skin/305604.webp"
+  "art": "assets/img/skin/305604.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 305701,
@@ -1658,7 +2558,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/305701.webp",
-  "art": "assets/img/skin/305701.webp"
+  "art": "assets/img/skin/305701.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 305702,
@@ -1669,7 +2575,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/305702.webp",
-  "art": "assets/img/skin/305702.webp"
+  "art": "assets/img/skin/305702.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 305703,
@@ -1680,7 +2592,13 @@
   "rare": 4,
   "gain": 3,
   "portrait": "assets/img/char/305703.webp",
-  "art": "assets/img/skin/305703.webp"
+  "art": "assets/img/skin/305703.webp",
+  "cat": "series",
+  "series": "신세계의 바람",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 1,
+  "version": "3.3",
+  "order": 100000000
  },
  {
   "id": 305801,
@@ -1691,7 +2609,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/305801.webp",
-  "art": "assets/img/skin/305801.webp"
+  "art": "assets/img/skin/305801.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 305802,
@@ -1702,7 +2626,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/305802.webp",
-  "art": "assets/img/skin/305802.webp"
+  "art": "assets/img/skin/305802.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 305803,
@@ -1713,7 +2643,13 @@
   "rare": 4,
   "gain": 12618,
   "portrait": "assets/img/char/305803.webp",
-  "art": "assets/img/skin/305803.webp"
+  "art": "assets/img/skin/305803.webp",
+  "cat": "event",
+  "series": "비이성의 미궁",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 1,
+  "version": "2.6",
+  "order": null
  },
  {
   "id": 305901,
@@ -1724,7 +2660,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/305901.webp",
-  "art": "assets/img/skin/305901.webp"
+  "art": "assets/img/skin/305901.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 306001,
@@ -1735,7 +2677,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/306001.webp",
-  "art": "assets/img/skin/306001.webp"
+  "art": "assets/img/skin/306001.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 306002,
@@ -1746,7 +2694,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/306002.webp",
-  "art": "assets/img/skin/306002.webp"
+  "art": "assets/img/skin/306002.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 306003,
@@ -1757,7 +2711,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/306003.webp",
-  "art": "assets/img/skin/306003.webp"
+  "art": "assets/img/skin/306003.webp",
+  "cat": "series",
+  "series": "77번 국도를 따라",
+  "seriesGroup": "세계의 섬",
+  "grade": 3,
+  "version": "3.5",
+  "order": 100000000
  },
  {
   "id": 306101,
@@ -1768,7 +2728,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/306101.webp",
-  "art": "assets/img/skin/306101.webp"
+  "art": "assets/img/skin/306101.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 306102,
@@ -1779,7 +2745,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/306102.webp",
-  "art": "assets/img/skin/306102.webp"
+  "art": "assets/img/skin/306102.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.2",
+  "order": null
  },
  {
   "id": 306103,
@@ -1790,7 +2762,13 @@
   "rare": 4,
   "gain": 13415,
   "portrait": "assets/img/char/306103.webp",
-  "art": "assets/img/skin/306103.webp"
+  "art": "assets/img/skin/306103.webp",
+  "cat": "dushuo",
+  "series": "속세의 손님",
+  "seriesGroup": "도삭 절기",
+  "grade": 2,
+  "version": "3.4",
+  "order": null
  },
  {
   "id": 306201,
@@ -1801,7 +2779,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/306201.webp",
-  "art": "assets/img/skin/306201.webp"
+  "art": "assets/img/skin/306201.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 306202,
@@ -1812,7 +2796,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/306202.webp",
-  "art": "assets/img/skin/306202.webp"
+  "art": "assets/img/skin/306202.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 306203,
@@ -1823,7 +2813,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/306203.webp",
-  "art": "assets/img/skin/306203.webp"
+  "art": "assets/img/skin/306203.webp",
+  "cat": "series",
+  "series": "아리아의 순간",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 3,
+  "version": null,
+  "order": 510013
  },
  {
   "id": 306204,
@@ -1834,7 +2830,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/306204.webp",
-  "art": "assets/img/skin/306204.webp"
+  "art": "assets/img/skin/306204.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 306301,
@@ -1845,7 +2847,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/306301.webp",
-  "art": "assets/img/skin/306301.webp"
+  "art": "assets/img/skin/306301.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 306302,
@@ -1856,7 +2864,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/306302.webp",
-  "art": "assets/img/skin/306302.webp"
+  "art": "assets/img/skin/306302.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 306303,
@@ -1867,7 +2881,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/306303.webp",
-  "art": "assets/img/skin/306303.webp"
+  "art": "assets/img/skin/306303.webp",
+  "cat": "series",
+  "series": "남방 유람기",
+  "seriesGroup": "세계의 섬",
+  "grade": 3,
+  "version": null,
+  "order": 510005
  },
  {
   "id": 306401,
@@ -1878,7 +2898,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/306401.webp",
-  "art": "assets/img/skin/306401.webp"
+  "art": "assets/img/skin/306401.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 306402,
@@ -1889,7 +2915,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/306402.webp",
-  "art": "assets/img/skin/306402.webp"
+  "art": "assets/img/skin/306402.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.1",
+  "order": null
  },
  {
   "id": 306403,
@@ -1900,7 +2932,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/306403.webp",
-  "art": "assets/img/skin/306403.webp"
+  "art": "assets/img/skin/306403.webp",
+  "cat": "series",
+  "series": "반시대적 물결",
+  "seriesGroup": "게임 속 군상",
+  "grade": 3,
+  "version": null,
+  "order": 510008
  },
  {
   "id": 307001,
@@ -1911,7 +2949,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/307001.webp",
-  "art": "assets/img/skin/307001.webp"
+  "art": "assets/img/skin/307001.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.3",
+  "order": null
  },
  {
   "id": 307002,
@@ -1922,7 +2966,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/307002.webp",
-  "art": "assets/img/skin/307002.webp"
+  "art": "assets/img/skin/307002.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.3",
+  "order": null
  },
  {
   "id": 307003,
@@ -1933,7 +2983,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/307003.webp",
-  "art": "assets/img/skin/307003.webp"
+  "art": "assets/img/skin/307003.webp",
+  "cat": "series",
+  "series": "안개의 도시 선수권 대회",
+  "seriesGroup": "생명의 맥박",
+  "grade": 4,
+  "version": null,
+  "order": 510022
  },
  {
   "id": 307004,
@@ -1944,7 +3000,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/307004.webp",
-  "art": "assets/img/skin/307004.webp"
+  "art": "assets/img/skin/307004.webp",
+  "cat": "series",
+  "series": "반시대적 물결",
+  "seriesGroup": "게임 속 군상",
+  "grade": 3,
+  "version": null,
+  "order": 510053
  },
  {
   "id": 307101,
@@ -1955,7 +3017,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/307101.webp",
-  "art": "assets/img/skin/307101.webp"
+  "art": "assets/img/skin/307101.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.3",
+  "order": null
  },
  {
   "id": 307102,
@@ -1966,7 +3034,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/307102.webp",
-  "art": "assets/img/skin/307102.webp"
+  "art": "assets/img/skin/307102.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.3",
+  "order": null
  },
  {
   "id": 307103,
@@ -1977,7 +3051,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/307103.webp",
-  "art": "assets/img/skin/307103.webp"
+  "art": "assets/img/skin/307103.webp",
+  "cat": "series",
+  "series": "16 비트 향연",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 307201,
@@ -1988,7 +3068,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/307201.webp",
-  "art": "assets/img/skin/307201.webp"
+  "art": "assets/img/skin/307201.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.3",
+  "order": null
  },
  {
   "id": 307202,
@@ -1999,7 +3085,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/307202.webp",
-  "art": "assets/img/skin/307202.webp"
+  "art": "assets/img/skin/307202.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.3",
+  "order": null
  },
  {
   "id": 307203,
@@ -2010,7 +3102,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/307203.webp",
-  "art": "assets/img/skin/307203.webp"
+  "art": "assets/img/skin/307203.webp",
+  "cat": "series",
+  "series": "파울리스타나의 무더위",
+  "seriesGroup": "황금 휴일",
+  "grade": 3,
+  "version": null,
+  "order": 510028
  },
  {
   "id": 306601,
@@ -2021,7 +3119,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/306601.webp",
-  "art": "assets/img/skin/306601.webp"
+  "art": "assets/img/skin/306601.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.4",
+  "order": null
  },
  {
   "id": 306602,
@@ -2032,7 +3136,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/306602.webp",
-  "art": "assets/img/skin/306602.webp"
+  "art": "assets/img/skin/306602.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.4",
+  "order": null
  },
  {
   "id": 306603,
@@ -2043,7 +3153,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/306603.webp",
-  "art": "assets/img/skin/306603.webp"
+  "art": "assets/img/skin/306603.webp",
+  "cat": "series",
+  "series": "아리아의 순간",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 3,
+  "version": null,
+  "order": 510014
  },
  {
   "id": 306604,
@@ -2054,7 +3170,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/306604.webp",
-  "art": "assets/img/skin/306604.webp"
+  "art": "assets/img/skin/306604.webp",
+  "cat": "series",
+  "series": "파울리스타나의 무더위",
+  "seriesGroup": "황금 휴일",
+  "grade": 5,
+  "version": null,
+  "order": 510025
  },
  {
   "id": 306605,
@@ -2065,7 +3187,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/306605.webp",
-  "art": "assets/img/skin/306605.webp"
+  "art": "assets/img/skin/306605.webp",
+  "cat": "anniv",
+  "series": "세월의 책갈피",
+  "seriesGroup": "세월의 책갈피",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 307901,
@@ -2076,7 +3204,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/307901.webp",
-  "art": "assets/img/skin/307901.webp"
+  "art": "assets/img/skin/307901.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.4",
+  "order": null
  },
  {
   "id": 307902,
@@ -2087,7 +3221,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/307902.webp",
-  "art": "assets/img/skin/307902.webp"
+  "art": "assets/img/skin/307902.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.4",
+  "order": null
  },
  {
   "id": 307903,
@@ -2098,7 +3238,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/307903.webp",
-  "art": "assets/img/skin/307903.webp"
+  "art": "assets/img/skin/307903.webp",
+  "cat": "series",
+  "series": "16 비트 향연",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 3,
+  "version": null,
+  "order": 510021
  },
  {
   "id": 307904,
@@ -2109,7 +3255,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/307904.webp",
-  "art": "assets/img/skin/307904.webp"
+  "art": "assets/img/skin/307904.webp",
+  "cat": "collab",
+  "series": "제3행성의 이상한 여정",
+  "seriesGroup": "비의 장막 밖",
+  "grade": 4,
+  "version": null,
+  "order": 510043
  },
  {
   "id": 307905,
@@ -2120,7 +3272,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/307905.webp",
-  "art": "assets/img/skin/307905.webp"
+  "art": "assets/img/skin/307905.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 4,
+  "version": null,
+  "order": 510060
  },
  {
   "id": 307301,
@@ -2131,7 +3289,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/307301.webp",
-  "art": "assets/img/skin/307301.webp"
+  "art": "assets/img/skin/307301.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.5",
+  "order": null
  },
  {
   "id": 307302,
@@ -2142,7 +3306,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/307302.webp",
-  "art": "assets/img/skin/307302.webp"
+  "art": "assets/img/skin/307302.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.5",
+  "order": null
  },
  {
   "id": 307303,
@@ -2153,7 +3323,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/307303.webp",
-  "art": "assets/img/skin/307303.webp"
+  "art": "assets/img/skin/307303.webp",
+  "cat": "series",
+  "series": "16 비트 향연",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 4,
+  "version": null,
+  "order": 510020
  },
  {
   "id": 307304,
@@ -2164,7 +3340,13 @@
   "rare": 5,
   "gain": 10010,
   "portrait": "assets/img/char/307304.webp",
-  "art": "assets/img/skin/307304.webp"
+  "art": "assets/img/skin/307304.webp",
+  "cat": "dushuo",
+  "series": "오래된 책장의 새로운 이야기",
+  "seriesGroup": "도삭 절기",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 307401,
@@ -2175,7 +3357,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/307401.webp",
-  "art": "assets/img/skin/307401.webp"
+  "art": "assets/img/skin/307401.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.5",
+  "order": null
  },
  {
   "id": 307402,
@@ -2186,7 +3374,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/307402.webp",
-  "art": "assets/img/skin/307402.webp"
+  "art": "assets/img/skin/307402.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.5",
+  "order": null
  },
  {
   "id": 307403,
@@ -2197,7 +3391,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/307403.webp",
-  "art": "assets/img/skin/307403.webp"
+  "art": "assets/img/skin/307403.webp",
+  "cat": "series",
+  "series": "77번 국도를 따라",
+  "seriesGroup": "세계의 섬",
+  "grade": 3,
+  "version": null,
+  "order": 510024
  },
  {
   "id": 307501,
@@ -2208,7 +3408,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/307501.webp",
-  "art": "assets/img/skin/307501.webp"
+  "art": "assets/img/skin/307501.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.5",
+  "order": null
  },
  {
   "id": 307502,
@@ -2219,7 +3425,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/307502.webp",
-  "art": "assets/img/skin/307502.webp"
+  "art": "assets/img/skin/307502.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.5",
+  "order": null
  },
  {
   "id": 307503,
@@ -2230,7 +3442,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/307503.webp",
-  "art": "assets/img/skin/307503.webp"
+  "art": "assets/img/skin/307503.webp",
+  "cat": "series",
+  "series": "신세계의 바람",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 3,
+  "version": "3.3",
+  "order": 100000000
  },
  {
   "id": 307601,
@@ -2241,7 +3459,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/307601.webp",
-  "art": "assets/img/skin/307601.webp"
+  "art": "assets/img/skin/307601.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.5",
+  "order": null
  },
  {
   "id": 307602,
@@ -2252,7 +3476,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/307602.webp",
-  "art": "assets/img/skin/307602.webp"
+  "art": "assets/img/skin/307602.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.5",
+  "order": null
  },
  {
   "id": 308201,
@@ -2263,7 +3493,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/308201.webp",
-  "art": "assets/img/skin/308201.webp"
+  "art": "assets/img/skin/308201.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.6",
+  "order": null
  },
  {
   "id": 308202,
@@ -2274,7 +3510,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/308202.webp",
-  "art": "assets/img/skin/308202.webp"
+  "art": "assets/img/skin/308202.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.6",
+  "order": null
  },
  {
   "id": 308203,
@@ -2285,7 +3527,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/308203.webp",
-  "art": "assets/img/skin/308203.webp"
+  "art": "assets/img/skin/308203.webp",
+  "cat": "series",
+  "series": "파울리스타나의 무더위",
+  "seriesGroup": "황금 휴일",
+  "grade": 3,
+  "version": "3.6",
+  "order": 100000000
  },
  {
   "id": 308301,
@@ -2296,7 +3544,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/308301.webp",
-  "art": "assets/img/skin/308301.webp"
+  "art": "assets/img/skin/308301.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.6",
+  "order": null
  },
  {
   "id": 308302,
@@ -2307,7 +3561,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/308302.webp",
-  "art": "assets/img/skin/308302.webp"
+  "art": "assets/img/skin/308302.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.6",
+  "order": null
  },
  {
   "id": 308303,
@@ -2318,7 +3578,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/308303.webp",
-  "art": "assets/img/skin/308303.webp"
+  "art": "assets/img/skin/308303.webp",
+  "cat": "dushuo",
+  "series": "오래된 책장의 새로운 이야기",
+  "seriesGroup": "도삭 절기",
+  "grade": 5,
+  "version": null,
+  "order": 510035
  },
  {
   "id": 308401,
@@ -2329,7 +3595,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/308401.webp",
-  "art": "assets/img/skin/308401.webp"
+  "art": "assets/img/skin/308401.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.6",
+  "order": null
  },
  {
   "id": 308402,
@@ -2340,7 +3612,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/308402.webp",
-  "art": "assets/img/skin/308402.webp"
+  "art": "assets/img/skin/308402.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.6",
+  "order": null
  },
  {
   "id": 308404,
@@ -2351,7 +3629,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/308404.webp",
-  "art": "assets/img/skin/308404.webp"
+  "art": "assets/img/skin/308404.webp",
+  "cat": "collab",
+  "series": "제3행성의 이상한 여정",
+  "seriesGroup": "비의 장막 밖",
+  "grade": 3,
+  "version": null,
+  "order": 510032
  },
  {
   "id": 306501,
@@ -2362,7 +3646,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/306501.webp",
-  "art": "assets/img/skin/306501.webp"
+  "art": "assets/img/skin/306501.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.7",
+  "order": null
  },
  {
   "id": 306502,
@@ -2373,7 +3663,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/306502.webp",
-  "art": "assets/img/skin/306502.webp"
+  "art": "assets/img/skin/306502.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.7",
+  "order": null
  },
  {
   "id": 306503,
@@ -2384,7 +3680,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/306503.webp",
-  "art": "assets/img/skin/306503.webp"
+  "art": "assets/img/skin/306503.webp",
+  "cat": "series",
+  "series": "파울리스타나의 무더위",
+  "seriesGroup": "황금 휴일",
+  "grade": 4,
+  "version": null,
+  "order": 510027
  },
  {
   "id": 306504,
@@ -2395,7 +3697,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/306504.webp",
-  "art": "assets/img/skin/306504.webp"
+  "art": "assets/img/skin/306504.webp",
+  "cat": "collab",
+  "series": "올림포스를 나는 독수리처럼",
+  "seriesGroup": "비의 장막 밖",
+  "grade": 4,
+  "version": null,
+  "order": 510048
  },
  {
   "id": 308101,
@@ -2406,7 +3714,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/308101.webp",
-  "art": "assets/img/skin/308101.webp"
+  "art": "assets/img/skin/308101.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.7",
+  "order": null
  },
  {
   "id": 308102,
@@ -2417,7 +3731,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/308102.webp",
-  "art": "assets/img/skin/308102.webp"
+  "art": "assets/img/skin/308102.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.7",
+  "order": null
  },
  {
   "id": 308103,
@@ -2428,7 +3748,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/308103.webp",
-  "art": "assets/img/skin/308103.webp"
+  "art": "assets/img/skin/308103.webp",
+  "cat": "series",
+  "series": "77번 국도를 따라",
+  "seriesGroup": "세계의 섬",
+  "grade": 4,
+  "version": null,
+  "order": 510023
  },
  {
   "id": 308104,
@@ -2439,7 +3765,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/308104.webp",
-  "art": "assets/img/skin/308104.webp"
+  "art": "assets/img/skin/308104.webp",
+  "cat": "series",
+  "series": "반시대적 물결",
+  "seriesGroup": "게임 속 군상",
+  "grade": 4,
+  "version": null,
+  "order": 510052
  },
  {
   "id": 307701,
@@ -2450,7 +3782,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/307701.webp",
-  "art": "assets/img/skin/307701.webp"
+  "art": "assets/img/skin/307701.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.8",
+  "order": null
  },
  {
   "id": 307702,
@@ -2461,7 +3799,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/307702.webp",
-  "art": "assets/img/skin/307702.webp"
+  "art": "assets/img/skin/307702.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.8",
+  "order": null
  },
  {
   "id": 307703,
@@ -2472,7 +3816,13 @@
   "rare": 5,
   "gain": 12522,
   "portrait": "assets/img/char/307703.webp",
-  "art": "assets/img/skin/307703.webp"
+  "art": "assets/img/skin/307703.webp",
+  "cat": "dushuo",
+  "series": "오래된 책장의 새로운 이야기",
+  "seriesGroup": "도삭 절기",
+  "grade": 3,
+  "version": "2.5",
+  "order": 100000000
  },
  {
   "id": 307704,
@@ -2483,7 +3833,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/307704.webp",
-  "art": "assets/img/skin/307704.webp"
+  "art": "assets/img/skin/307704.webp",
+  "cat": "series",
+  "series": "기괴한 불면의 밤",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 4,
+  "version": null,
+  "order": 510050
  },
  {
   "id": 307705,
@@ -2494,7 +3850,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/307705.webp",
-  "art": "assets/img/skin/307705.webp"
+  "art": "assets/img/skin/307705.webp",
+  "cat": "anniv",
+  "series": "세월의 책갈피",
+  "seriesGroup": "세월의 책갈피",
+  "grade": 0,
+  "version": null,
+  "order": null
  },
  {
   "id": 307801,
@@ -2505,7 +3867,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/307801.webp",
-  "art": "assets/img/skin/307801.webp"
+  "art": "assets/img/skin/307801.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.8",
+  "order": null
  },
  {
   "id": 307802,
@@ -2516,7 +3884,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/307802.webp",
-  "art": "assets/img/skin/307802.webp"
+  "art": "assets/img/skin/307802.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.8",
+  "order": null
  },
  {
   "id": 308701,
@@ -2527,7 +3901,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/308701.webp",
-  "art": "assets/img/skin/308701.webp"
+  "art": "assets/img/skin/308701.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.8",
+  "order": null
  },
  {
   "id": 308702,
@@ -2538,7 +3918,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/308702.webp",
-  "art": "assets/img/skin/308702.webp"
+  "art": "assets/img/skin/308702.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.8",
+  "order": null
  },
  {
   "id": 308703,
@@ -2549,7 +3935,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/308703.webp",
-  "art": "assets/img/skin/308703.webp"
+  "art": "assets/img/skin/308703.webp",
+  "cat": "series",
+  "series": "파울리스타나의 무더위",
+  "seriesGroup": "황금 휴일",
+  "grade": 4,
+  "version": null,
+  "order": 510026
  },
  {
   "id": 308704,
@@ -2560,7 +3952,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/308704.webp",
-  "art": "assets/img/skin/308704.webp"
+  "art": "assets/img/skin/308704.webp",
+  "cat": "collab",
+  "series": "올림포스를 나는 독수리처럼",
+  "seriesGroup": "비의 장막 밖",
+  "grade": 4,
+  "version": null,
+  "order": 510047
  },
  {
   "id": 308601,
@@ -2571,7 +3969,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/308601.webp",
-  "art": "assets/img/skin/308601.webp"
+  "art": "assets/img/skin/308601.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.9",
+  "order": null
  },
  {
   "id": 308602,
@@ -2582,7 +3986,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/308602.webp",
-  "art": "assets/img/skin/308602.webp"
+  "art": "assets/img/skin/308602.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.9",
+  "order": null
  },
  {
   "id": 308603,
@@ -2593,7 +4003,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/308603.webp",
-  "art": "assets/img/skin/308603.webp"
+  "art": "assets/img/skin/308603.webp",
+  "cat": "series",
+  "series": "64칸의 흑백",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 5,
+  "version": "2.8",
+  "order": 100000000
  },
  {
   "id": 308801,
@@ -2604,7 +4020,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/308801.webp",
-  "art": "assets/img/skin/308801.webp"
+  "art": "assets/img/skin/308801.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.5",
+  "order": null
  },
  {
   "id": 308802,
@@ -2615,7 +4037,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/308802.webp",
-  "art": "assets/img/skin/308802.webp"
+  "art": "assets/img/skin/308802.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.5",
+  "order": null
  },
  {
   "id": 308803,
@@ -2626,7 +4054,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/308803.webp",
-  "art": "assets/img/skin/308803.webp"
+  "art": "assets/img/skin/308803.webp",
+  "cat": "series",
+  "series": "안개의 도시 선수권 대회",
+  "seriesGroup": "생명의 맥박",
+  "grade": 3,
+  "version": null,
+  "order": 510030
  },
  {
   "id": 308804,
@@ -2637,7 +4071,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/308804.webp",
-  "art": "assets/img/skin/308804.webp"
+  "art": "assets/img/skin/308804.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 308001,
@@ -2648,7 +4088,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/308001.webp",
-  "art": "assets/img/skin/308001.webp"
+  "art": "assets/img/skin/308001.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.9",
+  "order": null
  },
  {
   "id": 308002,
@@ -2659,7 +4105,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/308002.webp",
-  "art": "assets/img/skin/308002.webp"
+  "art": "assets/img/skin/308002.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "1.9",
+  "order": null
  },
  {
   "id": 308003,
@@ -2670,7 +4122,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/308003.webp",
-  "art": "assets/img/skin/308003.webp"
+  "art": "assets/img/skin/308003.webp",
+  "cat": "series",
+  "series": "‘침몰하지 않는’ 배",
+  "seriesGroup": "돌아온 클래식",
+  "grade": 4,
+  "version": null,
+  "order": 510033
  },
  {
   "id": 308004,
@@ -2681,7 +4139,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/308004.webp",
-  "art": "assets/img/skin/308004.webp"
+  "art": "assets/img/skin/308004.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 309101,
@@ -2692,7 +4156,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/309101.webp",
-  "art": "assets/img/skin/309101.webp"
+  "art": "assets/img/skin/309101.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.5",
+  "order": null
  },
  {
   "id": 309102,
@@ -2703,7 +4173,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/309102.webp",
-  "art": "assets/img/skin/309102.webp"
+  "art": "assets/img/skin/309102.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.5",
+  "order": null
  },
  {
   "id": 309401,
@@ -2714,7 +4190,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/309401.webp",
-  "art": "assets/img/skin/309401.webp"
+  "art": "assets/img/skin/309401.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.0",
+  "order": null
  },
  {
   "id": 309402,
@@ -2725,7 +4207,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/309402.webp",
-  "art": "assets/img/skin/309402.webp"
+  "art": "assets/img/skin/309402.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.0",
+  "order": null
  },
  {
   "id": 309403,
@@ -2736,7 +4224,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/309403.webp",
-  "art": "assets/img/skin/309403.webp"
+  "art": "assets/img/skin/309403.webp",
+  "cat": "series",
+  "series": "올리브 가지 전선",
+  "seriesGroup": "게임 속 군상",
+  "grade": 4,
+  "version": null,
+  "order": 510045
  },
  {
   "id": 309501,
@@ -2747,7 +4241,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/309501.webp",
-  "art": "assets/img/skin/309501.webp"
+  "art": "assets/img/skin/309501.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.0",
+  "order": null
  },
  {
   "id": 309502,
@@ -2758,7 +4258,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/309502.webp",
-  "art": "assets/img/skin/309502.webp"
+  "art": "assets/img/skin/309502.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.0",
+  "order": null
  },
  {
   "id": 309503,
@@ -2769,7 +4275,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/309503.webp",
-  "art": "assets/img/skin/309503.webp"
+  "art": "assets/img/skin/309503.webp",
+  "cat": "series",
+  "series": "‘침몰하지 않는’ 배",
+  "seriesGroup": "돌아온 클래식",
+  "grade": 3,
+  "version": "3.8",
+  "order": 100000000
  },
  {
   "id": 309504,
@@ -2780,7 +4292,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/309504.webp",
-  "art": "assets/img/skin/309504.webp"
+  "art": "assets/img/skin/309504.webp",
+  "cat": "anniv",
+  "series": "세월의 책갈피",
+  "seriesGroup": "세월의 책갈피",
+  "grade": 4,
+  "version": null,
+  "order": 510056
  },
  {
   "id": 309601,
@@ -2791,7 +4309,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/309601.webp",
-  "art": "assets/img/skin/309601.webp"
+  "art": "assets/img/skin/309601.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.0",
+  "order": null
  },
  {
   "id": 309602,
@@ -2802,7 +4326,13 @@
   "rare": 4,
   "gain": 13211,
   "portrait": "assets/img/char/309602.webp",
-  "art": "assets/img/skin/309602.webp"
+  "art": "assets/img/skin/309602.webp",
+  "cat": "event",
+  "series": "반시대적 물결",
+  "seriesGroup": "게임 속 군상",
+  "grade": 1,
+  "version": "3.2",
+  "order": null
  },
  {
   "id": 309701,
@@ -2813,7 +4343,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/309701.webp",
-  "art": "assets/img/skin/309701.webp"
+  "art": "assets/img/skin/309701.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.1",
+  "order": null
  },
  {
   "id": 309702,
@@ -2824,7 +4360,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/309702.webp",
-  "art": "assets/img/skin/309702.webp"
+  "art": "assets/img/skin/309702.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.1",
+  "order": null
  },
  {
   "id": 309703,
@@ -2835,7 +4377,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/309703.webp",
-  "art": "assets/img/skin/309703.webp"
+  "art": "assets/img/skin/309703.webp",
+  "cat": "series",
+  "series": "1987 우주 산책",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 3,
+  "version": null,
+  "order": 510941
  },
  {
   "id": 309801,
@@ -2846,7 +4394,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/309801.webp",
-  "art": "assets/img/skin/309801.webp"
+  "art": "assets/img/skin/309801.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.1",
+  "order": null
  },
  {
   "id": 309802,
@@ -2857,7 +4411,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/309802.webp",
-  "art": "assets/img/skin/309802.webp"
+  "art": "assets/img/skin/309802.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.1",
+  "order": null
  },
  {
   "id": 309803,
@@ -2868,7 +4428,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/309803.webp",
-  "art": "assets/img/skin/309803.webp"
+  "art": "assets/img/skin/309803.webp",
+  "cat": "dushuo",
+  "series": "오래된 책장의 새로운 이야기",
+  "seriesGroup": "도삭 절기",
+  "grade": 4,
+  "version": null,
+  "order": 510037
  },
  {
   "id": 309804,
@@ -2879,7 +4445,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/309804.webp",
-  "art": "assets/img/skin/309804.webp"
+  "art": "assets/img/skin/309804.webp",
+  "cat": "anniv",
+  "series": "세월의 책갈피",
+  "seriesGroup": "세월의 책갈피",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 309901,
@@ -2890,7 +4462,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/309901.webp",
-  "art": "assets/img/skin/309901.webp"
+  "art": "assets/img/skin/309901.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.1",
+  "order": null
  },
  {
   "id": 309902,
@@ -2901,7 +4479,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/309902.webp",
-  "art": "assets/img/skin/309902.webp"
+  "art": "assets/img/skin/309902.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.1",
+  "order": null
  },
  {
   "id": 310001,
@@ -2912,7 +4496,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/310001.webp",
-  "art": "assets/img/skin/310001.webp"
+  "art": "assets/img/skin/310001.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.2",
+  "order": null
  },
  {
   "id": 310002,
@@ -2923,7 +4513,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/310002.webp",
-  "art": "assets/img/skin/310002.webp"
+  "art": "assets/img/skin/310002.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.2",
+  "order": null
  },
  {
   "id": 310003,
@@ -2934,7 +4530,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/310003.webp",
-  "art": "assets/img/skin/310003.webp"
+  "art": "assets/img/skin/310003.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 5,
+  "version": null,
+  "order": 510051
  },
  {
   "id": 310101,
@@ -2945,7 +4547,13 @@
   "rare": 3,
   "gain": 0,
   "portrait": "assets/img/char/310101.webp",
-  "art": "assets/img/skin/310101.webp"
+  "art": "assets/img/skin/310101.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.2",
+  "order": null
  },
  {
   "id": 310102,
@@ -2956,7 +4564,13 @@
   "rare": 3,
   "gain": 1,
   "portrait": "assets/img/char/310102.webp",
-  "art": "assets/img/skin/310102.webp"
+  "art": "assets/img/skin/310102.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.2",
+  "order": null
  },
  {
   "id": 310103,
@@ -2967,7 +4581,13 @@
   "rare": 4,
   "gain": 13608,
   "portrait": "assets/img/char/310103.webp",
-  "art": "assets/img/skin/310103.webp"
+  "art": "assets/img/skin/310103.webp",
+  "cat": "event",
+  "series": "신세계의 바람",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 1,
+  "version": "3.6",
+  "order": null
  },
  {
   "id": 310201,
@@ -2978,7 +4598,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/310201.webp",
-  "art": "assets/img/skin/310201.webp"
+  "art": "assets/img/skin/310201.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.2",
+  "order": null
  },
  {
   "id": 310202,
@@ -2989,7 +4615,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/310202.webp",
-  "art": "assets/img/skin/310202.webp"
+  "art": "assets/img/skin/310202.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.2",
+  "order": null
  },
  {
   "id": 310203,
@@ -3000,7 +4632,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/310203.webp",
-  "art": "assets/img/skin/310203.webp"
+  "art": "assets/img/skin/310203.webp",
+  "cat": "series",
+  "series": "비이성의 미궁",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 3,
+  "version": null,
+  "order": 510039
  },
  {
   "id": 310301,
@@ -3011,7 +4649,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/310301.webp",
-  "art": "assets/img/skin/310301.webp"
+  "art": "assets/img/skin/310301.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.2",
+  "order": null
  },
  {
   "id": 310302,
@@ -3022,7 +4666,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/310302.webp",
-  "art": "assets/img/skin/310302.webp"
+  "art": "assets/img/skin/310302.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.2",
+  "order": null
  },
  {
   "id": 310401,
@@ -3033,7 +4683,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/310401.webp",
-  "art": "assets/img/skin/310401.webp"
+  "art": "assets/img/skin/310401.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.3",
+  "order": null
  },
  {
   "id": 310402,
@@ -3044,7 +4700,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/310402.webp",
-  "art": "assets/img/skin/310402.webp"
+  "art": "assets/img/skin/310402.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.3",
+  "order": null
  },
  {
   "id": 310403,
@@ -3055,7 +4717,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/310403.webp",
-  "art": "assets/img/skin/310403.webp"
+  "art": "assets/img/skin/310403.webp",
+  "cat": "series",
+  "series": "비이성의 미궁",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 4,
+  "version": null,
+  "order": 510038
  },
  {
   "id": 310404,
@@ -3066,7 +4734,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/310404.webp",
-  "art": "assets/img/skin/310404.webp"
+  "art": "assets/img/skin/310404.webp",
+  "cat": "anniv",
+  "series": "세월의 책갈피",
+  "seriesGroup": "세월의 책갈피",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 310501,
@@ -3077,7 +4751,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/310501.webp",
-  "art": "assets/img/skin/310501.webp"
+  "art": "assets/img/skin/310501.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.3",
+  "order": null
  },
  {
   "id": 310502,
@@ -3088,7 +4768,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/310502.webp",
-  "art": "assets/img/skin/310502.webp"
+  "art": "assets/img/skin/310502.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.3",
+  "order": null
  },
  {
   "id": 310503,
@@ -3099,7 +4785,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/310503.webp",
-  "art": "assets/img/skin/310503.webp"
+  "art": "assets/img/skin/310503.webp",
+  "cat": "series",
+  "series": "올리브 가지 전선",
+  "seriesGroup": "게임 속 군상",
+  "grade": 4,
+  "version": null,
+  "order": 510044
  },
  {
   "id": 310504,
@@ -3110,7 +4802,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/310504.webp",
-  "art": "assets/img/skin/310504.webp"
+  "art": "assets/img/skin/310504.webp",
+  "cat": "collab",
+  "series": "조립식 미래",
+  "seriesGroup": "비의 장막 밖",
+  "grade": 0,
+  "version": null,
+  "order": 510068
  },
  {
   "id": 310601,
@@ -3121,7 +4819,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/310601.webp",
-  "art": "assets/img/skin/310601.webp"
+  "art": "assets/img/skin/310601.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.3",
+  "order": null
  },
  {
   "id": 310602,
@@ -3132,7 +4836,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/310602.webp",
-  "art": "assets/img/skin/310602.webp"
+  "art": "assets/img/skin/310602.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.3",
+  "order": null
  },
  {
   "id": 310604,
@@ -3143,7 +4853,13 @@
   "rare": 4,
   "gain": 138507,
   "portrait": "assets/img/char/310604.webp",
-  "art": "assets/img/skin/310604.webp"
+  "art": "assets/img/skin/310604.webp",
+  "cat": "collab",
+  "series": "조립식 미래",
+  "seriesGroup": "비의 장막 밖",
+  "grade": 0,
+  "version": "3.8",
+  "order": null
  },
  {
   "id": 310801,
@@ -3154,7 +4870,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/310801.webp",
-  "art": "assets/img/skin/310801.webp"
+  "art": "assets/img/skin/310801.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.4",
+  "order": null
  },
  {
   "id": 310802,
@@ -3165,7 +4887,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/310802.webp",
-  "art": "assets/img/skin/310802.webp"
+  "art": "assets/img/skin/310802.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.4",
+  "order": null
  },
  {
   "id": 310803,
@@ -3176,7 +4904,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/310803.webp",
-  "art": "assets/img/skin/310803.webp"
+  "art": "assets/img/skin/310803.webp",
+  "cat": "series",
+  "series": "1987 우주 산책",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 4,
+  "version": null,
+  "order": 510940
  },
  {
   "id": 310901,
@@ -3187,7 +4921,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/310901.webp",
-  "art": "assets/img/skin/310901.webp"
+  "art": "assets/img/skin/310901.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.4",
+  "order": null
  },
  {
   "id": 310902,
@@ -3198,7 +4938,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/310902.webp",
-  "art": "assets/img/skin/310902.webp"
+  "art": "assets/img/skin/310902.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.4",
+  "order": null
  },
  {
   "id": 310903,
@@ -3209,7 +4955,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/310903.webp",
-  "art": "assets/img/skin/310903.webp"
+  "art": "assets/img/skin/310903.webp",
+  "cat": "collab",
+  "series": "제3행성의 이상한 여정",
+  "seriesGroup": "비의 장막 밖",
+  "grade": 3,
+  "version": null,
+  "order": 510042
  },
  {
   "id": 310905,
@@ -3220,7 +4972,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/310905.webp",
-  "art": "assets/img/skin/310905.webp"
+  "art": "assets/img/skin/310905.webp",
+  "cat": "series",
+  "series": "삶과 죽음의 문답",
+  "seriesGroup": "커튼의 안쪽",
+  "grade": 4,
+  "version": null,
+  "order": 510067
  },
  {
   "id": 311001,
@@ -3231,7 +4989,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/311001.webp",
-  "art": "assets/img/skin/311001.webp"
+  "art": "assets/img/skin/311001.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.5",
+  "order": null
  },
  {
   "id": 311002,
@@ -3242,7 +5006,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/311002.webp",
-  "art": "assets/img/skin/311002.webp"
+  "art": "assets/img/skin/311002.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.5",
+  "order": null
  },
  {
   "id": 311003,
@@ -3253,7 +5023,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/311003.webp",
-  "art": "assets/img/skin/311003.webp"
+  "art": "assets/img/skin/311003.webp",
+  "cat": "dushuo",
+  "series": "속세의 손님",
+  "seriesGroup": "도삭 절기",
+  "grade": 5,
+  "version": null,
+  "order": 510057
  },
  {
   "id": 311101,
@@ -3264,7 +5040,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/311101.webp",
-  "art": "assets/img/skin/311101.webp"
+  "art": "assets/img/skin/311101.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.5",
+  "order": null
  },
  {
   "id": 311102,
@@ -3275,7 +5057,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/311102.webp",
-  "art": "assets/img/skin/311102.webp"
+  "art": "assets/img/skin/311102.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.5",
+  "order": null
  },
  {
   "id": 311103,
@@ -3286,7 +5074,13 @@
   "rare": 5,
   "gain": 13441,
   "portrait": "assets/img/char/311103.webp",
-  "art": "assets/img/skin/311103.webp"
+  "art": "assets/img/skin/311103.webp",
+  "cat": "dushuo",
+  "series": "속세의 손님",
+  "seriesGroup": "도삭 절기",
+  "grade": 3,
+  "version": "3.4",
+  "order": null
  },
  {
   "id": 311201,
@@ -3297,7 +5091,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/311201.webp",
-  "art": "assets/img/skin/311201.webp"
+  "art": "assets/img/skin/311201.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.5",
+  "order": null
  },
  {
   "id": 311202,
@@ -3308,7 +5108,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/311202.webp",
-  "art": "assets/img/skin/311202.webp"
+  "art": "assets/img/skin/311202.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.5",
+  "order": null
  },
  {
   "id": 311401,
@@ -3319,7 +5125,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/311401.webp",
-  "art": "assets/img/skin/311401.webp"
+  "art": "assets/img/skin/311401.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.6",
+  "order": null
  },
  {
   "id": 311402,
@@ -3330,7 +5142,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/311402.webp",
-  "art": "assets/img/skin/311402.webp"
+  "art": "assets/img/skin/311402.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.6",
+  "order": null
  },
  {
   "id": 311403,
@@ -3341,7 +5159,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/311403.webp",
-  "art": "assets/img/skin/311403.webp"
+  "art": "assets/img/skin/311403.webp",
+  "cat": "series",
+  "series": "64칸의 흑백",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 4,
+  "version": "2.8",
+  "order": 100000000
  },
  {
   "id": 311404,
@@ -3352,7 +5176,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/311404.webp",
-  "art": "assets/img/skin/311404.webp"
+  "art": "assets/img/skin/311404.webp",
+  "cat": "anniv",
+  "series": "세월의 책갈피",
+  "seriesGroup": "세월의 책갈피",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 311301,
@@ -3363,7 +5193,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/311301.webp",
-  "art": "assets/img/skin/311301.webp"
+  "art": "assets/img/skin/311301.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.6",
+  "order": null
  },
  {
   "id": 311302,
@@ -3374,7 +5210,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/311302.webp",
-  "art": "assets/img/skin/311302.webp"
+  "art": "assets/img/skin/311302.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.6",
+  "order": null
  },
  {
   "id": 311303,
@@ -3385,7 +5227,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/311303.webp",
-  "art": "assets/img/skin/311303.webp"
+  "art": "assets/img/skin/311303.webp",
+  "cat": "series",
+  "series": "기괴한 불면의 밤",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 4,
+  "version": null,
+  "order": 510049
  },
  {
   "id": 311601,
@@ -3396,7 +5244,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/311601.webp",
-  "art": "assets/img/skin/311601.webp"
+  "art": "assets/img/skin/311601.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.7",
+  "order": null
  },
  {
   "id": 311602,
@@ -3407,7 +5261,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/311602.webp",
-  "art": "assets/img/skin/311602.webp"
+  "art": "assets/img/skin/311602.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.7",
+  "order": null
  },
  {
   "id": 311603,
@@ -3418,7 +5278,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/311603.webp",
-  "art": "assets/img/skin/311603.webp"
+  "art": "assets/img/skin/311603.webp",
+  "cat": "collab",
+  "series": "올림포스를 나는 독수리처럼",
+  "seriesGroup": "비의 장막 밖",
+  "grade": 4,
+  "version": null,
+  "order": 510046
  },
  {
   "id": 311604,
@@ -3429,7 +5295,13 @@
   "rare": 5,
   "gain": 4,
   "portrait": "assets/img/char/311604.webp",
-  "art": "assets/img/skin/311604.webp"
+  "art": "assets/img/skin/311604.webp",
+  "cat": "anniv",
+  "series": "세월의 책갈피",
+  "seriesGroup": "세월의 책갈피",
+  "grade": 3,
+  "version": null,
+  "order": null
  },
  {
   "id": 311701,
@@ -3440,7 +5312,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/311701.webp",
-  "art": "assets/img/skin/311701.webp"
+  "art": "assets/img/skin/311701.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.7",
+  "order": null
  },
  {
   "id": 311702,
@@ -3451,7 +5329,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/311702.webp",
-  "art": "assets/img/skin/311702.webp"
+  "art": "assets/img/skin/311702.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.7",
+  "order": null
  },
  {
   "id": 311703,
@@ -3462,7 +5346,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/311703.webp",
-  "art": "assets/img/skin/311703.webp"
+  "art": "assets/img/skin/311703.webp",
+  "cat": "series",
+  "series": "64칸의 흑백",
+  "seriesGroup": "코스튬 집합론",
+  "grade": 3,
+  "version": "2.8",
+  "order": 100000000
  },
  {
   "id": 311704,
@@ -3473,7 +5363,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/311704.webp",
-  "art": "assets/img/skin/311704.webp"
+  "art": "assets/img/skin/311704.webp",
+  "cat": "series",
+  "series": "색채의 지각",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 4,
+  "version": null,
+  "order": 510061
  },
  {
   "id": 311801,
@@ -3484,7 +5380,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/311801.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.7",
+  "order": null
  },
  {
   "id": 311802,
@@ -3495,7 +5397,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/311802.webp",
-  "art": "assets/img/skin/311802.webp"
+  "art": "assets/img/skin/311802.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.7",
+  "order": null
  },
  {
   "id": 311803,
@@ -3506,7 +5414,13 @@
   "rare": 4,
   "gain": 13720,
   "portrait": "assets/img/char/311803.webp",
-  "art": "assets/img/skin/311803.webp"
+  "art": "assets/img/skin/311803.webp",
+  "cat": "event",
+  "series": "삶과 죽음의 문답",
+  "seriesGroup": "커튼의 안쪽",
+  "grade": 2,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 310701,
@@ -3517,7 +5431,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/310701.webp",
-  "art": "assets/img/skin/310701.webp"
+  "art": "assets/img/skin/310701.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.2",
+  "order": null
  },
  {
   "id": 310702,
@@ -3528,7 +5448,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/310702.webp",
-  "art": "assets/img/skin/310702.webp"
+  "art": "assets/img/skin/310702.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.2",
+  "order": null
  },
  {
   "id": 310703,
@@ -3539,7 +5465,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/310703.webp",
-  "art": "assets/img/skin/310703.webp"
+  "art": "assets/img/skin/310703.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 4,
+  "version": "2.8",
+  "order": 100000000
  },
  {
   "id": 311501,
@@ -3550,7 +5482,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/311501.webp",
-  "art": "assets/img/skin/311501.webp"
+  "art": "assets/img/skin/311501.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.6",
+  "order": null
  },
  {
   "id": 311502,
@@ -3561,7 +5499,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/311502.webp",
-  "art": "assets/img/skin/311502.webp"
+  "art": "assets/img/skin/311502.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.6",
+  "order": null
  },
  {
   "id": 312001,
@@ -3572,7 +5516,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/312001.webp",
-  "art": "assets/img/skin/312001.webp"
+  "art": "assets/img/skin/312001.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.8",
+  "order": null
  },
  {
   "id": 312002,
@@ -3583,7 +5533,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/312002.webp",
-  "art": "assets/img/skin/312002.webp"
+  "art": "assets/img/skin/312002.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.8",
+  "order": null
  },
  {
   "id": 312003,
@@ -3594,7 +5550,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/312003.webp",
-  "art": "assets/img/skin/312003.webp"
+  "art": "assets/img/skin/312003.webp",
+  "cat": "series",
+  "series": "삶과 죽음의 문답",
+  "seriesGroup": "커튼의 안쪽",
+  "grade": 5,
+  "version": null,
+  "order": 510066
  },
  {
   "id": 312101,
@@ -3605,7 +5567,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/312101.webp",
-  "art": "assets/img/skin/312101.webp"
+  "art": "assets/img/skin/312101.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.8",
+  "order": null
  },
  {
   "id": 312102,
@@ -3616,7 +5584,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/312102.webp",
-  "art": "assets/img/skin/312102.webp"
+  "art": "assets/img/skin/312102.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.8",
+  "order": null
  },
  {
   "id": 312103,
@@ -3627,7 +5601,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/312103.webp",
-  "art": "assets/img/skin/312103.webp"
+  "art": "assets/img/skin/312103.webp",
+  "cat": "series",
+  "series": "철과 고성의 노래",
+  "seriesGroup": "세계의 섬",
+  "grade": 4,
+  "version": null,
+  "order": 510055
  },
  {
   "id": 312601,
@@ -3638,7 +5618,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/312601.webp",
-  "art": "assets/img/skin/312601.webp"
+  "art": "assets/img/skin/312601.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.0",
+  "order": null
  },
  {
   "id": 312602,
@@ -3649,7 +5635,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/312602.webp",
-  "art": "assets/img/skin/312602.webp"
+  "art": "assets/img/skin/312602.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.0",
+  "order": null
  },
  {
   "id": 312603,
@@ -3660,7 +5652,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/312603.webp",
-  "art": "assets/img/skin/312603.webp"
+  "art": "assets/img/skin/312603.webp",
+  "cat": "series",
+  "series": "철과 고성의 노래",
+  "seriesGroup": "세계의 섬",
+  "grade": 4,
+  "version": null,
+  "order": 510054
  },
  {
   "id": 312606,
@@ -3671,7 +5669,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/312606.webp",
-  "art": "assets/img/skin/312606.webp"
+  "art": "assets/img/skin/312606.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 0,
+  "version": null,
+  "order": 510071
  },
  {
   "id": 312801,
@@ -3682,7 +5686,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/312801.webp",
-  "art": "assets/img/skin/312801.webp"
+  "art": "assets/img/skin/312801.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.0",
+  "order": null
  },
  {
   "id": 312802,
@@ -3693,7 +5703,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/312802.webp",
-  "art": "assets/img/skin/312802.webp"
+  "art": "assets/img/skin/312802.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.0",
+  "order": null
  },
  {
   "id": 312803,
@@ -3704,7 +5720,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/312803.webp",
-  "art": "assets/img/skin/312803.webp"
+  "art": "assets/img/skin/312803.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 3,
+  "version": null,
+  "order": 510064
  },
  {
   "id": 312201,
@@ -3715,7 +5737,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/312201.webp",
-  "art": "assets/img/skin/312201.webp"
+  "art": "assets/img/skin/312201.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.8",
+  "order": null
  },
  {
   "id": 312202,
@@ -3726,7 +5754,13 @@
   "rare": 4,
   "gain": 1,
   "portrait": "assets/img/char/312202.webp",
-  "art": "assets/img/skin/312202.webp"
+  "art": "assets/img/skin/312202.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.8",
+  "order": null
  },
  {
   "id": 312301,
@@ -3737,7 +5771,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/312301.webp",
-  "art": "assets/img/skin/312301.webp"
+  "art": "assets/img/skin/312301.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.8",
+  "order": null
  },
  {
   "id": 312302,
@@ -3748,7 +5788,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/312302.webp",
-  "art": "assets/img/skin/312302.webp"
+  "art": "assets/img/skin/312302.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.8",
+  "order": null
  },
  {
   "id": 312401,
@@ -3759,7 +5805,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/312401.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.8",
+  "order": null
  },
  {
   "id": 312402,
@@ -3770,7 +5822,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/312402.webp",
-  "art": "assets/img/skin/312402.webp"
+  "art": "assets/img/skin/312402.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "2.8",
+  "order": null
  },
  {
   "id": 312501,
@@ -3781,7 +5839,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/312501.webp",
-  "art": "assets/img/skin/312501.webp"
+  "art": "assets/img/skin/312501.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.1",
+  "order": null
  },
  {
   "id": 312502,
@@ -3792,7 +5856,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/312502.webp",
-  "art": "assets/img/skin/312502.webp"
+  "art": "assets/img/skin/312502.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.1",
+  "order": null
  },
  {
   "id": 312503,
@@ -3803,7 +5873,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/312503.webp",
-  "art": "assets/img/skin/312503.webp"
+  "art": "assets/img/skin/312503.webp",
+  "cat": "dushuo",
+  "series": "속세의 손님",
+  "seriesGroup": "도삭 절기",
+  "grade": 4,
+  "version": null,
+  "order": 510059
  },
  {
   "id": 313201,
@@ -3814,7 +5890,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/313201.webp",
-  "art": "assets/img/skin/313201.webp"
+  "art": "assets/img/skin/313201.webp",
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.1",
+  "order": null
  },
  {
   "id": 313202,
@@ -3825,7 +5907,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/313202.webp",
-  "art": "assets/img/skin/313202.webp"
+  "art": "assets/img/skin/313202.webp",
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.1",
+  "order": null
  },
  {
   "id": 313203,
@@ -3836,7 +5924,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/313203.webp",
-  "art": "assets/img/skin/313203.webp"
+  "art": "assets/img/skin/313203.webp",
+  "cat": "series",
+  "series": "색채의 지각",
+  "seriesGroup": "예술을 초월한 서사",
+  "grade": 4,
+  "version": null,
+  "order": 510062
  },
  {
   "id": 313401,
@@ -3847,7 +5941,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/313401.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.2",
+  "order": null
  },
  {
   "id": 313402,
@@ -3858,7 +5958,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/313402.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.2",
+  "order": null
  },
  {
   "id": 313501,
@@ -3869,7 +5975,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/313501.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.2",
+  "order": null
  },
  {
   "id": 313502,
@@ -3880,7 +5992,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/313502.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.2",
+  "order": null
  },
  {
   "id": 312701,
@@ -3891,7 +6009,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/312701.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.3",
+  "order": null
  },
  {
   "id": 312702,
@@ -3902,7 +6026,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/312702.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.3",
+  "order": null
  },
  {
   "id": 312703,
@@ -3913,7 +6043,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/312703.webp",
-  "art": "assets/img/skin/312703.webp"
+  "art": "assets/img/skin/312703.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 4,
+  "version": null,
+  "order": 510063
  },
  {
   "id": 309201,
@@ -3924,7 +6060,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/309201.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.3",
+  "order": null
  },
  {
   "id": 309202,
@@ -3935,7 +6077,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/309202.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.3",
+  "order": null
  },
  {
   "id": 309203,
@@ -3946,7 +6094,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/309203.webp",
-  "art": "assets/img/skin/309203.webp"
+  "art": "assets/img/skin/309203.webp",
+  "cat": "tarot",
+  "series": "0에서 21까지",
+  "seriesGroup": "0에서 21까지",
+  "grade": 4,
+  "version": null,
+  "order": 510073
  },
  {
   "id": 314101,
@@ -3957,7 +6111,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314101.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.4",
+  "order": null
  },
  {
   "id": 314102,
@@ -3968,7 +6128,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314102.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.4",
+  "order": null
  },
  {
   "id": 313701,
@@ -3979,7 +6145,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/313701.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.4",
+  "order": null
  },
  {
   "id": 313702,
@@ -3990,7 +6162,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/313702.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.4",
+  "order": null
  },
  {
   "id": 313801,
@@ -4001,7 +6179,13 @@
   "rare": 3,
   "gain": 0,
   "portrait": "assets/img/char/313801.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.4",
+  "order": null
  },
  {
   "id": 313802,
@@ -4012,7 +6196,13 @@
   "rare": 3,
   "gain": 1,
   "portrait": "assets/img/char/313802.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.4",
+  "order": null
  },
  {
   "id": 313901,
@@ -4023,7 +6213,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/313901.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.5",
+  "order": null
  },
  {
   "id": 313902,
@@ -4034,7 +6230,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/313902.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.5",
+  "order": null
  },
  {
   "id": 313903,
@@ -4045,7 +6247,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/313903.webp",
-  "art": "assets/img/skin/313903.webp"
+  "art": "assets/img/skin/313903.webp",
+  "cat": "series",
+  "series": "미래의 토대",
+  "seriesGroup": "세계의 섬",
+  "grade": 4,
+  "version": null,
+  "order": 510072
  },
  {
   "id": 314201,
@@ -4056,7 +6264,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314201.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.5",
+  "order": null
  },
  {
   "id": 314202,
@@ -4067,7 +6281,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314202.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.5",
+  "order": null
  },
  {
   "id": 313601,
@@ -4078,7 +6298,13 @@
   "rare": 3,
   "gain": 0,
   "portrait": "assets/img/char/313601.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.2",
+  "order": null
  },
  {
   "id": 313602,
@@ -4089,7 +6315,13 @@
   "rare": 3,
   "gain": 1,
   "portrait": "assets/img/char/313602.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.2",
+  "order": null
  },
  {
   "id": 314301,
@@ -4100,7 +6332,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314301.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.6",
+  "order": null
  },
  {
   "id": 314302,
@@ -4111,7 +6349,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314302.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.6",
+  "order": null
  },
  {
   "id": 314601,
@@ -4122,7 +6366,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314601.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 314602,
@@ -4133,7 +6383,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314602.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 314701,
@@ -4144,7 +6400,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314701.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 314702,
@@ -4155,7 +6417,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314702.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 314401,
@@ -4166,7 +6434,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314401.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.6",
+  "order": null
  },
  {
   "id": 314402,
@@ -4177,7 +6451,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314402.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.6",
+  "order": null
  },
  {
   "id": 314403,
@@ -4188,7 +6468,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/314403.webp",
-  "art": "assets/img/skin/314403.webp"
+  "art": "assets/img/skin/314403.webp",
+  "cat": "series",
+  "series": "삶과 죽음의 문답",
+  "seriesGroup": "커튼의 안쪽",
+  "grade": 5,
+  "version": null,
+  "order": 510065
  },
  {
   "id": 314501,
@@ -4199,7 +6485,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314501.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.8",
+  "order": null
  },
  {
   "id": 314502,
@@ -4210,7 +6502,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314502.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.8",
+  "order": null
  },
  {
   "id": 314503,
@@ -4221,7 +6519,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/314503.webp",
-  "art": "assets/img/skin/314503.webp"
+  "art": "assets/img/skin/314503.webp",
+  "cat": "anniv",
+  "series": "세월의 책갈피",
+  "seriesGroup": "세월의 책갈피",
+  "grade": 4,
+  "version": null,
+  "order": 510077
  },
  {
   "id": 314001,
@@ -4232,7 +6536,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314001.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.8",
+  "order": null
  },
  {
   "id": 314002,
@@ -4243,7 +6553,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314002.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.8",
+  "order": null
  },
  {
   "id": 314003,
@@ -4254,7 +6570,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/314003.webp",
-  "art": "assets/img/skin/314003.webp"
+  "art": "assets/img/skin/314003.webp",
+  "cat": "anniv",
+  "series": "세월의 책갈피",
+  "seriesGroup": "세월의 책갈피",
+  "grade": 4,
+  "version": null,
+  "order": 510078
  },
  {
   "id": 314901,
@@ -4265,7 +6587,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314901.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 314902,
@@ -4276,7 +6604,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314902.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 314903,
@@ -4287,7 +6621,13 @@
   "rare": 5,
   "gain": 2,
   "portrait": "assets/img/char/314903.webp",
-  "art": "assets/img/skin/314903.webp"
+  "art": "assets/img/skin/314903.webp",
+  "cat": "collab",
+  "series": "조립식 미래",
+  "seriesGroup": "비의 장막 밖",
+  "grade": 0,
+  "version": null,
+  "order": 510069
  },
  {
   "id": 315101,
@@ -4298,7 +6638,13 @@
   "rare": 3,
   "gain": 0,
   "portrait": "assets/img/char/315101.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 315102,
@@ -4309,7 +6655,13 @@
   "rare": 3,
   "gain": 1,
   "portrait": "assets/img/char/315102.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 315401,
@@ -4320,7 +6672,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/315401.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 315402,
@@ -4331,7 +6689,13 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/315402.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 315801,
@@ -4342,7 +6706,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315801.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 315802,
@@ -4353,7 +6723,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315802.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 315701,
@@ -4364,7 +6740,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315701.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 315702,
@@ -4375,7 +6757,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315702.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 315601,
@@ -4386,7 +6774,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315601.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 315602,
@@ -4397,7 +6791,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315602.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 315501,
@@ -4408,7 +6808,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315501.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 315502,
@@ -4419,7 +6825,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315502.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 315503,
@@ -4430,7 +6842,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315503.webp",
-  "art": "assets/img/skin/315503.webp"
+  "art": "assets/img/skin/315503.webp",
+  "cat": "shop",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": null,
+  "order": null
  },
  {
   "id": 316301,
@@ -4441,7 +6859,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/316301.webp",
-  "art": null
+  "art": null,
+  "cat": "default",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  },
  {
   "id": 316302,
@@ -4452,6 +6876,12 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/316302.webp",
-  "art": null
+  "art": null,
+  "cat": "insight",
+  "series": "",
+  "seriesGroup": "",
+  "grade": 0,
+  "version": "3.7",
+  "order": null
  }
 ]

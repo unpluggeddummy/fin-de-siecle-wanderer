@@ -269,6 +269,8 @@ def main():
     # ── 공명변조·광상 (이미지 포함) ──────────────────────────
     print("· 공명변조·광상 정리 중")
     attach_tunings_euphorias(characters, G, CN, a.kornblume, kb_chars, tr, imgs, load_json)
+    attach_versions(characters, G, load_json)
+    enrich_skins(skins_out, characters, G, tr, load_json)
 
     characters.sort(key=lambda c: (-c["rarity"], c["name"]["ko"]))
 
@@ -284,8 +286,11 @@ def main():
         icon = imgs.put([os.path.join(CN, "equipment", "icon", f"{e['icon']}.png"),
                          os.path.join(CN, "handbook", "equip", f"{e['icon']}.png")],
                         f"psychube/{e['id']}.webp", max_w=240)
-        psychubes.append({"id": e["id"], "name": nm, "rarity": e["rare"] + 1, "icon": icon,
-                          "skill": tr(e.get("skillName")) or ""})
+        item = {"id": e["id"], "name": nm, "rarity": e["rare"] + 1, "icon": icon,
+                "skill": tr(e.get("skillName")) or ""}
+        if e.get("isSpRefine"):  # 도철·탐욕: 증폭 재료 (개수로 센다)
+            item["refine"] = True
+        psychubes.append(item)
     psychubes.sort(key=lambda p: (-p["rarity"], -p["id"]))
 
     # ── 재료(육성 계획용) ──────────────────────────────────
@@ -446,6 +451,120 @@ def attach_tunings_euphorias(characters, G, CN, kb_root, kb_chars, tr, imgs, loa
         c["euphorias"] = euph
         if euph:
             c["euphoria"] = len(euph)
+
+
+def _ver_from_id(n):
+    """이벤트(활동) id로 버전 읽기: 12006 → 2.0, 13115 → 3.1 (10xxx 같은 초기 id는 알 수 없음)"""
+    s = str(n)
+    if len(s) >= 5 and s[0] == "1" and s[1] in "123456789" and s[2].isdigit():
+        return f"{s[1]}.{s[2]}"
+    return None
+
+
+def _ver_from_pool(n):
+    """모집 배너 id로 버전 읽기: 10121 → 1.0, 31111 → 3.1"""
+    s = str(n)
+    if len(s) == 5 and s[0] in "123456789":
+        return f"{s[0]}.{s[1]}"
+    return None
+
+
+def _vkey(v):
+    a, b = v.split(".")
+    return (int(a), int(b))
+
+
+def attach_versions(characters, G, load_json):
+    """출품작 출시 버전: 처음 픽업된 모집 배너의 버전.
+    배너에 없던 출품작(상시·무료 등)은 'ID가 더 큰 출품작 중 가장 이른 버전'으로 추정한다."""
+    try:
+        pools = load_json(os.path.join(G, "json", "summon_pool.json"))
+    except FileNotFoundError:
+        return
+    ids = {c["id"] for c in characters}
+    first = {}
+    for pl in sorted(pools, key=lambda x: x["id"]):
+        v = _ver_from_pool(pl["id"])
+        if not v:
+            continue
+        for x in str(pl.get("upWeight") or "").replace("#", "|").split("|"):
+            if x.isdigit() and int(x) in ids and int(x) not in first:
+                first[int(x)] = v
+    # 픽업 배너가 있으면 그 버전, 없으면 ID가 가장 가까운 앞쪽 출품작의 버전으로 추정
+    known = sorted((c["id"], first[c["id"]]) for c in characters if c["id"] in first)
+    for c in characters:
+        if c["id"] in first:
+            c["version"], c["versionEstimated"] = first[c["id"]], False
+        else:
+            prev = [v for i, v in known if i < c["id"]]
+            c["version"] = prev[-1] if prev else (known[0][1] if known else None)
+            c["versionEstimated"] = True
+
+
+SKIN_GROUPS = {  # 스킨 도감 대분류 → 사이트 분류
+    11001: "tarot", 12001: "collab", 10008: "dushuo", 13001: "anniv",
+}
+
+
+def enrich_skins(skins_out, characters, G, tr, load_json):
+    """스킨 분류(타로카드·콜라보·도삭절·세월의 책갈피·테마 시리즈·이벤트·상점), 등급, 시리즈, 버전(알 수 있는 것만)"""
+    gj = lambda n: load_json(os.path.join(G, "json", f"{n}.json"))
+    try:
+        high = {h["id"]: h for h in gj("handbook_skin_high")}
+        low = gj("handbook_skin_low")
+    except FileNotFoundError:
+        high, low = {}, []
+    series = {}
+    for l in low:
+        for x in str(l.get("skinContain") or "").split("|"):
+            if x.isdigit():
+                series[int(x)] = (l["highId"], tr(l["name"]) or "", tr(high.get(l["highId"], {}).get("name", "")) or "")
+    try:
+        g_skin = {x["id"]: x for x in gj("skin")}
+        goods = gj("store_goods")
+    except FileNotFoundError:
+        g_skin, goods = {}, []
+    linkage, goods_order, goods_ver = set(), {}, {}
+    for gd in goods:
+        for part in str(gd.get("product") or "").split("|"):
+            a = part.split("#")
+            if len(a) >= 2 and a[1].isdigit() and int(a[1]) in g_skin:
+                sid = int(a[1])
+                if gd.get("islinkageSkin"):
+                    linkage.add(sid)
+                goods_order[sid] = min(goods_order.get(sid, 10**9), gd["id"] if len(str(gd["id"])) == 6 else 10**8)
+                gs = str(gd["id"])
+                if len(gs) == 7 and gs[3].isdigit() and gs[4].isdigit():  # 5102804 → 2.8
+                    goods_ver[sid] = f"{gs[3]}.{gs[4]}"
+    char_ver = {c["id"]: c.get("version") for c in characters}
+    for s in skins_out:
+        g = g_skin.get(s["id"], {})
+        hi, sname, hname = series.get(s["id"], (None, "", ""))
+        gain = g.get("gainApproach", s.get("gain"))
+        if s["type"] in ("default", "insight"):
+            cat = s["type"]
+        elif s["id"] in linkage or SKIN_GROUPS.get(hi) == "collab":
+            cat = "collab"
+        elif hi in SKIN_GROUPS:
+            cat = SKIN_GROUPS[hi]
+        elif isinstance(gain, int) and gain >= 10000:
+            cat = "event"
+        elif hi:
+            cat = "series"
+        elif gain == 3:
+            cat = "other"
+        else:
+            cat = "shop"
+        s["cat"] = cat
+        s["series"] = sname
+        s["seriesGroup"] = hname
+        s["grade"] = g.get("skinLevel", 0) or 0
+        ver = _ver_from_id(gain) if isinstance(gain, int) and gain >= 10000 else None
+        ver = ver or goods_ver.get(s["id"])
+        if s["type"] in ("default", "insight"):
+            ver = char_ver.get(s["char"])
+        s["version"] = ver
+        s["order"] = goods_order.get(s["id"])
 
 
 def parse_level_costs(ts):
