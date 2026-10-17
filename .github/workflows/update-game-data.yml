@@ -57,6 +57,7 @@ jobs:
           /singlebg/propitem/prop/
           /singlebg/bossrush/boss/
           /singlebg/v1a4_bossrush_bossicon_singlebg/
+          /singlebg/characterdestiny/stone/
           LIST
           sed -i 's/^ *//' .git/info/sparse-checkout
           git checkout

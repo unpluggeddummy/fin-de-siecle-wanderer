@@ -86,7 +86,7 @@ export function importRosterJSON(json) {
       const ins = num(pick(o, KEYS.insight)); if (ins !== undefined) r.insight = Math.min(ins, store.maxInsight(c.rarity));
       const res = num(pick(o, KEYS.resonance)); if (res) r.resonance = res;
       const p = num(pick(o, KEYS.portray)); if (p !== undefined) r.portray = Math.min(5, p);
-      const eu = num(pick(o, KEYS.euphoria)); if (eu !== undefined && c.euphoria) r.euphoria = Math.min(c.euphoria, eu);
+      const eu = num(pick(o, KEYS.euphoria)); if (eu !== undefined && c.euphoria) { r.euphoria = Math.min(c.euphoria, eu); r.euphorias = r.euphoria ? [r.euphoria] : []; }
       matched++;
     }
   });

@@ -23,7 +23,47 @@
    306605
   ],
   "kb": "37",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": null,
+    "name": "",
+    "icon": "assets/img/euphoria/306601.webp"
+   }
+  ]
  },
  {
   "id": 3079,
@@ -49,7 +89,47 @@
    307905
   ],
   "kb": "6",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 307901,
+    "name": "만물의 이치 조화",
+    "icon": "assets/img/euphoria/307901.webp"
+   }
+  ]
  },
  {
   "id": 3007,
@@ -74,7 +154,47 @@
    300731
   ],
   "kb": "A Knight",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 300701,
+    "name": "천국과 인간 세상에 울려 퍼지리라",
+    "icon": "assets/img/euphoria/300701.webp"
+   }
+  ]
  },
  {
   "id": 3158,
@@ -97,7 +217,40 @@
    315802
   ],
   "kb": "Drake",
-  "nameChecked": false
+  "nameChecked": false,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3156,
@@ -120,7 +273,40 @@
    315602
   ],
   "kb": "Hedone",
-  "nameChecked": false
+  "nameChecked": false,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3155,
@@ -144,7 +330,40 @@
    315503
   ],
   "kb": "Huntsworn Lilya",
-  "nameChecked": false
+  "nameChecked": false,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3094,
@@ -168,7 +387,47 @@
    309403
   ],
   "kb": "J",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 309401,
+    "name": "뛰어들어, 운명을 담금질하라",
+    "icon": "assets/img/euphoria/309401.webp"
+   }
+  ]
  },
  {
   "id": 3157,
@@ -191,7 +450,40 @@
    315702
   ],
   "kb": "Narcissus",
-  "nameChecked": false
+  "nameChecked": false,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3072,
@@ -215,7 +507,47 @@
    307203
   ],
   "kb": "Shamane",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 307201,
+    "name": "성지순례의 여정",
+    "icon": "assets/img/euphoria/307201.webp"
+   }
+  ]
  },
  {
   "id": 3070,
@@ -240,7 +572,47 @@
    307004
   ],
   "kb": "Kaalaa Baunaa",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 307001,
+    "name": "우주를 품은 눈동자",
+    "icon": "assets/img/euphoria/307001.webp"
+   }
+  ]
  },
  {
   "id": 3084,
@@ -264,7 +636,47 @@
    308404
   ],
   "kb": "Getian",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 308401,
+    "name": "쓸쓸한 이별의 순간",
+    "icon": "assets/img/euphoria/308401.webp"
+   }
+  ]
  },
  {
   "id": 3083,
@@ -288,7 +700,47 @@
    308303
   ],
   "kb": "Jiu Niangzi",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 308301,
+    "name": "하늘의 별이 바치는 술",
+    "icon": "assets/img/euphoria/308301.webp"
+   }
+  ]
  },
  {
   "id": 3141,
@@ -311,7 +763,40 @@
    314102
   ],
   "kb": "Paper Heron",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3120,
@@ -335,7 +820,47 @@
    312003
   ],
   "kb": "Nautika",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 312001,
+    "name": "말 없는 별을 지켜주는 밤",
+    "icon": "assets/img/euphoria/312001.webp"
+   }
+  ]
  },
  {
   "id": 3111,
@@ -359,7 +884,47 @@
    311103
   ],
   "kb": "Noire",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": null,
+    "name": "",
+    "icon": "assets/img/euphoria/311101.webp"
+   }
+  ]
  },
  {
   "id": 3052,
@@ -383,7 +948,47 @@
    305203
   ],
   "kb": "Ms. NewBabel",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 305201,
+    "name": "고탑은 야심으로 지어야 한다",
+    "icon": "assets/img/euphoria/305201.webp"
+   }
+  ]
  },
  {
   "id": 3003,
@@ -408,7 +1013,53 @@
    300306
   ],
   "kb": "Druvis III",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 300301,
+    "name": "돌 사이의 푸른 빛, 숲속의 나",
+    "icon": "assets/img/euphoria/300301.webp"
+   },
+   {
+    "id": 2,
+    "facetsId": 300302,
+    "name": "재와 불의 새싹",
+    "icon": "assets/img/euphoria/300302.webp"
+   }
+  ]
  },
  {
   "id": 3142,
@@ -431,7 +1082,40 @@
    314202
   ],
   "kb": "Ramona",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3025,
@@ -456,7 +1140,53 @@
    302504
   ],
   "kb": "Regulus",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 302501,
+    "name": "레굴루스처럼 반짝거린다",
+    "icon": "assets/img/euphoria/302501.webp"
+   },
+   {
+    "id": 2,
+    "facetsId": 302502,
+    "name": "터져 나온 사자후",
+    "icon": "assets/img/euphoria/302502.webp"
+   }
+  ]
  },
  {
   "id": 3114,
@@ -481,7 +1211,47 @@
    311404
   ],
   "kb": "Recoleta",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 311401,
+    "name": "<미완의 챕터>",
+    "icon": "assets/img/euphoria/311401.webp"
+   }
+  ]
  },
  {
   "id": 3139,
@@ -505,7 +1275,40 @@
    313903
   ],
   "kb": "Lorentz Butterfly",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3102,
@@ -529,7 +1332,47 @@
    310203
   ],
   "kb": "Lopera",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 310201,
+    "name": "위험 속에서도 새싹은 자란다",
+    "icon": "assets/img/euphoria/310201.webp"
+   }
+  ]
  },
  {
   "id": 3125,
@@ -553,7 +1396,40 @@
    312503
   ],
   "kb": "Rubuska",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3086,
@@ -577,7 +1453,47 @@
    308603
   ],
   "kb": "Lucy",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 308601,
+    "name": "계단 끝은 새벽",
+    "icon": "assets/img/euphoria/308601.webp"
+   }
+  ]
  },
  {
   "id": 3146,
@@ -600,7 +1516,40 @@
    314602
   ],
   "kb": "Rhiannon",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3004,
@@ -625,7 +1574,53 @@
    300404
   ],
   "kb": "Lilya",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 300401,
+    "name": "무엇이 개선가처럼 울리는가?",
+    "icon": "assets/img/euphoria/300401.webp"
+   },
+   {
+    "id": 2,
+    "facetsId": 300402,
+    "name": "캄차카에서의 사냥",
+    "icon": "assets/img/euphoria/300402.webp"
+   }
+  ]
  },
  {
   "id": 3127,
@@ -649,7 +1644,40 @@
    312703
   ],
   "kb": "Marsha",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3065,
@@ -674,7 +1702,47 @@
    306504
   ],
   "kb": "Marcus",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 306501,
+    "name": "이전 페이지가 소중한 이유",
+    "icon": "assets/img/euphoria/306501.webp"
+   }
+  ]
  },
  {
   "id": 3095,
@@ -699,7 +1767,47 @@
    309504
   ],
   "kb": "Mercuria",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 309501,
+    "name": "우주의 황홀한 빛",
+    "icon": "assets/img/euphoria/309501.webp"
+   }
+  ]
  },
  {
   "id": 3047,
@@ -724,7 +1832,47 @@
    304704
   ],
   "kb": "Medicine Pocket",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 304701,
+    "name": "5ml 혈액 연금술",
+    "icon": "assets/img/euphoria/304701.webp"
+   }
+  ]
  },
  {
   "id": 3062,
@@ -749,7 +1897,47 @@
    306204
   ],
   "kb": "Melania",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 306201,
+    "name": "점, 선, 면을 넘나드는 자",
+    "icon": "assets/img/euphoria/306201.webp"
+   }
+  ]
  },
  {
   "id": 3121,
@@ -773,7 +1961,47 @@
    312103
   ],
   "kb": "Moldir",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": null,
+    "name": "",
+    "icon": "assets/img/euphoria/312101.webp"
+   }
+  ]
  },
  {
   "id": 3147,
@@ -796,7 +2024,40 @@
    314702
   ],
   "kb": "Ms. Stranger",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3108,
@@ -820,7 +2081,40 @@
    310803
   ],
   "kb": "Barcarola",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3134,
@@ -843,7 +2137,47 @@
    313402
   ],
   "kb": "Beryl",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": null,
+    "name": "",
+    "icon": "assets/img/euphoria/313401.webp"
+   }
+  ]
  },
  {
   "id": 3048,
@@ -868,7 +2202,47 @@
    304804
   ],
   "kb": "Voyager",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 304801,
+    "name": "억겁의 세월을 넘어 울리는 소나타",
+    "icon": "assets/img/euphoria/304801.webp"
+   }
+  ]
  },
  {
   "id": 3135,
@@ -891,7 +2265,40 @@
    313502
   ],
   "kb": "Brume",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3087,
@@ -916,7 +2323,47 @@
    308704
   ],
   "kb": "Vila",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 308701,
+    "name": "하나의 이상을 받드는 방법",
+    "icon": "assets/img/euphoria/308701.webp"
+   }
+  ]
  },
  {
   "id": 3032,
@@ -940,7 +2387,47 @@
    303203
   ],
   "kb": "Centurion",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 303201,
+    "name": "운명이 기우는 방향",
+    "icon": "assets/img/euphoria/303201.webp"
+   }
+  ]
  },
  {
   "id": 3126,
@@ -965,7 +2452,40 @@
    312606
   ],
   "kb": "Sentinel",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3009,
@@ -990,7 +2510,47 @@
    300904
   ],
   "kb": "Sotheby",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 300901,
+    "name": "약간의 몽상, 충분한 동심",
+    "icon": "assets/img/euphoria/300901.webp"
+   }
+  ]
  },
  {
   "id": 3073,
@@ -1015,7 +2575,47 @@
    307304
   ],
   "kb": "Spathodea",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 307301,
+    "name": "천 년간 타오른 꿈",
+    "icon": "assets/img/euphoria/307301.webp"
+   }
+  ]
  },
  {
   "id": 3149,
@@ -1039,7 +2639,40 @@
    314903
   ],
   "kb": "The Twins",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3097,
@@ -1063,7 +2696,47 @@
    309703
   ],
   "kb": "Argus",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 309701,
+    "name": "수많은 생명의 소멸, 여전히 뜨거운 총구",
+    "icon": "assets/img/euphoria/309701.webp"
+   }
+  ]
  },
  {
   "id": 3039,
@@ -1088,7 +2761,53 @@
    303904
   ],
   "kb": "An-an Lee",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 303901,
+    "name": "비과학의 과학적 처리",
+    "icon": "assets/img/euphoria/303901.webp"
+   },
+   {
+    "id": 2,
+    "facetsId": 303902,
+    "name": "3000볼트 초고속 소환",
+    "icon": "assets/img/euphoria/303902.webp"
+   }
+  ]
  },
  {
   "id": 3100,
@@ -1112,7 +2831,47 @@
    310003
   ],
   "kb": "Anjo Nala",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 310001,
+    "name": "찬란했던 시절의 여운",
+    "icon": "assets/img/euphoria/310001.webp"
+   }
+  ]
  },
  {
   "id": 3113,
@@ -1136,7 +2895,40 @@
    311303
   ],
   "kb": "Aleph",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3110,
@@ -1160,7 +2952,47 @@
    311003
   ],
   "kb": "Liang Yue",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 311001,
+    "name": "별을 따라 세상 평정",
+    "icon": "assets/img/euphoria/311001.webp"
+   }
+  ]
  },
  {
   "id": 3145,
@@ -1184,7 +3016,40 @@
    314503
   ],
   "kb": "Everecho",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3074,
@@ -1208,7 +3073,22 @@
    307403
   ],
   "kb": null,
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 307401,
+    "name": "균맥이 가리키는 바람의 탐침",
+    "icon": "assets/img/euphoria/307401.webp"
+   },
+   {
+    "id": 2,
+    "facetsId": 307402,
+    "name": "꺼지지 않는 씨앗",
+    "icon": "assets/img/euphoria/307402.webp"
+   }
+  ]
  },
  {
   "id": 3123,
@@ -1231,7 +3111,40 @@
    312302
   ],
   "kb": "Ezio Auditore",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3107,
@@ -1255,7 +3168,40 @@
    310703
   ],
   "kb": "Ulrich",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3077,
@@ -1281,7 +3227,47 @@
    307705
   ],
   "kb": "Windsong",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 307701,
+    "name": "내 손으로 만 리를 재다",
+    "icon": "assets/img/euphoria/307701.webp"
+   }
+  ]
  },
  {
   "id": 3104,
@@ -1306,7 +3292,47 @@
    310404
   ],
   "kb": "Willow",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 310401,
+    "name": "대지를 떠나기 위한 날갯짓",
+    "icon": "assets/img/euphoria/310401.webp"
+   }
+  ]
  },
  {
   "id": 3092,
@@ -1330,7 +3356,40 @@
    309203
   ],
   "kb": "Igor",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3143,
@@ -1353,7 +3412,40 @@
    314302
   ],
   "kb": "Enigma",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3081,
@@ -1378,7 +3470,47 @@
    308104
   ],
   "kb": "Isolde",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 308101,
+    "name": "영혼이 날아 잠든다",
+    "icon": "assets/img/euphoria/308101.webp"
+   }
+  ]
  },
  {
   "id": 3051,
@@ -1403,7 +3535,53 @@
    305104
   ],
   "kb": "Eternity",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 305101,
+    "name": "다시 한 번 마시는 푸른 파도",
+    "icon": "assets/img/euphoria/305101.webp"
+   },
+   {
+    "id": 2,
+    "facetsId": 305102,
+    "name": "조석처럼 바뀌는 생명",
+    "icon": "assets/img/euphoria/305102.webp"
+   }
+  ]
  },
  {
   "id": 3137,
@@ -1426,7 +3604,40 @@
    313702
   ],
   "kb": "Cheng Heguang",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3088,
@@ -1451,7 +3662,47 @@
    308804
   ],
   "kb": "Semmelweis",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 308801,
+    "name": "천 개의 달처럼 붉은",
+    "icon": "assets/img/euphoria/308801.webp"
+   }
+  ]
  },
  {
   "id": 3056,
@@ -1476,7 +3727,53 @@
    305604
   ],
   "kb": "Jessica",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 305601,
+    "name": "봄 그늘의 보호를 받는 자갈",
+    "icon": "assets/img/euphoria/305601.webp"
+   },
+   {
+    "id": 2,
+    "facetsId": 305602,
+    "name": "가는 가지로 엮어야 할 이야기",
+    "icon": "assets/img/euphoria/305602.webp"
+   }
+  ]
  },
  {
   "id": 3128,
@@ -1500,7 +3797,40 @@
    312803
   ],
   "kb": "Charon",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3124,
@@ -1523,7 +3853,40 @@
    312402
   ],
   "kb": "Kassandra",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3080,
@@ -1548,7 +3911,40 @@
    308004
   ],
   "kb": "Kakania",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3140,
@@ -1572,7 +3968,40 @@
    314003
   ],
   "kb": "Cornerstone",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3132,
@@ -1596,7 +4025,40 @@
    313203
   ],
   "kb": "Corvus",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3144,
@@ -1620,7 +4082,40 @@
    314403
   ],
   "kb": "Coppélia",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3117,
@@ -1645,7 +4140,40 @@
    311704
   ],
   "kb": "Kiperina",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3053,
@@ -1671,7 +4199,47 @@
    305305
   ],
   "kb": "Tooth Fairy",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 305301,
+    "name": "달콤 쌉싸름한 고통의 무도",
+    "icon": "assets/img/euphoria/305301.webp"
+   }
+  ]
  },
  {
   "id": 3098,
@@ -1696,7 +4264,47 @@
    309804
   ],
   "kb": "Tuesday",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 309801,
+    "name": "문 앞에 멈춰선 희망",
+    "icon": "assets/img/euphoria/309801.webp"
+   }
+  ]
  },
  {
   "id": 3109,
@@ -1721,7 +4329,40 @@
    310905
   ],
   "kb": "Fatutu",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3105,
@@ -1746,7 +4387,40 @@
    310504
   ],
   "kb": "Flutterpage",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3063,
@@ -1770,7 +4444,47 @@
    306303
   ],
   "kb": "Pickles",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 306301,
+    "name": "개는 생각한다, 고로 존재한다",
+    "icon": "assets/img/euphoria/306301.webp"
+   }
+  ]
  },
  {
   "id": 3116,
@@ -1795,7 +4509,47 @@
    311604
   ],
   "kb": "Hissabeth",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 311601,
+    "name": "생각의 한계, 그 너머의 무한",
+    "icon": "assets/img/euphoria/311601.webp"
+   }
+  ]
  },
  {
   "id": 3010,
@@ -1819,7 +4573,40 @@
    301003
   ],
   "kb": "X",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3118,
@@ -1843,7 +4630,40 @@
    311803
   ],
   "kb": "Name Day",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3037,
@@ -1867,7 +4687,40 @@
    303703
   ],
   "kb": "Necrologist",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3103,
@@ -1890,7 +4743,40 @@
    310302
   ],
   "kb": "Mr. Duncan",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3075,
@@ -1914,7 +4800,40 @@
    307503
   ],
   "kb": "Desert Flannel",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3064,
@@ -1938,7 +4857,40 @@
    306403
   ],
   "kb": "Diggers",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3022,
@@ -1962,7 +4914,40 @@
    302203
   ],
   "kb": "Dikke",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3112,
@@ -1985,7 +4970,40 @@
    311202
   ],
   "kb": "Loggerhead",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3091,
@@ -2008,7 +5026,40 @@
    309102
   ],
   "kb": "Lorelei",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3011,
@@ -2032,7 +5083,40 @@
    301103
   ],
   "kb": "Sweetheart",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3041,
@@ -2056,7 +5140,47 @@
    304103
   ],
   "kb": "Matilda",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 304101,
+    "name": "수정처럼 맑은 내일",
+    "icon": "assets/img/euphoria/304101.webp"
+   }
+  ]
  },
  {
   "id": 3099,
@@ -2079,7 +5203,40 @@
    309902
   ],
   "kb": "Barbara",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3115,
@@ -2102,7 +5259,40 @@
    311502
   ],
   "kb": "Buddy Fairchild",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3024,
@@ -2126,7 +5316,40 @@
    302403
   ],
   "kb": "Balloon Party",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3016,
@@ -2150,7 +5373,40 @@
    301603
   ],
   "kb": "Baby Blue",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3060,
@@ -2174,7 +5430,40 @@
    306003
   ],
   "kb": "Blonney",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3038,
@@ -2198,7 +5487,40 @@
    303803
   ],
   "kb": "Satsuki",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3023,
@@ -2222,7 +5544,40 @@
    302304
   ],
   "kb": "Sonetto",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3106,
@@ -2246,7 +5601,40 @@
    310604
   ],
   "kb": "Brimley",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3078,
@@ -2269,7 +5657,40 @@
    307802
   ],
   "kb": "Avgust",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3122,
@@ -2292,7 +5713,40 @@
    312202
   ],
   "kb": "Alexios",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3082,
@@ -2316,7 +5770,40 @@
    308203
   ],
   "kb": "Yenisei",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3076,
@@ -2339,7 +5826,40 @@
    307602
   ],
   "kb": "Ulu",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3154,
@@ -2362,7 +5882,40 @@
    315402
   ],
   "kb": "Silverwing Eagle",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3017,
@@ -2386,7 +5939,40 @@
    301703
   ],
   "kb": "Charlie",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3071,
@@ -2410,7 +5996,40 @@
    307103
   ],
   "kb": "Kanjira",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3020,
@@ -2434,7 +6053,47 @@
    302003
   ],
   "kb": "Bkornblume",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 302001,
+    "name": "방안의 속삭임, 귓속의 봄",
+    "icon": "assets/img/euphoria/302001.webp"
+   }
+  ]
  },
  {
   "id": 3049,
@@ -2457,7 +6116,40 @@
    304902
   ],
   "kb": "Click",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3043,
@@ -2482,7 +6174,47 @@
    304304
   ],
   "kb": "Tennant",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": 304301,
+    "name": "불꽃색의 공모자",
+    "icon": "assets/img/euphoria/304301.webp"
+   }
+  ]
  },
  {
   "id": 3061,
@@ -2506,7 +6238,40 @@
    306103
   ],
   "kb": "Horropedia",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3136,
@@ -2529,7 +6294,9 @@
    313602
   ],
   "kb": null,
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [],
+  "euphorias": []
  },
  {
   "id": 3028,
@@ -2554,7 +6321,40 @@
    302804
   ],
   "kb": "APPLe",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3163,
@@ -2577,7 +6377,40 @@
    316302
   ],
   "kb": "Glyndŵr",
-  "nameChecked": false
+  "nameChecked": false,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3033,
@@ -2601,7 +6434,40 @@
    303303
   ],
   "kb": "TTT",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3013,
@@ -2625,7 +6491,40 @@
    301303
   ],
   "kb": "Зима",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3151,
@@ -2648,7 +6547,40 @@
    315102
   ],
   "kb": "NORA",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3138,
@@ -2671,7 +6603,40 @@
    313802
   ],
   "kb": "Reed",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3005,
@@ -2695,7 +6660,40 @@
    300503
   ],
   "kb": "Nick Bottom",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3042,
@@ -2719,7 +6717,40 @@
    304203
   ],
   "kb": "Rabies",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3057,
@@ -2743,7 +6774,40 @@
    305703
   ],
   "kb": "Mesmer Jr.",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3044,
@@ -2767,7 +6831,40 @@
    304403
   ],
   "kb": "Ms. Moissan",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3014,
@@ -2791,7 +6888,40 @@
    301403
   ],
   "kb": "Bunny Bunny",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3026,
@@ -2815,7 +6945,40 @@
    302603
   ],
   "kb": "Mondlicht",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3058,
@@ -2839,7 +7002,40 @@
    305803
   ],
   "kb": "Erick",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3018,
@@ -2863,7 +7059,40 @@
    301803
   ],
   "kb": "Oliver Fog",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3006,
@@ -2887,7 +7116,40 @@
    300603
   ],
   "kb": "Eagle",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3031,
@@ -2911,7 +7173,40 @@
    303103
   ],
   "kb": "Cristallo",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3015,
@@ -2935,7 +7230,40 @@
    301503
   ],
   "kb": "Pavia",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3046,
@@ -2959,7 +7287,40 @@
    304603
   ],
   "kb": "Poltergeist",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3101,
@@ -2983,7 +7344,40 @@
    310103
   ],
   "kb": "White Rum",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3012,
@@ -3006,7 +7400,40 @@
    301202
   ],
   "kb": "The Fool",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3050,
@@ -3029,7 +7456,40 @@
    305002
   ],
   "kb": "Darley Clatter",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3030,
@@ -3052,7 +7512,40 @@
    303002
   ],
   "kb": "La Source",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Inverted-T_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Inverted-T_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Inverted-T_4.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/Inverted-T_1.webp"
+   },
+   {
+    "id": 3,
+    "name": "격려",
+    "icon": "assets/img/tuning/Inverted-T_3.webp"
+   },
+   {
+    "id": 7,
+    "name": "제한 없는 상상",
+    "icon": "assets/img/tuning/Inverted-T_7.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3035,
@@ -3075,7 +7568,40 @@
    303502
   ],
   "kb": "Leilani",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3040,
@@ -3098,7 +7624,40 @@
    304002
   ],
   "kb": "Twins Sleep",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3045,
@@ -3121,7 +7680,40 @@
    304504
   ],
   "kb": "Bette",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3055,
@@ -3144,7 +7736,40 @@
    305502
   ],
   "kb": "Sputnik",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3054,
@@ -3166,7 +7791,40 @@
    305401
   ],
   "kb": "ONiON",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3034,
@@ -3188,7 +7846,40 @@
    303401
   ],
   "kb": "aliEn T",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3036,
@@ -3211,7 +7902,40 @@
    303602
   ],
   "kb": "John Titor",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3096,
@@ -3234,7 +7958,40 @@
    309602
   ],
   "kb": "Pioneer",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3059,
@@ -3256,7 +8013,40 @@
    305901
   ],
   "kb": "Door",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Z-shape_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Z-shape_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Z-shape_4.webp"
+   },
+   {
+    "id": 11,
+    "name": "연민",
+    "icon": "assets/img/tuning/Z-shape_11.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/Z-shape_12.webp"
+   },
+   {
+    "id": 13,
+    "name": "순환 균형",
+    "icon": "assets/img/tuning/Z-shape_13.webp"
+   }
+  ],
+  "euphorias": []
  },
  {
   "id": 3027,
@@ -3279,6 +8069,39 @@
    302702
   ],
   "kb": "Ms. Radio",
-  "nameChecked": true
+  "nameChecked": true,
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
+  "euphorias": []
  }
 ]

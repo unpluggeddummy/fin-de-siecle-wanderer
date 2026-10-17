@@ -121,8 +121,9 @@ function finish(p) {
     store.update('roster', () => {
       const r = store.ensureChar(p.char);
       r.owned = true; r.insight = p.to.insight; r.level = p.to.level; r.resonance = p.to.resonance;
-      const eu = Math.max(0, ...(p.to.euphoria || []));
-      if (eu > (r.euphoria || 0)) r.euphoria = eu;
+      const set = new Set([...(r.euphorias || (r.euphoria ? [r.euphoria] : [])), ...(p.to.euphoria || [])]);
+      r.euphorias = [...set].sort();
+      if (!r.euphoria && r.euphorias.length) r.euphoria = r.euphorias[0];
     }, { silent: true });
   }
   rerender();
@@ -133,7 +134,7 @@ function edit(plan, presetChar) {
   const isNew = !plan;
   const fromRec = (cid) => {
     const r = store.charRecord(cid) || {};
-    return { insight: r.insight || 0, level: r.level || 1, resonance: r.resonance || 1, euphoria: r.euphoria ? Array.from({ length: r.euphoria }, (_, i) => i + 1) : [] };
+    return { insight: r.insight || 0, level: r.level || 1, resonance: r.resonance || 1, euphoria: r.euphorias || (r.euphoria ? [r.euphoria] : []) };
   };
   const cur = plan ? JSON.parse(JSON.stringify(plan)) : { id: uid(), char: presetChar || null, from: fromRec(presetChar), to: null, note: '', done: false };
   if (!cur.to && cur.char) {

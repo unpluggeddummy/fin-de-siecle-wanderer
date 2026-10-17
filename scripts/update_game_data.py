@@ -266,6 +266,10 @@ def main():
             "nameChecked": bool(ko or rn.get("ko-KR")),
         })
 
+    # ── 공명변조·광상 (이미지 포함) ──────────────────────────
+    print("· 공명변조·광상 정리 중")
+    attach_tunings_euphorias(characters, G, CN, a.kornblume, kb_chars, tr, imgs, load_json)
+
     characters.sort(key=lambda c: (-c["rarity"], c["name"]["ko"]))
 
     # ── 의지 ────────────────────────────────────────────────
@@ -336,6 +340,7 @@ def main():
             "insight": kb.get("Insight", []),
             "resonance": kb.get("Resonance", []),
             "euphoria": kb.get("Euphoria", []),
+            "frequency": kb.get("Frequency", []),
         }
     level_costs = None
     res_path = os.path.join(a.kornblume, "src", "constants", "resources.ts")
@@ -382,6 +387,65 @@ def main():
     })
     print(f"완료: 캐릭터 {len(characters)} · 스킨 {len(skins_out)} · 의지 {len(psychubes)} · "
           f"게시판 시즌 {len(bulletin)} · 새 이미지 {imgs.written}")
+
+
+def attach_tunings_euphorias(characters, G, CN, kb_root, kb_chars, tr, imgs, load_json):
+    """캐릭터마다 공명변조(tunings)와 광상(euphorias) 목록을 이미지와 함께 붙인다.
+    공명변조: kornblume Frequency(Type, Id=게임 tagicon) + 게임 talent_style 이름
+    광상: 게임 character_destiny + facets_consume 이름, 이미지는 kornblume 또는 CN 에셋"""
+    gj = lambda n: load_json(os.path.join(G, "json", f"{n}.json"))
+    try:
+        styles = gj("talent_style")
+        hero_mould = {t["heroId"]: t["talentMould"] for t in gj("character_talent")}
+    except FileNotFoundError:
+        styles, hero_mould = [], {}
+    style_name = {}   # (mould, tagicon) -> 이름
+    any_name = {}     # tagicon -> 이름
+    for st in styles:
+        nm = tr(st["name"]) or ""
+        style_name[(st["talentMould"], str(st["tagicon"]))] = nm
+        any_name.setdefault(str(st["tagicon"]), nm)
+    default_name = next((tr(st["name"]) for st in styles if st["styleId"] == 0), "평화")
+    try:
+        facet_name = {f["facetsId"]: tr(f["name"]) or "" for f in gj("character_destiny_facets_consume")}
+        destiny = {d["heroId"]: [int(x) for x in str(d["facetsId"]).split("#") if x] for d in gj("character_destiny")}
+    except FileNotFoundError:
+        facet_name, destiny = {}, {}
+    freq_dir = os.path.join(kb_root, "public", "images", "arcanists", "misc", "frequency")
+    eu_dir = os.path.join(kb_root, "public", "images", "arcanists", "euphoria")
+
+    for c in characters:
+        kb = kb_chars.get(c.get("kb")) if c.get("kb") else None
+        mould = hero_mould.get(c["id"])
+        tunings = []
+        freqs = (kb or {}).get("Frequency") or []
+        if freqs:
+            ftype = freqs[0].get("Type") or ""
+            icon0 = imgs.put([os.path.join(freq_dir, f"{ftype}_0.webp")], f"tuning/{ftype}_0.webp", max_w=160)
+            tunings.append({"id": 0, "name": default_name, "icon": icon0})
+            for f in freqs:
+                fid = f["Id"]
+                ft = f.get("Type") or ftype
+                name = style_name.get((mould, str(fid))) or any_name.get(str(fid)) or f"변조 {fid}"
+                icon = imgs.put([os.path.join(freq_dir, f"{ft}_{fid}.webp")], f"tuning/{ft}_{fid}.webp", max_w=160)
+                tunings.append({"id": fid, "name": name, "icon": icon})
+        c["tunings"] = tunings
+        euph = []
+        for i, fid in enumerate(destiny.get(c["id"], []), start=1):
+            srcs = []
+            if kb and kb.get("Id"):
+                srcs.append(os.path.join(eu_dir, f"{kb['Id']}_{i}.webp"))
+            srcs.append(os.path.join(CN, "characterdestiny", "stone", f"{fid}.png"))
+            icon = imgs.put(srcs, f"euphoria/{fid}.webp", max_w=200)
+            euph.append({"id": i, "facetsId": fid, "name": facet_name.get(fid, ""), "icon": icon})
+        if not euph and kb and kb.get("Euphoria"):  # 글로벌 데이터에 없는 신규 캐릭터
+            for e in kb["Euphoria"]:
+                i = e["Id"]
+                icon = imgs.put([os.path.join(eu_dir, f"{kb['Id']}_{i}.webp")], f"euphoria/{c['id']}{i:02d}.webp", max_w=200)
+                euph.append({"id": i, "facetsId": None, "name": "", "icon": icon})
+        c["euphorias"] = euph
+        if euph:
+            c["euphoria"] = len(euph)
 
 
 def parse_level_costs(ts):

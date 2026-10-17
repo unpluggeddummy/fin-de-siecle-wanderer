@@ -891,6 +891,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Serpent Scepter",
+      "Bogeyman",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Murmur of Insanity",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Compass",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Rhine Gold",
+      "Silver Bullet",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Watch Core",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3079": {
@@ -1149,6 +1231,88 @@
       40,
       200,
       3
+     ]
+    }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Compass",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Golden Fleece",
+      "Wyrmling Skeleton",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Bell Essence Bottle",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Watch Core",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Mistilteinn",
+      "Incorrupt Monkeypaw",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
      ]
     }
    ]
@@ -1411,6 +1575,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Mistilteinn",
+      "Wyrmling Skeleton",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Golden Fleece",
+      "Incorrupt Monkeypaw",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Golden Fleece",
+      "Murmur of Insanity",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Mistilteinn",
+      "Golden Bell Essence Bottle",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Compass",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
    ]
   },
   "3158": {
@@ -1649,7 +1895,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Roaming Terror Hut",
+      "Wyrmling Skeleton",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Roaming Terror Hut",
+      "Glowing Mothwing",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Serpent Scepter",
+      "Rootbox Rabbit",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Mistilteinn",
+      "Golden Compass",
+      "Red Lacquer Tablet",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Golden Fleece",
+      "Jadeite Tablet",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3156": {
    "insight": [
@@ -1887,7 +2215,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Platinum Ouija",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Mistilteinn",
+      "Golden Compass",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Serpent Scepter",
+      "Incorrupt Monkeypaw",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Mistilteinn",
+      "Platinum Ouija",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3155": {
    "insight": [
@@ -2125,7 +2535,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Rhine Gold",
+      "Golden Bell Essence Bottle",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Golden Fleece",
+      "Silver Bullet",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Serpent Scepter",
+      "Platinum Ouija",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Bogeyman",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Mistilteinn",
+      "Watch Core",
+      "Heartfelt Easter Egg",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3094": {
    "insight": [
@@ -2379,6 +2871,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Serpent Scepter",
+      "Bogeyman",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Incorrupt Monkeypaw",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Platinum Ouija",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Rhine Gold",
+      "Silver Bullet",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3157": {
@@ -2617,7 +3191,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Golden Fleece",
+      "Bogeyman",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Wyrmling Skeleton",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Glowing Mothwing",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Fleece",
+      "Watch Core",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
+   ]
   },
   "3072": {
    "insight": [
@@ -2869,6 +3525,88 @@
       40,
       200,
       3
+     ]
+    }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Mistilteinn",
+      "Incorrupt Monkeypaw",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Golden Fleece",
+      "Watch Core",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Serpent Scepter",
+      "Glowing Mothwing",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Rhine Gold",
+      "Glowing Mothwing",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Bell Essence Bottle",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
      ]
     }
    ]
@@ -3125,6 +3863,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Serpent Scepter",
+      "Wyrmling Skeleton",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Bogeyman",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Rhine Gold",
+      "Platinum Ouija",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Rhine Gold",
+      "Silver Bullet",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Golden Fleece",
+      "Murmur of Insanity",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3084": {
@@ -3377,6 +4197,88 @@
       40,
       200,
       3
+     ]
+    }
+   ],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Mistilteinn",
+      "Glowing Mothwing",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Golden Fleece",
+      "Watch Core",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Golden Fleece",
+      "Wyrmling Skeleton",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Golden Fleece",
+      "Golden Compass",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
      ]
     }
    ]
@@ -3633,6 +4535,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Wyrmling Skeleton",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Mistilteinn",
+      "Silver Bullet",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Golden Fleece",
+      "Platinum Ouija",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Rhine Gold",
+      "Glowing Mothwing",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Silver Bullet",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3141": {
@@ -3871,7 +4855,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Silver Bullet",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Bogeyman",
+      "Red Lacquer Tablet",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Golden Fleece",
+      "Wyrmling Skeleton",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Mistilteinn",
+      "Glowing Mothwing",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3120": {
    "insight": [
@@ -4131,6 +5197,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Serpent Scepter",
+      "Silver Bullet",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Bogeyman",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Mistilteinn",
+      "Jadeite Tablet",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Mistilteinn",
+      "Golden Compass",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Golden Fleece",
+      "Golden Compass",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
    ]
   },
   "3111": {
@@ -4385,6 +5533,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Rhine Gold",
+      "Golden Bell Essence Bottle",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Mistilteinn",
+      "Incorrupt Monkeypaw",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Mistilteinn",
+      "Watch Core",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Golden Fleece",
+      "Silver Bullet",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Bell Essence Bottle",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3052": {
@@ -4637,6 +5867,88 @@
       40,
       200,
       3
+     ]
+    }
+   ],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Mistilteinn",
+      "Golden Bell Essence Bottle",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Rhine Gold",
+      "Murmur of Insanity",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Rhine Gold",
+      "Watch Core",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Mistilteinn",
+      "Wyrmling Skeleton",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Serpent Scepter",
+      "Incorrupt Monkeypaw",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
      ]
     }
    ]
@@ -4902,6 +6214,88 @@
       1
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Compass",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Bogeyman",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Murmur of Insanity",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Fleece",
+      "Platinum Ouija",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Golden Fleece",
+      "Golden Compass",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
    ]
   },
   "3142": {
@@ -5140,7 +6534,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Serpent Scepter",
+      "Bogeyman",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Wyrmling Skeleton",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Rhine Gold",
+      "Golden Bell Essence Bottle",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Mistilteinn",
+      "Silver Bullet",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Mistilteinn",
+      "Bogeyman",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
+   ]
   },
   "3025": {
    "insight": [
@@ -5409,6 +6885,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Silver Bullet",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Glowing Mothwing",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Serpent Scepter",
+      "Silver Bullet",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Mistilteinn",
+      "Golden Compass",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Golden Fleece",
+      "Watch Core",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3114": {
@@ -5663,6 +7221,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Glowing Mothwing",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Bell Essence Bottle",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Golden Fleece",
+      "Platinum Ouija",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Mistilteinn",
+      "Watch Core",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Compass",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3139": {
@@ -5907,7 +7547,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Silver Bullet",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Bogeyman",
+      "Red Lacquer Tablet",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Golden Fleece",
+      "Wyrmling Skeleton",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Mistilteinn",
+      "Glowing Mothwing",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3102": {
    "insight": [
@@ -6161,6 +7883,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Golden Compass",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Bogeyman",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Serpent Scepter",
+      "Watch Core",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Golden Fleece",
+      "Bogeyman",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Mistilteinn",
+      "Murmur of Insanity",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3125": {
@@ -6399,7 +8203,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Serpent Scepter",
+      "Silver Bullet",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Serpent Scepter",
+      "Glowing Mothwing",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Rhine Gold",
+      "Golden Compass",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Mistilteinn",
+      "Watch Core",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Watch Core",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3086": {
    "insight": [
@@ -6659,6 +8545,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Rhine Gold",
+      "Murmur of Insanity",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Mistilteinn",
+      "Platinum Ouija",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Incorrupt Monkeypaw",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Serpent Scepter",
+      "Glowing Mothwing",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Watch Core",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3146": {
@@ -6897,7 +8865,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Mistilteinn",
+      "Wyrmling Skeleton",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Rhine Gold",
+      "Platinum Ouija",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Compass",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Watch Core",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Bell Essence Bottle",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3004": {
    "insight": [
@@ -7166,6 +9216,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Serpent Scepter",
+      "Silver Bullet",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Compass",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Mistilteinn",
+      "Wyrmling Skeleton",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Rhine Gold",
+      "Bogeyman",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Rhine Gold",
+      "Watch Core",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    }
    ]
   },
   "3127": {
@@ -7404,7 +9536,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Mistilteinn",
+      "Golden Bell Essence Bottle",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Mistilteinn",
+      "Silver Bullet",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Serpent Scepter",
+      "Bogeyman",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Serpent Scepter",
+      "Bogeyman",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Golden Fleece",
+      "Watch Core",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3065": {
    "insight": [
@@ -7656,6 +9870,88 @@
       40,
       200,
       3
+     ]
+    }
+   ],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Rhine Gold",
+      "Golden Bell Essence Bottle",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Wyrmling Skeleton",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Glowing Mothwing",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Silver Bullet",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
      ]
     }
    ]
@@ -7918,6 +10214,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Serpent Scepter",
+      "Silver Bullet",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Golden Fleece",
+      "Watch Core",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Rhine Gold",
+      "Wyrmling Skeleton",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Mistilteinn",
+      "Wyrmling Skeleton",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Wyrmling Skeleton",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3047": {
@@ -8170,6 +10548,88 @@
       40,
       200,
       3
+     ]
+    }
+   ],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Mistilteinn",
+      "Golden Bell Essence Bottle",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Mistilteinn",
+      "Bogeyman",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Mistilteinn",
+      "Incorrupt Monkeypaw",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Rhine Gold",
+      "Silver Bullet",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
      ]
     }
    ]
@@ -8426,6 +10886,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Bogeyman",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Wyrmling Skeleton",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Bell Essence Bottle",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Silver Bullet",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3121": {
@@ -8680,6 +11222,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Silver Bullet",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Golden Compass",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Bell Essence Bottle",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Fleece",
+      "Glowing Mothwing",
+      "Red Lacquer Tablet",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Mistilteinn",
+      "Bogeyman",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
    ]
   },
   "3147": {
@@ -8918,7 +11542,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Rhine Gold",
+      "Bogeyman",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Bell Essence Bottle",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Rhine Gold",
+      "Platinum Ouija",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Bogeyman",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    }
+   ]
   },
   "3108": {
    "insight": [
@@ -9156,7 +11862,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Glowing Mothwing",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Compass",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Platinum Ouija",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Golden Fleece",
+      "Watch Core",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Bell Essence Bottle",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3134": {
    "insight": [
@@ -9416,6 +12204,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Mistilteinn",
+      "Silver Bullet",
+      "Red Lacquer Tablet",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Platinum Ouija",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Bell Essence Bottle",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Serpent Scepter",
+      "Silver Bullet",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Golden Fleece",
+      "Golden Compass",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3048": {
@@ -9670,6 +12540,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Mistilteinn",
+      "Incorrupt Monkeypaw",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Mistilteinn",
+      "Platinum Ouija",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Rhine Gold",
+      "Golden Compass",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Rhine Gold",
+      "Murmur of Insanity",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Golden Fleece",
+      "Glowing Mothwing",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3135": {
@@ -9908,7 +12860,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Platinum Ouija",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Jadeite Tablet",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Mistilteinn",
+      "Murmur of Insanity",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Rhine Gold",
+      "Golden Bell Essence Bottle",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Rhine Gold",
+      "Silver Bullet",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3087": {
    "insight": [
@@ -10160,6 +13194,88 @@
       40,
       200,
       3
+     ]
+    }
+   ],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Golden Fleece",
+      "Incorrupt Monkeypaw",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Rhine Gold",
+      "Bogeyman",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Watch Core",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Rhine Gold",
+      "Wyrmling Skeleton",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Fleece",
+      "Silver Bullet",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
      ]
     }
    ]
@@ -10431,6 +13547,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Rhine Gold",
+      "Golden Compass",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Golden Fleece",
+      "Incorrupt Monkeypaw",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Mistilteinn",
+      "Silver Bullet",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Rhine Gold",
+      "Glowing Mothwing",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Rhine Gold",
+      "Incorrupt Monkeypaw",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3126": {
@@ -10669,7 +13867,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Rhine Gold",
+      "Wyrmling Skeleton",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Murmur of Insanity",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Mistilteinn",
+      "Bogeyman",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Silver Bullet",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Serpent Scepter",
+      "Watch Core",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3009": {
    "insight": [
@@ -10923,6 +14203,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Serpent Scepter",
+      "Murmur of Insanity",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Silver Bullet",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Mistilteinn",
+      "Golden Compass",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Fleece",
+      "Silver Bullet",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Rhine Gold",
+      "Platinum Ouija",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
    ]
   },
   "3073": {
@@ -11171,6 +14533,88 @@
       1
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Wyrmling Skeleton",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Mistilteinn",
+      "Wyrmling Skeleton",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Rhine Gold",
+      "Silver Bullet",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Rhine Gold",
+      "Murmur of Insanity",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Serpent Scepter",
+      "Glowing Mothwing",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
    ]
   },
   "3149": {
@@ -11415,7 +14859,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Silver Bullet",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Bogeyman",
+      "Red Lacquer Tablet",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Golden Fleece",
+      "Wyrmling Skeleton",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Mistilteinn",
+      "Glowing Mothwing",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3097": {
    "insight": [
@@ -11667,6 +15193,88 @@
       40,
       200,
       3
+     ]
+    }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Mistilteinn",
+      "Wyrmling Skeleton",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Platinum Ouija",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Compass",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Watch Core",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Bell Essence Bottle",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
      ]
     }
    ]
@@ -11938,6 +15546,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Serpent Scepter",
+      "Glowing Mothwing",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Watch Core",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Serpent Scepter",
+      "Platinum Ouija",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Wyrmling Skeleton",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Mistilteinn",
+      "Watch Core",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
    ]
   },
   "3100": {
@@ -12192,6 +15882,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Mistilteinn",
+      "Wyrmling Skeleton",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Platinum Ouija",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Compass",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Watch Core",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Bell Essence Bottle",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3113": {
@@ -12436,7 +16208,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Bell Essence Bottle",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Watch Core",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Serpent Scepter",
+      "Bogeyman",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Golden Fleece",
+      "Wyrmling Skeleton",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Rhine Gold",
+      "Watch Core",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3110": {
    "insight": [
@@ -12690,6 +16544,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Bogeyman",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Wyrmling Skeleton",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Glowing Mothwing",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Golden Fleece",
+      "Watch Core",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
    ]
   },
   "3145": {
@@ -12928,7 +16864,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Mistilteinn",
+      "Silver Bullet",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Rhine Gold",
+      "Bogeyman",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Bell Essence Bottle",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Rhine Gold",
+      "Glowing Mothwing",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Fleece",
+      "Platinum Ouija",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
+   ]
   },
   "3123": {
    "insight": [
@@ -13166,7 +17184,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Rhine Gold",
+      "Murmur of Insanity",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Golden Fleece",
+      "Murmur of Insanity",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Jadeite Tablet",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Mistilteinn",
+      "Murmur of Insanity",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Golden Fleece",
+      "Silver Bullet",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3107": {
    "insight": [
@@ -13410,7 +17510,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Rhine Gold",
+      "Watch Core",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Golden Bell Essence Bottle",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Serpent Scepter",
+      "Glowing Mothwing",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Mistilteinn",
+      "Jadeite Tablet",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Mistilteinn",
+      "Silver Bullet",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3077": {
    "insight": [
@@ -13662,6 +17844,88 @@
       40,
       200,
       3
+     ]
+    }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Compass",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Incorrupt Monkeypaw",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Serpent Scepter",
+      "Silver Bullet",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Murmur of Insanity",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Golden Fleece",
+      "Murmur of Insanity",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
      ]
     }
    ]
@@ -13918,6 +18182,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Platinum Ouija",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Mistilteinn",
+      "Glowing Mothwing",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Mistilteinn",
+      "Wyrmling Skeleton",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Serpent Scepter",
+      "Glowing Mothwing",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Glowing Mothwing",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    }
    ]
   },
   "3092": {
@@ -14156,7 +18502,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Rhine Gold",
+      "Bogeyman",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Watch Core",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Rhine Gold",
+      "Golden Bell Essence Bottle",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Rhine Gold",
+      "Golden Compass",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Rhine Gold",
+      "Bogeyman",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3143": {
    "insight": [
@@ -14400,7 +18828,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Serpent Scepter",
+      "Silver Bullet",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Bogeyman",
+      "Red Lacquer Tablet",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Golden Fleece",
+      "Wyrmling Skeleton",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Mistilteinn",
+      "Glowing Mothwing",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3081": {
    "insight": [
@@ -14658,6 +19168,88 @@
       40,
       200,
       3
+     ]
+    }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Bell Essence Bottle",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Wyrmling Skeleton",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Serpent Scepter",
+      "Bogeyman",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Bell Essence Bottle",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Mistilteinn",
+      "Bogeyman",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
      ]
     }
    ]
@@ -14929,6 +19521,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Bogeyman",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Golden Compass",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Rhine Gold",
+      "Incorrupt Monkeypaw",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Serpent Scepter",
+      "Murmur of Insanity",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Golden Fleece",
+      "Watch Core",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    }
    ]
   },
   "3137": {
@@ -15167,7 +19841,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Serpent Scepter",
+      "Bogeyman",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Wyrmling Skeleton",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Rhine Gold",
+      "Golden Bell Essence Bottle",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Mistilteinn",
+      "Silver Bullet",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Mistilteinn",
+      "Bogeyman",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
+   ]
   },
   "3088": {
    "insight": [
@@ -15419,6 +20175,88 @@
       40,
       200,
       3
+     ]
+    }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Platinum Ouija",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Platinum Ouija",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Mistilteinn",
+      "Wyrmling Skeleton",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Serpent Scepter",
+      "Bogeyman",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Rhine Gold",
+      "Silver Bullet",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
      ]
     }
    ]
@@ -15690,6 +20528,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Wyrmling Skeleton",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Mistilteinn",
+      "Glowing Mothwing",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Rhine Gold",
+      "Watch Core",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Rhine Gold",
+      "Platinum Ouija",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Silver Bullet",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3128": {
@@ -15934,7 +20854,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Murmur of Insanity",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Bell Essence Bottle",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Rhine Gold",
+      "Wyrmling Skeleton",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Serpent Scepter",
+      "Murmur of Insanity",
+      "Red Lacquer Tablet",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Murmur of Insanity",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3124": {
    "insight": [
@@ -16172,7 +21174,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Glowing Mothwing",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Mistilteinn",
+      "Golden Compass",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Mistilteinn",
+      "Golden Compass",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Platinum Ouija",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Mistilteinn",
+      "Watch Core",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3080": {
    "insight": [
@@ -16410,7 +21494,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Mistilteinn",
+      "Silver Bullet",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Incorrupt Monkeypaw",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Serpent Scepter",
+      "Murmur of Insanity",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Mistilteinn",
+      "Silver Bullet",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Serpent Scepter",
+      "Wyrmling Skeleton",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3140": {
    "insight": [
@@ -16648,7 +21814,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Mistilteinn",
+      "Silver Bullet",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Bogeyman",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Bell Essence Bottle",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Rhine Gold",
+      "Glowing Mothwing",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Golden Fleece",
+      "Platinum Ouija",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
+   ]
   },
   "3132": {
    "insight": [
@@ -16892,7 +22140,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Bogeyman",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Wyrmling Skeleton",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Compass",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Serpent Scepter",
+      "Platinum Ouija",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Golden Fleece",
+      "Bogeyman",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3144": {
    "insight": [
@@ -17130,7 +22460,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Mistilteinn",
+      "Silver Bullet",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Bogeyman",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Bell Essence Bottle",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Rhine Gold",
+      "Glowing Mothwing",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Golden Fleece",
+      "Platinum Ouija",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
+   ]
   },
   "3117": {
    "insight": [
@@ -17368,7 +22780,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Wyrmling Skeleton",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Watch Core",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Rhine Gold",
+      "Murmur of Insanity",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Bell Essence Bottle",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Bogeyman",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    }
+   ]
   },
   "3053": {
    "insight": [
@@ -17620,6 +23114,88 @@
       40,
       200,
       3
+     ]
+    }
+   ],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Mistilteinn",
+      "Golden Compass",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Incorrupt Monkeypaw",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Mistilteinn",
+      "Wyrmling Skeleton",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Serpent Scepter",
+      "Bogeyman",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Rhine Gold",
+      "Golden Compass",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
      ]
     }
    ]
@@ -17882,6 +23458,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Rhine Gold",
+      "Bogeyman",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Bell Essence Bottle",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Rhine Gold",
+      "Platinum Ouija",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Bogeyman",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    }
    ]
   },
   "3109": {
@@ -18120,7 +23778,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Golden Fleece",
+      "Golden Bell Essence Bottle",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Rhine Gold",
+      "Platinum Ouija",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Mistilteinn",
+      "Golden Compass",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Serpent Scepter",
+      "Incorrupt Monkeypaw",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Mistilteinn",
+      "Platinum Ouija",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3105": {
    "insight": [
@@ -18358,7 +24098,89 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Mistilteinn",
+      "Murmur of Insanity",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Silver Bullet",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Rhine Gold",
+      "Glowing Mothwing",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Serpent Scepter",
+      "Golden Bell Essence Bottle",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Rhine Gold",
+      "Glowing Mothwing",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
+   ]
   },
   "3063": {
    "insight": [
@@ -18610,6 +24432,88 @@
       40,
       200,
       3
+     ]
+    }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Rhine Gold",
+      "Bogeyman",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Golden Fleece",
+      "Silver Bullet",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Silver Bullet",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Fleece",
+      "Platinum Ouija",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Golden Bell Essence Bottle",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
      ]
     }
    ]
@@ -18866,6 +24770,88 @@
       3
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Serpent Scepter",
+      "Silver Bullet",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Serpent Scepter",
+      "Glowing Mothwing",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      5,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Rhine Gold",
+      "Glowing Mothwing",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Fruit of Good and Evil",
+      "Wyrmling Skeleton",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      4,
+      120000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Mistilteinn",
+      "Murmur of Insanity",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      1,
+      2,
+      3,
+      120000
+     ]
+    }
    ]
   },
   "3010": {
@@ -19110,7 +25096,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Watch Core",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Silver Bullet",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Murmur of Insanity",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Wyrmling Skeleton",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Bogeyman",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    }
+   ]
   },
   "3118": {
    "insight": [
@@ -19348,7 +25406,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Murmur of Insanity",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Golden Bell Essence Bottle",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Incorrupt Monkeypaw",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Glowing Mothwing",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Watch Core",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    }
+   ]
   },
   "3037": {
    "insight": [
@@ -19586,7 +25716,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Silver Bullet",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Silver Bullet",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Golden Compass",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Golden Compass",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Silver Bullet",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3103": {
    "insight": [
@@ -19824,7 +26026,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Silver Bullet",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Bogeyman",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Golden Bell Essence Bottle",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Glowing Mothwing",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Platinum Ouija",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    }
+   ]
   },
   "3075": {
    "insight": [
@@ -20062,7 +26336,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Watch Core",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Silver Bullet",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Incorrupt Monkeypaw",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Murmur of Insanity",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Wyrmling Skeleton",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3064": {
    "insight": [
@@ -20300,7 +26646,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Bogeyman",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Silver Bullet",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Platinum Ouija",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Incorrupt Monkeypaw",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Golden Bell Essence Bottle",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    }
+   ]
   },
   "3022": {
    "insight": [
@@ -20538,7 +26956,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Watch Core",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Watch Core",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Golden Bell Essence Bottle",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Compass",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Murmur of Insanity",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3112": {
    "insight": [
@@ -20776,7 +27266,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Incorrupt Monkeypaw",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Glowing Mothwing",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Watch Core",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Wyrmling Skeleton",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Golden Compass",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3091": {
    "insight": [
@@ -21014,7 +27576,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Incorrupt Monkeypaw",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Incorrupt Monkeypaw",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Golden Compass",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Platinum Ouija",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Platinum Ouija",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    }
+   ]
   },
   "3011": {
    "insight": [
@@ -21252,7 +27886,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Platinum Ouija",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Silver Bullet",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Murmur of Insanity",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Golden Bell Essence Bottle",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Wyrmling Skeleton",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3041": {
    "insight": [
@@ -21521,6 +28227,78 @@
       2
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Glowing Mothwing",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Wyrmling Skeleton",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Murmur of Insanity",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Bogeyman",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Watch Core",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
    ]
   },
   "3099": {
@@ -21765,7 +28543,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Golden Compass",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Bogeyman",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Watch Core",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Bogeyman",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Murmur of Insanity",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3115": {
    "insight": [
@@ -22003,7 +28853,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Golden Compass",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Golden Bell Essence Bottle",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Golden Compass",
+      "Red Lacquer Tablet",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Compass",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Silver Bullet",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    }
+   ]
   },
   "3024": {
    "insight": [
@@ -22241,7 +29163,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Glowing Mothwing",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Watch Core",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Platinum Ouija",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Glowing Mothwing",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Platinum Ouija",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3016": {
    "insight": [
@@ -22479,7 +29473,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Bogeyman",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Murmur of Insanity",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Incorrupt Monkeypaw",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Wyrmling Skeleton",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Silver Bullet",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3060": {
    "insight": [
@@ -22717,7 +29783,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Platinum Ouija",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Platinum Ouija",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Watch Core",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Wyrmling Skeleton",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Glowing Mothwing",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    }
+   ]
   },
   "3038": {
    "insight": [
@@ -22955,7 +30093,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Platinum Ouija",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Bogeyman",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Bogeyman",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Bogeyman",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Watch Core",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3023": {
    "insight": [
@@ -23193,7 +30403,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Bogeyman",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Golden Bell Essence Bottle",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Murmur of Insanity",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Glowing Mothwing",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Silver Bullet",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3106": {
    "insight": [
@@ -23431,7 +30713,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Murmur of Insanity",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Bogeyman",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Incorrupt Monkeypaw",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Glowing Mothwing",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Glowing Mothwing",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3078": {
    "insight": [
@@ -23669,7 +31023,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Golden Bell Essence Bottle",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Golden Compass",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Golden Compass",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Incorrupt Monkeypaw",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Bogeyman",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3122": {
    "insight": [
@@ -23907,7 +31333,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Silver Bullet",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Glowing Mothwing",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Golden Compass",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Watch Core",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Watch Core",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3082": {
    "insight": [
@@ -24145,7 +31643,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Murmur of Insanity",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Glowing Mothwing",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Golden Compass",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Bogeyman",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Bell Essence Bottle",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3076": {
    "insight": [
@@ -24383,7 +31953,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Golden Bell Essence Bottle",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Watch Core",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Bogeyman",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Golden Compass",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Glowing Mothwing",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3154": {
    "insight": [
@@ -24621,7 +32263,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Golden Compass",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Bogeyman",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Watch Core",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Bogeyman",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Murmur of Insanity",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3017": {
    "insight": [
@@ -24859,7 +32573,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Murmur of Insanity",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Golden Bell Essence Bottle",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Golden Compass",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Bogeyman",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Murmur of Insanity",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    }
+   ]
   },
   "3071": {
    "insight": [
@@ -25097,7 +32883,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Watch Core",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Golden Compass",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Incorrupt Monkeypaw",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Bogeyman",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Platinum Ouija",
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3020": {
    "insight": [
@@ -25351,6 +33209,78 @@
       2
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Incorrupt Monkeypaw",
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Platinum Ouija",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Incorrupt Monkeypaw",
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      5,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Bogeyman",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Murmur of Insanity",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    }
    ]
   },
   "3049": {
@@ -25595,7 +33525,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Incorrupt Monkeypaw",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Glowing Mothwing",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Platinum Ouija",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Bogeyman",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Incorrupt Monkeypaw",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    }
+   ]
   },
   "3043": {
    "insight": [
@@ -25849,6 +33851,78 @@
       2
      ]
     }
+   ],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Wyrmling Skeleton",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Golden Bell Essence Bottle",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Silver Bullet",
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Wyrmling Skeleton",
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Platinum Ouija",
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
    ]
   },
   "3061": {
@@ -26087,7 +34161,79 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Watch Core",
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Silver Bullet",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Golden Compass",
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      4,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Murmur of Insanity",
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Glowing Mothwing",
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      3,
+      100000
+     ]
+    }
+   ]
   },
   "3028": {
    "insight": [
@@ -26235,7 +34381,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      5,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      5,
+      50000
+     ]
+    }
+   ]
   },
   "3163": {
    "insight": [
@@ -26383,7 +34591,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    }
+   ]
   },
   "3033": {
    "insight": [
@@ -26531,7 +34801,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    }
+   ]
   },
   "3013": {
    "insight": [
@@ -26679,7 +35011,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      5,
+      50000
+     ]
+    }
+   ]
   },
   "3151": {
    "insight": [
@@ -26831,7 +35225,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Red Lacquer Tablet",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Red Lacquer Tablet",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    }
+   ]
   },
   "3138": {
    "insight": [
@@ -26979,7 +35435,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Red Lacquer Tablet",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Red Lacquer Tablet",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    }
+   ]
   },
   "3005": {
    "insight": [
@@ -27127,7 +35645,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    }
+   ]
   },
   "3042": {
    "insight": [
@@ -27275,7 +35855,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    }
+   ]
   },
   "3057": {
    "insight": [
@@ -27427,7 +36069,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      5,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    }
+   ]
   },
   "3044": {
    "insight": [
@@ -27575,7 +36279,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      5,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    }
+   ]
   },
   "3014": {
    "insight": [
@@ -27723,7 +36489,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      5,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    }
+   ]
   },
   "3026": {
    "insight": [
@@ -27871,7 +36699,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      5,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    }
+   ]
   },
   "3058": {
    "insight": [
@@ -28019,7 +36909,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    }
+   ]
   },
   "3018": {
    "insight": [
@@ -28167,7 +37119,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    }
+   ]
   },
   "3006": {
    "insight": [
@@ -28315,7 +37329,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    }
+   ]
   },
   "3031": {
    "insight": [
@@ -28463,7 +37539,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    }
+   ]
   },
   "3015": {
    "insight": [
@@ -28611,7 +37749,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    }
+   ]
   },
   "3046": {
    "insight": [
@@ -28763,7 +37963,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    }
+   ]
   },
   "3101": {
    "insight": [
@@ -28915,7 +38177,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      4,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      5,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      50000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      5,
+      50000
+     ]
+    }
+   ]
   },
   "3012": {
    "insight": [
@@ -29061,7 +38385,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    }
+   ]
   },
   "3050": {
    "insight": [
@@ -29207,7 +38593,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    }
+   ]
   },
   "3030": {
    "insight": [
@@ -29353,7 +38801,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Inverted-T",
+     "Id": 5,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 4,
+     "Material": [
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 1,
+     "Material": [
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 3,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Inverted-T",
+     "Id": 7,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    }
+   ]
   },
   "3035": {
    "insight": [
@@ -29499,7 +39009,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    }
+   ]
   },
   "3040": {
    "insight": [
@@ -29649,7 +39221,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    }
+   ]
   },
   "3045": {
    "insight": [
@@ -29795,7 +39429,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    }
+   ]
   },
   "3055": {
    "insight": [
@@ -29941,7 +39637,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    }
+   ]
   },
   "3054": {
    "insight": [
@@ -30087,7 +39845,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Cross",
+     "Id": 5,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 4,
+     "Material": [
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 14,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 2,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "Cross",
+     "Id": 6,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    }
+   ]
   },
   "3034": {
    "insight": [
@@ -30233,7 +40053,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    }
+   ]
   },
   "3036": {
    "insight": [
@@ -30383,7 +40265,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Goose Neck",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    }
+   ]
   },
   "3096": {
    "insight": [
@@ -30533,7 +40477,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Prophetic Bird",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Bifurcated Skeleton",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    }
+   ]
   },
   "3059": {
    "insight": [
@@ -30683,7 +40689,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "Z-shape",
+     "Id": 5,
+     "Material": [
+      "Golden Herb Incense",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 4,
+     "Material": [
+      "Biting Box",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 11,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 12,
+     "Material": [
+      "Clawed Pendulum",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "Z-shape",
+     "Id": 13,
+     "Material": [
+      "Salted Mandrake",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    }
+   ]
   },
   "3027": {
    "insight": [
@@ -30833,7 +40901,69 @@
      ]
     }
    ],
-   "euphoria": []
+   "euphoria": [],
+   "frequency": [
+    {
+     "Type": "U-shape",
+     "Id": 1,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 8,
+     "Material": [
+      "Winged Key",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 9,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 10,
+     "Material": [
+      "Holy Silver",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      3,
+      20000
+     ]
+    },
+    {
+     "Type": "U-shape",
+     "Id": 12,
+     "Material": [
+      "Golden Beetle",
+      "Sharpodonty"
+     ],
+     "Quantity": [
+      2,
+      20000
+     ]
+    }
+   ]
   }
  },
  "levels": [

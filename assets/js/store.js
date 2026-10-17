@@ -169,7 +169,7 @@ export function charRecord(id) {
 
 export function ensureChar(id) {
   const r = state.user.roster.chars;
-  if (!r[id]) r[id] = { owned: false, level: 1, insight: 0, resonance: 1, portray: 0, euphoria: 0, euphoriaLevel: 0, psychube: null, skin: null, spectrum: '', modulation: '', note: '' };
+  if (!r[id]) r[id] = { owned: false, level: 1, insight: 0, resonance: 1, portray: 0, euphoria: 0, euphorias: [], euphoriaLevel: 0, tuning: null, tunings: [], psychube: null, skin: null, spectrum: '', note: '' };
   return r[id];
 }
 
