@@ -5,28 +5,32 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
+   "portray": 3,
    "euphoria": 2,
    "euphoriaLevel": 4,
-   "psychube": null,
+   "psychube": 1502,
    "skin": 300302,
    "spectrum": "",
    "modulation": "",
-   "note": ""
+   "note": "",
+   "euphorias": [
+    1,
+    2
+   ]
   },
   "3004": {
    "owned": true,
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
+   "portray": 2,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
    "tuning": null,
    "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "psychube": 1521,
+   "skin": 300404,
    "spectrum": "",
    "note": ""
   },
@@ -66,15 +70,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
+   "resonance": 3,
+   "portray": 3,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
    "tuning": null,
    "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "psychube": 1514,
+   "skin": 300731,
    "spectrum": "",
    "note": ""
   },
@@ -83,14 +89,16 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
+   "portray": 1,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
    "tuning": null,
    "tunings": [],
    "psychube": null,
-   "skin": null,
+   "skin": 300904,
    "spectrum": "",
    "note": ""
   },
@@ -307,14 +315,18 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
+   "portray": 2,
+   "euphoria": 2,
+   "euphorias": [
+    2
+   ],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 4,
+   "tunings": [
+    4
+   ],
+   "psychube": 1547,
+   "skin": 302504,
    "spectrum": "",
    "note": ""
   },
@@ -402,15 +414,15 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 3,
+   "portray": 1,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
    "tuning": null,
    "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "psychube": 1502,
+   "skin": 303202,
    "spectrum": "",
    "note": ""
   },
@@ -514,15 +526,20 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "resonance": 13,
+   "portray": 5,
+   "euphoria": 2,
+   "euphorias": [
+    1,
+    2
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 4,
+   "tunings": [
+    4
+   ],
+   "psychube": 1444,
+   "skin": 303904,
    "spectrum": "",
    "note": ""
   },
@@ -643,14 +660,16 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
+   "portray": 3,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
    "tuning": null,
    "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "psychube": 1541,
+   "skin": 304704,
    "spectrum": "",
    "note": ""
   },
@@ -659,14 +678,18 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "portray": 3,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 5,
+   "tunings": [
+    5
+   ],
+   "psychube": 1547,
+   "skin": 304804,
    "spectrum": "",
    "note": ""
   },
@@ -706,15 +729,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
+   "resonance": 3,
+   "portray": 1,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
    "tuning": null,
    "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "psychube": 1555,
+   "skin": 305104,
    "spectrum": "",
    "note": ""
   },
@@ -723,28 +748,35 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
+   "portray": 3,
    "euphoria": 1,
    "euphoriaLevel": 4,
-   "psychube": null,
+   "psychube": 1439,
    "skin": 305203,
    "spectrum": "",
    "modulation": "",
-   "note": ""
+   "note": "",
+   "euphorias": [
+    1
+   ]
   },
   "3053": {
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "resonance": 14,
+   "portray": 5,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 4,
+   "tunings": [
+    4
+   ],
+   "psychube": 1540,
+   "skin": 305305,
    "spectrum": "",
    "note": ""
   },
@@ -784,15 +816,15 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 11,
+   "portray": 2,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
    "tuning": null,
    "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "psychube": 1434,
+   "skin": 305604,
    "spectrum": "",
    "note": ""
   },
@@ -881,14 +913,18 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "portray": 3,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 5,
+   "tunings": [
+    5
+   ],
+   "psychube": 1509,
+   "skin": 306203,
    "spectrum": "",
    "note": ""
   },
@@ -898,13 +934,15 @@
    "insight": 3,
    "resonance": 10,
    "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
    "tuning": null,
    "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "psychube": 1523,
+   "skin": 306302,
    "spectrum": "",
    "note": ""
   },
@@ -929,14 +967,18 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "portray": 2,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 4,
+   "tunings": [
+    4
+   ],
+   "psychube": 1524,
+   "skin": 306504,
    "spectrum": "",
    "note": ""
   },
@@ -944,29 +986,40 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 15,
+   "portray": 5,
    "euphoria": 0,
    "euphoriaLevel": 0,
-   "psychube": null,
+   "psychube": 1539,
    "skin": 306604,
    "spectrum": "",
    "modulation": "",
-   "note": ""
+   "note": "",
+   "tunings": [
+    2
+   ],
+   "tuning": 2
   },
   "3070": {
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 13,
+   "portray": 1,
    "euphoria": 1,
    "euphoriaLevel": 4,
-   "psychube": null,
+   "psychube": 1521,
    "skin": 307004,
    "spectrum": "",
    "modulation": "",
-   "note": ""
+   "note": "",
+   "euphorias": [
+    1
+   ],
+   "tuning": 5,
+   "tunings": [
+    5
+   ]
   },
   "3071": {
    "owned": true,
@@ -988,29 +1041,31 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 5,
+   "portray": 2,
    "euphoria": 0,
    "euphoriaLevel": 0,
    "psychube": null,
    "skin": 307203,
    "spectrum": "",
    "modulation": "",
-   "note": ""
+   "note": "제발 좋은 광상 좀ㅠㅠ 갈기모래 쓰고 싶다고"
   },
   "3073": {
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
+   "resonance": 11,
    "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
    "tuning": null,
    "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "psychube": 1515,
+   "skin": 307304,
    "spectrum": "",
    "note": ""
   },
@@ -1019,15 +1074,18 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
+   "portray": 1,
+   "euphoria": 1,
+   "euphorias": [
+    1,
+    2
+   ],
+   "euphoriaLevel": 4,
    "tuning": null,
    "tunings": [],
-   "psychube": null,
-   "skin": null,
-   "spectrum": "",
+   "psychube": 1528,
+   "skin": 307403,
+   "spectrum": "불시의 의아함",
    "note": ""
   },
   "3075": {
@@ -1066,15 +1124,19 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "resonance": 13,
+   "portray": 2,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 4,
+   "tunings": [
+    4
+   ],
+   "psychube": 1521,
+   "skin": 307704,
    "spectrum": "",
    "note": ""
   },
@@ -1099,28 +1161,37 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
+   "portray": 2,
    "euphoria": 1,
    "euphoriaLevel": 4,
-   "psychube": null,
+   "psychube": 1444,
    "skin": 307903,
    "spectrum": "",
    "modulation": "",
-   "note": ""
+   "note": "",
+   "euphorias": [
+    1
+   ],
+   "tuning": 5,
+   "tunings": [
+    5
+   ]
   },
   "3080": {
    "owned": true,
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
+   "portray": 3,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 8,
+   "tunings": [
+    8
+   ],
+   "psychube": 1528,
+   "skin": 308004,
    "spectrum": "",
    "note": ""
   },
@@ -1128,15 +1199,19 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "resonance": 13,
+   "portray": 5,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 4,
+   "tunings": [
+    4
+   ],
+   "psychube": 1565,
+   "skin": 308103,
    "spectrum": "",
    "note": ""
   },
@@ -1160,43 +1235,61 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 13,
+   "portray": 5,
    "euphoria": 1,
    "euphoriaLevel": 4,
-   "psychube": null,
+   "psychube": 1521,
    "skin": 308303,
    "spectrum": "",
    "modulation": "",
-   "note": ""
+   "note": "",
+   "euphorias": [
+    1
+   ],
+   "tuning": 4,
+   "tunings": [
+    4
+   ]
   },
   "3084": {
    "owned": true,
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
+   "portray": 5,
    "euphoria": 1,
    "euphoriaLevel": 4,
-   "psychube": null,
+   "psychube": 1539,
    "skin": 308404,
    "spectrum": "",
    "modulation": "",
-   "note": ""
+   "note": "",
+   "euphorias": [
+    1
+   ],
+   "tuning": 4,
+   "tunings": [
+    4
+   ]
   },
   "3086": {
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "resonance": 15,
+   "portray": 5,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 4,
+   "tunings": [
+    4
+   ],
+   "psychube": 1527,
+   "skin": 308603,
    "spectrum": "",
    "note": ""
   },
@@ -1205,14 +1298,18 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "portray": 1,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 1,
+   "tunings": [
+    1
+   ],
+   "psychube": 1541,
+   "skin": 308704,
    "spectrum": "",
    "note": ""
   },
@@ -1220,15 +1317,19 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "resonance": 13,
+   "portray": 5,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 12,
+   "tunings": [
+    12
+   ],
+   "psychube": 1537,
+   "skin": 308804,
    "spectrum": "",
    "note": ""
   },
@@ -1257,10 +1358,12 @@
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 5,
+   "tunings": [
+    5
+   ],
+   "psychube": 1562,
+   "skin": 309203,
    "spectrum": "",
    "note": ""
   },
@@ -1268,31 +1371,37 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 13,
+   "portray": 4,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 13,
+   "tunings": [
+    13
+   ],
+   "psychube": 1541,
+   "skin": 309403,
    "spectrum": "",
-   "note": ""
+   "note": "혹은 가정지도사"
   },
   "3095": {
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "resonance": 13,
+   "portray": 5,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 14,
+   "tunings": [
+    14
+   ],
+   "psychube": 1436,
+   "skin": 309503,
    "spectrum": "",
    "note": ""
   },
@@ -1318,13 +1427,17 @@
    "insight": 3,
    "resonance": 10,
    "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 4,
+   "tunings": [
+    4
+   ],
+   "psychube": 1534,
+   "skin": 309702,
    "spectrum": "",
    "note": ""
   },
@@ -1333,14 +1446,18 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "portray": 3,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 4,
+   "tunings": [
+    4
+   ],
+   "psychube": 1533,
+   "skin": 309804,
    "spectrum": "",
    "note": ""
   },
@@ -1364,15 +1481,19 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "resonance": 15,
+   "portray": 5,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 4,
+   "tunings": [
+    4
+   ],
+   "psychube": 1536,
+   "skin": 310003,
    "spectrum": "",
    "note": ""
   },
@@ -1396,15 +1517,19 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "resonance": 13,
+   "portray": 1,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 2,
+   "tunings": [
+    2
+   ],
+   "psychube": 1537,
+   "skin": 310203,
    "spectrum": "",
    "note": ""
   },
@@ -1428,15 +1553,19 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "resonance": 15,
+   "portray": 5,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 13,
+   "tunings": [
+    13
+   ],
+   "psychube": 1538,
+   "skin": 310404,
    "spectrum": "",
    "note": ""
   },
@@ -1444,17 +1573,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 15,
+   "portray": 5,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
    "tuning": null,
    "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "psychube": 1547,
+   "skin": 310504,
    "spectrum": "",
-   "note": ""
+   "note": "생존셋이라 별도의 변조 없음"
   },
   "3106": {
    "owned": true,
@@ -1477,14 +1606,16 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
+   "portray": 1,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 5,
+   "tunings": [
+    5
+   ],
+   "psychube": 1539,
+   "skin": 310703,
    "spectrum": "",
    "note": ""
   },
@@ -1493,14 +1624,16 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
+   "portray": 5,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 4,
+   "tunings": [
+    4
+   ],
+   "psychube": 1540,
+   "skin": 310803,
    "spectrum": "",
    "note": ""
   },
@@ -1508,15 +1641,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 15,
+   "portray": 2,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 1,
+   "tunings": [
+    1
+   ],
+   "psychube": 1541,
+   "skin": 310905,
    "spectrum": "",
    "note": ""
   },
@@ -1524,15 +1659,19 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "resonance": 15,
+   "portray": 5,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 4,
+   "tunings": [
+    4
+   ],
+   "psychube": 1542,
+   "skin": 311003,
    "spectrum": "",
    "note": ""
   },
@@ -1540,15 +1679,18 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 9,
+   "portray": 1,
    "euphoria": 1,
    "euphoriaLevel": 4,
-   "psychube": null,
+   "psychube": 1543,
    "skin": 311103,
    "spectrum": "",
    "modulation": "",
-   "note": ""
+   "note": "",
+   "euphorias": [
+    1
+   ]
   },
   "3112": {
    "owned": true,
@@ -1571,14 +1713,14 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
+   "portray": 1,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
    "tuning": null,
    "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "psychube": 1545,
+   "skin": 311303,
    "spectrum": "",
    "note": ""
   },
@@ -1586,15 +1728,19 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "resonance": 13,
+   "portray": 5,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 5,
+   "tunings": [
+    5
+   ],
+   "psychube": 1544,
+   "skin": 311404,
    "spectrum": "",
    "note": ""
   },
@@ -1618,15 +1764,19 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "resonance": 13,
+   "portray": 4,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 5,
+   "tunings": [
+    5
+   ],
+   "psychube": 1546,
+   "skin": 311603,
    "spectrum": "",
    "note": ""
   },
@@ -1634,15 +1784,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 15,
+   "portray": 2,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 1,
+   "tunings": [
+    1
+   ],
+   "psychube": 1547,
+   "skin": 311704,
    "spectrum": "",
    "note": ""
   },
@@ -1666,29 +1818,40 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 15,
+   "portray": 5,
    "euphoria": 1,
    "euphoriaLevel": 4,
-   "psychube": null,
+   "psychube": 1548,
    "skin": 312003,
    "spectrum": "",
    "modulation": "",
-   "note": ""
+   "note": "",
+   "euphorias": [
+    1
+   ],
+   "tuning": 14,
+   "tunings": [
+    14
+   ]
   },
   "3121": {
    "owned": true,
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "portray": 3,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
+   "tuning": 5,
+   "tunings": [
+    5
+   ],
+   "psychube": 1445,
+   "skin": 312103,
    "spectrum": "",
    "note": ""
   },
@@ -1712,15 +1875,20 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 15,
+   "portray": 5,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 5,
+   "tunings": [
+    5,
+    4,
+    2,
+    6
+   ],
+   "psychube": 1551,
+   "skin": 312302,
    "spectrum": "",
    "note": ""
   },
@@ -1728,15 +1896,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 13,
+   "portray": 5,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 5,
+   "tunings": [
+    5
+   ],
+   "psychube": 1552,
+   "skin": 312402,
    "spectrum": "",
    "note": ""
   },
@@ -1744,15 +1914,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
+   "resonance": 13,
    "portray": 0,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 8,
+   "tunings": [
+    8
+   ],
+   "psychube": 1556,
+   "skin": 312503,
    "spectrum": "",
    "note": ""
   },
@@ -1760,15 +1932,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 15,
+   "portray": 1,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 12,
+   "tunings": [
+    12
+   ],
+   "psychube": 1553,
+   "skin": 312606,
    "spectrum": "",
    "note": ""
   },
@@ -1776,15 +1950,18 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 15,
+   "portray": 2,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 12,
+   "tunings": [
+    12,
+    13
+   ],
+   "psychube": 1560,
+   "skin": 312703,
    "spectrum": "",
    "note": ""
   },
@@ -1792,15 +1969,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 13,
+   "portray": 1,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 1,
+   "tunings": [
+    1
+   ],
+   "psychube": 1554,
+   "skin": 312803,
    "spectrum": "",
    "note": ""
   },
@@ -1808,15 +1987,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 14,
+   "portray": 3,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 5,
+   "tunings": [
+    5
+   ],
+   "psychube": 1521,
+   "skin": 313203,
    "spectrum": "",
    "note": ""
   },
@@ -1824,15 +2005,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 15,
+   "portray": 5,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 4,
+   "tunings": [
+    4
+   ],
+   "psychube": 1515,
+   "skin": 313402,
    "spectrum": "",
    "note": ""
   },
@@ -1840,15 +2023,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 13,
+   "portray": 1,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 5,
+   "tunings": [
+    5
+   ],
+   "psychube": 1539,
+   "skin": 313502,
    "spectrum": "",
    "note": ""
   },
@@ -1879,8 +2064,8 @@
    "euphoriaLevel": 0,
    "tuning": null,
    "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "psychube": 1564,
+   "skin": 313702,
    "spectrum": "",
    "note": ""
   },
@@ -1904,15 +2089,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 13,
+   "portray": 2,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 4,
+   "tunings": [
+    4
+   ],
+   "psychube": 1561,
+   "skin": 313903,
    "spectrum": "",
    "note": ""
   },
@@ -1920,29 +2107,37 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 12,
+   "portray": 2,
    "euphoria": 0,
    "euphoriaLevel": 0,
    "psychube": 1574,
-   "skin": 314002,
+   "skin": 314003,
    "spectrum": "",
    "modulation": "",
-   "note": ""
+   "note": "",
+   "tuning": 5,
+   "tunings": [
+    5
+   ]
   },
   "3141": {
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 15,
+   "portray": 5,
    "euphoria": 0,
    "euphoriaLevel": 0,
-   "psychube": null,
+   "psychube": 1563,
    "skin": 314102,
    "spectrum": "",
    "modulation": "",
-   "note": ""
+   "note": "",
+   "tuning": 4,
+   "tunings": [
+    4
+   ]
   },
   "3142": {
    "owned": true,
@@ -1952,25 +2147,31 @@
    "portray": 0,
    "euphoria": 0,
    "euphoriaLevel": 0,
-   "psychube": null,
+   "psychube": 1434,
    "skin": 314202,
    "spectrum": "",
    "modulation": "",
-   "note": ""
+   "note": "",
+   "tuning": 2,
+   "tunings": [
+    2
+   ]
   },
   "3143": {
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 13,
+   "portray": 2,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 1,
+   "tunings": [
+    1
+   ],
+   "psychube": 1537,
+   "skin": 314302,
    "spectrum": "",
    "note": ""
   },
@@ -1979,14 +2180,16 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 0,
+   "portray": 2,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 6,
+   "tunings": [
+    6
+   ],
+   "psychube": 1570,
+   "skin": 314403,
    "spectrum": "",
    "note": ""
   },
@@ -1994,15 +2197,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 13,
+   "portray": 2,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 1,
+   "tunings": [
+    1
+   ],
+   "psychube": 1573,
+   "skin": 314503,
    "spectrum": "",
    "note": ""
   },
@@ -2010,15 +2215,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 15,
+   "portray": 5,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 12,
+   "tunings": [
+    12
+   ],
+   "psychube": 1568,
+   "skin": 314602,
    "spectrum": "",
    "note": ""
   },
@@ -2026,15 +2233,17 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 15,
+   "portray": 5,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 5,
+   "tunings": [
+    5
+   ],
+   "psychube": 1569,
+   "skin": 314702,
    "spectrum": "",
    "note": ""
   },
@@ -2042,17 +2251,19 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 13,
+   "portray": 5,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "tuning": 5,
+   "tunings": [
+    5
+   ],
+   "psychube": 1571,
+   "skin": 314903,
    "spectrum": "",
-   "note": ""
+   "note": "예술 원자력, 과학 안무법 모두 장착... - 기능 수정 필요"
   },
   "3151": {
    "owned": true,
@@ -2087,7 +2298,7 @@
    "note": ""
   },
   "3156": {
-   "owned": true,
+   "owned": false,
    "level": 60,
    "insight": 3,
    "resonance": 10,
@@ -2103,7 +2314,7 @@
    "note": ""
   },
   "3157": {
-   "owned": true,
+   "owned": false,
    "level": 60,
    "insight": 3,
    "resonance": 10,
