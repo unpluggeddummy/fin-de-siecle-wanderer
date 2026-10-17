@@ -1,0 +1,91 @@
+# 게임 데이터·이미지 갱신
+# 매주 월요일 새벽(한국 시간 05:17)에 자동으로 돌고, 사이트 설정 화면이나 Actions 탭에서 직접 실행할 수도 있다.
+# 내 기록(data/user)은 건드리지 않는다.
+name: 게임 데이터 갱신
+
+on:
+  schedule:
+    - cron: "17 20 * * 0"
+  workflow_dispatch:
+    inputs:
+      force_images:
+        description: "이미지를 모두 다시 받기 (true/false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-game-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: 이 저장소 받기
+        uses: actions/checkout@v4
+
+      - name: 파이썬 준비
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 이미지 변환 도구 설치
+        run: pip install pillow requests
+
+      - name: 원본 데이터 저장소 받기
+        run: |
+          set -e
+          mkdir -p ../src && cd ../src
+          git clone --depth 1 --filter=blob:none https://github.com/St-Pavlov-Foundation/re1999-data-global.git global
+          git clone --depth 1 https://github.com/windbow27/kornblume.git kornblume
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/UnderLotus/r1999-roster.git roster
+          (cd roster && git sparse-checkout set src/data public/assets/characters/avatars)
+          git clone --depth 1 --filter=blob:none --no-checkout https://github.com/myssal/Reverse-1999-CN-Asset.git cn
+          cd cn
+          git sparse-checkout init --no-cone
+          cat > .git/info/sparse-checkout <<'LIST'
+          /singlebg/store/skin/
+          /singlebg/characterskin/*.png
+          /singlebg/headicon_middle/
+          /singlebg/headskinicon_middle/
+          /singlebg/equipment/icon/
+          /singlebg/currencyitem/
+          /singlebg/propitem/prop/
+          /singlebg/bossrush/boss/
+          /singlebg/v1a4_bossrush_bossicon_singlebg/
+          LIST
+          sed -i 's/^ *//' .git/info/sparse-checkout
+          git checkout
+
+      - name: 게임 데이터 만들기
+        run: |
+          FORCE=""
+          if [ "${{ github.event.inputs.force_images }}" = "true" ]; then FORCE="--force-images"; fi
+          python scripts/update_game_data.py \
+            --global ../src/global --cn ../src/cn \
+            --kornblume ../src/kornblume --roster ../src/roster \
+            --out . $FORCE
+
+      - name: 빠진 스킨 그림을 팬덤 위키에서 채우기
+        continue-on-error: true
+        run: python scripts/fill_from_wiki.py --out .
+
+      - name: 바뀐 내용 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/game assets/img
+          if git diff --cached --quiet; then
+            echo "바뀐 내용이 없습니다."
+            exit 0
+          fi
+          git commit -m "게임 데이터 갱신 ($(date -u +%Y-%m-%d))"
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            sleep 5
+          done
+          exit 1

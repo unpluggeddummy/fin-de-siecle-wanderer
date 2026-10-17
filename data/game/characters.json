@@ -1,0 +1,3284 @@
+[
+ {
+  "id": 3066,
+  "name": {
+   "ko": "37",
+   "en": "37",
+   "ja": "37",
+   "zhCN": "37",
+   "zhTW": "37"
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 306601,
+  "insightSkin": 306602,
+  "skins": [
+   306601,
+   306602,
+   306603,
+   306604,
+   306605
+  ],
+  "kb": "37",
+  "nameChecked": true
+ },
+ {
+  "id": 3079,
+  "name": {
+   "ko": "6",
+   "en": "6",
+   "ja": "6",
+   "zhCN": "6",
+   "zhTW": "6"
+  },
+  "rarity": 6,
+  "afflatus": "intellect",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 307901,
+  "insightSkin": 307902,
+  "skins": [
+   307901,
+   307902,
+   307903,
+   307904,
+   307905
+  ],
+  "kb": "6",
+  "nameChecked": true
+ },
+ {
+  "id": 3007,
+  "name": {
+   "ko": "A 나이트",
+   "en": "A Knight",
+   "ja": "ナイト",
+   "zhCN": "未锈铠",
+   "zhTW": "未鏽鎧"
+  },
+  "rarity": 6,
+  "afflatus": "spirit",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 300701,
+  "insightSkin": 300702,
+  "skins": [
+   300701,
+   300702,
+   300703,
+   300731
+  ],
+  "kb": "A Knight",
+  "nameChecked": true
+ },
+ {
+  "id": 3158,
+  "name": {
+   "ko": "Drake",
+   "en": "Drake",
+   "ja": "",
+   "zhCN": "德雷克",
+   "zhTW": ""
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "unknown",
+  "released": false,
+  "euphoria": 0,
+  "defaultSkin": 315801,
+  "insightSkin": 315802,
+  "skins": [
+   315801,
+   315802
+  ],
+  "kb": "Drake",
+  "nameChecked": false
+ },
+ {
+  "id": 3156,
+  "name": {
+   "ko": "Hedone",
+   "en": "Hedone",
+   "ja": "",
+   "zhCN": "赫多涅",
+   "zhTW": "赫多涅"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "unknown",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 315601,
+  "insightSkin": 315602,
+  "skins": [
+   315601,
+   315602
+  ],
+  "kb": "Hedone",
+  "nameChecked": false
+ },
+ {
+  "id": 3155,
+  "name": {
+   "ko": "Huntsworn Lilya",
+   "en": "Huntsworn Lilya",
+   "ja": "",
+   "zhCN": "狩勋女巫红弩箭",
+   "zhTW": ""
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "unknown",
+  "released": false,
+  "euphoria": 0,
+  "defaultSkin": 315501,
+  "insightSkin": 315502,
+  "skins": [
+   315501,
+   315502,
+   315503
+  ],
+  "kb": "Huntsworn Lilya",
+  "nameChecked": false
+ },
+ {
+  "id": 3094,
+  "name": {
+   "ko": "J",
+   "en": "J",
+   "ja": "J",
+   "zhCN": "J",
+   "zhTW": "J"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 309401,
+  "insightSkin": 309402,
+  "skins": [
+   309401,
+   309402,
+   309403
+  ],
+  "kb": "J",
+  "nameChecked": true
+ },
+ {
+  "id": 3157,
+  "name": {
+   "ko": "Narcissus",
+   "en": "Narcissus",
+   "ja": "",
+   "zhCN": "纳西索斯",
+   "zhTW": "納西索斯"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "unknown",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 315701,
+  "insightSkin": 315702,
+  "skins": [
+   315701,
+   315702
+  ],
+  "kb": "Narcissus",
+  "nameChecked": false
+ },
+ {
+  "id": 3072,
+  "name": {
+   "ko": "갈기 모래",
+   "en": "Shamane",
+   "ja": "シャーマィン",
+   "zhCN": "鬃毛沙砾",
+   "zhTW": "鬃毛沙礫"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 307201,
+  "insightSkin": 307202,
+  "skins": [
+   307201,
+   307202,
+   307203
+  ],
+  "kb": "Shamane",
+  "nameChecked": true
+ },
+ {
+  "id": 3070,
+  "name": {
+   "ko": "갈라보나",
+   "en": "Kaalaa Baunaa",
+   "ja": "カーラ・ボナー",
+   "zhCN": "伽菈波那",
+   "zhTW": "伽菈波那"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 307001,
+  "insightSkin": 307002,
+  "skins": [
+   307001,
+   307002,
+   307003,
+   307004
+  ],
+  "kb": "Kaalaa Baunaa",
+  "nameChecked": true
+ },
+ {
+  "id": 3084,
+  "name": {
+   "ko": "갈천",
+   "en": "Getian",
+   "ja": "葛天",
+   "zhCN": "葛天",
+   "zhTW": "葛天"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 308401,
+  "insightSkin": 308402,
+  "skins": [
+   308401,
+   308402,
+   308404
+  ],
+  "kb": "Getian",
+  "nameChecked": true
+ },
+ {
+  "id": 3083,
+  "name": {
+   "ko": "곡랑",
+   "en": "Jiu Niangzi",
+   "ja": "曲娘",
+   "zhCN": "曲娘",
+   "zhTW": "曲娘"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 308301,
+  "insightSkin": 308302,
+  "skins": [
+   308301,
+   308302,
+   308303
+  ],
+  "kb": "Jiu Niangzi",
+  "nameChecked": true
+ },
+ {
+  "id": 3141,
+  "name": {
+   "ko": "노사전",
+   "en": "Paper Heron",
+   "ja": "鷺切",
+   "zhCN": "鹭鸶剪",
+   "zhTW": "鷺鷥剪"
+  },
+  "rarity": 6,
+  "afflatus": "plant",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 314101,
+  "insightSkin": 314102,
+  "skins": [
+   314101,
+   314102
+  ],
+  "kb": "Paper Heron",
+  "nameChecked": true
+ },
+ {
+  "id": 3120,
+  "name": {
+   "ko": "노티카",
+   "en": "Nautika",
+   "ja": "ノーティカ",
+   "zhCN": "诺谛卡",
+   "zhTW": "諾諦卡"
+  },
+  "rarity": 6,
+  "afflatus": "spirit",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 312001,
+  "insightSkin": 312002,
+  "skins": [
+   312001,
+   312002,
+   312003
+  ],
+  "kb": "Nautika",
+  "nameChecked": true
+ },
+ {
+  "id": 3111,
+  "name": {
+   "ko": "누아르",
+   "en": "Noire",
+   "ja": "ノワール",
+   "zhCN": "菲林士多",
+   "zhTW": "菲林士多"
+  },
+  "rarity": 6,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 311101,
+  "insightSkin": 311102,
+  "skins": [
+   311101,
+   311102,
+   311103
+  ],
+  "kb": "Noire",
+  "nameChecked": true
+ },
+ {
+  "id": 3052,
+  "name": {
+   "ko": "뉴바벨",
+   "en": "Ms. NewBabel",
+   "ja": "ニューバベル",
+   "zhCN": "新巴别塔",
+   "zhTW": "新巴別塔"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 305201,
+  "insightSkin": 305202,
+  "skins": [
+   305201,
+   305202,
+   305203
+  ],
+  "kb": "Ms. NewBabel",
+  "nameChecked": true
+ },
+ {
+  "id": 3003,
+  "name": {
+   "ko": "드루비스",
+   "en": "Druvis III",
+   "ja": "ドルーヴィスⅢ",
+   "zhCN": "槲寄生",
+   "zhTW": "槲寄生"
+  },
+  "rarity": 6,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 2,
+  "defaultSkin": 300301,
+  "insightSkin": 300302,
+  "skins": [
+   300301,
+   300302,
+   300305,
+   300306
+  ],
+  "kb": "Druvis III",
+  "nameChecked": true
+ },
+ {
+  "id": 3142,
+  "name": {
+   "ko": "라모나",
+   "en": "Ramona",
+   "ja": "ラモナ",
+   "zhCN": "拉莫纳",
+   "zhTW": "拉莫納"
+  },
+  "rarity": 6,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 314201,
+  "insightSkin": 314202,
+  "skins": [
+   314201,
+   314202
+  ],
+  "kb": "Ramona",
+  "nameChecked": true
+ },
+ {
+  "id": 3025,
+  "name": {
+   "ko": "레굴루스",
+   "en": "Regulus",
+   "ja": "レグルス",
+   "zhCN": "星锑",
+   "zhTW": "星銻"
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 2,
+  "defaultSkin": 302501,
+  "insightSkin": 302502,
+  "skins": [
+   302501,
+   302502,
+   302503,
+   302504
+  ],
+  "kb": "Regulus",
+  "nameChecked": true
+ },
+ {
+  "id": 3114,
+  "name": {
+   "ko": "레콜레타",
+   "en": "Recoleta",
+   "ja": "レコレータ",
+   "zhCN": "虚构集",
+   "zhTW": "虛構集"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 311401,
+  "insightSkin": 311402,
+  "skins": [
+   311401,
+   311402,
+   311403,
+   311404
+  ],
+  "kb": "Recoleta",
+  "nameChecked": true
+ },
+ {
+  "id": 3139,
+  "name": {
+   "ko": "로렌츠 버터플라이",
+   "en": "Lorentz Butterfly",
+   "ja": "ローレンツバタフライ",
+   "zhCN": "洛伦兹蝴蝶",
+   "zhTW": "洛倫茲蝴蝶"
+  },
+  "rarity": 6,
+  "afflatus": "intellect",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 313901,
+  "insightSkin": 313902,
+  "skins": [
+   313901,
+   313902,
+   313903
+  ],
+  "kb": "Lorentz Butterfly",
+  "nameChecked": true
+ },
+ {
+  "id": 3102,
+  "name": {
+   "ko": "로페라",
+   "en": "Lopera",
+   "ja": "ロペラ",
+   "zhCN": "洛佩拉",
+   "zhTW": "洛佩拉"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 310201,
+  "insightSkin": 310202,
+  "skins": [
+   310201,
+   310202,
+   310203
+  ],
+  "kb": "Lopera",
+  "nameChecked": true
+ },
+ {
+  "id": 3125,
+  "name": {
+   "ko": "루부스카",
+   "en": "Rubuska",
+   "ja": "ルブシカ",
+   "zhCN": "野树莓",
+   "zhTW": "野樹莓"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 312501,
+  "insightSkin": 312502,
+  "skins": [
+   312501,
+   312502,
+   312503
+  ],
+  "kb": "Rubuska",
+  "nameChecked": true
+ },
+ {
+  "id": 3086,
+  "name": {
+   "ko": "루시",
+   "en": "Lucy",
+   "ja": "ルーシー",
+   "zhCN": "露西",
+   "zhTW": "露西"
+  },
+  "rarity": 6,
+  "afflatus": "intellect",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 308601,
+  "insightSkin": 308602,
+  "skins": [
+   308601,
+   308602,
+   308603
+  ],
+  "kb": "Lucy",
+  "nameChecked": true
+ },
+ {
+  "id": 3146,
+  "name": {
+   "ko": "리아논",
+   "en": "Rhiannon",
+   "ja": "リアンノン",
+   "zhCN": "小瑞安侬",
+   "zhTW": "小瑞安儂"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 314601,
+  "insightSkin": 314602,
+  "skins": [
+   314601,
+   314602
+  ],
+  "kb": "Rhiannon",
+  "nameChecked": true
+ },
+ {
+  "id": 3004,
+  "name": {
+   "ko": "릴리아",
+   "en": "Lilya",
+   "ja": "リーリャ",
+   "zhCN": "红弩箭",
+   "zhTW": "紅弩箭"
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 2,
+  "defaultSkin": 300401,
+  "insightSkin": 300402,
+  "skins": [
+   300401,
+   300402,
+   300403,
+   300404
+  ],
+  "kb": "Lilya",
+  "nameChecked": true
+ },
+ {
+  "id": 3127,
+  "name": {
+   "ko": "마샤",
+   "en": "Marsha",
+   "ja": "マルシャ",
+   "zhCN": "玛尔纱",
+   "zhTW": "瑪爾紗"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 312701,
+  "insightSkin": 312702,
+  "skins": [
+   312701,
+   312702,
+   312703
+  ],
+  "kb": "Marsha",
+  "nameChecked": true
+ },
+ {
+  "id": 3065,
+  "name": {
+   "ko": "마커스",
+   "en": "Marcus",
+   "ja": "マーカス",
+   "zhCN": "马库斯",
+   "zhTW": "馬庫斯"
+  },
+  "rarity": 6,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 306501,
+  "insightSkin": 306502,
+  "skins": [
+   306501,
+   306502,
+   306503,
+   306504
+  ],
+  "kb": "Marcus",
+  "nameChecked": true
+ },
+ {
+  "id": 3095,
+  "name": {
+   "ko": "머큐리아",
+   "en": "Mercuria",
+   "ja": "マーキュリア",
+   "zhCN": "环状水星",
+   "zhTW": "環狀水星"
+  },
+  "rarity": 6,
+  "afflatus": "spirit",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 309501,
+  "insightSkin": 309502,
+  "skins": [
+   309501,
+   309502,
+   309503,
+   309504
+  ],
+  "kb": "Mercuria",
+  "nameChecked": true
+ },
+ {
+  "id": 3047,
+  "name": {
+   "ko": "메디슨 포켓",
+   "en": "Medicine Pocket",
+   "ja": "メディスンポケット",
+   "zhCN": "兔毛手袋",
+   "zhTW": "兔毛手袋"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 304701,
+  "insightSkin": 304702,
+  "skins": [
+   304701,
+   304702,
+   304703,
+   304704
+  ],
+  "kb": "Medicine Pocket",
+  "nameChecked": true
+ },
+ {
+  "id": 3062,
+  "name": {
+   "ko": "멜라니아",
+   "en": "Melania",
+   "ja": "メラニア",
+   "zhCN": "梅兰妮",
+   "zhTW": "梅蘭妮"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 306201,
+  "insightSkin": 306202,
+  "skins": [
+   306201,
+   306202,
+   306203,
+   306204
+  ],
+  "kb": "Melania",
+  "nameChecked": true
+ },
+ {
+  "id": 3121,
+  "name": {
+   "ko": "몰디르",
+   "en": "Moldir",
+   "ja": "モルダー",
+   "zhCN": "莫莉德尔",
+   "zhTW": "莫莉德爾"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 312101,
+  "insightSkin": 312102,
+  "skins": [
+   312101,
+   312102,
+   312103
+  ],
+  "kb": "Moldir",
+  "nameChecked": true
+ },
+ {
+  "id": 3147,
+  "name": {
+   "ko": "미스 스트레인저",
+   "en": "Ms. Stranger",
+   "ja": "ストレンジャー",
+   "zhCN": "无名者",
+   "zhTW": "無名者"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 314701,
+  "insightSkin": 314702,
+  "skins": [
+   314701,
+   314702
+  ],
+  "kb": "Ms. Stranger",
+  "nameChecked": true
+ },
+ {
+  "id": 3108,
+  "name": {
+   "ko": "바르카롤라",
+   "en": "Barcarola",
+   "ja": "バルカローラ",
+   "zhCN": "芭卡洛儿",
+   "zhTW": "芭卡洛兒"
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 310801,
+  "insightSkin": 310802,
+  "skins": [
+   310801,
+   310802,
+   310803
+  ],
+  "kb": "Barcarola",
+  "nameChecked": true
+ },
+ {
+  "id": 3134,
+  "name": {
+   "ko": "베릴",
+   "en": "Beryl",
+   "ja": "ベリル",
+   "zhCN": "贝丽尔",
+   "zhTW": "貝麗爾"
+  },
+  "rarity": 6,
+  "afflatus": "intellect",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 313401,
+  "insightSkin": 313402,
+  "skins": [
+   313401,
+   313402
+  ],
+  "kb": "Beryl",
+  "nameChecked": true
+ },
+ {
+  "id": 3048,
+  "name": {
+   "ko": "보이저",
+   "en": "Voyager",
+   "ja": "ボイジャー",
+   "zhCN": "远旅",
+   "zhTW": "遠旅"
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 304801,
+  "insightSkin": 304802,
+  "skins": [
+   304801,
+   304802,
+   304803,
+   304804
+  ],
+  "kb": "Voyager",
+  "nameChecked": true
+ },
+ {
+  "id": 3135,
+  "name": {
+   "ko": "브룸",
+   "en": "Brume",
+   "ja": "グレイッシュブルー",
+   "zhCN": "灰调蓝",
+   "zhTW": "灰調藍"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 313501,
+  "insightSkin": 313502,
+  "skins": [
+   313501,
+   313502
+  ],
+  "kb": "Brume",
+  "nameChecked": true
+ },
+ {
+  "id": 3087,
+  "name": {
+   "ko": "빌라",
+   "en": "Vila",
+   "ja": "ヴィラ",
+   "zhCN": "维拉",
+   "zhTW": "維拉"
+  },
+  "rarity": 6,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 308701,
+  "insightSkin": 308702,
+  "skins": [
+   308701,
+   308702,
+   308703,
+   308704
+  ],
+  "kb": "Vila",
+  "nameChecked": true
+ },
+ {
+  "id": 3032,
+  "name": {
+   "ko": "센츄리온",
+   "en": "Centurion",
+   "ja": "ケントゥリオン",
+   "zhCN": "百夫长",
+   "zhTW": "百夫長"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 303201,
+  "insightSkin": 303202,
+  "skins": [
+   303201,
+   303202,
+   303203
+  ],
+  "kb": "Centurion",
+  "nameChecked": true
+ },
+ {
+  "id": 3126,
+  "name": {
+   "ko": "센티널",
+   "en": "Sentinel",
+   "ja": "センティネル",
+   "zhCN": "玛丽安娜",
+   "zhTW": "瑪麗安娜"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 312601,
+  "insightSkin": 312602,
+  "skins": [
+   312601,
+   312602,
+   312603,
+   312606
+  ],
+  "kb": "Sentinel",
+  "nameChecked": true
+ },
+ {
+  "id": 3009,
+  "name": {
+   "ko": "소더비",
+   "en": "Sotheby",
+   "ja": "サザビー",
+   "zhCN": "苏芙比",
+   "zhTW": "蘇芙比"
+  },
+  "rarity": 6,
+  "afflatus": "plant",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 300901,
+  "insightSkin": 300902,
+  "skins": [
+   300901,
+   300902,
+   300903,
+   300904
+  ],
+  "kb": "Sotheby",
+  "nameChecked": true
+ },
+ {
+  "id": 3073,
+  "name": {
+   "ko": "스파토데아",
+   "en": "Spathodea",
+   "ja": "カエンボク",
+   "zhCN": "可燃点",
+   "zhTW": "可燃點"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 307301,
+  "insightSkin": 307302,
+  "skins": [
+   307301,
+   307302,
+   307303,
+   307304
+  ],
+  "kb": "Spathodea",
+  "nameChecked": true
+ },
+ {
+  "id": 3149,
+  "name": {
+   "ko": "쌍둥이",
+   "en": "The Twins",
+   "ja": "双子",
+   "zhCN": "双生舞伶",
+   "zhTW": "雙生舞伶"
+  },
+  "rarity": 6,
+  "afflatus": "mineral-star",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 314901,
+  "insightSkin": 314902,
+  "skins": [
+   314901,
+   314902,
+   314903
+  ],
+  "kb": "The Twins",
+  "nameChecked": true
+ },
+ {
+  "id": 3097,
+  "name": {
+   "ko": "아르고스",
+   "en": "Argus",
+   "ja": "アルゴス",
+   "zhCN": "阿尔古斯",
+   "zhTW": "阿爾古斯"
+  },
+  "rarity": 6,
+  "afflatus": "plant",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 309701,
+  "insightSkin": 309702,
+  "skins": [
+   309701,
+   309702,
+   309703
+  ],
+  "kb": "Argus",
+  "nameChecked": true
+ },
+ {
+  "id": 3039,
+  "name": {
+   "ko": "안안 리",
+   "en": "An-an Lee",
+   "ja": "リー・アンアン",
+   "zhCN": "泥鯭的士",
+   "zhTW": "泥鯭的士"
+  },
+  "rarity": 6,
+  "afflatus": "plant",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 2,
+  "defaultSkin": 303901,
+  "insightSkin": 303902,
+  "skins": [
+   303901,
+   303902,
+   303903,
+   303904
+  ],
+  "kb": "An-an Lee",
+  "nameChecked": true
+ },
+ {
+  "id": 3100,
+  "name": {
+   "ko": "안조 날라",
+   "en": "Anjo Nala",
+   "ja": "アンジョナナ",
+   "zhCN": "天使娜娜",
+   "zhTW": "天使娜娜"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 310001,
+  "insightSkin": 310002,
+  "skins": [
+   310001,
+   310002,
+   310003
+  ],
+  "kb": "Anjo Nala",
+  "nameChecked": true
+ },
+ {
+  "id": 3113,
+  "name": {
+   "ko": "알레프",
+   "en": "Aleph",
+   "ja": "エル・アレフ",
+   "zhCN": "阿莱夫",
+   "zhTW": "阿萊夫"
+  },
+  "rarity": 6,
+  "afflatus": "intellect",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 311301,
+  "insightSkin": 311302,
+  "skins": [
+   311301,
+   311302,
+   311303
+  ],
+  "kb": "Aleph",
+  "nameChecked": true
+ },
+ {
+  "id": 3110,
+  "name": {
+   "ko": "양월",
+   "en": "Liang Yue",
+   "ja": "梁月",
+   "zhCN": "梁月",
+   "zhTW": "梁月"
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 311001,
+  "insightSkin": 311002,
+  "skins": [
+   311001,
+   311002,
+   311003
+  ],
+  "kb": "Liang Yue",
+  "nameChecked": true
+ },
+ {
+  "id": 3145,
+  "name": {
+   "ko": "에버에코",
+   "en": "Everecho",
+   "ja": "エバーエコー",
+   "zhCN": "回声谣",
+   "zhTW": "回聲謠"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 314501,
+  "insightSkin": 314502,
+  "skins": [
+   314501,
+   314502,
+   314503
+  ],
+  "kb": "Everecho",
+  "nameChecked": true
+ },
+ {
+  "id": 3074,
+  "name": {
+   "ko": "에즈라",
+   "en": "Ezra",
+   "ja": "エズラ",
+   "zhCN": "爱兹拉",
+   "zhTW": "愛茲拉"
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 2,
+  "defaultSkin": 307401,
+  "insightSkin": 307402,
+  "skins": [
+   307401,
+   307402,
+   307403
+  ],
+  "kb": null,
+  "nameChecked": true
+ },
+ {
+  "id": 3123,
+  "name": {
+   "ko": "에지오 아디토레",
+   "en": "Ezio Auditore",
+   "ja": "エツィオ",
+   "zhCN": "艾吉奥·奥迪托雷",
+   "zhTW": "埃齊歐·奧迪托雷"
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 312301,
+  "insightSkin": 312302,
+  "skins": [
+   312301,
+   312302
+  ],
+  "kb": "Ezio Auditore",
+  "nameChecked": true
+ },
+ {
+  "id": 3107,
+  "name": {
+   "ko": "울리히",
+   "en": "Ulrich",
+   "ja": "ウルリッヒ",
+   "zhCN": "乌尔里希",
+   "zhTW": "烏爾里希"
+  },
+  "rarity": 6,
+  "afflatus": "intellect",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 310701,
+  "insightSkin": 310702,
+  "skins": [
+   310701,
+   310702,
+   310703
+  ],
+  "kb": "Ulrich",
+  "nameChecked": true
+ },
+ {
+  "id": 3077,
+  "name": {
+   "ko": "윈드송",
+   "en": "Windsong",
+   "ja": "スヴィスティ",
+   "zhCN": "北方哨歌",
+   "zhTW": "北方哨歌"
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 307701,
+  "insightSkin": 307702,
+  "skins": [
+   307701,
+   307702,
+   307703,
+   307704,
+   307705
+  ],
+  "kb": "Windsong",
+  "nameChecked": true
+ },
+ {
+  "id": 3104,
+  "name": {
+   "ko": "윌로우",
+   "en": "Willow",
+   "ja": "ヴィロー",
+   "zhCN": "笃笃骨",
+   "zhTW": "篤篤骨"
+  },
+  "rarity": 6,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 310401,
+  "insightSkin": 310402,
+  "skins": [
+   310401,
+   310402,
+   310403,
+   310404
+  ],
+  "kb": "Willow",
+  "nameChecked": true
+ },
+ {
+  "id": 3092,
+  "name": {
+   "ko": "이고르",
+   "en": "Igor",
+   "ja": "イゴール",
+   "zhCN": "伊戈尔",
+   "zhTW": "伊戈爾"
+  },
+  "rarity": 6,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 309201,
+  "insightSkin": 309202,
+  "skins": [
+   309201,
+   309202,
+   309203
+  ],
+  "kb": "Igor",
+  "nameChecked": true
+ },
+ {
+  "id": 3143,
+  "name": {
+   "ko": "이니그마",
+   "en": "Enigma",
+   "ja": "エニグマ",
+   "zhCN": "哑谜",
+   "zhTW": "啞謎"
+  },
+  "rarity": 6,
+  "afflatus": "intellect",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 314301,
+  "insightSkin": 314302,
+  "skins": [
+   314301,
+   314302
+  ],
+  "kb": "Enigma",
+  "nameChecked": true
+ },
+ {
+  "id": 3081,
+  "name": {
+   "ko": "이졸데",
+   "en": "Isolde",
+   "ja": "イゾルデ",
+   "zhCN": "伊索尔德",
+   "zhTW": "伊索爾德"
+  },
+  "rarity": 6,
+  "afflatus": "spirit",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 308101,
+  "insightSkin": 308102,
+  "skins": [
+   308101,
+   308102,
+   308103,
+   308104
+  ],
+  "kb": "Isolde",
+  "nameChecked": true
+ },
+ {
+  "id": 3051,
+  "name": {
+   "ko": "이터니티",
+   "en": "Eternity",
+   "ja": "エターニティ",
+   "zhCN": "温妮弗雷德",
+   "zhTW": "溫妮弗雷德"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 2,
+  "defaultSkin": 305101,
+  "insightSkin": 305102,
+  "skins": [
+   305101,
+   305102,
+   305103,
+   305104
+  ],
+  "kb": "Eternity",
+  "nameChecked": true
+ },
+ {
+  "id": 3137,
+  "name": {
+   "ko": "정화광",
+   "en": "Cheng Heguang",
+   "ja": "程和光",
+   "zhCN": "程和光",
+   "zhTW": "程和光"
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 313701,
+  "insightSkin": 313702,
+  "skins": [
+   313701,
+   313702
+  ],
+  "kb": "Cheng Heguang",
+  "nameChecked": true
+ },
+ {
+  "id": 3088,
+  "name": {
+   "ko": "제멜바이스",
+   "en": "Semmelweis",
+   "ja": "センメルワイス",
+   "zhCN": "塞梅尔维斯",
+   "zhTW": "塞梅爾維斯"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 308801,
+  "insightSkin": 308802,
+  "skins": [
+   308801,
+   308802,
+   308803,
+   308804
+  ],
+  "kb": "Semmelweis",
+  "nameChecked": true
+ },
+ {
+  "id": 3056,
+  "name": {
+   "ko": "제시카",
+   "en": "Jessica",
+   "ja": "ジェシカ",
+   "zhCN": "洁西卡",
+   "zhTW": "潔西卡"
+  },
+  "rarity": 6,
+  "afflatus": "plant",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 2,
+  "defaultSkin": 305601,
+  "insightSkin": 305602,
+  "skins": [
+   305601,
+   305602,
+   305603,
+   305604
+  ],
+  "kb": "Jessica",
+  "nameChecked": true
+ },
+ {
+  "id": 3128,
+  "name": {
+   "ko": "카론",
+   "en": "Charon",
+   "ja": "カローン",
+   "zhCN": "卡戎",
+   "zhTW": "卡戎"
+  },
+  "rarity": 6,
+  "afflatus": "spirit",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 312801,
+  "insightSkin": 312802,
+  "skins": [
+   312801,
+   312802,
+   312803
+  ],
+  "kb": "Charon",
+  "nameChecked": true
+ },
+ {
+  "id": 3124,
+  "name": {
+   "ko": "카산드라",
+   "en": "Kassandra",
+   "ja": "カサンドラ",
+   "zhCN": "卡珊德拉",
+   "zhTW": "卡珊卓"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 312401,
+  "insightSkin": 312402,
+  "skins": [
+   312401,
+   312402
+  ],
+  "kb": "Kassandra",
+  "nameChecked": true
+ },
+ {
+  "id": 3080,
+  "name": {
+   "ko": "카카니아",
+   "en": "Kakania",
+   "ja": "カカニア",
+   "zhCN": "卡卡尼亚",
+   "zhTW": "卡卡尼亞"
+  },
+  "rarity": 6,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 308001,
+  "insightSkin": 308002,
+  "skins": [
+   308001,
+   308002,
+   308003,
+   308004
+  ],
+  "kb": "Kakania",
+  "nameChecked": true
+ },
+ {
+  "id": 3140,
+  "name": {
+   "ko": "코너스톤",
+   "en": "Cornerstone",
+   "ja": "コーナーストーン",
+   "zhCN": "奠基石",
+   "zhTW": "奠基石"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 314001,
+  "insightSkin": 314002,
+  "skins": [
+   314001,
+   314002,
+   314003
+  ],
+  "kb": "Cornerstone",
+  "nameChecked": true
+ },
+ {
+  "id": 3132,
+  "name": {
+   "ko": "코르부스",
+   "en": "Corvus",
+   "ja": "コルヴス",
+   "zhCN": "告死鸟",
+   "zhTW": "告死鳥"
+  },
+  "rarity": 6,
+  "afflatus": "intellect",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 313201,
+  "insightSkin": 313202,
+  "skins": [
+   313201,
+   313202,
+   313203
+  ],
+  "kb": "Corvus",
+  "nameChecked": true
+ },
+ {
+  "id": 3144,
+  "name": {
+   "ko": "코펠리아",
+   "en": "Coppélia",
+   "ja": "コッペリア",
+   "zhCN": "珐琅眼",
+   "zhTW": "琺瑯眼"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 314401,
+  "insightSkin": 314402,
+  "skins": [
+   314401,
+   314402,
+   314403
+  ],
+  "kb": "Coppélia",
+  "nameChecked": true
+ },
+ {
+  "id": 3117,
+  "name": {
+   "ko": "키페리나",
+   "en": "Kiperina",
+   "ja": "カイパリーナ",
+   "zhCN": "库珀花环",
+   "zhTW": "庫珀花環"
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 311701,
+  "insightSkin": 311702,
+  "skins": [
+   311701,
+   311702,
+   311703,
+   311704
+  ],
+  "kb": "Kiperina",
+  "nameChecked": true
+ },
+ {
+  "id": 3053,
+  "name": {
+   "ko": "투스 페어리",
+   "en": "Tooth Fairy",
+   "ja": "トゥースフェアリー",
+   "zhCN": "牙仙",
+   "zhTW": "牙仙"
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 305301,
+  "insightSkin": 305302,
+  "skins": [
+   305301,
+   305302,
+   305303,
+   305304,
+   305305
+  ],
+  "kb": "Tooth Fairy",
+  "nameChecked": true
+ },
+ {
+  "id": 3098,
+  "name": {
+   "ko": "튜즈데이",
+   "en": "Tuesday",
+   "ja": "チューズデー",
+   "zhCN": "蓝手帕",
+   "zhTW": "藍手帕"
+  },
+  "rarity": 6,
+  "afflatus": "spirit",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 309801,
+  "insightSkin": 309802,
+  "skins": [
+   309801,
+   309802,
+   309803,
+   309804
+  ],
+  "kb": "Tuesday",
+  "nameChecked": true
+ },
+ {
+  "id": 3109,
+  "name": {
+   "ko": "파투투",
+   "en": "Fatutu",
+   "ja": "トゥトゥイ",
+   "zhCN": "图图石子",
+   "zhTW": "圖圖石子"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 310901,
+  "insightSkin": 310902,
+  "skins": [
+   310901,
+   310902,
+   310903,
+   310905
+  ],
+  "kb": "Fatutu",
+  "nameChecked": true
+ },
+ {
+  "id": 3105,
+  "name": {
+   "ko": "플러터 페이지",
+   "en": "Flutterpage",
+   "ja": "パタパタペーパー",
+   "zhCN": "纸信圈儿",
+   "zhTW": "紙信圈兒"
+  },
+  "rarity": 6,
+  "afflatus": "star",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 310501,
+  "insightSkin": 310502,
+  "skins": [
+   310501,
+   310502,
+   310503,
+   310504
+  ],
+  "kb": "Flutterpage",
+  "nameChecked": true
+ },
+ {
+  "id": 3063,
+  "name": {
+   "ko": "피클즈",
+   "en": "Pickles",
+   "ja": "ピクルス",
+   "zhCN": "皮克勒斯",
+   "zhTW": "皮克勒斯"
+  },
+  "rarity": 6,
+  "afflatus": "mineral",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 306301,
+  "insightSkin": 306302,
+  "skins": [
+   306301,
+   306302,
+   306303
+  ],
+  "kb": "Pickles",
+  "nameChecked": true
+ },
+ {
+  "id": 3116,
+  "name": {
+   "ko": "히사베스",
+   "en": "Hissabeth",
+   "ja": "サーベス",
+   "zhCN": "冷周六",
+   "zhTW": "冷週六"
+  },
+  "rarity": 6,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 311601,
+  "insightSkin": 311602,
+  "skins": [
+   311601,
+   311602,
+   311603,
+   311604
+  ],
+  "kb": "Hissabeth",
+  "nameChecked": true
+ },
+ {
+  "id": 3010,
+  "name": {
+   "ko": "X",
+   "en": "X",
+   "ja": "X",
+   "zhCN": "X",
+   "zhTW": "X"
+  },
+  "rarity": 5,
+  "afflatus": "intellect",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 301001,
+  "insightSkin": 301002,
+  "skins": [
+   301001,
+   301002,
+   301003
+  ],
+  "kb": "X",
+  "nameChecked": true
+ },
+ {
+  "id": 3118,
+  "name": {
+   "ko": "네임데이",
+   "en": "Name Day",
+   "ja": "ネイムデー",
+   "zhCN": "命名日",
+   "zhTW": "命名日"
+  },
+  "rarity": 5,
+  "afflatus": "mineral",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 311801,
+  "insightSkin": 311802,
+  "skins": [
+   311801,
+   311802,
+   311803
+  ],
+  "kb": "Name Day",
+  "nameChecked": true
+ },
+ {
+  "id": 3037,
+  "name": {
+   "ko": "네크롤로지스트",
+   "en": "Necrologist",
+   "ja": "ネクロ・ロギスト",
+   "zhCN": "讣告人",
+   "zhTW": "訃告人"
+  },
+  "rarity": 5,
+  "afflatus": "mineral",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 303701,
+  "insightSkin": 303702,
+  "skins": [
+   303701,
+   303702,
+   303703
+  ],
+  "kb": "Necrologist",
+  "nameChecked": true
+ },
+ {
+  "id": 3103,
+  "name": {
+   "ko": "던컨",
+   "en": "Mr. Duncan",
+   "ja": "ダンカン",
+   "zhCN": "邓肯先生",
+   "zhTW": "鄧肯先生"
+  },
+  "rarity": 5,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 310301,
+  "insightSkin": 310302,
+  "skins": [
+   310301,
+   310302
+  ],
+  "kb": "Mr. Duncan",
+  "nameChecked": true
+ },
+ {
+  "id": 3075,
+  "name": {
+   "ko": "데저트 플란넬",
+   "en": "Desert Flannel",
+   "ja": "サンド・フランネル",
+   "zhCN": "沙丝绒",
+   "zhTW": "沙絲絨"
+  },
+  "rarity": 5,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 307501,
+  "insightSkin": 307502,
+  "skins": [
+   307501,
+   307502,
+   307503
+  ],
+  "kb": "Desert Flannel",
+  "nameChecked": true
+ },
+ {
+  "id": 3064,
+  "name": {
+   "ko": "디거스",
+   "en": "Diggers",
+   "ja": "ディガー",
+   "zhCN": "挖掘艺术",
+   "zhTW": "挖掘藝術"
+  },
+  "rarity": 5,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 306401,
+  "insightSkin": 306402,
+  "skins": [
+   306401,
+   306402,
+   306403
+  ],
+  "kb": "Diggers",
+  "nameChecked": true
+ },
+ {
+  "id": 3022,
+  "name": {
+   "ko": "디케",
+   "en": "Dikke",
+   "ja": "パミエ",
+   "zhCN": "帕米埃",
+   "zhTW": "帕米埃"
+  },
+  "rarity": 5,
+  "afflatus": "beast",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 302201,
+  "insightSkin": 302202,
+  "skins": [
+   302201,
+   302202,
+   302203
+  ],
+  "kb": "Dikke",
+  "nameChecked": true
+ },
+ {
+  "id": 3112,
+  "name": {
+   "ko": "로거헤드",
+   "en": "Loggerhead",
+   "ja": "ロガーヘッド",
+   "zhCN": "空脑袋",
+   "zhTW": "空腦袋"
+  },
+  "rarity": 5,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 311201,
+  "insightSkin": 311202,
+  "skins": [
+   311201,
+   311202
+  ],
+  "kb": "Loggerhead",
+  "nameChecked": true
+ },
+ {
+  "id": 3091,
+  "name": {
+   "ko": "로렐라이",
+   "en": "Lorelei",
+   "ja": "ローレライ",
+   "zhCN": "罗蕾莱",
+   "zhTW": "羅蕾萊"
+  },
+  "rarity": 5,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 309101,
+  "insightSkin": 309102,
+  "skins": [
+   309101,
+   309102
+  ],
+  "kb": "Lorelei",
+  "nameChecked": true
+ },
+ {
+  "id": 3011,
+  "name": {
+   "ko": "마릴린",
+   "en": "Sweetheart",
+   "ja": "スイートハート",
+   "zhCN": "玛丽莲",
+   "zhTW": "瑪麗蓮"
+  },
+  "rarity": 5,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 301101,
+  "insightSkin": 301102,
+  "skins": [
+   301101,
+   301102,
+   301103
+  ],
+  "kb": "Sweetheart",
+  "nameChecked": true
+ },
+ {
+  "id": 3041,
+  "name": {
+   "ko": "마틸다",
+   "en": "Matilda",
+   "ja": "マチルダ",
+   "zhCN": "玛蒂尔达",
+   "zhTW": "瑪蒂爾達"
+  },
+  "rarity": 5,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 304101,
+  "insightSkin": 304102,
+  "skins": [
+   304101,
+   304102,
+   304103
+  ],
+  "kb": "Matilda",
+  "nameChecked": true
+ },
+ {
+  "id": 3099,
+  "name": {
+   "ko": "바바라",
+   "en": "Barbara",
+   "ja": "メェプル",
+   "zhCN": "数羊羔",
+   "zhTW": "數羊羔"
+  },
+  "rarity": 5,
+  "afflatus": "spirit",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 309901,
+  "insightSkin": 309902,
+  "skins": [
+   309901,
+   309902
+  ],
+  "kb": "Barbara",
+  "nameChecked": true
+ },
+ {
+  "id": 3115,
+  "name": {
+   "ko": "버디 페어차일드",
+   "en": "Buddy Fairchild",
+   "ja": "もぐナッツ",
+   "zhCN": "嚼嚼松果",
+   "zhTW": "嚼嚼松果"
+  },
+  "rarity": 5,
+  "afflatus": "plant",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 311501,
+  "insightSkin": 311502,
+  "skins": [
+   311501,
+   311502
+  ],
+  "kb": "Buddy Fairchild",
+  "nameChecked": true
+ },
+ {
+  "id": 3024,
+  "name": {
+   "ko": "벌룬 파티",
+   "en": "Balloon Party",
+   "ja": "バルーンパーティー",
+   "zhCN": "气球派对",
+   "zhTW": "氣球派對"
+  },
+  "rarity": 5,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 302401,
+  "insightSkin": 302402,
+  "skins": [
+   302401,
+   302402,
+   302403
+  ],
+  "kb": "Balloon Party",
+  "nameChecked": true
+ },
+ {
+  "id": 3016,
+  "name": {
+   "ko": "베이비 블루",
+   "en": "Baby Blue",
+   "ja": "ベビーブルー",
+   "zhCN": "婴儿蓝",
+   "zhTW": "嬰兒藍"
+  },
+  "rarity": 5,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 301601,
+  "insightSkin": 301602,
+  "skins": [
+   301601,
+   301602,
+   301603
+  ],
+  "kb": "Baby Blue",
+  "nameChecked": true
+ },
+ {
+  "id": 3060,
+  "name": {
+   "ko": "블로니",
+   "en": "Blonney",
+   "ja": "ジェイミー",
+   "zhCN": "金蜜儿",
+   "zhTW": "金蜜兒"
+  },
+  "rarity": 5,
+  "afflatus": "star",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 306001,
+  "insightSkin": 306002,
+  "skins": [
+   306001,
+   306002,
+   306003
+  ],
+  "kb": "Blonney",
+  "nameChecked": true
+ },
+ {
+  "id": 3038,
+  "name": {
+   "ko": "사츠키",
+   "en": "Satsuki",
+   "ja": "五色月",
+   "zhCN": "五色月",
+   "zhTW": "五色月"
+  },
+  "rarity": 5,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 303801,
+  "insightSkin": 303802,
+  "skins": [
+   303801,
+   303802,
+   303803
+  ],
+  "kb": "Satsuki",
+  "nameChecked": true
+ },
+ {
+  "id": 3023,
+  "name": {
+   "ko": "소네트",
+   "en": "Sonetto",
+   "ja": "ソネット",
+   "zhCN": "十四行诗",
+   "zhTW": "十四行詩"
+  },
+  "rarity": 5,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 302301,
+  "insightSkin": null,
+  "skins": [
+   302301,
+   302303,
+   302304
+  ],
+  "kb": "Sonetto",
+  "nameChecked": true
+ },
+ {
+  "id": 3106,
+  "name": {
+   "ko": "슬라우치 햇",
+   "en": "Brimley",
+   "ja": "つば広ハット",
+   "zhCN": "宽檐帽",
+   "zhTW": "寬簷帽"
+  },
+  "rarity": 5,
+  "afflatus": "mineral",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 310601,
+  "insightSkin": 310602,
+  "skins": [
+   310601,
+   310602,
+   310604
+  ],
+  "kb": "Brimley",
+  "nameChecked": true
+ },
+ {
+  "id": 3078,
+  "name": {
+   "ko": "아브구스트",
+   "en": "Avgust",
+   "ja": "アヴグスト",
+   "zhCN": "阿夫西维",
+   "zhTW": "阿夫西維"
+  },
+  "rarity": 5,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 307801,
+  "insightSkin": 307802,
+  "skins": [
+   307801,
+   307802
+  ],
+  "kb": "Avgust",
+  "nameChecked": true
+ },
+ {
+  "id": 3122,
+  "name": {
+   "ko": "알렉시오스",
+   "en": "Alexios",
+   "ja": "アレクシオス",
+   "zhCN": "阿利克西欧斯",
+   "zhTW": "亞歷克西歐斯"
+  },
+  "rarity": 5,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 312201,
+  "insightSkin": 312202,
+  "skins": [
+   312201,
+   312202
+  ],
+  "kb": "Alexios",
+  "nameChecked": true
+ },
+ {
+  "id": 3082,
+  "name": {
+   "ko": "예니세이",
+   "en": "Yenisei",
+   "ja": "エニセイ",
+   "zhCN": "小叶尼塞",
+   "zhTW": "小葉尼塞"
+  },
+  "rarity": 5,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 308201,
+  "insightSkin": 308202,
+  "skins": [
+   308201,
+   308202,
+   308203
+  ],
+  "kb": "Yenisei",
+  "nameChecked": true
+ },
+ {
+  "id": 3076,
+  "name": {
+   "ko": "울루",
+   "en": "Ulu",
+   "ja": "ウル",
+   "zhCN": "和平乌鲁",
+   "zhTW": "和平烏魯"
+  },
+  "rarity": 5,
+  "afflatus": "mineral",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 307601,
+  "insightSkin": 307602,
+  "skins": [
+   307601,
+   307602
+  ],
+  "kb": "Ulu",
+  "nameChecked": true
+ },
+ {
+  "id": 3154,
+  "name": {
+   "ko": "은빛 이글",
+   "en": "Silverwing Eagle",
+   "ja": "イーグル",
+   "zhCN": "银装小春雀儿",
+   "zhTW": "銀裝小春雀兒"
+  },
+  "rarity": 5,
+  "afflatus": "plant",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 315401,
+  "insightSkin": 315402,
+  "skins": [
+   315401,
+   315402
+  ],
+  "kb": "Silverwing Eagle",
+  "nameChecked": true
+ },
+ {
+  "id": 3017,
+  "name": {
+   "ko": "찰리",
+   "en": "Charlie",
+   "ja": "チャーリー",
+   "zhCN": "夏利",
+   "zhTW": "夏利"
+  },
+  "rarity": 5,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 301701,
+  "insightSkin": 301702,
+  "skins": [
+   301701,
+   301702,
+   301703
+  ],
+  "kb": "Charlie",
+  "nameChecked": true
+ },
+ {
+  "id": 3071,
+  "name": {
+   "ko": "칸지라",
+   "en": "Kanjira",
+   "ja": "カンジーラ",
+   "zhCN": "坎吉拉",
+   "zhTW": "坎吉拉"
+  },
+  "rarity": 5,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 307101,
+  "insightSkin": 307102,
+  "skins": [
+   307101,
+   307102,
+   307103
+  ],
+  "kb": "Kanjira",
+  "nameChecked": true
+ },
+ {
+  "id": 3020,
+  "name": {
+   "ko": "콘블룸",
+   "en": "Bkornblume",
+   "ja": "コーンブルメ",
+   "zhCN": "柏林以东",
+   "zhTW": "柏林以東"
+  },
+  "rarity": 5,
+  "afflatus": "plant",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 302001,
+  "insightSkin": 302002,
+  "skins": [
+   302001,
+   302002,
+   302003
+  ],
+  "kb": "Bkornblume",
+  "nameChecked": true
+ },
+ {
+  "id": 3049,
+  "name": {
+   "ko": "클릭",
+   "en": "Click",
+   "ja": "カシャパシャ",
+   "zhCN": "喀嚓喀嚓",
+   "zhTW": "喀嚓喀嚓"
+  },
+  "rarity": 5,
+  "afflatus": "spirit",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 304901,
+  "insightSkin": 304902,
+  "skins": [
+   304901,
+   304902
+  ],
+  "kb": "Click",
+  "nameChecked": true
+ },
+ {
+  "id": 3043,
+  "name": {
+   "ko": "테넌트",
+   "en": "Tennant",
+   "ja": "テナント",
+   "zhCN": "坦南特",
+   "zhTW": "坦南特"
+  },
+  "rarity": 5,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 1,
+  "defaultSkin": 304301,
+  "insightSkin": 304302,
+  "skins": [
+   304301,
+   304302,
+   304303,
+   304304
+  ],
+  "kb": "Tennant",
+  "nameChecked": true
+ },
+ {
+  "id": 3061,
+  "name": {
+   "ko": "호러피디아",
+   "en": "Horropedia",
+   "ja": "ホラーペディア",
+   "zhCN": "恐怖通",
+   "zhTW": "恐怖通"
+  },
+  "rarity": 5,
+  "afflatus": "mineral",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 306101,
+  "insightSkin": 306102,
+  "skins": [
+   306101,
+   306102,
+   306103
+  ],
+  "kb": "Horropedia",
+  "nameChecked": true
+ },
+ {
+  "id": 3136,
+  "name": {
+   "ko": "<호숫가의 여인>",
+   "en": "<i>Lady by the Lake</i>",
+   "ja": "『湖畔の女性』",
+   "zhCN": "《湖边的女人》",
+   "zhTW": "《湖邊的女人》"
+  },
+  "rarity": 4,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 313601,
+  "insightSkin": 313602,
+  "skins": [
+   313601,
+   313602
+  ],
+  "kb": null,
+  "nameChecked": true
+ },
+ {
+  "id": 3028,
+  "name": {
+   "ko": "APPLe",
+   "en": "APPLe",
+   "ja": "APPLe",
+   "zhCN": "APPLe",
+   "zhTW": "Apple"
+  },
+  "rarity": 4,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 302801,
+  "insightSkin": 302802,
+  "skins": [
+   302801,
+   302802,
+   302803,
+   302804
+  ],
+  "kb": "APPLe",
+  "nameChecked": true
+ },
+ {
+  "id": 3163,
+  "name": {
+   "ko": "Glyndŵr",
+   "en": "Glyndŵr",
+   "ja": "",
+   "zhCN": "格林杜尔",
+   "zhTW": ""
+  },
+  "rarity": 4,
+  "afflatus": "beast",
+  "dmg": "unknown",
+  "released": false,
+  "euphoria": 0,
+  "defaultSkin": 316301,
+  "insightSkin": 316302,
+  "skins": [
+   316301,
+   316302
+  ],
+  "kb": "Glyndŵr",
+  "nameChecked": false
+ },
+ {
+  "id": 3033,
+  "name": {
+   "ko": "TTT",
+   "en": "TTT",
+   "ja": "TTT",
+   "zhCN": "TTT",
+   "zhTW": "TTT"
+  },
+  "rarity": 4,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 303301,
+  "insightSkin": 303302,
+  "skins": [
+   303301,
+   303302,
+   303303
+  ],
+  "kb": "TTT",
+  "nameChecked": true
+ },
+ {
+  "id": 3013,
+  "name": {
+   "ko": "겨울",
+   "en": "Зима",
+   "ja": "ズィマー",
+   "zhCN": "冬",
+   "zhTW": "冬"
+  },
+  "rarity": 4,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 301301,
+  "insightSkin": 301302,
+  "skins": [
+   301301,
+   301302,
+   301303
+  ],
+  "kb": "Зима",
+  "nameChecked": true
+ },
+ {
+  "id": 3151,
+  "name": {
+   "ko": "노라",
+   "en": "NORA",
+   "ja": "ノラ",
+   "zhCN": "诺拉",
+   "zhTW": "諾拉"
+  },
+  "rarity": 4,
+  "afflatus": "spirit",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 315101,
+  "insightSkin": 315102,
+  "skins": [
+   315101,
+   315102
+  ],
+  "kb": "NORA",
+  "nameChecked": true
+ },
+ {
+  "id": 3138,
+  "name": {
+   "ko": "노초결",
+   "en": "Reed",
+   "ja": "リードノット",
+   "zhCN": "芦草结",
+   "zhTW": "蘆草結"
+  },
+  "rarity": 4,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 313801,
+  "insightSkin": 313802,
+  "skins": [
+   313801,
+   313802
+  ],
+  "kb": "Reed",
+  "nameChecked": true
+ },
+ {
+  "id": 3005,
+  "name": {
+   "ko": "닉 보텀",
+   "en": "Nick Bottom",
+   "ja": "ニック・ボトム",
+   "zhCN": "尼克·波顿",
+   "zhTW": "尼克·波頓"
+  },
+  "rarity": 4,
+  "afflatus": "beast",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 300501,
+  "insightSkin": 300502,
+  "skins": [
+   300501,
+   300502,
+   300503
+  ],
+  "kb": "Nick Bottom",
+  "nameChecked": true
+ },
+ {
+  "id": 3042,
+  "name": {
+   "ko": "레이비스",
+   "en": "Rabies",
+   "ja": "レイビーズ",
+   "zhCN": "爱宠",
+   "zhTW": "愛寵"
+  },
+  "rarity": 4,
+  "afflatus": "plant",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 304201,
+  "insightSkin": 304202,
+  "skins": [
+   304201,
+   304202,
+   304203
+  ],
+  "kb": "Rabies",
+  "nameChecked": true
+ },
+ {
+  "id": 3057,
+  "name": {
+   "ko": "메스머 주니어",
+   "en": "Mesmer Jr.",
+   "ja": "メスメル・Jr.",
+   "zhCN": "小梅斯梅尔",
+   "zhTW": "小梅斯梅爾"
+  },
+  "rarity": 4,
+  "afflatus": "intellect",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 305701,
+  "insightSkin": 305702,
+  "skins": [
+   305701,
+   305702,
+   305703
+  ],
+  "kb": "Mesmer Jr.",
+  "nameChecked": true
+ },
+ {
+  "id": 3044,
+  "name": {
+   "ko": "무아상",
+   "en": "Ms. Moissan",
+   "ja": "ミス・モアッサン",
+   "zhCN": "莫桑女士",
+   "zhTW": "莫桑女士"
+  },
+  "rarity": 4,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 304401,
+  "insightSkin": 304402,
+  "skins": [
+   304401,
+   304402,
+   304403
+  ],
+  "kb": "Ms. Moissan",
+  "nameChecked": true
+ },
+ {
+  "id": 3014,
+  "name": {
+   "ko": "바니바니",
+   "en": "Bunny Bunny",
+   "ja": "バニーバニー",
+   "zhCN": "芭妮芭妮",
+   "zhTW": "芭妮芭妮"
+  },
+  "rarity": 4,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 301401,
+  "insightSkin": 301402,
+  "skins": [
+   301401,
+   301402,
+   301403
+  ],
+  "kb": "Bunny Bunny",
+  "nameChecked": true
+ },
+ {
+  "id": 3026,
+  "name": {
+   "ko": "빨간 망토",
+   "en": "Mondlicht",
+   "ja": "モントリヒト",
+   "zhCN": "红斗篷",
+   "zhTW": "紅斗篷"
+  },
+  "rarity": 4,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 302601,
+  "insightSkin": 302602,
+  "skins": [
+   302601,
+   302602,
+   302603
+  ],
+  "kb": "Mondlicht",
+  "nameChecked": true
+ },
+ {
+  "id": 3058,
+  "name": {
+   "ko": "에릭",
+   "en": "Erick",
+   "ja": "エリック",
+   "zhCN": "埃里克",
+   "zhTW": "埃里克"
+  },
+  "rarity": 4,
+  "afflatus": "star",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 305801,
+  "insightSkin": 305802,
+  "skins": [
+   305801,
+   305802,
+   305803
+  ],
+  "kb": "Erick",
+  "nameChecked": true
+ },
+ {
+  "id": 3018,
+  "name": {
+   "ko": "올리버 포그",
+   "en": "Oliver Fog",
+   "ja": "オリバー・フォッグ",
+   "zhCN": "雾行者",
+   "zhTW": "霧行者"
+  },
+  "rarity": 4,
+  "afflatus": "star",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 301801,
+  "insightSkin": 301802,
+  "skins": [
+   301801,
+   301802,
+   301803
+  ],
+  "kb": "Oliver Fog",
+  "nameChecked": true
+ },
+ {
+  "id": 3006,
+  "name": {
+   "ko": "이글",
+   "en": "Eagle",
+   "ja": "リトルイーグル",
+   "zhCN": "小春雀儿",
+   "zhTW": "小春雀兒"
+  },
+  "rarity": 4,
+  "afflatus": "plant",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 300601,
+  "insightSkin": 300602,
+  "skins": [
+   300601,
+   300602,
+   300603
+  ],
+  "kb": "Eagle",
+  "nameChecked": true
+ },
+ {
+  "id": 3031,
+  "name": {
+   "ko": "크리스탈로",
+   "en": "Cristallo",
+   "ja": "クリスタッロ",
+   "zhCN": "铅玻璃",
+   "zhTW": "鉛玻璃"
+  },
+  "rarity": 4,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 303101,
+  "insightSkin": 303102,
+  "skins": [
+   303101,
+   303102,
+   303103
+  ],
+  "kb": "Cristallo",
+  "nameChecked": true
+ },
+ {
+  "id": 3015,
+  "name": {
+   "ko": "파비아",
+   "en": "Pavia",
+   "ja": "パヴィア",
+   "zhCN": "狼群",
+   "zhTW": "狼群"
+  },
+  "rarity": 4,
+  "afflatus": "beast",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 301501,
+  "insightSkin": 301502,
+  "skins": [
+   301501,
+   301502,
+   301503
+  ],
+  "kb": "Pavia",
+  "nameChecked": true
+ },
+ {
+  "id": 3046,
+  "name": {
+   "ko": "폴터가이스트",
+   "en": "Poltergeist",
+   "ja": "ポルターガイスト",
+   "zhCN": "吵闹鬼",
+   "zhTW": "吵鬧鬼"
+  },
+  "rarity": 4,
+  "afflatus": "spirit",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 304601,
+  "insightSkin": 304602,
+  "skins": [
+   304601,
+   304602,
+   304603
+  ],
+  "kb": "Poltergeist",
+  "nameChecked": true
+ },
+ {
+  "id": 3101,
+  "name": {
+   "ko": "화이트 럼",
+   "en": "White Rum",
+   "ja": "ホワイトラム",
+   "zhCN": "白朗姆",
+   "zhTW": "白朗姆"
+  },
+  "rarity": 4,
+  "afflatus": "intellect",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 310101,
+  "insightSkin": 310102,
+  "skins": [
+   310101,
+   310102,
+   310103
+  ],
+  "kb": "White Rum",
+  "nameChecked": true
+ },
+ {
+  "id": 3012,
+  "name": {
+   "ko": "광대",
+   "en": "The Fool",
+   "ja": "ジェスター",
+   "zhCN": "弄臣",
+   "zhTW": "弄臣"
+  },
+  "rarity": 3,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 301201,
+  "insightSkin": null,
+  "skins": [
+   301201,
+   301202
+  ],
+  "kb": "The Fool",
+  "nameChecked": true
+ },
+ {
+  "id": 3050,
+  "name": {
+   "ko": "다그닥 달리",
+   "en": "Darley Clatter",
+   "ja": "ダーレータッタ",
+   "zhCN": "哒哒达利",
+   "zhTW": "噠噠達利"
+  },
+  "rarity": 3,
+  "afflatus": "beast",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 305001,
+  "insightSkin": null,
+  "skins": [
+   305001,
+   305002
+  ],
+  "kb": "Darley Clatter",
+  "nameChecked": true
+ },
+ {
+  "id": 3030,
+  "name": {
+   "ko": "라 수르스",
+   "en": "La Source",
+   "ja": "ララ・ファウンテン",
+   "zhCN": "拉拉泉",
+   "zhTW": "拉拉泉"
+  },
+  "rarity": 3,
+  "afflatus": "plant",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 303001,
+  "insightSkin": null,
+  "skins": [
+   303001,
+   303002
+  ],
+  "kb": "La Source",
+  "nameChecked": true
+ },
+ {
+  "id": 3035,
+  "name": {
+   "ko": "레일라니",
+   "en": "Leilani",
+   "ja": "レイラニ",
+   "zhCN": "莉拉妮",
+   "zhTW": "莉拉妮"
+  },
+  "rarity": 3,
+  "afflatus": "beast",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 303501,
+  "insightSkin": null,
+  "skins": [
+   303501,
+   303502
+  ],
+  "kb": "Leilani",
+  "nameChecked": true
+ },
+ {
+  "id": 3040,
+  "name": {
+   "ko": "리사&루이스",
+   "en": "Twins Sleep",
+   "ja": "リサ＆ルイス",
+   "zhCN": "丽莎&路易斯",
+   "zhTW": "麗莎&路易斯"
+  },
+  "rarity": 3,
+  "afflatus": "spirit",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 304001,
+  "insightSkin": null,
+  "skins": [
+   304001,
+   304002
+  ],
+  "kb": "Twins Sleep",
+  "nameChecked": true
+ },
+ {
+  "id": 3045,
+  "name": {
+   "ko": "베티",
+   "en": "Bette",
+   "ja": "ベティ",
+   "zhCN": "贝蒂",
+   "zhTW": "貝蒂"
+  },
+  "rarity": 3,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 304501,
+  "insightSkin": null,
+  "skins": [
+   304501,
+   304504
+  ],
+  "kb": "Bette",
+  "nameChecked": true
+ },
+ {
+  "id": 3055,
+  "name": {
+   "ko": "스푸트니크",
+   "en": "Sputnik",
+   "ja": "スプートニク",
+   "zhCN": "斯普特尼克",
+   "zhTW": "斯普特尼克"
+  },
+  "rarity": 3,
+  "afflatus": "star",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 305501,
+  "insightSkin": null,
+  "skins": [
+   305501,
+   305502
+  ],
+  "kb": "Sputnik",
+  "nameChecked": true
+ },
+ {
+  "id": 3054,
+  "name": {
+   "ko": "어니언",
+   "en": "ONiON",
+   "ja": "オニオン",
+   "zhCN": "洋葱头",
+   "zhTW": "洋蔥頭"
+  },
+  "rarity": 3,
+  "afflatus": "mineral",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 305401,
+  "insightSkin": null,
+  "skins": [
+   305401
+  ],
+  "kb": "ONiON",
+  "nameChecked": true
+ },
+ {
+  "id": 3034,
+  "name": {
+   "ko": "에일리언 T",
+   "en": "aliEn T",
+   "ja": "ギベオンズアイ",
+   "zhCN": "星之眼",
+   "zhTW": "星之眼"
+  },
+  "rarity": 3,
+  "afflatus": "star",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 303401,
+  "insightSkin": null,
+  "skins": [
+   303401
+  ],
+  "kb": "aliEn T",
+  "nameChecked": true
+ },
+ {
+  "id": 3036,
+  "name": {
+   "ko": "존 티토",
+   "en": "John Titor",
+   "ja": "ジョン・タイター",
+   "zhCN": "约翰·提托",
+   "zhTW": "約翰·提托"
+  },
+  "rarity": 3,
+  "afflatus": "intellect",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 303601,
+  "insightSkin": null,
+  "skins": [
+   303601,
+   303602
+  ],
+  "kb": "John Titor",
+  "nameChecked": true
+ },
+ {
+  "id": 3096,
+  "name": {
+   "ko": "파이오니어",
+   "en": "Pioneer",
+   "ja": "パイオニア",
+   "zhCN": "先驱者",
+   "zhTW": "先驅者"
+  },
+  "rarity": 3,
+  "afflatus": "spirit",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 309601,
+  "insightSkin": null,
+  "skins": [
+   309601,
+   309602
+  ],
+  "kb": "Pioneer",
+  "nameChecked": true
+ },
+ {
+  "id": 3059,
+  "name": {
+   "ko": "문",
+   "en": "Door",
+   "ja": "ドア",
+   "zhCN": "门",
+   "zhTW": "門"
+  },
+  "rarity": 2,
+  "afflatus": "intellect",
+  "dmg": "reality",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 305901,
+  "insightSkin": null,
+  "skins": [
+   305901
+  ],
+  "kb": "Door",
+  "nameChecked": true
+ },
+ {
+  "id": 3027,
+  "name": {
+   "ko": "미스 라디오",
+   "en": "Ms. Radio",
+   "ja": "ミス・ラジオ",
+   "zhCN": "无线电小姐",
+   "zhTW": "無線電小姐"
+  },
+  "rarity": 2,
+  "afflatus": "spirit",
+  "dmg": "mental",
+  "released": true,
+  "euphoria": 0,
+  "defaultSkin": 302701,
+  "insightSkin": null,
+  "skins": [
+   302701,
+   302702
+  ],
+  "kb": "Ms. Radio",
+  "nameChecked": true
+ }
+]

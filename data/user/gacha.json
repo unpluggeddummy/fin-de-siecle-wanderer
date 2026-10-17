@@ -1,0 +1,25 @@
+{
+ "pity": 0,
+ "pityLimit": 70,
+ "guaranteed": false,
+ "currencies": [
+  {
+   "name": "순결의 빗방울",
+   "amount": 0
+  },
+  {
+   "name": "순수의 빗방울",
+   "amount": 0
+  },
+  {
+   "name": "모노로그",
+   "amount": 0
+  },
+  {
+   "name": "데카로그",
+   "amount": 0
+  }
+ ],
+ "banners": [],
+ "wishlist": []
+}

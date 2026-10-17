@@ -1,0 +1,1562 @@
+[
+ {
+  "id": 1574,
+  "name": {
+   "ko": "빛과 그림자의 거처",
+   "en": "Where Light and Shadows Rest",
+   "ja": "光と影の棲家",
+   "zhCN": "光影的栖所",
+   "zhTW": "光影的棲所"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1574.webp",
+  "skill": ""
+ },
+ {
+  "id": 1573,
+  "name": {
+   "ko": "빛 너머의 꿈",
+   "en": "A Dream Beyond Light",
+   "ja": "光の彼方にある夢",
+   "zhCN": "光之外的梦",
+   "zhTW": "光之外的夢"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1573.webp",
+  "skill": ""
+ },
+ {
+  "id": 1572,
+  "name": {
+   "ko": "과학 안무법",
+   "en": "The Dance of Science",
+   "ja": "科学の振付",
+   "zhCN": "科学编舞法",
+   "zhTW": "科學編舞法"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1572.webp",
+  "skill": ""
+ },
+ {
+  "id": 1571,
+  "name": {
+   "ko": "예술 원자력",
+   "en": "The Art of Atoms",
+   "ja": "原子の芸術",
+   "zhCN": "艺术原子能",
+   "zhTW": "藝術原子能"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1571.webp",
+  "skill": ""
+ },
+ {
+  "id": 1570,
+  "name": {
+   "ko": "성가는 침묵하라",
+   "en": "The Silent Anthem",
+   "ja": "沈黙のアンセム",
+   "zhCN": "圣歌应缄默",
+   "zhTW": "聖歌應緘默"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1570.webp",
+  "skill": ""
+ },
+ {
+  "id": 1569,
+  "name": {
+   "ko": "허물을 벗어 내가 되리라",
+   "en": "Until I Am Me",
+   "ja": "私が「私」になるまで",
+   "zhCN": "蜕至我为我",
+   "zhTW": "蛻至我為我"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1569.webp",
+  "skill": ""
+ },
+ {
+  "id": 1568,
+  "name": {
+   "ko": "어제의 가벼운 빗소리",
+   "en": "The Soft Rain of Yesterday",
+   "ja": "昨日の雨音は軽く",
+   "zhCN": "昨日雨声轻",
+   "zhTW": "昨日雨聲輕"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1568.webp",
+  "skill": ""
+ },
+ {
+  "id": 1567,
+  "name": {
+   "ko": "해답의 경계",
+   "en": "The Riddle's Limit",
+   "ja": "謎の境界線",
+   "zhCN": "解答的边界",
+   "zhTW": "解答的邊界"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1567.webp",
+  "skill": ""
+ },
+ {
+  "id": 1566,
+  "name": {
+   "ko": "소란스러운 세상",
+   "en": "Drown Out the Hustle",
+   "ja": "喧騒を遠ざけて",
+   "zhCN": "世界多喧闹",
+   "zhTW": "世界多喧鬧"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1566.webp",
+  "skill": ""
+ },
+ {
+  "id": 1565,
+  "name": {
+   "ko": "날갯짓의 순간",
+   "en": "The Fluttering Moment",
+   "ja": "羽ばたきの刹那",
+   "zhCN": "振翅一瞬间",
+   "zhTW": "振翅一瞬間"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1565.webp",
+  "skill": ""
+ },
+ {
+  "id": 1564,
+  "name": {
+   "ko": "공명이란 티끌과 흙일 뿐",
+   "en": "All Honor is but Dust",
+   "ja": "功名、塵芥に帰す",
+   "zhCN": "功名尘与土",
+   "zhTW": "功名塵與土"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1564.webp",
+  "skill": ""
+ },
+ {
+  "id": 1563,
+  "name": {
+   "ko": "천지 유람",
+   "en": "Wayfarer of the Dao",
+   "ja": "天地悠遊",
+   "zhCN": "天地一悠游",
+   "zhTW": "天地一悠遊"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1563.webp",
+  "skill": ""
+ },
+ {
+  "id": 1562,
+  "name": {
+   "ko": "아케론을 건너",
+   "en": "Across the Acheron",
+   "ja": "アケロンを渡りて",
+   "zhCN": "行至阿刻戎",
+   "zhTW": "行至阿刻戎"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1562.webp",
+  "skill": ""
+ },
+ {
+  "id": 1561,
+  "name": {
+   "ko": "화염 같은 내 심장이여",
+   "en": "Singleness of Heart",
+   "ja": "澄みわたる真心",
+   "zhCN": "我心如赤焰",
+   "zhTW": "我心如赤焰"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1561.webp",
+  "skill": ""
+ },
+ {
+  "id": 1560,
+  "name": {
+   "ko": "무의식의 악몽",
+   "en": "Shadows in the Subconscious",
+   "ja": "潜在意識の影",
+   "zhCN": "无意识梦魇",
+   "zhTW": "無意識夢魘"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1560.webp",
+  "skill": ""
+ },
+ {
+  "id": 1559,
+  "name": {
+   "ko": "운명의 선을 넘어",
+   "en": "Her Willful Leap",
+   "ja": "運命を跳び越えて",
+   "zhCN": "跃过命运线",
+   "zhTW": "躍過命運線"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1559.webp",
+  "skill": ""
+ },
+ {
+  "id": 1558,
+  "name": {
+   "ko": "천만번의 효험",
+   "en": "The Thousandfold Fate",
+   "ja": "予言されし千万の運命",
+   "zhCN": "千万次应验",
+   "zhTW": "千萬次應驗"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1558.webp",
+  "skill": ""
+ },
+ {
+  "id": 1557,
+  "name": {
+   "ko": "살아있는 자의 고행",
+   "en": "Bitter March of the Living",
+   "ja": "残された者の旅",
+   "zhCN": "生者的苦旅",
+   "zhTW": "生者的苦旅"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1557.webp",
+  "skill": ""
+ },
+ {
+  "id": 1556,
+  "name": {
+   "ko": "방랑 즉흥곡",
+   "en": "The Wandering Improviser",
+   "ja": "さすらいの即興曲",
+   "zhCN": "流浪即兴曲",
+   "zhTW": "流浪即興曲"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1556.webp",
+  "skill": ""
+ },
+ {
+  "id": 1555,
+  "name": {
+   "ko": "개울 속으로",
+   "en": "Into the Gentle Current",
+   "ja": "細流に流れ込んで",
+   "zhCN": "汇入涓流中",
+   "zhTW": "匯入涓流中"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1555.webp",
+  "skill": ""
+ },
+ {
+  "id": 1554,
+  "name": {
+   "ko": "씨앗을 향한 속삭임",
+   "en": "Buds Yet to Bloom",
+   "ja": "種に囁きかけ",
+   "zhCN": "向种子呢喃",
+   "zhTW": "向種子呢喃"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1554.webp",
+  "skill": ""
+ },
+ {
+  "id": 1553,
+  "name": {
+   "ko": "귀향의 애도사",
+   "en": "Homecoming Lament",
+   "ja": "帰郷の追悼",
+   "zhCN": "归乡哀悼词",
+   "zhTW": "歸鄉哀悼詞"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1553.webp",
+  "skill": ""
+ },
+ {
+  "id": 1552,
+  "name": {
+   "ko": "서사시의 끝",
+   "en": "An Epic's End",
+   "ja": "叙事詩の終焉",
+   "zhCN": "史诗的终点",
+   "zhTW": "史詩的終點"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1552.webp",
+  "skill": ""
+ },
+ {
+  "id": 1551,
+  "name": {
+   "ko": "황혼의 종소리",
+   "en": "As the Bell Tolls",
+   "ja": "黄昏に響く鐘",
+   "zhCN": "钟响于暮色",
+   "zhTW": "鐘響於暮色"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1551.webp",
+  "skill": ""
+ },
+ {
+  "id": 1550,
+  "name": {
+   "ko": "떠오른 생각",
+   "en": "A Tingle of a Thought",
+   "ja": "ふとしたきらめき",
+   "zhCN": "思维一激灵",
+   "zhTW": "思維一激靈"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1550.webp",
+  "skill": ""
+ },
+ {
+  "id": 1549,
+  "name": {
+   "ko": "가정 지도사",
+   "en": "Family Mentor",
+   "ja": "家族の導き手",
+   "zhCN": "家庭指导员",
+   "zhTW": "家庭指導員"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1549.webp",
+  "skill": ""
+ },
+ {
+  "id": 1548,
+  "name": {
+   "ko": "마음의 묘비명",
+   "en": "Embrace the Past",
+   "ja": "心の墓碑銘",
+   "zhCN": "心音墓志铭",
+   "zhTW": "心音墓誌銘"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1548.webp",
+  "skill": ""
+ },
+ {
+  "id": 1547,
+  "name": {
+   "ko": "살포시 다가오는 봄날",
+   "en": "Aurora After Winter",
+   "ja": "春の足取り",
+   "zhCN": "春日轻步至",
+   "zhTW": "春日輕步至"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1547.webp",
+  "skill": ""
+ },
+ {
+  "id": 1546,
+  "name": {
+   "ko": "네버엔딩 Q&A",
+   "en": "Never-Ending Q&A",
+   "ja": "終わらないQ&A",
+   "zhCN": "双焦点问答",
+   "zhTW": "雙焦點問答"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1546.webp",
+  "skill": ""
+ },
+ {
+  "id": 1545,
+  "name": {
+   "ko": "뇌실은 감옥이다",
+   "en": "Mental Cage",
+   "ja": "脳の牢獄",
+   "zhCN": "脑室即囚室",
+   "zhTW": "腦室即囚室"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1545.webp",
+  "skill": ""
+ },
+ {
+  "id": 1544,
+  "name": {
+   "ko": "마지막 던지기",
+   "en": "The Final Roll",
+   "ja": "最後のダイス",
+   "zhCN": "最后的投掷",
+   "zhTW": "最後的投擲"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1544.webp",
+  "skill": ""
+ },
+ {
+  "id": 1543,
+  "name": {
+   "ko": "꿈의 리허설",
+   "en": "Rehearsal of Dreams",
+   "ja": "夢づくりのリハーサル",
+   "zhCN": "造梦的预演",
+   "zhTW": "造夢的預演"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1543.webp",
+  "skill": ""
+ },
+ {
+  "id": 1542,
+  "name": {
+   "ko": "응답 바람",
+   "en": "Ready on Call",
+   "ja": "直ちに応答せよ",
+   "zhCN": "收到请回答",
+   "zhTW": "收到請回答"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1542.webp",
+  "skill": ""
+ },
+ {
+  "id": 1541,
+  "name": {
+   "ko": "두려워하는 조개껍데기",
+   "en": "Cracks in the Shell",
+   "ja": "貝殻のひび割れ",
+   "zhCN": "惶然的贝壳",
+   "zhTW": "惶然的貝殼"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1541.webp",
+  "skill": ""
+ },
+ {
+  "id": 1540,
+  "name": {
+   "ko": "이별 변주곡",
+   "en": "Addio Coda",
+   "ja": "別れの変奏曲",
+   "zhCN": "离别变奏曲",
+   "zhTW": "離別變奏曲"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1540.webp",
+  "skill": ""
+ },
+ {
+  "id": 1539,
+  "name": {
+   "ko": "초침의 서식지",
+   "en": "On the Hand of Time",
+   "ja": "秒針の住み処",
+   "zhCN": "秒针栖息地",
+   "zhTW": "秒針棲息地"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1539.webp",
+  "skill": ""
+ },
+ {
+  "id": 1538,
+  "name": {
+   "ko": "불규칙한 스텝",
+   "en": "Offbeat Strides",
+   "ja": "ノンリズムジャンプ",
+   "zhCN": "无韵律跳步",
+   "zhTW": "無韻律跳步"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1538.webp",
+  "skill": ""
+ },
+ {
+  "id": 1537,
+  "name": {
+   "ko": "세 번째 신뢰",
+   "en": "The Third Commitment",
+   "ja": "三度目の信頼",
+   "zhCN": "第三次信任",
+   "zhTW": "第三次信任"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1537.webp",
+  "skill": ""
+ },
+ {
+  "id": 1536,
+  "name": {
+   "ko": "실체 없는 진실",
+   "en": "Transcendent Love",
+   "ja": "愛の本質",
+   "zhCN": "非物质真情",
+   "zhTW": "非物質真情"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1536.webp",
+  "skill": ""
+ },
+ {
+  "id": 1535,
+  "name": {
+   "ko": "미미한 청사진",
+   "en": "Tiny Wish",
+   "ja": "ささやかな願い",
+   "zhCN": "微渺的愿景",
+   "zhTW": "微渺的願景"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1535.webp",
+  "skill": ""
+ },
+ {
+  "id": 1534,
+  "name": {
+   "ko": "밤의 깊은 곳",
+   "en": "Stray Off the Path",
+   "ja": "夜の奥深くへと",
+   "zhCN": "寻入夜深处",
+   "zhTW": "尋入夜深處"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1534.webp",
+  "skill": ""
+ },
+ {
+  "id": 1533,
+  "name": {
+   "ko": "메이드의 목격",
+   "en": "And the Maid Says",
+   "ja": "メイドは見た",
+   "zhCN": "女佣看见了",
+   "zhTW": "女傭看見了"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1533.webp",
+  "skill": ""
+ },
+ {
+  "id": 1532,
+  "name": {
+   "ko": "샘물처럼 천천히",
+   "en": "Starlight Wellspring",
+   "ja": "流れゆく泉のように",
+   "zhCN": "漫行如泉流",
+   "zhTW": "漫行如泉流"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1532.webp",
+  "skill": ""
+ },
+ {
+  "id": 1531,
+  "name": {
+   "ko": "말할 수 없는 가벼움",
+   "en": "The Unbearable Lightness",
+   "ja": "語られざる軽さ",
+   "zhCN": "不可诉之轻",
+   "zhTW": "不可訴之輕"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1531.webp",
+  "skill": ""
+ },
+ {
+  "id": 1530,
+  "name": {
+   "ko": "가장 깊은 곳에서",
+   "en": "From the Depths",
+   "ja": "最奥より",
+   "zhCN": "来自最深处",
+   "zhTW": "來自最深處"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1530.webp",
+  "skill": ""
+ },
+ {
+  "id": 1529,
+  "name": {
+   "ko": "가까워지는 빗소리",
+   "en": "Approaching Rain",
+   "ja": "近づく雨の音",
+   "zhCN": "渐近的雨声",
+   "zhTW": "漸近的雨聲"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1529.webp",
+  "skill": ""
+ },
+ {
+  "id": 1528,
+  "name": {
+   "ko": "용자의 충고",
+   "en": "The Fighter's Best Wishes",
+   "ja": "勇ましい者の言葉",
+   "zhCN": "勇敢者赠言",
+   "zhTW": "勇敢者贈言"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1528.webp",
+  "skill": ""
+ },
+ {
+  "id": 1527,
+  "name": {
+   "ko": "행진의 걸음 소리",
+   "en": "Steps Forward",
+   "ja": "前進の足音",
+   "zhCN": "行进的步音",
+   "zhTW": "行進的步音"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1527.webp",
+  "skill": ""
+ },
+ {
+  "id": 1526,
+  "name": {
+   "ko": "증명 시도",
+   "en": "For Rehabilitation",
+   "ja": "証明の試み",
+   "zhCN": "故尝试证明",
+   "zhTW": "故嘗試證明"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1526.webp",
+  "skill": ""
+ },
+ {
+  "id": 1525,
+  "name": {
+   "ko": "새벽이 다가온다",
+   "en": "Dawn Is Coming",
+   "ja": "夜は明ける",
+   "zhCN": "黎明将到来",
+   "zhTW": "黎明將到來"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1525.webp",
+  "skill": ""
+ },
+ {
+  "id": 1524,
+  "name": {
+   "ko": "또 다른 이야기",
+   "en": "Another Story",
+   "ja": "もうひとつの物語",
+   "zhCN": "另一个故事",
+   "zhTW": "另一個故事"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1524.webp",
+  "skill": ""
+ },
+ {
+  "id": 1523,
+  "name": {
+   "ko": "좁은 문을 두드려라",
+   "en": "Knock on the Door",
+   "ja": "狭いドアをノックして",
+   "zhCN": "敲响这窄门",
+   "zhTW": "敲響這窄門"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1523.webp",
+  "skill": ""
+ },
+ {
+  "id": 1522,
+  "name": {
+   "ko": "평범한 순간",
+   "en": "Same Old Story",
+   "ja": "目下に新事なし",
+   "zhCN": "此刻无新事",
+   "zhTW": "此刻無新事"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1522.webp",
+  "skill": ""
+ },
+ {
+  "id": 1521,
+  "name": {
+   "ko": "성 밖의 세상",
+   "en": "Outside the City",
+   "ja": "四方城の外にて",
+   "zhCN": "在四方城外",
+   "zhTW": "在四方城外"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1521.webp",
+  "skill": ""
+ },
+ {
+  "id": 1515,
+  "name": {
+   "ko": "기나긴 속삭임",
+   "en": "Long Night Talk",
+   "ja": "長い夜話",
+   "zhCN": "漫长悄悄话",
+   "zhTW": "漫長悄悄話"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1515.webp",
+  "skill": ""
+ },
+ {
+  "id": 1514,
+  "name": {
+   "ko": "균형 유지",
+   "en": "Balance, Please",
+   "ja": "バランスに注意",
+   "zhCN": "请保持平衡",
+   "zhTW": "請保持平衡"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1514.webp",
+  "skill": ""
+ },
+ {
+  "id": 1513,
+  "name": {
+   "ko": "침묵과 동경",
+   "en": "Silent and Adoring",
+   "ja": "沈黙と憧れ",
+   "zhCN": "沉默与向往",
+   "zhTW": "沉默與嚮往"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1513.webp",
+  "skill": ""
+ },
+ {
+  "id": 1512,
+  "name": {
+   "ko": "헤아릴 수 있는 마음",
+   "en": "The Carat of a Heart",
+   "ja": "測定可能な心",
+   "zhCN": "可度量之心",
+   "zhTW": "可度量之心"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1512.webp",
+  "skill": "헤아릴 수 있는 마음"
+ },
+ {
+  "id": 1511,
+  "name": {
+   "ko": "원더랜드 너머",
+   "en": "Beyond Wonderland",
+   "ja": "おとぎの国の外",
+   "zhCN": "在仙境之外",
+   "zhTW": "在仙境之外"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1511.webp",
+  "skill": "굿나잇 애프터눈 티"
+ },
+ {
+  "id": 1510,
+  "name": {
+   "ko": "필요한 기록",
+   "en": "His Bounden Duty",
+   "ja": "必要な記録",
+   "zhCN": "必要的记录",
+   "zhTW": "必要的記錄"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1510.webp",
+  "skill": "규격화 굉음"
+ },
+ {
+  "id": 1509,
+  "name": {
+   "ko": "오락 지상주의",
+   "en": "Luxurious Leisure",
+   "ja": "娯楽至上",
+   "zhCN": "大娱乐至上",
+   "zhTW": "大娛樂至上"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1509.webp",
+  "skill": "세간의 이목"
+ },
+ {
+  "id": 1508,
+  "name": {
+   "ko": "호기심쟁이",
+   "en": "That Inquisitive Dear",
+   "ja": "好奇心の塊",
+   "zhCN": "好奇心宝贝",
+   "zhTW": "好奇心寶貝"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1508.webp",
+  "skill": "지식의 용도"
+ },
+ {
+  "id": 1507,
+  "name": {
+   "ko": "우레와 같은 박수",
+   "en": "Thunderous Applause",
+   "ja": "万雷の拍手",
+   "zhCN": "掌声如雷鸣",
+   "zhTW": "掌聲如雷鳴"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1507.webp",
+  "skill": "스포트라이트 아래"
+ },
+ {
+  "id": 1504,
+  "name": {
+   "ko": "밤의 모독자",
+   "en": "Blasphemer of Night",
+   "ja": "夜を冒涜する者",
+   "zhCN": "夜色亵渎者",
+   "zhTW": "夜色褻瀆者"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1504.webp",
+  "skill": "영원한 불안"
+ },
+ {
+  "id": 1503,
+  "name": {
+   "ko": "두 번째 생명",
+   "en": "Her Second Life",
+   "ja": "二度目の人生",
+   "zhCN": "第二次生命",
+   "zhTW": "第二次生命"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1503.webp",
+  "skill": "나무가 푸를 때"
+ },
+ {
+  "id": 1502,
+  "name": {
+   "ko": "땅따먹기 게임",
+   "en": "Hopscotch",
+   "ja": "ホップスコッチ",
+   "zhCN": "跳房子游戏",
+   "zhTW": "跳房子遊戲"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1502.webp",
+  "skill": "사모의 마음"
+ },
+ {
+  "id": 1501,
+  "name": {
+   "ko": "멋진 신세계",
+   "en": "Brave New World",
+   "ja": "美しい新世界",
+   "zhCN": "美丽新世界",
+   "zhTW": "美麗新世界"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1501.webp",
+  "skill": "동경의 마음"
+ },
+ {
+  "id": 1000,
+  "name": {
+   "ko": "도철",
+   "en": "Gluttony",
+   "ja": "グラトニー",
+   "zhCN": "饕餮",
+   "zhTW": "饕餮"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1000.webp",
+  "skill": "뱀 혀의 촉감"
+ },
+ {
+  "id": 4104,
+  "name": {
+   "ko": "웃음소리",
+   "en": "Laughter and Laughter",
+   "ja": "楽しげな笑い声",
+   "zhCN": "笑语欢声",
+   "zhTW": "笑語歡聲"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/4104.webp",
+  "skill": "무대의 눈빛"
+ },
+ {
+  "id": 4103,
+  "name": {
+   "ko": "자유의 마음",
+   "en": "A Free Heart",
+   "ja": "自由な心",
+   "zhCN": "自由的心",
+   "zhTW": "自由的心"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/4103.webp",
+  "skill": "조용한 시"
+ },
+ {
+  "id": 1449,
+  "name": {
+   "ko": "다시 만날 지난밤과의 작별",
+   "en": "Farewell to the Old Night",
+   "ja": "古き夜に別れを",
+   "zhCN": "暂别旧夜",
+   "zhTW": "暫別舊夜"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1449.webp",
+  "skill": ""
+ },
+ {
+  "id": 1448,
+  "name": {
+   "ko": "성장통",
+   "en": "Growing Pains",
+   "ja": "成長の痛み",
+   "zhCN": "成长阵痛",
+   "zhTW": "成長陣痛"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1448.webp",
+  "skill": ""
+ },
+ {
+  "id": 1447,
+  "name": {
+   "ko": "하늘은 스스로 돕는 자를 돕는다",
+   "en": "Luck Be a Lady",
+   "ja": "天は自ら助くる者を助く",
+   "zhCN": "天助自助",
+   "zhTW": "天助自助"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1447.webp",
+  "skill": ""
+ },
+ {
+  "id": 1446,
+  "name": {
+   "ko": "한가로이 듣는 바람",
+   "en": "The Wind's Listener",
+   "ja": "風に耳を傾けば",
+   "zhCN": "无事听风",
+   "zhTW": "無事聽風"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1446.webp",
+  "skill": ""
+ },
+ {
+  "id": 1445,
+  "name": {
+   "ko": "수많은 이별",
+   "en": "Parting's Quiet Lament",
+   "ja": "別れの嘆き",
+   "zhCN": "世多别离",
+   "zhTW": "世多別離"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1445.webp",
+  "skill": ""
+ },
+ {
+  "id": 1444,
+  "name": {
+   "ko": "‘반사된 형상’의 지시",
+   "en": "In Their Figures",
+   "ja": "「投影」が指し示すもの",
+   "zhCN": "“倒影”所指",
+   "zhTW": "“倒影”所指"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1444.webp",
+  "skill": ""
+ },
+ {
+  "id": 1443,
+  "name": {
+   "ko": "사라진 비문",
+   "en": "Faded Epitaphs",
+   "ja": "色褪せたエピタフ",
+   "zhCN": "碑文已逝",
+   "zhTW": "碑文已逝"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1443.webp",
+  "skill": ""
+ },
+ {
+  "id": 1442,
+  "name": {
+   "ko": "사기극",
+   "en": "Substitutes and Simulacra",
+   "ja": "偽物と模造品",
+   "zhCN": "偷天换日",
+   "zhTW": "偷天換日"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1442.webp",
+  "skill": ""
+ },
+ {
+  "id": 1441,
+  "name": {
+   "ko": "길가의 먼지",
+   "en": "Dust on the Roadside",
+   "ja": "道端のほこり",
+   "zhCN": "路边尘埃",
+   "zhTW": "路邊塵埃"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1441.webp",
+  "skill": ""
+ },
+ {
+  "id": 1440,
+  "name": {
+   "ko": "올드앤뉴 멜로디",
+   "en": "Melodies Old and New",
+   "ja": "懐かしい歌、新しいメロディー",
+   "zhCN": "新旧歌谣",
+   "zhTW": "新舊歌謠"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1440.webp",
+  "skill": ""
+ },
+ {
+  "id": 1439,
+  "name": {
+   "ko": "장면 메모",
+   "en": "Off the Scene",
+   "ja": "舞台裏の注釈",
+   "zhCN": "镜头注脚",
+   "zhTW": "鏡頭註腳"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1439.webp",
+  "skill": ""
+ },
+ {
+  "id": 1438,
+  "name": {
+   "ko": "친절한 퇴마사",
+   "en": "Your Friendly Exorcist",
+   "ja": "除霊パートナー",
+   "zhCN": "惊魂拍档",
+   "zhTW": "驚魂拍檔"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1438.webp",
+  "skill": ""
+ },
+ {
+  "id": 1437,
+  "name": {
+   "ko": "열정의 노래",
+   "en": "Belt It Out",
+   "ja": "ベルト・イット・アウト",
+   "zhCN": "纵情一曲",
+   "zhTW": "縱情一曲"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1437.webp",
+  "skill": ""
+ },
+ {
+  "id": 1436,
+  "name": {
+   "ko": "미로의 밖",
+   "en": "One with the Flow",
+   "ja": "迷道の外",
+   "zhCN": "迷途以外",
+   "zhTW": "迷途以外"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1436.webp",
+  "skill": ""
+ },
+ {
+  "id": 1435,
+  "name": {
+   "ko": "마음 속에 남겨진 것",
+   "en": "The Severed and the Rest",
+   "ja": "心に刻み込んだもの",
+   "zhCN": "留置心底",
+   "zhTW": "留置心底"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1435.webp",
+  "skill": ""
+ },
+ {
+  "id": 1434,
+  "name": {
+   "ko": "현상에 남다",
+   "en": "Falling for a Sweet Phenomenon",
+   "ja": "現象の中に落ちて",
+   "zhCN": "落于现象",
+   "zhTW": "落於現象"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1434.webp",
+  "skill": ""
+ },
+ {
+  "id": 1433,
+  "name": {
+   "ko": "무관심",
+   "en": "The Loner",
+   "ja": "知られざる芸術",
+   "zhCN": "无人问津",
+   "zhTW": "無人問津"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1433.webp",
+  "skill": ""
+ },
+ {
+  "id": 1432,
+  "name": {
+   "ko": "소리와 색",
+   "en": "Spinning Yarns",
+   "ja": "生気に満ちた物語",
+   "zhCN": "绘声绘色",
+   "zhTW": "繪聲繪色"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1432.webp",
+  "skill": ""
+ },
+ {
+  "id": 1431,
+  "name": {
+   "ko": "직접 맛본 쓴맛",
+   "en": "You Deserve It",
+   "ja": "自業自得",
+   "zhCN": "自食苦果",
+   "zhTW": "自食苦果"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1431.webp",
+  "skill": ""
+ },
+ {
+  "id": 1430,
+  "name": {
+   "ko": "무색",
+   "en": "Her Mournful Face",
+   "ja": "デプレッション",
+   "zhCN": "黯然失色",
+   "zhTW": "黯然失色"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1430.webp",
+  "skill": ""
+ },
+ {
+  "id": 1429,
+  "name": {
+   "ko": "고독한 걸음",
+   "en": "Going Along Alone",
+   "ja": "ウォーク・アローン",
+   "zhCN": "踽踽独行",
+   "zhTW": "踽踽獨行"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1429.webp",
+  "skill": ""
+ },
+ {
+  "id": 1428,
+  "name": {
+   "ko": "그림자처럼",
+   "en": "In the Shadow",
+   "ja": "影にて",
+   "zhCN": "形影相随",
+   "zhTW": "形影相隨"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1428.webp",
+  "skill": ""
+ },
+ {
+  "id": 1427,
+  "name": {
+   "ko": "소리 없는 응시",
+   "en": "Silent Gaze",
+   "ja": "沈黙の眼差し",
+   "zhCN": "无声注视",
+   "zhTW": "無聲注視"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1427.webp",
+  "skill": ""
+ },
+ {
+  "id": 1426,
+  "name": {
+   "ko": "밤이면 밤마다",
+   "en": "Night After Night",
+   "ja": "夜な夜な",
+   "zhCN": "夜夜亦然",
+   "zhTW": "夜夜亦然"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1426.webp",
+  "skill": ""
+ },
+ {
+  "id": 1425,
+  "name": {
+   "ko": "톱니바퀴 너머",
+   "en": "Beyond the Gears",
+   "ja": "歯車の外",
+   "zhCN": "齿轮之外",
+   "zhTW": "齒輪之外"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1425.webp",
+  "skill": ""
+ },
+ {
+  "id": 1424,
+  "name": {
+   "ko": "어제의 옛일",
+   "en": "His Tail",
+   "ja": "昨日の出来事",
+   "zhCN": "昨日往事",
+   "zhTW": "昨日往事"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1424.webp",
+  "skill": ""
+ },
+ {
+  "id": 1423,
+  "name": {
+   "ko": "새로운 종이",
+   "en": "A New Leaf",
+   "ja": "新たなページ",
+   "zhCN": "崭新一页",
+   "zhTW": "嶄新一頁"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1423.webp",
+  "skill": ""
+ },
+ {
+  "id": 1422,
+  "name": {
+   "ko": "다과 시간",
+   "en": "Tea Break",
+   "ja": "ティータイム",
+   "zhCN": "茶歇时间",
+   "zhTW": "茶歇時間"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1422.webp",
+  "skill": ""
+ },
+ {
+  "id": 1421,
+  "name": {
+   "ko": "용감한 전진",
+   "en": "Let's Set Sail",
+   "ja": "いざ出航",
+   "zhCN": "勇往直前",
+   "zhTW": "勇往直前"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1421.webp",
+  "skill": ""
+ },
+ {
+  "id": 1420,
+  "name": {
+   "ko": "고통의 여정",
+   "en": "Take the Hard Journey",
+   "ja": "苦しい旅の途中",
+   "zhCN": "步此苦旅",
+   "zhTW": "步此苦旅"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1420.webp",
+  "skill": ""
+ },
+ {
+  "id": 1414,
+  "name": {
+   "ko": "황당한 여생",
+   "en": "Remaining Absurdity",
+   "ja": "アブサーディティ・ライフ",
+   "zhCN": "荒唐余生",
+   "zhTW": "荒唐餘生"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1414.webp",
+  "skill": ""
+ },
+ {
+  "id": 1413,
+  "name": {
+   "ko": "풍족한 식탁",
+   "en": "A Satisfied Eater",
+   "ja": "サティスファイド・イーター",
+   "zhCN": "食足餮满",
+   "zhTW": "食足餮滿"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1413.webp",
+  "skill": ""
+ },
+ {
+  "id": 1411,
+  "name": {
+   "ko": "원대한 여정",
+   "en": "Her Bright Future",
+   "ja": "遥かなる前途",
+   "zhCN": "远大前程",
+   "zhTW": "遠大前程"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1411.webp",
+  "skill": "무한 전진"
+ },
+ {
+  "id": 1407,
+  "name": {
+   "ko": "오후의 휴식",
+   "en": "An Afternoon Nap",
+   "ja": "午後の休憩",
+   "zhCN": "午后小憩",
+   "zhTW": "午後小憩"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1407.webp",
+  "skill": "나무 아래 철학"
+ },
+ {
+  "id": 1405,
+  "name": {
+   "ko": "진실된 나",
+   "en": "Decode",
+   "ja": "むき出しの真実",
+   "zhCN": "示我以真",
+   "zhTW": "示我以真"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1405.webp",
+  "skill": "고요한 포대기"
+ },
+ {
+  "id": 1404,
+  "name": {
+   "ko": "자유자재",
+   "en": "The Footloose",
+   "ja": "気ままに",
+   "zhCN": "无束无拘",
+   "zhTW": "無束無拘"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1404.webp",
+  "skill": "태양 과녁"
+ },
+ {
+  "id": 1402,
+  "name": {
+   "ko": "똑같은 내일",
+   "en": "Tomorrow Also",
+   "ja": "明日も同じ",
+   "zhCN": "明日亦然",
+   "zhTW": "明日亦然"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1402.webp",
+  "skill": "귀로의 종소리"
+ },
+ {
+  "id": 1401,
+  "name": {
+   "ko": "마음의 방향",
+   "en": "Yearning Desire",
+   "ja": "思いを馳せて",
+   "zhCN": "心驰神往",
+   "zhTW": "心馳神往"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1401.webp",
+  "skill": "새장 속의 새"
+ },
+ {
+  "id": 1001,
+  "name": {
+   "ko": "탐욕",
+   "en": "Greed",
+   "ja": "グリード",
+   "zhCN": "贪欲",
+   "zhTW": "貪欲"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1001.webp",
+  "skill": "뱀 혀의 촉감"
+ },
+ {
+  "id": 1310,
+  "name": {
+   "ko": "고요",
+   "en": "Meek",
+   "ja": "静謐",
+   "zhCN": "静谧",
+   "zhTW": "靜謐"
+  },
+  "rarity": 4,
+  "icon": "assets/img/psychube/1310.webp",
+  "skill": ""
+ },
+ {
+  "id": 1309,
+  "name": {
+   "ko": "푸른독",
+   "en": "Venomous",
+   "ja": "緑毒",
+   "zhCN": "绿毒",
+   "zhTW": "綠毒"
+  },
+  "rarity": 4,
+  "icon": "assets/img/psychube/1309.webp",
+  "skill": ""
+ },
+ {
+  "id": 1308,
+  "name": {
+   "ko": "갈망",
+   "en": "Covet",
+   "ja": "貪欲",
+   "zhCN": "无餍",
+   "zhTW": "無饜"
+  },
+  "rarity": 4,
+  "icon": "assets/img/psychube/1308.webp",
+  "skill": ""
+ },
+ {
+  "id": 1307,
+  "name": {
+   "ko": "숭배",
+   "en": "Bow",
+   "ja": "崇奉",
+   "zhCN": "崇奉",
+   "zhTW": "崇奉"
+  },
+  "rarity": 4,
+  "icon": "assets/img/psychube/1307.webp",
+  "skill": ""
+ },
+ {
+  "id": 1306,
+  "name": {
+   "ko": "항해",
+   "en": "Navigating",
+   "ja": "航海",
+   "zhCN": "领航",
+   "zhTW": "領航"
+  },
+  "rarity": 4,
+  "icon": "assets/img/psychube/1306.webp",
+  "skill": ""
+ },
+ {
+  "id": 1206,
+  "name": {
+   "ko": "몽매",
+   "en": "Fatuous",
+   "ja": "蒙昧",
+   "zhCN": "蒙昧",
+   "zhTW": "蒙昧"
+  },
+  "rarity": 3,
+  "icon": "assets/img/psychube/1206.webp",
+  "skill": ""
+ },
+ {
+  "id": 1205,
+  "name": {
+   "ko": "둔감",
+   "en": "Numb",
+   "ja": "無感覚",
+   "zhCN": "麻木",
+   "zhTW": "麻木"
+  },
+  "rarity": 3,
+  "icon": "assets/img/psychube/1205.webp",
+  "skill": ""
+ },
+ {
+  "id": 1204,
+  "name": {
+   "ko": "환호",
+   "en": "Cheering",
+   "ja": "歓声",
+   "zhCN": "欢声",
+   "zhTW": "歡聲"
+  },
+  "rarity": 3,
+  "icon": "assets/img/psychube/1204.webp",
+  "skill": ""
+ },
+ {
+  "id": 1203,
+  "name": {
+   "ko": "낙담",
+   "en": "Loss",
+   "ja": "喪失",
+   "zhCN": "怅然",
+   "zhTW": "悵然"
+  },
+  "rarity": 3,
+  "icon": "assets/img/psychube/1203.webp",
+  "skill": ""
+ },
+ {
+  "id": 1202,
+  "name": {
+   "ko": "팽배",
+   "en": "Flourishing",
+   "ja": "鬱然",
+   "zhCN": "蓬勃",
+   "zhTW": "蓬勃"
+  },
+  "rarity": 3,
+  "icon": "assets/img/psychube/1202.webp",
+  "skill": ""
+ },
+ {
+  "id": 1201,
+  "name": {
+   "ko": "경멸",
+   "en": "Slighted",
+   "ja": "軽蔑",
+   "zhCN": "轻藐",
+   "zhTW": "輕藐"
+  },
+  "rarity": 3,
+  "icon": "assets/img/psychube/1201.webp",
+  "skill": ""
+ }
+]

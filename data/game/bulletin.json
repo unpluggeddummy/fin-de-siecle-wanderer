@@ -1,0 +1,670 @@
+[
+ {
+  "id": 11414,
+  "version": "1.4",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 1,
+    "name": "심연의 어둠",
+    "nameEn": "Darkness of the Abyss",
+    "image": "assets/img/boss/v1a4_bossrush_boss01.webp"
+   },
+   {
+    "stage": 2,
+    "type": 2,
+    "name": "늪의 괴물",
+    "nameEn": "Marsh Creation",
+    "image": "assets/img/boss/v1a4_bossrush_boss03.webp"
+   },
+   {
+    "stage": 3,
+    "type": 3,
+    "name": "동굴의 황금",
+    "nameEn": "Gold in the Cave",
+    "image": "assets/img/boss/v1a4_bossrush_boss02.webp"
+   }
+  ]
+ },
+ {
+  "id": 11516,
+  "version": "1.5",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 4,
+    "name": "전시회의 허상",
+    "nameEn": "Hypothesis of Exhibition",
+    "image": "assets/img/boss/v1a5_bossrush_boss01.webp"
+   },
+   {
+    "stage": 2,
+    "type": 3,
+    "name": "동굴의 황금",
+    "nameEn": "Gold in the Cave",
+    "image": "assets/img/boss/v1a4_bossrush_boss02.webp"
+   },
+   {
+    "stage": 3,
+    "type": 1,
+    "name": "심연의 어둠",
+    "nameEn": "Darkness of the Abyss",
+    "image": "assets/img/boss/v1a4_bossrush_boss01.webp"
+   }
+  ]
+ },
+ {
+  "id": 11604,
+  "version": "1.6",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 5,
+    "name": "악몽의 그림자",
+    "nameEn": "Projection of Nightmare",
+    "image": "assets/img/boss/v1a6_bossrush_boss01.webp"
+   },
+   {
+    "stage": 2,
+    "type": 4,
+    "name": "전시회의 허상",
+    "nameEn": "Hypothesis of Exhibition",
+    "image": "assets/img/boss/v1a5_bossrush_boss01.webp"
+   },
+   {
+    "stage": 3,
+    "type": 2,
+    "name": "늪의 괴물",
+    "nameEn": "Marsh Creation",
+    "image": "assets/img/boss/v1a4_bossrush_boss03.webp"
+   }
+  ]
+ },
+ {
+  "id": 11704,
+  "version": "1.7",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 6,
+    "name": "선도의 절경",
+    "nameEn": "Isle Cryptid",
+    "image": "assets/img/boss/v1a7_bossrush_boss01.webp"
+   },
+   {
+    "stage": 2,
+    "type": 4,
+    "name": "전시회의 허상",
+    "nameEn": "Hypothesis of Exhibition",
+    "image": "assets/img/boss/v1a5_bossrush_boss01.webp"
+   },
+   {
+    "stage": 3,
+    "type": 5,
+    "name": "악몽의 그림자",
+    "nameEn": "Projection of Nightmare",
+    "image": "assets/img/boss/v1a6_bossrush_boss01.webp"
+   }
+  ]
+ },
+ {
+  "id": 11812,
+  "version": "1.8",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 7,
+    "name": "강당의 메아리",
+    "nameEn": "Echoes of Opera",
+    "image": "assets/img/boss/v1a8_bossrush_boss01.webp"
+   },
+   {
+    "stage": 2,
+    "type": 6,
+    "name": "선도의 절경",
+    "nameEn": "Isle Cryptid",
+    "image": "assets/img/boss/v1a7_bossrush_boss01.webp"
+   },
+   {
+    "stage": 3,
+    "type": 3,
+    "name": "동굴의 황금",
+    "nameEn": "Gold in the Cave",
+    "image": "assets/img/boss/v1a4_bossrush_boss02.webp"
+   }
+  ]
+ },
+ {
+  "id": 11910,
+  "version": "1.9",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 1,
+    "name": "심연의 어둠",
+    "nameEn": "Darkness of the Abyss",
+    "image": "assets/img/boss/v1a4_bossrush_boss01.webp"
+   },
+   {
+    "stage": 2,
+    "type": 7,
+    "name": "강당의 메아리",
+    "nameEn": "Echoes of Opera",
+    "image": "assets/img/boss/v1a8_bossrush_boss01.webp"
+   },
+   {
+    "stage": 3,
+    "type": 5,
+    "name": "악몽의 그림자",
+    "nameEn": "Projection of Nightmare",
+    "image": "assets/img/boss/v1a6_bossrush_boss01.webp"
+   }
+  ]
+ },
+ {
+  "id": 12013,
+  "version": "2.0",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 8,
+    "name": "시대의 분노",
+    "nameEn": "Bellows of the Earth",
+    "image": "assets/img/boss/v2a0_bossrush_boss01.webp"
+   },
+   {
+    "stage": 2,
+    "type": 6,
+    "name": "선도의 절경",
+    "nameEn": "Isle Cryptid",
+    "image": "assets/img/boss/v1a7_bossrush_boss01.webp"
+   },
+   {
+    "stage": 3,
+    "type": 2,
+    "name": "늪의 괴물",
+    "nameEn": "Marsh Creation",
+    "image": "assets/img/boss/v1a4_bossrush_boss03.webp"
+   }
+  ]
+ },
+ {
+  "id": 12113,
+  "version": "2.1",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 1,
+    "name": "심연의 어둠",
+    "nameEn": "Darkness of the Abyss",
+    "image": "assets/img/boss/v1a4_bossrush_boss01.webp"
+   },
+   {
+    "stage": 2,
+    "type": 6,
+    "name": "선도의 절경",
+    "nameEn": "Isle Cryptid",
+    "image": "assets/img/boss/v1a7_bossrush_boss01.webp"
+   },
+   {
+    "stage": 3,
+    "type": 8,
+    "name": "시대의 분노",
+    "nameEn": "Bellows of the Earth",
+    "image": "assets/img/boss/v2a0_bossrush_boss01.webp"
+   }
+  ]
+ },
+ {
+  "id": 12209,
+  "version": "2.2",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 9,
+    "name": "전쟁의 그림자",
+    "nameEn": "Fog of War",
+    "image": "assets/img/boss/v2a2_bossrush_boss01.webp"
+   },
+   {
+    "stage": 2,
+    "type": 4,
+    "name": "전시회의 허상",
+    "nameEn": "Hypothesis of Exhibition",
+    "image": "assets/img/boss/v1a5_bossrush_boss01.webp"
+   },
+   {
+    "stage": 3,
+    "type": 3,
+    "name": "동굴의 황금",
+    "nameEn": "Gold in the Cave",
+    "image": "assets/img/boss/v1a4_bossrush_boss02.webp"
+   }
+  ]
+ },
+ {
+  "id": 12313,
+  "version": "2.3",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 1,
+    "name": "심연의 어둠",
+    "nameEn": "Darkness of the Abyss",
+    "image": "assets/img/boss/v1a4_bossrush_boss01.webp"
+   },
+   {
+    "stage": 2,
+    "type": 9,
+    "name": "전쟁의 그림자",
+    "nameEn": "Fog of War",
+    "image": "assets/img/boss/v2a2_bossrush_boss01.webp"
+   },
+   {
+    "stage": 3,
+    "type": 5,
+    "name": "악몽의 그림자",
+    "nameEn": "Projection of Nightmare",
+    "image": "assets/img/boss/v1a6_bossrush_boss01.webp"
+   }
+  ]
+ },
+ {
+  "id": 12410,
+  "version": "2.4",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 10,
+    "name": "파괴의 바람",
+    "nameEn": "Wind of the Ravages",
+    "image": "assets/img/boss/v2a4_bossrush_boss01.webp"
+   },
+   {
+    "stage": 2,
+    "type": 8,
+    "name": "시대의 분노",
+    "nameEn": "Bellows of the Earth",
+    "image": "assets/img/boss/v2a0_bossrush_boss01.webp"
+   },
+   {
+    "stage": 3,
+    "type": 7,
+    "name": "강당의 메아리",
+    "nameEn": "Echoes of Opera",
+    "image": "assets/img/boss/v1a8_bossrush_boss01.webp"
+   }
+  ]
+ },
+ {
+  "id": 12516,
+  "version": "2.5",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 6,
+    "name": "선도의 절경",
+    "nameEn": "Isle Cryptid",
+    "image": "assets/img/boss/v1a7_bossrush_boss01.webp"
+   },
+   {
+    "stage": 2,
+    "type": 10,
+    "name": "파괴의 바람",
+    "nameEn": "Wind of the Ravages",
+    "image": "assets/img/boss/v2a4_bossrush_boss01.webp"
+   },
+   {
+    "stage": 3,
+    "type": 5,
+    "name": "악몽의 그림자",
+    "nameEn": "Projection of Nightmare",
+    "image": "assets/img/boss/v1a6_bossrush_boss01.webp"
+   }
+  ]
+ },
+ {
+  "id": 12617,
+  "version": "2.6",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 3,
+    "name": "동굴의 황금",
+    "nameEn": "Gold in the Cave",
+    "image": "assets/img/boss/v1a4_bossrush_boss02.webp"
+   },
+   {
+    "stage": 2,
+    "type": 8,
+    "name": "시대의 분노",
+    "nameEn": "Bellows of the Earth",
+    "image": "assets/img/boss/v2a0_bossrush_boss01.webp"
+   },
+   {
+    "stage": 3,
+    "type": 9,
+    "name": "전쟁의 그림자",
+    "nameEn": "Fog of War",
+    "image": "assets/img/boss/v2a2_bossrush_boss01.webp"
+   }
+  ]
+ },
+ {
+  "id": 13016,
+  "version": "3.0",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 11,
+    "name": "괴물의 표상",
+    "nameEn": "Avatar of Abhorrence",
+    "image": "assets/img/boss/v3a0_bossrush_boss01.webp"
+   },
+   {
+    "stage": 2,
+    "type": 2,
+    "name": "늪의 괴물",
+    "nameEn": "Marsh Creation",
+    "image": "assets/img/boss/v1a4_bossrush_boss03.webp"
+   },
+   {
+    "stage": 3,
+    "type": 10,
+    "name": "파괴의 바람",
+    "nameEn": "Wind of the Ravages",
+    "image": "assets/img/boss/v2a4_bossrush_boss01.webp"
+   }
+  ]
+ },
+ {
+  "id": 130505,
+  "version": "3.0 (2)",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 13,
+    "name": "속담 속의 기적",
+    "nameEn": "",
+    "image": "assets/img/boss/v2a9_bossrush_boss01.webp"
+   },
+   {
+    "stage": 2,
+    "type": 12,
+    "name": "공포의 존함",
+    "nameEn": "",
+    "image": "assets/img/boss/v2a9_bossrush_boss02.webp"
+   }
+  ]
+ },
+ {
+  "id": 13113,
+  "version": "3.1",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 2,
+    "name": "늪의 괴물",
+    "nameEn": "Marsh Creation",
+    "image": "assets/img/boss/v1a4_bossrush_boss03.webp"
+   },
+   {
+    "stage": 2,
+    "type": 11,
+    "name": "괴물의 표상",
+    "nameEn": "Avatar of Abhorrence",
+    "image": "assets/img/boss/v3a0_bossrush_boss01.webp"
+   },
+   {
+    "stage": 3,
+    "type": 7,
+    "name": "강당의 메아리",
+    "nameEn": "Echoes of Opera",
+    "image": "assets/img/boss/v1a8_bossrush_boss01.webp"
+   }
+  ]
+ },
+ {
+  "id": 13230,
+  "version": "3.2",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 101,
+    "name": "신앙의 이동",
+    "nameEn": "Distortion of Faith",
+    "image": "assets/img/boss/v3a2_bossrush_boss3.webp"
+   },
+   {
+    "stage": 2,
+    "type": 102,
+    "name": "탈피의 잔향",
+    "nameEn": "The Cocooned Lament",
+    "image": "assets/img/boss/v3a2_bossrush_boss1.webp"
+   },
+   {
+    "stage": 3,
+    "type": 103,
+    "name": "한계 초월의 죄수",
+    "nameEn": "Captive of Transcendentality",
+    "image": "assets/img/boss/v3a2_bossrush_boss2.webp"
+   }
+  ]
+ },
+ {
+  "id": 13315,
+  "version": "3.3",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 104,
+    "name": "급성 선홍증",
+    "nameEn": "Insatiable Bloodsucker",
+    "image": "assets/img/boss/v3a3_bossrush_boss1.webp"
+   },
+   {
+    "stage": 2,
+    "type": 101,
+    "name": "신앙의 이동",
+    "nameEn": "Distortion of Faith",
+    "image": "assets/img/boss/v3a2_bossrush_boss3.webp"
+   },
+   {
+    "stage": 3,
+    "type": 103,
+    "name": "한계 초월의 죄수",
+    "nameEn": "Captive of Transcendentality",
+    "image": "assets/img/boss/v3a2_bossrush_boss2.webp"
+   }
+  ]
+ },
+ {
+  "id": 13420,
+  "version": "3.4",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 105,
+    "name": "괴멸의 궤도",
+    "nameEn": "Caterpillar of Destruction",
+    "image": "assets/img/boss/v3a4_bossrush_boss1.webp"
+   },
+   {
+    "stage": 2,
+    "type": 104,
+    "name": "급성 선홍증",
+    "nameEn": "Insatiable Bloodsucker",
+    "image": "assets/img/boss/v3a3_bossrush_boss1.webp"
+   },
+   {
+    "stage": 3,
+    "type": 101,
+    "name": "신앙의 이동",
+    "nameEn": "Distortion of Faith",
+    "image": "assets/img/boss/v3a2_bossrush_boss3.webp"
+   }
+  ]
+ },
+ {
+  "id": 13519,
+  "version": "3.5",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 106,
+    "name": "신앙의 이동·Ⅱ형",
+    "nameEn": "Distortion of Faith Type II",
+    "image": "assets/img/boss/v3a5_bossrush_boss1.webp"
+   },
+   {
+    "stage": 2,
+    "type": 104,
+    "name": "급성 선홍증",
+    "nameEn": "Insatiable Bloodsucker",
+    "image": "assets/img/boss/v3a3_bossrush_boss1.webp"
+   },
+   {
+    "stage": 3,
+    "type": 102,
+    "name": "탈피의 잔향",
+    "nameEn": "The Cocooned Lament",
+    "image": "assets/img/boss/v3a2_bossrush_boss1.webp"
+   }
+  ]
+ },
+ {
+  "id": 13609,
+  "version": "3.6",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 107,
+    "name": "한계 초월의 죄수·Ⅱ형",
+    "nameEn": "Captive of Transcendentality Type II",
+    "image": "assets/img/boss/v3a6_bossrush_boss1.webp"
+   },
+   {
+    "stage": 2,
+    "type": 106,
+    "name": "신앙의 이동·Ⅱ형",
+    "nameEn": "Distortion of Faith Type II",
+    "image": "assets/img/boss/v3a5_bossrush_boss1.webp"
+   },
+   {
+    "stage": 3,
+    "type": 105,
+    "name": "괴멸의 궤도",
+    "nameEn": "Caterpillar of Destruction",
+    "image": "assets/img/boss/v3a4_bossrush_boss1.webp"
+   }
+  ]
+ },
+ {
+  "id": 13742,
+  "version": "3.7",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 108,
+    "name": "지난날의 영광",
+    "nameEn": "Glory Days Manifest",
+    "image": "assets/img/boss/v3a7_bossrush_boss1.webp"
+   },
+   {
+    "stage": 2,
+    "type": 107,
+    "name": "한계 초월의 죄수·Ⅱ형",
+    "nameEn": "Captive of Transcendentality Type II",
+    "image": "assets/img/boss/v3a6_bossrush_boss1.webp"
+   },
+   {
+    "stage": 3,
+    "type": 102,
+    "name": "탈피의 잔향",
+    "nameEn": "The Cocooned Lament",
+    "image": "assets/img/boss/v3a2_bossrush_boss1.webp"
+   }
+  ]
+ },
+ {
+  "id": 13809,
+  "version": "3.8",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 109,
+    "name": "태양의 충신",
+    "nameEn": "The Sun's Thrall",
+    "image": "assets/img/boss/v3a8_bossrush_boss1.webp"
+   },
+   {
+    "stage": 2,
+    "type": 108,
+    "name": "지난날의 영광",
+    "nameEn": "Glory Days Manifest",
+    "image": "assets/img/boss/v3a7_bossrush_boss1.webp"
+   },
+   {
+    "stage": 3,
+    "type": 104,
+    "name": "급성 선홍증",
+    "nameEn": "Insatiable Bloodsucker",
+    "image": "assets/img/boss/v3a3_bossrush_boss1.webp"
+   }
+  ]
+ },
+ {
+  "id": 138520,
+  "version": "3.8 (2)",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 110,
+    "name": "자기연민자",
+    "nameEn": "The Self-Pitying Avenger",
+    "image": "assets/img/boss/sp02_bossrush_boss1.webp"
+   },
+   {
+    "stage": 2,
+    "type": 106,
+    "name": "신앙의 이동·Ⅱ형",
+    "nameEn": "Distortion of Faith Type II",
+    "image": "assets/img/boss/v3a5_bossrush_boss1.webp"
+   },
+   {
+    "stage": 3,
+    "type": 105,
+    "name": "괴멸의 궤도",
+    "nameEn": "Caterpillar of Destruction",
+    "image": "assets/img/boss/v3a4_bossrush_boss1.webp"
+   }
+  ]
+ },
+ {
+  "id": 13919,
+  "version": "3.9",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 112,
+    "name": "급성 선홍증·Ⅱ형",
+    "nameEn": "Insatiable Bloodsucker Type II",
+    "image": "assets/img/boss/v3a9_bossrush_boss1.webp"
+   },
+   {
+    "stage": 2,
+    "type": 113,
+    "name": "신앙의 이동·Ⅱ형",
+    "nameEn": "Distortion of Faith Type II",
+    "image": "assets/img/boss/v3a9_bossrush_boss2.webp"
+   },
+   {
+    "stage": 3,
+    "type": 114,
+    "name": "한계 초월의 죄수·Ⅱ형",
+    "nameEn": "Captive of Transcendentality Type II",
+    "image": "assets/img/boss/v3a9_bossrush_boss3.webp"
+   }
+  ]
+ }
+]
