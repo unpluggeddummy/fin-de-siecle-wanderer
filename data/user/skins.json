@@ -1,6 +1,560 @@
 {
  "items": {
+  "300305": {
+   "owned": true,
+   "wish": false
+  },
+  "300306": {
+   "owned": true,
+   "wish": false
+  },
+  "300403": {
+   "owned": true,
+   "wish": false
+  },
+  "300404": {
+   "owned": true,
+   "wish": false
+  },
+  "300503": {
+   "owned": true,
+   "wish": false
+  },
+  "300603": {
+   "owned": true,
+   "wish": false
+  },
+  "300703": {
+   "owned": true,
+   "wish": false
+  },
+  "300731": {
+   "owned": true,
+   "wish": false
+  },
+  "300903": {
+   "owned": true,
+   "wish": false
+  },
+  "300904": {
+   "owned": true,
+   "wish": false
+  },
+  "301003": {
+   "owned": true,
+   "wish": false
+  },
+  "301103": {
+   "owned": true,
+   "wish": false
+  },
+  "301202": {
+   "owned": true,
+   "wish": false
+  },
+  "301303": {
+   "owned": true,
+   "wish": false
+  },
+  "301403": {
+   "owned": true,
+   "wish": false
+  },
+  "301503": {
+   "wish": true
+  },
+  "301603": {
+   "owned": true,
+   "wish": false
+  },
+  "301703": {
+   "owned": true,
+   "wish": false
+  },
+  "301803": {
+   "owned": true,
+   "wish": false
+  },
+  "302003": {
+   "owned": true,
+   "wish": false
+  },
+  "302203": {
+   "owned": true,
+   "wish": false
+  },
+  "302303": {
+   "owned": true,
+   "wish": false
+  },
+  "302304": {
+   "owned": true,
+   "wish": false
+  },
+  "302403": {
+   "owned": true,
+   "wish": false
+  },
+  "302503": {
+   "wish": true
+  },
+  "302504": {
+   "owned": true,
+   "wish": false
+  },
+  "302603": {
+   "owned": true,
+   "wish": false
+  },
+  "302702": {
+   "owned": true,
+   "wish": false
+  },
+  "302803": {
+   "owned": true,
+   "wish": false
+  },
+  "302804": {
+   "owned": true,
+   "wish": false
+  },
+  "303002": {
+   "owned": true,
+   "wish": false
+  },
+  "303103": {
+   "owned": true,
+   "wish": false
+  },
+  "303203": {
+   "wish": true
+  },
+  "303303": {
+   "owned": true,
+   "wish": false
+  },
+  "303502": {
+   "owned": true,
+   "wish": false
+  },
+  "303602": {
+   "owned": true,
+   "wish": false
+  },
+  "303703": {
+   "owned": true,
+   "wish": false
+  },
+  "303803": {
+   "owned": true,
+   "wish": false
+  },
+  "303903": {
+   "owned": true,
+   "wish": false
+  },
+  "303904": {
+   "owned": true,
+   "wish": false
+  },
+  "304002": {
+   "owned": true,
+   "wish": false
+  },
+  "304103": {
+   "owned": true,
+   "wish": false
+  },
+  "304203": {
+   "owned": true,
+   "wish": false
+  },
+  "304303": {
+   "wish": true
+  },
+  "304304": {
+   "owned": true,
+   "wish": false
+  },
+  "304403": {
+   "owned": true,
+   "wish": false
+  },
+  "304504": {
+   "owned": true,
+   "wish": false
+  },
+  "304603": {
+   "owned": true,
+   "wish": false
+  },
+  "304703": {
+   "owned": true,
+   "wish": false
+  },
+  "304704": {
+   "owned": true,
+   "wish": false
+  },
+  "304803": {
+   "owned": true,
+   "wish": false
+  },
+  "304804": {
+   "owned": true,
+   "wish": false
+  },
+  "305002": {
+   "owned": true,
+   "wish": false
+  },
+  "305103": {
+   "owned": true,
+   "wish": false
+  },
+  "305104": {
+   "owned": true,
+   "wish": false
+  },
+  "305203": {
+   "owned": true,
+   "wish": false
+  },
+  "305303": {
+   "owned": true,
+   "wish": false
+  },
+  "305304": {
+   "owned": true,
+   "wish": false
+  },
+  "305305": {
+   "owned": true,
+   "wish": false
+  },
+  "305502": {
+   "owned": true,
+   "wish": false
+  },
+  "305603": {
+   "owned": true,
+   "wish": false
+  },
+  "305604": {
+   "owned": true,
+   "wish": false
+  },
+  "305703": {
+   "owned": true,
+   "wish": false
+  },
+  "305803": {
+   "owned": true,
+   "wish": false
+  },
+  "306003": {
+   "owned": true,
+   "wish": false
+  },
+  "306103": {
+   "owned": true,
+   "wish": false
+  },
+  "306203": {
+   "owned": true,
+   "wish": false
+  },
+  "306204": {
+   "owned": true,
+   "wish": false
+  },
+  "306303": {
+   "wish": true
+  },
+  "306403": {
+   "wish": true
+  },
+  "306503": {
+   "owned": true,
+   "wish": false
+  },
+  "306504": {
+   "owned": true,
+   "wish": false
+  },
+  "306603": {
+   "owned": true,
+   "wish": false
+  },
+  "306604": {
+   "owned": true,
+   "wish": false
+  },
+  "306605": {
+   "owned": true,
+   "wish": false
+  },
+  "307003": {
+   "owned": true,
+   "wish": false
+  },
+  "307004": {
+   "owned": true,
+   "wish": false
+  },
+  "307103": {
+   "owned": true,
+   "wish": false
+  },
+  "307203": {
+   "owned": true,
+   "wish": false
+  },
+  "307303": {
+   "owned": true,
+   "wish": false
+  },
+  "307304": {
+   "owned": true,
+   "wish": false
+  },
+  "307403": {
+   "owned": true,
+   "wish": false
+  },
+  "307503": {
+   "owned": true,
+   "wish": false
+  },
+  "307703": {
+   "owned": true,
+   "wish": false
+  },
+  "307704": {
+   "owned": true,
+   "wish": false
+  },
+  "307705": {
+   "owned": true,
+   "wish": false
+  },
+  "307903": {
+   "owned": true,
+   "wish": false
+  },
+  "307904": {
+   "owned": true,
+   "wish": false
+  },
+  "307905": {
+   "owned": true,
+   "wish": false
+  },
+  "308003": {
+   "owned": true,
+   "wish": false
+  },
+  "308004": {
+   "owned": true,
+   "wish": false
+  },
+  "308103": {
+   "owned": true,
+   "wish": false
+  },
+  "308104": {
+   "owned": true,
+   "wish": false
+  },
+  "308203": {
+   "owned": true,
+   "wish": false
+  },
+  "308303": {
+   "owned": true,
+   "wish": false
+  },
+  "308404": {
+   "owned": true,
+   "wish": false
+  },
+  "308603": {
+   "owned": true,
+   "wish": false
+  },
+  "308703": {
+   "owned": true,
+   "wish": false
+  },
+  "308704": {
+   "owned": true,
+   "wish": false
+  },
+  "308803": {
+   "owned": true,
+   "wish": false
+  },
+  "308804": {
+   "owned": true,
+   "wish": false
+  },
+  "309203": {
+   "owned": true,
+   "wish": false
+  },
+  "309403": {
+   "owned": true,
+   "wish": false
+  },
+  "309503": {
+   "owned": true,
+   "wish": false
+  },
+  "309504": {
+   "owned": true,
+   "wish": false
+  },
+  "309602": {
+   "owned": true,
+   "wish": false
+  },
+  "309703": {
+   "owned": true,
+   "wish": false
+  },
+  "309803": {
+   "owned": true,
+   "wish": false
+  },
+  "309804": {
+   "owned": true,
+   "wish": false
+  },
+  "310003": {
+   "owned": true,
+   "wish": false
+  },
+  "310103": {
+   "owned": true,
+   "wish": false
+  },
+  "310203": {
+   "owned": true,
+   "wish": false
+  },
+  "310403": {
+   "owned": true,
+   "wish": false
+  },
+  "310404": {
+   "owned": true,
+   "wish": false
+  },
+  "310503": {
+   "owned": true,
+   "wish": false
+  },
+  "310504": {
+   "owned": true,
+   "wish": false
+  },
+  "310604": {
+   "owned": true,
+   "wish": false
+  },
+  "310703": {
+   "owned": true,
+   "wish": false
+  },
+  "310803": {
+   "owned": true,
+   "wish": false
+  },
+  "310903": {
+   "owned": true,
+   "wish": false
+  },
+  "310905": {
+   "owned": true,
+   "wish": false
+  },
+  "311003": {
+   "owned": true,
+   "wish": false
+  },
+  "311103": {
+   "owned": true,
+   "wish": false
+  },
+  "311303": {
+   "owned": true,
+   "wish": false
+  },
+  "311403": {
+   "owned": true,
+   "wish": false
+  },
+  "311404": {
+   "owned": true,
+   "wish": false
+  },
+  "311603": {
+   "owned": true,
+   "wish": false
+  },
+  "311604": {
+   "owned": true,
+   "wish": false
+  },
+  "311703": {
+   "owned": true,
+   "wish": false
+  },
+  "311704": {
+   "owned": true,
+   "wish": false
+  },
+  "311803": {
+   "owned": true,
+   "wish": false
+  },
+  "312003": {
+   "owned": true,
+   "wish": false
+  },
+  "312103": {
+   "owned": true,
+   "wish": false
+  },
+  "312503": {
+   "owned": true,
+   "wish": false
+  },
+  "312603": {
+   "owned": true,
+   "wish": false
+  },
+  "312606": {
+   "owned": true,
+   "wish": false
+  },
+  "312703": {
+   "owned": true,
+   "wish": false
+  },
+  "312803": {
+   "owned": true,
+   "wish": false
+  },
+  "313203": {
+   "owned": true,
+   "wish": false
+  },
   "313903": {
+   "owned": true,
+   "wish": false
+  },
+  "314003": {
    "owned": true,
    "wish": false
   },
