@@ -13,7 +13,7 @@ export function render(root) {
   const list = decks.filter((d) => !view.tag || (d.tags || []).includes(view.tag));
   root.append(
     h('div.page-head',
-      h('div', h('h1', '덱'), h('p', '자주 쓰는 조합을 저장해 두고, 갈기의 게시판 기록을 남길 때 그대로 불러옵니다.')),
+      h('div', h('h1', h('span.en', 'Teams'), '덱'), h('p', '자주 쓰는 조합을 저장해 두고, 갈기의 게시판 기록을 남길 때 그대로 불러옵니다.')),
       h('button.btn.primary.edit-only', { type: 'button', onclick: () => edit(null) }, '새 덱'),
     ),
     tags.length ? h('div.toolbar', h('div.chips', chip('전체', !view.tag, () => { view.tag = null; rerender(); }),

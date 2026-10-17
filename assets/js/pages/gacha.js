@@ -16,7 +16,7 @@ export function render(root) {
   const set = (fn) => store.update('gacha', fn);
 
   root.append(
-    h('div.page-head', h('div', h('h1', '모집 기록'), h('p', '배너마다 몇 번 돌렸고 무엇이 나왔는지, 지금 천장까지 얼마나 남았는지 기록합니다.'))),
+    h('div.page-head', h('div', h('h1', h('span.en', 'Summon Log'), '모집 기록'), h('p', '배너마다 몇 번 돌렸고 무엇이 나왔는지, 지금 천장까지 얼마나 남았는지 기록합니다.'))),
     h('section.panel',
       h('div.pity',
         h('div', h('div.faint', { style: { fontSize: '13px' } }, '현재 천장 카운트'),
@@ -94,7 +94,7 @@ function editBanner(b) {
   const resBox = h('div');
   const drawRes = () => fill(resBox,
     ...cur.results.map((r, i) => h('div.slot-row', { style: { gridTemplateColumns: '1fr 90px auto auto', marginBottom: '6px' } },
-      charSelect(r.char, (v) => { r.char = v; commit(); }, { ownedFirst: false, label: '나온 캐릭터' }),
+      charSelect(r.char, (v) => { r.char = v; commit(); }, { ownedFirst: false, label: '나온 출품작' }),
       h('input', { type: 'number', min: 1, value: r.at || '', placeholder: '몇 회째', 'aria-label': '몇 회째에 나왔는지', onchange: (e) => { r.at = +e.target.value || null; commit(); } }),
       h('label.check', { style: { fontSize: '13px' } }, h('input', { type: 'checkbox', checked: !!r.lost, onchange: (e) => { r.lost = e.target.checked; commit(); } }), '픽뚫'),
       h('button.btn.small.ghost', { type: 'button', 'aria-label': '빼기', onclick: () => { cur.results.splice(i, 1); commit(); drawRes(); } }, '×'))),
@@ -111,7 +111,7 @@ function editBanner(b) {
     ),
     h('div.form-row', h('div.lbl', h('span', '나온 5·6성'), h('span.faint', '몇 회째에 나왔는지 적으면 평균이 계산돼요')), resBox),
     h('div.fields.form-row', field('메모', h('textarea', { rows: 3, oninput: (e) => { cur.note = e.target.value; commit(); } }, cur.note || ''), 'wide')),
-    isNew ? h('p.faint', { style: { fontSize: '13px' } }, '나온 캐릭터는 캐릭터 화면에서 보유로 자동 표시돼요.') : null,
+    isNew ? h('p.faint', { style: { fontSize: '13px' } }, '나온 출품작은 출품작 화면에서 보유로 자동 표시돼요.') : null,
   ];
   const foot = [
     isNew ? null : h('button.btn.danger', { type: 'button', onclick: () => { if (!confirm('이 배너 기록을 지울까요?')) return; store.update('gacha', (s) => { s.banners = s.banners.filter((x) => x.id !== cur.id); }, { silent: true }); d.close(); } }, '삭제'),
@@ -134,12 +134,12 @@ function editWish(i) {
   const g = store.state.user.gacha;
   const cur = i === null ? { char: null, when: '', goal: '', note: '' } : { ...g.wishlist[i] };
   const body = [h('div.fields',
-    field('캐릭터', charSelect(cur.char, (v) => { cur.char = v; }, { ownedFirst: false }), 'wide'),
+    field('출품작', charSelect(cur.char, (v) => { cur.char = v; }, { ownedFirst: false }), 'wide'),
     field('예상 시기', h('input', { type: 'text', value: cur.when, placeholder: '예: 4.0 후반', oninput: (e) => { cur.when = e.target.value; } })),
     field('목표', h('input', { type: 'text', value: cur.goal, placeholder: '예: 명함, P2', oninput: (e) => { cur.goal = e.target.value; } })),
     field('메모', h('textarea', { rows: 2, oninput: (e) => { cur.note = e.target.value; } }, cur.note), 'wide'))];
   const save = () => {
-    if (!cur.char) { toast('캐릭터를 골라 주세요.', 'err'); return; }
+    if (!cur.char) { toast('출품작을 골라 주세요.', 'err'); return; }
     store.update('gacha', (s) => { s.wishlist ||= []; if (i === null) s.wishlist.push(cur); else s.wishlist[i] = cur; }, { silent: true });
     d.close();
   };

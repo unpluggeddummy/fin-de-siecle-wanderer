@@ -8,7 +8,7 @@ export function face(charId, skinId) {
 }
 
 /** 캐릭터 선택 <select> (보유 캐릭터 우선) */
-export function charSelect(value, onChange, { allowEmpty = true, ownedFirst = true, label = '캐릭터 선택' } = {}) {
+export function charSelect(value, onChange, { allowEmpty = true, ownedFirst = true, label = '출품작 선택' } = {}) {
   const chars = [...store.state.game.characters].filter((c) => c.released || store.charRecord(c.id)?.owned);
   const owned = chars.filter((c) => store.charRecord(c.id)?.owned);
   const rest = chars.filter((c) => !store.charRecord(c.id)?.owned);
@@ -66,7 +66,7 @@ export function teamEditor(members, onChange) {
     };
     return h('div.slot-row',
       mini,
-      charSelect(m.char, (v) => set({ char: v }), { label: `${i + 1}번 자리 캐릭터` }),
+      charSelect(m.char, (v) => set({ char: v }), { label: `${i + 1}번 자리 출품작` }),
       psySelect(m.psychube, (v) => set({ psychube: v }), { label: `${i + 1}번 자리 의지` }),
     );
   });

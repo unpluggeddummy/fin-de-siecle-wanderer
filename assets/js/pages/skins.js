@@ -43,7 +43,7 @@ export function render(root) {
       h('div.chips', ['shop', 'shop-art', 'event', 'insight', 'default'].map((t) => chip(SKIN_TYPE[t], view.types.has(t), () => {
         view.types.has(t) ? view.types.delete(t) : view.types.add(t); draw();
       }))),
-      h('div.chips', chip('캐릭터별로 묶기', view.group, () => { view.group = !view.group; draw(); })),
+      h('div.chips', chip('출품작별로 묶기', view.group, () => { view.group = !view.group; draw(); })),
     );
   }
 
@@ -62,14 +62,14 @@ export function render(root) {
 
   root.append(
     h('div.page-head',
-      h('div', h('h1', '스킨'), h('p', '상점·이벤트 스킨을 산 것과 갖고 싶은 것으로 나눠 기록합니다. 그림을 누르면 크게 볼 수 있어요.')),
+      h('div', h('h1', h('span.en', 'Wardrobe'), '스킨'), h('p', '상점·이벤트 스킨을 산 것과 갖고 싶은 것으로 나눠 기록합니다. 그림을 누르면 크게 볼 수 있어요.')),
     ),
     h('div.progress-line',
       h('span', `${owned} / ${costumes.length} 보유`),
       h('div.meter', h('i', { style: { width: `${costumes.length ? (owned / costumes.length) * 100 : 0}%` } })),
       spent ? h('span.faint', `기록한 지출 합계 ${fmt(spent)}`) : null,
     ),
-    h('div.toolbar', h('div.grow', h('input', { type: 'search', placeholder: '스킨 이름 또는 캐릭터 이름', value: view.q, 'aria-label': '스킨 검색',
+    h('div.toolbar', h('div.grow', h('input', { type: 'search', placeholder: '스킨 이름 또는 출품작 이름', value: view.q, 'aria-label': '스킨 검색',
       oninput: (e) => { view.q = e.target.value; draw(); } }))),
     chipsRow, grid,
   );

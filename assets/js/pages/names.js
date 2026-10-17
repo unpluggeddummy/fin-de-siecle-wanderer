@@ -46,7 +46,7 @@ export function render(root) {
 
   root.append(
     h('div.page-head',
-      h('div', h('h1', '다국어 이름표'), h('p', '한국어·영어·일본어·중국어(간체·번체) 이름과 커뮤니티 검색 링크. 중국 커뮤니티 공략을 찾을 때 쓰세요.')),
+      h('div', h('h1', h('span.en', 'Name Index'), '다국어 이름표'), h('p', '한국어·영어·일본어·중국어(간체·번체) 이름과 커뮤니티 검색 링크. 중국 커뮤니티 공략을 찾을 때 쓰세요.')),
       h('div.toolbar', { style: { margin: 0 } },
         h('button.btn', { type: 'button', onclick: () => exportCSV(chars) }, 'CSV 내려받기'),
         h('button.btn', { type: 'button', onclick: () => downloadJSON('r1999-names.json', chars.map((c) => ({ id: c.id, ko: store.charName(c), ...c.name, rarity: c.rarity, afflatus: c.afflatus }))) }, 'JSON 내려받기'))),

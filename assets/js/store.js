@@ -2,14 +2,14 @@
 import * as gh from './github.js';
 
 export const SECTIONS = {
-  roster:    { file: 'data/user/roster.json',    label: '캐릭터',       def: () => ({ chars: {}, nameOverrides: {} }) },
+  roster:    { file: 'data/user/roster.json',    label: '출품작',       def: () => ({ chars: {}, nameOverrides: {} }) },
   psychubes: { file: 'data/user/psychubes.json', label: '의지',         def: () => ({ items: {} }) },
   bulletin:  { file: 'data/user/bulletin.json',  label: '갈기의 게시판', def: () => ({ seasons: {}, customSeasons: [] }) },
   skins:     { file: 'data/user/skins.json',     label: '스킨',         def: () => ({ items: {} }) },
   decks:     { file: 'data/user/decks.json',     label: '덱',           def: () => ({ decks: [] }) },
   plans:     { file: 'data/user/plans.json',     label: '육성 계획',     def: () => ({ plans: [], inventory: {}, materialNames: {} }) },
   gacha:     { file: 'data/user/gacha.json',     label: '모집 기록',     def: () => ({ pity: 0, pityLimit: 70, guaranteed: false, currencies: [{ name: '순결의 빗방울', amount: 0 }, { name: '순수의 빗방울', amount: 0 }, { name: '모노로그', amount: 0 }, { name: '데카로그', amount: 0 }], banners: [], wishlist: [] }) },
-  settings:  { file: 'data/user/settings.json',  label: '설정',         def: () => ({ title: '1999 기록실', subtitle: '리버스: 1999 개인 기록', showNames: false, server: '한섭' }) },
+  settings:  { file: 'data/user/settings.json',  label: '설정',         def: () => ({ title: '세기말의 방랑자', titleEn: 'Fin de Siècle Wanderer', subtitle: '리버스: 1999 개인 기록', showNames: false, server: '한섭' }) },
 };
 
 const DRAFT = 'r1999.draft.';

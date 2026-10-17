@@ -42,8 +42,8 @@ async function render(scrollTop = true) {
     root.replaceChildren(h('div.empty', h('p', `화면을 그리는 중 오류가 났습니다: ${e.message}`)));
   }
   main.replaceChildren(root);
-  const t = document.querySelector(`.tabs a[data-route="${name}"]`)?.textContent;
-  document.title = `${t && name !== 'home' ? t + ' — ' : ''}${store.state.user.settings?.title || '1999 기록실'}`;
+  const t = document.querySelector(`.tabs a[data-route="${name}"]`)?.firstChild?.textContent;
+  document.title = `${t && name !== 'home' ? t + ' — ' : ''}${store.state.user.settings?.title || '세기말의 방랑자'}`;
   if (scrollTop) window.scrollTo(0, 0);
 }
 
@@ -94,8 +94,13 @@ function updateHeader() {
     saveBtn.hidden = true;
   }
   const set = s.user.settings || {};
-  document.querySelector('[data-site-title]').textContent = set.title || '1999 기록실';
+  document.querySelector('[data-site-title]').textContent = set.title || '세기말의 방랑자';
   document.querySelector('[data-site-sub]').textContent = set.subtitle || '';
+  // 영문 제호: de·of·the 같은 작은 낱말은 기울인 붉은 글씨로
+  const en = set.titleEn || 'Fin de Siècle Wanderer';
+  const enEl = document.querySelector('[data-site-title-en]');
+  enEl.replaceChildren(...en.split(/(\s+)/).map((w) => (/^(de|du|of|the|la|le|des|and|&)$/i.test(w) ? h('em', w) : document.createTextNode(w))));
+  document.querySelector('.site-foot .foot-mark').textContent = en;
   document.querySelector('[data-names-tab]').hidden = !set.showNames;
 }
 
@@ -139,8 +144,8 @@ function rain() {
     ctx.clearRect(0, 0, w, hgt);
     for (const d of drops) {
       const g = ctx.createLinearGradient(d.x, d.y, d.x, d.y + d.len);
-      g.addColorStop(0, `rgba(228,196,125,${d.a})`);
-      g.addColorStop(1, 'rgba(228,196,125,0)');
+      g.addColorStop(0, `rgba(170,228,242,${d.a})`);
+      g.addColorStop(1, 'rgba(170,228,242,0)');
       ctx.strokeStyle = g;
       ctx.lineWidth = 1;
       ctx.beginPath(); ctx.moveTo(d.x, d.y); ctx.lineTo(d.x, d.y + d.len); ctx.stroke();
@@ -169,7 +174,7 @@ async function boot() {
     const restored = await store.loadAll();
     const meta = store.state.game.meta;
     document.querySelector('[data-game-updated]').textContent =
-      `게임 데이터 갱신: ${new Date(meta.updatedAt).toLocaleString('ko-KR')} · 캐릭터 ${meta.counts.characters} · 스킨 ${meta.counts.skins} · 의지 ${meta.counts.psychubes}`;
+      `게임 데이터 갱신: ${new Date(meta.updatedAt).toLocaleString('ko-KR')} · 출품작 ${meta.counts.characters} · 스킨 ${meta.counts.skins} · 의지 ${meta.counts.psychubes}`;
     if (gh.hasToken()) store.setEditing(true);
     updateHeader();
     if (restored) toast(`저장하지 않은 변경 사항 ${restored}건을 복구했어요. 오른쪽 위 저장 버튼으로 저장할 수 있어요.`);

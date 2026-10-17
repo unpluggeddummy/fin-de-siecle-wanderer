@@ -71,7 +71,7 @@ export function importRosterJSON(json) {
     for (const [k, v] of Object.entries(node)) walk(v, k);
   })(json, null);
 
-  if (!entries.length) throw new Error('캐릭터 육성 정보(레벨·통찰·공명·형상)를 찾지 못했습니다.');
+  if (!entries.length) throw new Error('출품작 육성 정보(레벨·통찰·공명·형상)를 찾지 못했습니다.');
 
   let matched = 0;
   const unmatched = [];

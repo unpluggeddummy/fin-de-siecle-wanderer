@@ -54,7 +54,7 @@ export function render(root) {
   const tokenURL = 'https://github.com/settings/personal-access-tokens/new';
 
   root.append(
-    h('div.page-head', h('div', h('h1', '설정'))),
+    h('div.page-head', h('div', h('h1', h('span.en', 'Settings'), '설정'))),
     h('div.settings',
       h('section.panel',
         h('h3', 'GitHub 연결 (사이트에서 바로 저장)'),
@@ -76,8 +76,9 @@ export function render(root) {
       h('section.panel',
         h('h3', '사이트'),
         h('div.fields',
-          field('사이트 이름', h('input', { type: 'text', value: s.title || '', disabled: !editing, onchange: (e) => upd((x) => { x.title = e.target.value; }) })),
-          field('부제', h('input', { type: 'text', value: s.subtitle || '', disabled: !editing, onchange: (e) => upd((x) => { x.subtitle = e.target.value; }) })),
+          field('영문 제목', h('input', { type: 'text', value: s.titleEn || 'Fin de Siècle Wanderer', disabled: !editing, onchange: (e) => store.update('settings', (x) => { x.titleEn = e.target.value; }) })),
+          field('한국어 제목', h('input', { type: 'text', value: s.title || '', disabled: !editing, onchange: (e) => store.update('settings', (x) => { x.title = e.target.value; }) })),
+          field('윗줄 문구', h('input', { type: 'text', value: s.subtitle || '', disabled: !editing, onchange: (e) => store.update('settings', (x) => { x.subtitle = e.target.value; }) })),
           field('서버', h('select', { disabled: !editing, onchange: (e) => upd((x) => { x.server = e.target.value; }) },
             ['한섭', '글로벌', '중섭', '일섭'].map((v) => h('option', { selected: s.server === v }, v))))),
         h('div', { style: { marginTop: '12px' } },
@@ -86,9 +87,9 @@ export function render(root) {
         h('p.faint', { style: { fontSize: '13px', marginBottom: 0 } }, '숨겨 두어도 ', h('a', { href: '#/names' }, '#/names'), ' 주소로는 들어갈 수 있어요.', editing ? '' : ' (바꾸려면 편집 모드를 켜세요)'),
       ),
       h('section.panel',
-        h('h3', '게임 데이터 (캐릭터·스킨·의지·보스 이미지)'),
+        h('h3', '게임 데이터 (출품작·스킨·의지·보스 이미지)'),
         h('p.muted', { style: { marginTop: 0, fontSize: '14px' } },
-          '깃허브 액션이 매주 월요일 새벽에 게임 데이터와 이미지를 받아 저장소에 커밋합니다. 새 캐릭터나 스킨이 나왔을 때 바로 갱신하려면 아래 버튼을 누르세요. 내 기록(data/user)은 건드리지 않아요.'),
+          '깃허브 액션이 매주 월요일 새벽에 게임 데이터와 이미지를 받아 저장소에 커밋합니다. 새 출품작이나 스킨이 나왔을 때 바로 갱신하려면 아래 버튼을 누르세요. 내 기록(data/user)은 건드리지 않아요.'),
         h('p.faint', { style: { fontSize: '13px' } }, `마지막 갱신: ${new Date(store.state.game.meta.updatedAt).toLocaleString('ko-KR')}`),
         h('div.toolbar', { style: { margin: 0 } }, runBtn, actionsURL ? h('a.btn.ghost', { href: actionsURL, target: '_blank', rel: 'noopener' }, '실행 기록 보기') : null),
       ),

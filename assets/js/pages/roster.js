@@ -18,7 +18,7 @@ export function render(root, { arg }) {
   const owned = characters.filter((c) => chars[c.id]?.owned).length;
 
   const search = h('input', {
-    type: 'search', placeholder: '이름 검색 (한국어·영어·일본어·중국어)', value: view.q, 'aria-label': '캐릭터 검색',
+    type: 'search', placeholder: '이름 검색 (한국어·영어·일본어·중국어)', value: view.q, 'aria-label': '출품작 검색',
     oninput: (e) => { view.q = e.target.value; draw(); },
   });
 
@@ -81,7 +81,7 @@ export function render(root, { arg }) {
     chips();
     const list = sorted(filtered());
     if (!list.length) {
-      grid.replaceChildren(h('div.empty', h('p', '조건에 맞는 캐릭터가 없습니다. 필터를 줄여 보세요.')));
+      grid.replaceChildren(h('div.empty', h('p', '조건에 맞는 출품작이 없습니다. 필터를 줄여 보세요.')));
       return;
     }
     if (view.sort === 'rarity') {
@@ -97,7 +97,7 @@ export function render(root, { arg }) {
 
   root.append(
     h('div.page-head',
-      h('div', h('h1', '캐릭터'), h('p', `출시 캐릭터 ${total}명 중 ${owned}명 보유. 카드를 누르면 육성 상태를 ${editing ? '고칠' : '볼'} 수 있어요.`)),
+      h('div', h('h1', h('span.en', 'Exhibits'), '출품작'), h('p', `출시된 출품작 ${total}점 중 ${owned}점 보유. 마도학자·인간·혼혈종을 모두 담았어요. 카드를 누르면 육성 상태를 ${editing ? '고칠' : '볼'} 수 있어요.`)),
     ),
     filterBar, chipsRow, grid,
   );
@@ -237,7 +237,7 @@ function psyPicker(value, onChange) {
 }
 
 function readOnly(c, r) {
-  if (!r.owned) return h('p.muted', '아직 보유하지 않은 캐릭터입니다.');
+  if (!r.owned) return h('p.muted', '아직 보유하지 않은 출품작입니다.');
   const p = r.psychube && store.psyById(r.psychube);
   const rows = [
     ['통찰 · 레벨', `통찰 ${ROMAN[r.insight || 0]} · ${r.level || 1}레벨`],

@@ -47,8 +47,8 @@ export function render(root) {
   }
 
   root.append(
-    h('div.page-head', h('div', h('h1', '의지'),
-      h('p', `보유 ${ownedCount}개. 카드 아래 얼굴은 그 의지를 장착한 캐릭터입니다 (캐릭터 화면에서 장착 의지를 고르면 반영돼요).`))),
+    h('div.page-head', h('div', h('h1', h('span.en', 'Psychubes'), '의지'),
+      h('p', `보유 ${ownedCount}개. 카드 아래 얼굴은 그 의지를 장착한 출품작입니다 (출품작 화면에서 장착 의지를 고르면 반영돼요).`))),
     h('div.toolbar', h('div.grow', h('input', { type: 'search', placeholder: '의지 이름 검색', value: view.q, 'aria-label': '의지 검색', oninput: (e) => { view.q = e.target.value; draw(); } }))),
     chipsRow, grid,
   );
@@ -78,7 +78,7 @@ function open(p, eq) {
     h('div', h('div', { style: { color: 'var(--brass-bright)' } }, '★'.repeat(p.rarity)),
       h('div.faint', { style: { fontSize: '13px' } }, [p.name.en, p.name.ja, p.name.zhCN].filter(Boolean).join(' / ')),
       p.skill ? h('div.muted', { style: { fontSize: '13px' } }, p.skill) : null));
-  const eqRow = h('div.form-row', h('div.lbl', h('span', '장착한 캐릭터')),
+  const eqRow = h('div.form-row', h('div.lbl', h('span', '장착한 출품작')),
     eq.length ? h('div.faces', eq.map((cid) => h('a', { href: `#/roster/${cid}`, onclick: () => d.close() }, face(cid)))) : h('p.muted', { style: { margin: 0 } }, '없음'));
   let body;
   if (!editing) {

@@ -66,7 +66,7 @@ export function render(root) {
 
   root.append(
     h('div.page-head',
-      h('div', h('h1', '갈기의 게시판'), h('p', '버전마다 바뀌는 보스와 내 점수, 그때 쓴 덱과 메모를 남깁니다.')),
+      h('div', h('h1', h('span.en', 'Bulletin Board'), '갈기의 게시판'), h('p', '버전마다 바뀌는 보스와 내 점수, 그때 쓴 덱과 메모를 남깁니다.')),
       h('div.toolbar', { style: { margin: 0 } },
         h('button.btn.edit-only', { type: 'button', onclick: addSeason }, '새 시즌 추가'),
       ),

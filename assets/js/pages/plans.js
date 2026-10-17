@@ -53,14 +53,14 @@ export function render(root, { arg }) {
 
   root.append(
     h('div.page-head',
-      h('div', h('h1', '육성 계획'), h('p', '목표를 정하면 필요한 재료를 모두 더해 보여 줍니다. 오른쪽 칸에 가진 재료 수를 적으면 부족한 양을 알 수 있어요.')),
+      h('div', h('h1', h('span.en', 'Growth Planner'), '육성 계획'), h('p', '목표를 정하면 필요한 재료를 모두 더해 보여 줍니다. 오른쪽 칸에 가진 재료 수를 적으면 부족한 양을 알 수 있어요.')),
       h('div.toolbar', { style: { margin: 0 } },
         h('label.check', h('input', { type: 'checkbox', checked: view.showDone, onchange: (e) => { view.showDone = e.target.checked; rerender(); } }), '완료한 계획도 보기'),
         h('button.btn.primary.edit-only', { type: 'button', onclick: () => edit(null) }, '새 계획')),
     ),
     h('div.plan-layout',
       h('div', shown.length ? shown.map(planRow) : h('div.empty', h('p', '진행 중인 계획이 없습니다.'),
-        h('p.faint', '캐릭터 화면에서 "육성 계획 만들기"를 눌러도 시작할 수 있어요.'))),
+        h('p.faint', '출품작 화면에서 "육성 계획 만들기"를 눌러도 시작할 수 있어요.'))),
       h('aside.panel.mat-sticky',
         h('div.panel-head', h('h3', '필요한 재료 합계'), mats.length ? h('span.faint', { style: { fontSize: '13px' } }, shortCount ? `부족 ${shortCount}종` : '모두 충분') : null),
         mats.length ? h('div.mats', mats.map(([m, q]) => matRow(m, q, editing))) : h('p.muted', { style: { margin: 0 } }, '계획을 추가하면 여기에 재료가 쌓입니다.'),
@@ -115,7 +115,7 @@ function planRow(p) {
 }
 
 function finish(p) {
-  const apply = confirm(`${store.charName(store.charById(p.char))}의 계획을 완료로 표시합니다.\n캐릭터 육성 상태도 목표값으로 바꿀까요? (취소를 누르면 계획만 완료 처리)`);
+  const apply = confirm(`${store.charName(store.charById(p.char))}의 계획을 완료로 표시합니다.\n출품작 육성 상태도 목표값으로 바꿀까요? (취소를 누르면 계획만 완료 처리)`);
   store.update('plans', (s) => { const x = s.plans.find((y) => y.id === p.id); x.done = true; x.doneAt = new Date().toISOString().slice(0, 10); }, { silent: true });
   if (apply) {
     store.update('roster', () => {
@@ -159,7 +159,7 @@ function edit(plan, presetChar) {
 
   function draw() {
     const c = cur.char && store.charById(cur.char);
-    const parts = [h('div.fields.form-row', field('캐릭터', charSelect(cur.char, (v) => {
+    const parts = [h('div.fields.form-row', field('출품작', charSelect(cur.char, (v) => {
       cur.char = v; cur.from = fromRec(v); cur.to = null;
       if (v) { const cc = store.charById(v); const mi = store.maxInsight(cc.rarity); cur.to = { insight: mi, level: store.maxLevel(cc.rarity, mi), resonance: Math.max(cur.from.resonance, Math.min(10, maxRes(cc))), euphoria: [...cur.from.euphoria] }; }
       commit(); draw();
@@ -187,7 +187,7 @@ function edit(plan, presetChar) {
         h('div', { style: { display: 'grid', gap: '10px', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', marginBottom: '14px' } }, side('from', '현재'), side('to', '목표')),
         h('div.form-row', h('label.check', h('input', { type: 'checkbox', checked: !!cur.paused, onchange: (e) => { cur.paused = e.target.checked; commit(); } }), '보류 (합계에서 빼기)')),
         h('div.fields.form-row', field('메모', h('textarea', { rows: 2, oninput: (e) => { cur.note = e.target.value; commit(); } }, cur.note || ''), 'wide')),
-        store.state.game.materials.growth[c.id] ? null : h('p.status.err', '이 캐릭터는 아직 재료 데이터가 없어 레벨 비용만 계산됩니다.'),
+        store.state.game.materials.growth[c.id] ? null : h('p.status.err', '이 출품작은 아직 재료 데이터가 없어 레벨 비용만 계산됩니다.'),
       );
     }
     fill(box, parts);
