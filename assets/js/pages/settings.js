@@ -3,8 +3,10 @@ import { h, field, toast, downloadJSON, pickFile, readFileText } from '../ui.js'
 import * as store from '../store.js';
 import * as gh from '../github.js';
 import { rerender } from '../app.js';
+import * as gate from '../owner.js';
 
 export function render(root) {
+  if (!gate.isOwner()) { lockScreen(root); return; }
   const cfg = gh.getConfig();
   const s = store.state.user.settings;
   const editing = store.state.editing;
@@ -69,7 +71,12 @@ export function render(root) {
           field('계정명', owner), field('저장소', repo), field('브랜치', branch), field('토큰', token, 'wide')),
         h('div.toolbar', { style: { marginTop: '12px', marginBottom: '10px' } },
           h('button.btn.primary', { type: 'button', onclick: connect }, gh.hasToken() ? '다시 확인' : '연결'),
-          gh.hasToken() ? h('button.btn.danger', { type: 'button', onclick: disconnect }, '이 브라우저에서 연결 끊기') : null),
+          gh.hasToken() ? h('button.btn.danger', { type: 'button', onclick: disconnect }, '이 브라우저에서 연결 끊기') : null,
+          h('button.btn.ghost', { type: 'button', onclick: () => {
+            if (store.hasChanges() && !confirm('저장하지 않은 변경 사항이 있습니다. 그래도 잠글까요?')) return;
+            if (!confirm('이 기기를 잠글까요? 설정과 편집 버튼이 숨겨지고, GitHub 토큰도 이 브라우저에서 지워져요.')) return;
+            gate.lock(); store.setEditing(false); location.hash = '#/'; toast('잠갔습니다.');
+          } }, '이 기기 잠그기')),
         status,
         h('p.faint', { style: { fontSize: '13px', marginBottom: 0 } }, '공용 컴퓨터에서는 쓰고 나서 꼭 연결을 끊어 주세요. 다른 기기에서도 같은 토큰을 넣으면 그 기기에서 편집할 수 있어요.'),
       ),
@@ -118,4 +125,29 @@ async function restore() {
     store.replaceAll(data);
     toast('백업을 불러왔습니다. 확인 후 저장해 주세요.');
   } catch (e) { toast(`불러오지 못했습니다: ${e.message}`, 'err'); }
+}
+
+function lockScreen(root) {
+  const input = h('input', { type: 'password', inputmode: 'numeric', autocomplete: 'current-password', 'aria-label': '비밀번호', maxlength: 32 });
+  const err = h('p.err', { role: 'alert' });
+  const box = h('div.panel');
+  const submit = async (e) => {
+    e.preventDefault();
+    if (await gate.unlock(input.value)) {
+      toast('확인했습니다.');
+      rerender();
+    } else {
+      err.textContent = '비밀번호가 맞지 않아요.';
+      box.classList.remove('shake'); void box.offsetWidth; box.classList.add('shake');
+      input.select();
+    }
+  };
+  box.append(
+    h('p.code', 'Restricted · Laplace Archive'),
+    h('h1', '관리자 확인'),
+    h('p', '설정은 사이트 주인만 열 수 있어요.'),
+    h('form', { onsubmit: submit }, input, err, h('button.btn.primary', { type: 'submit' }, '확인')),
+  );
+  root.append(h('div.lock', box));
+  setTimeout(() => input.focus(), 0);
 }

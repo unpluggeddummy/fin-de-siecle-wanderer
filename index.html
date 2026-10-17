@@ -18,13 +18,13 @@
   <header class="masthead">
     <canvas class="rain" aria-hidden="true"></canvas>
     <div class="masthead-top">
-      <span class="meta">Laplace Archive · 1999</span>
+      <a class="meta" href="#/settings" title="Laplace Archive">Laplace Archive · 1999</a>
       <span class="meta-mid" data-site-sub>리버스: 1999 개인 기록</span>
       <div class="masthead-actions">
         <button class="btn-save" type="button" data-save hidden>
           <span class="save-dot" aria-hidden="true"></span><span data-save-label>저장</span>
         </button>
-        <button class="btn-edit" type="button" data-edit-toggle aria-pressed="false">편집</button>
+        <button class="btn-edit owner-only" type="button" data-edit-toggle aria-pressed="false">편집</button>
       </div>
     </div>
     <a class="brand" href="#/">
@@ -42,7 +42,7 @@
         <a href="#/plans" data-route="plans">육성 계획<small>Planner</small></a>
         <a href="#/gacha" data-route="gacha">모집 기록<small>Summons</small></a>
         <a href="#/names" data-route="names" data-names-tab hidden>다국어 이름표<small>Names</small></a>
-        <a href="#/settings" data-route="settings">설정<small>Settings</small></a>
+        <a href="#/settings" data-route="settings" class="owner-only">설정<small>Settings</small></a>
       </nav>
     </div>
   </header>

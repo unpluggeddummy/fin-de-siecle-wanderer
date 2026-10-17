@@ -1,5 +1,6 @@
 import * as store from './store.js';
 import * as gh from './github.js';
+import * as owner from './owner.js';
 import { h, toast, append } from './ui.js';
 
 const pages = {
@@ -55,6 +56,7 @@ const saveBtn = document.querySelector('[data-save]');
 const saveLabel = document.querySelector('[data-save-label]');
 
 editBtn.addEventListener('click', () => {
+  if (!owner.isOwner()) { location.hash = '#/settings'; return; }
   if (!store.state.editing && !gh.hasToken()) {
     toast('편집하려면 먼저 설정에서 GitHub 연결을 해 주세요.');
     location.hash = '#/settings';
@@ -169,6 +171,7 @@ function rain() {
 
 // ── 시작 ──────────────────────────────────────────────────
 async function boot() {
+  owner.apply();
   rain();
   try {
     const restored = await store.loadAll();

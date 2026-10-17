@@ -87,6 +87,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
   padding: 12px 0 10px; font-size: 12px; letter-spacing: .14em; color: var(--paper-dim);
   border-bottom: 1px solid var(--line);
 }
+.masthead-top a.meta { color: inherit; text-decoration: none; cursor: default; }
 .masthead-top .meta { font-family: var(--mono); font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: .14em; display: inline-flex; align-items: center; gap: 8px; }
 .masthead-top .meta::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--teal); box-shadow: 0 0 8px var(--teal); }
 .masthead-top .meta-mid { font-family: var(--mono); font-size: 11px; letter-spacing: .2em; }
@@ -545,6 +546,7 @@ code { background: var(--ink-3); padding: 1px 5px; font-size: .92em; }
 
 /* 읽기 전용(방문자) 모드에서는 편집 전용 요소를 숨긴다 */
 body:not(.editing) .edit-only { display: none !important; }
+body:not(.owner) .owner-only { display: none !important; }
 body.editing .view-only { display: none !important; }
 
 @media (max-width: 600px) {
@@ -554,3 +556,15 @@ body.editing .view-only { display: none !important; }
   .panel { padding: 16px; }
   .tabs a { padding: 8px 10px 7px; }
 }
+
+/* ── 잠금 화면 (설정 비밀번호) ─────────────────────────── */
+.lock { max-width: 380px; margin: 40px auto; text-align: center; }
+.lock .panel { padding: 28px 24px; }
+.lock .code { font-family: var(--mono); font-size: 11px; letter-spacing: .24em; color: var(--brass); text-transform: uppercase; margin: 0 0 6px; }
+.lock h1 { font-size: 22px; margin-bottom: 6px; }
+.lock p { color: var(--paper-dim); font-size: 14px; margin: 0 0 18px; }
+.lock input { text-align: center; font-family: var(--mono); font-size: 22px; letter-spacing: .5em; padding: 10px; }
+.lock .err { color: var(--rust); font-size: 13px; min-height: 20px; margin: 8px 0 0; }
+.lock .btn { width: 100%; margin-top: 10px; padding: 9px; }
+@keyframes shake { 20%, 60% { transform: translateX(-6px); } 40%, 80% { transform: translateX(6px); } }
+.lock .shake { animation: shake .35s; }
