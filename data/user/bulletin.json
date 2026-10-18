@@ -160,7 +160,7 @@
      "date": "2025-11-14"
     },
     "3": {
-     "score": 11153807,
+     "score": 15249014,
      "grade": "SSS",
      "members": [
       {
@@ -176,13 +176,121 @@
        "psychube": 1547
       },
       {
-       "char": 3095,
-       "psychube": 1436
+       "char": 3128,
+       "psychube": 1554
       }
      ],
      "note": "",
      "shot": null,
-     "date": "2025-11-15"
+     "date": "2025-11-27"
+    }
+   }
+  },
+  "13113": {
+   "bosses": {
+    "3": {
+     "score": 13474348,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3086,
+       "psychube": 1527
+      },
+      {
+       "char": 3107,
+       "psychube": 1539
+      },
+      {
+       "char": 3128,
+       "psychube": 1554
+      },
+      {
+       "char": 3125,
+       "psychube": 1556
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2025-12-26"
+    }
+   }
+  },
+  "13230": {
+   "bosses": {
+    "1": {
+     "score": 37239921,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3134,
+       "psychube": 1515
+      },
+      {
+       "char": 3081,
+       "psychube": 1565
+      },
+      {
+       "char": 3105,
+       "psychube": 1444
+      },
+      {
+       "char": 3117,
+       "psychube": 1547
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-02-03"
+    },
+    "2": {
+     "score": 25570880,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3100,
+       "psychube": 1536
+      },
+      {
+       "char": 3135,
+       "psychube": 1559
+      },
+      {
+       "char": 3117,
+       "psychube": 1547
+      },
+      {
+       "char": 3128,
+       "psychube": 1554
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-02-12"
+    },
+    "3": {
+     "score": 9288911,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3132,
+       "psychube": 1521
+      },
+      {
+       "char": 3128,
+       "psychube": 1554
+      },
+      {
+       "char": 3105,
+       "psychube": 1444
+      },
+      {
+       "char": 3117,
+       "psychube": 1547
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-02-04"
     }
    }
   },
