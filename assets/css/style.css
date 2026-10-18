@@ -1035,3 +1035,6 @@ a.tl-ev:hover { border-color: var(--brass); color: var(--paper); }
 /* 메뉴 밑 문구 고치기 */
 .page-head p.page-note { outline: 1px dashed var(--line-strong); outline-offset: 4px; cursor: text; }
 .page-head p.page-note:focus { outline-color: var(--brass); }
+
+/* NPC 얼굴: 대화 아이콘은 이미 얼굴만 잘린 정사각형이라 확대하지 않는다 */
+img[src*="img/npc/"]:not([src*="/full"]):not([src*="/live2d"]) { height: 100% !important; object-fit: cover; object-position: center 30% !important; }
