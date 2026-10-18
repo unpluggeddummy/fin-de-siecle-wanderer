@@ -1,4 +1,241 @@
 {
- "seasons": {},
+ "seasons": {
+  "13742": {
+   "bosses": {
+    "1": {
+     "score": 83929646,
+     "grade": "",
+     "members": [
+      {
+       "char": 3143,
+       "psychube": 1537
+      },
+      {
+       "char": 3146,
+       "psychube": 1568
+      },
+      {
+       "char": 3110,
+       "psychube": 1542
+      },
+      {
+       "char": 3105,
+       "psychube": 1547
+      }
+     ],
+     "note": "그냥... 레이드가 너무 길어짐. 양월 카드 합성해서 3단계 스킬을 많이 써야함",
+     "shot": null,
+     "date": "2026-09-09"
+    },
+    "2": {
+     "score": 73560290,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3143,
+       "psychube": 1537
+      },
+      {
+       "char": 3132,
+       "psychube": 1521
+      },
+      {
+       "char": 3146,
+       "psychube": 1568
+      },
+      {
+       "char": 3105,
+       "psychube": 1547
+      }
+     ],
+     "note": "첫번째 예열 끝나고 전기장 들어간 다음에 항상 콟 열정 10 다 채우고 전기장 끝나자마자 콟 궁 쓰기. 플페는 전기장 들어가기 직전에 궁 써야지 맞음. 이렇게 되면 다른 전력 캐 없이도 2턴 안에 전기장 3레벨 달성 가능. 콟 형상에 따라 점수가 달라질 것 같아서 풀형상 이후 다시 쳐볼 예정.",
+     "shot": null,
+     "date": "2026-09-20"
+    },
+    "3": {
+     "score": 79963587,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3143,
+       "psychube": 1537
+      },
+      {
+       "char": 3100,
+       "psychube": 1536
+      },
+      {
+       "char": 3146,
+       "psychube": 1568
+      },
+      {
+       "char": 3135,
+       "psychube": 1539
+      }
+     ],
+     "note": "브룸 명함과 1형상 차이가 크다",
+     "shot": null,
+     "date": "2026-08-27"
+    }
+   }
+  },
+  "13809": {
+   "bosses": {
+    "1": {
+     "score": 73330763,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3144,
+       "psychube": 1570
+      },
+      {
+       "char": 3149,
+       "psychube": 1571
+      },
+      {
+       "char": 3145,
+       "psychube": 1573
+      },
+      {
+       "char": 3146,
+       "psychube": 1568
+      }
+     ],
+     "note": "형상 효율 비교표랑 실제 체감 형상 비교가 엄청나게 크다. 힐 카드는 항상 안전하게 1개는 킵 해두는 게 필요함.",
+     "shot": null,
+     "date": "2026-10-07"
+    },
+    "2": {
+     "score": 86854496,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3144,
+       "psychube": 1570
+      },
+      {
+       "char": 3149,
+       "psychube": 1571
+      },
+      {
+       "char": 3145,
+       "psychube": 1573
+      },
+      {
+       "char": 3146,
+       "psychube": 1568
+      }
+     ],
+     "note": "여긴 힐 카드 넉넉하게 쓰고 보스 석화 턴이랑 리아논 연장 턴 안 겹치게 쓰는 게 제일 중요함. 후반부 갈수록 에너지 14이상 넣어야지 쌍둥이가 잘 패준다.",
+     "shot": null,
+     "date": "2026-10-17"
+    },
+    "3": {
+     "score": 55519278,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3143,
+       "psychube": 1537
+      },
+      {
+       "char": 3100,
+       "psychube": 1536
+      },
+      {
+       "char": 3146,
+       "psychube": 1568
+      },
+      {
+       "char": 3135,
+       "psychube": 1539
+      }
+     ],
+     "note": "안조 날라랑 브룸이 계약하면 브룸의 피가 잘 살아남길 기도 메타 해야함",
+     "shot": null
+    }
+   }
+  },
+  "138520": {
+   "bosses": {
+    "1": {
+     "score": 55332702,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3095,
+       "psychube": 1436
+      },
+      {
+       "char": 3141,
+       "psychube": 1563
+      },
+      {
+       "char": 3053,
+       "psychube": 1540
+      },
+      {
+       "char": 3117,
+       "psychube": 1547
+      }
+     ],
+     "note": "같은 5형인면 안안리보다 머큐리아가 이득일 때가 많다...",
+     "shot": null,
+     "date": "2026-08-13"
+    },
+    "2": {
+     "score": 66101310,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3127,
+       "psychube": 1560
+      },
+      {
+       "char": 3134,
+       "psychube": 1515
+      },
+      {
+       "char": 3081,
+       "psychube": 1565
+      },
+      {
+       "char": 3139,
+       "psychube": 1561
+      }
+     ],
+     "note": "여광은 살아있다",
+     "shot": null,
+     "date": "2026-08-04"
+    },
+    "3": {
+     "score": 74249026,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3039,
+       "psychube": 1444
+      },
+      {
+       "char": 3141,
+       "psychube": 1563
+      },
+      {
+       "char": 3053,
+       "psychube": 1540
+      },
+      {
+       "char": 3117,
+       "psychube": 1547
+      }
+     ],
+     "note": "그러나 생존력에서는 안안리가 머큐리아보다 낫다",
+     "shot": null,
+     "date": "2026-08-06"
+    }
+   }
+  }
+ },
  "customSeasons": []
 }
