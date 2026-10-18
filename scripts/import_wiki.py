@@ -64,7 +64,13 @@ def en_to_kr(G):
     return find
 
 
-def put_image(src, dst, max_w=None, max_h=None):
+# 위키 원본 주소 → 사이트 경로 목록. GitHub Actions(fetch-wiki-images)가 이걸 보고 원본 화질로 다시 받는다.
+MANIFEST = []
+
+
+def put_image(src, dst, max_w=None, max_h=None, quality=80, url=None):
+    if url:
+        MANIFEST.append({"url": url, "dst": os.path.relpath(dst, OUT[0]), "max_w": max_w, "max_h": max_h, "quality": quality})
     if not src or not os.path.exists(src):
         return None
     os.makedirs(os.path.dirname(dst), exist_ok=True)
@@ -78,10 +84,15 @@ def put_image(src, dst, max_w=None, max_h=None):
             im = im.resize((round(w * r), round(h * r)), Image.LANCZOS)
         if im.mode not in ("RGB", "RGBA"):
             im = im.convert("RGBA")
-        im.save(dst, "WEBP", quality=80, method=5)
-    else:
+        im.save(dst, "WEBP", quality=quality, method=5)
+    elif src.endswith(".webp"):
         shutil.copyfile(src, dst)
+    else:
+        Image.open(src).save(dst, "WEBP", quality=quality, method=5)
     return dst
+
+
+OUT = ["."]
 
 
 def main():
@@ -91,6 +102,7 @@ def main():
     ap.add_argument("--out", default=".")
     a = ap.parse_args()
     W, O = a.wiki, a.out
+    OUT[0] = O
     kr = en_to_kr(a.G)
     chars = load(os.path.join(O, "data", "game", "characters.json"))
     by_en = {norm(c["name"].get("en")): c["id"] for c in chars if c["name"].get("en")}
@@ -108,7 +120,7 @@ def main():
         banner = None
         if s.get("banner") and s["banner"].get("local"):
             rel = f"assets/img/story/{s['id']}.webp"
-            if put_image(os.path.join(W, s["banner"]["local"]), os.path.join(O, rel), max_w=900):
+            if put_image(os.path.join(W, s["banner"]["local"]), os.path.join(O, rel), max_w=1600, quality=90, url=s["banner"].get("url")):
                 banner = rel
         ver = s.get("version")
         vbase = ver.split(".")[0] if ver and ver.startswith("S") else ver
@@ -190,6 +202,12 @@ def main():
 
     build_profiles(W, O, a.G, chars, kr)
     build_versions(W, O, a.G, chars, out, kr)
+    seen = {}
+    for m in MANIFEST:
+        seen[m["dst"]] = m
+    with open(os.path.join(O, "data", "raw", "wiki", "images.json"), "w", encoding="utf-8") as f:
+        json.dump(list(seen.values()), f, ensure_ascii=False, indent=0)
+    print(f"원본 화질로 다시 받을 그림 {len(seen)}개 목록 저장")
 
 
 ORIGIN = {
@@ -319,10 +337,11 @@ def build_versions(W, O, G, chars, stories, kr):
         best = max(pools, key=lambda k: difflib.SequenceMatcher(None, k, n).ratio())
         return pools[best][0] if difflib.SequenceMatcher(None, best, n).ratio() >= 0.86 else None
 
-    def img(local, dst, **kw):
+    def img(obj, dst, **kw):
+        local = (obj or {}).get("local")
         if not local:
             return None
-        d = put_image(os.path.join(W, local), os.path.join(O, dst), **kw)
+        d = put_image(os.path.join(W, local), os.path.join(O, dst), url=obj.get("url"), quality=90, **kw)
         return os.path.relpath(d, O) if d else None
 
     out = []
@@ -339,20 +358,20 @@ def build_versions(W, O, G, chars, stories, kr):
         title_ko = " / ".join(filter(None, [kr(t) for t in parts])) or None
         rec = {
             "id": vid, "title": {"en": title_en, "ko": title_ko},
-            "banner": img((v.get("banner") or {}).get("local"), f"{vd}/banner.webp", max_w=1000),
-            "poster": img((poster or {}).get("local"), f"{vd}/poster.webp", max_w=640) if poster else None,
+            "banner": img(v.get("banner"), f"{vd}/banner.webp", max_w=1600),
+            "poster": img(poster, f"{vd}/poster.webp", max_w=1000) if poster else None,
             "periods": periods, "quote": v.get("quote"), "tagline": v.get("arrivalTagline"),
             "newChars": [], "events": [], "summons": [], "garments": [],
         }
         for nc in v.get("newCharacters") or []:
             loc = (nc.get("poster") or {}).get("local")
             rec["newChars"].append({"char": by_en.get(norm(nc["name"])), "en": nc["name"],
-                                    "poster": img(loc, f"{vd}/char-{slug(loc)}", max_w=520) if loc else None})
+                                    "poster": img(nc.get("poster"), f"{vd}/char-{slug(loc)}", max_w=720) if loc else None})
         for e in v.get("events") or []:
             loc = (e.get("banner") or {}).get("local")
             base_n = re.sub(r"\s*(/.*|\(.*\))$", "", e["name"]).strip()
             rec["events"].append({"name": {"en": e["name"], "ko": kr(e["name"]) or kr(base_n)},
-                                  "banner": img(loc, f"{vd}/ev-{slug(loc)}", max_w=640) if loc else None,
+                                  "banner": img(e.get("banner"), f"{vd}/ev-{slug(loc)}", max_w=1600) if loc else None,
                                   "time": clean_time(e.get("time")), "section": e.get("section"),
                                   "story": story_by.get(norm(e["name"])) or story_by.get(norm(base_n))})
         for su in v.get("summons") or []:
@@ -366,14 +385,14 @@ def build_versions(W, O, G, chars, stories, kr):
             ko = strip_tags(lk.get(p["nameCn"], "")) if p else None
             rerun = "(Rerun)" in su["name"]
             rec["summons"].append({"id": f"{vid}:{norm(su['name'])}", "name": {"en": su["name"], "ko": (ko + (" (복각)" if rerun else "")) if ko else None},
-                                   "banner": img(loc, f"{vd}/su-{slug(loc)}", max_w=700) if loc else None,
+                                   "banner": img(su.get("banner"), f"{vd}/su-{slug(loc)}", max_w=1400) if loc else None,
                                    "time": clean_time(su.get("time")), "rerun": rerun, "six": six, "five": five,
                                    "pool": p["id"] if p else None})
         for gm in v.get("garments") or []:
             loc = (gm.get("poster") or {}).get("local")
             cid = by_en.get(norm(gm.get("character")))
             rec["garments"].append({"char": cid, "en": gm.get("garment"), "skin": skin_by.get((cid, norm(gm.get("garment")))),
-                                    "poster": img(loc, f"{vd}/gm-{slug(loc)}", max_w=420) if loc else None})
+                                    "poster": img(gm.get("poster"), f"{vd}/gm-{slug(loc)}", max_w=720) if loc else None})
         out.append(rec)
     with open(os.path.join(O, "data", "game", "versions.json"), "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, separators=(",", ":"))

@@ -86,6 +86,7 @@ export function render(root) {
           field('영문 제목', h('input', { type: 'text', value: s.titleEn || 'Fin de Siècle Wanderer', disabled: !editing, onchange: (e) => store.update('settings', (x) => { x.titleEn = e.target.value; }) })),
           field('한국어 제목', h('input', { type: 'text', value: s.title || '', disabled: !editing, onchange: (e) => store.update('settings', (x) => { x.title = e.target.value; }) })),
           field('윗줄 문구', h('input', { type: 'text', value: s.subtitle || '', disabled: !editing, onchange: (e) => store.update('settings', (x) => { x.subtitle = e.target.value; }) })),
+          field('지금 한섭 버전', h('input', { type: 'text', value: s.currentVersion || '3.8', placeholder: '3.8', disabled: !editing, onchange: (e) => store.update('settings', (x) => { x.currentVersion = e.target.value.trim() || '3.8'; }) })),
           field('서버', h('select', { disabled: !editing, onchange: (e) => upd((x) => { x.server = e.target.value; }) },
             ['한섭', '글로벌', '중섭', '일섭'].map((v) => h('option', { selected: s.server === v }, v))))),
         h('div', { style: { marginTop: '12px' } },

@@ -11,7 +11,7 @@ export const SECTIONS = {
   gacha:     { file: 'data/user/gacha.json',     label: '모집 기록',     def: () => ({ pity: 0, pityLimit: 70, guaranteed: false, currencies: [{ name: '순결의 빗방울', amount: 0 }, { name: '순수의 빗방울', amount: 0 }, { name: '모노로그', amount: 0 }, { name: '데카로그', amount: 0 }], banners: [], wishlist: [] }) },
   stories:   { file: 'data/user/stories.json',   label: '스토리 후기',   def: () => ({ posts: [], ratings: {}, read: {} }) },
   profile:   { file: 'data/user/profile.json',   label: '소개',         def: () => defaultProfile() },
-  settings:  { file: 'data/user/settings.json',  label: '설정',         def: () => ({ title: '세기말의 방랑자', titleEn: 'Fin de Siècle Wanderer', subtitle: '리버스: 1999 개인 기록', showNames: false, server: '한섭' }) },
+  settings:  { file: 'data/user/settings.json',  label: '설정',         def: () => ({ title: '세기말의 방랑자', titleEn: 'Fin de Siècle Wanderer', subtitle: '리버스: 1999 개인 기록', showNames: false, server: '한섭', currentVersion: '3.8' }) },
 };
 
 const DRAFT = 'r1999.draft.';
@@ -186,6 +186,8 @@ export const isNpcId = (id) => typeof id === 'string' && id.startsWith('npc-');
 export const charById = (id) => (isNpcId(id) ? idx.npc.get(id) : idx.char.get(+id));
 export const npcList = () => [...idx.npc.values()];
 export const storyById = (id) => idx.story.get(id);
+/** 지금 한섭 버전 (설정에서 바꿀 수 있음) */
+export const currentVersion = () => state.user.settings?.currentVersion || '3.8';
 export const profileOf = (id) => state.game.profiles?.[id] || null;
 /** 모집 배너(위키) id → { banner, version } */
 export function summonById(id) {

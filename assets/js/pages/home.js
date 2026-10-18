@@ -157,7 +157,7 @@ function sideCards(p, editing) {
     h('header', h('span.en', en), h('h3', title), link ? h('a.more', { href: link }, '더 보기 →') : null, editing ? xBtn(`${title} 카드 숨기기`, () => toggle(k)) : null),
     body));
   const cards = [
-    wrap('version', '현재 버전', 'Now', null, versionCard()),
+    wrap('version', '현재 버전 · 한섭', 'Now', '#/timeline', versionCard()),
     wrap('birthday', '다가오는 생일', 'Birthdays', '#/codex/birthdays', birthdayCard()),
     wrap('stories', '스토리 후기', 'Stories', '#/stories', storyCard()),
   ];
@@ -167,8 +167,9 @@ function sideCards(p, editing) {
 
 function versionCard() {
   if (!timeline) return null;
-  // 한섭 기준: 출품작이 나온 버전 중 가장 최신
-  const v = timeline.allVersions().find((x) => x.chars.length || x.stories.length);
+  // 한섭 기준 현재 버전 (설정에서 바꿀 수 있음)
+  const cur = store.currentVersion();
+  const v = timeline.allVersions().find((x) => x.id === cur) || timeline.allVersions().find((x) => store.verNum(x.id) <= store.verNum(cur));
   if (!v) return null;
   const banner = v.banner || v.stories.find((s) => s.cat === 'mainevent' && s.banner)?.banner || v.stories.find((s) => s.banner)?.banner;
   const title = v.title?.ko || v.stories.find((s) => s.cat === 'mainevent' || s.cat === 'main')?.name.ko || '';

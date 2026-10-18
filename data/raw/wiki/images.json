@@ -1,0 +1,5021 @@
+[
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/24/This_is_Tomorrow_Banner.png",
+"dst": "assets/img/story/main-this-is-tomorrow.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f2/In_Our_Time_Banner.png",
+"dst": "assets/img/story/main-in-our-time.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/1b/Tender_is_the_Night_Banner.png",
+"dst": "assets/img/story/main-tender-is-the-night.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/ce/Nouvelles_et_Textes_pour_Rien_Banner.png",
+"dst": "assets/img/story/main-nouvelles-et-textes-pour-rien.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/bf/El_Oro_de_los_Tigres_Banner.png",
+"dst": "assets/img/story/main-el-oro-de-los-tigres.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/92/The_Prisoner_in_the_Cave_Banner.png",
+"dst": "assets/img/story/main-the-prisoner-in-the-cave.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/91/E_lucevan_le_stelle_Banner.png",
+"dst": "assets/img/story/main-e-lucevan-le-stelle.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e6/Vereinsamt_Banner.png",
+"dst": "assets/img/story/main-vereinsamt.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c3/Tristes_Tropiques_Banner.png",
+"dst": "assets/img/story/main-tristes-tropiques.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b5/Folie_et_D%C3%A9raison_Banner.png",
+"dst": "assets/img/story/main-folie-et-deraison.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ef/Paradise_Regained_Banner.png",
+"dst": "assets/img/story/main-paradise-regained.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a0/A_Long_Long_Way_Banner.png",
+"dst": "assets/img/story/main-a-long-long-way.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6f/The_Campaign%27s_Tale_Banner.png",
+"dst": "assets/img/story/main-the-campaigns-tale.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/dc/On_Another%27s_Sorrow_Banner.png",
+"dst": "assets/img/story/main-on-anothers-sorrow.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8c/The_Star_Banner.png",
+"dst": "assets/img/story/main-the-star.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f1/To_the_New_World_Banner.png",
+"dst": "assets/img/story/main-to-the-new-world.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e4/The_Theft_of_the_Rimet_Cup_Banner.jpg",
+"dst": "assets/img/story/mainevent-the-theft-of-the-rimet-cup.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b9/A_Nightmare_at_Green_Lake_Banner.png",
+"dst": "assets/img/story/mainevent-a-nightmare-at-green-lake.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0d/Journey_to_Mor_Pankh_Banner.png",
+"dst": "assets/img/story/mainevent-journey-to-mor-pankh.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/92/The_Prisoner_in_the_Cave_Banner.png",
+"dst": "assets/img/story/mainevent-the-prisoner-in-the-cave-event.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/92/Revival%21_The_Uluru_Games_Banner.png",
+"dst": "assets/img/story/mainevent-revival-the-uluru-games.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/46/Notes_on_Shuori_Banner.png",
+"dst": "assets/img/story/mainevent-notes-on-shuori.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/91/E_lucevan_le_stelle_Banner.png",
+"dst": "assets/img/story/mainevent-e-lucevan-le-stelle-event.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/66/Farewell%2C_Rayashki_Banner.png",
+"dst": "assets/img/story/mainevent-farewell-rayashki.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e6/Vereinsamt_Banner.png",
+"dst": "assets/img/story/mainevent-vereinsamt-event.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e3/Floor_it%21_To_the_Golden_City_Banner.png",
+"dst": "assets/img/story/mainevent-floor-it-to-the-golden-city.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e4/Route_77_The_Haunted_Highway_Banner.png",
+"dst": "assets/img/story/mainevent-route-77-the-haunted-highway.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c3/Tristes_Tropiques_Banner.png",
+"dst": "assets/img/story/mainevent-tristes-tropiques-event.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b0/Chronicles_of_Uluru_London_Dawning_Banner.png",
+"dst": "assets/img/story/mainevent-chronicles-of-uluru-london-dawning.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/21/Last_Evenings_on_Earth_Banner.png",
+"dst": "assets/img/story/mainevent-last-evenings-on-earth.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/5a/Showdown_in_Chinatown_Banner.png",
+"dst": "assets/img/story/mainevent-showdown-in-chinatown.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b5/Folie_et_D%C3%A9raison_Banner.png",
+"dst": "assets/img/story/mainevent-folie-et-deraison-event.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/66/1987_Cosmic_Overture_Banner.png",
+"dst": "assets/img/story/mainevent-1987-cosmic-overture.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/7d/La_Primavera_di_Firenze_Banner.png",
+"dst": "assets/img/story/mainevent-la-primavera-di-firenze.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b3/Drama_in_Athens_Banner.png",
+"dst": "assets/img/story/mainevent-drama-in-athens.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ef/Paradise_Regained_Banner.png",
+"dst": "assets/img/story/mainevent-paradise-regained-event.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a0/A_Long_Long_Way_Banner.png",
+"dst": "assets/img/story/mainevent-a-long-long-way-event.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/08/The_Midnight_Whistle_Banner.png",
+"dst": "assets/img/story/mainevent-the-midnight-whistle.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6e/A_Flowing_Feast_Banner.png",
+"dst": "assets/img/story/mainevent-a-flowing-feast.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6f/The_Campaign%27s_Tale_Banner.png",
+"dst": "assets/img/story/mainevent-the-campaigns-tale-event.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/df/Spring_Unending_Banner.png",
+"dst": "assets/img/story/mainevent-spring-unending.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/dd/The_Turquoise_Serpent_Club_Banner.png",
+"dst": "assets/img/story/mainevent-the-turquoise-serpent-club.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/18/Last_and_First_Principles_Banner.png",
+"dst": "assets/img/story/mainevent-last-and-first-principles.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/ff/Polymerized_Dreams_Banner.png",
+"dst": "assets/img/story/mainevent-polymerized-dreams.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/dc/On_Another%27s_Sorrow_Banner.png",
+"dst": "assets/img/story/mainevent-on-anothers-sorrow-event.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/32/The_Temporal_Scale_Banner.png",
+"dst": "assets/img/story/mainevent-the-temporal-scale.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a8/Trudge_in_the_Long_Night_Banner.png",
+"dst": "assets/img/story/char-trudge-in-the-long-night.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/23/As_the_Sand_Remembered_Banner.png",
+"dst": "assets/img/story/char-as-the-sand-remembered.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/44/Thief_of_the_Thieves_Banner.jpg",
+"dst": "assets/img/story/char-thief-of-the-thieves.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d0/The_Puppy_and_The_Hippie_Banner.jpg",
+"dst": "assets/img/story/char-the-puppy-and-the-hippie.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/bf/The_Old_Teeth_and_The_Worn_Marks_Banner.png",
+"dst": "assets/img/story/char-the-old-teeth-and-the-worn-marks.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b5/One_Flew_Over_the_Old_House_Banner.png",
+"dst": "assets/img/story/char-one-flew-over-the-old-house.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/19/Between_Dusts_and_Stars_Banner.png",
+"dst": "assets/img/story/char-between-dusts-and-stars.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/10/Bells_Echoing_in_the_Valley_Banner.png",
+"dst": "assets/img/story/char-bells-echoing-in-the-valley.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a5/Reunion_of_Fires_Banner.png",
+"dst": "assets/img/story/char-reunion-of-fires.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b5/As_the_Driven_Snow_Falls_Banner.png",
+"dst": "assets/img/story/char-as-the-driven-snow-falls.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/97/Light_to_the_Tavern_Banner.png",
+"dst": "assets/img/story/char-light-to-the-tavern.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b1/Flowing_in_the_Wind_Banner.png",
+"dst": "assets/img/story/char-flowing-in-the-wind.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/13/The_Small_Room_Banner.png",
+"dst": "assets/img/story/char-the-small-room.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c8/The_Tall_Lighthouse_Banner.png",
+"dst": "assets/img/story/char-the-tall-lighthouse.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/34/Dawn_Arrives_as_Usual_Banner.png",
+"dst": "assets/img/story/char-dawn-arrives-as-usual.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/af/Silver_Knot_Banner.png",
+"dst": "assets/img/story/char-silver-knot.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f7/Flying_to_the_Past_Banner.png",
+"dst": "assets/img/story/char-flying-to-the-past.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/4f/Through_the_Glass_Banner.png",
+"dst": "assets/img/story/char-through-the-glass.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/52/On_the_Thousandth_Night_Banner.png",
+"dst": "assets/img/story/char-on-the-thousandth-night.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/29/The_San_Francisco_Kids_Banner.png",
+"dst": "assets/img/story/char-the-san-francisco-kids.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/ce/Bedtime_Story_Banner.png",
+"dst": "assets/img/story/char-bedtime-story.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/70/The_Red_Wall_Banner.png",
+"dst": "assets/img/story/char-the-red-wall.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f0/The_Overcast_October_Banner.png",
+"dst": "assets/img/story/char-the-overcast-october.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/29/Into_the_Rainforest_Banner.png",
+"dst": "assets/img/story/char-into-the-rainforest.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/3b/Shadow_of_the_Sun_Banner.png",
+"dst": "assets/img/story/char-shadow-of-the-sun.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0c/Night_Escapades_on_Cross_Street_Banner.png",
+"dst": "assets/img/story/char-night-escapades-on-cross-street.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/45/Beyond_the_Coastline_Banner.png",
+"dst": "assets/img/story/char-beyond-the-coastline.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/da/Nukutaeao-_Building_Paradise%21_Banner.png",
+"dst": "assets/img/story/char-nukutaeao-building-paradise.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/2a/Sow_and_Reap_Banner.png",
+"dst": "assets/img/story/char-sow-and-reap.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d2/The_Great_Trickster_Banner.png",
+"dst": "assets/img/story/char-the-great-trickster.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/46/Ruinas_Gloriosas_y_Directrices_de_Met%C3%A1foras_Banner.png",
+"dst": "assets/img/story/char-ruinas-gloriosas-y-directrices-de-metaforas.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/57/The_Answering_Machine%2C_the_Butterfly%2C_and_the_Literary_Critic_Banner.png",
+"dst": "assets/img/story/char-the-answering-machine-the-butterfly-and-the-literary-critic.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f5/Gap_Month_Banner.png",
+"dst": "assets/img/story/char-gap-month.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/2f/Doomsday_%26_The_Days_After_Banner.png",
+"dst": "assets/img/story/char-doomsday-the-days-after.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/53/In_Her_Own_Reflection_Banner.png",
+"dst": "assets/img/story/char-in-her-own-reflection.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/73/A_Moment_on_the_White_Expanse_Banner.png",
+"dst": "assets/img/story/char-a-moment-on-the-white-expanse.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/02/Dawn_Rises_Over_the_Kill_Zone_Banner.png",
+"dst": "assets/img/story/char-dawn-rises-over-the-kill-zone.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/67/Fuga_a_3_Soggetti_Banner.png",
+"dst": "assets/img/story/char-fuga-a-3-soggetti.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f2/A_Shadow%27s_Weight_Banner.png",
+"dst": "assets/img/story/char-a-shadows-weight.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/dd/Cold_Steel_Banner.png",
+"dst": "assets/img/story/char-cold-steel.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/1a/The_Long_Rain_of_Fate_Banner.png",
+"dst": "assets/img/story/char-the-long-rain-of-fate.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/be/An_Unheated_Gem_Banner.png",
+"dst": "assets/img/story/char-an-unheated-gem.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0a/In_the_Name_of_Chivalry_Banner.png",
+"dst": "assets/img/story/char-in-the-name-of-chivalry.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/ff/Into_the_Maelstrom_Banner.png",
+"dst": "assets/img/story/char-into-the-maelstrom.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/fc/Spring_Comes_Slowly_Banner.png",
+"dst": "assets/img/story/char-spring-comes-slowly.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6e/To_Slay_a_Tiger_Banner.png",
+"dst": "assets/img/story/char-to-slay-a-tiger.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6c/Counterpoint_of_Life_and_Death_Banner.png",
+"dst": "assets/img/story/char-counterpoint-of-life-and-death.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/21/Whirling_Blooms_Banner.png",
+"dst": "assets/img/story/char-whirling-blooms.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c6/Complete_Induction_Banner.jpg",
+"dst": "assets/img/story/char-complete-induction.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f8/The_You_That%27s_Meant_To_Be_Banner.png",
+"dst": "assets/img/story/char-the-you-thats-meant-to-be.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/85/A_Stranger_to_Memory_Lane_Banner.png",
+"dst": "assets/img/story/char-a-stranger-to-memory-lane.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6e/See_You_in_the_New_World_Banner.png",
+"dst": "assets/img/story/char-see-you-in-the-new-world.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ec/A_Fledgling%27s_Brave_Fall_Banner.png",
+"dst": "assets/img/story/char-a-fledglings-brave-fall.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6d/A_Day_Plotted_Logarithmically_Poster.png",
+"dst": "assets/img/story/anec-a-day-plotted-logarithmically.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/06/The_Tombstone_Museum_Banner.png",
+"dst": "assets/img/story/anec-the-tombstone-museum.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/06/Handover_Day_Banner.png",
+"dst": "assets/img/story/anec-handover-day.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c9/In_the_Shadow_of_the_Mountains_Banner.png",
+"dst": "assets/img/story/anec-in-the-shadow-of-the-mountains.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/31/A_Song_Once_Heard_Banner.png",
+"dst": "assets/img/story/anec-a-song-once-heard.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/45/All_the_World%27s_a_Chip_Banner.png",
+"dst": "assets/img/story/anec-all-the-worlds-a-chip.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/7b/The_Eaglet_Takes_Wing_Banner.png",
+"dst": "assets/img/story/anec-the-eaglet-takes-wing.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b0/The_Year_Bkornblume_Talk_About_Banner.png",
+"dst": "assets/img/story/anec-the-year-bkornblume-talks-about.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f1/The_Master_of_Theatrics_Poster.png",
+"dst": "assets/img/story/anec-the-master-of-theatrics.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ee/The_Story_of_Oliver_Poster.png",
+"dst": "assets/img/story/anec-the-story-of-oliver.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/13/The_Long_Night_Singing_Its_Dirges_Poster.png",
+"dst": "assets/img/story/anec-the-long-night-singing-its-dirges.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/de/After_the_Good_Dream_Poster.png",
+"dst": "assets/img/story/anec-after-the-good-dream.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c9/Pulp_Comedy_Poster.png",
+"dst": "assets/img/story/anec-pulp-comedy.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/55/The_Ninth_Virtue_Poster.png",
+"dst": "assets/img/story/anec-the-ninth-virtue.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/10/The_Will_of_Gears_Poster.png",
+"dst": "assets/img/story/anec-the-will-of-gears.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9d/To_Winnifred_Poster.png",
+"dst": "assets/img/story/anec-to-winnifred.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/21/The_Winds_of_Juhalerat_Poster.png",
+"dst": "assets/img/story/anec-the-winds-of-juhalerat.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d3/The_Third_Circumstance_Poster.png",
+"dst": "assets/img/story/anec-the-third-circumstance.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c4/Finding_Xavier_Poster.png",
+"dst": "assets/img/story/anec-finding-xavier.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8d/The_Lady%27s_Etiquette_Poster.png",
+"dst": "assets/img/story/anec-the-ladys-etiquette.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/51/Only_Water_Springs_Know_Poster.png",
+"dst": "assets/img/story/anec-only-water-springs-know.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9a/Where_the_Fire_Starts_Poster.png",
+"dst": "assets/img/story/anec-where-the-fire-starts.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/45/When_Peace_Blooms_Poster.png",
+"dst": "assets/img/story/anec-when-peace-blooms.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/13/A_Night_Without_End_Poster.png",
+"dst": "assets/img/story/anec-a-night-without-end.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/35/A_Fool%27s_Gold_Banner.png",
+"dst": "assets/img/story/anec-a-fools-gold.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/77/The_Best_Band_in_Town_Banner.png",
+"dst": "assets/img/story/anec-the-best-band-in-town.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/19/The_Ghost_Master_Banner.png",
+"dst": "assets/img/story/anec-the-ghost-master.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e0/The_Last_Film_Banner.png",
+"dst": "assets/img/story/anec-the-last-film.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c5/The_Sea_Breeze_Still_Whispers_Banner.png",
+"dst": "assets/img/story/anec-the-sea-breeze-still-whispers.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/60/Away_From_Home_Banner.png",
+"dst": "assets/img/story/anec-away-from-home.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/81/The_Diamond_Con_Banner.png",
+"dst": "assets/img/story/anec-the-diamond-con.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e4/The_Theft_of_the_Rimet_Cup_Banner.jpg",
+"dst": "assets/img/ver/1.1/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f6/Version_1.1_Global_Poster.png",
+"dst": "assets/img/ver/1.1/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/7d/Melania_Poster.jpg",
+"dst": "assets/img/ver/1.1/char-melania.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c0/Pickles_Poster.jpg",
+"dst": "assets/img/ver/1.1/char-pickles.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/3a/Diggers_Poster.jpg",
+"dst": "assets/img/ver/1.1/char-diggers.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/36/The_Theft_of_the_Rimet_Cup.png",
+"dst": "assets/img/ver/1.1/ev-the-theft-of-the-rimet-cup.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/3f/Thief_of_the_Thieves_Poster.png",
+"dst": "assets/img/ver/1.1/ev-thief-of-the-thieves.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a5/Bio_of_the_Great_Thief_Poster.png",
+"dst": "assets/img/ver/1.1/ev-bio-of-the-great-thief.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/17/Trophy_of_the_Past_Glory_Poster.png",
+"dst": "assets/img/ver/1.1/ev-trophy-of-the-past-glory.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c8/The_Puppy_%26_The_Hippie_Poster.png",
+"dst": "assets/img/ver/1.1/ev-the-puppy-the-hippie.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/26/Pickles%27s_Free_Translation_Poster.png",
+"dst": "assets/img/ver/1.1/ev-pickless-free-translation.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8e/Pop_is_Everything_Banner.png",
+"dst": "assets/img/ver/1.1/su-pop-is-everything.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6f/Thus_Spoke_the_Border_Collie_Banner.png",
+"dst": "assets/img/ver/1.1/su-thus-spoke-the-border-collie.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/2c/Regulus_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.1/gm-regulus.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/33/Centurion_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.1/gm-centurion.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/16/APPLe_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.1/gm-apple.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b9/A_Nightmare_at_Green_Lake_Banner.png",
+"dst": "assets/img/ver/1.2/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/42/Version_1.2_Global_Poster.png",
+"dst": "assets/img/ver/1.2/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/af/Tooth_Fairy_Poster.jpg",
+"dst": "assets/img/ver/1.2/char-tooth-fairy.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b3/Jessica_Poster.jpg",
+"dst": "assets/img/ver/1.2/char-jessica.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/95/Blonney_Poster.jpg",
+"dst": "assets/img/ver/1.2/char-blonney.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/29/Horropedia_Poster.jpg",
+"dst": "assets/img/ver/1.2/char-horropedia.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f9/A_Nightmare_at_Green_Lake.png",
+"dst": "assets/img/ver/1.2/ev-a-nightmare-at-green-lake.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/15/The_Old_Teeth_and_The_Worn_Marks_Poster.png",
+"dst": "assets/img/ver/1.2/ev-the-old-teeth-and-the-worn-marks.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/32/Camping_Safety_Guide_Poster.png",
+"dst": "assets/img/ver/1.2/ev-camping-safety-guide.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/41/A_Night_Visit_to_the_Lake_Poster.png",
+"dst": "assets/img/ver/1.2/ev-a-night-visit-to-the-lake.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/de/One_Flew_Over_the_Old_House_Poster.png",
+"dst": "assets/img/ver/1.2/ev-one-flew-over-the-old-house.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/90/A_Tooth_for_a_Tooth_Poster.png",
+"dst": "assets/img/ver/1.2/ev-a-tooth-for-a-tooth.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/5c/The_Fairies_Shining_at_Night_Banner.png",
+"dst": "assets/img/ver/1.2/su-the-fairies-shining-at-night.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/17/The_Changeling_Awaits_Banner.png",
+"dst": "assets/img/ver/1.2/su-the-changeling-awaits.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/aa/Invitation_from_the_Water_Banner.png",
+"dst": "assets/img/ver/1.2/su-invitation-from-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/51/Sotheby_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.2/gm-sotheby.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/12/X_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.2/gm-x.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/04/Eagle_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.2/gm-eagle.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/25/Bkornblume_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.2/gm-bkornblume.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0d/Journey_to_Mor_Pankh_Banner.png",
+"dst": "assets/img/ver/1.3/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c1/Version_1.3_Global_Poster.png",
+"dst": "assets/img/ver/1.3/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/54/Kaalaa_Baunaa_Poster.jpg",
+"dst": "assets/img/ver/1.3/char-kaalaa-baunaa.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/95/Shamane_Poster.jpg",
+"dst": "assets/img/ver/1.3/char-shamane.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/16/Kanjira_Poster.jpg",
+"dst": "assets/img/ver/1.3/char-kanjira.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8e/Journey_to_Mor_Pankh.png",
+"dst": "assets/img/ver/1.3/ev-journey-to-mor-pankh.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a1/Between_Dusts_and_Stars_Poster.png",
+"dst": "assets/img/ver/1.3/ev-between-dusts-and-stars.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/66/Home_Practice_Poster.png",
+"dst": "assets/img/ver/1.3/ev-home-practice.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9c/The_First_Epic_Poster.png",
+"dst": "assets/img/ver/1.3/ev-the-first-epic.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/1c/Bells_Echoing_in_the_Valley_Poster.png",
+"dst": "assets/img/ver/1.3/ev-bells-echoing-in-the-valley.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e1/Shamane%27s_Left_Arm_Poster.png",
+"dst": "assets/img/ver/1.3/ev-shamanes-left-arm.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/78/Mysterious_Waves_Poster.png",
+"dst": "assets/img/ver/1.3/ev-mysterious-waves.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/4e/That_Steady_Evening_Star_Banner.png",
+"dst": "assets/img/ver/1.3/su-that-steady-evening-star.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a3/Another_Spring_Thaw_Banner.png",
+"dst": "assets/img/ver/1.3/su-another-spring-thaw.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ee/Pickles_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.3/gm-pickles.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0a/Tennant_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.3/gm-tennant.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ee/Matilda_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.3/gm-matilda.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f1/Leilani_Garment1_Poster.jpg",
+"dst": "assets/img/ver/1.3/gm-leilani.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/92/The_Prisoner_in_the_Cave_Banner.png",
+"dst": "assets/img/ver/1.4/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/51/Version_1.4_Global_Poster.png",
+"dst": "assets/img/ver/1.4/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e9/37_Poster.jpg",
+"dst": "assets/img/ver/1.4/char-37.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a2/6_Poster.jpg",
+"dst": "assets/img/ver/1.4/char-6.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/cb/The_Prisoner_in_the_Cave.png",
+"dst": "assets/img/ver/1.4/ev-the-prisoner-in-the-cave.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f2/As_the_Sand_Remembered_Poster.png",
+"dst": "assets/img/ver/1.4/ev-as-the-sand-remembered.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/16/Set_Sail_Again_Poster.png",
+"dst": "assets/img/ver/1.4/ev-set-sail-again.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/82/Wandering_on_the_Shore_Poster.png",
+"dst": "assets/img/ver/1.4/ev-wandering-on-the-shore.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/5b/Trudge_in_the_Long_Night_Poster.png",
+"dst": "assets/img/ver/1.4/ev-trudge-in-the-long-night.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d1/Sealed_Records_Poster.png",
+"dst": "assets/img/ver/1.4/ev-sealed-records.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a9/Mane%27s_Bulletin_Sailing_Record_Poster.png",
+"dst": "assets/img/ver/1.4/ev-manes-bulletin-sailing-record.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f1/The_Master_of_Theatrics_Poster.png",
+"dst": "assets/img/ver/1.4/ev-anecdote-charlie.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ee/The_Story_of_Oliver_Poster.png",
+"dst": "assets/img/ver/1.4/ev-anecdote-oliver.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d0/Beyond_the_World_of_Matters_Banner.png",
+"dst": "assets/img/ver/1.4/su-beyond-the-world-of-matters.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/15/Seeker_in_the_Cave_Banner.png",
+"dst": "assets/img/ver/1.4/su-seeker-in-the-cave.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/92/Lilya_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.4/gm-lilya-the-art-of-destreza.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/80/Diggers_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.4/gm-diggers-another-assumption.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/50/Sweetheart_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.4/gm-sweetheart-the-preaching-of-venus.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/35/La_Source_Garment1_Poster.jpg",
+"dst": "assets/img/ver/1.4/gm-la-source-antinomies.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/92/Revival%21_The_Uluru_Games_Banner.png",
+"dst": "assets/img/ver/1.5/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6d/Version_1.5_Global_Poster.png",
+"dst": "assets/img/ver/1.5/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/23/Spathodea_Poster.jpg",
+"dst": "assets/img/ver/1.5/char-spathodea.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9b/Ezra_Poster.jpg",
+"dst": "assets/img/ver/1.5/char-ezra.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d8/Ulu_Poster.jpg",
+"dst": "assets/img/ver/1.5/char-ulu.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6e/Desert_Flannel_Poster.jpg",
+"dst": "assets/img/ver/1.5/char-desert-flannel.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/98/Revival%21_The_Uluru_Games.png",
+"dst": "assets/img/ver/1.5/ev-revival-the-uluru-games.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a5/Reunion_of_Fires_Banner.png",
+"dst": "assets/img/ver/1.5/ev-reunion-of-fires.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b9/The_Game_News_Poster.png",
+"dst": "assets/img/ver/1.5/ev-the-game-news.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/cb/The_Epic_of_Runners_Poster.png",
+"dst": "assets/img/ver/1.5/ev-uttu-flash-gathering-the-epic-of-runners.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b5/As_the_Driven_Snow_Falls_Banner.png",
+"dst": "assets/img/ver/1.5/ev-as-the-driven-snow-falls.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c5/Blazing_RPS_Arena_Poster.png",
+"dst": "assets/img/ver/1.5/ev-blazing-rps-arena.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/47/Hypothesis_of_Exhibition_Poster.png",
+"dst": "assets/img/ver/1.5/ev-manes-bulletin-hypothesis-of-exhibition.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/13/The_Long_Night_Singing_Its_Dirges_Poster.png",
+"dst": "assets/img/ver/1.5/ev-anecdote-dikke.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/de/After_the_Good_Dream_Poster.png",
+"dst": "assets/img/ver/1.5/ev-anecdote-erick.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/99/Letter_From_the_Attic_Poster.png",
+"dst": "assets/img/ver/1.5/ev-letter-from-the-attic.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9b/The_Chirps_of_Flame_Banner.png",
+"dst": "assets/img/ver/1.5/su-the-chirps-of-flame.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a3/The_Spores_of_Peace_Banner.png",
+"dst": "assets/img/ver/1.5/su-the-spores-of-peace.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a3/Tooth_Fairy_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.5/gm-tooth-fairy-ace-through-the-bagel.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/55/Pavia_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.5/gm-pavia-the-leap-of-a-wolf.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e4/Dikke_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.5/gm-dikke-the-pointy-end-up.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6a/Darley_Clatter_Garment1_Poster.jpg",
+"dst": "assets/img/ver/1.5/gm-darley-clatter-dressage.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/46/Notes_on_Shuori_Banner.png",
+"dst": "assets/img/ver/1.6/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d6/Version_1.6_Global_Poster.png",
+"dst": "assets/img/ver/1.6/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8d/Jiu_Niangzi_Poster.jpg",
+"dst": "assets/img/ver/1.6/char-jiu-niangzi.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0d/Getian_Poster.jpg",
+"dst": "assets/img/ver/1.6/char-getian.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9d/Yenisei_Poster.jpg",
+"dst": "assets/img/ver/1.6/char-yenisei.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/84/Notes_on_Shuori.png",
+"dst": "assets/img/ver/1.6/ev-notes-on-shuori.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/97/Light_to_the_Tavern_Banner.png",
+"dst": "assets/img/ver/1.6/ev-light-to-the-tavern.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/fb/Echoes_in_the_Mountain_Poster.png",
+"dst": "assets/img/ver/1.6/ev-echoes-in-the-mountain.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ed/The_Story_of_a_Besieged_Town_Poster.png",
+"dst": "assets/img/ver/1.6/ev-uttu-flash-gathering-the-story-of-a-besiged-town.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/15/Flowing_in_the_Wind_Poster.png",
+"dst": "assets/img/ver/1.6/ev-flowing-in-the-wind.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/54/The_History_of_the_Gears_Poster.png",
+"dst": "assets/img/ver/1.6/ev-the-three-doors-the-history-of-the-gears.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/41/Projection_of_Nightmare_Poster.png",
+"dst": "assets/img/ver/1.6/ev-manes-bulletin-projection-of-nightmare.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c9/Pulp_Comedy_Poster.png",
+"dst": "assets/img/ver/1.6/ev-anecdote-alien-t.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f7/Back_to_Earth_Poster.png",
+"dst": "assets/img/ver/1.6/ev-anecdote-зима.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/36/The_Theft_of_the_Rimet_Cup.png",
+"dst": "assets/img/ver/1.6/ev-the-theft-of-the-rimet-cup-time-limited-rerun.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/22/Andante_of_Music_and_Sound_Poster.png",
+"dst": "assets/img/ver/1.6/ev-andante-of-music-and-sound.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/ff/Till_the_Last_Drop_Banner.png",
+"dst": "assets/img/ver/1.6/su-till-the-last-drop.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8d/Revelation_of_the_Water_Banner.png",
+"dst": "assets/img/ver/1.6/su-revelation-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/69/Over_the_New_Leaf_Banner.png",
+"dst": "assets/img/ver/1.6/su-over-the-new-leaf.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8e/A_Knight_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.6/gm-a-knight-galloping-across-time.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/2c/Druvis_III_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.6/gm-druvis-iii-lady-with-naoe.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b5/An-an_Lee_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.6/gm-an-an-lee-between-clouds-and-pine-trees.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a8/Balloon_Party_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.6/gm-balloon-party-the-folk-song-of-silver-butterfly.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9e/%D0%97%D0%B8%D0%BC%D0%B0_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.6/gm-зима-a-day-in-the-mountains.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/91/E_lucevan_le_stelle_Banner.png",
+"dst": "assets/img/ver/1.7/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/48/Version_1.7_Global_Poster.png",
+"dst": "assets/img/ver/1.7/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/46/Isolde_Poster1.jpg",
+"dst": "assets/img/ver/1.7/char-isolde.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/40/Marcus_Poster.jpg",
+"dst": "assets/img/ver/1.7/char-marcus.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/91/E_lucevan_le_stelle_Banner.png",
+"dst": "assets/img/ver/1.7/ev-e-lucevan-le-stelle.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/55/Mane%27s_Bulletin_Isle_Cryptid_Banner.png",
+"dst": "assets/img/ver/1.7/ev-manes-bulletin-isle-cryptid.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8e/Anecdotes_1.7_Banner.png",
+"dst": "assets/img/ver/1.7/ev-the-ninth-virtue.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/3d/Beyond_the_Ring_Banner.png",
+"dst": "assets/img/ver/1.7/ev-uttu-spotlight-edition-beyond-the-ring.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a2/A_Nightmare_at_Green_Lake_Rerun_Banner.png",
+"dst": "assets/img/ver/1.7/ev-a-nightmare-at-green-lake-time-limited-rerun.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/17/Go_North%2C_Friend%21_Banner.png",
+"dst": "assets/img/ver/1.7/ev-go-north-friend.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/ad/Vissi_D%27Arte%2C_Vissi_D%27Amore_Banner.png",
+"dst": "assets/img/ver/1.7/su-vissi-darte-vissi-damore.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6e/Yearning_of_the_Water_1.7_Banner.png",
+"dst": "assets/img/ver/1.7/su-yearning-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/61/Reading_in_Sea_Breeze_Banner.png",
+"dst": "assets/img/ver/1.7/su-reading-in-sea-breeze.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/64/37_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.7/gm-37-happy-bird-catcher.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/33/Melania_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.7/gm-melania-a-peaceful-night.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/ac/Satsuki_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.7/gm-satsuki-silver-rose.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/31/Ms._Moissan_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.7/gm-ms-moissan-outside-the-church.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/1f/Kaalaa_Baunaa_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.7/gm-kaalaa-baunaa-swing-rise-suspend.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/66/Farewell%2C_Rayashki_Banner.png",
+"dst": "assets/img/ver/1.8/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/33/Version_1.8_Global_Poster.png",
+"dst": "assets/img/ver/1.8/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/16/Vila_Poster.jpg",
+"dst": "assets/img/ver/1.8/char-vila.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6e/Windsong_Poster.jpg",
+"dst": "assets/img/ver/1.8/char-windsong.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/72/Avgust_Poster.jpg",
+"dst": "assets/img/ver/1.8/char-avgust.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/66/Farewell%2C_Rayashki_Banner.png",
+"dst": "assets/img/ver/1.8/ev-farewell-rayashki.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/34/Dawn_Arrives_as_Usual_Banner.png",
+"dst": "assets/img/ver/1.8/ev-dawn-arrives-as-usual.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/af/Silver_Knot_Banner.png",
+"dst": "assets/img/ver/1.8/ev-silver-knot.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/54/Echoes_of_Opera_Banner.png",
+"dst": "assets/img/ver/1.8/ev-manes-bulletin-echoes-of-opera.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/65/Anecdotes_1.8_Banner.png",
+"dst": "assets/img/ver/1.8/ev-to-winnifred.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/00/Polar_Town_Banner.png",
+"dst": "assets/img/ver/1.8/ev-polar-town.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/38/Double_Analysis_1.8_Banner.png",
+"dst": "assets/img/ver/1.8/ev-double-analysis.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e9/Journey_to_Mor_Pankh_Rerun_Banner.png",
+"dst": "assets/img/ver/1.8/ev-journey-to-mor-pankh-time-limited-rerun.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/97/Just_Reports_Banner.png",
+"dst": "assets/img/ver/1.8/ev-just-reports.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a6/Yearning_of_the_Water_1.8_Banner.png",
+"dst": "assets/img/ver/1.8/su-yearning-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a9/The_Intersecting_Lines_Banner.png",
+"dst": "assets/img/ver/1.8/su-the-intersecting-lines.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/45/Eternity_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.8/gm-eternity-a-visit-to-the-arctic.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c4/Medicine_Pocket_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.8/gm-medicine-pocket-the-cosmos-photographer.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/2f/Baby_Blue_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.8/gm-baby-blue-on-the-sparrow-hills.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e2/Oliver_Fog_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.8/gm-oliver-fog-see-you-at-the-workers-club.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e6/Vereinsamt_Banner.png",
+"dst": "assets/img/ver/1.9/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/17/Version_1.9_Global_Poster.png",
+"dst": "assets/img/ver/1.9/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8c/Lucy_Poster.jpg",
+"dst": "assets/img/ver/1.9/char-lucy.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8c/Kakania_Poster.jpg",
+"dst": "assets/img/ver/1.9/char-kakania.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/89/Semmelweis_Poster.jpg",
+"dst": "assets/img/ver/1.9/char-semmelweis.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d0/Lorelei_Poster.jpg",
+"dst": "assets/img/ver/1.9/char-lorelei.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e6/Vereinsamt_Banner.png",
+"dst": "assets/img/ver/1.9/ev-vereinsamt.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f7/Flying_to_the_Past_Banner.png",
+"dst": "assets/img/ver/1.9/ev-flying-to-the-past.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/4f/Through_the_Glass_Banner.png",
+"dst": "assets/img/ver/1.9/ev-through-the-glass.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/bc/Mane%27s_Bulletin_1.9_Banner.jpg",
+"dst": "assets/img/ver/1.9/ev-manes-bulletin-challenge-events.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/7d/Anecdotes_1.9_Banner.png",
+"dst": "assets/img/ver/1.9/ev-the-third-circumstance.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/86/Fire_Thieves_Banner.png",
+"dst": "assets/img/ver/1.9/ev-uttu-spotlight-edition-fire-thieves.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/68/Flea_Market_%26_Gold_Rush_Banner.png",
+"dst": "assets/img/ver/1.9/ev-flea-market-gold-rush.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/74/The_Window_to_Other_Worlds-_A_Series_of_Dusks_1.9_Banner.png",
+"dst": "assets/img/ver/1.9/ev-the-window-to-other-worlds-a-series-of-dusks.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/7d/The_Three_Doors_-_Beneath_the_Ashes_1.9_Banner.png",
+"dst": "assets/img/ver/1.9/ev-the-three-doors-beneath-the-ashes.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/28/Reflections_1.9_Banner.png",
+"dst": "assets/img/ver/1.9/ev-reflections.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/74/Mood_Switch_1.9_Banner.png",
+"dst": "assets/img/ver/1.9/ev-mood-switch.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d0/Thoughts_in_Cylinder_Banner.png",
+"dst": "assets/img/ver/1.9/su-thoughts-in-cylinder.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/88/Promise_of_the_Water_Banner.png",
+"dst": "assets/img/ver/1.9/su-promise-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/49/Observation_into_the_Mirrors_Banner.png",
+"dst": "assets/img/ver/1.9/su-observation-into-the-mirrors.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9e/Regulus_Garment3_Poster.jpg",
+"dst": "assets/img/ver/1.9/gm-regulus-take-off-to-the-future.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/2d/Voyager_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.9/gm-voyager-new-journey.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/bd/Jessica_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.9/gm-jessica-voyage-from-your-bed.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/85/Desert_Flannel_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.9/gm-desert-flannel-call-of-the-wild.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/be/Sonetto_Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.9/gm-sonetto-emotion-in-tranquility.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/00/Mesmer_Jr._Garment2_Poster.jpg",
+"dst": "assets/img/ver/1.9/gm-mesmer-jr-a-day-to-rest.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e3/Floor_it%21_To_the_Golden_City_Banner.png",
+"dst": "assets/img/ver/2.0/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/67/Version_2.0_Global_Poster.png",
+"dst": "assets/img/ver/2.0/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a5/Mercuria_Poster.jpg",
+"dst": "assets/img/ver/2.0/char-mercuria.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/bd/J_Poster.jpg",
+"dst": "assets/img/ver/2.0/char-j.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/13/Pioneer_Poster.jpg",
+"dst": "assets/img/ver/2.0/char-pioneer.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e3/Floor_it%21_To_the_Golden_City_Banner.png",
+"dst": "assets/img/ver/2.0/ev-floor-it-to-the-golden-city.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/52/On_the_Thousandth_Night_Banner.png",
+"dst": "assets/img/ver/2.0/ev-on-the-thousandth-night.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/29/The_San_Francisco_Kids_Banner.png",
+"dst": "assets/img/ver/2.0/ev-the-san-francisco-kids.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/3a/Mane%27s_Bulletin_Bellows_of_the_Earth_Banner.png",
+"dst": "assets/img/ver/2.0/ev-manes-bulletin-bellows-of-the-earth.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/de/Anecdotes_2.0_Banner.png",
+"dst": "assets/img/ver/2.0/ev-the-ladys-etiquette.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b1/Midnight_Mayhem_Banner.png",
+"dst": "assets/img/ver/2.0/ev-uttu-spotlight-edition-midnight-mayhem.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/81/PEEK_through_the_PEEPHOLE_Banner.png",
+"dst": "assets/img/ver/2.0/ev-peek-through-the-peephole.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/89/Calming_Hues_in_Frenzied_Nights_Banner.png",
+"dst": "assets/img/ver/2.0/su-calming-hues-in-frenzied-nights.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0d/Yearning_of_the_Water_2.0_Banner.png",
+"dst": "assets/img/ver/2.0/su-yearning-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/7c/Clash_%27n%27_Slash_Banner.png",
+"dst": "assets/img/ver/2.0/su-clash-n-slash.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c9/Tooth_Fairy_Garment3_Poster.png",
+"dst": "assets/img/ver/2.0/gm-tooth-fairy-fairies-dancing-at-dawn.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/4d/Getian_Garment2_Poster.png",
+"dst": "assets/img/ver/2.0/gm-getian-herald-of-horus.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/4f/Kanjira_Garment2_Poster.png",
+"dst": "assets/img/ver/2.0/gm-kanjira-the-night-visitor.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8b/6_Garment2_Poster.png",
+"dst": "assets/img/ver/2.0/gm-6-time-and-location.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f0/Spathodea_Garment2_Poster.png",
+"dst": "assets/img/ver/2.0/gm-spathodea-onwards-to-victory.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/44/Sputnik_Garment1_Poster.png",
+"dst": "assets/img/ver/2.0/gm-sputnik-eek-eek.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e4/Route_77_The_Haunted_Highway_Banner.png",
+"dst": "assets/img/ver/2.1/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d8/Version_2.1_Global_Poster.png",
+"dst": "assets/img/ver/2.1/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/60/Tuesday_Poster.jpg",
+"dst": "assets/img/ver/2.1/char-tuesday.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/3a/Argus_Poster.jpg",
+"dst": "assets/img/ver/2.1/char-argus.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/91/Barbara_Poster.jpg",
+"dst": "assets/img/ver/2.1/char-barbara.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e4/Route_77_The_Haunted_Highway_Banner.png",
+"dst": "assets/img/ver/2.1/ev-route-77-the-haunted-highway.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/ce/Bedtime_Story_Banner.png",
+"dst": "assets/img/ver/2.1/ev-bedtime-story.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/70/The_Red_Wall_Banner.png",
+"dst": "assets/img/ver/2.1/ev-the-red-wall.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c5/Mane%27s_Bulletin_-_Winter_Special_2.1_Banner.png",
+"dst": "assets/img/ver/2.1/ev-manes-bulletin-winter-special.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f8/Anecdotes_2.1_Banner.png",
+"dst": "assets/img/ver/2.1/ev-where-the-fire-starts.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/cc/Stories_on_the_Route_Banner.png",
+"dst": "assets/img/ver/2.1/ev-uttu-spotlight-edition-stories-on-the-route.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/7e/The_Window_to_Other_Worlds-_A_Series_of_Dusks_2.1_Banner.png",
+"dst": "assets/img/ver/2.1/ev-the-window-to-other-worlds-a-series-of-dusks.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c7/Revival%21_The_Uluru_Games_Rerun_Banner.png",
+"dst": "assets/img/ver/2.1/ev-revival-the-uluru-games-time-limited-rerun.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/65/Gifts_From_Across_the_Equator_Banner.png",
+"dst": "assets/img/ver/2.1/ev-gifts-from-across-the-equator.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/dd/Blue_Lullaby_Banner.png",
+"dst": "assets/img/ver/2.1/su-blue-lullaby.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d7/Shooting_in_the_Dark.png",
+"dst": "assets/img/ver/2.1/su-shooting-in-the-dark.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/aa/Invitation_from_the_Water_Banner.png",
+"dst": "assets/img/ver/2.1/su-invitation-from-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/74/Yearning_of_the_Water_2.1_Banner.png",
+"dst": "assets/img/ver/2.1/su-yearning-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/75/Isolde_Garment2_Poster.png",
+"dst": "assets/img/ver/2.1/gm-isolde-and-all-that-jazz.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/32/Ezra_Garment2_Poster.png",
+"dst": "assets/img/ver/2.1/gm-ezra-yee-haw.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9e/Blonney_Garment2_Poster.png",
+"dst": "assets/img/ver/2.1/gm-blonney-the-giallo-grind.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/5b/TTT_Garment2_Poster.png",
+"dst": "assets/img/ver/2.1/gm-ttt-saturday-special.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c3/Tristes_Tropiques_Banner.png",
+"dst": "assets/img/ver/2.2/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/15/Version_2.2_Global_Poster.png",
+"dst": "assets/img/ver/2.2/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/2c/Anjo_Nala_Poster.jpg",
+"dst": "assets/img/ver/2.2/char-anjo-nala.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/64/Lopera_Poster.jpg",
+"dst": "assets/img/ver/2.2/char-lopera.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d5/Mr._Duncan_Poster.jpg",
+"dst": "assets/img/ver/2.2/char-mr-duncan.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a0/White_Rum_Poster.jpg",
+"dst": "assets/img/ver/2.2/char-white-rum.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c3/Tristes_Tropiques_Banner.png",
+"dst": "assets/img/ver/2.2/ev-tristes-tropiques.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f0/The_Overcast_October_Banner.png",
+"dst": "assets/img/ver/2.2/ev-the-overcast-october.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/29/Into_the_Rainforest_Banner.png",
+"dst": "assets/img/ver/2.2/ev-into-the-rainforest.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/20/Mane%27s_Bulletin_-_Breaking_Catastrophe_2.2_Banner.png",
+"dst": "assets/img/ver/2.2/ev-manes-bulletin-breaking-catastrophe.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b2/Anecdotes_2.2_Banner.png",
+"dst": "assets/img/ver/2.2/ev-a-day-plotted-logarithmically.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/32/Phototaxis-_In_Study_-_Mask_On_Banner.png",
+"dst": "assets/img/ver/2.2/ev-phototaxis-in-study-mask-on.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/79/Ms._NewBabel%27s_Critter_Rehabilitation_Center_Banner.png",
+"dst": "assets/img/ver/2.2/ev-ms-newbabels-critter-rehab-center.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/37/White_Rum%27s_Travelogue_Banner.png",
+"dst": "assets/img/ver/2.2/ev-white-rums-travelogue.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/01/Memo-_Prepare_for_Victory%21_Banner.png",
+"dst": "assets/img/ver/2.2/ev-memo-prepare-for-victory.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/1a/Extraordinary_Journey.png",
+"dst": "assets/img/ver/2.2/ev-task.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a9/Longing_for_Innocence_Banner.png",
+"dst": "assets/img/ver/2.2/su-longing-for-innocence.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c4/Boon_of_the_Water_2.2_Banner.png",
+"dst": "assets/img/ver/2.2/su-boon-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/97/Fledgling%27s_First_Flight_Banner.png",
+"dst": "assets/img/ver/2.2/su-fledglings-first-flight.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/93/37_Garment3_Poster.png",
+"dst": "assets/img/ver/2.2/gm-37-down-in-the-grotto.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/3a/Marcus_Garment2_Poster.png",
+"dst": "assets/img/ver/2.2/gm-marcus-on-the-white-sand.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f4/Vila_Garment2_Poster.png",
+"dst": "assets/img/ver/2.2/gm-vila-by-the-painted-city.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/80/Shamane_Garment2_Poster.png",
+"dst": "assets/img/ver/2.2/gm-shamane-beneath-the-jungle-canopy.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b8/Yenisei_Garment2_Poster.png",
+"dst": "assets/img/ver/2.2/gm-yenisei-around-the-riverbend.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/1d/Poltergeist_Garment2_Poster.png",
+"dst": "assets/img/ver/2.2/gm-poltergeist-under-a-different-sea.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b0/Chronicles_of_Uluru_London_Dawning_Banner.png",
+"dst": "assets/img/ver/2.3/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9a/Version_2.3_Global_Poster.png",
+"dst": "assets/img/ver/2.3/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9c/Willow_Poster.jpg",
+"dst": "assets/img/ver/2.3/char-willow.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/1a/Flutterpage_Poster.jpg",
+"dst": "assets/img/ver/2.3/char-flutterpage.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/51/Brimley_Poster.jpg",
+"dst": "assets/img/ver/2.3/char-brimley.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b0/Chronicles_of_Uluru_London_Dawning_Banner.png",
+"dst": "assets/img/ver/2.3/ev-chronicles-of-uluru-london-dawning.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/3b/Shadow_of_the_Sun_Banner.png",
+"dst": "assets/img/ver/2.3/ev-shadow-of-the-sun.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0c/Night_Escapades_on_Cross_Street_Banner.png",
+"dst": "assets/img/ver/2.3/ev-night-escapades-on-cross-street.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/84/Mane%27s_Bulletin_2.3_Banner.png",
+"dst": "assets/img/ver/2.3/ev-manes-bulletin.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/35/A_Fool%27s_Gold_Banner.png",
+"dst": "assets/img/ver/2.3/ev-a-fools-gold.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/3e/Tourney_in_the_Fog_Banner.png",
+"dst": "assets/img/ver/2.3/ev-uttu-spotlight-edition-tourney-in-the-fog.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c0/The_Window_to_Other_Worlds-_A_Series_of_Dusks_2.3_Banner.png",
+"dst": "assets/img/ver/2.3/ev-the-window-to-other-worlds-a-series-of-dusks.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/4e/Anchors_Aweigh%2C_Free_Breeze%21_Banner.png",
+"dst": "assets/img/ver/2.3/ev-anchors-aweigh-free-breeze.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/91/When_the_Swan_Dances.png",
+"dst": "assets/img/ver/2.3/su-when-the-swan-dances.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/4d/The_Book_of_Whys_Banner.png",
+"dst": "assets/img/ver/2.3/su-the-book-of-whys.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/31/Ripples_in_the_Water_2.3_Banner.png",
+"dst": "assets/img/ver/2.3/su-ripples-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/99/Yearning_of_the_Water_2.3_Banner.png",
+"dst": "assets/img/ver/2.3/su-yearning-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/24/Lilya_Garment3_Poster.png",
+"dst": "assets/img/ver/2.3/gm-lilya-justice-cannot-be-delayed.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/4b/Semmelweis_Garment2_Poster.png",
+"dst": "assets/img/ver/2.3/gm-semmelweis-a-knock-on-the-door.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/1a/Tennant_Garment3_Poster.png",
+"dst": "assets/img/ver/2.3/gm-tennant-dueling-connoisseurs.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/ad/John_Titor_Garment2_Poster.png",
+"dst": "assets/img/ver/2.3/gm-john-titor-race-to-the-finish-line.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/21/Last_Evenings_on_Earth_Banner.png",
+"dst": "assets/img/ver/2.4/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/5c/Version_2.4_Global_Poster.png",
+"dst": "assets/img/ver/2.4/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/56/Barcarola_Poster.jpg",
+"dst": "assets/img/ver/2.4/char-barcarola.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ed/Fatutu_Poster.jpg",
+"dst": "assets/img/ver/2.4/char-fatutu.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/21/Last_Evenings_on_Earth_Banner.png",
+"dst": "assets/img/ver/2.4/ev-last-evenings-on-earth.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/45/Beyond_the_Coastline_Banner.png",
+"dst": "assets/img/ver/2.4/ev-beyond-the-coastline.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e8/From_the_Depths_of_Space.png",
+"dst": "assets/img/ver/2.4/ev-from-the-depths-of-space.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/bc/Nukutaeao_Building_Paradise_Banner.png",
+"dst": "assets/img/ver/2.4/ev-nukutaeao-building-paradise.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/92/Mane%27s_Bulletin_2.4_Banner.png",
+"dst": "assets/img/ver/2.4/ev-manes-bulletin-winter-special.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/77/The_Best_Band_in_Town_Banner.png",
+"dst": "assets/img/ver/2.4/ev-the-best-band-in-town.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/35/Phototaxis-_In_Study_-_Besides_the_Eclipse_Banner.png",
+"dst": "assets/img/ver/2.4/ev-phototaxis-in-study-besides-the-eclipse.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/60/Caller_ID_Unknown_Banner.png",
+"dst": "assets/img/ver/2.4/ev-caller-id-unknown.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/72/Playing_in_Rainbow_Clef_Banner.png",
+"dst": "assets/img/ver/2.4/su-playing-in-rainbow-clef.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/30/A_Shell_on_the_Waves_Banner.png",
+"dst": "assets/img/ver/2.4/su-a-shell-on-the-waves.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/70/Ripples_on_the_Water_2.4_Banner.png",
+"dst": "assets/img/ver/2.4/su-ripples-on-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/56/Yearning_of_the_Water_2.4_Banner.png",
+"dst": "assets/img/ver/2.4/su-yearning-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/ad/6_Garment3_Poster.jpg",
+"dst": "assets/img/ver/2.4/gm-6-by-the-razed-polis.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9e/Fatutu_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.4/gm-fatutu-casa-on-the-curved-lines.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9f/Kakania_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.4/gm-kakania-seminars-on-serenity.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/83/Ms._NewBabel_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.4/gm-ms-newbabel-raise-the-bid.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6c/Necrologist_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.4/gm-necrologist-a-voyage-with-no-return.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d2/Mercuria_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.4/gm-mercuria-midnight-mistmancer.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/54/Mondlicht_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.4/gm-mondlicht-silver-schirm.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/5a/Showdown_in_Chinatown_Banner.png",
+"dst": "assets/img/ver/2.5/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/fb/Version_2.5_Global_Poster.jpg",
+"dst": "assets/img/ver/2.5/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f1/Liang_Yue_Poster.jpg",
+"dst": "assets/img/ver/2.5/char-liang-yue.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/16/Noire_Poster.jpg",
+"dst": "assets/img/ver/2.5/char-noire.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/1a/Loggerhead_Poster.jpg",
+"dst": "assets/img/ver/2.5/char-loggerhead.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/5a/Showdown_in_Chinatown_Banner.png",
+"dst": "assets/img/ver/2.5/ev-showdown-in-chinatown.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/2a/Sow_and_Reap_Banner.png",
+"dst": "assets/img/ver/2.5/ev-sow-and-reap.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d2/The_Great_Trickster_Banner.png",
+"dst": "assets/img/ver/2.5/ev-the-great-trickster.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0f/Mane%27s_Bulletin_2.5_Banner.png",
+"dst": "assets/img/ver/2.5/ev-manes-bulletin.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/19/The_Ghost_Master_Banner.png",
+"dst": "assets/img/ver/2.5/ev-the-ghost-master.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/95/Critter_Crash_Banner.png",
+"dst": "assets/img/ver/2.5/ev-critter-crash.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e8/When_the_Alarm_Sounds_Banner.png",
+"dst": "assets/img/ver/2.5/ev-when-the-alarm-sounds.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/2e/Notes_on_Shuori_Rerun_Banner.png",
+"dst": "assets/img/ver/2.5/ev-notes-on-shuori-time-limited-rerun.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8b/Moonbeam_Guardian_Banner.png",
+"dst": "assets/img/ver/2.5/su-moonbeam-guardian.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/44/A_Life_in_Montage_Banner.png",
+"dst": "assets/img/ver/2.5/su-a-life-in-montage.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/ff/Till_the_Last_Drop_Banner.png",
+"dst": "assets/img/ver/2.5/su-till-the-last-drop-rerun.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8d/Revelation_of_the_Water_Banner.png",
+"dst": "assets/img/ver/2.5/su-revelation-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a6/Ripples_on_the_Water_2.5_Banner.png",
+"dst": "assets/img/ver/2.5/su-ripples-on-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/92/Jiu_Niangzi_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.5/gm-jiu-niangzi-blossom-spring-fairy.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/7d/Sotheby_Garment3_Poster.jpg",
+"dst": "assets/img/ver/2.5/gm-sotheby-the-red-thread-of-fate.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e9/Tuesday_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.5/gm-tuesday-story-of-the-jade-vase.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/71/Windsong_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.5/gm-windsong-records-from-the-jade-hunt.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/87/Druvis_III_Garment3_Poster.jpg",
+"dst": "assets/img/ver/2.5/gm-druvis-iii-shrouded-in-thorns.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8d/The_Fool_Garment1_Poster.jpg",
+"dst": "assets/img/ver/2.5/gm-the-fool-the-shadow-play-master.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b5/Folie_et_D%C3%A9raison_Banner.png",
+"dst": "assets/img/ver/2.6/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/95/Version_2.6_Global_Poster.jpg",
+"dst": "assets/img/ver/2.6/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/fa/Recoleta_Poster.jpg",
+"dst": "assets/img/ver/2.6/char-recoleta.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c8/Aleph_Poster.jpg",
+"dst": "assets/img/ver/2.6/char-aleph.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b5/Folie_et_D%C3%A9raison_Banner.png",
+"dst": "assets/img/ver/2.6/ev-folie-et-deraison.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/46/Ruinas_Gloriosas_y_Directrices_de_Met%C3%A1foras_Banner.png",
+"dst": "assets/img/ver/2.6/ev-ruinas-gloriosas-y-directrices-de-metaforas.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/57/The_Answering_Machine%2C_the_Butterfly%2C_and_the_Literary_Critic_Banner.png",
+"dst": "assets/img/ver/2.6/ev-the-answering-machine-the-butterfly-and-the-literary-critic.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/95/Mane%27s_Bulletin_2.6_Banner.png",
+"dst": "assets/img/ver/2.6/ev-manes-bulletin.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e0/The_Last_Film_Banner.png",
+"dst": "assets/img/ver/2.6/ev-the-last-film.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/54/Phototaxis-_In_Study_-_Beyond_the_Boundaries_Banner.png",
+"dst": "assets/img/ver/2.6/ev-phototaxis-in-study-beyond-the-boundaries.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/60/Farewell%2C_Rayashki_Rerun_Banner.png",
+"dst": "assets/img/ver/2.6/ev-farewell-rayashki-time-limited-rerun.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b4/Lucidscape_Banner.png",
+"dst": "assets/img/ver/2.6/ev-lucidscape.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0b/Somnambulism_Evolved_Banner.png",
+"dst": "assets/img/ver/2.6/ev-somnambulism-evolved.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f6/A_Series_of_Dusks_2.6_Banner.png",
+"dst": "assets/img/ver/2.6/ev-a-series-of-dusks-the-effervescent-silence.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9b/A_Writing_Writer_Written_Banner.png",
+"dst": "assets/img/ver/2.6/su-a-writing-writer-written.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d9/The_Shattered_Product_Banner.png",
+"dst": "assets/img/ver/2.6/su-the-shattered-product.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b7/Ripples_on_the_Water_2.6_Banner.png",
+"dst": "assets/img/ver/2.6/su-ripples-on-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/7b/Yearning_of_the_Water_2.6_Banner.png",
+"dst": "assets/img/ver/2.6/su-yearning-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e1/Willow_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.6/gm-willow-the-last-portent.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/26/Lopera_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.6/gm-lopera-friend-of-the-splintercat.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/28/Melania_Garment3_Poster.jpg",
+"dst": "assets/img/ver/2.6/gm-melania-red-and-white.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/5a/Erick_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.6/gm-erick-oaths-and-bonuses.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/66/1987_Cosmic_Overture_Banner.png",
+"dst": "assets/img/ver/2.7/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/74/Version_2.7_Global_Poster.jpg",
+"dst": "assets/img/ver/2.7/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/31/Hissabeth_Poster.jpg",
+"dst": "assets/img/ver/2.7/char-hissabeth.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/de/Kiperina_Poster.jpg",
+"dst": "assets/img/ver/2.7/char-kiperina.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/60/Name_Day_Poster.jpg",
+"dst": "assets/img/ver/2.7/char-name-day.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/66/1987_Cosmic_Overture_Banner.png",
+"dst": "assets/img/ver/2.7/ev-1987-cosmic-overture.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f5/Gap_Month_Banner.png",
+"dst": "assets/img/ver/2.7/ev-gap-month.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/2f/Doomsday_%26_The_Days_After_Banner.png",
+"dst": "assets/img/ver/2.7/ev-doomsday-the-days-after.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/58/Friendly_Match_Banner.png",
+"dst": "assets/img/ver/2.7/ev-puppet-arena-friendly-match.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c5/The_Sea_Breeze_Still_Whispers_Banner.png",
+"dst": "assets/img/ver/2.7/ev-the-sea-breeze-still-whispers.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/11/When_the_Alarm_Sounds_2.7_Banner.png",
+"dst": "assets/img/ver/2.7/ev-when-the-alarm-sounds.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/66/Floor_It%21_To_the_Golden_City_Rerun_Banner.png",
+"dst": "assets/img/ver/2.7/ev-floor-it-to-the-golden-city-time-limited-rerun.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/75/Maritime_Rescue_Banner.png",
+"dst": "assets/img/ver/2.7/ev-maritime-rescue.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/50/In_the_Margins_of_History_Banner.png",
+"dst": "assets/img/ver/2.7/ev-in-the-margins-of-history.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/18/Serpentine_Century_Banner.png",
+"dst": "assets/img/ver/2.7/su-serpentine-century.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/ba/Wirewalking_in_Zero_Gravity_Banner.png",
+"dst": "assets/img/ver/2.7/su-wirewalking-on-zero-gravity.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/ad/Ripples_on_the_Water_2.7_Banner.png",
+"dst": "assets/img/ver/2.7/su-ripples-on-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/68/Yearning_of_the_Water_2.7_%26_AC_Collab_Banner.png",
+"dst": "assets/img/ver/2.7/su-yearning-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f2/Barcarola_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.7/gm-barcarola-asteroid-allegro.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/4a/Argus_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.7/gm-argus-starbound-bounty-hunter.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f1/Voyager_Garment3_Poster.jpg",
+"dst": "assets/img/ver/2.7/gm-voyager-choir-of-the-stars.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/ad/Rabies_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.7/gm-rabies-space-traveler.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ef/Paradise_Regained_Banner.png",
+"dst": "assets/img/ver/2.8/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/67/Version_2.8_Global_Poster.jpg",
+"dst": "assets/img/ver/2.8/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/04/Nautika_Poster.jpg",
+"dst": "assets/img/ver/2.8/char-nautika.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d2/Moldir_Poster.jpg",
+"dst": "assets/img/ver/2.8/char-moldir.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/37/Ulrich_Poster.jpg",
+"dst": "assets/img/ver/2.8/char-ulrich.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f0/Buddy_Fairchild_Poster.jpg",
+"dst": "assets/img/ver/2.8/char-buddy-fairchild.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ef/Paradise_Regained_Banner.png",
+"dst": "assets/img/ver/2.8/ev-paradise-regained.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/53/In_Her_Own_Reflection_Banner.png",
+"dst": "assets/img/ver/2.8/ev-in-her-own-reflection.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/73/A_Moment_on_the_White_Expanse_Banner.png",
+"dst": "assets/img/ver/2.8/ev-a-moment-on-the-white-expanse.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b4/Pre-Storm_Protocol_Banner.png",
+"dst": "assets/img/ver/2.8/ev-pre-storm-protocol.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/60/Away_From_Home_Banner.png",
+"dst": "assets/img/ver/2.8/ev-away-from-home.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ef/Critter_Crash_Strategic_Team-Building_Mode_Banner.png",
+"dst": "assets/img/ver/2.8/ev-critter-crash-strategic-team-building-mode.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ee/When_the_Alarm_Sounds_2.8_Banner.png",
+"dst": "assets/img/ver/2.8/ev-when-the-alarm-sounds.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/dc/A_Letter_from_No_Man%27s_Land_Banner.png",
+"dst": "assets/img/ver/2.8/ev-a-letter-from-no-mans-land.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/83/The_Myth_at_Her_Fingertips_Banner.png",
+"dst": "assets/img/ver/2.8/su-the-myth-at-her-fingertips.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/1a/From_the_Ruin_of_the_Past_Banner.png",
+"dst": "assets/img/ver/2.8/su-from-the-ruin-of-the-past.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d0/Thoughts_in_Cylinder_Banner.png",
+"dst": "assets/img/ver/2.8/su-thoughts-in-cylinder-rerun.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d6/Ripples_on_the_Water_2.8_Banner.png",
+"dst": "assets/img/ver/2.8/su-ripples-on-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/96/Promise_of_the_Water_2.8_Banner.png",
+"dst": "assets/img/ver/2.8/su-promise-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/5f/Lucy_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.8/gm-lucy-the-queens-game.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/38/Recoleta_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.8/gm-recoleta-the-knight-of-la-mancha.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/15/Kiperina_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.8/gm-kiperina-the-universe-in-the-rooks-shell.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e6/Ulrich_Garment2_Poster.jpg",
+"dst": "assets/img/ver/2.8/gm-ulrich-a-glimpse-of-the-cosmos.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/15/Jessica_Garment3_Poster.jpg",
+"dst": "assets/img/ver/2.8/gm-jessica-the-sound-of-paradise.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/ce/Twins_Sleep_Garment1_Poster.jpg",
+"dst": "assets/img/ver/2.8/gm-twins-sleep-the-pawns-promotional-waltz.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a0/A_Long_Long_Way_Banner.png",
+"dst": "assets/img/ver/3.0/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d2/Version_3.0_Global_Poster.jpg",
+"dst": "assets/img/ver/3.0/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d9/Sentinel_Poster.jpg",
+"dst": "assets/img/ver/3.0/char-sentinel.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b3/Charon_Poster.jpg",
+"dst": "assets/img/ver/3.0/char-charon.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a0/A_Long_Long_Way_Banner.png",
+"dst": "assets/img/ver/3.0/ev-a-long-long-way.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/02/Dawn_Rises_Over_the_Kill_Zone_Banner.png",
+"dst": "assets/img/ver/3.0/ev-dawn-rises-over-the-kill-zone.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/67/Fuga_a_3_Soggetti_Banner.png",
+"dst": "assets/img/ver/3.0/ev-fuga-a-3-soggetti.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/97/War_Room_Banner.png",
+"dst": "assets/img/ver/3.0/ev-war-room-story-expansion-system.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/77/Mane%27s_Bulletin_3.0_Banner.png",
+"dst": "assets/img/ver/3.0/ev-manes-bulletin.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/81/The_Diamond_Con_Banner.png",
+"dst": "assets/img/ver/3.0/ev-the-diamond-con.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/70/Ruins_and_Renewal_Banner.png",
+"dst": "assets/img/ver/3.0/ev-uttu-flash-gathering-ruins-and-renewal.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/80/Chronicles_of_Uluru_London_Dawning_Rerun_Banner.png",
+"dst": "assets/img/ver/3.0/ev-chronicles-of-uluru-london-dawning-time-limited-rerun.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ee/Steam_Whistle_Prelude_Banner.png",
+"dst": "assets/img/ver/3.0/ev-steam-whistle-prelude.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8d/A_Beating_Heart_Beneath_the_Stone_Banner.png",
+"dst": "assets/img/ver/3.0/su-a-beating-heart-beneath-the-stone.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/39/The_Mourner%27s_Eulogy_Banner.png",
+"dst": "assets/img/ver/3.0/su-the-mourners-eulogy.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/75/Ripples_on_the_Water_3.0_Banner.png",
+"dst": "assets/img/ver/3.0/su-ripples-on-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/73/Yearning_of_the_Water_3.0_Banner.png",
+"dst": "assets/img/ver/3.0/su-yearning-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/62/J_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.0/gm-j-the-lone-wolfs-howl.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/5a/Flutterpage_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.0/gm-flutterpage-gently-comes-the-thawing-breeze.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b9/Semmelweis_Garment3_Poster.jpg",
+"dst": "assets/img/ver/3.0/gm-semmelweis-the-wax-and-wane-of-the-heart.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/93/Ms._Radio_Garment1_Poster.jpg",
+"dst": "assets/img/ver/3.0/gm-ms-radio-lifeline-of-the-battlefield.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/08/The_Midnight_Whistle_Banner.png",
+"dst": "assets/img/ver/3.1/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/4e/Version_3.1_Global_Poster.jpg",
+"dst": "assets/img/ver/3.1/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/80/Rubuska_Poster.jpg",
+"dst": "assets/img/ver/3.1/char-rubuska.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ef/Corvus_Poster.jpg",
+"dst": "assets/img/ver/3.1/char-corvus.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/08/The_Midnight_Whistle_Banner.png",
+"dst": "assets/img/ver/3.1/ev-the-midnight-whistle.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f2/A_Shadow%27s_Weight_Banner.png",
+"dst": "assets/img/ver/3.1/ev-a-shadows-weight.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/dd/Cold_Steel_Banner.png",
+"dst": "assets/img/ver/3.1/ev-cold-steel.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/5c/War_Room_3.1_Banner.png",
+"dst": "assets/img/ver/3.1/ev-war-room-story-expansion-system.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0b/Mane%27s_Bulletin_3.1_Banner.png",
+"dst": "assets/img/ver/3.1/ev-manes-bulletin.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/06/The_Tombstone_Museum_Banner.png",
+"dst": "assets/img/ver/3.1/ev-the-tombstone-museum.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f7/Pre-Storm_Protocol_3.1_Banner.png",
+"dst": "assets/img/ver/3.1/ev-pre-storm-protocol.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a7/Artefact_Masters_Banner.png",
+"dst": "assets/img/ver/3.1/ev-puppet-arena-artefact-masters.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b9/Last_Evenings_on_Earth_Rerun_Banner.png",
+"dst": "assets/img/ver/3.1/ev-last-evenings-on-earth-time-limited-rerun.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/11/Salut%2C_Paname_Banner.png",
+"dst": "assets/img/ver/3.1/ev-salut-paname.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8e/The_Midnight_Flutist_Banner.png",
+"dst": "assets/img/ver/3.1/su-the-midnight-flutist.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/86/The_Land%27s_Iron_Stitch_Banner.png",
+"dst": "assets/img/ver/3.1/su-the-lands-iron-stitch.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/fd/Ripples_on_the_Water_3.1_Banner.png",
+"dst": "assets/img/ver/3.1/su-ripples-on-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f4/Yearning_of_the_Water_3.1_Banner.png",
+"dst": "assets/img/ver/3.1/su-yearning-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/be/Covenant_of_the_Water_Banner.png",
+"dst": "assets/img/ver/3.1/su-covenant-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/bd/Aleph_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.1/gm-aleph-a-feast-of-imagery.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8f/Windsong_Garment3_Poster.jpg",
+"dst": "assets/img/ver/3.1/gm-windsong-the-nightmares-trespasser.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/2a/Mercuria_Garment3_Poster.jpg",
+"dst": "assets/img/ver/3.1/gm-mercuria-the-nightmares-carol.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/5d/A_Knight_Garment3_Poster.jpg",
+"dst": "assets/img/ver/3.1/gm-a-knight-the-evergreen-soul.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/78/Cristallo_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.1/gm-cristallo-a-dream-in-stained-glass.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6e/A_Flowing_Feast_Banner.png",
+"dst": "assets/img/ver/3.2/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/dd/Version_3.2_Global_Poster.jpg",
+"dst": "assets/img/ver/3.2/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f4/Beryl_Poster.jpg",
+"dst": "assets/img/ver/3.2/char-beryl.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/29/Brume_Poster.jpg",
+"dst": "assets/img/ver/3.2/char-brume.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6e/A_Flowing_Feast_Banner.png",
+"dst": "assets/img/ver/3.2/ev-a-flowing-feast.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/1a/The_Long_Rain_of_Fate_Banner.png",
+"dst": "assets/img/ver/3.2/ev-the-long-rain-of-fate.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/be/An_Unheated_Gem_Banner.png",
+"dst": "assets/img/ver/3.2/ev-an-unheated-gem.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/92/War_Room_3.2_Banner.png",
+"dst": "assets/img/ver/3.2/ev-war-room-story-expansion-system.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/30/The_Syndrome_of_Silence_3.2_Banner.png",
+"dst": "assets/img/ver/3.2/ev-the-syndrome-of-silence.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/79/Mane%27s_Bulletin_3.2_Banner.png",
+"dst": "assets/img/ver/3.2/ev-manes-bulletin.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/06/Handover_Day_Banner.png",
+"dst": "assets/img/ver/3.2/ev-handover-day.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8a/Snapshot_Udimorium_Banner.png",
+"dst": "assets/img/ver/3.2/ev-snapshot-udimorium-udimo-idle-gameplay.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/54/Critter_Crash_Rimet_Cup_Sticker_Edition_Banner.png",
+"dst": "assets/img/ver/3.2/ev-critter-crash.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/ae/The_Steppe_Before_the_Flames_Banner.png",
+"dst": "assets/img/ver/3.2/ev-the-steppe-before-the-flames.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c4/On_Fate%27s_Cue_Banner.png",
+"dst": "assets/img/ver/3.2/su-on-fates-cue.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/4e/The_Brilliance_Within_Banner.png",
+"dst": "assets/img/ver/3.2/su-the-brilliance-within.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a9/Longing_for_Innocence_Banner.png",
+"dst": "assets/img/ver/3.2/su-longing-for-innocence-rerun.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0d/Ripples_on_the_Water_3.2_Banner.png",
+"dst": "assets/img/ver/3.2/su-ripples-on-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/ac/Boon_of_the_Water_3.2_Banner.png",
+"dst": "assets/img/ver/3.2/su-boon-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e5/Anjo_Nala_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.2/gm-anjo-nala-forbidden-fruit.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/59/Isolde_Garment3_Poster.jpg",
+"dst": "assets/img/ver/3.2/gm-isolde-the-last-fluttering-beat.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/4f/Kaalaa_Baunaa_Garment3_Poster.jpg",
+"dst": "assets/img/ver/3.2/gm-kaalaa-baunaa-till-the-sun-falls.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/bd/Kakania_Garment3_Poster.jpg",
+"dst": "assets/img/ver/3.2/gm-kakania-guardian-of-the-broken.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/da/Pioneer_Garment1_Poster.jpg",
+"dst": "assets/img/ver/3.2/gm-pioneer-idol-fascinations.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6f/The_Campaign%27s_Tale_Banner.png",
+"dst": "assets/img/ver/3.3/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9e/Version_3.3_Global_Poster.jpg",
+"dst": "assets/img/ver/3.3/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ec/Marsha_Poster.jpg",
+"dst": "assets/img/ver/3.3/char-marsha.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/ba/Igor_Poster.jpg",
+"dst": "assets/img/ver/3.3/char-igor.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6f/The_Campaign%27s_Tale_Banner.png",
+"dst": "assets/img/ver/3.3/ev-the-campaigns-tale.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0a/In_the_Name_of_Chivalry_Banner.png",
+"dst": "assets/img/ver/3.3/ev-in-the-name-of-chivalry.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/ff/Into_the_Maelstrom_Banner.png",
+"dst": "assets/img/ver/3.3/ev-into-the-maelstrom.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/90/War_Room_3.3_Banner.png",
+"dst": "assets/img/ver/3.3/ev-war-room-story-expansion-system.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0f/The_Syndrome_of_Silence_3.3_Banner.png",
+"dst": "assets/img/ver/3.3/ev-the-syndrome-of-silence.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6c/Tides_of_Thought_Banner.png",
+"dst": "assets/img/ver/3.3/ev-tides-of-thought.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ee/The_Tides_Brewing_Misfortune_Banner.png",
+"dst": "assets/img/ver/3.3/ev-the-tides-brewing-misfortune.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/87/Mane%27s_Bulletin_3.3_Banner.png",
+"dst": "assets/img/ver/3.3/ev-manes-bulletin.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c9/In_the_Shadow_of_the_Mountains_Banner.png",
+"dst": "assets/img/ver/3.3/ev-in-the-shadow-of-the-mountains.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0d/8-Bit_Arcade_Remix_Banner.png",
+"dst": "assets/img/ver/3.3/ev-8-bit-arcade-remix.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8e/%22Special_Issue_on_the_East-_Huanzhou_Spring%22_Banner.png",
+"dst": "assets/img/ver/3.3/ev-special-issue-on-the-east-huanzhou-spring.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/3e/The_Oath_Unyielding_Banner.png",
+"dst": "assets/img/ver/3.3/su-the-oath-unyielding.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8d/Witness_of_Iron_and_Blood_Banner.png",
+"dst": "assets/img/ver/3.3/su-witness-of-iron-and-blood.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b3/Ripples_on_the_Water_3.3_Banner.png",
+"dst": "assets/img/ver/3.3/su-ripples-on-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0a/Yearning_of_the_Water_3.3_Banner.png",
+"dst": "assets/img/ver/3.3/su-yearning-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e5/Sentinel_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.3/gm-sentinel-by-reflections-witnessed.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a8/Moldir_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.3/gm-moldir-idyll-of-the-luberon.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/29/Medicine_Pocket_Garment3_Poster.jpg",
+"dst": "assets/img/ver/3.3/gm-medicine-pocket-forever-is-too-short.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c0/Bunny_Bunny_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.3/gm-bunny-bunny-service-fit-for-royalty.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/df/Spring_Unending_Banner.png",
+"dst": "assets/img/ver/3.4/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/23/Version_3.4_Global_Poster.jpg",
+"dst": "assets/img/ver/3.4/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/19/Paper_Heron_Poster.jpg",
+"dst": "assets/img/ver/3.4/char-paper-heron.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d9/Cheng_Heguang_Poster.jpg",
+"dst": "assets/img/ver/3.4/char-cheng-heguang.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/df/Reed_Poster.jpg",
+"dst": "assets/img/ver/3.4/char-reed.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/df/Spring_Unending_Banner.png",
+"dst": "assets/img/ver/3.4/ev-spring-unending.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/fc/Spring_Comes_Slowly_Banner.png",
+"dst": "assets/img/ver/3.4/ev-spring-comes-slowly.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6e/To_Slay_a_Tiger_Banner.png",
+"dst": "assets/img/ver/3.4/ev-to-slay-a-tiger.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/1c/War_Room_3.4_Banner.png",
+"dst": "assets/img/ver/3.4/ev-war-room-story-expansion-system.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/54/Tides_of_Thought_3.4_Banner.png",
+"dst": "assets/img/ver/3.4/ev-tides-of-thought.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f6/Mane%27s_Bulletin_3.4_Banner.png",
+"dst": "assets/img/ver/3.4/ev-manes-bulletin.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/31/A_Song_Once_Heard_Banner.png",
+"dst": "assets/img/ver/3.4/ev-a-song-once-heard.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/7e/Musae%27s_Arcade_Banner.png",
+"dst": "assets/img/ver/3.4/ev-musaes-arcade.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/cf/Showdown_in_Chinatown_Rerun_Banner.png",
+"dst": "assets/img/ver/3.4/ev-showdown-in-chinatown-time-limited-rerun.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d8/Carvings_on_the_Sun_Stone_Banner.png",
+"dst": "assets/img/ver/3.4/ev-carvings-on-the-sun-stone.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/26/Her_Heart-Cut_Spring_Banner.png",
+"dst": "assets/img/ver/3.4/su-her-heart-cut-spring.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b1/Soaring_Aspirations_Banner.png",
+"dst": "assets/img/ver/3.4/su-soaring-aspirations.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8b/Moonbeam_Guardian_Banner.png",
+"dst": "assets/img/ver/3.4/su-moonbeam-guardian-rerun.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8d/Revelation_of_the_Water_Banner.png",
+"dst": "assets/img/ver/3.4/su-revelation-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ee/Liang_Yue_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.4/gm-liang-yue-the-moons-reflection.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/20/Tooth_Fairy_Garment4_Poster.jpg",
+"dst": "assets/img/ver/3.4/gm-tooth-fairy-the-woven-legend.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/cd/Rubuska_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.4/gm-rubuska-song-of-the-shadow-dancer.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b8/Noire_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.4/gm-noire-the-trapped-trapmaster.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c6/6_Garment4_Poster.jpg",
+"dst": "assets/img/ver/3.4/gm-6-a-hymn-to-seclusion.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/5b/Horropedia_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.4/gm-horropedia-a-daoists-madness.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/dd/The_Turquoise_Serpent_Club_Banner.png",
+"dst": "assets/img/ver/3.5/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/ec/Version_3.5_Global_Poster.jpg",
+"dst": "assets/img/ver/3.5/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/55/Lorentz_Butterfly_Poster.jpg",
+"dst": "assets/img/ver/3.5/char-lorentz-butterfly.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/10/Ramona_Poster.jpg",
+"dst": "assets/img/ver/3.5/char-ramona.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/dd/The_Turquoise_Serpent_Club_Banner.png",
+"dst": "assets/img/ver/3.5/ev-the-turquoise-serpent-club.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6c/Counterpoint_of_Life_and_Death_Banner.png",
+"dst": "assets/img/ver/3.5/ev-counterpoint-of-life-and-death.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/21/Whirling_Blooms_Banner.png",
+"dst": "assets/img/ver/3.5/ev-whirling-blooms.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/47/War_Room_3.5_Banner.png",
+"dst": "assets/img/ver/3.5/ev-war-room-story-expansion-system.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6b/Pre-Storm_Protocol_3.5_Banner.png",
+"dst": "assets/img/ver/3.5/ev-pre-storm-protocol.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/54/Tides_of_Thought_3.4_Banner.png",
+"dst": "assets/img/ver/3.5/ev-tides-of-thought.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9f/Mane%27s_Bulletin_3.5_Banner.png",
+"dst": "assets/img/ver/3.5/ev-manes-bulletin.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/68/Critter_Crash_3.5_Banner.png",
+"dst": "assets/img/ver/3.5/ev-critter-crash.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/45/All_the_World%27s_a_Chip_Banner.png",
+"dst": "assets/img/ver/3.5/ev-all-the-worlds-a-chip.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/9f/Odes_to_the_Spirits_Banner.png",
+"dst": "assets/img/ver/3.5/ev-uttu-spotlight-edition-odes-to-the-spirits.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/89/1987_Cosmic_Overture_Rerun_Banner.png",
+"dst": "assets/img/ver/3.5/ev-1987-cosmic-overture-time-limited-rerun.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a2/Still_Stands_the_Silver_Tower_Banner.png",
+"dst": "assets/img/ver/3.5/ev-still-stands-the-silver-tower.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/be/The_Strange_Attractor_Banner.png",
+"dst": "assets/img/ver/3.5/su-the-strange-attractor.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a9/Conduit_of_the_Unseen_Banner.png",
+"dst": "assets/img/ver/3.5/su-conduit-of-the-unseen.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/30/Ripples_on_the_Water_3.5_Banner.png",
+"dst": "assets/img/ver/3.5/su-ripples-on-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/fb/Yearning_of_the_Water_3.5_Banner.png",
+"dst": "assets/img/ver/3.5/su-yearning-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c8/Corvus_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.5/gm-corvus-burning-away-tears.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d4/Kiperina_Garment3_Poster.jpg",
+"dst": "assets/img/ver/3.5/gm-kiperina-a-utopia-in-painted-glass.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/a8/Tuesday_Garment3_Poster.jpg",
+"dst": "assets/img/ver/3.5/gm-tuesday-cold-cradle.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b6/Nick_Bottom_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.5/gm-nick-bottom-bottoms-dream.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/18/Last_and_First_Principles_Banner.png",
+"dst": "assets/img/ver/3.6/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/39/Version_3.6_Global_Poster.jpg",
+"dst": "assets/img/ver/3.6/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/fa/Enigma_Poster.jpg",
+"dst": "assets/img/ver/3.6/char-enigma.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/18/Last_and_First_Principles_Banner.png",
+"dst": "assets/img/ver/3.6/ev-last-and-first-principles.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c6/Complete_Induction_Banner.jpg",
+"dst": "assets/img/ver/3.6/ev-complete-induction.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/7b/War_Room_3.6_Banner.png",
+"dst": "assets/img/ver/3.6/ev-war-room-story-expansion-system.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/23/Mane%27s_Bulletin_3.6_Banner.png",
+"dst": "assets/img/ver/3.6/ev-manes-bulletin.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/51/Focused_Flashback_3.6_Banner.png",
+"dst": "assets/img/ver/3.6/ev-focused-flashback.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/73/Welcome_to_the_Future_Banner.png",
+"dst": "assets/img/ver/3.6/ev-welcome-to-the-future.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/dc/On_Another%27s_Sorrow_Banner.png",
+"dst": "assets/img/ver/3.7/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/7a/Version_3.7_Global_Poster.jpg",
+"dst": "assets/img/ver/3.7/poster.webp",
+"max_w": 1000,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/c5/Rhiannon_Poster.jpg",
+"dst": "assets/img/ver/3.7/char-rhiannon.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e2/Ms._Stranger_Poster.jpg",
+"dst": "assets/img/ver/3.7/char-ms-stranger.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6e/Copp%C3%A9lia_Poster.jpg",
+"dst": "assets/img/ver/3.7/char-coppelia.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/49/Silverwing_Eagle_Poster.jpg",
+"dst": "assets/img/ver/3.7/char-silverwing-eagle.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/24/Lady_by_the_Lake_Poster.jpg",
+"dst": "assets/img/ver/3.7/char-lady-by-the-lake.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/dc/On_Another%27s_Sorrow_Banner.png",
+"dst": "assets/img/ver/3.7/ev-on-anothers-sorrow.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/3d/The_You_That%27s_Meant_to_Be_Banner.png",
+"dst": "assets/img/ver/3.7/ev-the-you-thats-meant-to-be.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/85/A_Stranger_to_Memory_Lane_Banner.png",
+"dst": "assets/img/ver/3.7/ev-a-stranger-to-memory-lane.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/0/0a/War_Room_3.7_Banner.png",
+"dst": "assets/img/ver/3.7/ev-war-room-story-expansion-system.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/51/Archetype_Tutorial_Banner.png",
+"dst": "assets/img/ver/3.7/ev-archetype-tutorial.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6c/Mane%27s_Bulletin_3.7_Banner.png",
+"dst": "assets/img/ver/3.7/ev-manes-bulletin.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/f5/The_Syndrome_of_Silence_3.7_Banner.png",
+"dst": "assets/img/ver/3.7/ev-the-syndrome-of-silence.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/7b/The_Eaglet_Takes_Wing_Banner.png",
+"dst": "assets/img/ver/3.7/ev-the-eaglet-takes-wing.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/49/Truth_a_Posteriori_Banner.png",
+"dst": "assets/img/ver/3.7/ev-truth-a-posteriori.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/de/Focused_Flashback_3.7_Banner.png",
+"dst": "assets/img/ver/3.7/ev-focused-flashback.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/25/Beach_Battle_Banner.png",
+"dst": "assets/img/ver/3.7/ev-8-bit-arcade-remix-beach-battle.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6c/What_Does_a_Brick_Want_Banner.png",
+"dst": "assets/img/ver/3.7/ev-what-does-a-brick-want.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/99/A_Newly_Hatched_Chapter_Banner.png",
+"dst": "assets/img/ver/3.7/su-a-newly-hatched-chapter.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/eb/Beneath_the_Guise_of_Her_Cocoon_Banner.png",
+"dst": "assets/img/ver/3.7/su-beneath-the-guise-of-her-cocoon.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/83/The_Myth_at_Her_Fingertips_Banner.png",
+"dst": "assets/img/ver/3.7/su-the-myth-at-her-fingertips-rerun.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/a/ae/Ripples_on_the_Water_3.7_Banner.png",
+"dst": "assets/img/ver/3.7/su-ripples-on-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/25/Promise_of_the_Water_3.7_Banner.png",
+"dst": "assets/img/ver/3.7/su-promise-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/26/Copp%C3%A9lia_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.7/gm-coppelia-sounds-that-wake-her.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/fa/Nautika_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.7/gm-nautika-from-darkness-light.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/18/Fatutu_Garment3_Poster.jpg",
+"dst": "assets/img/ver/3.7/gm-fatutu-fragments-of-an-old-dream.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/4/46/Charon_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.7/gm-charon-gift-of-the-dead.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b6/37_Garment4_Poster.jpg",
+"dst": "assets/img/ver/3.7/gm-37-a-gift-of-nourishment.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/2/2b/Name_Day_Garment2_Poster.jpg",
+"dst": "assets/img/ver/3.7/gm-name-day-the-deathless-quiet.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/17/AC_Collab_Banner.png",
+"dst": "assets/img/ver/S01/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/13/Ezio_Auditore_Poster.jpg",
+"dst": "assets/img/ver/S01/char-ezio-auditore.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/9/96/Kassandra_Poster.jpg",
+"dst": "assets/img/ver/S01/char-kassandra.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/8a/Alexios_Poster.jpg",
+"dst": "assets/img/ver/S01/char-alexios.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/7/7d/La_Primavera_di_Firenze_Banner.png",
+"dst": "assets/img/ver/S01/ev-la-primavera-di-firenze.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/b/b3/Drama_in_Athens_Banner.png",
+"dst": "assets/img/ver/S01/ev-drama-in-athens.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/3/3b/Stage_Beyond_Sunlight_Banner.png",
+"dst": "assets/img/ver/S01/ev-stage-beyond-sunlight.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/5b/Mane%27s_Bulletin_Eagle_Vision_Edition_Banner.png",
+"dst": "assets/img/ver/S01/ev-manes-bulletin-eagle-vision-edition.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/8/86/Route_77_The_Haunted_Highway_Rerun_Banner.png",
+"dst": "assets/img/ver/S01/ev-route-77-the-haunted-highway-time-limited-rerun.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e2/A_Message_on_the_Roaring_Wind_Banner.png",
+"dst": "assets/img/ver/S01/ev-a-message-on-the-roaring-wind.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/df/A_Prophet_Guided_by_Time_Banner.png",
+"dst": "assets/img/ver/S01/su-a-prophet-guided-by-time.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/6a/Wine-Dark_Reflections_of_the_Eagle_Banner.png",
+"dst": "assets/img/ver/S01/su-wine-dark-reflections-of-the-eagle.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/6/68/Yearning_of_the_Water_2.7_%26_AC_Collab_Banner.png",
+"dst": "assets/img/ver/S01/su-yearning-of-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/5/59/Ripples_on_the_Water_AC_Collab_Banner.png",
+"dst": "assets/img/ver/S01/su-ripples-on-the-water.webp",
+"max_w": 1400,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d5/Hissabeth_Garment2_Poster.jpg",
+"dst": "assets/img/ver/S01/gm-hissabeth-serpentine-primavera.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/c/ca/Marcus_Garment3_Poster.jpg",
+"dst": "assets/img/ver/S01/gm-marcus-to-the-gates-of-the-underworld.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/d/d0/Vila_Garment3_Poster.jpg",
+"dst": "assets/img/ver/S01/gm-vila-daughter-of-the-wine-dark-sea.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/1/19/Eternity_Garment3_Poster.jpg",
+"dst": "assets/img/ver/S01/gm-eternity-the-golden-nurturer.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/e/e1/APPLe_Garment3_Poster.jpg",
+"dst": "assets/img/ver/S01/gm-apple-the-fruit-of-wisdom.webp",
+"max_w": 720,
+"max_h": null,
+"quality": 90
+},
+{
+"url": "https://static.wikia.nocookie.net/reverse1999/images/f/ff/Polymerized_Dreams_Banner.png",
+"dst": "assets/img/ver/S02/banner.webp",
+"max_w": 1600,
+"max_h": null,
+"quality": 90
+}
+]

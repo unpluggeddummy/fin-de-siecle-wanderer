@@ -996,3 +996,20 @@ a.tl-ev:hover { border-color: var(--brass); color: var(--paper); }
 .side-stories small { color: var(--paper-dim); font-size: 11.5px; }
 .side-restore { display: flex; gap: 6px; flex-wrap: wrap; }
 .side-faces .face, .side-bday .face { border-radius: 0; border-top: 0; border-left: 0; border-right: 0; }
+
+/* 배너는 잘리지 않게 원래 비율 그대로 */
+.tl-card { grid-template-columns: minmax(0, 1fr) !important; }
+.tl-banner { min-height: 0; }
+.tl-banner img, .tl-hero-img img, .tl-su-img img, .tl-ev img, .side-ver-img img, .banner-img img, .su-pick button img {
+  aspect-ratio: auto; height: auto; max-height: none; object-fit: contain; }
+.tl-hero-img img { width: 100%; }
+.story-banner { aspect-ratio: auto; }
+.story-banner img { height: auto; object-fit: contain; }
+.story-hero-img img { aspect-ratio: auto; height: auto; }
+.tl-badge { font-style: normal; font-family: var(--sans); letter-spacing: 0; font-size: 11px; margin-left: 8px; padding: 1px 6px; border: 1px solid var(--line-strong); color: var(--paper-dim); text-transform: none; }
+.tl-badge.now { border-color: var(--teal); color: var(--teal); }
+.tl-item.future .tl-card { opacity: .62; }
+.tl-item.future .tl-card:hover { opacity: 1; }
+.tl-item.now .tl-dot span { background: var(--brass); color: var(--ink); }
+.tl-item.now .tl-card { border-color: var(--brass-dim); box-shadow: var(--glow); }
+.story-banner.no-img { aspect-ratio: 855 / 149; }

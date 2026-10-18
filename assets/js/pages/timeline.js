@@ -33,18 +33,22 @@ export function render(root, { arg } = {}) {
     h('p', '버전마다 새 출품작, 이벤트, 모집 배너, 의상을 모아 두었어요. 카드를 누르면 자세히 볼 수 있어요.'))),
   h('div.toolbar', h('div.chips',
     chip('최신 버전부터', view.order === 'new', () => { view.order = 'new'; rerender(); }),
-    chip('1.0부터', view.order === 'old', () => { view.order = 'old'; rerender(); }))));
+    chip('1.0부터', view.order === 'old', () => { view.order = 'old'; rerender(); })),
+    h('a.btn.small.ghost', { href: '#/timeline', onclick: (e) => { e.preventDefault(); document.getElementById('tl-now')?.scrollIntoView({ behavior: 'smooth', block: 'center' }); } }, `지금 한섭 버전(${store.currentVersion()})으로`)));
 
   const items = view.order === 'new' ? list : [...list].reverse();
+  const cur = store.verNum(store.currentVersion());
   root.append(h('ol.timeline', items.map((x) => {
+    const n = store.verNum(x.id);
+    const state = n === cur ? 'now' : n > cur ? 'future' : '';
     const reviews = (store.state.user.stories?.posts || []).filter((p) => x.stories.some((s) => s.id === p.story)).length;
     const banner = x.banner || x.stories.find((s) => s.cat === 'mainevent' && s.banner)?.banner || x.stories.find((s) => s.banner)?.banner;
-    return h('li.tl-item', { class: store.COLLAB[x.id] ? 'collab' : '' },
+    return h('li.tl-item', { class: [store.COLLAB[x.id] ? 'collab' : '', state].join(' '), id: state === 'now' ? 'tl-now' : null },
       h('div.tl-dot', h('span', x.id)),
       h('a.tl-card', { href: `#/timeline/${x.id}` },
         banner ? h('span.tl-banner', img(banner, '')) : null,
         h('span.tl-body',
-          h('span.code', store.verLabel(x.id)),
+          h('span.code', store.verLabel(x.id), state === 'now' ? h('em.tl-badge.now', '지금 한섭') : state === 'future' ? h('em.tl-badge', '한섭 예정 · 중섭 선행') : null),
           h('b', vTitle(x) || '—'),
           x.title?.ko && x.title?.en ? h('small.en', x.title.en) : null,
           x.periods?.global || x.periods?.cn ? h('small.faint', x.periods.cn ? `중섭 ${x.periods.cn}` : '', x.periods.cn && x.periods.global ? ' · ' : '', x.periods.global ? `글로벌 ${x.periods.global}` : '') : null,
@@ -83,7 +87,8 @@ function detail(root, v, list) {
       v.banner ? h('button.story-hero-img.tl-hero-img', { type: 'button', onclick: () => lightbox(v.banner, vTitle(v)) }, img(v.banner, '')) : null,
       h('div.tl-hero-grid',
         h('div.story-hero-text',
-          h('p.code', store.verLabel(v.id)),
+          h('p.code', store.verLabel(v.id),
+            store.verNum(v.id) === store.verNum(store.currentVersion()) ? h('em.tl-badge.now', '지금 한섭') : store.verNum(v.id) > store.verNum(store.currentVersion()) ? h('em.tl-badge', '한섭 예정 · 중섭 선행') : null),
           h('h1', vTitle(v) || `${v.id} 버전`),
           v.title?.ko && v.title?.en ? h('p.en-title', v.title.en) : null,
           v.periods?.cn ? h('p.faint', { style: { margin: 0, fontSize: '13px' } }, `중섭 ${v.periods.cn}`) : null,
