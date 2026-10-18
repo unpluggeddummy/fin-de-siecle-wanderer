@@ -12,7 +12,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -29,7 +29,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -47,11 +47,13 @@
   "cat": "dushuo",
   "series": "덧없는 꿈",
   "seriesGroup": "도삭 절기",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "1.6",
   "order": 510012,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 24
  },
  {
   "id": 300306,
@@ -66,12 +68,13 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.5",
   "order": null,
   "source": "주크박스",
   "gradeName": "Garment",
-  "tarot": 2
+  "tarot": 2,
+  "simId": 75
  },
  {
   "id": 300401,
@@ -86,7 +89,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -103,7 +106,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -118,14 +121,16 @@
   "gain": 2,
   "portrait": "assets/img/char/300403.webp",
   "art": "assets/img/skin/300403.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "선과 숫자 사이",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.4",
   "order": 510007,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 14
  },
  {
   "id": 300404,
@@ -137,14 +142,16 @@
   "gain": 2,
   "portrait": "assets/img/char/300404.webp",
   "art": "assets/img/skin/300404.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "2.3",
   "order": 510029,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 61
  },
  {
   "id": 300501,
@@ -159,7 +166,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -176,7 +183,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -191,14 +198,16 @@
   "gain": 13511,
   "portrait": "assets/img/char/300503.webp",
   "art": "assets/img/skin/300503.webp",
-  "cat": "event",
+  "cat": "free",
   "series": "색채의 지각",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.5",
   "order": null,
   "source": "무료",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 123
  },
  {
   "id": 300601,
@@ -213,7 +222,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -230,7 +239,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -244,14 +253,16 @@
   "gain": 3,
   "portrait": "assets/img/char/300603.webp",
   "art": "assets/img/skin/300603.webp",
-  "cat": "series",
+  "cat": "content",
   "series": "패닉쇼",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.2",
   "order": 750009,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 9
  },
  {
   "id": 300701,
@@ -266,7 +277,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null
  },
@@ -283,7 +294,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -301,11 +312,13 @@
   "cat": "dushuo",
   "series": "덧없는 꿈",
   "seriesGroup": "도삭 절기",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "1.6",
   "order": 510011,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 23
  },
  {
   "id": 300731,
@@ -320,12 +333,13 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.1",
   "order": null,
   "source": "주크박스",
   "gradeName": "Garment",
-  "tarot": 20
+  "tarot": 20,
+  "simId": 102
  },
  {
   "id": 300901,
@@ -340,7 +354,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null
  },
@@ -357,7 +371,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -372,14 +386,16 @@
   "gain": 2,
   "portrait": "assets/img/char/300903.webp",
   "art": "assets/img/skin/300903.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "패닉쇼",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.2",
   "order": 510003,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 6
  },
  {
   "id": 300904,
@@ -394,11 +410,13 @@
   "cat": "dushuo",
   "series": "오래된 책장의 새로운 이야기",
   "seriesGroup": "도삭 절기",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "2.5",
   "order": 510036,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 74
  },
  {
   "id": 301001,
@@ -409,13 +427,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/301001.webp",
-  "art": null,
+  "art": "assets/img/skin/301001.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 301002,
@@ -430,7 +449,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -445,14 +464,16 @@
   "gain": 2,
   "portrait": "assets/img/char/301003.webp",
   "art": "assets/img/skin/301003.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "패닉쇼",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.2",
   "order": 510004,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 8
  },
  {
   "id": 301101,
@@ -467,7 +488,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -484,7 +505,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -499,14 +520,16 @@
   "gain": 4,
   "portrait": "assets/img/char/301103.webp",
   "art": "assets/img/skin/301103.webp",
-  "cat": "series",
+  "cat": "jukebox",
   "series": "선과 숫자 사이",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.4",
   "order": 100000000,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 16
  },
  {
   "id": 301201,
@@ -521,7 +544,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -538,11 +561,13 @@
   "cat": "dushuo",
   "series": "오래된 책장의 새로운 이야기",
   "seriesGroup": "도삭 절기",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.5",
   "order": 100000000,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 76
  },
  {
   "id": 301301,
@@ -557,7 +582,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -574,7 +599,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -591,11 +616,13 @@
   "cat": "dushuo",
   "series": "덧없는 꿈",
   "seriesGroup": "도삭 절기",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.6",
   "order": 100000000,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 26
  },
  {
   "id": 301401,
@@ -610,7 +637,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -627,7 +654,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -641,14 +668,16 @@
   "gain": 13309,
   "portrait": "assets/img/char/301403.webp",
   "art": "assets/img/skin/301403.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "철과 고성의 노래",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.3",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 113
  },
  {
   "id": 301501,
@@ -663,7 +692,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -680,7 +709,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -694,14 +723,16 @@
   "gain": 2,
   "portrait": "assets/img/char/301503.webp",
   "art": "assets/img/skin/301503.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.5",
   "order": 510010,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 20
  },
  {
   "id": 301601,
@@ -716,7 +747,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -733,7 +764,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -748,14 +779,16 @@
   "gain": 4,
   "portrait": "assets/img/char/301603.webp",
   "art": "assets/img/skin/301603.webp",
-  "cat": "series",
+  "cat": "jukebox",
   "series": "컴포지션 개념",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.8",
   "order": null,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 35
  },
  {
   "id": 301701,
@@ -770,7 +803,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null
  },
@@ -787,7 +820,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -802,14 +835,16 @@
   "gain": 4,
   "portrait": "assets/img/char/301703.webp",
   "art": "assets/img/skin/301703.webp",
-  "cat": "series",
+  "cat": "jukebox",
   "series": "푸르른 축제",
   "seriesGroup": "생명의 맥박",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.1",
   "order": 700005,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 2
  },
  {
   "id": 301801,
@@ -824,7 +859,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null
  },
@@ -841,7 +876,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null
  },
@@ -855,14 +890,16 @@
   "gain": 3,
   "portrait": "assets/img/char/301803.webp",
   "art": "assets/img/skin/301803.webp",
-  "cat": "series",
+  "cat": "content",
   "series": "컴포지션 개념",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.8",
   "order": 803206,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 36
  },
  {
   "id": 302001,
@@ -877,7 +914,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null
  },
@@ -894,7 +931,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -909,14 +946,16 @@
   "gain": 4,
   "portrait": "assets/img/char/302003.webp",
   "art": "assets/img/skin/302003.webp",
-  "cat": "series",
+  "cat": "jukebox",
   "series": "패닉쇼",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.2",
   "order": 700008,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 7
  },
  {
   "id": 302201,
@@ -931,7 +970,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -948,7 +987,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -963,14 +1002,16 @@
   "gain": 4,
   "portrait": "assets/img/char/302203.webp",
   "art": "assets/img/skin/302203.webp",
-  "cat": "series",
+  "cat": "jukebox",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.5",
   "order": 100000000,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 19
  },
  {
   "id": 302301,
@@ -985,7 +1026,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -999,14 +1040,16 @@
   "gain": 10003,
   "portrait": "assets/img/char/302303.webp",
   "art": "assets/img/skin/302303.webp",
-  "cat": "event",
+  "cat": "free",
   "series": "올리브 가지 전선",
   "seriesGroup": "게임 속 군상",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.0",
   "order": null,
   "source": "무료",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 1
  },
  {
   "id": 302304,
@@ -1018,14 +1061,16 @@
   "gain": 5,
   "portrait": "assets/img/char/302304.webp",
   "art": "assets/img/skin/302304.webp",
-  "cat": "shop",
+  "cat": "content",
   "series": "",
   "seriesGroup": "",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.9",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 41
  },
  {
   "id": 302401,
@@ -1040,7 +1085,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -1057,7 +1102,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -1075,11 +1120,13 @@
   "cat": "dushuo",
   "series": "덧없는 꿈",
   "seriesGroup": "도삭 절기",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.6",
   "order": 100000000,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 25
  },
  {
   "id": 302501,
@@ -1094,7 +1141,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1111,7 +1158,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -1126,14 +1173,16 @@
   "gain": 2,
   "portrait": "assets/img/char/302503.webp",
   "art": "assets/img/skin/302503.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.1",
   "order": 510002,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 4
  },
  {
   "id": 302504,
@@ -1145,14 +1194,16 @@
   "gain": 2,
   "portrait": "assets/img/char/302504.webp",
   "art": "assets/img/skin/302504.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "신세계의 바람",
   "seriesGroup": "코스튬 집합론",
-  "grade": 3,
+  "grade": "Unique",
   "version": "1.9",
   "order": 510017,
   "source": "판매",
-  "gradeName": "Unique"
+  "gradeName": "Unique",
+  "tarot": null,
+  "simId": 39
  },
  {
   "id": 302601,
@@ -1167,7 +1218,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1184,7 +1235,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1198,14 +1249,16 @@
   "gain": 12400,
   "portrait": "assets/img/char/302603.webp",
   "art": "assets/img/skin/302603.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "‘침몰하지 않는’ 배",
   "seriesGroup": "돌아온 클래식",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.4",
   "order": 100000000,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 68
  },
  {
   "id": 302701,
@@ -1220,7 +1273,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1234,14 +1287,16 @@
   "gain": 13000,
   "portrait": "assets/img/char/302702.webp",
   "art": "assets/img/skin/302702.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "올리브 가지 전선",
   "seriesGroup": "게임 속 군상",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.0",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 99
  },
  {
   "id": 302801,
@@ -1256,7 +1311,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1273,7 +1328,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1287,14 +1342,16 @@
   "gain": 3,
   "portrait": "assets/img/char/302803.webp",
   "art": "assets/img/skin/302803.webp",
-  "cat": "series",
+  "cat": "content",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.1",
   "order": 750001,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 5
  },
  {
   "id": 302804,
@@ -1309,12 +1366,14 @@
   "cat": "collab",
   "series": "올림포스를 나는 독수리처럼",
   "seriesGroup": "비의 장막 밖",
-  "grade": 1,
-  "version": "S01",
+  "grade": "Garment",
+  "version": "콜라보",
   "order": null,
   "source": "컨텐츠",
   "gradeName": "Garment",
-  "collab": "어쌔신 크리드"
+  "collab": "어쌔신 크리드",
+  "tarot": null,
+  "simId": 89
  },
  {
   "id": 303001,
@@ -1329,7 +1388,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1343,14 +1402,16 @@
   "gain": 3,
   "portrait": "assets/img/char/303002.webp",
   "art": "assets/img/skin/303002.webp",
-  "cat": "series",
+  "cat": "content",
   "series": "선과 숫자 사이",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.4",
   "order": 100000000,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 17
  },
  {
   "id": 303101,
@@ -1365,7 +1426,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1382,7 +1443,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1396,14 +1457,16 @@
   "gain": 13115,
   "portrait": "assets/img/char/303103.webp",
   "art": "assets/img/skin/303103.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "기괴한 불면의 밤",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.1",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 103
  },
  {
   "id": 303201,
@@ -1418,7 +1481,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1435,7 +1498,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -1450,14 +1513,16 @@
   "gain": 2,
   "portrait": "assets/img/char/303203.webp",
   "art": "assets/img/skin/303203.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.1",
   "order": 510001,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 3
  },
  {
   "id": 303301,
@@ -1472,7 +1537,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1489,7 +1554,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1503,14 +1568,16 @@
   "gain": 12116,
   "portrait": "assets/img/char/303303.webp",
   "art": "assets/img/skin/303303.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "77번 국도를 따라",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.1",
   "order": 100000000,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 53
  },
  {
   "id": 303401,
@@ -1525,7 +1592,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1542,7 +1609,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1556,14 +1623,16 @@
   "gain": 3,
   "portrait": "assets/img/char/303502.webp",
   "art": "assets/img/skin/303502.webp",
-  "cat": "series",
+  "cat": "content",
   "series": "남방 유람기",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.3",
   "order": 770008,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 13
  },
  {
   "id": 303601,
@@ -1578,7 +1647,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1592,14 +1661,16 @@
   "gain": 12315,
   "portrait": "assets/img/char/303602.webp",
   "art": "assets/img/skin/303602.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.3",
   "order": 100000000,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 63
  },
  {
   "id": 303701,
@@ -1614,7 +1685,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -1631,7 +1702,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -1646,14 +1717,16 @@
   "gain": 2,
   "portrait": "assets/img/char/303703.webp",
   "art": "assets/img/skin/303703.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "‘침몰하지 않는’ 배",
   "seriesGroup": "돌아온 클래식",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.4",
   "order": 510034,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 67
  },
  {
   "id": 303801,
@@ -1668,7 +1741,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1685,7 +1758,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -1700,14 +1773,16 @@
   "gain": 4,
   "portrait": "assets/img/char/303803.webp",
   "art": "assets/img/skin/303803.webp",
-  "cat": "series",
+  "cat": "jukebox",
   "series": "아리아의 순간",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.7",
   "order": 100000000,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 29
  },
  {
   "id": 303901,
@@ -1722,7 +1797,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1739,7 +1814,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -1757,11 +1832,13 @@
   "cat": "dushuo",
   "series": "덧없는 꿈",
   "seriesGroup": "도삭 절기",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.6",
   "order": 750003,
   "source": "무료",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 22
  },
  {
   "id": 303904,
@@ -1776,12 +1853,14 @@
   "cat": "collab",
   "series": "조립식 미래",
   "seriesGroup": "비의 장막 밖",
-  "grade": 1,
-  "version": "S02",
+  "grade": "Garment",
+  "version": "콜라보",
   "order": 510070,
   "source": "콜라보 판매",
   "gradeName": "Garment",
-  "collab": "아토믹 하트"
+  "collab": "아토믹 하트",
+  "tarot": null,
+  "simId": 1109
  },
  {
   "id": 304001,
@@ -1796,7 +1875,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1810,14 +1889,16 @@
   "gain": 12807,
   "portrait": "assets/img/char/304002.webp",
   "art": "assets/img/skin/304002.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "64칸의 흑백",
   "seriesGroup": "코스튬 집합론",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.8",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 95
  },
  {
   "id": 304101,
@@ -1832,7 +1913,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1849,7 +1930,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -1864,14 +1945,16 @@
   "gain": 4,
   "portrait": "assets/img/char/304103.webp",
   "art": "assets/img/skin/304103.webp",
-  "cat": "series",
+  "cat": "jukebox",
   "series": "남방 유람기",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.3",
   "order": 770005,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 12
  },
  {
   "id": 304201,
@@ -1886,7 +1969,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1903,7 +1986,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -1917,14 +2000,16 @@
   "gain": 12701,
   "portrait": "assets/img/char/304203.webp",
   "art": "assets/img/skin/304203.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "1987 우주 산책",
   "seriesGroup": "코스튬 집합론",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.7",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 84
  },
  {
   "id": 304301,
@@ -1939,7 +2024,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null
  },
@@ -1956,7 +2041,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -1971,14 +2056,16 @@
   "gain": 2,
   "portrait": "assets/img/char/304303.webp",
   "art": "assets/img/skin/304303.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "남방 유람기",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.3",
   "order": 510006,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 11
  },
  {
   "id": 304304,
@@ -1990,14 +2077,16 @@
   "gain": 4,
   "portrait": "assets/img/char/304304.webp",
   "art": "assets/img/skin/304304.webp",
-  "cat": "series",
+  "cat": "jukebox",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.3",
   "order": null,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 62
  },
  {
   "id": 304401,
@@ -2012,7 +2101,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null
  },
@@ -2029,7 +2118,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null
  },
@@ -2043,14 +2132,16 @@
   "gain": 3,
   "portrait": "assets/img/char/304403.webp",
   "art": "assets/img/skin/304403.webp",
-  "cat": "series",
+  "cat": "content",
   "series": "아리아의 순간",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.7",
   "order": 100000000,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 30
  },
  {
   "id": 304501,
@@ -2065,7 +2156,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null
  },
@@ -2079,14 +2170,16 @@
   "gain": 13808,
   "portrait": "assets/img/char/304504.webp",
   "art": "assets/img/skin/304504.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "미래의 토대",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.8",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 1116
  },
  {
   "id": 304601,
@@ -2101,7 +2194,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null
  },
@@ -2118,7 +2211,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null
  },
@@ -2132,14 +2225,16 @@
   "gain": 12210,
   "portrait": "assets/img/char/304603.webp",
   "art": "assets/img/skin/304603.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "파울리스타나의 무더위",
   "seriesGroup": "황금 휴일",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.2",
   "order": 100000000,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 59
  },
  {
   "id": 304701,
@@ -2154,7 +2249,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.3",
   "order": null
  },
@@ -2171,7 +2266,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -2186,14 +2281,16 @@
   "gain": 2,
   "portrait": "assets/img/char/304703.webp",
   "art": "assets/img/skin/304703.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "컴포지션 개념",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.8",
   "order": 510016,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 33
  },
  {
   "id": 304704,
@@ -2208,12 +2305,13 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.3",
   "order": null,
   "source": "주크박스",
   "gradeName": "Garment",
-  "tarot": 12
+  "tarot": 12,
+  "simId": 112
  },
  {
   "id": 304801,
@@ -2228,7 +2326,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -2245,7 +2343,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -2260,14 +2358,16 @@
   "gain": 2,
   "portrait": "assets/img/char/304803.webp",
   "art": "assets/img/skin/304803.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "신세계의 바람",
   "seriesGroup": "코스튬 집합론",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.9",
   "order": 510019,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 38
  },
  {
   "id": 304804,
@@ -2282,12 +2382,13 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.7",
   "order": null,
   "source": "주크박스",
   "gradeName": "Garment",
-  "tarot": 17
+  "tarot": 17,
+  "simId": 83
  },
  {
   "id": 304901,
@@ -2302,7 +2403,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -2319,7 +2420,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -2337,7 +2438,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -2351,14 +2452,16 @@
   "gain": 3,
   "portrait": "assets/img/char/305002.webp",
   "art": "assets/img/skin/305002.webp",
-  "cat": "series",
+  "cat": "content",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.5",
   "order": 100000000,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 21
  },
  {
   "id": 305101,
@@ -2373,7 +2476,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -2390,7 +2493,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -2405,14 +2508,16 @@
   "gain": 2,
   "portrait": "assets/img/char/305103.webp",
   "art": "assets/img/skin/305103.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "컴포지션 개념",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.8",
   "order": 510015,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 32
  },
  {
   "id": 305104,
@@ -2427,13 +2532,14 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 1,
-  "version": "S01",
+  "grade": "Garment",
+  "version": "콜라보",
   "order": null,
   "source": "주크박스",
   "gradeName": "Garment",
   "tarot": 3,
-  "collab": "어쌔신 크리드"
+  "collab": "어쌔신 크리드",
+  "simId": 88
  },
  {
   "id": 305201,
@@ -2448,7 +2554,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.3",
   "order": null
  },
@@ -2465,7 +2571,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.0",
   "order": null,
   "source": "2통찰 달성"
@@ -2480,14 +2586,16 @@
   "gain": 12409,
   "portrait": "assets/img/char/305203.webp",
   "art": "assets/img/skin/305203.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "‘침몰하지 않는’ 배",
   "seriesGroup": "돌아온 클래식",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.4",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 66
  },
  {
   "id": 305301,
@@ -2502,7 +2610,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -2519,7 +2627,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null,
   "source": "2통찰 달성"
@@ -2534,14 +2642,16 @@
   "gain": 2,
   "portrait": "assets/img/char/305303.webp",
   "art": "assets/img/skin/305303.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.5",
   "order": 510009,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 18
  },
  {
   "id": 305304,
@@ -2556,11 +2666,13 @@
   "cat": "collab",
   "series": "제3행성의 이상한 여정",
   "seriesGroup": "비의 장막 밖",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "2.0",
   "order": 510031,
   "source": "콜라보 판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 49
  },
  {
   "id": 305305,
@@ -2575,11 +2687,13 @@
   "cat": "dushuo",
   "series": "속세의 손님",
   "seriesGroup": "도삭 절기",
-  "grade": 3,
+  "grade": "Unique",
   "version": "3.4",
   "order": 510058,
   "source": "판매",
-  "gradeName": "Unique"
+  "gradeName": "Unique",
+  "tarot": null,
+  "simId": 115
  },
  {
   "id": 305401,
@@ -2594,7 +2708,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -2611,7 +2725,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -2625,14 +2739,16 @@
   "gain": 12006,
   "portrait": "assets/img/char/305502.webp",
   "art": "assets/img/skin/305502.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "16 비트 향연",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.0",
   "order": 100000000,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 47
  },
  {
   "id": 305601,
@@ -2647,7 +2763,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -2664,7 +2780,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null,
   "source": "2통찰 달성"
@@ -2679,14 +2795,16 @@
   "gain": 2,
   "portrait": "assets/img/char/305603.webp",
   "art": "assets/img/skin/305603.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "신세계의 바람",
   "seriesGroup": "코스튬 집합론",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "1.9",
   "order": 510018,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 37
  },
  {
   "id": 305604,
@@ -2701,12 +2819,13 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.8",
   "order": null,
   "source": "주크박스",
   "gradeName": "Garment",
-  "tarot": 6
+  "tarot": 6,
+  "simId": 94
  },
  {
   "id": 305701,
@@ -2721,7 +2840,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -2738,7 +2857,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -2752,14 +2871,16 @@
   "gain": 3,
   "portrait": "assets/img/char/305703.webp",
   "art": "assets/img/skin/305703.webp",
-  "cat": "series",
+  "cat": "content",
   "series": "신세계의 바람",
   "seriesGroup": "코스튬 집합론",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.9",
   "order": 100000000,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 42
  },
  {
   "id": 305801,
@@ -2774,7 +2895,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -2791,7 +2912,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -2805,14 +2926,16 @@
   "gain": 12618,
   "portrait": "assets/img/char/305803.webp",
   "art": "assets/img/skin/305803.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "비이성의 미궁",
   "seriesGroup": "코스튬 집합론",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.6",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 80
  },
  {
   "id": 305901,
@@ -2827,7 +2950,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -2844,7 +2967,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -2861,7 +2984,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null,
   "source": "2통찰 달성"
@@ -2876,14 +2999,16 @@
   "gain": 4,
   "portrait": "assets/img/char/306003.webp",
   "art": "assets/img/skin/306003.webp",
-  "cat": "series",
+  "cat": "jukebox",
   "series": "77번 국도를 따라",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.1",
   "order": 100000000,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 52
  },
  {
   "id": 306101,
@@ -2898,7 +3023,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null
  },
@@ -2915,7 +3040,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.2",
   "order": null,
   "source": "2통찰 달성"
@@ -2933,11 +3058,13 @@
   "cat": "dushuo",
   "series": "속세의 손님",
   "seriesGroup": "도삭 절기",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.4",
   "order": null,
   "source": "무료",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 118
  },
  {
   "id": 306201,
@@ -2952,7 +3079,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -2969,7 +3096,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null,
   "source": "2통찰 달성"
@@ -2984,14 +3111,16 @@
   "gain": 2,
   "portrait": "assets/img/char/306203.webp",
   "art": "assets/img/skin/306203.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "아리아의 순간",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.7",
   "order": 510013,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 28
  },
  {
   "id": 306204,
@@ -3006,12 +3135,13 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.6",
   "order": null,
   "source": "주크박스",
   "gradeName": "Garment",
-  "tarot": 1
+  "tarot": 1,
+  "simId": 79
  },
  {
   "id": 306301,
@@ -3026,7 +3156,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -3043,7 +3173,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null,
   "source": "2통찰 달성"
@@ -3058,14 +3188,16 @@
   "gain": 2,
   "portrait": "assets/img/char/306303.webp",
   "art": "assets/img/skin/306303.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "남방 유람기",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.3",
   "order": 510005,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 10
  },
  {
   "id": 306401,
@@ -3080,7 +3212,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null
  },
@@ -3097,7 +3229,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.1",
   "order": null,
   "source": "2통찰 달성"
@@ -3112,14 +3244,16 @@
   "gain": 2,
   "portrait": "assets/img/char/306403.webp",
   "art": "assets/img/skin/306403.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "반시대적 물결",
   "seriesGroup": "게임 속 군상",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.4",
   "order": 510008,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 15
  },
  {
   "id": 307001,
@@ -3134,7 +3268,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.3",
   "order": null
  },
@@ -3151,7 +3285,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.3",
   "order": null,
   "source": "2통찰 달성"
@@ -3166,14 +3300,16 @@
   "gain": 2,
   "portrait": "assets/img/char/307003.webp",
   "art": "assets/img/skin/307003.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "1.7",
   "order": 510022,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 31
  },
  {
   "id": 307004,
@@ -3185,14 +3321,16 @@
   "gain": 2,
   "portrait": "assets/img/char/307004.webp",
   "art": "assets/img/skin/307004.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "반시대적 물결",
   "seriesGroup": "게임 속 군상",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.2",
   "order": 510053,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 107
  },
  {
   "id": 307101,
@@ -3207,7 +3345,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.3",
   "order": null
  },
@@ -3224,7 +3362,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.3",
   "order": null,
   "source": "2통찰 달성"
@@ -3239,14 +3377,16 @@
   "gain": 4,
   "portrait": "assets/img/char/307103.webp",
   "art": "assets/img/skin/307103.webp",
-  "cat": "series",
+  "cat": "jukebox",
   "series": "16 비트 향연",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.0",
   "order": null,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 46
  },
  {
   "id": 307201,
@@ -3261,7 +3401,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.3",
   "order": null
  },
@@ -3278,7 +3418,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.3",
   "order": null,
   "source": "2통찰 달성"
@@ -3293,14 +3433,16 @@
   "gain": 2,
   "portrait": "assets/img/char/307203.webp",
   "art": "assets/img/skin/307203.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "파울리스타나의 무더위",
   "seriesGroup": "황금 휴일",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.2",
   "order": 510028,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 55
  },
  {
   "id": 306601,
@@ -3315,7 +3457,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.4",
   "order": null
  },
@@ -3332,7 +3474,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.4",
   "order": null,
   "source": "2통찰 달성"
@@ -3347,14 +3489,16 @@
   "gain": 2,
   "portrait": "assets/img/char/306603.webp",
   "art": "assets/img/skin/306603.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "아리아의 순간",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.7",
   "order": 510014,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 27
  },
  {
   "id": 306604,
@@ -3366,14 +3510,16 @@
   "gain": 2,
   "portrait": "assets/img/char/306604.webp",
   "art": "assets/img/skin/306604.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "파울리스타나의 무더위",
   "seriesGroup": "황금 휴일",
-  "grade": 3,
+  "grade": "Unique",
   "version": "2.2",
   "order": 510025,
   "source": "판매",
-  "gradeName": "Unique"
+  "gradeName": "Unique",
+  "tarot": null,
+  "simId": 56
  },
  {
   "id": 306605,
@@ -3388,11 +3534,13 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.7",
   "order": null,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 1105
  },
  {
   "id": 307901,
@@ -3407,7 +3555,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.4",
   "order": null
  },
@@ -3424,7 +3572,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.4",
   "order": null,
   "source": "2통찰 달성"
@@ -3439,14 +3587,16 @@
   "gain": 2,
   "portrait": "assets/img/char/307903.webp",
   "art": "assets/img/skin/307903.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "16 비트 향연",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.0",
   "order": 510021,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 44
  },
  {
   "id": 307904,
@@ -3461,11 +3611,13 @@
   "cat": "collab",
   "series": "제3행성의 이상한 여정",
   "seriesGroup": "비의 장막 밖",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "2.4",
   "order": 510043,
   "source": "콜라보 판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 69
  },
  {
   "id": 307905,
@@ -3480,12 +3632,13 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.4",
   "order": 510060,
   "source": "판매",
   "gradeName": "Garment",
-  "tarot": 9
+  "tarot": 9,
+  "simId": 120
  },
  {
   "id": 307301,
@@ -3500,7 +3653,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.5",
   "order": null
  },
@@ -3517,7 +3670,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.5",
   "order": null,
   "source": "2통찰 달성"
@@ -3532,14 +3685,16 @@
   "gain": 2,
   "portrait": "assets/img/char/307303.webp",
   "art": "assets/img/skin/307303.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "16 비트 향연",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "2.0",
   "order": 510020,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 45
  },
  {
   "id": 307304,
@@ -3554,11 +3709,13 @@
   "cat": "dushuo",
   "series": "오래된 책장의 새로운 이야기",
   "seriesGroup": "도삭 절기",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.7",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 1104
  },
  {
   "id": 307401,
@@ -3573,7 +3730,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.5",
   "order": null
  },
@@ -3590,7 +3747,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.5",
   "order": null,
   "source": "2통찰 달성"
@@ -3605,14 +3762,16 @@
   "gain": 2,
   "portrait": "assets/img/char/307403.webp",
   "art": "assets/img/skin/307403.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "77번 국도를 따라",
   "seriesGroup": "세계의 섬",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.1",
   "order": 510024,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 51
  },
  {
   "id": 307501,
@@ -3627,7 +3786,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.5",
   "order": null
  },
@@ -3644,7 +3803,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.5",
   "order": null,
   "source": "2통찰 달성"
@@ -3659,14 +3818,16 @@
   "gain": 4,
   "portrait": "assets/img/char/307503.webp",
   "art": "assets/img/skin/307503.webp",
-  "cat": "series",
+  "cat": "jukebox",
   "series": "신세계의 바람",
   "seriesGroup": "코스튬 집합론",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.9",
   "order": 100000000,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 40
  },
  {
   "id": 307601,
@@ -3681,7 +3842,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.5",
   "order": null
  },
@@ -3698,7 +3859,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.5",
   "order": null,
   "source": "2통찰 달성"
@@ -3716,7 +3877,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.6",
   "order": null
  },
@@ -3733,7 +3894,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.6",
   "order": null,
   "source": "2통찰 달성"
@@ -3748,14 +3909,16 @@
   "gain": 4,
   "portrait": "assets/img/char/308203.webp",
   "art": "assets/img/skin/308203.webp",
-  "cat": "series",
+  "cat": "jukebox",
   "series": "파울리스타나의 무더위",
   "seriesGroup": "황금 휴일",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.2",
   "order": 100000000,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 58
  },
  {
   "id": 308301,
@@ -3770,7 +3933,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.6",
   "order": null
  },
@@ -3787,7 +3950,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.6",
   "order": null,
   "source": "2통찰 달성"
@@ -3805,11 +3968,13 @@
   "cat": "dushuo",
   "series": "오래된 책장의 새로운 이야기",
   "seriesGroup": "도삭 절기",
-  "grade": 3,
+  "grade": "Unique",
   "version": "2.5",
   "order": 510035,
   "source": "판매",
-  "gradeName": "Unique"
+  "gradeName": "Unique",
+  "tarot": null,
+  "simId": 72
  },
  {
   "id": 308401,
@@ -3824,7 +3989,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.6",
   "order": null
  },
@@ -3841,7 +4006,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.6",
   "order": null,
   "source": "2통찰 달성"
@@ -3859,11 +4024,13 @@
   "cat": "collab",
   "series": "제3행성의 이상한 여정",
   "seriesGroup": "비의 장막 밖",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.0",
   "order": 510032,
   "source": "콜라보 판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 48
  },
  {
   "id": 306501,
@@ -3878,7 +4045,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.7",
   "order": null
  },
@@ -3895,7 +4062,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.7",
   "order": null,
   "source": "2통찰 달성"
@@ -3910,14 +4077,16 @@
   "gain": 2,
   "portrait": "assets/img/char/306503.webp",
   "art": "assets/img/skin/306503.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "파울리스타나의 무더위",
   "seriesGroup": "황금 휴일",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "2.2",
   "order": 510027,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 57
  },
  {
   "id": 306504,
@@ -3932,12 +4101,14 @@
   "cat": "collab",
   "series": "올림포스를 나는 독수리처럼",
   "seriesGroup": "비의 장막 밖",
-  "grade": 2,
-  "version": "S01",
+  "grade": "Advanced",
+  "version": "콜라보",
   "order": 510048,
   "source": "콜라보 판매",
   "gradeName": "Advanced Garment",
-  "collab": "어쌔신 크리드"
+  "collab": "어쌔신 크리드",
+  "tarot": null,
+  "simId": 87
  },
  {
   "id": 308101,
@@ -3952,7 +4123,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.7",
   "order": null
  },
@@ -3969,7 +4140,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.7",
   "order": null,
   "source": "2통찰 달성"
@@ -3984,14 +4155,16 @@
   "gain": 2,
   "portrait": "assets/img/char/308103.webp",
   "art": "assets/img/skin/308103.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "77번 국도를 따라",
   "seriesGroup": "세계의 섬",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "2.1",
   "order": 510023,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 50
  },
  {
   "id": 308104,
@@ -4003,14 +4176,16 @@
   "gain": 2,
   "portrait": "assets/img/char/308104.webp",
   "art": "assets/img/skin/308104.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "반시대적 물결",
   "seriesGroup": "게임 속 군상",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.2",
   "order": 510052,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 105
  },
  {
   "id": 307701,
@@ -4025,7 +4200,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.8",
   "order": null
  },
@@ -4042,7 +4217,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.8",
   "order": null,
   "source": "2통찰 달성"
@@ -4060,11 +4235,13 @@
   "cat": "dushuo",
   "series": "오래된 책장의 새로운 이야기",
   "seriesGroup": "도삭 절기",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.5",
   "order": 100000000,
   "source": "무료",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 73
  },
  {
   "id": 307704,
@@ -4076,14 +4253,16 @@
   "gain": 2,
   "portrait": "assets/img/char/307704.webp",
   "art": "assets/img/skin/307704.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "기괴한 불면의 밤",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.1",
   "order": 510050,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 101
  },
  {
   "id": 307705,
@@ -4098,12 +4277,14 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 1,
-  "version": "S02",
+  "grade": "Garment",
+  "version": "콜라보",
   "order": null,
   "source": "주크박스",
   "gradeName": "Garment",
-  "collab": "아토믹 하트"
+  "collab": "아토믹 하트",
+  "tarot": null,
+  "simId": 1111
  },
  {
   "id": 307801,
@@ -4118,7 +4299,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.8",
   "order": null
  },
@@ -4135,7 +4316,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.8",
   "order": null,
   "source": "2통찰 달성"
@@ -4153,7 +4334,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.8",
   "order": null
  },
@@ -4170,7 +4351,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.8",
   "order": null,
   "source": "2통찰 달성"
@@ -4185,14 +4366,16 @@
   "gain": 2,
   "portrait": "assets/img/char/308703.webp",
   "art": "assets/img/skin/308703.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "파울리스타나의 무더위",
   "seriesGroup": "황금 휴일",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "2.2",
   "order": 510026,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 54
  },
  {
   "id": 308704,
@@ -4207,12 +4390,14 @@
   "cat": "collab",
   "series": "올림포스를 나는 독수리처럼",
   "seriesGroup": "비의 장막 밖",
-  "grade": 2,
-  "version": "S01",
+  "grade": "Advanced",
+  "version": "콜라보",
   "order": 510047,
   "source": "콜라보 판매",
   "gradeName": "Advanced Garment",
-  "collab": "어쌔신 크리드"
+  "collab": "어쌔신 크리드",
+  "tarot": null,
+  "simId": 85
  },
  {
   "id": 308601,
@@ -4227,7 +4412,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.9",
   "order": null
  },
@@ -4244,7 +4429,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.9",
   "order": null,
   "source": "2통찰 달성"
@@ -4259,14 +4444,16 @@
   "gain": 2,
   "portrait": "assets/img/char/308603.webp",
   "art": "assets/img/skin/308603.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "64칸의 흑백",
   "seriesGroup": "코스튬 집합론",
-  "grade": 3,
+  "grade": "Unique",
   "version": "2.8",
   "order": 100000000,
   "source": "판매",
-  "gradeName": "Unique"
+  "gradeName": "Unique",
+  "tarot": null,
+  "simId": 90
  },
  {
   "id": 308801,
@@ -4281,7 +4468,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.5",
   "order": null
  },
@@ -4298,7 +4485,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.9",
   "order": null,
   "source": "2통찰 달성"
@@ -4313,14 +4500,16 @@
   "gain": 2,
   "portrait": "assets/img/char/308803.webp",
   "art": "assets/img/skin/308803.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "안개의 도시 선수권 대회",
   "seriesGroup": "생명의 맥박",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.3",
   "order": 510030,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 60
  },
  {
   "id": 308804,
@@ -4335,12 +4524,13 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.0",
   "order": null,
   "source": "주크박스",
   "gradeName": "Garment",
-  "tarot": 18
+  "tarot": 18,
+  "simId": 98
  },
  {
   "id": 308001,
@@ -4355,7 +4545,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.9",
   "order": null
  },
@@ -4372,7 +4562,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.9",
   "order": null,
   "source": "2통찰 달성"
@@ -4387,14 +4577,16 @@
   "gain": 2,
   "portrait": "assets/img/char/308003.webp",
   "art": "assets/img/skin/308003.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "‘침몰하지 않는’ 배",
   "seriesGroup": "돌아온 클래식",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "2.4",
   "order": 510033,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 65
  },
  {
   "id": 308004,
@@ -4409,12 +4601,13 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.2",
   "order": null,
   "source": "주크박스",
   "gradeName": "Garment",
-  "tarot": 16
+  "tarot": 16,
+  "simId": 106
  },
  {
   "id": 309101,
@@ -4429,7 +4622,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.5",
   "order": null
  },
@@ -4446,7 +4639,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "1.9",
   "order": null,
   "source": "2통찰 달성"
@@ -4464,7 +4657,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.0",
   "order": null
  },
@@ -4481,7 +4674,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.0",
   "order": null,
   "source": "2통찰 달성"
@@ -4496,14 +4689,16 @@
   "gain": 2,
   "portrait": "assets/img/char/309403.webp",
   "art": "assets/img/skin/309403.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "올리브 가지 전선",
   "seriesGroup": "게임 속 군상",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.0",
   "order": 510045,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 97
  },
  {
   "id": 309501,
@@ -4518,7 +4713,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.0",
   "order": null
  },
@@ -4535,7 +4730,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.0",
   "order": null,
   "source": "2통찰 달성"
@@ -4550,14 +4745,16 @@
   "gain": 4,
   "portrait": "assets/img/char/309503.webp",
   "art": "assets/img/skin/309503.webp",
-  "cat": "series",
+  "cat": "jukebox",
   "series": "‘침몰하지 않는’ 배",
   "seriesGroup": "돌아온 클래식",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.4",
   "order": 100000000,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 64
  },
  {
   "id": 309504,
@@ -4572,11 +4769,13 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.1",
   "order": 510056,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 111
  },
  {
   "id": 309601,
@@ -4591,7 +4790,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.0",
   "order": null
  },
@@ -4605,14 +4804,16 @@
   "gain": 13211,
   "portrait": "assets/img/char/309602.webp",
   "art": "assets/img/skin/309602.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "반시대적 물결",
   "seriesGroup": "게임 속 군상",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.2",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 108
  },
  {
   "id": 309701,
@@ -4627,7 +4828,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.1",
   "order": null
  },
@@ -4644,7 +4845,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.1",
   "order": null,
   "source": "2통찰 달성"
@@ -4659,14 +4860,16 @@
   "gain": 2,
   "portrait": "assets/img/char/309703.webp",
   "art": "assets/img/skin/309703.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "1987 우주 산책",
   "seriesGroup": "코스튬 집합론",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.7",
   "order": 510941,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 82
  },
  {
   "id": 309801,
@@ -4681,7 +4884,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.1",
   "order": null
  },
@@ -4698,7 +4901,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.1",
   "order": null,
   "source": "2통찰 달성"
@@ -4716,11 +4919,13 @@
   "cat": "dushuo",
   "series": "오래된 책장의 새로운 이야기",
   "seriesGroup": "도삭 절기",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "2.5",
   "order": 510037,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 71
  },
  {
   "id": 309804,
@@ -4735,11 +4940,13 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.5",
   "order": null,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 124
  },
  {
   "id": 309901,
@@ -4754,7 +4961,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.1",
   "order": null
  },
@@ -4771,7 +4978,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.1",
   "order": null,
   "source": "2통찰 달성"
@@ -4789,7 +4996,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.2",
   "order": null
  },
@@ -4806,7 +5013,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.2",
   "order": null,
   "source": "2통찰 달성"
@@ -4824,12 +5031,13 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 3,
+  "grade": "Unique",
   "version": "3.2",
   "order": 510051,
   "source": "판매",
   "gradeName": "Unique",
-  "tarot": 15
+  "tarot": 15,
+  "simId": 104
  },
  {
   "id": 310101,
@@ -4844,7 +5052,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.2",
   "order": null
  },
@@ -4861,7 +5069,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.2",
   "order": null
  },
@@ -4875,14 +5083,16 @@
   "gain": 13608,
   "portrait": "assets/img/char/310103.webp",
   "art": "assets/img/skin/310103.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "신세계의 바람",
   "seriesGroup": "코스튬 집합론",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.6",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 127
  },
  {
   "id": 310201,
@@ -4897,7 +5107,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.2",
   "order": null
  },
@@ -4914,7 +5124,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.2",
   "order": null,
   "source": "2통찰 달성"
@@ -4929,14 +5139,16 @@
   "gain": 2,
   "portrait": "assets/img/char/310203.webp",
   "art": "assets/img/skin/310203.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "비이성의 미궁",
   "seriesGroup": "코스튬 집합론",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.6",
   "order": 510039,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 78
  },
  {
   "id": 310301,
@@ -4951,7 +5163,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.2",
   "order": null
  },
@@ -4968,7 +5180,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.2",
   "order": null,
   "source": "2통찰 달성"
@@ -4986,7 +5198,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.3",
   "order": null
  },
@@ -5003,7 +5215,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.3",
   "order": null,
   "source": "2통찰 달성"
@@ -5018,14 +5230,16 @@
   "gain": 2,
   "portrait": "assets/img/char/310403.webp",
   "art": "assets/img/skin/310403.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "비이성의 미궁",
   "seriesGroup": "코스튬 집합론",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "2.6",
   "order": 510038,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 77
  },
  {
   "id": 310404,
@@ -5040,11 +5254,13 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.4",
   "order": null,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 119
  },
  {
   "id": 310501,
@@ -5059,7 +5275,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.3",
   "order": null
  },
@@ -5076,7 +5292,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.3",
   "order": null,
   "source": "2통찰 달성"
@@ -5091,14 +5307,16 @@
   "gain": 2,
   "portrait": "assets/img/char/310503.webp",
   "art": "assets/img/skin/310503.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "올리브 가지 전선",
   "seriesGroup": "게임 속 군상",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.0",
   "order": 510044,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 96
  },
  {
   "id": 310504,
@@ -5113,12 +5331,14 @@
   "cat": "collab",
   "series": "조립식 미래",
   "seriesGroup": "비의 장막 밖",
-  "grade": 3,
-  "version": "S02",
+  "grade": "Unique",
+  "version": "콜라보",
   "order": 510068,
   "source": "콜라보 판매",
   "gradeName": "Unique",
-  "collab": "아토믹 하트"
+  "collab": "아토믹 하트",
+  "tarot": null,
+  "simId": 1108
  },
  {
   "id": 310601,
@@ -5133,7 +5353,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.3",
   "order": null
  },
@@ -5150,7 +5370,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.3",
   "order": null,
   "source": "2통찰 달성"
@@ -5168,12 +5388,14 @@
   "cat": "collab",
   "series": "조립식 미래",
   "seriesGroup": "비의 장막 밖",
-  "grade": 1,
-  "version": "S02",
+  "grade": "Garment",
+  "version": "콜라보",
   "order": null,
   "source": "무료",
   "gradeName": "Garment",
-  "collab": "아토믹 하트"
+  "collab": "아토믹 하트",
+  "tarot": null,
+  "simId": 1110
  },
  {
   "id": 310801,
@@ -5188,7 +5410,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.4",
   "order": null
  },
@@ -5205,7 +5427,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.4",
   "order": null,
   "source": "2통찰 달성"
@@ -5220,14 +5442,16 @@
   "gain": 2,
   "portrait": "assets/img/char/310803.webp",
   "art": "assets/img/skin/310803.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "1987 우주 산책",
   "seriesGroup": "코스튬 집합론",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "2.7",
   "order": 510940,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 81
  },
  {
   "id": 310901,
@@ -5242,7 +5466,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.4",
   "order": null
  },
@@ -5259,7 +5483,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.4",
   "order": null,
   "source": "2통찰 달성"
@@ -5277,11 +5501,13 @@
   "cat": "collab",
   "series": "제3행성의 이상한 여정",
   "seriesGroup": "비의 장막 밖",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.4",
   "order": 510042,
   "source": "콜라보 판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 70
  },
  {
   "id": 310905,
@@ -5293,14 +5519,16 @@
   "gain": 2,
   "portrait": "assets/img/char/310905.webp",
   "art": "assets/img/skin/310905.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "삶과 죽음의 문답",
   "seriesGroup": "커튼의 안쪽",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.7",
   "order": 510067,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 1102
  },
  {
   "id": 311001,
@@ -5315,7 +5543,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.5",
   "order": null
  },
@@ -5332,7 +5560,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.5",
   "order": null,
   "source": "2통찰 달성"
@@ -5350,11 +5578,13 @@
   "cat": "dushuo",
   "series": "속세의 손님",
   "seriesGroup": "도삭 절기",
-  "grade": 3,
+  "grade": "Unique",
   "version": "3.4",
   "order": 510057,
   "source": "판매",
-  "gradeName": "Unique"
+  "gradeName": "Unique",
+  "tarot": null,
+  "simId": 114
  },
  {
   "id": 311101,
@@ -5369,7 +5599,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.5",
   "order": null
  },
@@ -5386,7 +5616,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.5",
   "order": null,
   "source": "2통찰 달성"
@@ -5404,11 +5634,13 @@
   "cat": "dushuo",
   "series": "속세의 손님",
   "seriesGroup": "도삭 절기",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.4",
   "order": null,
   "source": "무료",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 117
  },
  {
   "id": 311201,
@@ -5423,7 +5655,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.5",
   "order": null
  },
@@ -5440,7 +5672,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.5",
   "order": null,
   "source": "2통찰 달성"
@@ -5458,7 +5690,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.6",
   "order": null
  },
@@ -5475,7 +5707,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.6",
   "order": null,
   "source": "2통찰 달성"
@@ -5490,14 +5722,16 @@
   "gain": 2,
   "portrait": "assets/img/char/311403.webp",
   "art": "assets/img/skin/311403.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "64칸의 흑백",
   "seriesGroup": "코스튬 집합론",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "2.8",
   "order": 100000000,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 92
  },
  {
   "id": 311404,
@@ -5512,11 +5746,13 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.6",
   "order": null,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 126
  },
  {
   "id": 311301,
@@ -5531,7 +5767,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.6",
   "order": null
  },
@@ -5548,7 +5784,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.6",
   "order": null,
   "source": "2통찰 달성"
@@ -5563,14 +5799,16 @@
   "gain": 2,
   "portrait": "assets/img/char/311303.webp",
   "art": "assets/img/skin/311303.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "기괴한 불면의 밤",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.1",
   "order": 510049,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 100
  },
  {
   "id": 311601,
@@ -5585,7 +5823,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.7",
   "order": null
  },
@@ -5602,7 +5840,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.7",
   "order": null,
   "source": "2통찰 달성"
@@ -5620,12 +5858,14 @@
   "cat": "collab",
   "series": "올림포스를 나는 독수리처럼",
   "seriesGroup": "비의 장막 밖",
-  "grade": 2,
-  "version": "S01",
+  "grade": "Advanced",
+  "version": "콜라보",
   "order": 510046,
   "source": "콜라보 판매",
   "gradeName": "Advanced Garment",
-  "collab": "어쌔신 크리드"
+  "collab": "어쌔신 크리드",
+  "tarot": null,
+  "simId": 86
  },
  {
   "id": 311604,
@@ -5640,11 +5880,13 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.8",
   "order": null,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 1115
  },
  {
   "id": 311701,
@@ -5659,7 +5901,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.7",
   "order": null
  },
@@ -5676,7 +5918,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.7",
   "order": null,
   "source": "2통찰 달성"
@@ -5691,14 +5933,16 @@
   "gain": 2,
   "portrait": "assets/img/char/311703.webp",
   "art": "assets/img/skin/311703.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "64칸의 흑백",
   "seriesGroup": "코스튬 집합론",
-  "grade": 1,
+  "grade": "Garment",
   "version": "2.8",
   "order": 100000000,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 93
  },
  {
   "id": 311704,
@@ -5710,14 +5954,16 @@
   "gain": 2,
   "portrait": "assets/img/char/311704.webp",
   "art": "assets/img/skin/311704.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "색채의 지각",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.5",
   "order": 510061,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 122
  },
  {
   "id": 311801,
@@ -5728,13 +5974,14 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/311801.webp",
-  "art": null,
+  "art": "assets/img/skin/311801.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.7",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 311802,
@@ -5749,7 +5996,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.7",
   "order": null,
   "source": "2통찰 달성"
@@ -5764,14 +6011,16 @@
   "gain": 13720,
   "portrait": "assets/img/char/311803.webp",
   "art": "assets/img/skin/311803.webp",
-  "cat": "event",
+  "cat": "content",
   "series": "삶과 죽음의 문답",
   "seriesGroup": "커튼의 안쪽",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.7",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 1106
  },
  {
   "id": 310701,
@@ -5786,7 +6035,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.2",
   "order": null
  },
@@ -5803,7 +6052,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.8",
   "order": null,
   "source": "2통찰 달성"
@@ -5821,12 +6070,13 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "2.8",
   "order": 100000000,
   "source": "판매",
   "gradeName": "Advanced Garment",
-  "tarot": 21
+  "tarot": 21,
+  "simId": 91
  },
  {
   "id": 311501,
@@ -5841,7 +6091,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.6",
   "order": null
  },
@@ -5858,7 +6108,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.8",
   "order": null,
   "source": "2통찰 달성"
@@ -5876,7 +6126,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.8",
   "order": null
  },
@@ -5893,7 +6143,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.8",
   "order": null,
   "source": "2통찰 달성"
@@ -5908,14 +6158,16 @@
   "gain": 2,
   "portrait": "assets/img/char/312003.webp",
   "art": "assets/img/skin/312003.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "삶과 죽음의 문답",
   "seriesGroup": "커튼의 안쪽",
-  "grade": 3,
+  "grade": "Unique",
   "version": "3.7",
   "order": 510066,
   "source": "판매",
-  "gradeName": "Unique"
+  "gradeName": "Unique",
+  "tarot": null,
+  "simId": 1101
  },
  {
   "id": 312101,
@@ -5930,7 +6182,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.8",
   "order": null
  },
@@ -5947,7 +6199,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "2.8",
   "order": null,
   "source": "2통찰 달성"
@@ -5962,14 +6214,16 @@
   "gain": 2,
   "portrait": "assets/img/char/312103.webp",
   "art": "assets/img/skin/312103.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "철과 고성의 노래",
   "seriesGroup": "세계의 섬",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.3",
   "order": 510055,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 110
  },
  {
   "id": 312601,
@@ -5984,7 +6238,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.0",
   "order": null
  },
@@ -6001,7 +6255,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.0",
   "order": null,
   "source": "2통찰 달성"
@@ -6016,14 +6270,16 @@
   "gain": 2,
   "portrait": "assets/img/char/312603.webp",
   "art": "assets/img/skin/312603.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "철과 고성의 노래",
   "seriesGroup": "세계의 섬",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.3",
   "order": 510054,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 109
  },
  {
   "id": 312606,
@@ -6038,13 +6294,14 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 2,
-  "version": "S02",
+  "grade": "Advanced",
+  "version": "콜라보",
   "order": 510071,
   "source": "판매",
   "gradeName": "Advanced Garment",
   "tarot": 11,
-  "collab": "아토믹 하트"
+  "collab": "아토믹 하트",
+  "simId": 1112
  },
  {
   "id": 312801,
@@ -6059,7 +6316,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.0",
   "order": null
  },
@@ -6076,7 +6333,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.0",
   "order": null,
   "source": "2통찰 달성"
@@ -6094,12 +6351,13 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.7",
   "order": 510064,
   "source": "판매",
   "gradeName": "Garment",
-  "tarot": 13
+  "tarot": 13,
+  "simId": 1103
  },
  {
   "id": 312201,
@@ -6114,7 +6372,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "S01",
   "order": null,
   "collab": "어쌔신 크리드"
@@ -6132,7 +6390,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "S01",
   "order": null,
   "source": "2통찰 달성",
@@ -6151,7 +6409,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "S01",
   "order": null,
   "collab": "어쌔신 크리드"
@@ -6169,7 +6427,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "S01",
   "order": null,
   "source": "2통찰 달성",
@@ -6184,14 +6442,15 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/312401.webp",
-  "art": null,
+  "art": "assets/img/skin/312401.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "S01",
   "order": null,
-  "collab": "어쌔신 크리드"
+  "collab": "어쌔신 크리드",
+  "artSource": "fandom"
  },
  {
   "id": 312402,
@@ -6206,7 +6465,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "S01",
   "order": null,
   "source": "2통찰 달성",
@@ -6225,7 +6484,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.1",
   "order": null
  },
@@ -6242,7 +6501,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.1",
   "order": null,
   "source": "2통찰 달성"
@@ -6260,11 +6519,13 @@
   "cat": "dushuo",
   "series": "속세의 손님",
   "seriesGroup": "도삭 절기",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.4",
   "order": 510059,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 116
  },
  {
   "id": 313201,
@@ -6279,7 +6540,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.1",
   "order": null
  },
@@ -6296,7 +6557,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.1",
   "order": null,
   "source": "2통찰 달성"
@@ -6311,14 +6572,16 @@
   "gain": 2,
   "portrait": "assets/img/char/313203.webp",
   "art": "assets/img/skin/313203.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "색채의 지각",
   "seriesGroup": "예술을 초월한 서사",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.5",
   "order": 510062,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 121
  },
  {
   "id": 313401,
@@ -6329,13 +6592,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/313401.webp",
-  "art": null,
+  "art": "assets/img/skin/313401.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.2",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 313402,
@@ -6346,14 +6610,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/313402.webp",
-  "art": null,
+  "art": "assets/img/skin/313402.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.2",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 313501,
@@ -6364,13 +6629,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/313501.webp",
-  "art": null,
+  "art": "assets/img/skin/313501.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.2",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 313502,
@@ -6381,14 +6647,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/313502.webp",
-  "art": null,
+  "art": "assets/img/skin/313502.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.2",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 312701,
@@ -6399,13 +6666,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/312701.webp",
-  "art": null,
+  "art": "assets/img/skin/312701.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.3",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 312702,
@@ -6416,14 +6684,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/312702.webp",
-  "art": null,
+  "art": "assets/img/skin/312702.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.3",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 312703,
@@ -6438,12 +6707,13 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.6",
   "order": 510063,
   "source": "판매",
   "gradeName": "Advanced Garment",
-  "tarot": 8
+  "tarot": 8,
+  "simId": 125
  },
  {
   "id": 309201,
@@ -6454,13 +6724,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/309201.webp",
-  "art": null,
+  "art": "assets/img/skin/309201.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.3",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 309202,
@@ -6471,14 +6742,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/309202.webp",
-  "art": null,
+  "art": "assets/img/skin/309202.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.3",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 309203,
@@ -6493,12 +6765,13 @@
   "cat": "tarot",
   "series": "0에서 21까지",
   "seriesGroup": "0에서 21까지",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.8",
   "order": 510073,
   "source": "판매",
   "gradeName": "Advanced Garment",
-  "tarot": 4
+  "tarot": 4,
+  "simId": 1114
  },
  {
   "id": 314101,
@@ -6509,13 +6782,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314101.webp",
-  "art": null,
+  "art": "assets/img/skin/314101.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.4",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 314102,
@@ -6526,14 +6800,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314102.webp",
-  "art": null,
+  "art": "assets/img/skin/314102.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.4",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 313701,
@@ -6544,13 +6819,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/313701.webp",
-  "art": null,
+  "art": "assets/img/skin/313701.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.4",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 313702,
@@ -6561,14 +6837,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/313702.webp",
-  "art": null,
+  "art": "assets/img/skin/313702.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.4",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 313801,
@@ -6579,13 +6856,14 @@
   "rare": 3,
   "gain": 0,
   "portrait": "assets/img/char/313801.webp",
-  "art": null,
+  "art": "assets/img/skin/313801.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.4",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 313802,
@@ -6596,14 +6874,15 @@
   "rare": 3,
   "gain": 1,
   "portrait": "assets/img/char/313802.webp",
-  "art": null,
+  "art": "assets/img/skin/313802.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.4",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 313901,
@@ -6614,13 +6893,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/313901.webp",
-  "art": null,
+  "art": "assets/img/skin/313901.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.5",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 313902,
@@ -6631,14 +6911,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/313902.webp",
-  "art": null,
+  "art": "assets/img/skin/313902.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.5",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 313903,
@@ -6650,14 +6931,16 @@
   "gain": 2,
   "portrait": "assets/img/char/313903.webp",
   "art": "assets/img/skin/313903.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "미래의 토대",
   "seriesGroup": "세계의 섬",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "3.8",
   "order": 510072,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 1113
  },
  {
   "id": 314201,
@@ -6668,13 +6951,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314201.webp",
-  "art": null,
+  "art": "assets/img/skin/314201.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.5",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 314202,
@@ -6685,14 +6969,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314202.webp",
-  "art": null,
+  "art": "assets/img/skin/314202.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.5",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 313601,
@@ -6707,7 +6992,7 @@
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.2",
   "order": null
  },
@@ -6724,7 +7009,7 @@
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.7",
   "order": null,
   "source": "2통찰 달성"
@@ -6738,13 +7023,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314301.webp",
-  "art": null,
+  "art": "assets/img/skin/314301.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.6",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 314302,
@@ -6755,14 +7041,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314302.webp",
-  "art": null,
+  "art": "assets/img/skin/314302.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.6",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 314601,
@@ -6773,13 +7060,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314601.webp",
-  "art": null,
+  "art": "assets/img/skin/314601.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.7",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 314602,
@@ -6790,14 +7078,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314602.webp",
-  "art": null,
+  "art": "assets/img/skin/314602.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.7",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 314701,
@@ -6808,13 +7097,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314701.webp",
-  "art": null,
+  "art": "assets/img/skin/314701.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.7",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 314702,
@@ -6825,14 +7115,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314702.webp",
-  "art": null,
+  "art": "assets/img/skin/314702.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.7",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 314401,
@@ -6843,13 +7134,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314401.webp",
-  "art": null,
+  "art": "assets/img/skin/314401.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.6",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 314402,
@@ -6860,14 +7152,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314402.webp",
-  "art": null,
+  "art": "assets/img/skin/314402.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.7",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 314403,
@@ -6879,14 +7172,16 @@
   "gain": 2,
   "portrait": "assets/img/char/314403.webp",
   "art": "assets/img/skin/314403.webp",
-  "cat": "series",
+  "cat": "shop",
   "series": "삶과 죽음의 문답",
   "seriesGroup": "커튼의 안쪽",
-  "grade": 3,
+  "grade": "Unique",
   "version": "3.7",
   "order": 510065,
   "source": "판매",
-  "gradeName": "Unique"
+  "gradeName": "Unique",
+  "tarot": null,
+  "simId": 1100
  },
  {
   "id": 314501,
@@ -6897,13 +7192,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314501.webp",
-  "art": null,
+  "art": "assets/img/skin/314501.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.8",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 314502,
@@ -6914,14 +7210,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314502.webp",
-  "art": null,
+  "art": "assets/img/skin/314502.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.8",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 314503,
@@ -6936,11 +7233,13 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "4.0",
   "order": 510077,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 1131
  },
  {
   "id": 314001,
@@ -6951,13 +7250,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314001.webp",
-  "art": null,
+  "art": "assets/img/skin/314001.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.8",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 314002,
@@ -6968,14 +7268,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314002.webp",
-  "art": null,
+  "art": "assets/img/skin/314002.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.8",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 314003,
@@ -6990,11 +7291,13 @@
   "cat": "anniv",
   "series": "세월의 책갈피",
   "seriesGroup": "세월의 책갈피",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "4.0",
   "order": 510078,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 1132
  },
  {
   "id": 314901,
@@ -7005,14 +7308,15 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314901.webp",
-  "art": null,
+  "art": "assets/img/skin/314901.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "S02",
   "order": null,
-  "collab": "아토믹 하트"
+  "collab": "아토믹 하트",
+  "artSource": "fandom"
  },
  {
   "id": 314902,
@@ -7023,14 +7327,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314902.webp",
-  "art": null,
+  "art": "assets/img/skin/314902.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "S02",
   "order": null,
-  "collab": "아토믹 하트"
+  "collab": "아토믹 하트",
+  "artSource": "fandom"
  },
  {
   "id": 314903,
@@ -7045,12 +7350,14 @@
   "cat": "collab",
   "series": "조립식 미래",
   "seriesGroup": "비의 장막 밖",
-  "grade": 2,
-  "version": "S02",
+  "grade": "Advanced",
+  "version": "콜라보",
   "order": 510069,
   "source": "콜라보 판매",
   "gradeName": "Advanced Garment",
-  "collab": "아토믹 하트"
+  "collab": "아토믹 하트",
+  "tarot": null,
+  "simId": 1107
  },
  {
   "id": 315101,
@@ -7061,14 +7368,15 @@
   "rare": 3,
   "gain": 0,
   "portrait": "assets/img/char/315101.webp",
-  "art": null,
+  "art": "assets/img/skin/315101.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "S02",
   "order": null,
-  "collab": "아토믹 하트"
+  "collab": "아토믹 하트",
+  "artSource": "fandom"
  },
  {
   "id": 315102,
@@ -7079,14 +7387,15 @@
   "rare": 3,
   "gain": 1,
   "portrait": "assets/img/char/315102.webp",
-  "art": null,
+  "art": "assets/img/skin/315102.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "S02",
   "order": null,
-  "collab": "아토믹 하트"
+  "collab": "아토믹 하트",
+  "artSource": "fandom"
  },
  {
   "id": 315401,
@@ -7097,13 +7406,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/315401.webp",
-  "art": null,
+  "art": "assets/img/skin/315401.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.7",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 315402,
@@ -7114,14 +7424,15 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/315402.webp",
-  "art": null,
+  "art": "assets/img/skin/315402.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.7",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 315801,
@@ -7132,13 +7443,14 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315801.webp",
-  "art": null,
+  "art": "assets/img/skin/315801.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.7",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 315802,
@@ -7149,14 +7461,15 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315802.webp",
-  "art": null,
+  "art": "assets/img/skin/315802.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "4.0",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 315701,
@@ -7167,13 +7480,14 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315701.webp",
-  "art": null,
+  "art": "assets/img/skin/315701.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.7",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 315702,
@@ -7184,14 +7498,15 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315702.webp",
-  "art": null,
+  "art": "assets/img/skin/315702.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.9",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 315601,
@@ -7202,13 +7517,14 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315601.webp",
-  "art": null,
+  "art": "assets/img/skin/315601.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.7",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 315602,
@@ -7219,14 +7535,15 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315602.webp",
-  "art": null,
+  "art": "assets/img/skin/315602.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.9",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 315501,
@@ -7237,13 +7554,14 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315501.webp",
-  "art": null,
+  "art": "assets/img/skin/315501.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.7",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 315502,
@@ -7254,14 +7572,15 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315502.webp",
-  "art": null,
+  "art": "assets/img/skin/315502.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "4.0",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 315503,
@@ -7276,12 +7595,13 @@
   "cat": "tarot",
   "series": "",
   "seriesGroup": "",
-  "grade": 3,
+  "grade": "Unique",
   "version": "4.0",
   "order": null,
   "source": "판매",
   "gradeName": "Unique",
-  "tarot": 7
+  "tarot": 7,
+  "simId": 1130
  },
  {
   "id": 316301,
@@ -7292,13 +7612,14 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/316301.webp",
-  "art": null,
+  "art": "assets/img/skin/316301.webp",
   "cat": "default",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "3.7",
-  "order": null
+  "order": null,
+  "artSource": "fandom"
  },
  {
   "id": 316302,
@@ -7309,14 +7630,15 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/316302.webp",
-  "art": null,
+  "art": "assets/img/skin/316302.webp",
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
-  "grade": 0,
+  "grade": null,
   "version": "4.0",
   "order": null,
-  "source": "2통찰 달성"
+  "source": "2통찰 달성",
+  "artSource": "fandom"
  },
  {
   "id": 304104,
@@ -7331,11 +7653,13 @@
   "cat": "collab",
   "series": "",
   "seriesGroup": "",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.8",
   "order": null,
   "source": "콜라보 판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 34
  },
  {
   "id": 300604,
@@ -7350,11 +7674,13 @@
   "cat": "collab",
   "series": "",
   "seriesGroup": "",
-  "grade": 1,
+  "grade": "Garment",
   "version": "1.9",
   "order": null,
   "source": "콜라보 판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 43
  },
  {
   "id": 314303,
@@ -7369,11 +7695,13 @@
   "cat": "shop",
   "series": "",
   "seriesGroup": "",
-  "grade": 3,
+  "grade": "Unique",
   "version": "3.9",
   "order": null,
   "source": "판매",
-  "gradeName": "Unique"
+  "gradeName": "Unique",
+  "tarot": null,
+  "simId": 1119
  },
  {
   "id": 314704,
@@ -7388,11 +7716,13 @@
   "cat": "shop",
   "series": "",
   "seriesGroup": "",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.9",
   "order": null,
   "source": "판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 1120
  },
  {
   "id": 312104,
@@ -7404,14 +7734,16 @@
   "gain": null,
   "portrait": "assets/img/char/312104.webp",
   "art": "assets/img/skin/312104.webp",
-  "cat": "shop",
+  "cat": "jukebox",
   "series": "",
   "seriesGroup": "",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.9",
   "order": null,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 1121
  },
  {
   "id": 305403,
@@ -7423,14 +7755,16 @@
   "gain": null,
   "portrait": "assets/img/char/305403.webp",
   "art": "assets/img/skin/305403.webp",
-  "cat": "shop",
+  "cat": "content",
   "series": "",
   "seriesGroup": "",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.9",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 1122
  },
  {
   "id": 313503,
@@ -7445,11 +7779,13 @@
   "cat": "collab",
   "series": "",
   "seriesGroup": "",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.9",
   "order": null,
   "source": "콜라보 판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 1123
  },
  {
   "id": 308005,
@@ -7464,11 +7800,13 @@
   "cat": "collab",
   "series": "",
   "seriesGroup": "",
-  "grade": 1,
+  "grade": "Garment",
   "version": "3.9",
   "order": null,
   "source": "콜라보 판매",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 1124
  },
  {
   "id": 313403,
@@ -7483,11 +7821,13 @@
   "cat": "shop",
   "series": "",
   "seriesGroup": "",
-  "grade": 3,
+  "grade": "Unique",
   "version": "4.0",
   "order": null,
   "source": "판매",
-  "gradeName": "Unique"
+  "gradeName": "Unique",
+  "tarot": null,
+  "simId": 1133
  },
  {
   "id": 304805,
@@ -7502,11 +7842,13 @@
   "cat": "shop",
   "series": "",
   "seriesGroup": "",
-  "grade": 2,
+  "grade": "Advanced",
   "version": "4.0",
   "order": null,
   "source": "판매",
-  "gradeName": "Advanced Garment"
+  "gradeName": "Advanced Garment",
+  "tarot": null,
+  "simId": 1134
  },
  {
   "id": 302507,
@@ -7518,14 +7860,16 @@
   "gain": null,
   "portrait": "assets/img/char/302507.webp",
   "art": "assets/img/skin/302507.webp",
-  "cat": "shop",
+  "cat": "free",
   "series": "",
   "seriesGroup": "",
-  "grade": 1,
+  "grade": "Garment",
   "version": "4.0",
   "order": null,
   "source": "무료",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 1135
  },
  {
   "id": 311705,
@@ -7537,14 +7881,16 @@
   "gain": null,
   "portrait": "assets/img/char/311705.webp",
   "art": "assets/img/skin/311705.webp",
-  "cat": "shop",
+  "cat": "jukebox",
   "series": "",
   "seriesGroup": "",
-  "grade": 1,
+  "grade": "Garment",
   "version": "4.0",
   "order": null,
   "source": "주크박스",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 1136
  },
  {
   "id": 309103,
@@ -7556,13 +7902,15 @@
   "gain": null,
   "portrait": "assets/img/char/309103.webp",
   "art": "assets/img/skin/309103.webp",
-  "cat": "shop",
+  "cat": "content",
   "series": "",
   "seriesGroup": "",
-  "grade": 1,
+  "grade": "Garment",
   "version": "4.0",
   "order": null,
   "source": "컨텐츠",
-  "gradeName": "Garment"
+  "gradeName": "Garment",
+  "tarot": null,
+  "simId": 1137
  }
 ]
