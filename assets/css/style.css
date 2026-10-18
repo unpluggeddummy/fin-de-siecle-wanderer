@@ -1013,3 +1013,11 @@ a.tl-ev:hover { border-color: var(--brass); color: var(--paper); }
 .tl-item.now .tl-dot span { background: var(--brass); color: var(--ink); }
 .tl-item.now .tl-card { border-color: var(--brass-dim); box-shadow: var(--glow); }
 .story-banner.no-img { aspect-ratio: 855 / 149; }
+
+/* 버전 대표 일러스트(게임 원본) + 위키 제목 띠 */
+.tl-card { max-width: 860px; }
+.tl-banner { position: relative; display: block; }
+.tl-strip { position: absolute; left: 0; right: 0; bottom: 0; display: block; background: linear-gradient(transparent, rgba(4,6,8,.85)); padding: 18px 10px 8px; }
+.tl-strip img { width: min(62%, 420px); display: block; border: 1px solid rgba(255,255,255,.15); }
+.tl-hero-strip { padding: 10px clamp(14px, 2.4vw, 24px) 0; }
+.tl-hero-strip img { width: min(100%, 640px); display: block; border: 1px solid var(--line); }

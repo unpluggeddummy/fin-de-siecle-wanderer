@@ -68,8 +68,8 @@ export async function loadAll() {
     ['characters', 'skins', 'psychubes', 'materials', 'bulletin', 'meta'].map((n) => getJSON(`data/game/${n}.json`)),
   );
   // 위키에서 가져온 자료 (없어도 사이트는 돌아가게)
-  const [npcs, stories, versions, profiles] = await Promise.all(['npcs', 'stories', 'versions', 'profiles'].map((n) => getJSON(`data/game/${n}.json`).catch(() => (n === 'profiles' ? {} : []))));
-  state.game = { characters, skins, psychubes, materials, bulletin, meta, npcs, stories, versions, profiles };
+  const [npcs, stories, versions, profiles, versionArt] = await Promise.all(['npcs', 'stories', 'versions', 'profiles', 'version-art'].map((n) => getJSON(`data/game/${n}.json`).catch(() => (n === 'profiles' || n === 'version-art' ? {} : []))));
+  state.game = { characters, skins, psychubes, materials, bulletin, meta, npcs, stories, versions, profiles, versionArt };
   indexGame();
   await loadUser();
 }

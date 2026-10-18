@@ -171,7 +171,7 @@ function versionCard() {
   const cur = store.currentVersion();
   const v = timeline.allVersions().find((x) => x.id === cur) || timeline.allVersions().find((x) => store.verNum(x.id) <= store.verNum(cur));
   if (!v) return null;
-  const banner = v.banner || v.stories.find((s) => s.cat === 'mainevent' && s.banner)?.banner || v.stories.find((s) => s.banner)?.banner;
+  const banner = v.key || v.strip;
   const title = v.title?.ko || v.stories.find((s) => s.cat === 'mainevent' || s.cat === 'main')?.name.ko || '';
   return h('a.side-ver', { href: `#/timeline/${v.id}` },
     banner ? h('span.side-ver-img', img(banner, '')) : null,

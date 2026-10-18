@@ -17,7 +17,10 @@ export function allVersions() {
   return [...ids].filter((v) => store.verNum(v) > 0).map((id) => {
     const w = wiki.get(id) || { id, title: {}, periods: {}, newChars: [], events: [], summons: [], garments: [] };
     const chars = g.characters.filter((c) => c.released && c.version === id);
-    return { ...w, chars, stories: (g.stories || []).filter((s) => s.version === id), wiki: wiki.has(id) };
+    const stories = (g.stories || []).filter((s) => s.version === id);
+    // 제목 띠: 위키 버전 배너 > 메인 이벤트 스토리 배너
+    const strip = w.banner || stories.find((s) => s.cat === 'mainevent' && s.banner)?.banner || stories.find((s) => s.cat === 'main' && s.banner)?.banner || null;
+    return { ...w, chars, stories, wiki: wiki.has(id), key: g.versionArt?.[id] || null, strip };
   }).sort((a, b) => store.verNum(b.id) - store.verNum(a.id));
 }
 
@@ -42,11 +45,11 @@ export function render(root, { arg } = {}) {
     const n = store.verNum(x.id);
     const state = n === cur ? 'now' : n > cur ? 'future' : '';
     const reviews = (store.state.user.stories?.posts || []).filter((p) => x.stories.some((s) => s.id === p.story)).length;
-    const banner = x.banner || x.stories.find((s) => s.cat === 'mainevent' && s.banner)?.banner || x.stories.find((s) => s.banner)?.banner;
+    const banner = x.key || x.strip;
     return h('li.tl-item', { class: [store.COLLAB[x.id] ? 'collab' : '', state].join(' '), id: state === 'now' ? 'tl-now' : null },
       h('div.tl-dot', h('span', x.id)),
       h('a.tl-card', { href: `#/timeline/${x.id}` },
-        banner ? h('span.tl-banner', img(banner, '')) : null,
+        banner ? h('span.tl-banner', img(banner, ''), x.key && x.strip ? h('span.tl-strip', img(x.strip, '')) : null) : null,
         h('span.tl-body',
           h('span.code', store.verLabel(x.id), state === 'now' ? h('em.tl-badge.now', '지금 한섭') : state === 'future' ? h('em.tl-badge', '한섭 예정 · 중섭 선행') : null),
           h('b', vTitle(x) || '—'),
@@ -84,7 +87,8 @@ function detail(root, v, list) {
       older ? h('a.btn.small.ghost', { href: `#/timeline/${older.id}` }, `‹ ${older.id}`) : null,
       newer ? h('a.btn.small.ghost', { href: `#/timeline/${newer.id}` }, `${newer.id} ›`) : null),
     h('section.story-hero.tl-hero',
-      v.banner ? h('button.story-hero-img.tl-hero-img', { type: 'button', onclick: () => lightbox(v.banner, vTitle(v)) }, img(v.banner, '')) : null,
+      v.key || v.strip ? h('button.story-hero-img.tl-hero-img', { type: 'button', onclick: () => lightbox(v.key || v.strip, vTitle(v)) }, img(v.key || v.strip, '')) : null,
+      v.key && v.strip ? h('div.tl-hero-strip', img(v.strip, '')) : null,
       h('div.tl-hero-grid',
         h('div.story-hero-text',
           h('p.code', store.verLabel(v.id),

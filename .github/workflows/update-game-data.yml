@@ -58,6 +58,9 @@ jobs:
           /singlebg/bossrush/boss/
           /singlebg/v1a4_bossrush_bossicon_singlebg/
           /singlebg/characterdestiny/stone/
+          /singlebg/v*_mainactivity_singlebg/*_enterview_fullbg*.png
+          /singlebg/v1a*_enterview_singlebg/*_enterview_fullbg*.png
+          /singlebg/sp0*_mainactivity_singlebg/*_enterview_fullbg.png
           LIST
           sed -i 's/^ *//' .git/info/sparse-checkout
           git checkout
@@ -70,6 +73,10 @@ jobs:
             --global ../src/global --cn ../src/cn \
             --kornblume ../src/kornblume --roster ../src/roster \
             --out . $FORCE
+
+      - name: 버전 대표 일러스트 (게임 원본)
+        continue-on-error: true
+        run: python scripts/version_art.py --cn ../src/cn --out .
 
       - name: 시뮬레이터(한섭) 자료로 버전·등급 맞추기
         run: python scripts/apply_simulator.py --out .
