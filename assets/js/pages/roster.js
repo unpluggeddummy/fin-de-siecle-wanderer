@@ -2,7 +2,7 @@
 import { h, img, drawer, stepper, chip, field, toast, pickFile, readFileText, lightbox, fill } from '../ui.js';
 import * as store from '../store.js';
 import { rerender } from '../app.js';
-import { stars, afClass, afImg, ROMAN } from '../components.js';
+import { stars, afClass, afImg, ROMAN, profileBlock } from '../components.js';
 import { importRosterJSON } from '../importer.js';
 
 const AF_ORDER = ['star', 'mineral', 'beast', 'plant', 'spirit', 'intellect'];
@@ -129,11 +129,11 @@ export function render(root, { arg }) {
       for (const c of list) { const k = keyFn(c); if (!m.has(k)) m.set(k, []); m.get(k).push(c); }
       return [...m.entries()].sort((a, b) => order(a[0], b[0])).map(([k, l]) => [labelFn(k, l), l.sort(byRar)]);
     };
-    const vnum = (v) => (v && /^\d/.test(v) ? v.split('.').reduce((a, x) => a * 100 + +x, 0) : (v === '콜라보' ? 0.5 : -1));
+    const vnum = store.verNum;
     if (view.sort === 'rarity') return make((c) => c.rarity, (a, b) => b - a, (k) => `${k}성`);
     if (view.sort === 'version') {
       return make((c) => (c.released ? (c.version || '?') : '미출시'), (a, b) => (a === '미출시' ? -1 : b === '미출시' ? 1 : vnum(b) - vnum(a)),
-        (k, l) => (k === '미출시' || k === '?' ? (k === '?' ? '버전 미상' : '미출시') : k === '콜라보' ? '콜라보' : [`${k} 버전`, l.some((c) => c.versionEstimated) ? h('span.est', '추정 포함') : null]));
+        (k, l) => (k === '미출시' || k === '?' ? (k === '?' ? '버전 미상' : '미출시') : [store.verLabel(k), l.some((c) => c.versionEstimated) ? h('span.est', '추정 포함') : null]));
     }
     if (view.sort === 'portray') return make((c) => (rec(c).owned ? rec(c).portray || 0 : -1), (a, b) => b - a, (k) => (k < 0 ? '미보유' : `형상 P${k}`));
     if (view.sort === 'resonance') return make((c) => (rec(c).owned ? rec(c).resonance || 1 : -1), (a, b) => b - a, (k) => (k < 0 ? '미보유' : `공명 ${k}`));
@@ -219,7 +219,7 @@ export function openChar(c) {
         c.role ? h('span.tag', c.role) : null,
         store.DMG[c.dmg] ? h('span.tag', store.DMG[c.dmg]) : null,
         c.euphoria ? h('span.tag', `광상 ${c.euphoria}종`) : null,
-        c.released ? (c.version ? h('span.tag', `${c.version} 버전${c.versionEstimated ? ' (추정)' : ''}`) : null) : h('span.tag', '미출시'),
+        c.released ? (c.version ? h('span.tag', `${store.verLabel(c.version, true)}${c.versionEstimated ? ' (추정)' : ''}`) : null) : h('span.tag', '미출시'),
       ),
       h('div.faint', { style: { fontSize: '13px' } }, [c.name.en, c.name.ja, c.name.zhCN].filter(Boolean).join(' / ')),
     ),
@@ -228,7 +228,7 @@ export function openChar(c) {
   let body;
   const foot = [];
   if (!editing) {
-    body = [hero, readOnly(c, rec)];
+    body = [hero, readOnly(c, rec), profileBlock(c)];
   } else {
     const r = store.ensureChar(c.id);
     if (!r.euphorias && r.euphoria) r.euphorias = [r.euphoria];

@@ -1,7 +1,7 @@
 import * as store from './store.js';
 import * as gh from './github.js';
 import * as owner from './owner.js';
-import { h, toast, append } from './ui.js';
+import { h, toast, append, closeDrawer } from './ui.js';
 
 const pages = {
   home: () => import('./pages/home.js'),
@@ -13,7 +13,9 @@ const pages = {
   plans: () => import('./pages/plans.js'),
   gacha: () => import('./pages/gacha.js'),
   names: () => import('./pages/names.js'),
-  memo: () => import('./pages/memo.js'),
+  stories: () => import('./pages/stories.js'),
+  timeline: () => import('./pages/timeline.js'),
+  codex: () => import('./pages/codex.js'),
   settings: () => import('./pages/settings.js'),
 };
 
@@ -187,7 +189,7 @@ async function boot() {
     main.replaceChildren(h('div.empty', h('p', `데이터를 불러오지 못했습니다: ${e.message}`)));
     return;
   }
-  window.addEventListener('hashchange', () => render(true));
+  window.addEventListener('hashchange', () => { if (document.querySelector('.drawer')) closeDrawer(); render(true); });
   render(true);
 }
 boot();

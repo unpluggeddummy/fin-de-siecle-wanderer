@@ -9,7 +9,7 @@ export const SECTIONS = {
   decks:     { file: 'data/user/decks.json',     label: '덱',           def: () => ({ decks: [] }) },
   plans:     { file: 'data/user/plans.json',     label: '육성 계획',     def: () => ({ plans: [], inventory: {}, materialNames: {} }) },
   gacha:     { file: 'data/user/gacha.json',     label: '모집 기록',     def: () => ({ pity: 0, pityLimit: 70, guaranteed: false, currencies: [{ name: '순결의 빗방울', amount: 0 }, { name: '순수의 빗방울', amount: 0 }, { name: '모노로그', amount: 0 }, { name: '데카로그', amount: 0 }], banners: [], wishlist: [] }) },
-  memo:      { file: 'data/user/memo.json',      label: '메모',         def: () => ({ v: 1, salt: null, iv: null, data: null }) },
+  stories:   { file: 'data/user/stories.json',   label: '스토리 후기',   def: () => ({ posts: [], ratings: {}, read: {} }) },
   profile:   { file: 'data/user/profile.json',   label: '소개',         def: () => defaultProfile() },
   settings:  { file: 'data/user/settings.json',  label: '설정',         def: () => ({ title: '세기말의 방랑자', titleEn: 'Fin de Siècle Wanderer', subtitle: '리버스: 1999 개인 기록', showNames: false, server: '한섭' }) },
 };
@@ -67,7 +67,9 @@ export async function loadAll() {
   const [characters, skins, psychubes, materials, bulletin, meta] = await Promise.all(
     ['characters', 'skins', 'psychubes', 'materials', 'bulletin', 'meta'].map((n) => getJSON(`data/game/${n}.json`)),
   );
-  state.game = { characters, skins, psychubes, materials, bulletin, meta };
+  // 위키에서 가져온 자료 (없어도 사이트는 돌아가게)
+  const [npcs, stories, versions, profiles] = await Promise.all(['npcs', 'stories', 'versions', 'profiles'].map((n) => getJSON(`data/game/${n}.json`).catch(() => (n === 'profiles' ? {} : []))));
+  state.game = { characters, skins, psychubes, materials, bulletin, meta, npcs, stories, versions, profiles };
   indexGame();
   await loadUser();
 }
@@ -169,15 +171,52 @@ export function replaceAll(data) {
 export function setEditing(v) { state.editing = v; document.body.classList.toggle('editing', v); emit('mode'); }
 
 // ── 게임 데이터 색인과 도우미 ──────────────────────────────
-const idx = { char: new Map(), skin: new Map(), psy: new Map() };
+const idx = { char: new Map(), skin: new Map(), psy: new Map(), npc: new Map(), story: new Map() };
 function indexGame() {
   for (const c of state.game.characters) idx.char.set(c.id, c);
   for (const s of state.game.skins) idx.skin.set(s.id, s);
   for (const p of state.game.psychubes) idx.psy.set(p.id, p);
+  // NPC는 출품작처럼 다룰 수 있게 같은 모양으로 만들어 둔다 (id가 'npc-'로 시작)
+  for (const n of state.game.npcs || []) {
+    idx.npc.set(n.id, { ...n, npc: true, released: true, rarity: 0, skins: [], portrait: n.icon || n.art, art: n.art || n.icon });
+  }
+  for (const st of state.game.stories || []) idx.story.set(st.id, st);
 }
-export const charById = (id) => idx.char.get(+id);
+export const isNpcId = (id) => typeof id === 'string' && id.startsWith('npc-');
+export const charById = (id) => (isNpcId(id) ? idx.npc.get(id) : idx.char.get(+id));
+export const npcList = () => [...idx.npc.values()];
+export const storyById = (id) => idx.story.get(id);
+export const profileOf = (id) => state.game.profiles?.[id] || null;
+/** 모집 배너(위키) id → { banner, version } */
+export function summonById(id) {
+  for (const v of state.game.versions || []) { const s = v.summons.find((x) => x.id === id); if (s) return { ...s, version: v.id }; }
+  return null;
+}
+/** 생일 'MM-DD' → { m, d } */
+export function birthdayOf(id) {
+  const b = profileOf(id)?.birthday;
+  if (!b) return null;
+  const [m, d] = b.split('-').map(Number);
+  return { m, d };
+}
 export const skinById = (id) => idx.skin.get(+id);
 export const psyById = (id) => idx.psy.get(+id);
+
+// 콜라보 버전: S01은 2.7과 2.8 사이, S02는 3.6과 3.7 사이
+export const COLLAB = { S01: '어쌔신 크리드', S02: '아토믹 하트' };
+const COLLAB_AT = { S01: 207.5, S02: 306.5 };
+export function verNum(v) {
+  if (!v) return -1;
+  if (COLLAB_AT[v]) return COLLAB_AT[v];
+  if (/^\d/.test(v)) return String(v).split('.').reduce((a, x) => a * 100 + (+x || 0), 0);
+  return v === '콜라보' ? 0.5 : -1;
+}
+export function verLabel(v, short) {
+  if (!v) return '';
+  if (COLLAB[v]) return short ? `${v} · ${COLLAB[v]}` : `${v} · ${COLLAB[v]} 콜라보`;
+  if (v === '콜라보') return '콜라보';
+  return `${v} 버전`;
+}
 
 export const AFFLATUS = {
   star: '천체', mineral: '암석', plant: '나무', beast: '야수', spirit: '영혼', intellect: '지능', 'mineral-star': '암석·천체', unknown: '미상',
@@ -207,6 +246,7 @@ export function ensureChar(id) {
 /** 캐릭터 대표 이미지: 내가 고른 스킨 > 통찰 스킨(통찰 2 이상) > 기본 */
 export function charPortrait(c, skinId) {
   if (!c) return null;
+  if (c.npc) return c.portrait;
   const rec = charRecord(c.id);
   const sid = skinId || rec?.skin || ((rec?.insight >= 2 && c.insightSkin) ? c.insightSkin : c.defaultSkin);
   return (skinById(sid) || skinById(c.defaultSkin))?.portrait || null;

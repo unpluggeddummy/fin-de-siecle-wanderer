@@ -4,6 +4,8 @@ import * as store from '../store.js';
 import { teamView, afClass, charPicker } from '../components.js';
 import { seasonTotals } from './bulletin.js';
 import { skinInfo } from './skins.js';
+import * as timeline from './timeline.js';
+import * as codex from './codex.js';
 
 const P = () => store.state.user.profile;
 
@@ -11,6 +13,7 @@ const P = () => store.state.user.profile;
 function showcaseSkin(slot) {
   const c = store.charById(slot.char);
   if (!c) return null;
+  if (c.npc) return { art: c.art, portrait: c.portrait, type: 'npc', name: 'NPC' };
   const rec = store.charRecord(c.id) || {};
   const sid = slot.skin || rec.skin || c.insightSkin || c.defaultSkin;
   return store.skinById(sid) || store.skinById(c.defaultSkin);
@@ -57,7 +60,8 @@ function profileSection(p, editing) {
     const c = store.charById(cid);
     if (!c) return null;
     return h('span.fav-chip', { class: afClass(c) },
-      h('a', { href: `#/roster/${cid}` }, h('span.face', img(store.charPortrait(c), '')), store.charName(c)),
+      c.npc ? h('span.fav-link', { title: c.name.en }, h('span.face', img(store.charPortrait(c), '')), store.charName(c))
+        : h('a', { href: `#/roster/${cid}` }, h('span.face', img(store.charPortrait(c), '')), store.charName(c)),
       editing ? xBtn(`${store.charName(c)} 빼기`, onRemove) : null);
   };
 
@@ -66,7 +70,7 @@ function profileSection(p, editing) {
   if (editing) {
     avatar.classList.add('can-edit');
     avatar.append(h('div.avatar-menu',
-      h('button', { type: 'button', onclick: () => charPicker({ title: '프로필 출품작 고르기', onDone: ([id]) => save((x) => { x.avatar = { type: 'char', char: id, file: null }; }) }) }, '출품작 얼굴'),
+      h('button', { type: 'button', onclick: () => charPicker({ npc: true, title: '프로필 출품작 고르기', onDone: ([id]) => save((x) => { x.avatar = { type: 'char', char: id, file: null }; }) }) }, '출품작 얼굴'),
       h('button', { type: 'button', onclick: async () => {
         const f = await pickFile('image/*'); if (!f) return;
         const data = await shrinkImage(f, 400, 0.88);
@@ -93,7 +97,7 @@ function profileSection(p, editing) {
         editable('span.fav-label', f.label, (x, v) => { x.favorites[i].label = v; }, { placeholder: '이름 (예: 최애)' }),
         h('div.fav-chars',
           (f.chars || []).map((cid) => chip(cid, () => save((x) => { x.favorites[i].chars = x.favorites[i].chars.filter((y) => y !== cid); }))),
-          editing ? addBtn('출품작', () => charPicker({ title: `${f.label || '최애'} 고르기`, multi: true, selected: f.chars || [], min: 0, onDone: (ids) => save((x) => { x.favorites[i].chars = ids; }) })) : null,
+          editing ? addBtn('출품작', () => charPicker({ npc: true, title: `${f.label || '최애'} 고르기`, multi: true, selected: f.chars || [], min: 0, onDone: (ids) => save((x) => { x.favorites[i].chars = ids; }) })) : null,
           editing ? xBtn('이 줄 지우기', () => save((x) => { x.favorites.splice(i, 1); })) : null),
       )),
       editing ? addBtn('최애 줄 추가', () => save((x) => { (x.favorites ||= []).push({ label: '', chars: [] }); })) : null,
@@ -113,13 +117,13 @@ function profileSection(p, editing) {
         const names = mem.map((c) => store.charName(c)).join(' × ');
         const faces = h('div.cp-faces', mem.map((c) => h('span.face', img(store.charPortrait(c), ''))));
         return h('div.cp', { title: names },
-          editing ? h('button.cp-faces-btn', { type: 'button', title: '멤버 바꾸기', onclick: () => charPicker({ title: 'CP 멤버 바꾸기', multi: true, min: 2, selected: cpMembers(cp), onDone: (ids) => save((x) => { x.cps[i].members = ids; delete x.cps[i].a; delete x.cps[i].b; }) }) }, faces) : faces,
+          editing ? h('button.cp-faces-btn', { type: 'button', title: '멤버 바꾸기', onclick: () => charPicker({ npc: true, title: 'CP 멤버 바꾸기', multi: true, min: 2, selected: cpMembers(cp), onDone: (ids) => save((x) => { x.cps[i].members = ids; delete x.cps[i].a; delete x.cps[i].b; }) }) }, faces) : faces,
           editable('b', cp.name, (x, v) => { x.cps[i].name = v; }, { placeholder: names || 'CP 이름' }) || h('b', names),
           h('span', names),
           editable('span.faint', cp.note, (x, v) => { x.cps[i].note = v; }, { placeholder: '메모' }),
           editing ? xBtn('이 CP 지우기', () => save((x) => { x.cps.splice(i, 1); })) : null);
       }),
-      editing ? h('button.cp.cp-add', { type: 'button', onclick: () => charPicker({ title: 'CP 추가 — 두 명 이상 고르기', multi: true, min: 2, onDone: (ids) => save((x) => { (x.cps ||= []).push({ name: '', members: ids, note: '' }); }) }) }, h('span', '+'), 'CP 추가') : null),
+      editing ? h('button.cp.cp-add', { type: 'button', onclick: () => charPicker({ npc: true, title: 'CP 추가 — 두 명 이상 고르기', multi: true, min: 2, onDone: (ids) => save((x) => { (x.cps ||= []).push({ name: '', members: ids, note: '' }); }) }) }, h('span', '+'), 'CP 추가') : null),
     ) : null,
   );
 
@@ -132,16 +136,66 @@ function profileSection(p, editing) {
         h('button.show-art', { type: 'button', 'aria-label': `${store.charName(c)} 크게 보기`, onclick: () => lightbox(s.art || s.portrait, `${store.charName(c)} — ${s.name}`) }, img(s.art || s.portrait, '')),
         h('span.show-cap', h('b', store.charName(c)), h('small', s.type === 'default' ? '기본' : s.type === 'insight' ? '통찰' : s.name)),
         editing ? h('div.show-tools',
-          h('select', { 'aria-label': '걸 스킨', onchange: (e) => save((x) => { x.showcase[i].skin = e.target.value ? +e.target.value : null; }) },
+          c.npc ? null : h('select', { 'aria-label': '걸 스킨', onchange: (e) => save((x) => { x.showcase[i].skin = e.target.value ? +e.target.value : null; }) },
             h('option', { value: '' }, '스킨: 자동'),
             c.skins.map((sid) => { const sk = store.skinById(sid); return h('option', { value: sid, selected: slot.skin === sid }, sk?.type === 'default' ? '기본' : sk?.type === 'insight' ? '통찰' : sk?.name); })),
-          h('button', { type: 'button', onclick: () => charPicker({ title: '진열할 출품작 바꾸기', onDone: ([id]) => save((x) => { x.showcase[i] = { char: id, skin: null }; }) }) }, '바꾸기'),
+          h('button', { type: 'button', onclick: () => charPicker({ npc: true, title: '진열할 출품작 바꾸기', onDone: ([id]) => save((x) => { x.showcase[i] = { char: id, skin: null }; }) }) }, '바꾸기'),
           xBtn('진열장에서 빼기', () => save((x) => { x.showcase.splice(i, 1); }))) : null);
     }),
-    editing ? h('button.show-add', { type: 'button', onclick: () => charPicker({ title: '진열장에 걸 출품작', onDone: ([id]) => save((x) => { (x.showcase ||= []).push({ char: id, skin: null }); }) }) }, h('span', '+'), '진열 추가')
+    editing ? h('button.show-add', { type: 'button', onclick: () => charPicker({ npc: true, title: '진열장에 걸 출품작', onDone: ([id]) => save((x) => { (x.showcase ||= []).push({ char: id, skin: null }); }) }) }, h('span', '+'), '진열 추가')
       : (shows.some((x) => x.s) ? null : h('div.empty', h('p', '진열장이 비어 있어요.'))),
   );
-  return h('section.prof' + (editing ? '.editing' : ''), left, right);
+  return h('section.prof' + (editing ? '.editing' : ''), left, h('div.prof-right', right, sideCards(p, editing)));
+}
+
+// ── 진열장 아래 카드: 현재 버전 · 다가오는 생일 · 스토리 후기 ─────────
+const SIDE = [['version', '현재 버전'], ['birthday', '다가오는 생일'], ['stories', '스토리 후기']];
+function sideCards(p, editing) {
+  const hidden = new Set(p.hiddenCards || []);
+  const toggle = (k) => save((x) => { const s = new Set(x.hiddenCards || []); s.has(k) ? s.delete(k) : s.add(k); x.hiddenCards = [...s]; });
+  const wrap = (k, title, en, link, body) => (hidden.has(k) || !body ? null : h('section.side-card',
+    h('header', h('span.en', en), h('h3', title), link ? h('a.more', { href: link }, '더 보기 →') : null, editing ? xBtn(`${title} 카드 숨기기`, () => toggle(k)) : null),
+    body));
+  const cards = [
+    wrap('version', '현재 버전', 'Now', null, versionCard()),
+    wrap('birthday', '다가오는 생일', 'Birthdays', '#/codex/birthdays', birthdayCard()),
+    wrap('stories', '스토리 후기', 'Stories', '#/stories', storyCard()),
+  ];
+  return h('div.side-cards', cards,
+    editing && hidden.size ? h('div.side-restore', SIDE.filter(([k]) => hidden.has(k)).map(([k, l]) => addBtn(`${l} 카드 다시 보기`, () => toggle(k)))) : null);
+}
+
+function versionCard() {
+  if (!timeline) return null;
+  // 한섭 기준: 출품작이 나온 버전 중 가장 최신
+  const v = timeline.allVersions().find((x) => x.chars.length || x.stories.length);
+  if (!v) return null;
+  const banner = v.banner || v.stories.find((s) => s.cat === 'mainevent' && s.banner)?.banner || v.stories.find((s) => s.banner)?.banner;
+  const title = v.title?.ko || v.stories.find((s) => s.cat === 'mainevent' || s.cat === 'main')?.name.ko || '';
+  return h('a.side-ver', { href: `#/timeline/${v.id}` },
+    banner ? h('span.side-ver-img', img(banner, '')) : null,
+    h('span.side-ver-txt', h('b', store.verLabel(v.id)), title ? h('span', title) : null),
+    v.chars.length ? h('span.side-faces', v.chars.map((c) => h('span.face', { class: afClass(c), title: store.charName(c) }, img(store.charPortrait(c), '')))) : null);
+}
+
+function birthdayCard() {
+  if (!codex) return null;
+  const up = codex.upcomingBirthdays(5);
+  if (!up.length) return null;
+  return h('div.side-bdays', up.map(({ c, b, days }) => h('button.side-bday', { type: 'button', class: afClass(c) + (days === 0 ? ' today' : ''), onclick: () => codex.openProfile(c) },
+    h('span.face', img(store.charPortrait(c), '')), h('b', store.charName(c)), h('small', days === 0 ? '오늘 생일!' : `${b.m}월 ${b.d}일 · D-${days}`))));
+}
+
+function storyCard() {
+  const g = store.state.game.stories || [];
+  if (!g.length) return null;
+  const u = store.state.user.stories || {};
+  const read = Object.keys(u.read || {}).length;
+  const posts = [...(u.posts || [])].sort((a, b) => String(b.created).localeCompare(String(a.created))).slice(0, 3);
+  return h('div.side-stories',
+    h('div.side-progress', h('span', `읽은 스토리 ${read} / ${g.length}`), h('div.meter', h('i', { style: { width: `${(read / g.length) * 100}%` } }))),
+    posts.length ? h('ul', posts.map((p) => { const st = store.storyById(p.story); return st ? h('li', h('a', { href: `#/stories/${st.id}` }, st.banner ? img(st.banner, '') : null, h('span', h('b', p.title || '제목 없음'), h('small', st.name.ko)))) : null; }))
+      : h('p.faint', { style: { margin: '6px 0 0', fontSize: '13px' } }, '아직 쓴 후기가 없어요.'));
 }
 
 // ── 기록 현황 ───────────────────────────────────────────────

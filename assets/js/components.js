@@ -85,12 +85,14 @@ export const ROMAN = ['0', 'Ⅰ', 'Ⅱ', 'Ⅲ', 'Ⅳ', 'Ⅴ'];
 
 /**
  * 출품작 이미지 선택 창.
- * charPicker({ title, multi, selected: [ids], min, onDone(ids) })
+ * charPicker({ title, multi, selected: [ids], min, npc, onDone(ids) })
+ * npc: true면 'NPC도 보기' 스위치가 생긴다 (기본은 꺼짐 — 필요할 때만 켜서 고른다)
  */
-export function charPicker({ title = '출품작 고르기', multi = false, selected = [], min = 1, onDone }) {
+export function charPicker({ title = '출품작 고르기', multi = false, selected = [], min = 1, npc = false, onDone }) {
   const pick = new Set(selected.filter(Boolean));
   let q = '';
   let ownedOnly = false;
+  let showNpc = npc && [...pick].some(store.isNpcId);
   const grid = h('div.char-pick');
   const countEl = h('span.faint');
   const draw = () => {
@@ -98,20 +100,22 @@ export function charPicker({ title = '출품작 고르기', multi = false, selec
     const list = store.state.game.characters
       .filter((c) => c.released || rec[c.id]?.owned)
       .filter((c) => !ownedOnly || rec[c.id]?.owned)
+      .concat(store.npcList().filter((n) => pick.has(n.id) || (showNpc && !ownedOnly)))
       .filter((c) => !q || [store.charName(c), ...Object.values(c.name)].join(' ').toLowerCase().includes(q))
-      .sort((a, b) => (pick.has(b.id) - pick.has(a.id)) || b.rarity - a.rarity || store.charName(a).localeCompare(store.charName(b), 'ko'));
+      .sort((a, b) => (pick.has(b.id) - pick.has(a.id)) || (!!a.npc - !!b.npc) || b.rarity - a.rarity || store.charName(a).localeCompare(store.charName(b), 'ko'));
     grid.replaceChildren(...list.map((c) => h('button', {
       type: 'button', class: afClass(c), 'aria-pressed': String(pick.has(c.id)), title: store.charName(c),
       onclick: () => {
         if (multi) { pick.has(c.id) ? pick.delete(c.id) : pick.add(c.id); draw(); } else { onDone([c.id]); d.close(); }
       },
-    }, img(store.charPortrait(c), ''), h('span', store.charName(c)), multi && pick.has(c.id) ? h('i.order', [...pick].indexOf(c.id) + 1) : null)));
+    }, img(store.charPortrait(c), ''), h('span', store.charName(c)), c.npc ? h('em.npc-tag', 'NPC') : null, multi && pick.has(c.id) ? h('i.order', [...pick].indexOf(c.id) + 1) : null)));
     countEl.textContent = multi ? `${pick.size}개 선택` : '';
   };
   const body = [
     h('div.toolbar', { style: { marginBottom: '10px' } },
       h('div.grow', h('input', { type: 'search', placeholder: '이름 검색', 'aria-label': '출품작 검색', oninput: (e) => { q = e.target.value.trim().toLowerCase(); draw(); } })),
       h('label.check', { style: { fontSize: '13px' } }, h('input', { type: 'checkbox', onchange: (e) => { ownedOnly = e.target.checked; draw(); } }), '보유만'),
+      npc && store.npcList().length ? h('label.check', { style: { fontSize: '13px' } }, h('input', { type: 'checkbox', checked: showNpc, onchange: (e) => { showNpc = e.target.checked; draw(); } }), 'NPC도 보기') : null,
       countEl),
     grid,
   ];
@@ -125,4 +129,33 @@ export function charPicker({ title = '출품작 고르기', multi = false, selec
   draw();
   const d = drawer({ title, body, foot, wide: true });
   return d;
+}
+
+/** 출품작 프로필 (위키·게임 데이터): 소개, 생일, 출신, 활동 시기, 매개, 영감, 성우, 생일 이야기 */
+export function profileBlock(c, { open = false } = {}) {
+  const p = store.profileOf(c.id);
+  if (!p) return null;
+  const b = store.birthdayOf(c.id);
+  const CV = [['kor', '한국어'], ['jpn', '일본어'], ['eng', '영어'], ['zho', '중국어']];
+  const row = (k, v, small) => (v ? [h('dt', k), h('dd', v, small ? h('small.faint', ` ${small}`) : null)] : null);
+  return h('section.profile-block',
+    h('div.profile-top',
+      p.chibi ? h('img.profile-chibi', { src: p.chibi, alt: '', loading: 'lazy' }) : null,
+      h('div',
+        h('p.code', 'Profile'),
+        p.intro ? h('p.profile-intro', p.intro) : null,
+        h('dl.profile-dl',
+          row('생일', b ? `${b.m}월 ${b.d}일` : null),
+          row('출신', p.origin),
+          row('활동 시기', p.debut),
+          row('분류', p.role),
+          row('매개', p.medium, p.medium !== p.mediumEn ? p.mediumEn : null),
+          row('영감', p.inspiration),
+        ))),
+    Object.keys(p.cv || {}).length ? h('dl.profile-dl.cv', h('dt', '성우'), h('dd', CV.filter(([k]) => p.cv[k]).map(([k, l]) => h('span.cv', h('small.faint', l), ' ', p.cv[k])))) : null,
+    p.bdayStories?.length ? h('details.profile-bday', { open },
+      h('summary', `생일 이야기 ${p.bdayStories.length}편`),
+      h('ol', p.bdayStories.map((t) => h('li', t)))) : null,
+    p.wiki ? h('p.faint', { style: { fontSize: '12px', margin: '8px 0 0' } }, '출처: ', h('a', { href: p.wiki, target: '_blank', rel: 'noopener' }, 'Reverse: 1999 Wiki'), ' · 게임 데이터') : null,
+  );
 }

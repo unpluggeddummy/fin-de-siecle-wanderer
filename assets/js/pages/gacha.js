@@ -73,7 +73,9 @@ function estimatePulls(g) {
 
 function bannerCard(b) {
   const res = b.results || [];
-  return h('article.banner',
+  const ref = b.ref && store.summonById(b.ref);
+  return h('article.banner' + (ref?.banner ? '.has-img' : ''),
+    ref?.banner ? h('a.banner-img', { href: `#/timeline/${ref.version}`, title: `${ref.version} 연대기에서 보기` }, h('img', { src: ref.banner, alt: '', loading: 'lazy' })) : null,
     h('div.banner-head',
       h('div', h('h3', b.name), h('div.faint', { style: { fontSize: '13px' } }, [b.type, b.start, b.version ? `${b.version} 버전` : null].filter(Boolean).join(' · '))),
       h('div', { style: { display: 'flex', gap: '10px', alignItems: 'center' } },
@@ -101,7 +103,20 @@ function editBanner(b) {
     h('button.btn.small', { type: 'button', onclick: () => { cur.results.push({ char: null, at: null }); drawRes(); } }, '결과 추가'),
   );
   drawRes();
+  const ref = cur.ref && store.summonById(cur.ref);
+  const pickList = h('div.su-pick');
+  const picker = h('details.form-row.su-picker', { ontoggle: (e) => { if (e.target.open && !pickList.childElementCount) drawPick(); } },
+    h('summary', ref ? `배너: ${ref.name.ko || ref.name.en} (${ref.version}) — 바꾸기` : '배너 도감에서 고르기 (그림·픽업 출품작이 같이 붙어요)'), pickList);
+  const drawPick = () => fill(pickList, [...(store.state.game.versions || [])].sort((a, b) => store.verNum(b.id) - store.verNum(a.id)).map((v) => {
+    const l = v.summons.filter((x) => x.six.length);
+    return l.length ? h('div.su-pick-ver', h('b', store.verLabel(v.id, true)), h('div', l.map((x) => h('button', { type: 'button', 'aria-pressed': String(cur.ref === x.id), title: x.name.ko || x.name.en,
+      onclick: () => {
+        cur.ref = x.id; cur.name = x.name.ko || x.name.en; cur.version = v.id; cur.type = x.rerun ? '복각' : '한정';
+        commit(); d.close(); editBanner(store.state.user.gacha.banners.find((y) => y.id === cur.id));
+      } }, x.banner ? h('img', { src: x.banner, alt: '', loading: 'lazy' }) : null, h('span', x.name.ko || x.name.en))))) : null;
+  }));
   const body = [
+    picker,
     h('div.fields.form-row',
       field('배너 이름', h('input', { type: 'text', value: cur.name, placeholder: '예: 미스 스트레인저 픽업', oninput: (e) => { cur.name = e.target.value; commit(); } }), 'wide'),
       field('종류', h('select', { onchange: (e) => { cur.type = e.target.value; commit(); } }, TYPES.map((t) => h('option', { selected: cur.type === t }, t)))),

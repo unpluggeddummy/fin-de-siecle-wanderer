@@ -272,6 +272,7 @@ def main():
     attach_versions(characters, G, load_json)
     enrich_skins(skins_out, characters, G, tr, load_json)
     apply_simulator(characters, skins_out, os.path.join(a.out, "data", "raw", "simulator.json"), load_json, imgs, CN)
+    apply_collabs(characters, skins_out)
 
     characters.sort(key=lambda c: (-c["rarity"], c["name"]["ko"]))
 
@@ -648,6 +649,38 @@ def apply_simulator(characters, skins_out, path, load_json, imgs=None, CN=None):
             s["cat"] = "tarot"
         elif "콜라보" in (x.get("source") or ""):
             s["cat"] = "collab"
+
+
+# 콜라보 버전: 시뮬레이터에는 '콜라보'로만 적혀 있어서 위키(버전별 의상·출시 버전) 기준으로 나눈다.
+# S01 = 2.7과 2.8 사이(2025.08.07~09.19), S02 = 3.6과 3.7 사이(2026.07.23~)
+COLLABS = {
+    "S01": {"name": "어쌔신 크리드", "chars": {"에지오 아디토레", "카산드라", "알렉시오스"},
+            "series": {"올림포스를 나는 독수리처럼"}, "skins": {305104}},
+    "S02": {"name": "아토믹 하트", "chars": {"쌍둥이", "노라"},
+            "series": {"조립식 미래"}, "skins": {307705, 312606}},
+}
+
+
+def apply_collabs(characters, skins_out):
+    char_ver = {}
+    for c in characters:
+        for v, info in COLLABS.items():
+            if c["name"]["ko"] in info["chars"]:
+                c["version"] = v
+                c["collab"] = info["name"]
+                c["versionEstimated"] = False
+                char_ver[c["id"]] = v
+    for s in skins_out:
+        v = None
+        if s.get("version") in (None, "콜라보") or s["char"] in char_ver:
+            for key, info in COLLABS.items():
+                if s["id"] in info["skins"] or (s.get("series") in info["series"]):
+                    v = key
+            if not v and s["char"] in char_ver:
+                v = char_ver[s["char"]]
+        if v:
+            s["version"] = v
+            s["collab"] = COLLABS[v]["name"]
 
 
 def parse_level_costs(ts):

@@ -1,0 +1,4854 @@
+{
+ "meta": {
+  "source": "https://reverse1999.fandom.com (CC BY-SA 3.0)",
+  "collectedAt": "2026-10-18",
+  "note": "Image paths are relative to the zip root. Original URLs kept in \"url\". Dates are as listed on the wiki (Global = UTC-5)."
+ },
+ "stories": [
+  {
+   "id": "main-this-is-tomorrow",
+   "category": "main",
+   "type": "Main Story",
+   "key": "0",
+   "name": "This is Tomorrow",
+   "abbr": "00",
+   "version": "1.0",
+   "character": null,
+   "banner": {
+    "file": "This_is_Tomorrow_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/2/24/This_is_Tomorrow_Banner.png",
+    "local": "images/stories/main/this-is-tomorrow.webp"
+   },
+   "rerunBanner": null,
+   "summary": "This is Tomorrow is the prologue chapter of Reverse: 1999.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "Rock 'n' Roll Radio"
+    },
+    {
+     "n": "2",
+     "title": "King's Trail"
+    },
+    {
+     "n": "3",
+     "title": "Teleport"
+    },
+    {
+     "n": "4",
+     "title": "Invisible Pirate"
+    },
+    {
+     "n": "5",
+     "title": "The Storm Overture"
+    },
+    {
+     "n": "6",
+     "title": "The Living Past"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/This_is_Tomorrow",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-in-our-time",
+   "category": "main",
+   "type": "Main Story",
+   "key": "1",
+   "name": "In Our Time",
+   "abbr": "1ST",
+   "version": "1.0",
+   "character": null,
+   "banner": {
+    "file": "In_Our_Time_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/f/f2/In_Our_Time_Banner.png",
+    "local": "images/stories/main/in-our-time.webp"
+   },
+   "rerunBanner": null,
+   "summary": "In Our Time is the first main chapter of Reverse: 1999.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "Wretched Brats"
+    },
+    {
+     "n": "2",
+     "title": "Dr. Papper"
+    },
+    {
+     "n": "3",
+     "title": "To the New World"
+    },
+    {
+     "n": "4",
+     "title": "Chicago Rescue"
+    },
+    {
+     "n": "5",
+     "title": "Sharpodonty and Black Wine"
+    },
+    {
+     "n": "6",
+     "title": "The Rosa Killer"
+    },
+    {
+     "n": "7",
+     "title": "Scorched Woods"
+    },
+    {
+     "n": "8",
+     "title": "Druvis III"
+    },
+    {
+     "n": "9",
+     "title": "Security Carnival"
+    },
+    {
+     "n": "10",
+     "title": "The Origin Butterfly"
+    },
+    {
+     "n": "11",
+     "title": "Charge Baby, Charge!"
+    },
+    {
+     "n": "12",
+     "title": "Appetizers"
+    },
+    {
+     "n": "13",
+     "title": "Rattenfanger"
+    },
+    {
+     "n": "14",
+     "title": "Eye of the Storm"
+    },
+    {
+     "n": "15",
+     "title": "Underground Labyrinth"
+    },
+    {
+     "n": "16",
+     "title": "Heaven Apostles"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/In_Our_Time",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-tender-is-the-night",
+   "category": "main",
+   "type": "Main Story",
+   "key": "2",
+   "name": "Tender is the Night",
+   "abbr": "2ND",
+   "version": "1.0",
+   "character": null,
+   "banner": {
+    "file": "Tender_is_the_Night_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/1/1b/Tender_is_the_Night_Banner.png",
+    "local": "images/stories/main/tender-is-the-night.webp"
+   },
+   "rerunBanner": null,
+   "summary": "Tender is the Night is the second main chapter of Reverse: 1999.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "Courtesy"
+    },
+    {
+     "n": "2",
+     "title": "Manus Vindictae"
+    },
+    {
+     "n": "3",
+     "title": "Green Oranges"
+    },
+    {
+     "n": "4",
+     "title": "Antidote"
+    },
+    {
+     "n": "5",
+     "title": "City's Gastrosis"
+    },
+    {
+     "n": "6",
+     "title": "The End of Immortal"
+    },
+    {
+     "n": "7",
+     "title": "The Good News"
+    },
+    {
+     "n": "8",
+     "title": "Popular Literature"
+    },
+    {
+     "n": "9",
+     "title": "Pearl and Bullet Hole"
+    },
+    {
+     "n": "10",
+     "title": "The Chew-Chew Potion"
+    },
+    {
+     "n": "11",
+     "title": "Polypotion"
+    },
+    {
+     "n": "12",
+     "title": "About the New Era"
+    },
+    {
+     "n": "13",
+     "title": "Documentary"
+    },
+    {
+     "n": "14",
+     "title": "Puppet"
+    },
+    {
+     "n": "15",
+     "title": "Empty Wardrobe"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/Tender_is_the_Night",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-nouvelles-et-textes-pour-rien",
+   "category": "main",
+   "type": "Main Story",
+   "key": "3",
+   "name": "Nouvelles et Textes pour Rien",
+   "abbr": "3RD",
+   "version": "1.0",
+   "character": null,
+   "banner": {
+    "file": "Nouvelles_et_Textes_pour_Rien_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/c/ce/Nouvelles_et_Textes_pour_Rien_Banner.png",
+    "local": "images/stories/main/nouvelles-et-textes-pour-rien.webp"
+   },
+   "rerunBanner": null,
+   "summary": "Nouvelles et Textes pour Rien is the third main chapter of Reverse: 1999.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "Chaldean Oracles"
+    },
+    {
+     "n": "2",
+     "title": "Frog and Toffee"
+    },
+    {
+     "n": "3",
+     "title": "Stalkee"
+    },
+    {
+     "n": "4",
+     "title": "New Blood"
+    },
+    {
+     "n": "5",
+     "title": "A Deep Sleep"
+    },
+    {
+     "n": "6",
+     "title": "Black Sheep Wall"
+    },
+    {
+     "n": "7",
+     "title": "Scottish"
+    },
+    {
+     "n": "8",
+     "title": "Scattered Pamphlets"
+    },
+    {
+     "n": "9",
+     "title": "George the Oak"
+    },
+    {
+     "n": "10",
+     "title": "O Captain!"
+    },
+    {
+     "n": "11",
+     "title": "Freedom of the Dumb"
+    },
+    {
+     "n": "12",
+     "title": "Burning Tears"
+    },
+    {
+     "n": "13",
+     "title": "A Yard"
+    },
+    {
+     "n": "14",
+     "title": "Lost Lambs"
+    },
+    {
+     "n": "15",
+     "title": "The Other Future"
+    },
+    {
+     "n": "16",
+     "title": "Storm and the New World"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/Nouvelles_et_Textes_pour_Rien",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-el-oro-de-los-tigres",
+   "category": "main",
+   "type": "Main Story",
+   "key": "4",
+   "name": "El Oro de los Tigres",
+   "abbr": "4TH",
+   "version": null,
+   "character": null,
+   "banner": {
+    "file": "El_Oro_de_los_Tigres_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/b/bf/El_Oro_de_los_Tigres_Banner.png",
+    "local": "images/stories/main/el-oro-de-los-tigres.webp"
+   },
+   "rerunBanner": null,
+   "summary": "EL ORO DE LOS TIGRES is the fourth main chapter of Reverse: 1999.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "An Old Umbrella"
+    },
+    {
+     "n": "2",
+     "title": "The Outsider"
+    },
+    {
+     "n": "3",
+     "title": "A Coat Rack"
+    },
+    {
+     "n": "4",
+     "title": "Raise A Glass!"
+    },
+    {
+     "n": "5",
+     "title": "In the Castle"
+    },
+    {
+     "n": "6",
+     "title": "The Forest Express"
+    },
+    {
+     "n": "7",
+     "title": "The Pirate's Declaration"
+    },
+    {
+     "n": "8",
+     "title": "Both Sides of the Table"
+    },
+    {
+     "n": "9",
+     "title": "A Wandering Dog"
+    },
+    {
+     "n": "10",
+     "title": "Sailing at Night"
+    },
+    {
+     "n": "11",
+     "title": "A Sweet APPLe"
+    },
+    {
+     "n": "12",
+     "title": "A Letter"
+    },
+    {
+     "n": "13",
+     "title": "Flashing Red"
+    },
+    {
+     "n": "14",
+     "title": "All-or-Nothing"
+    },
+    {
+     "n": "15",
+     "title": "From the Ashes"
+    },
+    {
+     "n": "16",
+     "title": "Contact Point"
+    },
+    {
+     "n": "17",
+     "title": "Echoes in the Dark"
+    },
+    {
+     "n": "18",
+     "title": "Road of a Puppy"
+    },
+    {
+     "n": "19",
+     "title": "A Corner of the Board"
+    },
+    {
+     "n": "20",
+     "title": "Picnic on the Lawn"
+    },
+    {
+     "n": "21",
+     "title": "Good Weather"
+    },
+    {
+     "n": "22",
+     "title": "Returning Birds"
+    },
+    {
+     "n": "23",
+     "title": "Old Days Once More"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/El_Oro_de_los_Tigres",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-the-prisoner-in-the-cave",
+   "category": "main",
+   "type": "Main Story",
+   "key": "5",
+   "name": "The Prisoner in the Cave",
+   "abbr": "5TH",
+   "version": "1.4",
+   "character": null,
+   "banner": {
+    "file": "The_Prisoner_in_the_Cave_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/9/92/The_Prisoner_in_the_Cave_Banner.png",
+    "local": "images/stories/main/the-prisoner-in-the-cave.webp"
+   },
+   "rerunBanner": null,
+   "summary": "The Prisoner in the Cave is the fifth main chapter of Reverse: 1999.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "Bon Voyage"
+    },
+    {
+     "n": "2",
+     "title": "Treasure Hunt"
+    },
+    {
+     "n": "3",
+     "title": "Treasure Box"
+    },
+    {
+     "n": "4",
+     "title": "Time to Set Sail"
+    },
+    {
+     "n": "5",
+     "title": "The Watch Losing Time"
+    },
+    {
+     "n": "6",
+     "title": "Kingdom of Numbers"
+    },
+    {
+     "n": "7",
+     "title": "Canned Beans"
+    },
+    {
+     "n": "8",
+     "title": "Ancient Rules"
+    },
+    {
+     "n": "9",
+     "title": "Silent Meeting"
+    },
+    {
+     "n": "10",
+     "title": "The Pirate's Proof"
+    },
+    {
+     "n": "11",
+     "title": "The Ruler's Help"
+    },
+    {
+     "n": "12",
+     "title": "Route of a Bird"
+    },
+    {
+     "n": "13",
+     "title": "The Middle of the Axis"
+    },
+    {
+     "n": "14",
+     "title": "Chain of Peace"
+    },
+    {
+     "n": "15",
+     "title": "Convergent Birds"
+    },
+    {
+     "n": "16",
+     "title": "Sound the Alarm"
+    },
+    {
+     "n": "17",
+     "title": "The Empty Ship"
+    },
+    {
+     "n": "18",
+     "title": "Outside the Cave"
+    },
+    {
+     "n": "19",
+     "title": "The Upstream Boat"
+    },
+    {
+     "n": "20",
+     "title": "The Truth Seeker"
+    },
+    {
+     "n": "21",
+     "title": "Invaders in Black"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Prisoner_in_the_Cave",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-e-lucevan-le-stelle",
+   "category": "main",
+   "type": "Main Story",
+   "key": "6",
+   "name": "E lucevan le stelle",
+   "abbr": "6TH",
+   "version": "1.7",
+   "character": null,
+   "banner": {
+    "file": "E_lucevan_le_stelle_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/9/91/E_lucevan_le_stelle_Banner.png",
+    "local": "images/stories/main/e-lucevan-le-stelle.webp"
+   },
+   "rerunBanner": null,
+   "summary": "E lucevan le stelle is the sixth main chapter of Reverse: 1999.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "Razor in Green"
+    },
+    {
+     "n": "2",
+     "title": "Drums of March"
+    },
+    {
+     "n": "3",
+     "title": "Fork and Torte"
+    },
+    {
+     "n": "4",
+     "title": "Secession Building"
+    },
+    {
+     "n": "5",
+     "title": "A Bad Seance"
+    },
+    {
+     "n": "6",
+     "title": "Yes, Prime Minister"
+    },
+    {
+     "n": "7",
+     "title": "A \"Fair\" Duel"
+    },
+    {
+     "n": "8",
+     "title": "Mirror and Lantern"
+    },
+    {
+     "n": "9",
+     "title": "Between the Doors"
+    },
+    {
+     "n": "10",
+     "title": "The Mind's Endoscope"
+    },
+    {
+     "n": "11",
+     "title": "One-Act Play"
+    },
+    {
+     "n": "12",
+     "title": "Art Exhibit"
+    },
+    {
+     "n": "13",
+     "title": "The Island"
+    },
+    {
+     "n": "14",
+     "title": "Fitcher's Bird"
+    },
+    {
+     "n": "15",
+     "title": "With Hope Rekindled"
+    },
+    {
+     "n": "16",
+     "title": "Quest in the Woods"
+    },
+    {
+     "n": "17",
+     "title": "Art Above All"
+    },
+    {
+     "n": "18",
+     "title": "Only Applause"
+    },
+    {
+     "n": "19",
+     "title": "The Clashing Tides"
+    },
+    {
+     "n": "20",
+     "title": "War and Peace"
+    },
+    {
+     "n": "21",
+     "title": "Double Cross"
+    },
+    {
+     "n": "22",
+     "title": "Finished Page"
+    },
+    {
+     "n": "23",
+     "title": "Hansel and Gretel"
+    },
+    {
+     "n": "24",
+     "title": "E lucevan le stelle"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/E_lucevan_le_stelle",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-vereinsamt",
+   "category": "main",
+   "type": "Main Story",
+   "key": "7",
+   "name": "Vereinsamt",
+   "abbr": "7TH",
+   "version": "1.9",
+   "character": null,
+   "banner": {
+    "file": "Vereinsamt_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/e/e6/Vereinsamt_Banner.png",
+    "local": "images/stories/main/vereinsamt.webp"
+   },
+   "rerunBanner": null,
+   "summary": "Vereinsamt is the seventh main chapter of Reverse: 1999.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "The Secret of the Diagonal"
+    },
+    {
+     "n": "2",
+     "title": "The Blue and the Grey"
+    },
+    {
+     "n": "3",
+     "title": "Bring the Gavel Down"
+    },
+    {
+     "n": "4",
+     "title": "The Beginning of a Proof"
+    },
+    {
+     "n": "5",
+     "title": "Four Cross-Checks"
+    },
+    {
+     "n": "6",
+     "title": "Pride and Prejudice"
+    },
+    {
+     "n": "7",
+     "title": "Maze of The Minotaur"
+    },
+    {
+     "n": "8",
+     "title": "Oracles at Delphi"
+    },
+    {
+     "n": "9",
+     "title": "Outside the Limits"
+    },
+    {
+     "n": "10",
+     "title": "Returned to the Earth"
+    },
+    {
+     "n": "11",
+     "title": "The Rolling Boulder"
+    },
+    {
+     "n": "12",
+     "title": "The Party of Beans"
+    },
+    {
+     "n": "13",
+     "title": "The Wave of Art"
+    },
+    {
+     "n": "14",
+     "title": "A Sandstorm in a Room"
+    },
+    {
+     "n": "15",
+     "title": "The Pioneers"
+    },
+    {
+     "n": "16",
+     "title": "To Open the Flood Gates"
+    },
+    {
+     "n": "17",
+     "title": "The \"Storm\" Speech"
+    },
+    {
+     "n": "18",
+     "title": "Numbers in Everything"
+    },
+    {
+     "n": "19",
+     "title": "The Fork in the Road"
+    },
+    {
+     "n": "20",
+     "title": "And Now, the Curtain Call"
+    },
+    {
+     "n": "21",
+     "title": "A Homage Paid"
+    },
+    {
+     "n": "22",
+     "title": "The Ones Who Pray"
+    },
+    {
+     "n": "23",
+     "title": "The Rosetta Stone"
+    },
+    {
+     "n": "24",
+     "title": "The Cycle of History"
+    },
+    {
+     "n": "25",
+     "title": "The First Circle"
+    },
+    {
+     "n": "26",
+     "title": "Mirror and Curtains"
+    },
+    {
+     "n": "27",
+     "title": "Hymnus Ad Bacchum"
+    },
+    {
+     "n": "28",
+     "title": "The Two Numbers"
+    },
+    {
+     "n": "29",
+     "title": "The Umbrella and the Knot"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/Vereinsamt",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-tristes-tropiques",
+   "category": "main",
+   "type": "Main Story",
+   "key": "8",
+   "name": "Tristes Tropiques",
+   "abbr": "8TH",
+   "version": "2.2",
+   "character": null,
+   "banner": {
+    "file": "Tristes_Tropiques_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/c/c3/Tristes_Tropiques_Banner.png",
+    "local": "images/stories/main/tristes-tropiques.webp"
+   },
+   "rerunBanner": null,
+   "summary": "Tristes Tropiques is the eighth main chapter of Reverse: 1999.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "Unshakable Justice"
+    },
+    {
+     "n": "2",
+     "title": "A New Photo of an Old Friend"
+    },
+    {
+     "n": "3",
+     "title": "The Minotaur"
+    },
+    {
+     "n": "4",
+     "title": "Riptide"
+    },
+    {
+     "n": "5",
+     "title": "Waterway to Hell"
+    },
+    {
+     "n": "6",
+     "title": "Tender Pretender"
+    },
+    {
+     "n": "7",
+     "title": "False Accustations"
+    },
+    {
+     "n": "8",
+     "title": "On the Margins of Life and Death"
+    },
+    {
+     "n": "9",
+     "title": "Aged Like Fine Wine"
+    },
+    {
+     "n": "10",
+     "title": "Boarding the White Ship"
+    },
+    {
+     "n": "11",
+     "title": "Sao Paulo Bossa Nova"
+    },
+    {
+     "n": "12",
+     "title": "\"Silent Night, Holy Night\""
+    },
+    {
+     "n": "13",
+     "title": "Boto Cor-de-Rosa"
+    },
+    {
+     "n": "14",
+     "title": "The Sleepless Man"
+    },
+    {
+     "n": "15",
+     "title": "The Northern Falcon"
+    },
+    {
+     "n": "16",
+     "title": "\"Family Reunion\""
+    },
+    {
+     "n": "17",
+     "title": "The Black Lamb"
+    },
+    {
+     "n": "18",
+     "title": "Eye of the Hurricane"
+    },
+    {
+     "n": "19",
+     "title": "The Gamble"
+    },
+    {
+     "n": "20",
+     "title": "Farewell, Pera"
+    },
+    {
+     "n": "21",
+     "title": "Ground Zero"
+    },
+    {
+     "n": "22",
+     "title": "The Roaring Forties"
+    },
+    {
+     "n": "23",
+     "title": "The Final Curtain"
+    },
+    {
+     "n": "24",
+     "title": "Monologues"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/Tristes_Tropiques",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-folie-et-deraison",
+   "category": "main",
+   "type": "Main Story",
+   "key": "9",
+   "name": "Folie et Déraison",
+   "abbr": "9TH",
+   "version": "2.6",
+   "character": null,
+   "banner": {
+    "file": "Folie_et_Déraison_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/b/b5/Folie_et_D%C3%A9raison_Banner.png",
+    "local": "images/stories/main/folie-et-deraison.webp"
+   },
+   "rerunBanner": null,
+   "summary": "Folie et Déraison is the ninth main chapter of Reverse: 1999.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "Prologue"
+    },
+    {
+     "n": "2",
+     "title": "More than Circles"
+    },
+    {
+     "n": "3",
+     "title": "The Place That Time Forgot"
+    },
+    {
+     "n": "4",
+     "title": "Comala's Callers"
+    },
+    {
+     "n": "5",
+     "title": "A Latin American Fable"
+    },
+    {
+     "n": "6",
+     "title": "Shadows of the Living"
+    },
+    {
+     "n": "7",
+     "title": "Passion and Delirium"
+    },
+    {
+     "n": "8",
+     "title": "The Spider's Web"
+    },
+    {
+     "n": "9",
+     "title": "The Central Tower"
+    },
+    {
+     "n": "10",
+     "title": "The Ant Mill"
+    },
+    {
+     "n": "11",
+     "title": "Soothsayer, Worldmaker"
+    },
+    {
+     "n": "12",
+     "title": "Behind the Operating Curtain"
+    },
+    {
+     "n": "13",
+     "title": "Master of the Labyrinth"
+    },
+    {
+     "n": "14",
+     "title": "The Mask in the Mirror"
+    },
+    {
+     "n": "15",
+     "title": "Aleph"
+    },
+    {
+     "n": "16",
+     "title": "The Boundary of Fiction"
+    },
+    {
+     "n": "17",
+     "title": "Ghosts of the Past"
+    },
+    {
+     "n": "18",
+     "title": "In Praise of Folly"
+    },
+    {
+     "n": "19",
+     "title": "Aspects of Madness"
+    },
+    {
+     "n": "20",
+     "title": "In the Place of My Ashes"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/Folie_et_D%C3%A9raison",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-paradise-regained",
+   "category": "main",
+   "type": "Main Story",
+   "key": "10",
+   "name": "Paradise Regained",
+   "abbr": "10TH",
+   "version": "2.8",
+   "character": null,
+   "banner": {
+    "file": "Paradise_Regained_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/e/ef/Paradise_Regained_Banner.png",
+    "local": "images/stories/main/paradise-regained.webp"
+   },
+   "rerunBanner": null,
+   "summary": "Paradise Regained is the tenth main chapter of Reverse: 1999.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "Annum Novum Faustum et Beatum"
+    },
+    {
+     "n": "2",
+     "title": "The Rime of the Ancient Mariner"
+    },
+    {
+     "n": "3",
+     "title": "An Icy Road"
+    },
+    {
+     "n": "4",
+     "title": "My Travel Companions"
+    },
+    {
+     "n": "5",
+     "title": "Et tu, Brute?"
+    },
+    {
+     "n": "6",
+     "title": "Safe Driving"
+    },
+    {
+     "n": "7",
+     "title": "Under Glaring Light"
+    },
+    {
+     "n": "8",
+     "title": "The Worst Journey in the World"
+    },
+    {
+     "n": "9",
+     "title": "The Fool and the High Priestess"
+    },
+    {
+     "n": "10",
+     "title": "The Call of the Wind"
+    },
+    {
+     "n": "11",
+     "title": "Des pas sur la neige"
+    },
+    {
+     "n": "12",
+     "title": "Just Another Laplace Experiment"
+    },
+    {
+     "n": "13",
+     "title": "The Nine-Layered City"
+    },
+    {
+     "n": "14",
+     "title": "My Dear Siblings"
+    },
+    {
+     "n": "15",
+     "title": "In the Mouth of Madness"
+    },
+    {
+     "n": "16",
+     "title": "The Broken Land of Bliss"
+    },
+    {
+     "n": "17",
+     "title": "The Owl of Minerva"
+    },
+    {
+     "n": "18",
+     "title": "To a Skylark"
+    },
+    {
+     "n": "19",
+     "title": "Same Road, Different Destinations"
+    },
+    {
+     "n": "20",
+     "title": "The Weaving of Our Pasts"
+    },
+    {
+     "n": "21",
+     "title": "The Way I Came"
+    },
+    {
+     "n": "22",
+     "title": "By Their Untainted Blood"
+    },
+    {
+     "n": "23",
+     "title": "And Then Came the Savior"
+    },
+    {
+     "n": "24",
+     "title": "The Other Bank of the River"
+    },
+    {
+     "n": "25",
+     "title": "Apocalypsis cum figuris"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/Paradise_Regained",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-a-long-long-way",
+   "category": "main",
+   "type": "Main Story",
+   "key": "11",
+   "name": "A Long Long Way",
+   "abbr": "11TH",
+   "version": "3.0",
+   "character": null,
+   "banner": {
+    "file": "A_Long_Long_Way_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/a/a0/A_Long_Long_Way_Banner.png",
+    "local": "images/stories/main/a-long-long-way.webp"
+   },
+   "rerunBanner": null,
+   "summary": "A Long Long Way is the eleventh main chapter of Reverse: 1999.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "After the Flood"
+    },
+    {
+     "n": "2",
+     "title": "Old Boots"
+    },
+    {
+     "n": "3",
+     "title": "Battle of the Birds"
+    },
+    {
+     "n": "4",
+     "title": "Grayish Blue"
+    },
+    {
+     "n": "5",
+     "title": "Chrysanthemum"
+    },
+    {
+     "n": "6",
+     "title": "A Push for Peace"
+    },
+    {
+     "n": "7",
+     "title": "Under the Veil"
+    },
+    {
+     "n": "8",
+     "title": "Death of the Young"
+    },
+    {
+     "n": "9",
+     "title": "Paths Crossed"
+    },
+    {
+     "n": "10",
+     "title": "Devil's Work"
+    },
+    {
+     "n": "11",
+     "title": "Wounds and Scars"
+    },
+    {
+     "n": "12",
+     "title": "A Fractured Sanctuary"
+    },
+    {
+     "n": "13",
+     "title": "Concessions for Peace"
+    },
+    {
+     "n": "14",
+     "title": "Two Pounds of Sugar"
+    },
+    {
+     "n": "15",
+     "title": "Send-off"
+    },
+    {
+     "n": "16",
+     "title": "An Unfulfilled Prophecy"
+    },
+    {
+     "n": "17",
+     "title": "Serenity on the Wind"
+    },
+    {
+     "n": "18",
+     "title": "The Armistice"
+    },
+    {
+     "n": "19",
+     "title": "A False Dawn"
+    },
+    {
+     "n": "20",
+     "title": "Gates of Hell"
+    },
+    {
+     "n": "21",
+     "title": "1-Hour Politics"
+    },
+    {
+     "n": "22",
+     "title": "Brimstone and Fire"
+    },
+    {
+     "n": "23",
+     "title": "The Pardon"
+    },
+    {
+     "n": "24",
+     "title": "The Hill"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/A_Long_Long_Way",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-the-campaigns-tale",
+   "category": "main",
+   "type": "Main Story",
+   "key": "12",
+   "name": "The Campaign's Tale",
+   "abbr": "12TH",
+   "version": "3.3",
+   "character": null,
+   "banner": {
+    "file": "The_Campaign's_Tale_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/6/6f/The_Campaign%27s_Tale_Banner.png",
+    "local": "images/stories/main/the-campaigns-tale.webp"
+   },
+   "rerunBanner": null,
+   "summary": "The Campaign's Tale is the twelfth main chapter of Reverse: 1999.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "Quiet is the River Bank"
+    },
+    {
+     "n": "2",
+     "title": "The Eternal Autumn"
+    },
+    {
+     "n": "3",
+     "title": "Intersection"
+    },
+    {
+     "n": "4",
+     "title": "Beneath the Silence"
+    },
+    {
+     "n": "5",
+     "title": "Strange Gazes"
+    },
+    {
+     "n": "6",
+     "title": "A Son's Confession"
+    },
+    {
+     "n": "7",
+     "title": "Both Sides of the River"
+    },
+    {
+     "n": "8",
+     "title": "The Negotiators and the Judge"
+    },
+    {
+     "n": "9",
+     "title": "White Night"
+    },
+    {
+     "n": "10",
+     "title": "Legacy of the Era"
+    },
+    {
+     "n": "11",
+     "title": "The Defender's Oath"
+    },
+    {
+     "n": "12",
+     "title": "Life and Fate"
+    },
+    {
+     "n": "13",
+     "title": "Farewell Letter"
+    },
+    {
+     "n": "14",
+     "title": "The Night Before War"
+    },
+    {
+     "n": "15",
+     "title": "Dust Between Fingers"
+    },
+    {
+     "n": "16",
+     "title": "Mercy"
+    },
+    {
+     "n": "17",
+     "title": "The Cavalry"
+    },
+    {
+     "n": "18",
+     "title": "The Pale Horse"
+    },
+    {
+     "n": "19",
+     "title": "Casualty Report"
+    },
+    {
+     "n": "20",
+     "title": "The Last Defense"
+    },
+    {
+     "n": "21",
+     "title": "The Admiral and His Men"
+    },
+    {
+     "n": "22",
+     "title": "Elegy for the Don"
+    },
+    {
+     "n": "23",
+     "title": "The Long Road Ahead"
+    },
+    {
+     "n": "24",
+     "title": "The Day of Departure"
+    },
+    {
+     "n": "25",
+     "title": "Crime and Punishment"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Campaign's_Tale",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-on-anothers-sorrow",
+   "category": "main",
+   "type": "Main Story",
+   "key": "13",
+   "name": "On Another's Sorrow",
+   "abbr": "13TH",
+   "version": "3.7",
+   "character": null,
+   "banner": {
+    "file": "On_Another's_Sorrow_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/d/dc/On_Another%27s_Sorrow_Banner.png",
+    "local": "images/stories/main/on-anothers-sorrow.webp"
+   },
+   "rerunBanner": null,
+   "summary": "On Another's Sorrow is the thirteenth main chapter of Reverse: 1999.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "Reckoning Time"
+    },
+    {
+     "n": "2",
+     "title": "Homecoming Day"
+    },
+    {
+     "n": "3",
+     "title": "Escape Plan"
+    },
+    {
+     "n": "4",
+     "title": "The Cube Researchers"
+    },
+    {
+     "n": "5",
+     "title": "Stone Doves"
+    },
+    {
+     "n": "6",
+     "title": "Burned Feathers"
+    },
+    {
+     "n": "7",
+     "title": "The Alumni"
+    },
+    {
+     "n": "8",
+     "title": "Bumpy Roads"
+    },
+    {
+     "n": "9",
+     "title": "Rules Are Rules"
+    },
+    {
+     "n": "10",
+     "title": "Emergency Measures"
+    },
+    {
+     "n": "11",
+     "title": "A Hard Choice"
+    },
+    {
+     "n": "12",
+     "title": "The Shapeshifter"
+    },
+    {
+     "n": "13",
+     "title": "Thorny Thicket"
+    },
+    {
+     "n": "14",
+     "title": "Vacuum of Arcanum"
+    },
+    {
+     "n": "15",
+     "title": "Behind the Door"
+    },
+    {
+     "n": "16",
+     "title": "Overexposed"
+    },
+    {
+     "n": "17",
+     "title": "The Hope in Her Heart"
+    },
+    {
+     "n": "18",
+     "title": "Song of the Black Sheep"
+    },
+    {
+     "n": "19",
+     "title": "Amulets"
+    },
+    {
+     "n": "20",
+     "title": "A Peek into Fate"
+    },
+    {
+     "n": "21",
+     "title": "The White Tower"
+    },
+    {
+     "n": "22",
+     "title": "Wishing for Peace"
+    },
+    {
+     "n": "23",
+     "title": "Peace and Loss"
+    },
+    {
+     "n": "24",
+     "title": "Her Reward"
+    },
+    {
+     "n": "25",
+     "title": "The Legendary Hermitage"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/On_Another's_Sorrow",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-the-star",
+   "category": "main",
+   "type": "Main Story",
+   "key": "5sp",
+   "name": "The Star",
+   "abbr": "5SP",
+   "version": null,
+   "character": null,
+   "banner": {
+    "file": "The_Star_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/8/8c/The_Star_Banner.png",
+    "local": "images/stories/main/the-star.webp"
+   },
+   "rerunBanner": null,
+   "summary": "The Star is the first inter chapter in the main story of Reverse: 1999, and takes place between The Prisoner in the Cave and E lucevan le stelle.",
+   "stages": [
+    {
+     "n": "1",
+     "title": "Lovely Meeting"
+    },
+    {
+     "n": "2",
+     "title": "Soaked Science"
+    },
+    {
+     "n": "3",
+     "title": "Tower of Babel"
+    },
+    {
+     "n": "4",
+     "title": "Divination in the Day"
+    },
+    {
+     "n": "5",
+     "title": "The Lament in Silence"
+    },
+    {
+     "n": "6",
+     "title": "New Direction"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Star",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "main-to-the-new-world",
+   "category": "main",
+   "type": "Main Story",
+   "key": "7sp",
+   "name": "To the New World",
+   "abbr": "7SP",
+   "version": null,
+   "character": null,
+   "banner": {
+    "file": "To_the_New_World_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/f/f1/To_the_New_World_Banner.png",
+    "local": "images/stories/main/to-the-new-world.webp"
+   },
+   "rerunBanner": null,
+   "summary": "To the New World is the second inter chapter in the main story of Reverse: 1999, and takes place between Vereinsamt and Tristes Tropiques.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/To_the_New_World",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-the-theft-of-the-rimet-cup",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "1.1",
+   "name": "The Theft of the Rimet Cup",
+   "abbr": "TRC",
+   "version": "1.1",
+   "character": null,
+   "banner": {
+    "file": "The_Theft_of_the_Rimet_Cup_Banner.jpg",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/e/e4/The_Theft_of_the_Rimet_Cup_Banner.jpg",
+    "local": "images/stories/mainevent/the-theft-of-the-rimet-cup.webp"
+   },
+   "rerunBanner": {
+    "file": "The_Theft_of_the_Rimet_Cup_Rerun_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/6/68/The_Theft_of_the_Rimet_Cup_Rerun_Banner.png",
+    "local": "images/stories/mainevent/the-theft-of-the-rimet-cup-rerun.webp"
+   },
+   "summary": "[The Theft of the Rimet Cup] Event Intro /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Theft_of_the_Rimet_Cup",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-a-nightmare-at-green-lake",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "1.2",
+   "name": "A Nightmare at Green Lake",
+   "abbr": "GLN",
+   "version": "1.2",
+   "character": null,
+   "banner": {
+    "file": "A_Nightmare_at_Green_Lake_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/b/b9/A_Nightmare_at_Green_Lake_Banner.png",
+    "local": "images/stories/mainevent/a-nightmare-at-green-lake.webp"
+   },
+   "rerunBanner": {
+    "file": "A_Nightmare_at_Green_Lake_Rerun_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/a/a2/A_Nightmare_at_Green_Lake_Rerun_Banner.png",
+    "local": "images/stories/mainevent/a-nightmare-at-green-lake-rerun.webp"
+   },
+   "summary": "[A Nightmare at Green Lake] Event Intro /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/A_Nightmare_at_Green_Lake",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-journey-to-mor-pankh",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "1.3",
+   "name": "Journey to Mor Pankh",
+   "abbr": "JMP",
+   "version": "1.3",
+   "character": null,
+   "banner": {
+    "file": "Journey_to_Mor_Pankh_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/0/0d/Journey_to_Mor_Pankh_Banner.png",
+    "local": "images/stories/mainevent/journey-to-mor-pankh.webp"
+   },
+   "rerunBanner": {
+    "file": "Journey_to_Mor_Pankh_Rerun_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/e/e9/Journey_to_Mor_Pankh_Rerun_Banner.png",
+    "local": "images/stories/mainevent/journey-to-mor-pankh-rerun.webp"
+   },
+   "summary": "[Journey to Mor Pankh] Event Intro /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Journey_to_Mor_Pankh",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-the-prisoner-in-the-cave-event",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "1.4",
+   "name": "The Prisoner in the Cave (Event)",
+   "abbr": null,
+   "version": "1.4",
+   "character": null,
+   "banner": {
+    "file": "The_Prisoner_in_the_Cave_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/9/92/The_Prisoner_in_the_Cave_Banner.png",
+    "local": "images/stories/mainevent/the-prisoner-in-the-cave-event.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[The Prisoner in the Cave] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Prisoner_in_the_Cave_(Event)",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-revival-the-uluru-games",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "1.5",
+   "name": "Revival! The Uluru Games",
+   "abbr": "RUG",
+   "version": "1.5",
+   "character": null,
+   "banner": {
+    "file": "Revival!_The_Uluru_Games_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/9/92/Revival%21_The_Uluru_Games_Banner.png",
+    "local": "images/stories/mainevent/revival-the-uluru-games.webp"
+   },
+   "rerunBanner": {
+    "file": "Revival!_The_Uluru_Games_Rerun_Banner.jpeg",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/1/10/Revival%21_The_Uluru_Games_Rerun_Banner.jpeg",
+    "local": "images/stories/mainevent/revival-the-uluru-games-rerun.webp"
+   },
+   "summary": "[Revival! The Uluru Games] Event Intro /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Revival!_The_Uluru_Games",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-notes-on-shuori",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "1.6",
+   "name": "Notes on Shuori",
+   "abbr": "NS",
+   "version": "1.6",
+   "character": null,
+   "banner": {
+    "file": "Notes_on_Shuori_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/4/46/Notes_on_Shuori_Banner.png",
+    "local": "images/stories/mainevent/notes-on-shuori.webp"
+   },
+   "rerunBanner": {
+    "file": "Notes_on_Shuori_Rerun_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/2/2e/Notes_on_Shuori_Rerun_Banner.png",
+    "local": "images/stories/mainevent/notes-on-shuori-rerun.webp"
+   },
+   "summary": "[Notes on Shuori] Event Intro /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Notes_on_Shuori",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-e-lucevan-le-stelle-event",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "1.7",
+   "name": "E lucevan le stelle (Event)",
+   "abbr": null,
+   "version": "1.7",
+   "character": null,
+   "banner": {
+    "file": "E_lucevan_le_stelle_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/9/91/E_lucevan_le_stelle_Banner.png",
+    "local": "images/stories/mainevent/e-lucevan-le-stelle-event.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[E lucevan le stelle] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/E_lucevan_le_stelle_(Event)",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-farewell-rayashki",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "1.8",
+   "name": "Farewell, Rayashki",
+   "abbr": "FR",
+   "version": "1.8",
+   "character": null,
+   "banner": {
+    "file": "Farewell,_Rayashki_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/6/66/Farewell%2C_Rayashki_Banner.png",
+    "local": "images/stories/mainevent/farewell-rayashki.webp"
+   },
+   "rerunBanner": {
+    "file": "Farewell,_Rayashki_Rerun_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/6/60/Farewell%2C_Rayashki_Rerun_Banner.png",
+    "local": "images/stories/mainevent/farewell-rayashki-rerun.webp"
+   },
+   "summary": "[Farewell, Rayashki] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Farewell%2C_Rayashki",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-vereinsamt-event",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "1.9",
+   "name": "Vereinsamt (Event)",
+   "abbr": null,
+   "version": "1.9",
+   "character": null,
+   "banner": {
+    "file": "Vereinsamt_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/e/e6/Vereinsamt_Banner.png",
+    "local": "images/stories/mainevent/vereinsamt-event.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Vereinsamt] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Vereinsamt_(Event)",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-floor-it-to-the-golden-city",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "2.0",
+   "name": "Floor It! To the Golden City",
+   "abbr": "FT",
+   "version": "2.0",
+   "character": null,
+   "banner": {
+    "file": "Floor_it!_To_the_Golden_City_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/e/e3/Floor_it%21_To_the_Golden_City_Banner.png",
+    "local": "images/stories/mainevent/floor-it-to-the-golden-city.webp"
+   },
+   "rerunBanner": {
+    "file": "Floor_It!_To_the_Golden_City_Rerun_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/6/66/Floor_It%21_To_the_Golden_City_Rerun_Banner.png",
+    "local": "images/stories/mainevent/floor-it-to-the-golden-city-rerun.webp"
+   },
+   "summary": "[Floor It! To the Golden City] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Floor_It!_To_the_Golden_City",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-route-77-the-haunted-highway",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "2.1",
+   "name": "Route 77: The Haunted Highway",
+   "abbr": "THH",
+   "version": "2.1",
+   "character": null,
+   "banner": {
+    "file": "Route_77_The_Haunted_Highway_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/e/e4/Route_77_The_Haunted_Highway_Banner.png",
+    "local": "images/stories/mainevent/route-77-the-haunted-highway.webp"
+   },
+   "rerunBanner": {
+    "file": "Route_77_The_Haunted_Highway_Rerun_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/8/86/Route_77_The_Haunted_Highway_Rerun_Banner.png",
+    "local": "images/stories/mainevent/route-77-the-haunted-highway-rerun.webp"
+   },
+   "summary": "[Route 77: The Haunted Highway] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Route_77%3A_The_Haunted_Highway",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-tristes-tropiques-event",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "2.2",
+   "name": "Tristes Tropiques (Event)",
+   "abbr": null,
+   "version": "2.2",
+   "character": null,
+   "banner": {
+    "file": "Tristes_Tropiques_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/c/c3/Tristes_Tropiques_Banner.png",
+    "local": "images/stories/mainevent/tristes-tropiques-event.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Tristes Tropiques] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Tristes_Tropiques_(Event)",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-chronicles-of-uluru-london-dawning",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "2.3",
+   "name": "Chronicles of Uluru: London Dawning",
+   "abbr": "LD",
+   "version": "2.3",
+   "character": null,
+   "banner": {
+    "file": "Chronicles_of_Uluru_London_Dawning_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/b/b0/Chronicles_of_Uluru_London_Dawning_Banner.png",
+    "local": "images/stories/mainevent/chronicles-of-uluru-london-dawning.webp"
+   },
+   "rerunBanner": {
+    "file": "Chronicles_of_Uluru_London_Dawning_Rerun_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/8/80/Chronicles_of_Uluru_London_Dawning_Rerun_Banner.png",
+    "local": "images/stories/mainevent/chronicles-of-uluru-london-dawning-rerun.webp"
+   },
+   "summary": "[Chronicles of Uluru: London Dawning] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Chronicles_of_Uluru%3A_London_Dawning",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-last-evenings-on-earth",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "2.4",
+   "name": "Last Evenings on Earth",
+   "abbr": "LEE",
+   "version": "2.4",
+   "character": null,
+   "banner": {
+    "file": "Last_Evenings_on_Earth_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/2/21/Last_Evenings_on_Earth_Banner.png",
+    "local": "images/stories/mainevent/last-evenings-on-earth.webp"
+   },
+   "rerunBanner": {
+    "file": "Last_Evenings_on_Earth_Rerun_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/b/b9/Last_Evenings_on_Earth_Rerun_Banner.png",
+    "local": "images/stories/mainevent/last-evenings-on-earth-rerun.webp"
+   },
+   "summary": "[Last Evenings on Earth] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Last_Evenings_on_Earth",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-showdown-in-chinatown",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "2.5",
+   "name": "Showdown in Chinatown",
+   "abbr": "SC",
+   "version": "2.5",
+   "character": null,
+   "banner": {
+    "file": "Showdown_in_Chinatown_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/5/5a/Showdown_in_Chinatown_Banner.png",
+    "local": "images/stories/mainevent/showdown-in-chinatown.webp"
+   },
+   "rerunBanner": {
+    "file": "Showdown_in_Chinatown_Rerun_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/c/cf/Showdown_in_Chinatown_Rerun_Banner.png",
+    "local": "images/stories/mainevent/showdown-in-chinatown-rerun.webp"
+   },
+   "summary": "[Showdown in Chinatown] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Showdown_in_Chinatown",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-folie-et-deraison-event",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "2.6",
+   "name": "Folie et Déraison (Event)",
+   "abbr": null,
+   "version": "2.6",
+   "character": null,
+   "banner": {
+    "file": "Folie_et_Déraison_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/b/b5/Folie_et_D%C3%A9raison_Banner.png",
+    "local": "images/stories/mainevent/folie-et-deraison-event.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Folie et Déraison] Main Event: /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Folie_et_D%C3%A9raison_(Event)",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-1987-cosmic-overture",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "2.7",
+   "name": "1987 Cosmic Overture",
+   "abbr": "CO",
+   "version": "2.7",
+   "character": null,
+   "banner": {
+    "file": "1987_Cosmic_Overture_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/6/66/1987_Cosmic_Overture_Banner.png",
+    "local": "images/stories/mainevent/1987-cosmic-overture.webp"
+   },
+   "rerunBanner": {
+    "file": "1987_Cosmic_Overture_Rerun_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/8/89/1987_Cosmic_Overture_Rerun_Banner.png",
+    "local": "images/stories/mainevent/1987-cosmic-overture-rerun.webp"
+   },
+   "summary": "[1987 Cosmic Overture] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/1987_Cosmic_Overture",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-la-primavera-di-firenze",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "s01.1",
+   "name": "La Primavera di Firenze",
+   "abbr": "LPdF",
+   "version": "S01.1",
+   "character": null,
+   "banner": {
+    "file": "La_Primavera_di_Firenze_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/7/7d/La_Primavera_di_Firenze_Banner.png",
+    "local": "images/stories/mainevent/la-primavera-di-firenze.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[La Primavera di Firenze] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/La_Primavera_di_Firenze",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-drama-in-athens",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "s01.2",
+   "name": "Drama in Athens",
+   "abbr": "DIA",
+   "version": "S01.2",
+   "character": null,
+   "banner": {
+    "file": "Drama_in_Athens_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/b/b3/Drama_in_Athens_Banner.png",
+    "local": "images/stories/mainevent/drama-in-athens.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Drama in Athens] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Drama_in_Athens",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-paradise-regained-event",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "2.8",
+   "name": "Paradise Regained (Event)",
+   "abbr": null,
+   "version": "2.8",
+   "character": null,
+   "banner": {
+    "file": "Paradise_Regained_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/e/ef/Paradise_Regained_Banner.png",
+    "local": "images/stories/mainevent/paradise-regained-event.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Paradise Regained] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Paradise_Regained_(Event)",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-a-long-long-way-event",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "3.0",
+   "name": "A Long Long Way (Event)",
+   "abbr": null,
+   "version": "3.0",
+   "character": null,
+   "banner": {
+    "file": "A_Long_Long_Way_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/a/a0/A_Long_Long_Way_Banner.png",
+    "local": "images/stories/mainevent/a-long-long-way-event.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Paradise Regained] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/A_Long_Long_Way_(Event)",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-the-midnight-whistle",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "3.1",
+   "name": "The Midnight Whistle",
+   "abbr": "TMW",
+   "version": "3.1",
+   "character": null,
+   "banner": {
+    "file": "The_Midnight_Whistle_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/0/08/The_Midnight_Whistle_Banner.png",
+    "local": "images/stories/mainevent/the-midnight-whistle.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[The Midnight Whistle] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Midnight_Whistle",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-a-flowing-feast",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "3.2",
+   "name": "A Flowing Feast",
+   "abbr": "AFF",
+   "version": "3.2",
+   "character": null,
+   "banner": {
+    "file": "A_Flowing_Feast_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/6/6e/A_Flowing_Feast_Banner.png",
+    "local": "images/stories/mainevent/a-flowing-feast.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[A Flowing Feast] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/A_Flowing_Feast",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-the-campaigns-tale-event",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "3.3",
+   "name": "The Campaign's Tale (Event)",
+   "abbr": null,
+   "version": "3.3",
+   "character": null,
+   "banner": {
+    "file": "The_Campaign's_Tale_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/6/6f/The_Campaign%27s_Tale_Banner.png",
+    "local": "images/stories/mainevent/the-campaigns-tale-event.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Paradise Regained] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Campaign's_Tale_(Event)",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-spring-unending",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "3.4",
+   "name": "Spring Unending",
+   "abbr": "SU",
+   "version": "3.4",
+   "character": null,
+   "banner": {
+    "file": "Spring_Unending_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/d/df/Spring_Unending_Banner.png",
+    "local": "images/stories/mainevent/spring-unending.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Spring Unending] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Spring_Unending",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-the-turquoise-serpent-club",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "3.5",
+   "name": "The Turquoise Serpent Club",
+   "abbr": "TTSC",
+   "version": "3.5",
+   "character": null,
+   "banner": {
+    "file": "The_Turquoise_Serpent_Club_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/d/dd/The_Turquoise_Serpent_Club_Banner.png",
+    "local": "images/stories/mainevent/the-turquoise-serpent-club.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[The Turquoise Serpent Club] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Turquoise_Serpent_Club",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-last-and-first-principles",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "3.6",
+   "name": "Last and First Principles",
+   "abbr": "LAFP",
+   "version": "3.6",
+   "character": null,
+   "banner": {
+    "file": "Last_and_First_Principles_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/1/18/Last_and_First_Principles_Banner.png",
+    "local": "images/stories/mainevent/last-and-first-principles.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Last and First Principles] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Last_and_First_Principles",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-polymerized-dreams",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "s02",
+   "name": "Polymerized Dreams",
+   "abbr": "PD",
+   "version": "S02",
+   "character": null,
+   "banner": {
+    "file": "Polymerized_Dreams_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/f/ff/Polymerized_Dreams_Banner.png",
+    "local": "images/stories/mainevent/polymerized-dreams.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Polymerized Dreams] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Polymerized_Dreams",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-on-anothers-sorrow-event",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "3.7",
+   "name": "On Another's Sorrow (Event)",
+   "abbr": null,
+   "version": "3.7",
+   "character": null,
+   "banner": {
+    "file": "On_Another's_Sorrow_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/d/dc/On_Another%27s_Sorrow_Banner.png",
+    "local": "images/stories/mainevent/on-anothers-sorrow-event.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[On Another's Sorrow] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/On_Another's_Sorrow_(Event)",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-the-temporal-scale",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "3.8",
+   "name": "The Temporal Scale",
+   "abbr": "TTS",
+   "version": "3.8",
+   "character": null,
+   "banner": {
+    "file": "The_Temporal_Scale_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/3/32/The_Temporal_Scale_Banner.png",
+    "local": "images/stories/mainevent/the-temporal-scale.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[The Temporal Scale] Main Event /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Temporal_Scale",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-rekindled-games-of-the-summer-gold-sea",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "3.9",
+   "name": "Rekindled! Games of the Summer-Gold Sea",
+   "abbr": "RGS",
+   "version": "3.9",
+   "character": null,
+   "banner": null,
+   "rerunBanner": null,
+   "summary": null,
+   "stages": [],
+   "wiki": null,
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "mainevent-pa-gur-yv-y-porthaur",
+   "category": "mainevent",
+   "type": "Version Main Event",
+   "key": "4.0",
+   "name": "Pa Gur Yv Y Porthaur?",
+   "abbr": " ",
+   "version": "4.0",
+   "character": null,
+   "banner": null,
+   "rerunBanner": null,
+   "summary": null,
+   "stages": [],
+   "wiki": null,
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-trudge-in-the-long-night",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "6",
+   "name": "Trudge in the Long Night",
+   "abbr": null,
+   "version": "1.4",
+   "character": "6",
+   "banner": {
+    "file": "Trudge_in_the_Long_Night_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/a/a8/Trudge_in_the_Long_Night_Banner.png",
+    "local": "images/stories/char/trudge-in-the-long-night.webp"
+   },
+   "rerunBanner": null,
+   "summary": "Trudge in the Long Night is a Character Story that focuses on 6. It was released in Version 1.4.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Trudge_in_the_Long_Night",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-as-the-sand-remembered",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "37",
+   "name": "As the Sand Remembered",
+   "abbr": null,
+   "version": "1.4",
+   "character": "37",
+   "banner": {
+    "file": "As_the_Sand_Remembered_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/2/23/As_the_Sand_Remembered_Banner.png",
+    "local": "images/stories/char/as-the-sand-remembered.webp"
+   },
+   "rerunBanner": null,
+   "summary": null,
+   "stages": [],
+   "wiki": null,
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-thief-of-the-thieves",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "melania",
+   "name": "Thief of the Thieves",
+   "abbr": null,
+   "version": "1.1",
+   "character": "Melania",
+   "banner": {
+    "file": "Thief_of_the_Thieves_Banner.jpg",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/4/44/Thief_of_the_Thieves_Banner.jpg",
+    "local": "images/stories/char/thief-of-the-thieves.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2023-11-09 - 2023-11-23 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Thief_of_the_Thieves",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-the-puppy-and-the-hippie",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "pickles",
+   "name": "The Puppy and The Hippie",
+   "abbr": null,
+   "version": null,
+   "character": "Pickles",
+   "banner": {
+    "file": "The_Puppy_and_The_Hippie_Banner.jpg",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/d/d0/The_Puppy_and_The_Hippie_Banner.jpg",
+    "local": "images/stories/char/the-puppy-and-the-hippie.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] 2023-11-23, 05:00 - 2023-12-07, 04:59 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Puppy_and_The_Hippie",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-the-old-teeth-and-the-worn-marks",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "tooth fairy",
+   "name": "The Old Teeth and The Worn Marks",
+   "abbr": null,
+   "version": "1.2",
+   "character": "Tooth Fairy",
+   "banner": {
+    "file": "The_Old_Teeth_and_The_Worn_Marks_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/b/bf/The_Old_Teeth_and_The_Worn_Marks_Banner.png",
+    "local": "images/stories/char/the-old-teeth-and-the-worn-marks.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on Dec. 7, 2023 to Dec. 28, 2023, 4:59 a.m.(UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Old_Teeth_and_The_Worn_Marks",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-one-flew-over-the-old-house",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "jessica",
+   "name": "One Flew Over the Old House",
+   "abbr": null,
+   "version": "1.2",
+   "character": "Jessica",
+   "banner": {
+    "file": "One_Flew_Over_the_Old_House_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/b/b5/One_Flew_Over_the_Old_House_Banner.png",
+    "local": "images/stories/char/one-flew-over-the-old-house.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] Dec. 28, 5:00 to Jan. 18, 4:59 AM (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/One_Flew_Over_the_Old_House",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-between-dusts-and-stars",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "kaalaa baunaa",
+   "name": "Between Dusts and Stars",
+   "abbr": null,
+   "version": "1.3",
+   "character": "Kaalaa Baunaa",
+   "banner": {
+    "file": "Between_Dusts_and_Stars_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/1/19/Between_Dusts_and_Stars_Banner.png",
+    "local": "images/stories/char/between-dusts-and-stars.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] 1/18 5:00 - 2/8 04:59 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Between_Dusts_and_Stars",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-bells-echoing-in-the-valley",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "shamane",
+   "name": "Bells Echoing in the Valley",
+   "abbr": null,
+   "version": "1.3",
+   "character": "Shamane",
+   "banner": {
+    "file": "Bells_Echoing_in_the_Valley_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/1/10/Bells_Echoing_in_the_Valley_Banner.png",
+    "local": "images/stories/char/bells-echoing-in-the-valley.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] 2/8 5:00 - 2/29 04:59 AM (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Bells_Echoing_in_the_Valley",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-reunion-of-fires",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "spathodea",
+   "name": "Reunion of Fires",
+   "abbr": null,
+   "version": "1.5",
+   "character": "Spathodea",
+   "banner": {
+    "file": "Reunion_of_Fires_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/a/a5/Reunion_of_Fires_Banner.png",
+    "local": "images/stories/char/reunion-of-fires.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2024-4-18 - 2024-5-09 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Reunion_of_Fires",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-as-the-driven-snow-falls",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "ezra",
+   "name": "As the Driven Snow Falls",
+   "abbr": null,
+   "version": "1.5",
+   "character": "Ezra",
+   "banner": {
+    "file": "As_the_Driven_Snow_Falls_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/b/b5/As_the_Driven_Snow_Falls_Banner.png",
+    "local": "images/stories/char/as-the-driven-snow-falls.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] 2024-5-9 05:00 - 2024-5-30 04:59 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/As_the_Driven_Snow_Falls",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-light-to-the-tavern",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "jiu niangzi",
+   "name": "Light to the Tavern",
+   "abbr": null,
+   "version": "1.6",
+   "character": "Jiu Niangzi",
+   "banner": {
+    "file": "Light_to_the_Tavern_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/9/97/Light_to_the_Tavern_Banner.png",
+    "local": "images/stories/char/light-to-the-tavern.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2024-05-30 - 2024-07-11 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Light_to_the_Tavern",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-flowing-in-the-wind",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "getian",
+   "name": "Flowing in the Wind",
+   "abbr": null,
+   "version": "1.6",
+   "character": "Getian",
+   "banner": {
+    "file": "Flowing_in_the_Wind_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/b/b1/Flowing_in_the_Wind_Banner.png",
+    "local": "images/stories/char/flowing-in-the-wind.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2024-06-20 - 2024-07-11 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Flowing_in_the_Wind",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-the-small-room",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "isolde",
+   "name": "The Small Room",
+   "abbr": null,
+   "version": null,
+   "character": "Isolde",
+   "banner": {
+    "file": "The_Small_Room_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/1/13/The_Small_Room_Banner.png",
+    "local": "images/stories/char/the-small-room.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2024-07-11 - 2024-08-01 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Small_Room",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-the-tall-lighthouse",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "marcus",
+   "name": "The Tall Lighthouse",
+   "abbr": null,
+   "version": null,
+   "character": "Marcus",
+   "banner": {
+    "file": "The_Tall_Lighthouse_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/c/c8/The_Tall_Lighthouse_Banner.png",
+    "local": "images/stories/char/the-tall-lighthouse.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2024-08-01 - 2024-08-15 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Tall_Lighthouse",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-dawn-arrives-as-usual",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "vila",
+   "name": "Dawn Arrives as Usual",
+   "abbr": null,
+   "version": "1.8",
+   "character": "Vila",
+   "banner": {
+    "file": "Dawn_Arrives_as_Usual_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/3/34/Dawn_Arrives_as_Usual_Banner.png",
+    "local": "images/stories/char/dawn-arrives-as-usual.webp"
+   },
+   "rerunBanner": null,
+   "summary": null,
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Dawn_Arrives_as_Usual",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-silver-knot",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "windsong",
+   "name": "Silver Knot",
+   "abbr": null,
+   "version": "1.8",
+   "character": "Windsong",
+   "banner": {
+    "file": "Silver_Knot_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/a/af/Silver_Knot_Banner.png",
+    "local": "images/stories/char/silver-knot.webp"
+   },
+   "rerunBanner": null,
+   "summary": null,
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Silver_Knot",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-flying-to-the-past",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "lucy",
+   "name": "Flying to the Past",
+   "abbr": null,
+   "version": "1.9",
+   "character": "Lucy",
+   "banner": {
+    "file": "Flying_to_the_Past_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/f/f7/Flying_to_the_Past_Banner.png",
+    "local": "images/stories/char/flying-to-the-past.webp"
+   },
+   "rerunBanner": null,
+   "summary": null,
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Flying_to_the_Past",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-through-the-glass",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "kakania",
+   "name": "Through the Glass",
+   "abbr": null,
+   "version": "1.9",
+   "character": "Kakania",
+   "banner": {
+    "file": "Through_the_Glass_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/4/4f/Through_the_Glass_Banner.png",
+    "local": "images/stories/char/through-the-glass.webp"
+   },
+   "rerunBanner": null,
+   "summary": null,
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Through_the_Glass",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-on-the-thousandth-night",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "mercuria",
+   "name": "On the Thousandth Night",
+   "abbr": null,
+   "version": "2.0",
+   "character": "Mercuria",
+   "banner": {
+    "file": "On_the_Thousandth_Night_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/5/52/On_the_Thousandth_Night_Banner.png",
+    "local": "images/stories/char/on-the-thousandth-night.webp"
+   },
+   "rerunBanner": null,
+   "summary": null,
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/On_the_Thousandth_Night",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-the-san-francisco-kids",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "j",
+   "name": "The San Francisco Kids",
+   "abbr": null,
+   "version": "2.0",
+   "character": "J",
+   "banner": {
+    "file": "The_San_Francisco_Kids_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/2/29/The_San_Francisco_Kids_Banner.png",
+    "local": "images/stories/char/the-san-francisco-kids.webp"
+   },
+   "rerunBanner": null,
+   "summary": null,
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_San_Francisco_Kids",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-bedtime-story",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "tuesday",
+   "name": "Bedtime Story",
+   "abbr": null,
+   "version": "2.1",
+   "character": "Tuesday",
+   "banner": {
+    "file": "Bedtime_Story_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/c/ce/Bedtime_Story_Banner.png",
+    "local": "images/stories/char/bedtime-story.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2024-12-05 - 2024-12-26 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Bedtime_Story",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-the-red-wall",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "argus",
+   "name": "The Red Wall",
+   "abbr": null,
+   "version": "2.1",
+   "character": "Argus",
+   "banner": {
+    "file": "The_Red_Wall_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/7/70/The_Red_Wall_Banner.png",
+    "local": "images/stories/char/the-red-wall.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2024-12-26 - 2025-01-09 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Red_Wall",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-the-overcast-october",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "anjo nala",
+   "name": "The Overcast October",
+   "abbr": null,
+   "version": "2.2",
+   "character": "Anjo Nala",
+   "banner": {
+    "file": "The_Overcast_October_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/f/f0/The_Overcast_October_Banner.png",
+    "local": "images/stories/char/the-overcast-october.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-01-09 - 2025-02-20 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Overcast_October",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-into-the-rainforest",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "lopera",
+   "name": "Into the Rainforest",
+   "abbr": null,
+   "version": "2.2",
+   "character": "Lopera",
+   "banner": {
+    "file": "Into_the_Rainforest_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/2/29/Into_the_Rainforest_Banner.png",
+    "local": "images/stories/char/into-the-rainforest.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-01-30 - 2025-02-20 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Into_the_Rainforest",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-shadow-of-the-sun",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "willow",
+   "name": "Shadow of the Sun",
+   "abbr": null,
+   "version": "2.3",
+   "character": "Willow",
+   "banner": {
+    "file": "Shadow_of_the_Sun_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/3/3b/Shadow_of_the_Sun_Banner.png",
+    "local": "images/stories/char/shadow-of-the-sun.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-02-20 - 2025-03-06 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Shadow_of_the_Sun",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-night-escapades-on-cross-street",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "flutterpage",
+   "name": "Night Escapades on Cross Street",
+   "abbr": null,
+   "version": "2.3",
+   "character": "Flutterpage",
+   "banner": {
+    "file": "Night_Escapades_on_Cross_Street_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/0/0c/Night_Escapades_on_Cross_Street_Banner.png",
+    "local": "images/stories/char/night-escapades-on-cross-street.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-03-06 - 2025-03-27 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Night_Escapades_on_Cross_Street",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-beyond-the-coastline",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "barcarola",
+   "name": "Beyond the Coastline",
+   "abbr": null,
+   "version": "2.4",
+   "character": "Barcarola",
+   "banner": {
+    "file": "Beyond_the_Coastline_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/4/45/Beyond_the_Coastline_Banner.png",
+    "local": "images/stories/char/beyond-the-coastline.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-03-27 - 2025-04-10 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Beyond_the_Coastline",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-nukutaeao-building-paradise",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "fatutu",
+   "name": "Nukutaeao: Building Paradise!",
+   "abbr": null,
+   "version": "2.4",
+   "character": "Fatutu",
+   "banner": {
+    "file": "Nukutaeao-_Building_Paradise!_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/d/da/Nukutaeao-_Building_Paradise%21_Banner.png",
+    "local": "images/stories/char/nukutaeao-building-paradise.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-04-10 - 2025-04-24 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Nukutaeao%3A_Building_Paradise!",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-sow-and-reap",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "liang yue",
+   "name": "Sow and Reap",
+   "abbr": null,
+   "version": "2.5",
+   "character": "Liang Yue",
+   "banner": {
+    "file": "Sow_and_Reap_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/2/2a/Sow_and_Reap_Banner.png",
+    "local": "images/stories/char/sow-and-reap.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-04-24 - 2025-05-29 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Sow_and_Reap",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-the-great-trickster",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "noire",
+   "name": "The Great Trickster",
+   "abbr": null,
+   "version": "2.5",
+   "character": "Noire",
+   "banner": {
+    "file": "The_Great_Trickster_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/d/d2/The_Great_Trickster_Banner.png",
+    "local": "images/stories/char/the-great-trickster.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-05-08 - 2025-05-29 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Great_Trickster",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-ruinas-gloriosas-y-directrices-de-metaforas",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "recoleta",
+   "name": "Ruinas Gloriosas y Directrices de Metáforas",
+   "abbr": null,
+   "version": "2.6",
+   "character": "Recoleta",
+   "banner": {
+    "file": "Ruinas_Gloriosas_y_Directrices_de_Metáforas_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/4/46/Ruinas_Gloriosas_y_Directrices_de_Met%C3%A1foras_Banner.png",
+    "local": "images/stories/char/ruinas-gloriosas-y-directrices-de-metaforas.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-05-29 - 2025-06-19 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Ruinas_Gloriosas_y_Directrices_de_Met%C3%A1foras",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-the-answering-machine-the-butterfly-and-the-literary-critic",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "aleph",
+   "name": "The Answering Machine, the Butterfly, and the Literary Critic",
+   "abbr": null,
+   "version": "2.6",
+   "character": "Aleph",
+   "banner": {
+    "file": "The_Answering_Machine,_the_Butterfly,_and_the_Literary_Critic_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/5/57/The_Answering_Machine%2C_the_Butterfly%2C_and_the_Literary_Critic_Banner.png",
+    "local": "images/stories/char/the-answering-machine-the-butterfly-and-the-literary-critic.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-05-29 - 2025-06-19 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Answering_Machine%2C_the_Butterfly%2C_and_the_Literary_Critic",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-gap-month",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "hissabeth",
+   "name": "Gap Month",
+   "abbr": null,
+   "version": "2.7",
+   "character": "Hissabeth",
+   "banner": {
+    "file": "Gap_Month_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/f/f5/Gap_Month_Banner.png",
+    "local": "images/stories/char/gap-month.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-07-03 - 2025-07-24 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Gap_Month",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-doomsday-the-days-after",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "kiperina",
+   "name": "Doomsday & The Days After",
+   "abbr": null,
+   "version": "2.7",
+   "character": "Kiperina",
+   "banner": {
+    "file": "Doomsday_&_The_Days_After_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/2/2f/Doomsday_%26_The_Days_After_Banner.png",
+    "local": "images/stories/char/doomsday-the-days-after.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-07-24 - 2025-08-07 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Doomsday_%26_The_Days_After",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-in-her-own-reflection",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "nautika",
+   "name": "In Her Own Reflection",
+   "abbr": null,
+   "version": "2.8",
+   "character": "Nautika",
+   "banner": {
+    "file": "In_Her_Own_Reflection_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/5/53/In_Her_Own_Reflection_Banner.png",
+    "local": "images/stories/char/in-her-own-reflection.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-09-19 - 2025-10-30 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/In_Her_Own_Reflection",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-a-moment-on-the-white-expanse",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "moldir",
+   "name": "A Moment on the White Expanse",
+   "abbr": null,
+   "version": "2.8",
+   "character": "Moldir",
+   "banner": {
+    "file": "A_Moment_on_the_White_Expanse_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/7/73/A_Moment_on_the_White_Expanse_Banner.png",
+    "local": "images/stories/char/a-moment-on-the-white-expanse.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-10-09 - 2025-10-30 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/A_Moment_on_the_White_Expanse",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-dawn-rises-over-the-kill-zone",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "sentinel",
+   "name": "Dawn Rises Over the Kill Zone",
+   "abbr": null,
+   "version": "3.0",
+   "character": "Sentinel",
+   "banner": {
+    "file": "Dawn_Rises_Over_the_Kill_Zone_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/0/02/Dawn_Rises_Over_the_Kill_Zone_Banner.png",
+    "local": "images/stories/char/dawn-rises-over-the-kill-zone.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-10-30 - 2025-11-20 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Dawn_Rises_Over_the_Kill_Zone",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-fuga-a-3-soggetti",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "charon",
+   "name": "Fuga a 3 Soggetti",
+   "abbr": null,
+   "version": "3.0",
+   "character": "Charon",
+   "banner": {
+    "file": "Fuga_a_3_Soggetti_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/6/67/Fuga_a_3_Soggetti_Banner.png",
+    "local": "images/stories/char/fuga-a-3-soggetti.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-11-20 - 2025-12-11 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Fuga_a_3_Soggetti",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-a-shadows-weight",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "rubuska",
+   "name": "A Shadow's Weight",
+   "abbr": null,
+   "version": "3.1",
+   "character": "Rubuska",
+   "banner": {
+    "file": "A_Shadow's_Weight_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/f/f2/A_Shadow%27s_Weight_Banner.png",
+    "local": "images/stories/char/a-shadows-weight.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-12-11 - 2026-01-01 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/A_Shadow's_Weight",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-cold-steel",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "corvus",
+   "name": "Cold Steel",
+   "abbr": null,
+   "version": "3.1",
+   "character": "Corvus",
+   "banner": {
+    "file": "Cold_Steel_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/d/dd/Cold_Steel_Banner.png",
+    "local": "images/stories/char/cold-steel.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2025-01-01 - 2026-01-20 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Cold_Steel",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-the-long-rain-of-fate",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "beryl",
+   "name": "The Long Rain of Fate",
+   "abbr": null,
+   "version": "3.2",
+   "character": "Beryl",
+   "banner": {
+    "file": "The_Long_Rain_of_Fate_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/1/1a/The_Long_Rain_of_Fate_Banner.png",
+    "local": "images/stories/char/the-long-rain-of-fate.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2026-01-20 - 2026-03-05 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Long_Rain_of_Fate",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-an-unheated-gem",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "brume",
+   "name": "An Unheated Gem",
+   "abbr": null,
+   "version": "3.2",
+   "character": "Brume",
+   "banner": {
+    "file": "An_Unheated_Gem_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/b/be/An_Unheated_Gem_Banner.png",
+    "local": "images/stories/char/an-unheated-gem.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2026-02-12 - 2026-03-05 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/An_Unheated_Gem",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-in-the-name-of-chivalry",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "marsha",
+   "name": "In the Name of Chivalry",
+   "abbr": null,
+   "version": "3.3",
+   "character": "Marsha",
+   "banner": {
+    "file": "In_the_Name_of_Chivalry_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/0/0a/In_the_Name_of_Chivalry_Banner.png",
+    "local": "images/stories/char/in-the-name-of-chivalry.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2026-03-05 - 2026-03-26 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/In_the_Name_of_Chivalry",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-into-the-maelstrom",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "igor",
+   "name": "Into the Maelstrom",
+   "abbr": null,
+   "version": "3.3",
+   "character": "Igor",
+   "banner": {
+    "file": "Into_the_Maelstrom_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/f/ff/Into_the_Maelstrom_Banner.png",
+    "local": "images/stories/char/into-the-maelstrom.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2026-03-26 - 2026-04-16 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Into_the_Maelstrom",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-spring-comes-slowly",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "paper heron",
+   "name": "Spring Comes Slowly",
+   "abbr": null,
+   "version": "3.4",
+   "character": "Paper Heron",
+   "banner": {
+    "file": "Spring_Comes_Slowly_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/f/fc/Spring_Comes_Slowly_Banner.png",
+    "local": "images/stories/char/spring-comes-slowly.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2026-04-16 - 2026-05-28 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Spring_Comes_Slowly",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-to-slay-a-tiger",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "cheng heguang",
+   "name": "To Slay a Tiger",
+   "abbr": null,
+   "version": "3.4",
+   "character": "Cheng Heguang",
+   "banner": {
+    "file": "To_Slay_a_Tiger_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/6/6e/To_Slay_a_Tiger_Banner.png",
+    "local": "images/stories/char/to-slay-a-tiger.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2026-05-07 - 2026-05-28 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/To_Slay_a_Tiger",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-counterpoint-of-life-and-death",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "lorentz butterfly",
+   "name": "Counterpoint of Life and Death",
+   "abbr": null,
+   "version": "3.5",
+   "character": "Lorentz Butterfly",
+   "banner": {
+    "file": "Counterpoint_of_Life_and_Death_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/6/6c/Counterpoint_of_Life_and_Death_Banner.png",
+    "local": "images/stories/char/counterpoint-of-life-and-death.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2026-05-28 - 2026-06-18 04:59 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Counterpoint_of_Life_and_Death",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-whirling-blooms",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "ramona",
+   "name": "Whirling Blooms",
+   "abbr": null,
+   "version": "3.5",
+   "character": "Ramona",
+   "banner": {
+    "file": "Whirling_Blooms_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/2/21/Whirling_Blooms_Banner.png",
+    "local": "images/stories/char/whirling-blooms.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2026-06-18 - 2026-07-02 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Whirling_Blooms",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-complete-induction",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "enigma",
+   "name": "Complete Induction",
+   "abbr": null,
+   "version": "3.6",
+   "character": "Enigma",
+   "banner": {
+    "file": "Complete_Induction_Banner.jpg",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/c/c6/Complete_Induction_Banner.jpg",
+    "local": "images/stories/char/complete-induction.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2026-07-02 - 2026-07-23 04:59 (UTC-5) /",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Complete_Induction",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-the-you-thats-meant-to-be",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "rhiannon",
+   "name": "The You That's Meant to Be",
+   "abbr": null,
+   "version": "3.7",
+   "character": "Rhiannon",
+   "banner": {
+    "file": "The_You_That's_Meant_To_Be_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/f/f8/The_You_That%27s_Meant_To_Be_Banner.png",
+    "local": "images/stories/char/the-you-thats-meant-to-be.webp"
+   },
+   "rerunBanner": null,
+   "summary": null,
+   "stages": [
+    {
+     "n": "1",
+     "title": "The Young Traveler"
+    },
+    {
+     "n": "2",
+     "title": "Comes a Gentle Wind"
+    },
+    {
+     "n": "3",
+     "title": "The Growing Pain"
+    },
+    {
+     "n": "4",
+     "title": "The Darkest Hour"
+    },
+    {
+     "n": "5",
+     "title": "A Willing Exile"
+    },
+    {
+     "n": "6",
+     "title": "Honeyed Words"
+    },
+    {
+     "n": "7",
+     "title": "Scorching Wrath"
+    },
+    {
+     "n": "8",
+     "title": "Goes a Gentle Wind"
+    },
+    {
+     "n": "9",
+     "title": "Journey of the Brave"
+    }
+   ],
+   "wiki": null,
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-a-stranger-to-memory-lane",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "ms. stranger",
+   "name": "A Stranger to Memory Lane",
+   "abbr": null,
+   "version": "3.7",
+   "character": "Ms. Stranger",
+   "banner": {
+    "file": "A_Stranger_to_Memory_Lane_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/8/85/A_Stranger_to_Memory_Lane_Banner.png",
+    "local": "images/stories/char/a-stranger-to-memory-lane.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] After the version update on 2026-09-03 05:00 - 2026-09-24 04:59 (UTC-5) /",
+   "stages": [
+    {
+     "n": "1",
+     "title": "Mental Autolysis"
+    },
+    {
+     "n": "2",
+     "title": "Artificial Metamorphosis"
+    },
+    {
+     "n": "3",
+     "title": "Ganglionic Control"
+    },
+    {
+     "n": "4",
+     "title": "Hardly Herself"
+    },
+    {
+     "n": "5",
+     "title": "All Her Memories"
+    },
+    {
+     "n": "6",
+     "title": "A Golem in the Cocoon"
+    },
+    {
+     "n": "7",
+     "title": "The Shem is Removed"
+    },
+    {
+     "n": "8",
+     "title": "Almost Herself"
+    },
+    {
+     "n": "9",
+     "title": "The Rustle of Moth Scales"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/A_Stranger_to_Memory_Lane",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-see-you-in-the-new-world",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "cornerstone",
+   "name": "See You in the New World",
+   "abbr": null,
+   "version": null,
+   "character": "Cornerstone",
+   "banner": {
+    "file": "See_You_in_the_New_World_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/6/6e/See_You_in_the_New_World_Banner.png",
+    "local": "images/stories/char/see-you-in-the-new-world.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] 2026-09-24 05:00 - 2026-10-15 04:59 /",
+   "stages": [
+    {
+     "n": "1",
+     "title": "A Hundred Thousand Billion Sketches"
+    },
+    {
+     "n": "2",
+     "title": "Burning from Both Ends"
+    },
+    {
+     "n": "3",
+     "title": "Fifth Encounter"
+    },
+    {
+     "n": "4",
+     "title": "An Architectural Paradise"
+    },
+    {
+     "n": "5",
+     "title": "Vkhutemas's Tears"
+    },
+    {
+     "n": "6",
+     "title": "The Birth of Architecture"
+    },
+    {
+     "n": "7",
+     "title": "Do Not Be Cruel to Me"
+    },
+    {
+     "n": "8",
+     "title": "Please Watch Over Us"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/See_You_in_the_New_World",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "char-a-fledglings-brave-fall",
+   "category": "char",
+   "type": "Character Story (Arcanist Event)",
+   "key": "everecho",
+   "name": "A Fledgling's Brave Fall",
+   "abbr": null,
+   "version": null,
+   "character": "Everecho",
+   "banner": {
+    "file": "A_Fledgling's_Brave_Fall_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/e/ec/A_Fledgling%27s_Brave_Fall_Banner.png",
+    "local": "images/stories/char/a-fledglings-brave-fall.webp"
+   },
+   "rerunBanner": null,
+   "summary": "[Event Time] 2026-09-24 05:00 - 2026-10-15 04:59 /",
+   "stages": [
+    {
+     "n": "1",
+     "title": "Shade Search"
+    },
+    {
+     "n": "2",
+     "title": "Until We Meet Again"
+    },
+    {
+     "n": "3",
+     "title": "The Metamorphosis"
+    },
+    {
+     "n": "4",
+     "title": "The Idiot"
+    },
+    {
+     "n": "5",
+     "title": "An Unknown Familiarity"
+    },
+    {
+     "n": "6",
+     "title": "Disoriented"
+    },
+    {
+     "n": "7",
+     "title": "Dream"
+    },
+    {
+     "n": "8",
+     "title": "Echoes' End"
+    }
+   ],
+   "wiki": "https://reverse1999.fandom.com/wiki/A_Fledgling's_Brave_Fall",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-a-day-plotted-logarithmically",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "37",
+   "name": "A Day Plotted Logarithmically",
+   "abbr": null,
+   "version": "2.2",
+   "character": "37",
+   "banner": {
+    "file": "A_Day_Plotted_Logarithmically_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/6/6d/A_Day_Plotted_Logarithmically_Poster.png",
+    "local": "images/stories/anec/a-day-plotted-logarithmically.webp"
+   },
+   "rerunBanner": null,
+   "summary": "A Day Plotted Logarithmically is an Anecdote focused on 37. It was first released in Version 2.2, and will be made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/A_Day_Plotted_Logarithmically",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-tombstone-museum",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "necrologist",
+   "name": "The Tombstone Museum",
+   "abbr": null,
+   "version": "3.1",
+   "character": "Necrologist",
+   "banner": {
+    "file": "The_Tombstone_Museum_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/0/06/The_Tombstone_Museum_Banner.png",
+    "local": "images/stories/anec/the-tombstone-museum.webp"
+   },
+   "rerunBanner": null,
+   "summary": "The Tombstone Museum is an Anecdote focused on Necrologist. It was first released in Version 3.1, and will be made permanently available in the subsequent version without the Film Reel Notes.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Tombstone_Museum",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-handover-day",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "matilda",
+   "name": "Handover Day",
+   "abbr": null,
+   "version": "3.2",
+   "character": "Matilda",
+   "banner": {
+    "file": "Handover_Day_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/0/06/Handover_Day_Banner.png",
+    "local": "images/stories/anec/handover-day.webp"
+   },
+   "rerunBanner": null,
+   "summary": "Handover Day is an Anecdote focused on Matilda. It was first released in Version 3.2, and will be made permanently available in the subsequent version without the Film Reel Notes.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Handover_Day",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-in-the-shadow-of-the-mountains",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "moldir",
+   "name": "In the Shadow of the Mountains",
+   "abbr": null,
+   "version": "3.3",
+   "character": "Moldir",
+   "banner": {
+    "file": "In_the_Shadow_of_the_Mountains_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/c/c9/In_the_Shadow_of_the_Mountains_Banner.png",
+    "local": "images/stories/anec/in-the-shadow-of-the-mountains.webp"
+   },
+   "rerunBanner": null,
+   "summary": "In the Shadow of the Mountains is an Anecdote focused on Moldir. It was first released in Version 3.3, and will be made permanently available in the subsequent version without the Film Reel Notes.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/In_the_Shadow_of_the_Mountains",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-a-song-once-heard",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "getian",
+   "name": "A Song Once Heard",
+   "abbr": null,
+   "version": "3.4",
+   "character": "Getian",
+   "banner": {
+    "file": "A_Song_Once_Heard_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/3/31/A_Song_Once_Heard_Banner.png",
+    "local": "images/stories/anec/a-song-once-heard.webp"
+   },
+   "rerunBanner": null,
+   "summary": null,
+   "stages": [],
+   "wiki": null,
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-all-the-worlds-a-chip",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "centurion",
+   "name": "All the World's a Chip",
+   "abbr": null,
+   "version": "3.5",
+   "character": "Centurion",
+   "banner": {
+    "file": "All_the_World's_a_Chip_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/4/45/All_the_World%27s_a_Chip_Banner.png",
+    "local": "images/stories/anec/all-the-worlds-a-chip.webp"
+   },
+   "rerunBanner": null,
+   "summary": "is an Anecdote focused on Centurion. It was first released in Version 3.5, and will be made permanently available in the subsequent version without the Film Reel Notes.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/All_the_World's_a_Chip",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-eaglet-takes-wing",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "silverwing eagle",
+   "name": "The Eaglet Takes Wing",
+   "abbr": null,
+   "version": "3.7",
+   "character": "Silverwing Eagle",
+   "banner": {
+    "file": "The_Eaglet_Takes_Wing_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/7/7b/The_Eaglet_Takes_Wing_Banner.png",
+    "local": "images/stories/anec/the-eaglet-takes-wing.webp"
+   },
+   "rerunBanner": null,
+   "summary": null,
+   "stages": [],
+   "wiki": null,
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-year-bkornblume-talks-about",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "bkornblume",
+   "name": "The Year Bkornblume Talks About",
+   "abbr": null,
+   "version": null,
+   "character": "Bkornblume",
+   "banner": {
+    "file": "The_Year_Bkornblume_Talk_About_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/b/b0/The_Year_Bkornblume_Talk_About_Banner.png",
+    "local": "images/stories/anec/the-year-bkornblume-talks-about.webp"
+   },
+   "rerunBanner": null,
+   "summary": null,
+   "stages": [],
+   "wiki": null,
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-master-of-theatrics",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "charlie",
+   "name": "The Master of Theatrics",
+   "abbr": null,
+   "version": "1.4",
+   "character": "Charlie",
+   "banner": {
+    "file": "The_Master_of_Theatrics_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/f/f1/The_Master_of_Theatrics_Poster.png",
+    "local": "images/stories/anec/the-master-of-theatrics.webp"
+   },
+   "rerunBanner": null,
+   "summary": "AVAILABLE BETWEEN: March 11th - March 25th",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Master_of_Theatrics",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-story-of-oliver",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "oliver fog",
+   "name": "The Story of Oliver",
+   "abbr": null,
+   "version": "1.4",
+   "character": "Oliver Fog",
+   "banner": {
+    "file": "The_Story_of_Oliver_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/e/ee/The_Story_of_Oliver_Poster.png",
+    "local": "images/stories/anec/the-story-of-oliver.webp"
+   },
+   "rerunBanner": null,
+   "summary": "The Story of Oliver is an Anecdote focused on Oliver Fog. It was released in Version 1.4, and was made permanently available in the subsequent version without the challenge stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Story_of_Oliver",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-long-night-singing-its-dirges",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "dikke",
+   "name": "The Long Night Singing Its Dirges",
+   "abbr": null,
+   "version": "1.5",
+   "character": "Dikke",
+   "banner": {
+    "file": "The_Long_Night_Singing_Its_Dirges_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/1/13/The_Long_Night_Singing_Its_Dirges_Poster.png",
+    "local": "images/stories/anec/the-long-night-singing-its-dirges.webp"
+   },
+   "rerunBanner": null,
+   "summary": "The Long Night Singing Its Dirges is an Anecdote focused on Dikke. It was first released in Version 1.5, and was made permanently available in the subsequent version without the challenge stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Long_Night_Singing_Its_Dirges",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-after-the-good-dream",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "erick",
+   "name": "After the Good Dream",
+   "abbr": null,
+   "version": "1.5",
+   "character": "Erick",
+   "banner": {
+    "file": "After_the_Good_Dream_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/d/de/After_the_Good_Dream_Poster.png",
+    "local": "images/stories/anec/after-the-good-dream.webp"
+   },
+   "rerunBanner": null,
+   "summary": "After the Good Dream is an Anecdote focused on Erick. It was first released in Version 1.5, and was made permanently available in the subsequent version without the challenge stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/After_the_Good_Dream",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-pulp-comedy",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "alien t",
+   "name": "Pulp Comedy",
+   "abbr": null,
+   "version": "1.6",
+   "character": "AliEn T",
+   "banner": {
+    "file": "Pulp_Comedy_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/c/c9/Pulp_Comedy_Poster.png",
+    "local": "images/stories/anec/pulp-comedy.webp"
+   },
+   "rerunBanner": null,
+   "summary": "Pulp Comedy is an Anecdote focused on aliEn T. It was first released in Version 1.6, and was made permanently available in the subsequent version without the challenge stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Pulp_Comedy",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-zima",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "zima",
+   "name": "Zima",
+   "abbr": null,
+   "version": null,
+   "character": "zima",
+   "banner": null,
+   "rerunBanner": null,
+   "summary": "\"By socializing, I mean … keeping a distance ... \"",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/%D0%97%D0%B8%D0%BC%D0%B0",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-ninth-virtue",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "a knight",
+   "name": "The Ninth Virtue",
+   "abbr": null,
+   "version": "1.7",
+   "character": "A Knight",
+   "banner": {
+    "file": "The_Ninth_Virtue_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/5/55/The_Ninth_Virtue_Poster.png",
+    "local": "images/stories/anec/the-ninth-virtue.webp"
+   },
+   "rerunBanner": null,
+   "summary": "AVAILABLE BETWEEN: July 15th - July 29th, 2024",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Ninth_Virtue",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-will-of-gears",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "x",
+   "name": "The Will of Gears",
+   "abbr": null,
+   "version": "1.7",
+   "character": "X",
+   "banner": {
+    "file": "The_Will_of_Gears_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/1/10/The_Will_of_Gears_Poster.png",
+    "local": "images/stories/anec/the-will-of-gears.webp"
+   },
+   "rerunBanner": null,
+   "summary": "AVAILABLE BETWEEN: July 29th - August 12th, 2024",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Will_of_Gears",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-to-winnifred",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "eternity",
+   "name": "To Winnifred",
+   "abbr": null,
+   "version": "1.8",
+   "character": "Eternity",
+   "banner": {
+    "file": "To_Winnifred_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/9/9d/To_Winnifred_Poster.png",
+    "local": "images/stories/anec/to-winnifred.webp"
+   },
+   "rerunBanner": null,
+   "summary": "To Winnifred is an Anecdote focused on Eternity. It was first released in Version 1.8, and was made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/To_Winnifred",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-winds-of-juhalerat",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "zeno",
+   "name": "The Winds of Juhalerat",
+   "abbr": null,
+   "version": "1.8",
+   "character": "zeno",
+   "banner": {
+    "file": "The_Winds_of_Juhalerat_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/2/21/The_Winds_of_Juhalerat_Poster.png",
+    "local": "images/stories/anec/the-winds-of-juhalerat.webp"
+   },
+   "rerunBanner": null,
+   "summary": "The Winds of Juhalerat is an Anecdote focused on Zeno Armaments Engineering & Technology Academy. It was first released in Version 1.8, and was made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Winds_of_Juhalerat",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-third-circumstance",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "semmelweis",
+   "name": "The Third Circumstance",
+   "abbr": null,
+   "version": "1.9",
+   "character": "Semmelweis",
+   "banner": {
+    "file": "The_Third_Circumstance_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/d/d3/The_Third_Circumstance_Poster.png",
+    "local": "images/stories/anec/the-third-circumstance.webp"
+   },
+   "rerunBanner": null,
+   "summary": "The Third Circumstance is an Anecdote focused on Semmelweis. It was first released in Version 1.9, and will be made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Third_Circumstance",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-finding-xavier",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "eagle",
+   "name": "Finding Xavier",
+   "abbr": null,
+   "version": "1.9",
+   "character": "Eagle",
+   "banner": {
+    "file": "Finding_Xavier_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/c/c4/Finding_Xavier_Poster.png",
+    "local": "images/stories/anec/finding-xavier.webp"
+   },
+   "rerunBanner": null,
+   "summary": "Finding Xavier is an Anecdote focused on Eagle. It was first released in Version 1.9, and will be made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Finding_Xavier",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-ladys-etiquette",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "sotheby",
+   "name": "The Lady's Etiquette",
+   "abbr": null,
+   "version": "2.0",
+   "character": "Sotheby",
+   "banner": {
+    "file": "The_Lady's_Etiquette_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/8/8d/The_Lady%27s_Etiquette_Poster.png",
+    "local": "images/stories/anec/the-ladys-etiquette.webp"
+   },
+   "rerunBanner": null,
+   "summary": "The Lady's Etiquette is an Anecdote focused on Sotheby. It was first released in Version 2.0, and was made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Lady's_Etiquette",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-only-water-springs-know",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "la source",
+   "name": "Only Water Springs Know",
+   "abbr": null,
+   "version": "2.0",
+   "character": "La Source",
+   "banner": {
+    "file": "Only_Water_Springs_Know_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/5/51/Only_Water_Springs_Know_Poster.png",
+    "local": "images/stories/anec/only-water-springs-know.webp"
+   },
+   "rerunBanner": null,
+   "summary": "Only Water Springs Know is an Anecdote focused on La Source. It was first released in Version 2.0, and was made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Only_Water_Springs_Know",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-where-the-fire-starts",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "blonney",
+   "name": "Where the Fire Starts",
+   "abbr": null,
+   "version": "2.1",
+   "character": "Blonney",
+   "banner": {
+    "file": "Where_the_Fire_Starts_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/9/9a/Where_the_Fire_Starts_Poster.png",
+    "local": "images/stories/anec/where-the-fire-starts.webp"
+   },
+   "rerunBanner": null,
+   "summary": "Where the Fire Starts is an Anecdote focused on Blonney. It was first released in Version 2.1, and will be made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Where_the_Fire_Starts",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-when-peace-blooms",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "diggers",
+   "name": "When Peace Blooms",
+   "abbr": null,
+   "version": "2.1",
+   "character": "Diggers",
+   "banner": {
+    "file": "When_Peace_Blooms_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/4/45/When_Peace_Blooms_Poster.png",
+    "local": "images/stories/anec/when-peace-blooms.webp"
+   },
+   "rerunBanner": null,
+   "summary": "When Peace Blooms is an Anecdote focused on Diggers. It was first released in Version 2.1, and will be made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/When_Peace_Blooms",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-a-night-without-end",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "mesmer jr.",
+   "name": "A Night Without End",
+   "abbr": null,
+   "version": "2.2",
+   "character": "Mesmer Jr.",
+   "banner": {
+    "file": "A_Night_Without_End_Poster.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/1/13/A_Night_Without_End_Poster.png",
+    "local": "images/stories/anec/a-night-without-end.webp"
+   },
+   "rerunBanner": null,
+   "summary": "A Night Without End is an Anecdote focused on Mesmer Jr.. It was first released in Version 2.2, and will be made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/A_Night_Without_End",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-a-fools-gold",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "mercuria",
+   "name": "A Fool's Gold",
+   "abbr": null,
+   "version": "2.3",
+   "character": "Mercuria",
+   "banner": {
+    "file": "A_Fool's_Gold_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/3/35/A_Fool%27s_Gold_Banner.png",
+    "local": "images/stories/anec/a-fools-gold.webp"
+   },
+   "rerunBanner": null,
+   "summary": "A Fool's Gold is an Anecdote focused on Mercuria. It was first released in Version 2.3, and will be made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/A_Fool's_Gold",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-best-band-in-town",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "regulus",
+   "name": "The Best Band in Town",
+   "abbr": null,
+   "version": "2.4",
+   "character": "Regulus",
+   "banner": {
+    "file": "The_Best_Band_in_Town_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/7/77/The_Best_Band_in_Town_Banner.png",
+    "local": "images/stories/anec/the-best-band-in-town.webp"
+   },
+   "rerunBanner": null,
+   "summary": "The Best Band in Town is an Anecdote focused on Regulus. It was first released in Version 2.4, and will be made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Best_Band_in_Town",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-ghost-master",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "an-an lee",
+   "name": "The Ghost Master",
+   "abbr": null,
+   "version": "2.5",
+   "character": "An-an Lee",
+   "banner": {
+    "file": "The_Ghost_Master_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/1/19/The_Ghost_Master_Banner.png",
+    "local": "images/stories/anec/the-ghost-master.webp"
+   },
+   "rerunBanner": null,
+   "summary": "The Ghost Master is an Anecdote focused on An-an Lee. It was first released in Version 2.5, and will be made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Ghost_Master",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-last-film",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "bette",
+   "name": "The Last Film",
+   "abbr": null,
+   "version": "2.6",
+   "character": "Bette",
+   "banner": {
+    "file": "The_Last_Film_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/e/e0/The_Last_Film_Banner.png",
+    "local": "images/stories/anec/the-last-film.webp"
+   },
+   "rerunBanner": null,
+   "summary": "The Last Film is an Anecdote focused on Bette. It was first released in Version 2.6, and will be made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Last_Film",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-sea-breeze-still-whispers",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "fatutu",
+   "name": "The Sea Breeze Still Whispers",
+   "abbr": null,
+   "version": "2.7",
+   "character": "Fatutu",
+   "banner": {
+    "file": "The_Sea_Breeze_Still_Whispers_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/c/c5/The_Sea_Breeze_Still_Whispers_Banner.png",
+    "local": "images/stories/anec/the-sea-breeze-still-whispers.webp"
+   },
+   "rerunBanner": null,
+   "summary": "The Sea Breeze Still Whispers is an Anecdote focused on Fatutu. It was first released in Version 2.7, and will be made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Sea_Breeze_Still_Whispers",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-away-from-home",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "kanjira",
+   "name": "Away From Home",
+   "abbr": null,
+   "version": "2.8",
+   "character": "Kanjira",
+   "banner": {
+    "file": "Away_From_Home_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/6/60/Away_From_Home_Banner.png",
+    "local": "images/stories/anec/away-from-home.webp"
+   },
+   "rerunBanner": null,
+   "summary": "Away From Home is an Anecdote focused on Kanjira. It was first released in Version 2.8, and will be made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/Away_From_Home",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  },
+  {
+   "id": "anec-the-diamond-con",
+   "category": "anec",
+   "type": "Anecdote",
+   "key": "tennant",
+   "name": "The Diamond Con",
+   "abbr": null,
+   "version": "3.0",
+   "character": "Tennant",
+   "banner": {
+    "file": "The_Diamond_Con_Banner.png",
+    "url": "https://static.wikia.nocookie.net/reverse1999/images/8/81/The_Diamond_Con_Banner.png",
+    "local": "images/stories/anec/the-diamond-con.webp"
+   },
+   "rerunBanner": null,
+   "summary": "The Diamond Con is an Anecdote focused on Tennant. It was first released in Version 3.0, and will be made permanently available in the subsequent version without the Reminiscence stage.",
+   "stages": [],
+   "wiki": "https://reverse1999.fandom.com/wiki/The_Diamond_Con",
+   "review": {
+    "rating": null,
+    "date": null,
+    "text": "",
+    "spoiler": true,
+    "tags": []
+   }
+  }
+ ]
+}

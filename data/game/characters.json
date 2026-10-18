@@ -2686,9 +2686,10 @@
    }
   ],
   "euphorias": [],
-  "version": "콜라보",
+  "version": "S02",
   "versionEstimated": false,
-  "role": "공격"
+  "role": "공격",
+  "collab": "아토믹 하트"
  },
  {
   "id": 3097,
@@ -3182,9 +3183,10 @@
    }
   ],
   "euphorias": [],
-  "version": "콜라보",
+  "version": "S01",
   "versionEstimated": false,
-  "role": "공격"
+  "role": "공격",
+  "collab": "어쌔신 크리드"
  },
  {
   "id": 3107,
@@ -3961,9 +3963,10 @@
    }
   ],
   "euphorias": [],
-  "version": "콜라보",
+  "version": "S01",
   "versionEstimated": false,
-  "role": "공격"
+  "role": "공격",
+  "collab": "어쌔신 크리드"
  },
  {
   "id": 3080,
@@ -6040,9 +6043,10 @@
    }
   ],
   "euphorias": [],
-  "version": "콜라보",
+  "version": "S01",
   "versionEstimated": false,
-  "role": "공격"
+  "role": "공격",
+  "collab": "어쌔신 크리드"
  },
  {
   "id": 3082,
@@ -6919,9 +6923,10 @@
    }
   ],
   "euphorias": [],
-  "version": "콜라보",
+  "version": "S02",
   "versionEstimated": false,
-  "role": "보조"
+  "role": "보조",
+  "collab": "아토믹 하트"
  },
  {
   "id": 3138,
