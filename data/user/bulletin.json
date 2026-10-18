@@ -531,6 +531,85 @@
     }
    }
   },
+  "13609": {
+   "bosses": {
+    "1": {
+     "score": 40736104,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3143,
+       "psychube": 1537
+      },
+      {
+       "char": 3139,
+       "psychube": 1561
+      },
+      {
+       "char": 3081,
+       "psychube": 1565
+      },
+      {
+       "char": 3134,
+       "psychube": 1515
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-07-05"
+    },
+    "2": {
+     "score": 60876345,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3134,
+       "psychube": 1515
+      },
+      {
+       "char": 3081,
+       "psychube": 1565
+      },
+      {
+       "char": 3139,
+       "psychube": 1561
+      },
+      {
+       "char": 3127,
+       "psychube": 1560
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-07-21"
+    },
+    "3": {
+     "score": 69358138,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3095,
+       "psychube": 1436
+      },
+      {
+       "char": 3141,
+       "psychube": 1563
+      },
+      {
+       "char": 3053,
+       "psychube": 1540
+      },
+      {
+       "char": 3117,
+       "psychube": 1547
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-07-19"
+    }
+   }
+  },
   "13742": {
    "bosses": {
     "1": {
