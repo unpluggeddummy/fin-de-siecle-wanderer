@@ -362,7 +362,9 @@ def main():
         aid = st["activityId"]
         if aid not in seasons:
             s = str(aid)
-            seasons[aid] = {"id": aid, "version": f"{s[1]}.{s[2]}", "bosses": []}
+            # 6자리 활동 번호는 콜라보 기간 시즌 (1305xx = S01 어쌔신 크리드, 1385xx = S02 아토믹 하트)
+            ver = {"1305": "S01", "1385": "S02"}.get(s[:4]) if len(s) >= 6 else None
+            seasons[aid] = {"id": aid, "version": ver or f"{s[1]}.{s[2]}", "bosses": []}
             order.append(aid)
         sprite = st.get("bossRushMainItemBossSprite") or ""
         img = imgs.put([

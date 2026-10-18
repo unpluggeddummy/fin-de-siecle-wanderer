@@ -55,10 +55,10 @@ export function render(root) {
   const bar = h('div.season-bar', { role: 'group', 'aria-label': '시즌 선택' },
     [...seasons].reverse().map((s) => {
       const t = totals.find((x) => x.id === s.id);
-      return h('button' + (t.total ? '.has-record' : ''), {
+      return h('button' + (t.total ? '.has-record' : '') + (store.COLLAB[s.version] ? '.collab' : ''), { title: store.verLabel(s.version),
         type: 'button', 'aria-pressed': String(String(s.id) === String(view.season)),
         onclick: () => { view.season = s.id; rerender(); },
-      }, `${s.version}`, h('small', t.total ? fmt(t.total) : '기록 없음'));
+      }, store.COLLAB[s.version] ? [s.version, h('em.collab-name', store.COLLAB[s.version])] : `${s.version}`, h('small', t.total ? fmt(t.total) : '기록 없음'));
     }),
   );
 
@@ -74,7 +74,7 @@ export function render(root) {
     bar,
     season ? h('div',
       h('div.toolbar', { style: { justifyContent: 'space-between' } },
-        h('h2', { style: { fontSize: '22px' } }, `${season.version} 시즌`,
+        h('h2', { style: { fontSize: '22px' } }, store.COLLAB[season.version] ? `${season.version} · ${store.COLLAB[season.version]} 콜라보 시즌` : `${season.version} 시즌`,
           h('span.muted', { style: { fontFamily: 'var(--sans)', fontSize: '15px', fontWeight: 400, marginLeft: '12px' } }, `합계 ${fmt(t.total)}점`)),
         season.custom && editing ? h('button.btn.small.danger', { type: 'button', onclick: () => removeSeason(season) }, '이 시즌 삭제') : null,
       ),

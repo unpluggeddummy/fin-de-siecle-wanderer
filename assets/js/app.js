@@ -45,6 +45,7 @@ async function render(scrollTop = true) {
     console.error(e);
     root.replaceChildren(h('div.empty', h('p', `화면을 그리는 중 오류가 났습니다: ${e.message}`)));
   }
+  pageNote(root, name);
   main.replaceChildren(root);
   const t = document.querySelector(`.tabs a[data-route="${name}"]`)?.firstChild?.textContent;
   document.title = `${t && name !== 'home' ? t + ' — ' : ''}${store.state.user.settings?.title || '세기말의 방랑자'}`;
@@ -52,6 +53,28 @@ async function render(scrollTop = true) {
 }
 
 export function rerender() { render(false); }
+
+/** 각 메뉴 제목 밑 문구: 설정에 저장한 문구로 바꾸고, 편집 모드에서는 그 자리에서 고친다 (비우면 기본 문구) */
+function pageNote(root, name) {
+  const p = root.querySelector('.page-head p');
+  if (!p) return;
+  const notes = store.state.user.settings?.pageNotes || {};
+  const def = p.textContent;
+  if (notes[name]) p.textContent = notes[name];
+  if (!store.state.editing) return;
+  p.contentEditable = 'true';
+  p.spellcheck = false;
+  p.classList.add('ed', 'page-note');
+  p.title = '눌러서 고치기 (비우면 기본 문구로 돌아가요)';
+  p.addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); p.blur(); } if (e.key === 'Escape') { p.textContent = notes[name] || def; p.blur(); } });
+  p.addEventListener('paste', (e) => { e.preventDefault(); document.execCommand('insertText', false, e.clipboardData.getData('text/plain')); });
+  p.addEventListener('blur', () => {
+    const v = p.innerText.replace(/\u00a0/g, ' ').trim();
+    if (v === (notes[name] || def)) return;
+    store.update('settings', (x) => { x.pageNotes ||= {}; if (v && v !== def) x.pageNotes[name] = v; else delete x.pageNotes[name]; }, { silent: true });
+    if (!v) p.textContent = def;
+  });
+}
 
 // ── 헤더: 편집 모드, 저장 버튼 ─────────────────────────────
 const editBtn = document.querySelector('[data-edit-toggle]');

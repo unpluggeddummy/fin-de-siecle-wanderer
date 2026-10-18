@@ -1021,3 +1021,17 @@ a.tl-ev:hover { border-color: var(--brass); color: var(--paper); }
 .tl-strip img { width: min(62%, 420px); display: block; border: 1px solid rgba(255,255,255,.15); }
 .tl-hero-strip { padding: 10px clamp(14px, 2.4vw, 24px) 0; }
 .tl-hero-strip img { width: min(100%, 640px); display: block; border: 1px solid var(--line); }
+
+/* 출품작 카드: 버튼 안 내용이 가운데로 밀리지 않게 */
+.ccard { display: flex; flex-direction: column; justify-content: flex-start; align-items: stretch; height: 100%; }
+.ccard .art { flex: none; }
+.ccard .cstats { flex: 1; align-content: flex-start; }
+.card-grid { align-items: stretch; }
+
+/* 갈기의 게시판: 콜라보 시즌 */
+.season-bar button.collab { background: rgba(216,181,106,.08); }
+.season-bar button.collab .collab-name { display: block; font-style: normal; font-family: var(--sans); font-size: 10.5px; color: var(--gold); letter-spacing: 0; }
+
+/* 메뉴 밑 문구 고치기 */
+.page-head p.page-note { outline: 1px dashed var(--line-strong); outline-offset: 4px; cursor: text; }
+.page-head p.page-note:focus { outline-color: var(--brass); }
