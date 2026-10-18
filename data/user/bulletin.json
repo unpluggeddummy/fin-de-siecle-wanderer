@@ -1,5 +1,191 @@
 {
  "seasons": {
+  "12410": {
+   "bosses": {
+    "1": {
+     "score": 1866455,
+     "grade": "SSS",
+     "members": [],
+     "note": "",
+     "shot": null,
+     "date": "2025-04-17"
+    },
+    "2": {
+     "score": 1578390,
+     "grade": "SSS",
+     "members": [],
+     "note": "",
+     "shot": null,
+     "date": "2025-04-17"
+    },
+    "3": {
+     "score": 1337626,
+     "grade": "SSS",
+     "members": [],
+     "note": "",
+     "shot": null,
+     "date": "2025-04-17"
+    }
+   }
+  },
+  "12516": {
+   "bosses": {
+    "1": {
+     "score": 3961572,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3110,
+       "psychube": 1542
+      },
+      {
+       "char": 3066,
+       "psychube": 1434
+      },
+      {
+       "char": 3105,
+       "psychube": 1539
+      },
+      {
+       "char": 3109,
+       "psychube": 1541
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2025-05-10"
+    },
+    "2": {
+     "score": 3785101,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3110,
+       "psychube": 1542
+      },
+      {
+       "char": 3066,
+       "psychube": 1434
+      },
+      {
+       "char": 3105,
+       "psychube": 1539
+      },
+      {
+       "char": 3109,
+       "psychube": 1541
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2025-05-03"
+    },
+    "3": {
+     "score": 5102248,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3110,
+       "psychube": 1542
+      },
+      {
+       "char": 3066,
+       "psychube": 1434
+      },
+      {
+       "char": 3105,
+       "psychube": 1539
+      },
+      {
+       "char": 3109,
+       "psychube": 1541
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2025-05-10"
+    }
+   }
+  },
+  "13016": {
+   "bosses": {
+    "1": {
+     "score": 15009206,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3120,
+       "psychube": 1548
+      },
+      {
+       "char": 3126,
+       "psychube": 1553
+      },
+      {
+       "char": 3088,
+       "psychube": 1537
+      },
+      {
+       "char": 3109,
+       "psychube": 1541
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2025-11-12"
+    },
+    "2": {
+     "score": 24880533,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3123,
+       "psychube": 1551
+      },
+      {
+       "char": 3124,
+       "psychube": 1552
+      },
+      {
+       "char": 3102,
+       "psychube": 1537
+      },
+      {
+       "char": 3062,
+       "psychube": 1509
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2025-11-14"
+    },
+    "3": {
+     "score": 11153807,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3086,
+       "psychube": 1527
+      },
+      {
+       "char": 3107,
+       "psychube": 1539
+      },
+      {
+       "char": 3105,
+       "psychube": 1547
+      },
+      {
+       "char": 3095,
+       "psychube": 1436
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2025-11-15"
+    }
+   }
+  },
   "13742": {
    "bosses": {
     "1": {
@@ -154,6 +340,60 @@
      ],
      "note": "안조 날라랑 브룸이 계약하면 브룸의 피가 잘 살아남길 기도 메타 해야함",
      "shot": null
+    }
+   }
+  },
+  "130505": {
+   "bosses": {
+    "1": {
+     "score": 78835323,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3123,
+       "psychube": 1551
+      },
+      {
+       "char": 3098,
+       "psychube": 1533
+      },
+      {
+       "char": 3105,
+       "psychube": 1539
+      },
+      {
+       "char": 3109,
+       "psychube": 1541
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2025-08-21"
+    },
+    "2": {
+     "score": 174420871,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3123,
+       "psychube": 1551
+      },
+      {
+       "char": 3124,
+       "psychube": 1552
+      },
+      {
+       "char": 3052,
+       "psychube": 1439
+      },
+      {
+       "char": 3109,
+       "psychube": 1541
+      }
+     ],
+     "note": "튜즈데이 5인덱 레이드",
+     "shot": null,
+     "date": "2025-09-04"
     }
    }
   },
