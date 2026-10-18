@@ -1,6 +1,12 @@
 {
  "title": "세기말의 방랑자",
+ "titleEn": "Fin de Siècle Wanderer",
  "subtitle": "리버스: 1999",
  "showNames": false,
- "server": "한섭"
+ "server": "한섭",
+ "currentVersion": "3.8",
+ "pageNotes": {
+  "roster": "폭풍우 속에서",
+  "bulletin": "고점 연구 기록"
+ }
 }
