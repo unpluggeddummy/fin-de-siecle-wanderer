@@ -21,5 +21,30 @@
   }
  ],
  "banners": [],
- "wishlist": []
+ "wishlist": [
+  {
+   "char": 3156,
+   "when": "",
+   "goal": "P5",
+   "note": ""
+  },
+  {
+   "char": 3157,
+   "when": "",
+   "goal": "P1",
+   "note": ""
+  },
+  {
+   "char": 3155,
+   "when": "",
+   "goal": "p5",
+   "note": ""
+  },
+  {
+   "char": 3158,
+   "when": "",
+   "goal": "p5",
+   "note": ""
+  }
+ ]
 }
