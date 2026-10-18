@@ -294,6 +294,243 @@
     }
    }
   },
+  "13315": {
+   "bosses": {
+    "1": {
+     "score": 31009493,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3127,
+       "psychube": 1561
+      },
+      {
+       "char": 3134,
+       "psychube": 1558
+      },
+      {
+       "char": 3081,
+       "psychube": 1560
+      },
+      {
+       "char": 3105,
+       "psychube": 1444
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-03-11"
+    },
+    "2": {
+     "score": 37515318,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3134,
+       "psychube": 1558
+      },
+      {
+       "char": 3081,
+       "psychube": 1560
+      },
+      {
+       "char": 3105,
+       "psychube": 1444
+      },
+      {
+       "char": 3127,
+       "psychube": 1561
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-03-16"
+    },
+    "3": {
+     "score": 37367365,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3134,
+       "psychube": 1558
+      },
+      {
+       "char": 3081,
+       "psychube": 1560
+      },
+      {
+       "char": 3105,
+       "psychube": 1444
+      },
+      {
+       "char": 3127,
+       "psychube": 1561
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-03-27"
+    }
+   }
+  },
+  "13420": {
+   "bosses": {
+    "1": {
+     "score": 71077552,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3039,
+       "psychube": 1444
+      },
+      {
+       "char": 3141,
+       "psychube": 1563
+      },
+      {
+       "char": 3053,
+       "psychube": 1540
+      },
+      {
+       "char": 3117,
+       "psychube": 1547
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-05-09"
+    },
+    "2": {
+     "score": 33275873,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3134,
+       "psychube": 1558
+      },
+      {
+       "char": 3081,
+       "psychube": 1560
+      },
+      {
+       "char": 3105,
+       "psychube": 1444
+      },
+      {
+       "char": 3127,
+       "psychube": 1561
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-04-24"
+    },
+    "3": {
+     "score": 47532317,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3134,
+       "psychube": 1558
+      },
+      {
+       "char": 3081,
+       "psychube": 1560
+      },
+      {
+       "char": 3105,
+       "psychube": 1444
+      },
+      {
+       "char": 3127,
+       "psychube": 1561
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-05-10"
+    }
+   }
+  },
+  "13519": {
+   "bosses": {
+    "1": {
+     "score": 55059520,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3134,
+       "psychube": 1515
+      },
+      {
+       "char": 3081,
+       "psychube": 1565
+      },
+      {
+       "char": 3139,
+       "psychube": 1561
+      },
+      {
+       "char": 3127,
+       "psychube": 1560
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-06-03"
+    },
+    "2": {
+     "score": 37254377,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3134,
+       "psychube": 1515
+      },
+      {
+       "char": 3081,
+       "psychube": 1565
+      },
+      {
+       "char": 3139,
+       "psychube": 1561
+      },
+      {
+       "char": 3127,
+       "psychube": 1560
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-06-04"
+    },
+    "3": {
+     "score": 31752141,
+     "grade": "SSS",
+     "members": [
+      {
+       "char": 3134,
+       "psychube": 1515
+      },
+      {
+       "char": 3081,
+       "psychube": 1565
+      },
+      {
+       "char": 3139,
+       "psychube": 1561
+      },
+      {
+       "char": 3127,
+       "psychube": 1560
+      }
+     ],
+     "note": "",
+     "shot": null,
+     "date": "2026-06-23"
+    }
+   }
+  },
   "13742": {
    "bosses": {
     "1": {
