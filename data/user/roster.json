@@ -97,10 +97,12 @@
    "euphoriaLevel": 4,
    "tuning": null,
    "tunings": [],
-   "psychube": null,
    "skin": 300904,
    "spectrum": "",
-   "note": ""
+   "note": "",
+   "psychubes": [
+    1430
+   ]
   },
   "3010": {
    "owned": true,

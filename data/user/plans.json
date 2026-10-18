@@ -1,5 +1,24 @@
 {
- "plans": [],
+ "plans": [
+  {
+   "id": "mvd87hg0v1t2u",
+   "char": 3156,
+   "from": {
+    "insight": 0,
+    "level": 1,
+    "resonance": 1,
+    "euphoria": []
+   },
+   "to": {
+    "insight": 3,
+    "level": 60,
+    "resonance": 10,
+    "euphoria": []
+   },
+   "note": "",
+   "done": false
+  }
+ ],
  "inventory": {},
  "materialNames": {}
 }
