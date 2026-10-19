@@ -133,9 +133,11 @@ function measure(model) {
  * mode: 'full' 전신이 다 보이게 / 'bust' 카드처럼 위쪽(얼굴~허리)을 크게
  * 돌려주는 것: { model, motion(), expression(name), destroy() } — 모델이 없으면 null
  */
-export async function mount(el, skinId, { mode = 'full', interactive = true, onTap } = {}) {
+export async function mount(el, skinId, { mode = 'full', interactive = true, onTap, allowRemote = true } = {}) {
   const info = await find(skinId);
   if (!info || !el.isConnected) return null;
+  // 원본 저장소에서 바로 받는 모델은 압축 전이라 무거워서(10MB 이상) 카드 미리보기에서는 쓰지 않는다
+  if (!allowRemote && !info.url.startsWith(base())) return null;
   const L = await libs();
   const P = window.PIXI;
   renderer();

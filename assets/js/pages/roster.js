@@ -183,7 +183,7 @@ function hoverStart(c, el) {
   hover.timer = setTimeout(async () => {
     if (hover.el !== el) return;
     el.classList.add('l2d-wait');
-    const ctl = await live2d.mount(el, live2d.skinOf(c), { mode: 'bust', interactive: false });
+    const ctl = await live2d.mount(el, live2d.skinOf(c), { mode: 'bust', interactive: false, allowRemote: false });
     if (hover.el !== el || !el.isConnected) { ctl && ctl.destroy(); return; }
     el.classList.remove('l2d-wait');
     hover.ctl = ctl;
