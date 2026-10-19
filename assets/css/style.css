@@ -1038,3 +1038,64 @@ a.tl-ev:hover { border-color: var(--brass); color: var(--paper); }
 
 /* NPC 얼굴: 대화 아이콘은 이미 얼굴만 잘린 정사각형이라 확대하지 않는다 */
 img[src*="img/npc/"]:not([src*="/full"]):not([src*="/live2d"]) { height: 100% !important; object-fit: cover; object-position: center 30% !important; }
+
+/* Live2D */
+.l2d-canvas { position: absolute; inset: 0; width: 100% !important; height: 100% !important; z-index: 1; opacity: 0; transition: opacity .35s; touch-action: pan-y; }
+.l2d-canvas.on { opacity: 1; }
+.ccard .art.l2d-live > img { opacity: 0; transition: opacity .3s; }
+.ccard .art.l2d-wait::before { content: ""; position: absolute; z-index: 3; left: 50%; top: 45%; width: 18px; height: 18px; margin: -9px; border: 2px solid var(--brass); border-top-color: transparent; border-radius: 50%; animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.ccard.unowned .l2d-canvas { filter: grayscale(1) brightness(.5); }
+.char-view { display: grid; gap: 16px; }
+@media (min-width: 760px) { .char-view { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); align-items: start; } }
+.char-stage-col { position: sticky; top: 0; display: grid; gap: 8px; }
+.l2d-stage { position: relative; height: min(72vh, 680px); background: radial-gradient(ellipse at 50% 70%, rgba(138,214,234,.10), transparent 65%), var(--night); border: 1px solid var(--line); border-bottom: 2px solid var(--af); overflow: hidden; }
+.l2d-fallback { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: center bottom; transition: opacity .4s; }
+.l2d-stage.live .l2d-fallback { opacity: 0; }
+.l2d-loading { position: absolute; left: 10px; bottom: 8px; z-index: 2; font-size: 11.5px; color: var(--paper-dim); background: rgba(4,6,8,.7); padding: 2px 8px; display: none; }
+.l2d-stage.loading .l2d-loading { display: block; }
+.l2d-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.l2d-row select { width: auto; }
+.l2d-skins { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; }
+.l2d-skins button { flex: 0 0 auto; width: 64px; padding: 0 0 3px; border: 1px solid var(--line); background: var(--ink-3); color: var(--paper-dim); cursor: pointer; display: grid; gap: 2px; font-size: 10.5px; text-align: center; }
+.l2d-skins button img { width: 100%; aspect-ratio: 1; object-fit: cover; object-position: top; }
+.l2d-skins button span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 0 3px; }
+.l2d-skins button[aria-pressed="true"] { border-color: var(--brass); color: var(--paper); }
+.l2d-skins button:disabled { opacity: .35; cursor: not-allowed; }
+.char-hero.in-view .portrait { display: none; }
+.char-hero.in-view { grid-template-columns: 1fr; }
+.show-art.l2d-live > img { opacity: 0; transition: opacity .4s; }
+.show-art { position: relative; }
+.show-art.l2d-wait::before { content: ""; position: absolute; z-index: 3; right: 8px; top: 8px; width: 14px; height: 14px; border: 2px solid var(--brass); border-top-color: transparent; border-radius: 50%; animation: spin .8s linear infinite; }
+.show-l2d-toggle { font-size: 13px; }
+
+/* 스킬 */
+.skill-block { margin-top: 18px; border-top: 1px solid var(--line); padding-top: 14px; }
+.skill-block > .code { font-family: var(--mono); font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); margin: 0 0 8px; }
+.sk-grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
+.sk-card { border: 1px solid var(--line); background: var(--ink-2); padding: 10px 12px; display: grid; gap: 6px; align-content: start; }
+.sk-card.ult { border-color: rgba(216,181,106,.45); background: linear-gradient(rgba(216,181,106,.06), transparent 60%), var(--ink-2); }
+.sk-card header { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.sk-card header b { font-size: 15px; }
+.sk-tag { font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; padding: 0 6px; border: 1px solid var(--line-strong); color: var(--paper-dim); }
+.sk-card.ult .sk-tag { border-color: rgba(216,181,106,.6); color: var(--gold); }
+.sk-lv { display: flex; gap: 4px; }
+.sk-lv button { padding: 1px 8px; border: 1px solid var(--line); background: transparent; color: var(--paper-faint); cursor: pointer; font-size: 11px; letter-spacing: -1px; }
+.sk-lv button[aria-pressed="true"] { border-color: var(--gold); color: var(--gold); }
+.sk-text { font-size: 13.5px; line-height: 1.75; white-space: pre-line; color: var(--paper); }
+.kw { padding: 0 2px; border: 0; background: none; color: var(--brass); cursor: help; font: inherit; text-decoration: underline dotted; text-underline-offset: 3px; }
+.kw::before { content: "["; } .kw::after { content: "]"; }
+.kw-plain { color: var(--paper-dim); }
+.kw-pop { display: block; margin-top: 6px; padding: 6px 10px; border-left: 2px solid var(--brass); background: var(--ink-3); font-size: 12.5px; color: var(--paper-dim); white-space: normal; }
+.kw-pop b { color: var(--brass); }
+.sk-sec { margin-top: 14px; }
+.sk-sec h4 { margin: 0 0 6px; font-size: 14px; }
+.sk-sec h4 small { font-weight: 400; color: var(--teal); font-size: 12px; }
+.sk-steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.sk-steps li { display: grid; grid-template-columns: 64px 1fr; gap: 10px; align-items: baseline; padding: 6px 10px; border: 1px solid var(--line); background: var(--ink-2); opacity: .78; }
+.sk-steps li.on { opacity: 1; border-color: var(--brass-dim); box-shadow: inset 2px 0 0 var(--brass); }
+.sk-step { font-family: var(--mono); font-size: 12px; color: var(--brass); }
+.sk-steps li b { display: block; font-size: 13.5px; }
+.sk-euph { margin-bottom: 10px; }
+.sk-euph > b { display: block; margin: 4px 0; font-size: 13.5px; }
+.sk-euph > b small { font-weight: 400; color: var(--teal); }

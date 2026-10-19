@@ -36,6 +36,7 @@ async function render(scrollTop = true) {
   const tab = document.querySelector(`.tabs a[data-route="${name}"]`);
   tab && tab.scrollIntoView({ block: 'nearest', inline: 'nearest' });
   const mod = await pages[name]();
+  try { current.mod?.cleanup?.(); } catch { /* 무시 */ }
   current = { name, mod, arg };
   const root = h('div');
   root.append = (...kids) => append(root, kids); // null·배열도 안전하게

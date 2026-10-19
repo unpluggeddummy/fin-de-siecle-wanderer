@@ -159,3 +159,66 @@ export function profileBlock(c, { open = false } = {}) {
     p.wiki ? h('p.faint', { style: { fontSize: '12px', margin: '8px 0 0' } }, '출처: ', h('a', { href: p.wiki, target: '_blank', rel: 'noopener' }, 'Reverse: 1999 Wiki'), ' · 게임 데이터') : null,
   );
 }
+
+/** 스킬·통찰·형상·광상 — 출품작 하나로 캐릭터를 분석할 수 있게 (게임 데이터 한국어) */
+export function skillBlock(c) {
+  const box = h('section.skill-block', h('p.code', 'Skills'), h('p.faint', '스킬 정보를 불러오는 중…'));
+  store.loadSkills().then((d) => {
+    const s = d.chars?.[c.id];
+    if (!s) { box.replaceChildren(h('p.code', 'Skills'), h('p.faint', { style: { fontSize: '13px' } }, '아직 스킬 정보가 없어요. (글로벌에 나오기 전인 출품작은 비어 있어요)')); return; }
+    const rec = store.charRecord(c.id) || {};
+    const owned = !!rec.owned;
+    const gl = d.glossary || {};
+    // [용어]를 눌러 뜻을 볼 수 있게
+    const text = (t) => {
+      const out = [];
+      const re = /\[([^\]]{1,20})\]/g;
+      let last = 0; let m;
+      while ((m = re.exec(t || ''))) {
+        out.push(t.slice(last, m.index));
+        const term = m[1].trim();
+        out.push(gl[term] ? h('button.kw', { type: 'button', title: gl[term], onclick: (e) => {
+          const p = e.currentTarget.closest('.sk-text');
+          const old = p.querySelector('.kw-pop');
+          if (old && old.dataset.term === term) { old.remove(); return; }
+          old && old.remove();
+          p.append(h('span.kw-pop', { 'data-term': term }, h('b', term), ' ', gl[term]));
+        } }, term) : h('span.kw-plain', `[${term}]`));
+        last = re.lastIndex;
+      }
+      out.push((t || '').slice(last));
+      return h('div.sk-text', out);
+    };
+    const lvTabs = (levels) => {
+      let cur = levels.length - 1;
+      const body = h('div');
+      const bar = h('div.sk-lv', levels.map((_, i) => h('button', { type: 'button', 'aria-pressed': String(i === cur), onclick: (e) => {
+        cur = i; bar.querySelectorAll('button').forEach((b, j) => b.setAttribute('aria-pressed', String(j === i))); body.replaceChildren(text(levels[i]));
+      } }, '★'.repeat(i + 1))));
+      body.append(text(levels[cur]));
+      return [bar, body];
+    };
+    const ROM = ['', 'Ⅰ', 'Ⅱ', 'Ⅲ', 'Ⅳ', 'Ⅴ'];
+    box.replaceChildren(
+      h('p.code', 'Skills'),
+      h('div.sk-grid',
+        s.skills.map((k, i) => h('div.sk-card', h('header', h('span.sk-tag', `주문 ${i + 1}`), h('b', k.name)), ...lvTabs(k.levels))),
+        s.ultimate ? h('div.sk-card.ult', h('header', h('span.sk-tag', '최종 술식'), h('b', s.ultimate.name)), text(s.ultimate.desc)) : null),
+      s.insight.length ? h('div.sk-sec', h('h4', '통찰 패시브', owned ? h('small', ` 지금 통찰 ${ROM[rec.insight || 0] || 0}`) : null),
+        h('ol.sk-steps', s.insight.map((p) => h('li', { class: owned && (rec.insight || 0) >= p.lv ? 'on' : '' },
+          h('span.sk-step', `통찰 ${ROM[p.lv]}`), h('div', h('b', p.name), text(p.desc)))))) : null,
+      s.portray.length ? h('div.sk-sec', h('h4', '형상 (중복 획득 강화)', owned ? h('small', ` 지금 P${rec.portray || 0}`) : null),
+        h('ol.sk-steps', s.portray.map((p) => h('li', { class: owned && (rec.portray || 0) >= p.lv ? 'on' : '' },
+          h('span.sk-step', `P${p.lv}`), text(p.desc))))) : null,
+      s.euphoria.length ? h('div.sk-sec', h('h4', '광상'),
+        s.euphoria.map((e) => {
+          const eu = (c.euphorias || []).find((x) => x.id === e.id);
+          const mine = owned && rec.euphoria === e.id;
+          return h('div.sk-euph', h('b', `광상 ${ROM[e.id] || e.id}`, eu?.name ? ` · ${eu.name}` : '', mine ? h('small', ` 장착 중 · ${rec.euphoriaLevel || 0}단계`) : null),
+            h('ol.sk-steps', e.levels.map((l) => h('li', { class: mine && (rec.euphoriaLevel || 0) >= l.lv ? 'on' : '' }, h('span.sk-step', `${l.lv}단계`), text(l.desc)))));
+        })) : null,
+      h('p.faint', { style: { fontSize: '12px', margin: '8px 0 0' } }, '[ ]로 표시된 용어를 누르면 뜻이 나와요. 출처: 게임 데이터(글로벌 한국어).'),
+    );
+  });
+  return box;
+}

@@ -69,7 +69,7 @@ export async function loadAll() {
   );
   // 위키에서 가져온 자료 (없어도 사이트는 돌아가게)
   const [npcs, stories, versions, profiles, versionArt] = await Promise.all(['npcs', 'stories', 'versions', 'profiles', 'version-art'].map((n) => getJSON(`data/game/${n}.json`).catch(() => (n === 'profiles' || n === 'version-art' ? {} : []))));
-  state.game = { characters, skins, psychubes, materials, bulletin, meta, npcs, stories, versions, profiles, versionArt };
+  state.game = { characters, skins, psychubes, materials, bulletin, meta, npcs, stories, versions, profiles, versionArt, skills: null };
   indexGame();
   await loadUser();
 }
@@ -188,6 +188,12 @@ export const npcList = () => [...idx.npc.values()];
 export const storyById = (id) => idx.story.get(id);
 /** 지금 한섭 버전 (설정에서 바꿀 수 있음) */
 export const currentVersion = () => state.user.settings?.currentVersion || '3.8';
+/** 스킬 설명은 크니까 처음 필요할 때 불러온다 */
+let skillsP = null;
+export function loadSkills() {
+  skillsP ||= getJSON('data/game/skills.json').then((d) => { state.game.skills = d; return d; }).catch(() => ({ chars: {}, glossary: {} }));
+  return skillsP;
+}
 export const profileOf = (id) => state.game.profiles?.[id] || null;
 /** 모집 배너(위키) id → { banner, version } */
 export function summonById(id) {

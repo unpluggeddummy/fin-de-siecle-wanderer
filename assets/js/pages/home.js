@@ -6,6 +6,10 @@ import { seasonTotals } from './bulletin.js';
 import { skinInfo } from './skins.js';
 import * as timeline from './timeline.js';
 import * as codex from './codex.js';
+import * as live2d from '../live2d.js';
+
+let showL2d = [];
+export function cleanup() { showL2d.forEach((x) => x.destroy()); showL2d = []; }
 
 const P = () => store.state.user.profile;
 
@@ -27,6 +31,7 @@ function avatarSrc(p) {
 }
 
 export function render(root) {
+  cleanup();
   const p = P();
   const editing = store.state.editing;
   root.append(
@@ -133,7 +138,7 @@ function profileSection(p, editing) {
       const c = store.charById(slot.char);
       if (!s) return null;
       return h('div.show-item', { class: afClass(c) },
-        h('button.show-art', { type: 'button', 'aria-label': `${store.charName(c)} 크게 보기`, onclick: () => lightbox(s.art || s.portrait, `${store.charName(c)} — ${s.name}`) }, img(s.art || s.portrait, '')),
+        h('button.show-art', { type: 'button', 'aria-label': `${store.charName(c)} 크게 보기`, onclick: (e) => { if (e.currentTarget.classList.contains('l2d-live')) return; lightbox(s.art || s.portrait, `${store.charName(c)} — ${s.name}`); } }, img(s.art || s.portrait, '')),
         h('span.show-cap', h('b', store.charName(c)), h('small', s.type === 'default' ? '기본' : s.type === 'insight' ? '통찰' : s.name)),
         editing ? h('div.show-tools',
           c.npc ? null : h('select', { 'aria-label': '걸 스킨', onchange: (e) => save((x) => { x.showcase[i].skin = e.target.value ? +e.target.value : null; }) },
@@ -145,7 +150,23 @@ function profileSection(p, editing) {
     editing ? h('button.show-add', { type: 'button', onclick: () => charPicker({ npc: true, title: '진열장에 걸 출품작', onDone: ([id]) => save((x) => { (x.showcase ||= []).push({ char: id, skin: null }); }) }) }, h('span', '+'), '진열 추가')
       : (shows.some((x) => x.s) ? null : h('div.empty', h('p', '진열장이 비어 있어요.'))),
   );
-  return h('section.prof' + (editing ? '.editing' : ''), left, h('div.prof-right', right, sideCards(p, editing)));
+  if (p.showcaseLive2d !== false) {
+    setTimeout(() => shows.forEach(({ slot, i, s }) => {
+      const c = store.charById(slot.char);
+      const el = right.querySelectorAll('.show-item')[shows.filter((x) => x.s).findIndex((x) => x.i === i)]?.querySelector('.show-art');
+      if (!c || c.npc || !s || !el) return;
+      el.classList.add('l2d-wait');
+      live2d.mount(el, s.id, { mode: 'tall' }).then((ctl) => {
+        el.classList.remove('l2d-wait');
+        if (!ctl) return;
+        if (!el.isConnected) { ctl.destroy(); return; }
+        showL2d.push(ctl);
+        el.classList.add('l2d-live');
+      });
+    }), 50);
+  }
+  const l2dToggle = editing ? h('label.check.show-l2d-toggle', h('input', { type: 'checkbox', checked: p.showcaseLive2d !== false, onchange: (e) => save((x) => { x.showcaseLive2d = e.target.checked; }) }), '진열장을 Live2D로') : null;
+  return h('section.prof' + (editing ? '.editing' : ''), left, h('div.prof-right', right, l2dToggle, sideCards(p, editing)));
 }
 
 // ── 진열장 아래 카드: 현재 버전 · 다가오는 생일 · 스토리 후기 ─────────

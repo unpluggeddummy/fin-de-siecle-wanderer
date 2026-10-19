@@ -2,7 +2,8 @@
 import { h, img, drawer, stepper, chip, field, toast, pickFile, readFileText, lightbox, fill } from '../ui.js';
 import * as store from '../store.js';
 import { rerender } from '../app.js';
-import { stars, afClass, afImg, ROMAN, profileBlock } from '../components.js';
+import { stars, afClass, afImg, ROMAN, profileBlock, skillBlock } from '../components.js';
+import * as live2d from '../live2d.js';
 import { importRosterJSON } from '../importer.js';
 
 const AF_ORDER = ['star', 'mineral', 'beast', 'plant', 'spirit', 'intellect'];
@@ -166,6 +167,30 @@ export function render(root, { arg }) {
 function toggle(set, v) { set.has(v) ? set.delete(v) : set.add(v); }
 function growth(r) { return (r.insight || 0) * 100 + (r.level || 0); }
 
+// 목록에서 마우스를 올린 카드 하나만 Live2D로 (한 번에 하나라 가볍다)
+let hover = { el: null, ctl: null, timer: 0 };
+function hoverStop(el) {
+  if (el && hover.el && hover.el !== el) return;
+  clearTimeout(hover.timer);
+  if (hover.ctl) hover.ctl.destroy();
+  if (hover.el) hover.el.classList.remove('l2d-live', 'l2d-wait');
+  hover = { el: null, ctl: null, timer: 0 };
+}
+function hoverStart(c, el) {
+  if (view.selecting || store.state.user.settings?.rosterHoverL2d === false) return;
+  hoverStop();
+  hover.el = el;
+  hover.timer = setTimeout(async () => {
+    if (hover.el !== el) return;
+    el.classList.add('l2d-wait');
+    const ctl = await live2d.mount(el, live2d.skinOf(c), { mode: 'bust', interactive: false });
+    if (hover.el !== el || !el.isConnected) { ctl && ctl.destroy(); return; }
+    el.classList.remove('l2d-wait');
+    hover.ctl = ctl;
+    if (ctl) el.classList.add('l2d-live');
+  }, 280);
+}
+
 function card(c, onClick) {
   const r = store.charRecord(c.id) || {};
   const picked = view.selecting && view.picked.has(c.id);
@@ -178,9 +203,12 @@ function card(c, onClick) {
     h('span.pill', `공명 ${r.resonance || 1}`),
     h('span.pill' + ((r.portray || 0) >= 5 ? '.gold' : ''), `P${r.portray || 0}`),
   ] : [h('span.faint', '미보유')];
-  return h('button.' + cls, { type: 'button', onclick: () => onClick(c), 'aria-pressed': view.selecting ? String(picked) : undefined,
+  const art = h('div.art');
+  return h('button.' + cls, { type: 'button', onclick: () => { hoverStop(); onClick(c); }, 'aria-pressed': view.selecting ? String(picked) : undefined,
+    onpointerenter: (e) => { if (e.pointerType === 'mouse') hoverStart(c, art); },
+    onpointerleave: () => hoverStop(art),
     'aria-label': `${store.charName(c)} ${c.rarity}성 ${r.owned ? '보유' : '미보유'}` },
-    h('div.art',
+    fill(art,
       h('i.af-bar'),
       h('span.af-badge', afImg(c.afflatus)),
       h('span.stars', stars(c.rarity)),
@@ -227,8 +255,52 @@ export function openChar(c) {
 
   let body;
   const foot = [];
+  let l2d = null;
+  let stageCtl = null;
   if (!editing) {
-    body = [hero, readOnly(c, rec), profileBlock(c)];
+    // 게임처럼: 왼쪽에 Live2D(없으면 스킨 그림), 오른쪽에 정보
+    const startSkin = live2d.skinOf(c);
+    const fallback = (sid) => { const s = store.skinById(sid) || store.skinById(c.defaultSkin); return s?.art || s?.portrait; };
+    const stage = h('div.l2d-stage', { class: afClass(c) }, h('img.l2d-fallback', { src: fallback(startSkin), alt: store.charName(c) }), h('span.l2d-loading', 'Live2D 불러오는 중…'));
+    const controls = h('div.l2d-controls');
+    stageCtl = { stage, controls, current: startSkin };
+    hero.classList.add('in-view');
+    body = [
+      h('div.char-view', h('div.char-stage-col', stage, controls), h('div.char-info', hero, readOnly(c, rec), profileBlock(c))),
+      skillBlock(c),
+    ];
+    const load = async (sid) => {
+      stageCtl.current = sid;
+      if (l2d) { l2d.destroy(); l2d = null; }
+      stage.classList.remove('live');
+      stage.querySelector('.l2d-fallback').src = fallback(sid);
+      stage.classList.add('loading');
+      const ctl = await live2d.mount(stage, sid, { mode: 'full' });
+      stage.classList.remove('loading');
+      if (stageCtl.current !== sid || !stage.isConnected) { ctl && ctl.destroy(); return; }
+      l2d = ctl;
+      stage.classList.toggle('live', !!ctl);
+      drawControls(sid);
+    };
+    const drawControls = async (sid) => {
+      const total = await live2d.count();
+      const withL2d = [];
+      for (const k of c.skins) if (await live2d.find(k)) withL2d.push(k);
+      fill(controls,
+        l2d ? h('div.l2d-row',
+          h('button.btn.small', { type: 'button', onclick: () => l2d && l2d.motion() }, '다른 동작'),
+          l2d.info.expressions.length ? h('select', { 'aria-label': '표정', onchange: (e) => l2d && l2d.expression(e.target.value) },
+            h('option', { value: '' }, '표정 고르기'),
+            l2d.info.expressions.map((x) => h('option', { value: x }, live2d.faceName(x)))) : null,
+          h('span.faint', { style: { fontSize: '12px' } }, '캐릭터를 누르면 움직여요')) : h('p.faint', { style: { fontSize: '12.5px', margin: '4px 0' } }, total ? '이 스킨은 Live2D가 없어서 그림으로 보여요.' : 'Live2D 보관함이 아직 비어 있거나 불러오지 못해서 그림으로 보여요.'),
+        withL2d.length > 1 || (withL2d.length && !withL2d.includes(sid)) ? h('div.l2d-skins', c.skins.map((k) => {
+          const sk = store.skinById(k);
+          return h('button', { type: 'button', 'aria-pressed': String(k === sid), title: sk?.name, disabled: !withL2d.includes(k), onclick: () => load(k) },
+            img(sk?.portrait, ''), h('span', sk?.type === 'default' ? '기본' : sk?.type === 'insight' ? '통찰' : sk?.name));
+        })) : null,
+      );
+    };
+    setTimeout(() => load(startSkin), 0);
   } else {
     const r = store.ensureChar(c.id);
     if (!r.euphorias && r.euphoria) r.euphorias = [r.euphoria];
@@ -309,7 +381,7 @@ export function openChar(c) {
     foot.push(h('a.btn', { href: `#/plans/new/${c.id}`, onclick: () => d.close() }, '육성 계획 만들기'));
   }
   foot.push(h('button.btn.primary', { type: 'button', onclick: () => d.close() }, editing ? '완료' : '닫기'));
-  const d = drawer({ title: store.charName(c), body, foot, wide: editing, onClose: () => rerender() });
+  const d = drawer({ title: store.charName(c), body, foot, wide: true, onClose: () => { stageCtl && (stageCtl.current = null); l2d && l2d.destroy(); rerender(); } });
 }
 
 /** 이미지 선택 묶음: 눌러서 켜고 끄기 + ★로 대표 고르기 */
@@ -437,3 +509,5 @@ async function doImport() {
     toast(`가져오지 못했습니다: ${e.message}`, 'err');
   }
 }
+
+export function cleanup() { hoverStop(); }
