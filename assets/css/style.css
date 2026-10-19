@@ -1135,3 +1135,31 @@ img[src*="img/npc/"]:not([src*="/full"]):not([src*="/live2d"]) { height: 100% !i
 .side-skins button[aria-pressed="true"] { border-color: var(--brass); color: var(--paper); box-shadow: var(--glow); }
 .side-stage.loading .side-model::after { content: "Live2D 불러오는 중…"; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 12.5px; color: var(--paper-dim); background: rgba(4,6,8,.7); padding: 4px 10px; }
 .profile-exhibit { margin: 0 0 8px; font-size: 13px; line-height: 1.7; color: var(--paper-dim); }
+
+/* ── 덱 분석 · 추천 ───────────────────────────── */
+.dc-panel { margin-bottom: var(--gap); padding: 0; }
+.dc-panel > summary { cursor: pointer; padding: 14px 16px; list-style: none; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.dc-panel > summary::-webkit-details-marker { display: none; }
+.dc-panel > summary::before { content: '▸'; color: var(--brass); transition: transform .15s; }
+.dc-panel[open] > summary::before { transform: rotate(90deg); }
+.dc-rec-body { padding: 0 16px 16px; }
+.dc-form { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.dc-core { display: grid; gap: 6px; }
+.dc-boss .chip { display: inline-flex; align-items: center; gap: 4px; }
+.dc-boss .af-ico { width: 16px; height: 16px; }
+.dc-results { display: grid; gap: var(--gap); grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+.dc-results > p { grid-column: 1 / -1; }
+.dc-rec { border-color: var(--brass-dim); }
+.dc-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 5px; font-size: 13px; line-height: 1.5; }
+.dc-list li { display: grid; grid-template-columns: 18px 1fr; gap: 6px; align-items: start; color: var(--paper-dim); }
+.dc-ico { width: 18px; height: 18px; display: grid; place-items: center; font-size: 11px; font-weight: 700; border: 1px solid var(--line-strong); border-radius: 50%; margin-top: 1px; }
+.dc-good .dc-ico { color: var(--teal); border-color: color-mix(in srgb, var(--teal) 50%, transparent); }
+.dc-warn .dc-ico { color: var(--gold); border-color: color-mix(in srgb, var(--gold) 50%, transparent); }
+.dc-bad .dc-ico { color: var(--rust); border-color: color-mix(in srgb, var(--rust) 60%, transparent); }
+.dc-bad { color: var(--paper) !important; }
+.dc-info .dc-ico { color: var(--paper-faint); }
+.dc-sum { display: inline-flex; gap: 8px; margin-left: 4px; font-size: 12px; }
+.dc-sum .dc-good { color: var(--teal); } .dc-sum .dc-warn { color: var(--gold); } .dc-sum .dc-bad { color: var(--rust); }
+.dc-details > summary { cursor: pointer; font-size: 13px; color: var(--paper-dim); }
+.dc-details[open] > summary { margin-bottom: 8px; }
+.dc-live { background: var(--ink-3); border: 1px solid var(--line); padding: 10px 12px; }

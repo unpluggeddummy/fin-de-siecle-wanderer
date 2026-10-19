@@ -45,6 +45,10 @@ def main():
     passive = load(G, "skill_passive_level")
     facets = load(G, "character_destiny_facets")
     effdesc = load(G, "skill_eff_desc")
+    try:
+        buffs = load(G, "skill_buff")
+    except Exception:
+        buffs = []
 
     def tr(k):
         return kr.get(k) if isinstance(k, str) else None
@@ -136,10 +140,21 @@ def main():
         out[str(hid)] = rec
 
     glossary = {k: glossary_all[k] for k in sorted(used_terms) if k in glossary_all}
+    # 상태 이름 → 이로운(buff)/해로운(debuff) — 덱 분석에서 '누가 걸고 누가 쓰는지' 짝을 찾을 때 쓴다
+    votes = {}
+    for b in buffs:
+        n = tr(b.get("name"))
+        if not n:
+            continue
+        n = n.strip()
+        if n in used_terms:
+            v = votes.setdefault(n, [0, 0])
+            v[0 if b.get("isGoodBuff") == 1 else 1] += 1
+    kinds = {k: ("buff" if g >= bad else "debuff") for k, (g, bad) in sorted(votes.items())}
     dst = os.path.join(a.out, "data", "game", "skills.json")
     with open(dst, "w", encoding="utf-8") as f:
-        json.dump({"chars": out, "glossary": glossary}, f, ensure_ascii=False, separators=(",", ":"))
-    print(f"스킬: 출품작 {len(out)}명 · 용어 {len(glossary)}개 · {os.path.getsize(dst) // 1024}KB")
+        json.dump({"chars": out, "glossary": glossary, "kinds": kinds}, f, ensure_ascii=False, separators=(",", ":"))
+    print(f"스킬: 출품작 {len(out)}명 · 용어 {len(glossary)}개 · 상태 {len(kinds)}개 · {os.path.getsize(dst) // 1024}KB")
 
 
 if __name__ == "__main__":

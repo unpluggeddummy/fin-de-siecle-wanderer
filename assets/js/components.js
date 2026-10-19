@@ -40,9 +40,9 @@ export function teamView(members = []) {
   const slots = [0, 1, 2, 3].map((i) => {
     const m = members[i];
     const c = m && store.charById(m.char);
-    if (!c) return h('div.slot.empty-slot', i === 3 ? '후보' : '빈칸');
+    if (!c) return h('div.slot.empty-slot', '빈칸');
     const p = m.psychube && store.psyById(m.psychube);
-    return h('div.slot' + (i === 3 ? '.sub' : ''), { title: store.charName(c) + (p ? ` · ${p.name.ko}` : '') },
+    return h('div.slot', { title: store.charName(c) + (p ? ` · ${p.name.ko}` : '') },
       img(store.charPortrait(c), store.charName(c), 'c'),
       p ? img(p.icon, p.name.ko, 'p') : null,
       h('span.sn', store.charName(c)),
@@ -70,7 +70,7 @@ export function teamEditor(members, onChange) {
       psySelect(m.psychube, (v) => set({ psychube: v }), { label: `${i + 1}번 자리 의지` }),
     );
   });
-  return h('div.slot-edit', h('p.faint', { style: { margin: 0, fontSize: '12.5px' } }, '1~3번은 출전, 4번은 후보입니다.'), rows);
+  return h('div.slot-edit', h('p.faint', { style: { margin: 0, fontSize: '12.5px' } }, '1~4번 모두 출전합니다.'), rows);
 }
 
 export function stars(n) { return '★'.repeat(n); }
