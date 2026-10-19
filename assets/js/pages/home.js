@@ -172,18 +172,36 @@ function lineup(shows, editing) {
     el.dataset.ratio = '0.42';
     return { ...x, el, k };
   });
+  // 서로 겹치지 않게: 몸(키의 약 40%)만큼 자리를 잡고, 넓게 퍼지는 옷자락·무기는 옆 사람 뒤로 살짝 들어가게.
+  // 다 합쳐 칸을 넘으면 모두 같은 비율로 줄이고(키 비율은 그대로), 남는 높이도 줄인다.
+  let baseH = 0;
   const layout = () => {
     const W = stage.clientWidth || 600;
-    const H = stage.clientHeight || 480;
-    const n = figs.length;
-    figs.forEach((f) => {
-      const fh = (H * 0.97 * f.hcm) / tallest;
-      const fw = fh * +f.el.dataset.ratio;
-      Object.assign(f.el.style, { height: `${fh}px`, width: `${fw}px`, left: `${Math.max(0, Math.min(W - fw, ((f.k + 0.5) / n) * W - fw / 2))}px`, zIndex: String(10 + (n - Math.abs(f.k - (n - 1) / 2))) });
+    if (!baseH) baseH = stage.clientHeight || 480;
+    const gap = Math.max(4, W * 0.01);
+    let sizes = figs.map((f) => {
+      const fh = (baseH * 0.97 * f.hcm) / tallest;
+      const ratio = +f.el.dataset.ratio;
+      return { fh, fw: fh * ratio, slot: fh * Math.min(ratio, 0.46) };
+    });
+    const total = sizes.reduce((a, x) => a + x.slot, 0) + gap * (figs.length - 1);
+    const k = Math.min(1, (W - 8) / total);
+    sizes = sizes.map((x) => ({ fh: x.fh * k, fw: x.fw * k, slot: x.slot * k }));
+    stage.style.height = `${Math.round(baseH * Math.max(k, 0.62))}px`;
+    const used = sizes.reduce((a, x) => a + x.slot, 0) + gap * (figs.length - 1);
+    let left = (W - used) / 2;
+    figs.forEach((f, i) => {
+      const { fh, fw, slot } = sizes[i];
+      const cx = left + slot / 2;
+      // 폭이 넓은(옷자락이 퍼진) 캐릭터일수록 뒤로
+      const z = 100 - Math.round((fw / fh) * 40);
+      Object.assign(f.el.style, { height: `${fh}px`, width: `${fw}px`, left: `${cx - fw / 2}px`, zIndex: String(z) });
+      left += slot + gap;
     });
   };
   stage.append(...figs.map((f) => f.el));
-  new ResizeObserver(layout).observe(stage);
+  let lastW = 0;
+  new ResizeObserver(() => { if (stage.clientWidth !== lastW) { lastW = stage.clientWidth; layout(); } }).observe(stage);
   setTimeout(() => {
     layout();
     figs.forEach((f) => {
@@ -194,7 +212,7 @@ function lineup(shows, editing) {
         if (!ctl) return;
         if (!f.el.isConnected) { ctl.destroy(); return; }
         showL2d.push(ctl);
-        f.el.dataset.ratio = String(Math.min(0.9, Math.max(0.25, ctl.box.w / ctl.box.h)));
+        f.el.dataset.ratio = String(Math.min(1.2, Math.max(0.25, ctl.box.w / ctl.box.h)));
         f.el.classList.add('l2d-live');
         layout();
       });
