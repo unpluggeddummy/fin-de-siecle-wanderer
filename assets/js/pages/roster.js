@@ -205,8 +205,7 @@ function card(c, onClick) {
   ] : [h('span.faint', '미보유')];
   const art = h('div.art');
   return h('button.' + cls, { type: 'button', onclick: () => { hoverStop(); onClick(c); }, 'aria-pressed': view.selecting ? String(picked) : undefined,
-    onpointerenter: (e) => { if (e.pointerType === 'mouse') hoverStart(c, art); },
-    onpointerleave: () => hoverStop(art),
+
     'aria-label': `${store.charName(c)} ${c.rarity}성 ${r.owned ? '보유' : '미보유'}` },
     fill(art,
       h('i.af-bar'),
@@ -222,6 +221,75 @@ function card(c, onClick) {
     ),
     h('div.cstats', statBits),
   );
+}
+
+/**
+ * 출품작 서랍 왼쪽 빈 곳에 Live2D를 세운다 (게임처럼: 왼쪽 캐릭터, 오른쪽 정보).
+ * 화면이 좁아 서랍이 꽉 차면(폰) 띄우지 않는다.
+ */
+function sideStage(c) {
+  const el = h('div.side-stage', { class: afClass(c) });
+  const box = h('div.side-model');
+  const bar = h('div.side-bar');
+  el.append(box, bar);
+  let ctl = null;
+  let current = null;
+  let panel = null;
+  let ro = null;
+  const fit = () => {
+    const w = window.innerWidth - (panel ? panel.getBoundingClientRect().width : 0);
+    el.style.width = `${Math.max(0, w)}px`;
+    el.hidden = w < 280;
+  };
+  const drawBar = async () => {
+    const withL2d = [];
+    for (const k of c.skins) if (await live2d.find(k)) withL2d.push(k);
+    fill(bar,
+      ctl ? h('button.btn.small', { type: 'button', onclick: () => ctl && ctl.motion() }, '다른 동작') : null,
+      ctl && ctl.info.expressions.length ? h('select', { 'aria-label': '표정', onchange: (e) => ctl && ctl.expression(e.target.value) },
+        h('option', { value: '' }, '표정'), ctl.info.expressions.map((x) => h('option', { value: x }, live2d.faceName(x)))) : null,
+      withL2d.length ? h('div.side-skins', withL2d.map((k) => {
+        const sk = store.skinById(k);
+        return h('button', { type: 'button', 'aria-pressed': String(k === current), title: sk?.name, onclick: () => api.load(k) },
+          img(sk?.portrait, ''), h('span', sk?.type === 'default' ? '기본' : sk?.type === 'insight' ? '통찰' : sk?.name));
+      })) : h('span.faint', { style: { fontSize: '12px' } }, 'Live2D가 있는 스킨이 없어요'));
+  };
+  const api = {
+    attach(p) {
+      panel = p;
+      document.body.append(el);
+      fit();
+      ro = new ResizeObserver(fit); ro.observe(p);
+      window.addEventListener('resize', fit);
+      api.load(live2d.skinOf(c));
+    },
+    async load(sid) {
+      if (!panel || el.hidden) return;
+      current = sid;
+      if (ctl) { ctl.destroy(); ctl = null; }
+      el.classList.add('loading');
+      // 지금 스킨에 Live2D가 없으면 Live2D가 있는 스킨(기본 → 통찰 → 의상)으로 대신 보여 준다
+      let use = sid;
+      if (!(await live2d.find(sid))) {
+        for (const k of [c.defaultSkin, c.insightSkin, ...c.skins]) if (k && await live2d.find(k)) { use = k; break; }
+      }
+      current = use;
+      const x = await live2d.mount(box, use, { mode: 'full' });
+      el.classList.remove('loading');
+      if (current !== use || !el.isConnected) { x && x.destroy(); return; }
+      ctl = x;
+      el.classList.toggle('live', !!x);
+      drawBar();
+    },
+    close() {
+      current = null;
+      if (ctl) ctl.destroy();
+      ro && ro.disconnect();
+      window.removeEventListener('resize', fit);
+      el.remove();
+    },
+  };
+  return api;
 }
 
 /** 보유한 광상 번호 목록 (예전 기록 호환) */
@@ -255,52 +323,9 @@ export function openChar(c) {
 
   let body;
   const foot = [];
-  let l2d = null;
-  let stageCtl = null;
+  const side = sideStage(c);
   if (!editing) {
-    // 게임처럼: 왼쪽에 Live2D(없으면 스킨 그림), 오른쪽에 정보
-    const startSkin = live2d.skinOf(c);
-    const fallback = (sid) => { const s = store.skinById(sid) || store.skinById(c.defaultSkin); return s?.art || s?.portrait; };
-    const stage = h('div.l2d-stage', { class: afClass(c) }, h('img.l2d-fallback', { src: fallback(startSkin), alt: store.charName(c) }), h('span.l2d-loading', 'Live2D 불러오는 중…'));
-    const controls = h('div.l2d-controls');
-    stageCtl = { stage, controls, current: startSkin };
-    hero.classList.add('in-view');
-    body = [
-      h('div.char-view', h('div.char-stage-col', stage, controls), h('div.char-info', hero, readOnly(c, rec), profileBlock(c))),
-      skillBlock(c),
-    ];
-    const load = async (sid) => {
-      stageCtl.current = sid;
-      if (l2d) { l2d.destroy(); l2d = null; }
-      stage.classList.remove('live');
-      stage.querySelector('.l2d-fallback').src = fallback(sid);
-      stage.classList.add('loading');
-      const ctl = await live2d.mount(stage, sid, { mode: 'full' });
-      stage.classList.remove('loading');
-      if (stageCtl.current !== sid || !stage.isConnected) { ctl && ctl.destroy(); return; }
-      l2d = ctl;
-      stage.classList.toggle('live', !!ctl);
-      drawControls(sid);
-    };
-    const drawControls = async (sid) => {
-      const total = await live2d.count();
-      const withL2d = [];
-      for (const k of c.skins) if (await live2d.find(k)) withL2d.push(k);
-      fill(controls,
-        l2d ? h('div.l2d-row',
-          h('button.btn.small', { type: 'button', onclick: () => l2d && l2d.motion() }, '다른 동작'),
-          l2d.info.expressions.length ? h('select', { 'aria-label': '표정', onchange: (e) => l2d && l2d.expression(e.target.value) },
-            h('option', { value: '' }, '표정 고르기'),
-            l2d.info.expressions.map((x) => h('option', { value: x }, live2d.faceName(x)))) : null,
-          h('span.faint', { style: { fontSize: '12px' } }, '캐릭터를 누르면 움직여요')) : h('p.faint', { style: { fontSize: '12.5px', margin: '4px 0' } }, total ? '이 스킨은 Live2D가 없어서 그림으로 보여요.' : 'Live2D 보관함이 아직 비어 있거나 불러오지 못해서 그림으로 보여요.'),
-        withL2d.length > 1 || (withL2d.length && !withL2d.includes(sid)) ? h('div.l2d-skins', c.skins.map((k) => {
-          const sk = store.skinById(k);
-          return h('button', { type: 'button', 'aria-pressed': String(k === sid), title: sk?.name, disabled: !withL2d.includes(k), onclick: () => load(k) },
-            img(sk?.portrait, ''), h('span', sk?.type === 'default' ? '기본' : sk?.type === 'insight' ? '통찰' : sk?.name));
-        })) : null,
-      );
-    };
-    setTimeout(() => load(startSkin), 0);
+    body = [hero, readOnly(c, rec), profileBlock(c), skillBlock(c)];
   } else {
     const r = store.ensureChar(c.id);
     if (!r.euphorias && r.euphoria) r.euphorias = [r.euphoria];
@@ -318,6 +343,7 @@ export function openChar(c) {
           skinPick.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', 'false'));
           btn.setAttribute('aria-pressed', 'true');
           portrait.replaceChildren(img(s?.portrait, store.charName(c)));
+          side.load(sid);
         } }, img(s?.portrait, s?.name || ''), h('span', s?.type === 'default' ? '기본' : (s?.type === 'insight' ? '통찰' : s?.name || '')));
       return btn;
     }));
@@ -377,11 +403,14 @@ export function openChar(c) {
       ),
       h('div.form-row', h('div.lbl', h('span', '표시할 스킨')), skinPick),
       h('div.fields.form-row', field(c.nameChecked ? '한국어 이름 고치기' : '한국어 이름 (아직 확인 안 됨)', nameInput, 'wide')),
+      profileBlock(c),
+      skillBlock(c),
     ];
     foot.push(h('a.btn', { href: `#/plans/new/${c.id}`, onclick: () => d.close() }, '육성 계획 만들기'));
   }
   foot.push(h('button.btn.primary', { type: 'button', onclick: () => d.close() }, editing ? '완료' : '닫기'));
-  const d = drawer({ title: store.charName(c), body, foot, wide: true, onClose: () => { stageCtl && (stageCtl.current = null); l2d && l2d.destroy(); rerender(); } });
+  const d = drawer({ title: store.charName(c), body, foot, wide: true, onClose: () => { side.close(); rerender(); } });
+  side.attach(d.panel);
 }
 
 /** 이미지 선택 묶음: 눌러서 켜고 끄기 + ★로 대표 고르기 */

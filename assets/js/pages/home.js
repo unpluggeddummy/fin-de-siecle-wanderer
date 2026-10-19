@@ -150,23 +150,67 @@ function profileSection(p, editing) {
     editing ? h('button.show-add', { type: 'button', onclick: () => charPicker({ npc: true, title: '진열장에 걸 출품작', onDone: ([id]) => save((x) => { (x.showcase ||= []).push({ char: id, skin: null }); }) }) }, h('span', '+'), '진열 추가')
       : (shows.some((x) => x.s) ? null : h('div.empty', h('p', '진열장이 비어 있어요.'))),
   );
-  if (p.showcaseLive2d !== false) {
-    setTimeout(() => shows.forEach(({ slot, i, s }) => {
-      const c = store.charById(slot.char);
-      const el = right.querySelectorAll('.show-item')[shows.filter((x) => x.s).findIndex((x) => x.i === i)]?.querySelector('.show-art');
-      if (!c || c.npc || !s || !el) return;
-      el.classList.add('l2d-wait');
-      live2d.mount(el, s.id, { mode: 'tall' }).then((ctl) => {
-        el.classList.remove('l2d-wait');
+  const l2dToggle = editing ? h('label.check.show-l2d-toggle', h('input', { type: 'checkbox', checked: p.showcaseLive2d !== false, onchange: (e) => save((x) => { x.showcaseLive2d = e.target.checked; }) }), '진열장을 Live2D로 (키에 맞춰 나란히 세우기)') : null;
+  const stage = p.showcaseLive2d !== false && shows.some((x) => x.s) ? lineup(shows, editing) : right;
+  return h('section.prof' + (editing ? '.editing' : ''), left, h('div.prof-right', stage, l2dToggle, sideCards(p, editing)));
+}
+
+// ── 진열장: Live2D로 키에 맞춰 나란히 세우기 ─────────────────────
+// 게임 속 '규격'(키)을 cm로 바꾼 값으로 크기를 맞추고, 바닥선을 같게 둔다.
+function lineup(shows, editing) {
+  const list = shows.filter((x) => x.s).map((x) => {
+    const c = store.charById(x.slot.char);
+    const hcm = (!c.npc && store.profileOf(c.id)?.heightCm) || 165;
+    return { ...x, c, hcm: Math.min(230, Math.max(50, hcm)) * (x.slot.scale || 1) };
+  });
+  const tallest = Math.max(...list.map((x) => x.hcm));
+  const stage = h('div.lineup');
+  const figs = list.map((x, k) => {
+    const el = h('div.fig', { class: afClass(x.c), title: `${store.charName(x.c)}${store.profileOf(x.c.id)?.heightCm ? ` · ${store.profileOf(x.c.id).heightCm}cm` : ''}` },
+      h('img.fig-art', { src: x.s.art || x.s.portrait, alt: '' }),
+      h('span.fig-name', h('b', store.charName(x.c)), h('small', x.s.type === 'default' ? '기본' : x.s.type === 'insight' ? '통찰' : x.s.name)));
+    el.dataset.ratio = '0.42';
+    return { ...x, el, k };
+  });
+  const layout = () => {
+    const W = stage.clientWidth || 600;
+    const H = stage.clientHeight || 480;
+    const n = figs.length;
+    figs.forEach((f) => {
+      const fh = (H * 0.97 * f.hcm) / tallest;
+      const fw = fh * +f.el.dataset.ratio;
+      Object.assign(f.el.style, { height: `${fh}px`, width: `${fw}px`, left: `${Math.max(0, Math.min(W - fw, ((f.k + 0.5) / n) * W - fw / 2))}px`, zIndex: String(10 + (n - Math.abs(f.k - (n - 1) / 2))) });
+    });
+  };
+  stage.append(...figs.map((f) => f.el));
+  new ResizeObserver(layout).observe(stage);
+  setTimeout(() => {
+    layout();
+    figs.forEach((f) => {
+      if (f.c.npc) return;
+      f.el.classList.add('l2d-wait');
+      live2d.mount(f.el, f.s.id, { mode: 'full' }).then((ctl) => {
+        f.el.classList.remove('l2d-wait');
         if (!ctl) return;
-        if (!el.isConnected) { ctl.destroy(); return; }
+        if (!f.el.isConnected) { ctl.destroy(); return; }
         showL2d.push(ctl);
-        el.classList.add('l2d-live');
+        f.el.dataset.ratio = String(Math.min(0.9, Math.max(0.25, ctl.box.w / ctl.box.h)));
+        f.el.classList.add('l2d-live');
+        layout();
       });
-    }), 50);
-  }
-  const l2dToggle = editing ? h('label.check.show-l2d-toggle', h('input', { type: 'checkbox', checked: p.showcaseLive2d !== false, onchange: (e) => save((x) => { x.showcaseLive2d = e.target.checked; }) }), '진열장을 Live2D로') : null;
-  return h('section.prof' + (editing ? '.editing' : ''), left, h('div.prof-right', right, l2dToggle, sideCards(p, editing)));
+    });
+  }, 30);
+  // 편집: 진열 관리 줄
+  const tools = editing ? h('div.lineup-tools', list.map((x) => h('div.lt', { class: afClass(x.c) },
+    h('b', store.charName(x.c)),
+    x.c.npc ? null : h('select', { 'aria-label': '걸 스킨', onchange: (e) => save((p) => { p.showcase[x.i].skin = e.target.value ? +e.target.value : null; }) },
+      h('option', { value: '' }, '스킨: 자동'),
+      x.c.skins.map((sid) => { const sk = store.skinById(sid); return h('option', { value: sid, selected: x.slot.skin === sid }, sk?.type === 'default' ? '기본' : sk?.type === 'insight' ? '통찰' : sk?.name); })),
+    h('label.lt-scale', '크기', h('input', { type: 'range', min: 0.8, max: 1.2, step: 0.02, value: x.slot.scale || 1, 'aria-label': `${store.charName(x.c)} 크기`, onchange: (e) => save((p) => { const v = +e.target.value; if (v === 1) delete p.showcase[x.i].scale; else p.showcase[x.i].scale = v; }) })),
+    h('button.btn.small', { type: 'button', onclick: () => charPicker({ npc: true, title: '진열할 출품작 바꾸기', onDone: ([id]) => save((p) => { p.showcase[x.i] = { char: id, skin: null }; }) }) }, '바꾸기'),
+    xBtn('진열장에서 빼기', () => save((p) => { p.showcase.splice(x.i, 1); })))),
+    h('button.add-btn', { type: 'button', onclick: () => charPicker({ npc: true, title: '진열장에 걸 출품작', onDone: ([id]) => save((p) => { (p.showcase ||= []).push({ char: id, skin: null }); }) }) }, '+ 진열 추가')) : null;
+  return h('div.lineup-wrap', stage, tools);
 }
 
 // ── 진열장 아래 카드: 현재 버전 · 다가오는 생일 · 스토리 후기 ─────────

@@ -2,15 +2,18 @@
 // 라이브러리(PixiJS, pixi-live2d-display, Cubism Core)는 처음 쓸 때만 불러온다.
 import * as store from './store.js';
 
-const DEFAULT_BASE = 'https://unpluggeddummy.github.io/reverse/';
+const DEFAULT_BASES = ['https://unpluggeddummy.github.io/reverse/', 'https://unpluggeddummy.github.io/reverse2/'];
 let libsP = null;
 let indexP = null;
 const active = new Set();
 
-export function base() {
-  const b = store.state.user.settings?.live2dBase || DEFAULT_BASE;
-  return b.endsWith('/') ? b : b + '/';
+/** Live2D 보관함 주소들 (설정에서 바꿀 수 있음, 쉼표로 여러 개) */
+export function bases() {
+  const set = store.state.user.settings?.live2dBase;
+  const list = set ? String(set).split(/[,\s]+/).filter(Boolean) : DEFAULT_BASES;
+  return list.map((b) => (b.endsWith('/') ? b : b + '/'));
 }
+const isOurs = (url) => bases().some((b) => url.startsWith(b));
 
 /** 지금 이 출품작이 보여 줄 스킨 (내가 고른 스킨 > 통찰 스킨 > 기본) */
 export function skinOf(c) {
@@ -36,7 +39,7 @@ async function libs() {
     // 보관함의 모델 뼈대(.moc3)는 용량을 줄이려고 gzip(.moc3.gz)으로 담아 둔다 → 받아서 풀어 준다
     L.Live2DLoader.middlewares.unshift(async (ctx, next) => {
       const url = ctx.settings ? ctx.settings.resolveURL(ctx.url) : ctx.url;
-      if (ctx.type === 'arraybuffer' && /\.moc3$/.test(url) && url.startsWith(base()) && 'DecompressionStream' in window) {
+      if (ctx.type === 'arraybuffer' && /\.moc3$/.test(url) && isOurs(url) && 'DecompressionStream' in window) {
         const res = await fetch(url + '.gz');
         if (res.ok) {
           ctx.result = await new Response(res.body.pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();
@@ -50,8 +53,19 @@ async function libs() {
   return libsP;
 }
 
+/** 보관함 여러 곳의 목록을 합친다. 직접 담긴 모델(path)이 원본 주소(remote)보다 우선 */
 async function index() {
-  indexP ||= fetch(base() + 'live2d/index.json').then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
+  indexP ||= Promise.all(bases().map((b) => fetch(b + 'live2d/index.json').then((r) => (r.ok ? r.json() : {})).catch(() => ({})).then((d) => [b, d])))
+    .then((all) => {
+      const out = {};
+      for (const [b, d] of all) {
+        for (const [k, e] of Object.entries(d)) {
+          if (e.path) out[k] = { ...e, url: b + e.path };
+          else if (!out[k]) out[k] = { ...e, url: e.remote };
+        }
+      }
+      return out;
+    });
   return indexP;
 }
 
@@ -62,7 +76,7 @@ export async function count() { return Object.keys(await index()).length; }
 export async function find(skinId) {
   const e = (await index())[String(skinId)];
   if (!e) return null;
-  return { url: e.path ? base() + e.path : e.remote, motions: e.motions || [], expressions: [...new Set(e.expressions || [])] };
+  return { url: e.url, motions: e.motions || [], expressions: [...new Set(e.expressions || [])] };
 }
 
 // 표정 이름 (중국어 병음) → 한국어
@@ -137,7 +151,7 @@ export async function mount(el, skinId, { mode = 'full', interactive = true, onT
   const info = await find(skinId);
   if (!info || !el.isConnected) return null;
   // 원본 저장소에서 바로 받는 모델은 압축 전이라 무거워서(10MB 이상) 카드 미리보기에서는 쓰지 않는다
-  if (!allowRemote && !info.url.startsWith(base())) return null;
+  if (!allowRemote && !isOurs(info.url)) return null;
   const L = await libs();
   const P = window.PIXI;
   renderer();
@@ -158,7 +172,7 @@ export async function mount(el, skinId, { mode = 'full', interactive = true, onT
   const canvas = document.createElement('canvas');
   canvas.className = 'l2d-canvas';
   const ctx = canvas.getContext('2d');
-  const ctl = { el, stage, ctx, size: { w: 1, h: 1 }, visible: true, model, info };
+  const ctl = { el, stage, ctx, size: { w: 1, h: 1 }, visible: true, model, info, box };
   const place = () => {
     const dpr = Math.min(2, window.devicePixelRatio || 1);
     const w = Math.max(1, Math.round((el.clientWidth || 1) * dpr));

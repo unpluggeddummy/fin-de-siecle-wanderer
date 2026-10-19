@@ -90,7 +90,7 @@ export function render(root) {
           field('서버', h('select', { disabled: !editing, onchange: (e) => upd((x) => { x.server = e.target.value; }) },
             ['한섭', '글로벌', '중섭', '일섭'].map((v) => h('option', { selected: s.server === v }, v))))),
         h('div.fields', { style: { marginTop: '12px' } },
-          field('Live2D 보관함 주소', h('input', { type: 'url', value: s.live2dBase || 'https://unpluggeddummy.github.io/reverse/', disabled: !editing, onchange: (e) => store.update('settings', (x) => { x.live2dBase = e.target.value.trim(); }) }), 'wide')),
+          field('Live2D 보관함 주소 (쉼표로 여러 개)', h('input', { type: 'text', value: s.live2dBase || 'https://unpluggeddummy.github.io/reverse/, https://unpluggeddummy.github.io/reverse2/', disabled: !editing, onchange: (e) => store.update('settings', (x) => { x.live2dBase = e.target.value.trim(); }) }), 'wide')),
         h('div', { style: { marginTop: '8px' } },
           h('label.check', h('input', { type: 'checkbox', checked: s.rosterHoverL2d !== false, disabled: !editing,
             onchange: (e) => store.update('settings', (x) => { x.rosterHoverL2d = e.target.checked; }) }), '출품작 목록에서 마우스를 올리면 Live2D로 움직이기')),

@@ -1099,3 +1099,39 @@ img[src*="img/npc/"]:not([src*="/full"]):not([src*="/live2d"]) { height: 100% !i
 .sk-euph { margin-bottom: 10px; }
 .sk-euph > b { display: block; margin: 4px 0; font-size: 13.5px; }
 .sk-euph > b small { font-weight: 400; color: var(--teal); }
+
+/* 홈 진열장: 키에 맞춰 나란히 */
+.lineup-wrap { display: grid; gap: 10px; }
+.lineup { position: relative; height: clamp(380px, 56vh, 600px); overflow: hidden; background: radial-gradient(ellipse 70% 40% at 50% 100%, rgba(138,214,234,.10), transparent 70%); border-bottom: 1px solid var(--line-strong); }
+.lineup::after { content: ""; position: absolute; left: 6%; right: 6%; bottom: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--brass-dim), transparent); }
+.fig { position: absolute; bottom: 0; transition: left .4s, width .4s, height .4s; }
+.fig-art { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top center; -webkit-mask-image: linear-gradient(to right, transparent, #000 18%, #000 82%, transparent); mask-image: linear-gradient(to right, transparent, #000 18%, #000 82%, transparent); transition: opacity .4s; }
+.fig.l2d-live .fig-art { opacity: 0; }
+.fig-name { position: absolute; left: 50%; bottom: 4px; transform: translateX(-50%); z-index: 3; display: grid; justify-items: center; white-space: nowrap; text-shadow: 0 1px 3px #000, 0 0 8px #000; opacity: 0; transition: opacity .2s; pointer-events: none; }
+.fig-name b { font-size: 13px; color: var(--on-night); }
+.fig-name small { font-size: 10.5px; color: #b4c3cb; }
+.fig:hover .fig-name, .fig:focus-within .fig-name { opacity: 1; }
+.fig.l2d-wait::before { content: ""; position: absolute; z-index: 3; left: 50%; top: 40%; width: 16px; height: 16px; margin-left: -8px; border: 2px solid var(--brass); border-top-color: transparent; border-radius: 50%; animation: spin .8s linear infinite; }
+.lineup-tools { display: grid; gap: 6px; }
+.lt { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 6px 10px; border: 1px solid var(--line); border-left: 3px solid var(--af); background: rgba(12,16,20,.88); font-size: 13px; }
+.lt b { min-width: 6em; }
+.lt select { width: auto; padding: 3px 6px; font-size: 12.5px; }
+.lt-scale { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--paper-dim); }
+.lt-scale input { width: 90px; }
+.lt .x-btn { position: static; margin-left: auto; }
+
+/* 출품작 서랍 왼쪽: Live2D 무대 */
+.side-stage { position: fixed; z-index: 30; left: 0; top: 0; bottom: 0; pointer-events: none; display: grid; grid-template-rows: 1fr auto; animation: fade .25s ease-out; }
+.side-stage[hidden] { display: none; }
+.side-model { position: relative; margin: 3vh 2vw 0; }
+.side-model .l2d-canvas { pointer-events: auto; }
+.side-stage::before { content: ""; position: absolute; left: 10%; right: 10%; bottom: 64px; height: 40%; background: radial-gradient(ellipse 50% 60% at 50% 100%, color-mix(in srgb, var(--af) 22%, transparent), transparent 70%); pointer-events: none; }
+.side-bar { pointer-events: auto; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; padding: 10px 16px 14px; }
+.side-bar select { width: auto; background: rgba(4,6,8,.85); }
+.side-skins { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
+.side-skins button { width: 52px; padding: 0 0 2px; border: 1px solid var(--line-strong); background: rgba(4,6,8,.8); color: var(--paper-dim); cursor: pointer; display: grid; gap: 1px; font-size: 10px; }
+.side-skins button img { width: 100%; aspect-ratio: 1; object-fit: cover; object-position: top; }
+.side-skins button span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 0 2px; }
+.side-skins button[aria-pressed="true"] { border-color: var(--brass); color: var(--paper); box-shadow: var(--glow); }
+.side-stage.loading .side-model::after { content: "Live2D 불러오는 중…"; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 12.5px; color: var(--paper-dim); background: rgba(4,6,8,.7); padding: 4px 10px; }
+.profile-exhibit { margin: 0 0 8px; font-size: 13px; line-height: 1.7; color: var(--paper-dim); }

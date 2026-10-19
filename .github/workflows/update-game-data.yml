@@ -76,7 +76,9 @@ jobs:
 
       - name: 스킬·형상·통찰·광상 설명
         continue-on-error: true
-        run: python scripts/build_skills.py --global ../src/global --out .
+        run: |
+          python scripts/build_skills.py --global ../src/global --out .
+          python scripts/game_profiles.py --global ../src/global --out .
 
       - name: 버전 대표 일러스트 (게임 원본)
         continue-on-error: true
