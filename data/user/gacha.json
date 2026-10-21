@@ -20,7 +20,55 @@
    "amount": 0
   }
  ],
- "banners": [],
+ "banners": [
+  {
+   "id": "mvij7ar3lilrg",
+   "ref": "3.7:anewlyhatchedchapter",
+   "name": "이야기의 부화",
+   "type": "한정",
+   "start": "",
+   "version": "3.7",
+   "pulls": 320,
+   "results": [
+    {
+     "char": 3108,
+     "at": 3,
+     "lost": true
+    },
+    {
+     "char": 3146,
+     "at": 5
+    },
+    {
+     "char": 3146,
+     "at": 72
+    },
+    {
+     "char": 3144,
+     "at": 136,
+     "lost": true
+    },
+    {
+     "char": 3146,
+     "at": 139
+    },
+    {
+     "char": 3146,
+     "at": 215
+    },
+    {
+     "char": 3121,
+     "at": 276,
+     "lost": true
+    },
+    {
+     "char": 3146,
+     "at": 317
+    }
+   ],
+   "note": ""
+  }
+ ],
  "wishlist": [
   {
    "char": 3156,

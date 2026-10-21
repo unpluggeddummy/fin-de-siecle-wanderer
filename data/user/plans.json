@@ -91,6 +91,11 @@
    "done": false
   }
  ],
- "inventory": {},
+ "inventory": {
+  "Sharpodonty": 5082000,
+  "Dust": 11977000,
+  "Mistilteinn": 1,
+  "Fruit of Good and Evil": 1
+ },
  "materialNames": {}
 }

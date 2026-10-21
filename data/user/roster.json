@@ -1893,7 +1893,8 @@
     5,
     4,
     2,
-    6
+    6,
+    14
    ],
    "psychube": 1551,
    "skin": 312302,
@@ -2153,7 +2154,7 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
+   "resonance": 13,
    "portray": 0,
    "euphoria": 0,
    "euphoriaLevel": 0,

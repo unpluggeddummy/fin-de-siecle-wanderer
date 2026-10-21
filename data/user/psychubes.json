@@ -1,10 +1,5 @@
 {
  "items": {
-  "1000": {
-   "amp": 1,
-   "count": 1,
-   "owned": true
-  },
   "1001": {
    "amp": 1,
    "count": 2,
@@ -519,10 +514,10 @@
    "level": 60
   },
   "1566": {
-   "amp": 1,
+   "amp": 2,
+   "level": 60,
    "count": 1,
-   "owned": true,
-   "level": 60
+   "owned": true
   },
   "1567": {
    "amp": 5,
@@ -567,10 +562,10 @@
    "level": 60
   },
   "1574": {
-   "amp": 1,
+   "amp": 2,
+   "level": 60,
    "count": 1,
-   "owned": true,
-   "level": 60
+   "owned": true
   },
   "4104": {
    "amp": 1,
