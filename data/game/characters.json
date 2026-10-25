@@ -2686,7 +2686,7 @@
    }
   ],
   "euphorias": [],
-  "version": "S02",
+  "version": "콜라보",
   "versionEstimated": false,
   "role": "공격",
   "collab": "아토믹 하트"
@@ -3183,7 +3183,7 @@
    }
   ],
   "euphorias": [],
-  "version": "S01",
+  "version": "콜라보",
   "versionEstimated": false,
   "role": "공격",
   "collab": "어쌔신 크리드"
@@ -3963,7 +3963,7 @@
    }
   ],
   "euphorias": [],
-  "version": "S01",
+  "version": "콜라보",
   "versionEstimated": false,
   "role": "공격",
   "collab": "어쌔신 크리드"
@@ -6043,7 +6043,7 @@
    }
   ],
   "euphorias": [],
-  "version": "S01",
+  "version": "콜라보",
   "versionEstimated": false,
   "role": "공격",
   "collab": "어쌔신 크리드"
@@ -6603,7 +6603,7 @@
  {
   "id": 3136,
   "name": {
-   "ko": "<호숫가의 여인>",
+   "ko": "호숫가의 여인",
    "en": "<i>Lady by the Lake</i>",
    "ja": "『湖畔の女性』",
    "zhCN": "《湖边的女人》",
@@ -6923,7 +6923,7 @@
    }
   ],
   "euphorias": [],
-  "version": "S02",
+  "version": "콜라보",
   "versionEstimated": false,
   "role": "보조",
   "collab": "아토믹 하트"
