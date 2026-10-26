@@ -160,7 +160,38 @@ def main():
             return "event"
         return "other"
 
-    def skin_images(sid):
+    def base_art(sid):
+        """기본·통찰 스킨 그림: 예전부터 있던 카드형(328×460) 그림만 쓴다.
+        중국 서버 자료의 store/skin(이벤트 포스터)·characterskin(전신 스프라이트)은 카드에 맞지 않아서
+        새로 만들지 않고, 그렇게 만들어진 파일이 있으면 지운다 → 사이트는 대표 이미지(char/)를 쓴다."""
+        dest = os.path.join(a.out, "assets", "img", "skin", f"{sid}.webp")
+        if not os.path.exists(dest):
+            return None
+        if Image is None:
+            return f"assets/img/skin/{sid}.webp"
+        try:
+            with Image.open(dest) as im:
+                w, h = im.size
+        except Exception:
+            w, h = 0, 0
+        if w and w <= 340 and 1.3 <= h / w <= 1.6:
+            return f"assets/img/skin/{sid}.webp"
+        try:
+            os.remove(dest)
+            print(f"  · 카드에 맞지 않는 기본/통찰 그림 지움: skin/{sid}.webp ({w}×{h})")
+        except OSError:
+            pass
+        return None
+
+    def skin_images(sid, base=False):
+        if base:
+            portrait = imgs.put([
+                os.path.join(avatar_dir, f"{sid}.webp"),
+                os.path.join(CN, "headicon_middle", f"{sid}.png"),
+                os.path.join(CN, "headskinicon_middle", f"{sid}.png"),
+                os.path.join(CN, "headicon_small", f"{sid}.png"),
+            ], f"char/{sid}.webp", max_w=360)
+            return portrait, base_art(sid)
         portrait = imgs.put([
             os.path.join(avatar_dir, f"{sid}.webp"),
             os.path.join(CN, "headicon_middle", f"{sid}.png"),
@@ -205,8 +236,8 @@ def main():
         char_skins = sorted(skins_by_char.get(cid, []), key=lambda s: s["id"])
         sk_ids = []
         for s in char_skins:
-            portrait, art = skin_images(s["id"])
             t = acquire_type(s)
+            portrait, art = skin_images(s["id"], base=t in ("default", "insight"))
             skin_name = names_of(s["name"])
             skins_out.append({
                 "id": s["id"], "char": cid, "type": t,
@@ -245,7 +276,7 @@ def main():
         sk_ids = []
         for s in r["skins"]:
             sid = int(s["variantId"])
-            portrait, art = skin_images(sid)
+            portrait, art = skin_images(sid, base=s["type"] in ("default", "insight"))
             skins_out.append({
                 "id": sid, "char": cid, "type": "default" if s["type"] == "default" else ("insight" if s["type"] == "insight" else "shop"),
                 "name": nm["ko"] if s["type"] in ("default", "insight") else (s.get("skinName") or ""),
