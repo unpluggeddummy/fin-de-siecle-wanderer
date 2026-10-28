@@ -1406,10 +1406,12 @@
    "tunings": [
     14
    ],
-   "psychube": 1436,
    "skin": 309503,
    "spectrum": "",
-   "note": ""
+   "note": "",
+   "psychubes": [
+    1436
+   ]
   },
   "3096": {
    "owned": true,
@@ -2339,6 +2341,22 @@
    "tuning": null,
    "tunings": [],
    "psychube": null,
+   "skin": null,
+   "spectrum": "",
+   "note": ""
+  },
+  "3158": {
+   "owned": false,
+   "level": 1,
+   "insight": 0,
+   "resonance": 1,
+   "portray": 0,
+   "euphoria": 0,
+   "euphorias": [],
+   "euphoriaLevel": 0,
+   "tuning": null,
+   "tunings": [],
+   "psychubes": [],
    "skin": null,
    "spectrum": "",
    "note": ""
