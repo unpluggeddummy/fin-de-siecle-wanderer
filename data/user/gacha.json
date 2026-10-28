@@ -5,19 +5,15 @@
  "currencies": [
   {
    "name": "순결의 빗방울",
-   "amount": 0
+   "amount": 1040
   },
   {
    "name": "순수의 빗방울",
-   "amount": 0
+   "amount": 15
   },
   {
    "name": "모노로그",
-   "amount": 0
-  },
-  {
-   "name": "데카로그",
-   "amount": 0
+   "amount": 1
   }
  ],
  "banners": [
@@ -67,6 +63,47 @@
     }
    ],
    "note": ""
+  },
+  {
+   "id": "mvrzrsltxvb6w",
+   "name": "탈피의 이름",
+   "type": "한정",
+   "start": "2026-09-03",
+   "version": "3.7",
+   "pulls": 310,
+   "results": [
+    {
+     "char": 3147,
+     "at": 16
+    },
+    {
+     "char": 3147,
+     "at": 92
+    },
+    {
+     "char": 3147,
+     "at": 122
+    },
+    {
+     "char": 3056,
+     "at": 188,
+     "lost": true
+    },
+    {
+     "char": 3147,
+     "at": 248
+    },
+    {
+     "char": 3147,
+     "at": 265
+    },
+    {
+     "char": 3147,
+     "at": 310
+    }
+   ],
+   "note": "",
+   "ref": "3.7:beneaththeguiseofhercocoon"
   }
  ],
  "wishlist": [
