@@ -427,14 +427,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/301001.webp",
-  "art": "assets/img/skin/301001.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "1.0",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 301002,
@@ -5974,14 +5973,13 @@
   "rare": 4,
   "gain": 0,
   "portrait": "assets/img/char/311801.webp",
-  "art": "assets/img/skin/311801.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "2.7",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 311802,
@@ -6442,15 +6440,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/312401.webp",
-  "art": "assets/img/skin/312401.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "S01",
   "order": null,
-  "collab": "어쌔신 크리드",
-  "artSource": "fandom"
+  "collab": "어쌔신 크리드"
  },
  {
   "id": 312402,
@@ -6592,14 +6589,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/313401.webp",
-  "art": "assets/img/skin/313401.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.2",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 313402,
@@ -6610,15 +6606,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/313402.webp",
-  "art": "assets/img/skin/313402.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.2",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 313501,
@@ -6629,14 +6624,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/313501.webp",
-  "art": "assets/img/skin/313501.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.2",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 313502,
@@ -6647,15 +6641,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/313502.webp",
-  "art": "assets/img/skin/313502.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.2",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 312701,
@@ -6666,14 +6659,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/312701.webp",
-  "art": "assets/img/skin/312701.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.3",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 312702,
@@ -6684,15 +6676,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/312702.webp",
-  "art": "assets/img/skin/312702.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.3",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 312703,
@@ -6724,14 +6715,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/309201.webp",
-  "art": "assets/img/skin/309201.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.3",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 309202,
@@ -6742,15 +6732,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/309202.webp",
-  "art": "assets/img/skin/309202.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.3",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 309203,
@@ -6782,14 +6771,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314101.webp",
-  "art": "assets/img/skin/314101.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.4",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 314102,
@@ -6800,15 +6788,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314102.webp",
-  "art": "assets/img/skin/314102.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.4",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 313701,
@@ -6819,14 +6806,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/313701.webp",
-  "art": "assets/img/skin/313701.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.4",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 313702,
@@ -6837,15 +6823,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/313702.webp",
-  "art": "assets/img/skin/313702.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.4",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 313801,
@@ -6856,14 +6841,13 @@
   "rare": 3,
   "gain": 0,
   "portrait": "assets/img/char/313801.webp",
-  "art": "assets/img/skin/313801.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.4",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 313802,
@@ -6874,15 +6858,14 @@
   "rare": 3,
   "gain": 1,
   "portrait": "assets/img/char/313802.webp",
-  "art": "assets/img/skin/313802.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.4",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 313901,
@@ -6893,14 +6876,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/313901.webp",
-  "art": "assets/img/skin/313901.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.5",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 313902,
@@ -6911,15 +6893,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/313902.webp",
-  "art": "assets/img/skin/313902.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.5",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 313903,
@@ -6951,14 +6932,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314201.webp",
-  "art": "assets/img/skin/314201.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.5",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 314202,
@@ -6969,15 +6949,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314202.webp",
-  "art": "assets/img/skin/314202.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.5",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 313601,
@@ -7023,14 +7002,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314301.webp",
-  "art": "assets/img/skin/314301.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.6",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 314302,
@@ -7041,15 +7019,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314302.webp",
-  "art": "assets/img/skin/314302.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.6",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 314601,
@@ -7060,14 +7037,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314601.webp",
-  "art": "assets/img/skin/314601.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.7",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 314602,
@@ -7078,15 +7054,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314602.webp",
-  "art": "assets/img/skin/314602.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.7",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 314701,
@@ -7097,14 +7072,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314701.webp",
-  "art": "assets/img/skin/314701.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.7",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 314702,
@@ -7115,15 +7089,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314702.webp",
-  "art": "assets/img/skin/314702.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.7",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 314401,
@@ -7134,14 +7107,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314401.webp",
-  "art": "assets/img/skin/314401.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.6",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 314402,
@@ -7152,15 +7124,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314402.webp",
-  "art": "assets/img/skin/314402.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.7",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 314403,
@@ -7192,14 +7163,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314501.webp",
-  "art": "assets/img/skin/314501.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.8",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 314502,
@@ -7210,15 +7180,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314502.webp",
-  "art": "assets/img/skin/314502.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.8",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 314503,
@@ -7250,14 +7219,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314001.webp",
-  "art": "assets/img/skin/314001.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.8",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 314002,
@@ -7268,15 +7236,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314002.webp",
-  "art": "assets/img/skin/314002.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.8",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 314003,
@@ -7308,15 +7275,14 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/314901.webp",
-  "art": "assets/img/skin/314901.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "S02",
   "order": null,
-  "collab": "아토믹 하트",
-  "artSource": "fandom"
+  "collab": "아토믹 하트"
  },
  {
   "id": 314902,
@@ -7327,15 +7293,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/314902.webp",
-  "art": "assets/img/skin/314902.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "S02",
   "order": null,
-  "collab": "아토믹 하트",
-  "artSource": "fandom"
+  "collab": "아토믹 하트"
  },
  {
   "id": 314903,
@@ -7368,15 +7333,14 @@
   "rare": 3,
   "gain": 0,
   "portrait": "assets/img/char/315101.webp",
-  "art": "assets/img/skin/315101.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "S02",
   "order": null,
-  "collab": "아토믹 하트",
-  "artSource": "fandom"
+  "collab": "아토믹 하트"
  },
  {
   "id": 315102,
@@ -7387,15 +7351,14 @@
   "rare": 3,
   "gain": 1,
   "portrait": "assets/img/char/315102.webp",
-  "art": "assets/img/skin/315102.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "S02",
   "order": null,
-  "collab": "아토믹 하트",
-  "artSource": "fandom"
+  "collab": "아토믹 하트"
  },
  {
   "id": 315401,
@@ -7406,14 +7369,13 @@
   "rare": 5,
   "gain": 0,
   "portrait": "assets/img/char/315401.webp",
-  "art": "assets/img/skin/315401.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.7",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 315402,
@@ -7424,15 +7386,14 @@
   "rare": 5,
   "gain": 1,
   "portrait": "assets/img/char/315402.webp",
-  "art": "assets/img/skin/315402.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.7",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 315801,
@@ -7443,14 +7404,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315801.webp",
-  "art": "assets/img/skin/315801.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.7",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 315802,
@@ -7461,15 +7421,14 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315802.webp",
-  "art": "assets/img/skin/315802.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "4.0",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 315701,
@@ -7480,14 +7439,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315701.webp",
-  "art": "assets/img/skin/315701.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.7",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 315702,
@@ -7498,15 +7456,14 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315702.webp",
-  "art": "assets/img/skin/315702.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.9",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 315601,
@@ -7517,14 +7474,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315601.webp",
-  "art": "assets/img/skin/315601.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.7",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 315602,
@@ -7535,15 +7491,14 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315602.webp",
-  "art": "assets/img/skin/315602.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.9",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 315501,
@@ -7554,14 +7509,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315501.webp",
-  "art": "assets/img/skin/315501.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.7",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 315502,
@@ -7572,15 +7526,14 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/315502.webp",
-  "art": "assets/img/skin/315502.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "4.0",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 315503,
@@ -7612,14 +7565,13 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/316301.webp",
-  "art": "assets/img/skin/316301.webp",
+  "art": null,
   "cat": "default",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "3.7",
-  "order": null,
-  "artSource": "fandom"
+  "order": null
  },
  {
   "id": 316302,
@@ -7630,15 +7582,14 @@
   "rare": 0,
   "gain": null,
   "portrait": "assets/img/char/316302.webp",
-  "art": "assets/img/skin/316302.webp",
+  "art": null,
   "cat": "insight",
   "series": "",
   "seriesGroup": "",
   "grade": null,
   "version": "4.0",
   "order": null,
-  "source": "2통찰 달성",
-  "artSource": "fandom"
+  "source": "2통찰 달성"
  },
  {
   "id": 304104,
