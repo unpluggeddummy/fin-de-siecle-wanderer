@@ -92,7 +92,7 @@ def main():
             pick = int(m.group(1)) if m else None
         desc = kr.get(p.get("desc"), p.get("desc") or "")
         half = "전반" if "上半" in desc else "후반" if "下半" in desc else None
-        pools.append({"pid": p["id"], "v": v, "kind": kind, "ko": tr(p.get("nameCn")), "en": tr(p.get("nameEn")),
+        pools.append({"pid": p["id"], "v": v, "kind": kind, "ko": tr(p.get("nameCn")), "en": re.sub(r"\blron\b", "Iron", tr(p.get("nameEn"))),
                       "six": six, "five": five, "choices": choices, "pick": pick, "half": half, "art": p.get("banner") or ""})
     pools.sort(key=lambda x: (vnum(x["v"]), x["pid"]))
 

@@ -95,6 +95,14 @@ jobs:
       - name: 버전별 모집 배너와 지금 한섭 버전 갱신
         run: python scripts/summons_from_game.py --global ../src/global --cn ../src/cn --out .
 
+      - name: 새 배너에 위키의 네모난 배너 그림 붙이기
+        continue-on-error: true
+        run: python scripts/wiki_banners.py --out .
+
+      - name: 한섭 버전·픽업 기간 (시뮬레이터 미래시)
+        continue-on-error: true
+        run: python scripts/kr_schedule.py --out .
+
       - name: 바뀐 내용 커밋
         run: |
           git config user.name "github-actions[bot]"
