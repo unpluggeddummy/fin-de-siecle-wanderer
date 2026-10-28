@@ -73,7 +73,9 @@ def main():
     cp = os.path.join(a.out, "data", "game", "characters.json")
     skins = json.load(open(sp, encoding="utf-8"))
     chars = {c["id"]: c for c in json.load(open(cp, encoding="utf-8"))}
-    todo = [s for s in skins if not s.get("art") and s["type"] in ("shop", "shop-art", "event", "insight", "default")]
+    # 기본·통찰 스킨은 대표 이미지(char/)가 이미 좋은 일러스트라 채우지 않는다.
+    # (위키 검색으로는 모집 포스터나 전신 스프라이트가 걸려서 카드가 망가졌다)
+    todo = [s for s in skins if not s.get("art") and s["type"] in ("shop", "shop-art", "event")]
     print(f"그림 없는 스킨 {len(todo)}개")
     filled = 0
     for s in todo[: a.limit]:
@@ -84,7 +86,9 @@ def main():
             titles = pick(search_files(q), en, skin_en or en)
             for t in titles[:3]:
                 url, w, h = file_url(t)
-                if not url or h < w:  # 세로 그림만
+                if not url or h < w or h > w * 2.2:  # 세로 그림만 (전신 스프라이트처럼 너무 긴 건 제외)
+                    continue
+                if any(k in norm(t) for k in ("banner", "poster", "limited", "arrival", "summon", "pv")):
                     continue
                 img = requests.get(url, headers=UA, timeout=60)
                 img.raise_for_status()
