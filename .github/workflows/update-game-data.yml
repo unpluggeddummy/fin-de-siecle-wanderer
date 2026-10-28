@@ -49,6 +49,7 @@ jobs:
           git sparse-checkout init --no-cone
           cat > .git/info/sparse-checkout <<'LIST'
           /singlebg/store/skin/
+          /singlebg/summon/banner/*.png
           /singlebg/characterskin/*.png
           /singlebg/headicon_middle/
           /singlebg/headskinicon_middle/
@@ -90,6 +91,9 @@ jobs:
       - name: 빠진 스킨 그림을 팬덤 위키에서 채우기
         continue-on-error: true
         run: python scripts/fill_from_wiki.py --out .
+
+      - name: 버전별 모집 배너와 지금 한섭 버전 갱신
+        run: python scripts/summons_from_game.py --global ../src/global --cn ../src/cn --out .
 
       - name: 바뀐 내용 커밋
         run: |

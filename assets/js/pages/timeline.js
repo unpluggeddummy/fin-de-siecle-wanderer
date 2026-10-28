@@ -147,26 +147,31 @@ function detail(root, v, list) {
 }
 
 /** 모집 배너 카드 — 도감과 연대기에서 같이 쓴다 */
+const KIND_KO = { pickup: '한정 픽업', collab: '콜라보 픽업', ripples: '6성 고르기', select: '고르기 확률업', double: '6성 2명 확률업', special: '특별 모집' };
 export function summonCard(s, v, myBanners = store.state.user.gacha?.banners || [], editing = store.state.editing) {
   const mine = myBanners.filter((b) => b.ref === s.id);
   const pulls = mine.reduce((a, b) => a + (+b.pulls || 0), 0);
   const six = s.six.map((id) => store.charById(id)).filter(Boolean);
   const five = s.five.map((id) => store.charById(id)).filter(Boolean);
+  const choices = (s.choices || []).map((id) => store.charById(id)).filter(Boolean);
   return h('article.tl-su',
     s.banner ? h('button.tl-su-img', { type: 'button', onclick: () => lightbox(s.banner, s.name.ko || s.name.en) }, img(s.banner, '')) : null,
     h('div.tl-su-body',
       h('b', s.name.ko || s.name.en), s.name.ko ? h('small.en', s.name.en) : null,
-      s.time ? h('small.faint', s.time) : null,
+      s.time || KIND_KO[s.kind] ? h('small.faint', [KIND_KO[s.kind] ? h('span.tl-su-kind', KIND_KO[s.kind]) : null, s.time].filter(Boolean)) : null,
       six.length || five.length ? h('div.tl-su-ups',
         six.map((c) => h('span.up6', face(c))), five.map((c) => h('span.up5', face(c)))) : null,
+      choices.length ? h('div.tl-su-choice', h('small.faint', `이 중 ${s.pick || 1}명 고르기`), h('div.tl-su-ups', choices.map((c) => h('span.up6', face(c))))) : null,
+      !choices.length && s.kind === 'select' ? h('small.faint', s.pick ? `원하는 6성 ${s.pick}명을 골라 확률업` : '원하는 6성을 골라 확률업') : null,
       h('div.tl-su-foot',
         mine.length ? h('a.mine', { href: '#/gacha' }, `내 기록 ${pulls}회`) : null,
         editing && !mine.length ? h('button.btn.small', { type: 'button', onclick: () => addToGacha(s, v) }, '모집 기록에 추가') : null)));
 }
 
+export const bannerType = (s) => s.rerun ? '복각' : ['ripples', 'select'].includes(s.kind) ? '상시' : (s.six.length ? '한정' : '기타');
 export function addToGacha(s, v) {
   store.update('gacha', (g) => {
-    g.banners.push({ id: uid(), ref: s.id, name: s.name.ko || s.name.en, type: s.rerun ? '복각' : (s.six.length ? '한정' : '기타'),
+    g.banners.push({ id: uid(), ref: s.id, name: s.name.ko || s.name.en, type: bannerType(s),
       start: '', version: v.id || v, pulls: 0, results: [], note: '' });
   });
   toast('모집 기록에 배너를 추가했어요. 모집 기록 화면에서 횟수와 결과를 적어 주세요.');
