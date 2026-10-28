@@ -1,5 +1,5 @@
 {
- "pity": 0,
+ "pity": 28,
  "pityLimit": 70,
  "guaranteed": false,
  "currencies": [
@@ -104,6 +104,74 @@
    ],
    "note": "",
    "ref": "3.7:beneaththeguiseofhercocoon"
+  },
+  {
+   "id": "mvs0ub2l63ube",
+   "ref": "3.8:pool38111",
+   "name": "과거는 내 부름에 응답하리",
+   "type": "한정",
+   "start": "2026-09-24",
+   "version": "3.8",
+   "pulls": 320,
+   "results": [
+    {
+     "char": 3145,
+     "at": 68
+    },
+    {
+     "char": 3081,
+     "at": 137,
+     "lost": true
+    },
+    {
+     "char": 3145,
+     "at": 192
+    },
+    {
+     "char": 3121,
+     "at": 252,
+     "lost": true
+    },
+    {
+     "char": 3145,
+     "at": 317
+    }
+   ],
+   "note": "영성 현상액 (이졸데)"
+  },
+  {
+   "id": "mvs0uc7cl8ggd",
+   "ref": "3.8:pool38121",
+   "name": "미래의 초석",
+   "type": "한정",
+   "start": "",
+   "version": "3.8",
+   "pulls": 230,
+   "results": [
+    {
+     "char": 3144,
+     "at": 29,
+     "lost": true
+    },
+    {
+     "char": 3140,
+     "at": 92
+    },
+    {
+     "char": 3121,
+     "at": 159,
+     "lost": true
+    },
+    {
+     "char": 3140,
+     "at": 176
+    },
+    {
+     "char": 3140,
+     "at": 202
+    }
+   ],
+   "note": ""
   }
  ],
  "wishlist": [
