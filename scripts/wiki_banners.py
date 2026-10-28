@@ -23,8 +23,17 @@ UA = {"User-Agent": "fin-de-siecle-wanderer/1.0 (personal archive; github.com/un
 FIX = {"lron": "Iron"}  # 게임 데이터 영문 오타
 
 
+KO_EN = {}  # 한국어 배너 이름 → 위키 영문 이름 (게임 데이터 영문이 대문자뿐일 때)
+
+
+def ko_key(s):
+    return re.sub(r"\s|\(복각\)", "", (s.get("name") or {}).get("ko") or "")
+
+
 def en_name(s):
     en = (s.get("name") or {}).get("en") or ""
+    if en.isupper() and KO_EN.get(ko_key(s)):
+        en = KO_EN[ko_key(s)]
     en = re.sub(r"\s*\((Rerun|Re-run)\)\s*$", "", en, flags=re.I).strip()
     for a, b in FIX.items():
         en = re.sub(rf"\b{a}\b", b, en)
@@ -72,12 +81,29 @@ def lookup(titles):
     return found
 
 
+def vorder(v):
+    m = re.match(r"^(\d+)\.(\d+)$", v["id"])
+    return int(m.group(1)) * 100 + int(m.group(2)) if m else {"S01": 300.5, "S02": 308.5}.get(v["id"], 999)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default=".")
     a = ap.parse_args()
     vp = os.path.join(a.out, "data", "game", "versions.json")
     versions = json.load(open(vp, encoding="utf-8"))
+    for v in versions:
+        for s in v.get("summons", []):
+            en = (s.get("name") or {}).get("en") or ""
+            if en and not en.isupper() and ko_key(s):
+                KO_EN.setdefault(ko_key(s), re.sub(r"\s*\((Rerun|Re-run)\)\s*$", "", en, flags=re.I))
+    # 복각: 위키에서 못 찾으면 처음 열렸을 때의 네모 배너를 같이 쓴다
+    first = {}
+    for v in sorted(versions, key=vorder):
+        for s in v.get("summons", []):
+            b = s.get("banner") or ""
+            if b and (s.get("bannerSrc") == "wiki" or not b.startswith("assets/img/summon/")):
+                first.setdefault(ko_key(s), b)
     todo = []
     for v in versions:
         for s in v.get("summons", []):
@@ -95,6 +121,9 @@ def main():
     for v, s, c in todo:
         hit = next((found[t] for t in c if t in found and found[t][1] >= found[t][2] * 1.4), None)
         if not hit:
+            if s.get("rerun") and first.get(ko_key(s)):
+                s["banner"], s["bannerSrc"] = first[ko_key(s)], "wiki"
+                got += 1
             continue
         url = hit[0]
         try:
