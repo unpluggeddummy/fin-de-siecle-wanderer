@@ -97,12 +97,10 @@
    "euphoriaLevel": 4,
    "tuning": null,
    "tunings": [],
+   "psychube": null,
    "skin": 300904,
    "spectrum": "",
-   "note": "",
-   "psychubes": [
-    1430
-   ]
+   "note": ""
   },
   "3010": {
    "owned": true,
@@ -1406,12 +1404,10 @@
    "tunings": [
     14
    ],
+   "psychube": 1436,
    "skin": 309503,
    "spectrum": "",
-   "note": "",
-   "psychubes": [
-    1436
-   ]
+   "note": ""
   },
   "3096": {
    "owned": true,
@@ -1698,7 +1694,11 @@
    "note": "",
    "euphorias": [
     1
-   ]
+   ],
+   "tunings": [
+    4
+   ],
+   "tuning": 4
   },
   "3112": {
    "owned": true,
@@ -1895,8 +1895,7 @@
     5,
     4,
     2,
-    6,
-    14
+    6
    ],
    "psychube": 1551,
    "skin": 312302,
@@ -2156,7 +2155,7 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 13,
+   "resonance": 10,
    "portray": 0,
    "euphoria": 0,
    "euphoriaLevel": 0,
@@ -2167,7 +2166,8 @@
    "note": "",
    "tuning": 2,
    "tunings": [
-    2
+    2,
+    6
    ]
   },
   "3143": {
@@ -2273,13 +2273,10 @@
    "tunings": [
     5
    ],
+   "psychube": 1571,
    "skin": 314903,
    "spectrum": "",
-   "note": "예술 원자력, 과학 안무법 모두 장착... - 기능 수정 필요",
-   "psychubes": [
-    1571,
-    1572
-   ]
+   "note": "예술 원자력, 과학 안무법 모두 장착... - 기능 수정 필요"
   },
   "3151": {
    "owned": true,
@@ -2341,22 +2338,6 @@
    "tuning": null,
    "tunings": [],
    "psychube": null,
-   "skin": null,
-   "spectrum": "",
-   "note": ""
-  },
-  "3158": {
-   "owned": false,
-   "level": 1,
-   "insight": 0,
-   "resonance": 1,
-   "portray": 0,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychubes": [],
    "skin": null,
    "spectrum": "",
    "note": ""
