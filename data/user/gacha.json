@@ -172,6 +172,31 @@
     }
    ],
    "note": ""
+  },
+  {
+   "id": "mvy0414p6wh1y",
+   "ref": "3.8:pool38161",
+   "name": "호수의 물결",
+   "type": "상시",
+   "start": "2026-09-24",
+   "version": "3.8",
+   "pulls": 180,
+   "results": [
+    {
+     "char": 3094,
+     "at": 38
+    },
+    {
+     "char": 3084,
+     "at": 102,
+     "lost": true
+    },
+    {
+     "char": 3094,
+     "at": 170
+    }
+   ],
+   "note": ""
   }
  ],
  "wishlist": [
