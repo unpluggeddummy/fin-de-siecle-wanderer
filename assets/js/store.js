@@ -69,6 +69,16 @@ export async function loadAll() {
   );
   // 위키에서 가져온 자료 (없어도 사이트는 돌아가게)
   const [npcs, stories, versions, profiles, versionArt] = await Promise.all(['npcs', 'stories', 'versions', 'profiles', 'version-art'].map((n) => getJSON(`data/game/${n}.json`).catch(() => (n === 'profiles' || n === 'version-art' ? {} : []))));
+  // 손으로 적은 미래 버전(게임 데이터가 아직 없을 때만 채움)
+  const manual = await getJSON('data/game/manual-versions.json').catch(() => null);
+  for (const mv of manual?.versions || []) {
+    const cur = versions.find((x) => x.id === mv.id);
+    if (!cur) { versions.push({ title: {}, periods: {}, newChars: [], events: [], summons: [], garments: [], ...mv, manual: true }); continue; }
+    cur.title = (cur.title?.ko || cur.title?.en) ? cur.title : mv.title;
+    cur.periods = { ...(mv.periods || {}), ...(cur.periods || {}) };
+    for (const k of ['newChars', 'events', 'summons', 'garments']) if (!(cur[k] || []).length && (mv[k] || []).length) { cur[k] = mv[k]; cur.manual = true; }
+    if (!cur.tagline && mv.tagline) cur.tagline = mv.tagline;
+  }
   state.game = { characters, skins, psychubes, materials, bulletin, meta, npcs, stories, versions, profiles, versionArt, skills: null };
   indexGame();
   await loadUser();

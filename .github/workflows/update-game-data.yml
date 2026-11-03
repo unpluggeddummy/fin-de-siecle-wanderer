@@ -44,7 +44,20 @@ jobs:
           git clone --depth 1 https://github.com/windbow27/kornblume.git kornblume
           git clone --depth 1 --filter=blob:none --sparse https://github.com/UnderLotus/r1999-roster.git roster
           (cd roster && git sparse-checkout set src/data public/assets/characters/avatars)
-          git clone --depth 1 --filter=blob:none --no-checkout https://github.com/myssal/Reverse-1999-CN-Asset.git cn
+          # 중섭 에셋: 후보 저장소 중 가장 최근에 갱신된 곳을 고른다 (같은 singlebg 구조)
+          best=""; best_t=0
+          for r in myssal/Reverse-1999-CN-Asset myssal/Reverse1999CN wumail/Reverse-1999-CN-Asset; do
+            d="probe-$(echo $r | tr / _)"
+            if timeout 120 git clone -q --depth 1 --filter=tree:0 --no-checkout "https://github.com/$r.git" "$d" 2>/dev/null; then
+              t=$(git -C "$d" log -1 --format=%ct); echo "$r 마지막 갱신: $(date -u -d @$t +%F)"
+              if [ "$t" -gt "$best_t" ]; then best="$r"; best_t=$t; fi
+            else echo "$r 확인 실패, 건너뜀"; fi
+            rm -rf "$d"
+          done
+          [ -n "$best" ] || best=myssal/Reverse-1999-CN-Asset
+          echo "중섭 에셋은 $best 를 씁니다 ($(date -u -d @$best_t +%F))"
+          echo "$best" > cn-source.txt
+          git clone --depth 1 --filter=blob:none --no-checkout "https://github.com/$best.git" cn
           cd cn
           git sparse-checkout init --no-cone
           cat > .git/info/sparse-checkout <<'LIST'
@@ -94,6 +107,10 @@ jobs:
 
       - name: 버전별 모집 배너와 지금 한섭 버전 갱신
         run: python scripts/summons_from_game.py --global ../src/global --cn ../src/cn --out .
+
+      - name: 灰機 위키 살펴보기 (새 그림 이름 규칙 확인용, 지금은 채우지 않음)
+        continue-on-error: true
+        run: python scripts/fill_from_huiji.py --out .
 
       - name: 새 배너에 위키의 네모난 배너 그림 붙이기
         continue-on-error: true

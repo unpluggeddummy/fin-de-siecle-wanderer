@@ -24,6 +24,8 @@ export function allVersions() {
   }).sort((a, b) => store.verNum(b.id) - store.verNum(a.id));
 }
 
+/** 손으로 적은 이름 → 게임 데이터에 들어온 출품작 (들어오면 이름 칸 대신 얼굴) */
+const byName = (n) => store.state.game.characters.find((c) => c.name.ko === n.ko || (n.en && c.name.en === n.en));
 const face = (c) => h('a.tl-face', { href: `#/roster/${c.id}`, class: afClass(c), title: store.charName(c) }, img(store.charPortrait(c), store.charName(c)));
 const vTitle = (v) => v.title?.ko || v.title?.en || (v.stories.find((s) => s.cat === 'mainevent' || s.cat === 'main')?.name.ko) || '';
 
@@ -112,6 +114,7 @@ function detail(root, v, list) {
       const c = n.char && store.charById(n.char);
       return h(c ? 'a.tl-pcard' : 'div.tl-pcard', c ? { href: `#/roster/${c.id}` } : {}, img(n.poster, ''), h('span', c ? store.charName(c) : n.en));
     })) : null,
+    v.newChars.filter((n) => !n.poster && !n.char && n.ko && !byName(n)).length ? h('div.tl-faces.big', v.newChars.filter((n) => !n.poster && !n.char && n.ko && !byName(n)).map((n) => h('span.tl-namedface', h('span.tl-noface.big', n.ko.slice(0, 1)), h('small', n.ko), n.story ? h('small.faint', n.story) : null))) : null,
     v.chars.filter((c) => !shown.has(c.id)).length ? h('div.tl-faces.big', v.chars.filter((c) => !shown.has(c.id)).map((c) => h('span.tl-namedface', face(c), h('small', store.charName(c))))) : null,
   ]));
 
@@ -134,9 +137,10 @@ function detail(root, v, list) {
     const c = gm.char && store.charById(gm.char);
     const sk = gm.skin && store.skinById(gm.skin);
     const owned = gm.skin && u.skins?.items?.[gm.skin]?.owned;
-    return h('button.tl-gm', { type: 'button', onclick: () => lightbox(gm.poster, `${c ? store.charName(c) : ''} — ${sk?.name || gm.en}`) },
+    return h('button.tl-gm', { type: 'button', onclick: () => gm.poster && lightbox(gm.poster, `${c ? store.charName(c) : ''} — ${sk?.name || gm.en}`) },
       gm.poster ? img(gm.poster, '') : null,
-      h('span', h('b', sk?.name || gm.en), h('small', c ? store.charName(c) : ''), owned ? h('em.owned', '보유') : null));
+      gm.poster ? null : (c ? h('span.tl-gm-face', img(store.charPortrait(c), '')) : null),
+      h('span', h('b', sk?.name || gm.en), h('small', [c ? store.charName(c) : '', gm.grade, gm.src].filter(Boolean).join(' · ')), owned ? h('em.owned', '보유') : null));
   })) : null));
 
   if (bulletin) {
@@ -144,6 +148,7 @@ function detail(root, v, list) {
     root.append(section('Bulletin', '갈기의 게시판', h('a.tl-bosses', { href: '#/bulletin' }, bulletin.bosses.map((b) => h('span.tl-boss',
       b.image ? img(b.image, '') : null, h('b', b.name), h('small', rec[b.stage]?.score ? `${(+rec[b.stage].score).toLocaleString('ko-KR')}점` : '기록 없음'))))));
   }
+  if (v.manual) root.append(h('p.faint.story-src', `이 버전은 게임 데이터가 아직 없어서 손으로 적은 정보예요(${v.source || '중섭 공개 정보'}). 한국어 이름은 가칭이고, 한섭 정보가 나오면 게임 데이터로 바뀌어요.`));
   root.append(h('p.faint.story-src', '버전 정보·그림: Reverse: 1999 Wiki (CC BY-SA 3.0), 모집 배너 이름·픽업 출품작: 게임 데이터'));
 }
 
@@ -152,7 +157,8 @@ const KIND_KO = { pickup: '한정 픽업', collab: '콜라보 픽업', ripples: 
 export function summonCard(s, v, myBanners = store.state.user.gacha?.banners || [], editing = store.state.editing) {
   const mine = myBanners.filter((b) => b.ref === s.id);
   const pulls = mine.reduce((a, b) => a + (+b.pulls || 0), 0);
-  const six = s.six.map((id) => store.charById(id)).filter(Boolean);
+  const named = (s.sixNames || []).map((n) => ({ n, c: byName({ ko: n }) }));
+  const six = s.six.map((id) => store.charById(id)).filter(Boolean).concat(named.filter((x) => x.c).map((x) => x.c));
   const five = s.five.map((id) => store.charById(id)).filter(Boolean);
   const choices = (s.choices || []).map((id) => store.charById(id)).filter(Boolean);
   return h('article.tl-su',
@@ -160,8 +166,8 @@ export function summonCard(s, v, myBanners = store.state.user.gacha?.banners || 
     h('div.tl-su-body',
       h('b', s.name.ko || s.name.en), s.name.ko ? h('small.en', s.name.en) : null,
       s.kr || s.time || KIND_KO[s.kind] ? h('small.faint', [KIND_KO[s.kind] ? h('span.tl-su-kind', KIND_KO[s.kind]) : null, s.kr ? `한섭 ${s.kr}` : s.time].filter(Boolean)) : null,
-      six.length || five.length ? h('div.tl-su-ups',
-        six.map((c) => h('span.up6', face(c))), five.map((c) => h('span.up5', face(c)))) : null,
+      six.length || five.length || named.length ? h('div.tl-su-ups',
+        six.map((c) => h('span.up6', face(c))), named.filter((x) => !x.c).map((x) => h('span.up6.tl-noface', x.n)), five.map((c) => h('span.up5', face(c)))) : null,
       choices.length ? h('div.tl-su-choice', h('small.faint', `이 중 ${s.pick || 1}명 고르기`), h('div.tl-su-ups', choices.map((c) => h('span.up6', face(c))))) : null,
       !choices.length && s.kind === 'select' ? h('small.faint', s.pick ? `원하는 6성 ${s.pick}명을 골라 확률업` : '원하는 6성을 골라 확률업') : null,
       h('div.tl-su-foot',
@@ -169,7 +175,7 @@ export function summonCard(s, v, myBanners = store.state.user.gacha?.banners || 
         editing && !mine.length ? h('button.btn.small', { type: 'button', onclick: () => addToGacha(s, v) }, '모집 기록에 추가') : null)));
 }
 
-export const bannerType = (s) => s.rerun ? '복각' : ['ripples', 'select'].includes(s.kind) ? '상시' : (s.six.length ? '한정' : '기타');
+export const bannerType = (s) => s.rerun ? '복각' : ['ripples', 'select'].includes(s.kind) ? '상시' : (s.six.length || (s.sixNames || []).length ? '한정' : '기타');
 export function addToGacha(s, v) {
   store.update('gacha', (g) => {
     g.banners.push({ id: uid(), ref: s.id, name: s.name.ko || s.name.en, type: bannerType(s),
