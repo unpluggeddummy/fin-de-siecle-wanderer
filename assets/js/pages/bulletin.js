@@ -161,7 +161,7 @@ function editBoss(season, b) {
   drawShot();
 
   const body = [
-    b.image ? h('div', { style: { height: '120px', overflow: 'hidden', borderRadius: '8px', marginBottom: '14px', background: '#0b1714' } },
+    b.image ? h('div', { style: { height: '120px', overflow: 'hidden', borderRadius: '8px', marginBottom: '14px', background: 'var(--night)' } },
       h('img', { src: b.image, alt: '', style: { height: '150px', marginLeft: 'auto' } })) : null,
     h('div.fields.form-row',
       field('점수', h('input', { type: 'number', min: 0, inputmode: 'numeric', value: cur.score || '',

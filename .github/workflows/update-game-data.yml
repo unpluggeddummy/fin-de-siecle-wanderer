@@ -108,10 +108,6 @@ jobs:
       - name: 버전별 모집 배너와 지금 한섭 버전 갱신
         run: python scripts/summons_from_game.py --global ../src/global --cn ../src/cn --out .
 
-      - name: 灰機 위키 살펴보기 (새 그림 이름 규칙 확인용, 지금은 채우지 않음)
-        continue-on-error: true
-        run: python scripts/fill_from_huiji.py --out .
-
       - name: 새 배너에 위키의 네모난 배너 그림 붙이기
         continue-on-error: true
         run: python scripts/wiki_banners.py --out .

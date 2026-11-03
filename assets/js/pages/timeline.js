@@ -112,7 +112,7 @@ function detail(root, v, list) {
   root.append(section('New Arcanists', '새 출품작', [
     posters.length ? h('div.tl-posters', posters.map((n) => {
       const c = n.char && store.charById(n.char);
-      return h(c ? 'a.tl-pcard' : 'div.tl-pcard', c ? { href: `#/roster/${c.id}` } : {}, img(n.poster, ''), h('span', c ? store.charName(c) : n.en));
+      return h(c ? 'a.tl-pcard' : 'div.tl-pcard', c ? { href: `#/roster/${c.id}` } : {}, img(n.poster, ''), h('span', c ? store.charName(c) : (n.ko || n.en)));
     })) : null,
     v.newChars.filter((n) => !n.poster && !n.char && n.ko && !byName(n)).length ? h('div.tl-faces.big', v.newChars.filter((n) => !n.poster && !n.char && n.ko && !byName(n)).map((n) => h('span.tl-namedface', h('span.tl-noface.big', n.ko.slice(0, 1)), h('small', n.ko), n.story ? h('small.faint', n.story) : null))) : null,
     v.chars.filter((c) => !shown.has(c.id)).length ? h('div.tl-faces.big', v.chars.filter((c) => !shown.has(c.id)).map((c) => h('span.tl-namedface', face(c), h('small', store.charName(c))))) : null,
