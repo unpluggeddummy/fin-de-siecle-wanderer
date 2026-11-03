@@ -1,9 +1,9 @@
 {
- "nickname": "빈",
+ "nickname": "ロ太入刄",
  "avatar": {
-  "type": "char",
+  "type": "file",
   "char": 3147,
-  "file": null
+  "file": "data/user/shots/avatar-mw0snky4egp0t.webp"
  },
  "lines": [
   "인게임 닉 : 파사",
@@ -24,6 +24,13 @@
     3134,
     3086
    ]
+  },
+  {
+   "label": "사랑에 이유가 있나",
+   "chars": [
+    3116,
+    3139
+   ]
   }
  ],
  "intro": "폭풍우 속에서도 헤테로충은 살아남는다",
@@ -43,7 +50,7 @@
  ],
  "cps": [
   {
-   "name": "불공평하니까!",
+   "name": "불공평",
    "members": [
     3143,
     3086
@@ -96,7 +103,7 @@
     "npc-pyrrhos",
     3132
    ],
-   "note": "가족이되어주라..."
+   "note": "함께 살아가자, 함께 싸우자."
   },
   {
    "name": "독잇벰",
@@ -132,6 +139,10 @@
    "char": 3116,
    "skin": 311603,
    "scale": 1.2
+  },
+  {
+   "char": 3139,
+   "skin": null
   }
  ],
  "showcaseLive2d": false
