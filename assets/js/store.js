@@ -11,7 +11,7 @@ export const SECTIONS = {
   gacha:     { file: 'data/user/gacha.json',     label: '모집 기록',     def: () => ({ pity: 0, pityLimit: 70, guaranteed: false, currencies: [{ name: '순결의 빗방울', amount: 0 }, { name: '순수의 빗방울', amount: 0 }, { name: '모노로그', amount: 0 }, { name: '데카로그', amount: 0 }], banners: [], wishlist: [] }) },
   stories:   { file: 'data/user/stories.json',   label: '스토리 후기',   def: () => ({ posts: [], ratings: {}, read: {} }) },
   profile:   { file: 'data/user/profile.json',   label: '소개',         def: () => defaultProfile() },
-  settings:  { file: 'data/user/settings.json',  label: '설정',         def: () => ({ title: '세기말의 방랑자', titleEn: 'Fin de Siècle Wanderer', subtitle: '리버스: 1999 개인 기록', showNames: false, server: '한섭', currentVersion: '3.8' }) },
+  settings:  { file: 'data/user/settings.json',  label: '설정',         def: () => ({ title: '세기말의 방랑자', titleEn: 'Fin de Siècle Wanderer', subtitle: '리버스: 1999 개인 기록', showNames: false, server: '한섭' }) },
 };
 
 const DRAFT = 'r1999.draft.';
@@ -69,6 +69,16 @@ export async function loadAll() {
   );
   // 위키에서 가져온 자료 (없어도 사이트는 돌아가게)
   const [npcs, stories, versions, profiles, versionArt] = await Promise.all(['npcs', 'stories', 'versions', 'profiles', 'version-art'].map((n) => getJSON(`data/game/${n}.json`).catch(() => (n === 'profiles' || n === 'version-art' ? {} : []))));
+  // 손으로 적은 미래 버전(게임 데이터가 아직 없을 때만 채움)
+  const manual = await getJSON('data/game/manual-versions.json').catch(() => null);
+  for (const mv of manual?.versions || []) {
+    const cur = versions.find((x) => x.id === mv.id);
+    if (!cur) { versions.push({ title: {}, periods: {}, newChars: [], events: [], summons: [], garments: [], ...mv, manual: true }); continue; }
+    cur.title = (cur.title?.ko || cur.title?.en) ? cur.title : mv.title;
+    cur.periods = { ...(mv.periods || {}), ...(cur.periods || {}) };
+    for (const k of ['newChars', 'events', 'summons', 'garments']) if (!(cur[k] || []).length && (mv[k] || []).length) { cur[k] = mv[k]; cur.manual = true; }
+    if (!cur.tagline && mv.tagline) cur.tagline = mv.tagline;
+  }
   state.game = { characters, skins, psychubes, materials, bulletin, meta, npcs, stories, versions, profiles, versionArt, skills: null };
   indexGame();
   await loadUser();
@@ -187,7 +197,18 @@ export const charById = (id) => (isNpcId(id) ? idx.npc.get(id) : idx.char.get(+i
 export const npcList = () => [...idx.npc.values()];
 export const storyById = (id) => idx.story.get(id);
 /** 지금 한섭 버전 (설정에서 바꿀 수 있음) */
-export const currentVersion = () => state.user.settings?.currentVersion || '3.8';
+/** 지금 한섭 버전: 설정에서 직접 정했으면 그 값, 아니면 게임 데이터(매주 자동 갱신)에서 읽은 값 */
+export const currentVersion = () => {
+  const s = state.user.settings || {};
+  if (s.currentVersionManual && s.currentVersion) return s.currentVersion;
+  // 오늘(한국 시간)이 한섭 기간 안에 든 버전이 있으면 그 버전 (기간이 바뀌는 날 바로 넘어가게)
+  const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+  const byDate = (state.game?.versions || []).find((v) => {
+    const m = /(\d{4}-\d{2}-\d{2})\s*~\s*(\d{4}-\d{2}-\d{2})/.exec(v.periods?.kr || '');
+    return m && !/예정/.test(v.periods.kr) && m[1] <= today && today < m[2];
+  });
+  return byDate?.id || state.game?.meta?.krVersion || s.currentVersion || '3.8';
+};
 /** 스킬 설명은 크니까 처음 필요할 때 불러온다 */
 let skillsP = null;
 export function loadSkills() {
