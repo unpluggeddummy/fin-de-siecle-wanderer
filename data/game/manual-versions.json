@@ -1,38 +1,307 @@
 {
-  "_note": "게임 데이터에 아직 없는 미래 버전을 손으로 적어 두는 파일. 같은 버전의 게임 데이터가 들어오면 비어 있는 칸만 이 값으로 채워요(게임 데이터가 우선).",
-  "versions": [
+ "_note": "게임 데이터에 아직 없는 미래 버전을 손으로 적어 두는 파일. 같은 버전의 게임 데이터가 들어오면 비어 있는 칸만 이 값으로 채워요(게임 데이터가 우선).",
+ "versions": [
+  {
+   "id": "3.9",
+   "title": {
+    "ko": "다시 타올라라, 황금빛 바다여!",
+    "en": "Rekindled! Games of the Summer-Gold Sea"
+   },
+   "periods": {
+    "kr": "2026-11-05 ~ 2026-12-17"
+   },
+   "summons": [
     {
-      "id": "4.1",
-      "title": { "ko": "로메넬 저택의 죽음", "en": "A Death at Romenel Manor" },
-      "periods": { "kr": "2027-01-28 ~ 2027-03-04 (예정)" },
-      "tagline": "로메넬 가문의 앨버트 로메넬 살인 사건을 다루는 저택 미스터리. 대영도서관 콜라보 버전.",
-      "newChars": [
-        { "en": "Perchta", "ko": "페르히타", "story": "Snow-Red and Rose-White" },
-        { "en": "Evelyn", "ko": "에블린", "story": "The Treacle Well" }
-      ],
-      "summons": [
-        { "id": "4.1:m-perchta", "name": { "ko": "페르히타 픽업", "en": "Perchta" }, "kind": "pickup", "kr": "2027-01-28 ~ 2027-02-18", "sixNames": ["페르히타"], "six": [], "five": [3024, 3064], "rerun": false, "source": "manual" },
-        { "id": "4.1:m-evelyn", "name": { "ko": "에블린 픽업", "en": "Evelyn" }, "kind": "pickup", "kr": "2027-02-18 ~ 2027-03-04", "sixNames": ["에블린"], "six": [], "five": [3022, 3011], "rerun": false, "source": "manual" },
-        { "id": "4.1:m-ripples", "name": { "ko": "호수의 물결", "en": "Ripples on the Water" }, "kind": "ripples", "six": [], "five": [], "source": "manual" }
-      ],
-      "events": [
-        { "name": { "ko": "문학의 집 · 콜라보 의상 출시", "en": "Literature's Home" }, "time": "대영도서관 콜라보 · 로그인 보상 정화광 의상 할인권" },
-        { "name": { "ko": "독서의 한 켠", "en": "A Corner for Reading" }, "time": "콜라보 스크랩북·장식·움직이는 초상화 판매" },
-        { "name": { "ko": "함께 읽은 기억", "en": "Memories of Reading Together" }, "time": "재료 보상" },
-        { "name": { "ko": "상자 속 사건 파일", "en": "Casebook in a Box" }, "time": "단서 추리 도전" },
-        { "name": { "ko": "해류를 따라서", "en": "Follow the Ocean Currents" }, "time": "지도형 읽기 도전 · 움직이는 초상화" },
-        { "name": { "ko": "갈기의 게시판 [소장판]", "en": "Mane's Bulletin: Collector's Edition" }, "time": "점수 구간을 넘으면 보스 스킬이 바뀌는 새 도전, 지난 보스 재도전" },
-        { "name": { "ko": "신규 광희 · 울리히, 갈기 모래", "en": "New Euphoria" } }
-      ],
-      "garments": [
-        { "char": 3113, "en": "In His Palace", "grade": "Advanced", "src": "대영도서관 콜라보 · 문학의 집" },
-        { "char": 3144, "en": "A World Through the Porthole", "grade": "Advanced", "src": "대영도서관 콜라보 · 문학의 집" },
-        { "char": 3139, "en": "The Beast Within Me", "grade": "Advanced", "src": "대영도서관 콜라보 · 문학의 집" },
-        { "char": 3059, "en": "Reflection of the Self", "grade": "무료", "src": "A Night of the Bizarre" },
-        { "char": 3137, "en": "The Third Second", "grade": "Basic", "src": "Wind of the New World" },
-        { "char": 3127, "en": "Solace for the Lost", "grade": "주크박스", "src": "The Seven Precepts" }
-      ],
-      "source": "중섭 4.1 개발자 방송·PV 정리(UTTU), 한섭 일정은 커뮤니티 미래시표 기준"
+     "id": "3.9:m-hedone",
+     "name": {
+      "ko": "헤도네 픽업",
+      "en": "Hedone"
+     },
+     "kind": "pickup",
+     "kr": "2026-11-05 ~ 2026-11-26",
+     "six": [
+      3156
+     ],
+     "five": [
+      3060,
+      3076
+     ],
+     "rerun": false,
+     "source": "manual"
+    },
+    {
+     "id": "3.9:m-narcissus",
+     "name": {
+      "ko": "나르키소스 픽업",
+      "en": "Narcissus"
+     },
+     "kind": "pickup",
+     "kr": "2026-11-26 ~ 2026-12-17",
+     "six": [
+      3157
+     ],
+     "five": [
+      3078,
+      3010
+     ],
+     "rerun": false,
+     "source": "manual"
+    },
+    {
+     "id": "3.9:m-ripples",
+     "name": {
+      "ko": "호수의 물결",
+      "en": "Ripples on the Water"
+     },
+     "kind": "ripples",
+     "kr": "2026-11-05 ~ 2026-12-17",
+     "six": [],
+     "five": [],
+     "choices": [
+      3121,
+      3111,
+      3025,
+      3062,
+      3114,
+      3116
+     ],
+     "source": "manual"
+    },
+    {
+     "id": "3.9:m-boon",
+     "name": {
+      "en": "Boon of the Water"
+     },
+     "kind": "select",
+     "pick": 3,
+     "kr": "2026-12-01 ~ 2026-12-17",
+     "six": [],
+     "five": [],
+     "choices": [
+      3107,
+      3132,
+      3092,
+      3127,
+      3108,
+      3113,
+      3139,
+      3128,
+      3114
+     ],
+     "source": "manual"
     }
-  ]
+   ],
+   "events": [
+    {
+     "name": {
+      "ko": "다시 타올라라, 황금빛 바다여!",
+      "en": "Rekindled! Games of the Summer-Gold Sea"
+     },
+     "time": "메인 이벤트 · 스토리 11-05 ~ 12-14 · 하드 11-12부터",
+     "story": "mainevent-rekindled-games-of-the-summer-gold-sea"
+    },
+    {
+     "name": {
+      "en": "Hedone's Hoard"
+     },
+     "time": "이벤트 상점 · ~12-17 · 6성 의지 [Arrow of Verdict]"
+    },
+    {
+     "name": {
+      "en": "Ephaistonos Open"
+     },
+     "time": "11-05 ~ 12-14"
+    },
+    {
+     "name": {
+      "en": "Spectator Handbook"
+     },
+     "time": "11-05 ~ 12-14"
+    },
+    {
+     "name": {
+      "en": "Ducks in the Suitcase"
+     },
+     "time": "11-05 ~ 12-17 · 3일 로그인"
+    },
+    {
+     "name": {
+      "en": "A Series of Dusks · Chamber of Sounds"
+     },
+     "time": "11-26 ~ 12-17"
+    },
+    {
+     "name": {
+      "ko": "출석 이벤트 (전·후반)",
+      "en": "Sign-in Event"
+     },
+     "time": "11-05 ~ 11-26 / 11-26 ~ 12-17 · 모집권 14장"
+    }
+   ],
+   "garments": []
+  },
+  {
+   "id": "4.1",
+   "title": {
+    "ko": "로메넬 저택의 죽음",
+    "en": "A Death at Romenel Manor"
+   },
+   "periods": {
+    "kr": "2027-01-28 ~ 2027-03-04 (예정)"
+   },
+   "tagline": "로메넬 가문의 앨버트 로메넬 살인 사건을 다루는 저택 미스터리. 대영도서관 콜라보 버전.",
+   "newChars": [
+    {
+     "en": "Perchta",
+     "ko": "페르히타",
+     "story": "Snow-Red and Rose-White"
+    },
+    {
+     "en": "Evelyn",
+     "ko": "에블린",
+     "story": "The Treacle Well"
+    }
+   ],
+   "summons": [
+    {
+     "id": "4.1:m-perchta",
+     "name": {
+      "ko": "페르히타 픽업",
+      "en": "Perchta"
+     },
+     "kind": "pickup",
+     "kr": "2027-01-28 ~ 2027-02-18",
+     "sixNames": [
+      "페르히타"
+     ],
+     "six": [],
+     "five": [
+      3024,
+      3064
+     ],
+     "rerun": false,
+     "source": "manual"
+    },
+    {
+     "id": "4.1:m-evelyn",
+     "name": {
+      "ko": "에블린 픽업",
+      "en": "Evelyn"
+     },
+     "kind": "pickup",
+     "kr": "2027-02-18 ~ 2027-03-04",
+     "sixNames": [
+      "에블린"
+     ],
+     "six": [],
+     "five": [
+      3022,
+      3011
+     ],
+     "rerun": false,
+     "source": "manual"
+    },
+    {
+     "id": "4.1:m-ripples",
+     "name": {
+      "ko": "호수의 물결",
+      "en": "Ripples on the Water"
+     },
+     "kind": "ripples",
+     "six": [],
+     "five": [],
+     "source": "manual"
+    }
+   ],
+   "events": [
+    {
+     "name": {
+      "ko": "문학의 집 · 콜라보 의상 출시",
+      "en": "Literature's Home"
+     },
+     "time": "대영도서관 콜라보 · 로그인 보상 정화광 의상 할인권"
+    },
+    {
+     "name": {
+      "ko": "독서의 한 켠",
+      "en": "A Corner for Reading"
+     },
+     "time": "콜라보 스크랩북·장식·움직이는 초상화 판매"
+    },
+    {
+     "name": {
+      "ko": "함께 읽은 기억",
+      "en": "Memories of Reading Together"
+     },
+     "time": "재료 보상"
+    },
+    {
+     "name": {
+      "ko": "상자 속 사건 파일",
+      "en": "Casebook in a Box"
+     },
+     "time": "단서 추리 도전"
+    },
+    {
+     "name": {
+      "ko": "해류를 따라서",
+      "en": "Follow the Ocean Currents"
+     },
+     "time": "지도형 읽기 도전 · 움직이는 초상화"
+    },
+    {
+     "name": {
+      "ko": "갈기의 게시판 [소장판]",
+      "en": "Mane's Bulletin: Collector's Edition"
+     },
+     "time": "점수 구간을 넘으면 보스 스킬이 바뀌는 새 도전, 지난 보스 재도전"
+    },
+    {
+     "name": {
+      "ko": "신규 광희 · 울리히, 갈기 모래",
+      "en": "New Euphoria"
+     }
+    }
+   ],
+   "garments": [
+    {
+     "char": 3113,
+     "en": "In His Palace",
+     "grade": "Advanced",
+     "src": "대영도서관 콜라보 · 문학의 집"
+    },
+    {
+     "char": 3144,
+     "en": "A World Through the Porthole",
+     "grade": "Advanced",
+     "src": "대영도서관 콜라보 · 문학의 집"
+    },
+    {
+     "char": 3139,
+     "en": "The Beast Within Me",
+     "grade": "Advanced",
+     "src": "대영도서관 콜라보 · 문학의 집"
+    },
+    {
+     "char": 3059,
+     "en": "Reflection of the Self",
+     "grade": "무료",
+     "src": "A Night of the Bizarre"
+    },
+    {
+     "char": 3137,
+     "en": "The Third Second",
+     "grade": "Basic",
+     "src": "Wind of the New World"
+    },
+    {
+     "char": 3127,
+     "en": "Solace for the Lost",
+     "grade": "주크박스",
+     "src": "The Seven Precepts"
+    }
+   ],
+   "source": "중섭 4.1 개발자 방송·PV 정리(UTTU), 한섭 일정은 커뮤니티 미래시표 기준"
+  }
+ ]
 }

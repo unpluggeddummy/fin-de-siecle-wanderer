@@ -1,11 +1,11 @@
 # 게임 데이터·이미지 갱신
-# 매주 월요일 새벽(한국 시간 05:17)에 자동으로 돌고, 사이트 설정 화면이나 Actions 탭에서 직접 실행할 수도 있다.
+# 매일 새벽(한국 시간 05:17)에 자동으로 돌고, 사이트 설정 화면이나 Actions 탭에서 직접 실행할 수도 있다.
 # 내 기록(data/user)은 건드리지 않는다.
 name: 게임 데이터 갱신
 
 on:
   schedule:
-    - cron: "17 20 * * 0"
+    - cron: "17 20 * * *"
   workflow_dispatch:
     inputs:
       force_images:

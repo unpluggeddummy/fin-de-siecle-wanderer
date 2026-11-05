@@ -76,8 +76,13 @@ export async function loadAll() {
     if (!cur) { versions.push({ title: {}, periods: {}, newChars: [], events: [], summons: [], garments: [], ...mv, manual: true }); continue; }
     cur.title = (cur.title?.ko || cur.title?.en) ? cur.title : mv.title;
     cur.periods = { ...(mv.periods || {}), ...(cur.periods || {}) };
-    for (const k of ['newChars', 'events', 'summons', 'garments']) if (!(cur[k] || []).length && (mv[k] || []).length) { cur[k] = mv[k]; cur.manual = true; }
+    for (const k of ['newChars', 'events', 'summons', 'garments']) if (!(cur[k] || []).length && (mv[k] || []).length) { cur[k] = mv[k]; cur.manual = true; delete cur.stub; }
     if (!cur.tagline && mv.tagline) cur.tagline = mv.tagline;
+  }
+  // 게임 언어 테이블에 아직 한국어가 없는 새 스토리 이름은, 손으로 적은 이벤트의 한섭 이름으로
+  for (const mv of manual?.versions || []) for (const e of mv.events || []) {
+    const st = e.story && e.name?.ko && stories.find((x) => x.id === e.story);
+    if (st && (!st.name.ko || st.name.ko === st.name.en)) st.name = { ...st.name, ko: e.name.ko };
   }
   state.game = { characters, skins, psychubes, materials, bulletin, meta, npcs, stories, versions, profiles, versionArt, skills: null };
   indexGame();

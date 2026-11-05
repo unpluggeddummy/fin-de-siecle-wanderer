@@ -6,7 +6,8 @@
 - 대상: 그림이 없거나 게임 원본에서 오린 그림(assets/img/summon/<풀>.webp)을 쓰는 배너
 - 위키 파일 이름 규칙: "<영문 배너 이름> <버전> Banner.png", "<이름> Rerun Banner.png", "<이름> Banner.png"
 - 가로로 긴(네모난 카드) 그림만 쓴다. 찾으면 assets/img/summon/w<풀>.webp 로 저장하고 bannerSrc 를 wiki 로 적는다
-- 못 찾으면 그대로 두고 다음 주에 다시 찾는다
+- 손으로 적은 버전(manual-versions.json)의 배너도 영문 배너 이름으로 찾는다
+- 못 찾으면 그대로 두고 다음 갱신 때 다시 찾는다
 출처: Reverse: 1999 Wiki (reverse1999.fandom.com, CC BY-SA 3.0)
 """
 import argparse
@@ -104,7 +105,23 @@ def main():
             b = s.get("banner") or ""
             if b and (s.get("bannerSrc") == "wiki" or not b.startswith("assets/img/summon/")):
                 first.setdefault(ko_key(s), b)
+    # 손으로 적은 버전(게임 데이터에 아직 배너가 없는 버전)의 배너도 같은 규칙으로 찾는다
+    mp = os.path.join(a.out, "data", "game", "manual-versions.json")
+    manual = json.load(open(mp, encoding="utf-8")) if os.path.exists(mp) else {"versions": []}
+    has_game = {v["id"] for v in versions if v.get("summons") and not v.get("stub")}
     todo = []
+    for v in manual.get("versions", []):
+        if v["id"] in has_game:
+            continue
+        for s in v.get("summons", []):
+            if s.get("bannerSrc") == "wiki":
+                continue
+            # 픽업은 영문 배너 이름(wikiName)을 알 때만 — 캐릭터 이름으로 찾으면 엉뚱한 그림이 걸린다
+            if s.get("kind") in ("pickup", "collab") and not s.get("wikiName"):
+                continue
+            c = candidates({**s, "name": {**(s.get("name") or {}), "en": s.get("wikiName") or (s.get("name") or {}).get("en")}}, v["id"])
+            if c:
+                todo.append((v, s, c))
     for v in versions:
         for s in v.get("summons", []):
             b = s.get("banner") or ""
@@ -145,6 +162,10 @@ def main():
             print(f"  ! {url}: {e}")
     with open(vp, "w", encoding="utf-8") as f:
         json.dump(versions, f, ensure_ascii=False, separators=(",", ":"))
+    if manual.get("versions"):
+        with open(mp, "w", encoding="utf-8") as f:
+            json.dump(manual, f, ensure_ascii=False, indent=1)
+            f.write("\n")
     print(f"위키 배너: 대상 {len(todo)}개 중 {got}개 붙임")
 
 
