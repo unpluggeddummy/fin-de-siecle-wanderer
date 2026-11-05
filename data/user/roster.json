@@ -2311,20 +2311,22 @@
    "note": ""
   },
   "3156": {
-   "owned": false,
+   "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 13,
+   "portray": 5,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
    "tuning": null,
    "tunings": [],
-   "psychube": null,
-   "skin": null,
+   "skin": 315602,
    "spectrum": "",
-   "note": ""
+   "note": "",
+   "psychubes": [
+    1443
+   ]
   },
   "3157": {
    "owned": false,
