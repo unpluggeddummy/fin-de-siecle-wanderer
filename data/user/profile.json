@@ -1,9 +1,9 @@
 {
- "nickname": "빈",
+ "nickname": "ロ太入刄",
  "avatar": {
-  "type": "char",
+  "type": "file",
   "char": 3147,
-  "file": null
+  "file": "data/user/shots/avatar-mw0snky4egp0t.webp"
  },
  "lines": [
   "인게임 닉 : 파사",
@@ -24,9 +24,16 @@
     3134,
     3086
    ]
+  },
+  {
+   "label": "사랑에 이유가 있나",
+   "chars": [
+    3116,
+    3139
+   ]
   }
  ],
- "intro": "최애캐 다수 / 버틴 애호 / 라플라스 애호",
+ "intro": "폭풍우 속에서도 헤테로충은 살아남는다",
  "notes": [
   {
    "label": "지뢰",
@@ -43,31 +50,31 @@
  ],
  "cps": [
   {
-   "name": "총책엄마아빠",
+   "name": "영원의 기록을 해독하는 법",
    "members": [
     3143,
     3086
    ],
-   "note": "독남이 미쳤다"
+   "note": "불공평하니까!"
   },
   {
-   "name": "엄마아빠",
+   "name": "카운트다운이 끝나기 전에",
    "members": [
     3118,
     3116
    ],
-   "note": "소남프녀의달콤살벌웁스"
+   "note": "We sink or swim together"
   },
   {
-   "name": "운명",
+   "name": "백야의 운명",
    "members": [
     3107,
     3121
    ],
-   "note": "복낙원 봐라"
+   "note": "낙원은 없다."
   },
   {
-   "name": "소꿉친구",
+   "name": "뫼비우스",
    "members": [
     3079,
     3066
@@ -75,42 +82,42 @@
    "note": "너를 위해 문을 열어둘게"
   },
   {
-   "name": "놈편마누라",
+   "name": "不老春",
    "members": [
     3137,
     3141
    ],
-   "note": "대체로 무협은 미침"
+   "note": "늙지 않는 봄이여"
   },
   {
-   "name": "놈편마누라2",
+   "name": "수평선 너머로",
    "members": [
     3077,
     3087
    ],
-   "note": "원래 동지는 사랑임"
+   "note": "안녕, ◼◼◼◼."
   },
   {
-   "name": "전우는영원하다",
+   "name": "조각난 붉음",
    "members": [
     "npc-pyrrhos",
     3132
    ],
-   "note": "가족이되어주라..."
+   "note": "함께 살아가자, 함께 싸우자."
   },
   {
-   "name": "독잇벰",
+   "name": "혼돈을 향하여",
    "members": [
     "npc-anil",
     3139
    ],
-   "note": "여자 미쳤고, 남자 미쳤다."
+   "note": "Kiss me or kill me"
   }
  ],
  "showcase": [
   {
    "char": 3147,
-   "skin": 314704,
+   "skin": 314702,
    "scale": 1.2
   },
   {
@@ -120,7 +127,7 @@
   },
   {
    "char": 3134,
-   "skin": 313403,
+   "skin": 313402,
    "scale": 1.2
   },
   {
@@ -132,6 +139,10 @@
    "char": 3116,
    "skin": 311603,
    "scale": 1.2
+  },
+  {
+   "char": 3139,
+   "skin": 313903
   }
  ],
  "showcaseLive2d": false

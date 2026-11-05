@@ -125,12 +125,12 @@ function summons(root) {
   function draw() {
     const q = view.suQ.trim().toLowerCase();
     const ok = (s) => (!view.suLimited || s.six.length) && (!view.suMine || mine.some((b) => b.ref === s.id))
-      && (!q || [s.name.ko, s.name.en, ...s.six.concat(s.five).map((id) => store.charName(store.charById(id)))].join(' ').toLowerCase().includes(q));
+      && (!q || [s.name.ko, s.name.en, ...s.six.concat(s.five, s.choices || []).map((id) => store.charName(store.charById(id)))].join(' ').toLowerCase().includes(q));
     const groups = vers.map((v) => [v, v.summons.filter(ok)]).filter(([, l]) => l.length);
     fill(box, groups.length ? groups.map(([v, l]) => h('section.tl-sec',
       h('h2.group-head', h('a', { href: `#/timeline/${v.id}`, style: { color: 'inherit', textDecoration: 'none' } }, store.verLabel(v.id)), h('small', v.title?.ko || v.title?.en || '')),
       h('div.tl-summons', l.map((s) => summonCard(s, v, mine))))) : h('div.empty', h('p', '조건에 맞는 배너가 없어요.')));
   }
   draw();
-  root.append(h('p.faint.story-src', '배너 그림·기간: Reverse: 1999 Wiki, 한국어 이름·픽업 출품작: 게임 데이터. 위키에 버전 문서가 있는 버전까지만 있어요.'));
+  root.append(h('p.faint.story-src', '배너 이름·출품작·고르기 목록: 게임 데이터(매주 자동 갱신), 배너 그림: 게임 원본·Reverse: 1999 Wiki. 한섭에 새 버전이 들어오면 그 버전 배너가 자동으로 생겨요.'));
 }

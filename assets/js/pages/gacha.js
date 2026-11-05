@@ -111,7 +111,7 @@ function editBanner(b) {
     const l = v.summons.filter((x) => x.six.length);
     return l.length ? h('div.su-pick-ver', h('b', store.verLabel(v.id, true)), h('div', l.map((x) => h('button', { type: 'button', 'aria-pressed': String(cur.ref === x.id), title: x.name.ko || x.name.en,
       onclick: () => {
-        cur.ref = x.id; cur.name = x.name.ko || x.name.en; cur.version = v.id; cur.type = x.rerun ? '복각' : '한정';
+        cur.ref = x.id; cur.name = x.name.ko || x.name.en; cur.version = v.id; cur.type = x.rerun ? '복각' : ['ripples', 'select'].includes(x.kind) ? '상시' : '한정';
         commit(); d.close(); editBanner(store.state.user.gacha.banners.find((y) => y.id === cur.id));
       } }, x.banner ? h('img', { src: x.banner, alt: '', loading: 'lazy' }) : null, h('span', x.name.ko || x.name.en))))) : null;
   }));

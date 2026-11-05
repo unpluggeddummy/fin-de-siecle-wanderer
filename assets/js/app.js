@@ -173,8 +173,8 @@ function rain() {
     ctx.clearRect(0, 0, w, hgt);
     for (const d of drops) {
       const g = ctx.createLinearGradient(d.x, d.y, d.x, d.y + d.len);
-      g.addColorStop(0, `rgba(170,228,242,${d.a})`);
-      g.addColorStop(1, 'rgba(170,228,242,0)');
+      g.addColorStop(0, `rgba(228,200,146,${d.a})`);
+      g.addColorStop(1, 'rgba(228,200,146,0)');
       ctx.strokeStyle = g;
       ctx.lineWidth = 1;
       ctx.beginPath(); ctx.moveTo(d.x, d.y); ctx.lineTo(d.x, d.y + d.len); ctx.stroke();
