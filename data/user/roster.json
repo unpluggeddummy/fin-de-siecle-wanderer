@@ -9,7 +9,7 @@
    "euphoria": 2,
    "euphoriaLevel": 4,
    "psychube": 1502,
-   "skin": 300302,
+   "skin": 300306,
    "spectrum": "",
    "modulation": "",
    "note": "",
@@ -928,7 +928,7 @@
     5
    ],
    "psychube": 1509,
-   "skin": 306203,
+   "skin": 306204,
    "spectrum": "",
    "note": ""
   },
@@ -1861,7 +1861,7 @@
     5
    ],
    "psychube": 1445,
-   "skin": 312103,
+   "skin": 312104,
    "spectrum": "",
    "note": ""
   },
@@ -2043,7 +2043,7 @@
     5
    ],
    "psychube": 1539,
-   "skin": 313502,
+   "skin": 313503,
    "spectrum": "",
    "note": ""
   },
@@ -2181,10 +2181,11 @@
    "euphoriaLevel": 0,
    "tuning": 1,
    "tunings": [
-    1
+    1,
+    8
    ],
    "psychube": 1537,
-   "skin": 314302,
+   "skin": 314303,
    "spectrum": "",
    "note": ""
   },
@@ -2256,7 +2257,7 @@
     5
    ],
    "psychube": 1569,
-   "skin": 314702,
+   "skin": 314704,
    "spectrum": "",
    "note": ""
   },
