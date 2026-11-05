@@ -337,9 +337,9 @@ export function openChar(c) {
 
     const skinPick = h('div.skin-pick', c.skins.map((sid) => {
       const s = store.skinById(sid);
-      const btn = h('button', { type: 'button', 'aria-pressed': String((r.skin || null) === sid || (!r.skin && sid === c.defaultSkin)), title: s?.name,
+      const btn = h('button', { type: 'button', 'aria-pressed': String((r.skin || ((r.insight >= 2 && c.insightSkin) ? c.insightSkin : c.defaultSkin)) === sid), title: s?.name,
         onclick: () => {
-          upd((x) => { x.skin = sid === c.defaultSkin ? null : sid; });
+          upd((x) => { x.skin = sid; });  // 기본을 골라도 그대로 적어 둔다 (안 그러면 통찰 2 이상일 때 통찰 스킨으로 돌아감)
           skinPick.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', 'false'));
           btn.setAttribute('aria-pressed', 'true');
           portrait.replaceChildren(img(s?.portrait, store.charName(c)));
