@@ -1793,7 +1793,7 @@
    "level": 60,
    "insight": 3,
    "resonance": 15,
-   "portray": 2,
+   "portray": 3,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
@@ -1850,7 +1850,7 @@
    "level": 60,
    "insight": 3,
    "resonance": 10,
-   "portray": 3,
+   "portray": 4,
    "euphoria": 1,
    "euphorias": [
     1
@@ -1860,10 +1860,12 @@
    "tunings": [
     5
    ],
-   "psychube": 1445,
-   "skin": 312104,
+   "skin": 312103,
    "spectrum": "",
-   "note": ""
+   "note": "",
+   "psychubes": [
+    1549
+   ]
   },
   "3122": {
    "owned": true,
@@ -2320,8 +2322,11 @@
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
+   "tuning": 4,
+   "tunings": [
+    4,
+    13
+   ],
    "skin": 315602,
    "spectrum": "",
    "note": "",
