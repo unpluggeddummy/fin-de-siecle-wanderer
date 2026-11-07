@@ -1,12 +1,11 @@
 // 취향표 — 트친들과 함께 채우는 리버스: 1999 취향표 메이커.
 // 여러 사람을 한 장에 모은 가로표와 한 사람씩 보는 세로 카드를 캔버스로 그리고 PNG로 저장한다.
-// 친구들 닉네임·프로필 사진이 공개 저장소에 올라가지 않도록, 기록은 이 브라우저(localStorage)에만 둔다.
+// 토큰·비밀번호 없이 누구나 쓴다. 기록은 이 브라우저(localStorage)에만 두고, 저장소에는 올리지 않는다.
 // 다른 기기로 옮길 때는 백업 파일(JSON)로 내보내고 가져온다.
 import { h, toast, drawer, uid, pickFile, readFileText, downloadJSON, shrinkImage, confirmAsk, fill } from '../ui.js';
 import * as store from '../store.js';
 import { afClass } from '../components.js';
-import * as gate from '../owner.js';
-import { rerender } from '../app.js';
+import * as gh from '../github.js';
 
 const KEY = 'r1999.tastes';
 const AF = ['star', 'mineral', 'beast', 'plant', 'spirit', 'intellect'];
@@ -43,72 +42,10 @@ function loadLocal() {
 }
 function fresh() { const s = blankSheet(); return { sheets: [s], cur: s.id, updatedAt: 0, opts: { ...OPTS } }; }
 function save() {
-  if (session.readOnly) return; // 친구 보기에서는 아무것도 남기지 않는다
   db.updatedAt = Date.now();
   try { localStorage.setItem(KEY, JSON.stringify(db)); } catch { toast('브라우저 저장 공간이 모자라요. 백업 파일로 내보내 두고 사진을 줄여 보세요.', 'err'); }
-  if (session.key) persistSoon();
 }
 
-// ── 친구 공개: 공유 비밀번호로 암호화해서 data/user/tastes.json 에 둔다 ──────
-// 저장소가 공개라서 메뉴를 진짜로 막을 수는 없다. 대신 내용 전체를 AES-GCM으로 잠가서
-// 비밀번호를 아는 사람만 읽을 수 있게 한다 (메모장과 같은 방식).
-const REMEMBER = 'r1999.tastes.pass';
-const session = { key: null, readOnly: false, failed: false };
-const enc = new TextEncoder();
-const dec = new TextDecoder();
-const b64 = (buf) => { const u = new Uint8Array(buf); let s = ''; for (let i = 0; i < u.length; i += 0x8000) s += String.fromCharCode(...u.subarray(i, i + 0x8000)); return btoa(s); };
-const unb64 = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
-async function deriveKey(pass, saltB64) {
-  const base = await crypto.subtle.importKey('raw', enc.encode(pass), 'PBKDF2', false, ['deriveKey']);
-  return crypto.subtle.deriveKey({ name: 'PBKDF2', salt: unb64(saltB64), iterations: 250000, hash: 'SHA-256' },
-    base, { name: 'AES-GCM', length: 256 }, false, ['encrypt', 'decrypt']);
-}
-async function encryptJSON(key, obj) {
-  const iv = crypto.getRandomValues(new Uint8Array(12));
-  const ct = await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, key, enc.encode(JSON.stringify(obj)));
-  return { iv: b64(iv), data: b64(ct) };
-}
-async function decryptJSON(key, m) {
-  const pt = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: unb64(m.iv) }, key, unb64(m.data));
-  return JSON.parse(dec.decode(pt));
-}
-function rememberGet() { try { return localStorage.getItem(REMEMBER); } catch { return null; } }
-function rememberSet(v) { try { v ? localStorage.setItem(REMEMBER, v) : localStorage.removeItem(REMEMBER); } catch { /* 무시 */ } }
-const shared = () => store.state.user.tastes || {};
-async function persist() {
-  if (!session.key || session.readOnly) return;
-  const box = await encryptJSON(session.key, db);
-  store.update('tastes', (m) => { m.v = 1; m.iv = box.iv; m.data = box.data; m.updatedAt = db.updatedAt; }, { silent: true });
-}
-let persistT = 0;
-function persistSoon() { clearTimeout(persistT); persistT = setTimeout(persist, 700); }
-
-/** 비밀번호로 열기. 주인은 이 기기 기록과 공개본 중 더 최근 것을 쓰고, 친구는 공개본을 읽기만 한다 */
-async function unlock(pass) {
-  const m = shared();
-  try {
-    const key = await deriveKey(pass, m.salt);
-    const remote = normalize(m.data ? await decryptJSON(key, m) : null);
-    session.key = key;
-    session.readOnly = !gate.isOwner();
-    if (session.readOnly) db = remote || fresh();
-    else {
-      const local = loadLocal();
-      db = (local && (!remote || (local.updatedAt || 0) >= (remote.updatedAt || 0))) ? local : (remote || fresh());
-      try { localStorage.setItem(KEY, JSON.stringify(db)); } catch { /* 무시 */ }
-    }
-    return true;
-  } catch {
-    return false;
-  }
-}
-async function setPassword(pass) {
-  const salt = b64(crypto.getRandomValues(new Uint8Array(16)));
-  session.key = await deriveKey(pass, salt);
-  store.update('tastes', (m) => { for (const k of Object.keys(m)) delete m[k]; m.v = 1; m.salt = salt; }, { silent: true });
-  await persist();
-  rememberSet(pass);
-}
 const sheet = () => db.sheets.find((s) => s.id === db.cur) || db.sheets[0];
 const person = (pid) => sheet().people.find((p) => p.id === pid);
 function edit(pid, fn) { const p = person(pid); if (!p) return; fn(p); save(); refresh(); }
@@ -131,20 +68,51 @@ function loadImg(src) {
   }
   return cache.get(src);
 }
-/** 출품작 얼굴: 통찰 2 그림 (없으면 기본), NPC는 대화 아이콘 > 전신 */
-function charSrc(id) {
+// 얼굴 위치 (tools/faces.py 로 미리 찾아 둔 값): 그림 경로 -> [cx, cy, 얼굴 크기]
+let FACES = {};
+let FACE_RATIO = 0.42; // 정사각형 칸에서 얼굴 너비가 차지하는 몫 (흉상)
+let facesP = null;
+function loadFaces() {
+  facesP ||= fetch('data/game/faces.json').then((r) => (r.ok ? r.json() : {})).then((d) => {
+    FACES = { ...(d.auto || {}), ...(d.manual || {}) };
+    if (d.meta?.face) FACE_RATIO = d.meta.face;
+  }).catch(() => {});
+  return facesP;
+}
+const faceOf = (im) => { const src = im?.src || ''; const i = src.indexOf('assets/img/'); return i >= 0 ? FACES[decodeURIComponent(src.slice(i))] || null : null; };
+
+/** 출품작 얼굴: 그 사람이 고른 의상 > 통찰 2 그림 > 기본, NPC는 대화 아이콘 > 전신 */
+function charSrc(id, p) {
   const c = store.charById(id);
   if (!c) return null;
   if (c.npc) return c.icon || c.art;
-  return (store.skinById(c.insightSkin) || store.skinById(c.defaultSkin))?.portrait || null;
+  const look = p?.looks?.[id];
+  const sk = store.skinById(look) || store.skinById(c.insightSkin) || store.skinById(c.defaultSkin);
+  if (!sk) return null;
+  // 흉상으로 자르려면 폭이 넓은 그림이 낫다 (얼굴 위치를 아는 경우만)
+  return (sk.art && FACES[sk.art]) ? sk.art : (sk.portrait || sk.art || null);
 }
 const skinSrc = (id) => { const s = store.skinById(id); return s?.art || s?.portrait || null; };
-const storySrc = (id) => store.storyById(id)?.banner || null;
+/** 버전 이벤트 이름: 게임 데이터에 아직 한국어가 없으면 그 버전 제목(한섭)으로 */
+const verOf = (v) => (store.state.game.versions || []).find((x) => x.id === v);
+/** 스토리 배너: 위키 배너가 아직 없으면 그 버전 대표 그림으로 */
+// 위키 배너가 아직 없는 스토리에 임시로 쓰는 배너 [그림, 세로 위치(0 위 ~ 1 아래)]
+const BANNER_EXTRA = {
+  'mainevent-rekindled-games-of-the-summer-gold-sea': ['assets/img/story-extra/mainevent-rekindled-games-of-the-summer-gold-sea.webp', 0.12],
+};
+const storySrc = (id) => {
+  const s = store.storyById(id); if (!s) return null;
+  return s.banner || BANNER_EXTRA[id]?.[0] || (s.version ? `assets/img/ver/${s.version}/key.webp` : null);
+};
+/** 배너 자르기 높이: 위키 배너는 가운데, 임시 배너·대표 그림은 정한 위치 */
+const storyFocus = (id) => { const s = store.storyById(id); if (!s || s.banner) return null; return BANNER_EXTRA[id]?.[1] ?? 0.3; };
 const avatarSrc = (p) => p.avatar || (p.avatarChar ? charSrc(p.avatarChar) : null);
 /** 빈칸 그림: 모노로그(기본) / 직접 올린 그림 / 없음 */
 const blankSrc = () => (db.opts.blankMode === 'custom' ? db.opts.blankImg : db.opts.blankMode === 'none' ? null : MONOLOG);
 /** 프로필 자르기: z 확대, x·y 0~1 위치 (사진은 가운데, 출품작은 위쪽이 기본) */
 const avatarCrop = (p) => ({ z: 1, x: 0.5, y: p.avatar ? 0.5 : 0, ...(p.avatarCrop || {}) });
+/** 출품작 프로필을 손으로 맞춘 적 없으면 얼굴 기준으로 자른다 */
+const useFace = (p) => !p.avatar && !p.avatarCrop;
 function cropSquare(im, c) {
   const side = Math.min(im.width, im.height) / Math.max(1, c.z || 1);
   return [(im.width - side) * c.x, (im.height - side) * c.y, side, side];
@@ -156,12 +124,18 @@ function avatarThumb(p, size, cls = '') {
     if (!im) return;
     const ctx = cv.getContext('2d');
     ctx.beginPath(); ctx.arc(size, size, size, 0, Math.PI * 2); ctx.clip();
-    ctx.drawImage(im, ...cropSquare(im, avatarCrop(p)), 0, 0, size * 2, size * 2);
+    if (useFace(p) && faceOf(im)) cover(ctx, im, 0, 0, size * 2, size * 2, true);
+    else ctx.drawImage(im, ...cropSquare(im, avatarCrop(p)), 0, 0, size * 2, size * 2);
   });
   return cv;
 }
 const cName = (id) => store.charName(store.charById(id));
-const storyName = (id) => { const s = store.storyById(id); return s ? (s.name.ko || s.name.en) : ''; };
+function storyName(id) {
+  const s = typeof id === 'object' ? id : store.storyById(id);
+  if (!s) return '';
+  if ((!s.name.ko || s.name.ko === s.name.en) && s.cat === 'mainevent' && verOf(s.version)?.title?.ko) return verOf(s.version).title.ko;
+  return s.name.ko || s.name.en;
+}
 const skinName = (id) => { const s = store.skinById(id); return s ? (s.name || s.nameEn || '') : ''; };
 const cpFilled = (cp) => cp && (cp.a || cp.b);
 const afList = (p, k) => (p.af[k] || []).filter(Boolean).slice(0, AF_MAX);
@@ -171,14 +145,15 @@ function sourcesOf(people) {
   out.add(blankSrc()); out.add(db.opts.logoImg || LOGO);
   for (const p of people) {
     out.add(avatarSrc(p));
-    for (const k of AF) for (const id of afList(p, k)) out.add(charSrc(id));
+    for (const k of AF) for (const id of afList(p, k)) out.add(charSrc(id, p));
     out.add(storySrc(p.main)); out.add(storySrc(p.event)); out.add(skinSrc(p.skin));
-    for (const cp of p.cps) { out.add(charSrc(cp.a)); out.add(charSrc(cp.b)); }
+    for (const cp of p.cps) { out.add(charSrc(cp.a, p)); out.add(charSrc(cp.b, p)); }
   }
   out.delete(null); out.delete(undefined);
   return [...out];
 }
 async function preload(people) {
+  await loadFaces();
   const srcs = sourcesOf(people);
   const ims = await Promise.all(srcs.map(loadImg));
   const map = new Map(srcs.map((s, i) => [s, ims[i]]));
@@ -203,12 +178,55 @@ function rr(ctx, x, y, w, hh, r) {
 /** 칸을 꽉 채우게 잘라 그린다. top: 세로로 긴 그림은 위쪽(얼굴)을 맞춘다 */
 function cover(ctx, im, x, y, w, hh, top, focusY) {
   const r = w / hh; const ir = im.width / im.height;
+  const W = im.width; const H = im.height;
+  const f = focusY == null ? faceOf(im) : null;
+  if (f) {
+    // 흉상: 얼굴 너비가 칸 너비의 FACE_RATIO(정사각형 기준)쯤 되게, 얼굴은 위에서 40% 높이에
+    const fw = f[2] * W; const fx = f[0] * W; const fy = f[1] * H;
+    // 그림 밖으로는 넓히지 않는다: 폭이 좁은 그림(예: 미스 스트레인저)은 그림 폭 그대로 정사각형으로
+    let sh = (fw / FACE_RATIO) * (r > 1.3 ? 1.3 : 1); let sw = sh * r;
+    if (sw > W) { sw = W; sh = sw / r; }
+    if (sh > H) { sh = H; sw = sh * r; }
+    region(ctx, im, fx - sw / 2, fy - sh * (r > 1.3 ? 0.44 : 0.4), sw, sh, x, y, w, hh);
+    return;
+  }
   let sx; let sy; let sw; let sh;
-  if (ir > r) { sh = im.height; sw = sh * r; sx = (im.width - sw) / 2; sy = 0; } else {
-    sw = im.width; sh = sw / r; sx = 0;
-    sy = focusY != null ? (im.height - sh) * focusY : top ? Math.min(im.height - sh, im.width * 0.02) : (im.height - sh) / 2;
+  if (ir > r) { sh = H; sw = sh * r; sx = (W - sw) / 2; sy = 0; } else {
+    sw = W; sh = sw / r; sx = 0;
+    sy = focusY != null ? (H - sh) * focusY : top ? Math.min(H - sh, W * 0.02) : (H - sh) / 2;
   }
   ctx.drawImage(im, sx, sy, sw, sh, x, y, w, hh);
+}
+/** 그림의 (sx,sy,sw,sh) 부분을 칸에 그린다. 그림 밖으로 나가는 부분은 같은 그림을 흐리게 깔아 채운다 */
+function region(ctx, im, sx, sy, sw, sh, x, y, w, hh) {
+  const W = im.width; const H = im.height;
+  if (sw <= W) sx = Math.min(Math.max(0, sx), W - sw);
+  if (sh <= H) sy = Math.min(Math.max(0, sy), H - sh);
+  const k = w / sw;
+  if (sx < 0 || sy < 0 || sx + sw > W || sy + sh > H) {
+    ctx.save();
+    if ('filter' in ctx) ctx.filter = 'blur(12px)';
+    const r = w / hh; const ir = W / H;
+    let bw; let bh;
+    if (ir > r) { bh = H; bw = bh * r; } else { bw = W; bh = bw / r; }
+    ctx.drawImage(im, (W - bw) / 2, Math.max(0, sy) * (bh < H ? 1 : 0), bw, bh, x - 12, y - 12, w + 24, hh + 24);
+    ctx.restore();
+    ctx.fillStyle = 'rgba(10,9,8,.45)'; ctx.fillRect(x, y, w, hh);
+  }
+  const ix0 = Math.max(0, sx); const iy0 = Math.max(0, sy); const ix1 = Math.min(W, sx + sw); const iy1 = Math.min(H, sy + sh);
+  if (ix1 <= ix0 || iy1 <= iy0) return;
+  const dx = x + (ix0 - sx) * k; const dw = (ix1 - ix0) * k;
+  ctx.drawImage(im, ix0, iy0, ix1 - ix0, iy1 - iy0, dx, y + (iy0 - sy) * k, dw, (iy1 - iy0) * k);
+  // 그림 가장자리를 배경 쪽으로 살짝 녹인다
+  const fade = Math.min(14, dw * 0.08);
+  for (const [ex, dir] of [[dx, 1], [dx + dw, -1]]) {
+    if ((dir === 1 && ix0 > 0) || (dir === -1 && ix1 < W)) continue;
+    if (dir === 1 && dx <= x + 0.5) continue;
+    if (dir === -1 && dx + dw >= x + w - 0.5) continue;
+    const g = ctx.createLinearGradient(ex, 0, ex + dir * fade, 0);
+    g.addColorStop(0, 'rgba(10,9,8,.55)'); g.addColorStop(1, 'rgba(10,9,8,0)');
+    ctx.fillStyle = g; ctx.fillRect(Math.min(ex, ex + dir * fade), y, fade, hh);
+  }
 }
 function fitText(ctx, text, maxW) {
   if (ctx.measureText(text).width <= maxW) return text;
@@ -240,7 +258,8 @@ function cell(ctx, x, y, w, hh, im, { top = true, focusY = null, label = '', edg
 function avatar(ctx, cx, cy, d, im, crop) {
   ctx.save();
   ctx.beginPath(); ctx.arc(cx, cy, d / 2, 0, Math.PI * 2); ctx.fillStyle = C.cell; ctx.fill(); ctx.clip();
-  if (im) ctx.drawImage(im, ...cropSquare(im, crop), cx - d / 2, cy - d / 2, d, d);
+  if (im && !crop) cover(ctx, im, cx - d / 2, cy - d / 2, d, d, true);
+  else if (im) ctx.drawImage(im, ...cropSquare(im, crop), cx - d / 2, cy - d / 2, d, d);
   ctx.restore();
   ctx.save(); ctx.beginPath(); ctx.arc(cx, cy, d / 2 + 0.5, 0, Math.PI * 2); ctx.strokeStyle = C.brass; ctx.lineWidth = 1.5; ctx.stroke(); ctx.restore();
 }
@@ -381,7 +400,7 @@ function drawTable(ctx, sh, get, { preview } = {}) {
     const y = y0 + T.ROWPAD;
     // 사람 칸: 프로필 + 닉네임
     const d = Math.round(S * 0.62);
-    avatar(ctx, PAD + PERSON / 2, y + d / 2 + 2, d, get(avatarSrc(p)), avatarCrop(p));
+    avatar(ctx, PAD + PERSON / 2, y + d / 2 + 2, d, get(avatarSrc(p)), useFace(p) && faceOf(get(avatarSrc(p))) ? null : avatarCrop(p));
     const name = p.name || (preview ? '이름 없음' : '');
     if (name) {
       ctx.font = `600 14px ${SANS}`;
@@ -401,21 +420,21 @@ function drawTable(ctx, sh, get, { preview } = {}) {
         const ids = afList(p, c.af);
         for (let j = 0; j < c.n; j++) {
           const id = ids[j];
-          if (id) cell(ctx, c.x + j * (S + G), y, S, S, get(charSrc(id)), { edge: hexA(AF_COLOR[c.af], 0.55), label: db.opts.charNames ? cName(id) : '' });
+          if (id) cell(ctx, c.x + j * (S + G), y, S, S, get(charSrc(id, p)), { edge: hexA(AF_COLOR[c.af], 0.55), label: db.opts.charNames ? cName(id) : '' });
           else blank(ctx, c.x + j * (S + G), y, S, S, get, { preview });
         }
       } else if (c.key === 'main' || c.key === 'event') {
         const sid = p[c.key];
         if (!sid) blank(ctx, c.x, y, c.w, S, get, { preview });
-        else cell(ctx, c.x, y, c.w, S, get(storySrc(sid)), { top: false, label: db.opts.storyNames ? storyName(sid) : '' });
+        else cell(ctx, c.x, y, c.w, S, get(storySrc(sid)), { top: false, focusY: storyFocus(sid), label: db.opts.storyNames ? storyName(sid) : '' });
       } else if (c.key === 'skin') {
         if (!p.skin) blank(ctx, c.x, y, c.w, S, get, { preview });
-        else cell(ctx, c.x, y, c.w, S, get(skinSrc(p.skin)), { focusY: p.skinFocus ?? SKIN_FOCUS, label: db.opts.charNames ? skinName(p.skin) : '' });
+        else cell(ctx, c.x, y, c.w, S, get(skinSrc(p.skin)), { focusY: p.skinFocus ?? (faceOf(get(skinSrc(p.skin))) ? null : SKIN_FOCUS), label: db.opts.charNames ? skinName(p.skin) : '' });
       } else if (c.key === 'cp') {
         const cps = p.cps.filter(cpFilled);
         for (let j = 0; j < c.n; j++) {
           const px = c.x + j * (2 * S + G + 14);
-          if (cps[j]) drawPair(ctx, px, y, S, G, cps[j], get, preview);
+          if (cps[j]) drawPair(ctx, px, y, S, G, cps[j], get, preview, p);
           else blank(ctx, px, y, 2 * S + G, S, get, { preview });
         }
       }
@@ -427,9 +446,9 @@ function drawTable(ctx, sh, get, { preview } = {}) {
   });
   return { W: L.W, H: L.H, hits };
 }
-function drawPair(ctx, x, y, S, G, cp, get, preview) {
+function drawPair(ctx, x, y, S, G, cp, get, preview, p) {
   [cp.a, cp.b].forEach((id, i) => {
-    if (id) cell(ctx, x + i * (S + G), y, S, S, get(charSrc(id)), { label: db.opts.charNames ? cName(id) : '' });
+    if (id) cell(ctx, x + i * (S + G), y, S, S, get(charSrc(id, p)), { label: db.opts.charNames ? cName(id) : '' });
     else blank(ctx, x + i * (S + G), y, S, S, get, { preview });
   });
   // 가운데 작은 이음표
@@ -477,7 +496,7 @@ function drawCard(ctx, sh, p, get, { preview } = {}) {
   background(ctx, L.W, L.H);
   // 머리: 프로필 + 닉네임
   const d = 112;
-  avatar(ctx, P + d / 2, P + 10 + d / 2, d, get(avatarSrc(p)), avatarCrop(p));
+  avatar(ctx, P + d / 2, P + 10 + d / 2, d, get(avatarSrc(p)), useFace(p) && faceOf(get(avatarSrc(p))) ? null : avatarCrop(p));
   hits.push({ x: P, y: P, w: L.cw, h: d + 20, pid: p.id, kind: 'person' });
   const tx = P + d + 26;
   const logoW = 230;
@@ -497,7 +516,7 @@ function drawCard(ctx, sh, p, get, { preview } = {}) {
     const ids = afList(p, k);
     const yy = by + K.LBL;
     for (let j = 0; j < nOf(k); j++) {
-      if (ids[j]) cell(ctx, bx + j * (S + G), yy, S, S, get(charSrc(ids[j])), { edge: hexA(AF_COLOR[k], 0.55), label: db.opts.charNames ? cName(ids[j]) : '' });
+      if (ids[j]) cell(ctx, bx + j * (S + G), yy, S, S, get(charSrc(ids[j], p)), { edge: hexA(AF_COLOR[k], 0.55), label: db.opts.charNames ? cName(ids[j]) : '' });
       else blank(ctx, bx + j * (S + G), yy, S, S, get, { preview });
     }
     hits.push({ x: bx, y: by, w: L.block, h: K.LBL + S, pid: p.id, kind: 'af:' + k });
@@ -507,7 +526,7 @@ function drawCard(ctx, sh, p, get, { preview } = {}) {
   [['main', L.mainY, '최애 메인스', 'Main Story'], ['event', L.evY, '최애 이벤스', 'Event Story']].forEach(([key, y, ko, en]) => {
     secLabel(ctx, bx, y, ko, en);
     if (!p[key]) blank(ctx, bx, y + K.LBL, L.B, S, get, { preview });
-    else cell(ctx, bx, y + K.LBL, L.B, S, get(storySrc(p[key])), { top: false, label: db.opts.storyNames ? storyName(p[key]) : '' });
+    else cell(ctx, bx, y + K.LBL, L.B, S, get(storySrc(p[key])), { top: false, focusY: storyFocus(p[key]), label: db.opts.storyNames ? storyName(p[key]) : '' });
     hits.push({ x: bx, y, w: L.B, h: K.LBL + S, pid: p.id, kind: key });
   });
   // 스킨 + 씨피
@@ -516,23 +535,25 @@ function drawCard(ctx, sh, p, get, { preview } = {}) {
   const sx = P + Math.max(0, (L.cw - rowW) / 2);
   secLabel(ctx, sx, L.lastY, '최애 스킨', 'Skin');
   if (!p.skin) blank(ctx, sx, L.lastY + K.LBL, skinW, S, get, { preview });
-  else cell(ctx, sx, L.lastY + K.LBL, skinW, S, get(skinSrc(p.skin)), { focusY: p.skinFocus ?? SKIN_FOCUS, label: db.opts.charNames ? skinName(p.skin) : '' });
+  else cell(ctx, sx, L.lastY + K.LBL, skinW, S, get(skinSrc(p.skin)), { focusY: p.skinFocus ?? (faceOf(get(skinSrc(p.skin))) ? null : SKIN_FOCUS), label: db.opts.charNames ? skinName(p.skin) : '' });
   hits.push({ x: sx, y: L.lastY, w: skinW, h: K.LBL + S, pid: p.id, kind: 'skin' });
   const cx = sx + skinW + BG;
   secLabel(ctx, cx, L.lastY, '최애 씨피', 'Coupling');
   const cps = p.cps.filter(cpFilled);
   if (!cps.length) blank(ctx, cx, L.lastY + K.LBL, 2 * S + G, S, get, { preview });
-  cps.slice(0, CP_MAX).forEach((cp, j) => drawPair(ctx, cx + j * (2 * S + G + 18), L.lastY + K.LBL, S, G, cp, get, preview));
+  cps.slice(0, CP_MAX).forEach((cp, j) => drawPair(ctx, cx + j * (2 * S + G + 18), L.lastY + K.LBL, S, G, cp, get, preview, p));
   hits.push({ x: cx, y: L.lastY, w: 4 * S + 2 * G + 18, h: K.LBL + S, pid: p.id, kind: 'cp' });
   return { W: L.W, H: L.H, hits };
 }
 
 // ── 캔버스로 만들기 ────────────────────────────────────────
-async function renderTo(canvas, { mode, pid, scale, preview }) {
+async function renderTo(canvas, { mode, pid, scale, preview, maxPx = 16e6 }) {
   const sh = sheet();
   const people = mode === 'card' ? [person(pid)].filter(Boolean) : sh.people;
   const get = await preload(people);
   const size = mode === 'card' ? cardLayout() : tableLayout(sh);
+  // 휴대폰 브라우저는 캔버스 넓이에 한도가 있어서(아이폰 약 1,670만 화소) 넘지 않게 배율을 줄인다
+  scale = Math.min(scale, Math.sqrt(maxPx / (size.W * size.H)));
   canvas.width = Math.round(size.W * scale);
   canvas.height = Math.round(size.H * scale);
   const ctx = canvas.getContext('2d');
@@ -544,7 +565,8 @@ async function renderTo(canvas, { mode, pid, scale, preview }) {
 function fileSafe(s) { return String(s || '취향표').replace(/[\\/:*?"<>|]+/g, '').trim() || '취향표'; }
 async function exportPNG(mode, pid) {
   const cv = document.createElement('canvas');
-  await renderTo(cv, { mode, pid, scale: EXPORT_SCALE, preview: false });
+  await renderTo(cv, { mode, pid, scale: EXPORT_SCALE, preview: false, maxPx: 16e6 });
+  // 미리보기와 달리 저장본은 크게 만든 뒤 바로 비운다
   const blob = await new Promise((res) => cv.toBlob(res, 'image/png'));
   if (!blob) { toast('이미지를 만들지 못했어요.', 'err'); return; }
   const sh = sheet();
@@ -552,6 +574,7 @@ async function exportPNG(mode, pid) {
   const a = h('a', { href: URL.createObjectURL(blob), download: name });
   document.body.append(a); a.click(); a.remove();
   setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  cv.width = 1; cv.height = 1; // 큰 캔버스 메모리 돌려주기
 }
 
 // ── 고르기 창 ─────────────────────────────────────────────
@@ -616,12 +639,12 @@ function pickStory({ title, cats, selected, onDone, onClose }) {
   const chips = h('div.chips');
   const drawChips = () => chips.replaceChildren(...cats.map(([k, label]) => h('button.chip', { type: 'button', 'aria-pressed': String(cat === k), onclick: () => { cat = k; drawChips(); draw(); } }, label)));
   const draw = () => {
-    const list = (store.state.game.stories || []).filter((s) => s.banner && s.cat === cat)
-      .filter((s) => !q || [s.name.ko, s.name.en, s.version].join(' ').toLowerCase().includes(q))
+    const list = (store.state.game.stories || []).filter((s) => s.cat === cat)
+      .filter((s) => !q || [storyName(s), s.name.ko, s.name.en, s.version].join(' ').toLowerCase().includes(q))
       .sort((a, b) => store.verNum(a.version) - store.verNum(b.version) || (a.order ?? 0) - (b.order ?? 0));
     grid.replaceChildren(...list.map((s) => h('button', {
       type: 'button', 'aria-pressed': String(s.id === selected), onclick: () => { onDone(s.id); d.close(); },
-    }, h('img', { src: s.banner, alt: '', loading: 'lazy' }), h('span', h('b', s.name.ko || s.name.en), h('small', s.version ? store.verLabel(s.version, true) : '')))));
+    }, storySrc(s.id) ? h('img', { src: storySrc(s.id), alt: '', loading: 'lazy' }) : h('div.tt-nobanner', storyName(s)), h('span', h('b', storyName(s)), !s.banner && storySrc(s.id) ? h('em.faint', BANNER_EXTRA[s.id] ? ' (임시 배너)' : ' (대표 그림)') : null, h('small', s.version ? store.verLabel(s.version, true) : '')))));
   };
   if (selected) { const s = store.storyById(selected); if (s && cats.some(([k]) => k === s.cat)) cat = s.cat; }
   drawChips(); draw();
@@ -641,24 +664,25 @@ function pickStory({ title, cats, selected, onDone, onClose }) {
 }
 
 /** 스킨 하나 고르기 */
-function pickSkin({ selected, onDone, onClose }) {
+function pickSkin({ selected, onDone, onClose, char = null }) {
   let q = '';
-  let costumeOnly = true;
+  let costumeOnly = !char;
   const grid = h('div.char-pick.skin-pick');
   const draw = () => {
     const list = store.state.game.skins
-      .filter((s) => store.charById(s.char)?.released)
+      .filter((s) => (char ? s.char === char : store.charById(s.char)?.released))
       .filter((s) => !costumeOnly || !['default', 'insight'].includes(s.cat) || s.id === selected)
       .filter((s) => !q || [s.name, s.nameEn, cName(s.char)].join(' ').toLowerCase().includes(q))
-      .sort((a, b) => ((b.id === selected) - (a.id === selected)) || store.verNum(b.version) - store.verNum(a.version) || b.id - a.id);
+      .sort((a, b) => (char ? a.id - b.id : ((b.id === selected) - (a.id === selected)) || store.verNum(b.version) - store.verNum(a.version) || b.id - a.id));
     grid.replaceChildren(...list.map((s) => h('button', {
       type: 'button', class: afClass(store.charById(s.char)), 'aria-pressed': String(s.id === selected), title: `${cName(s.char)} · ${s.name}`,
       onclick: () => { onDone(s.id); d.close(); },
-    }, h('img', { src: s.art || s.portrait, alt: '', loading: 'lazy' }), h('span', h('b', cName(s.char)), h('br'), s.name || s.nameEn))));
+    }, h('img', { src: (char ? s.portrait : s.art) || s.portrait || s.art, alt: '', loading: 'lazy' }),
+    h('span', char ? null : [h('b', cName(s.char)), h('br')], char && s.id === store.charById(char)?.insightSkin ? '통찰 2 (기본값)' : (s.name || s.nameEn)))));
   };
   draw();
   const d = drawer({
-    title: '최애 스킨 고르기', wide: true, onClose,
+    title: char ? `${cName(char)} — 표에 넣을 의상` : '최애 스킨 고르기', wide: true, onClose,
     body: [
       h('div.toolbar', { style: { marginBottom: '10px' } },
         h('div.grow', h('input', { type: 'search', placeholder: '스킨·출품작 이름 검색', 'aria-label': '스킨 검색', oninput: (e) => { q = e.target.value.trim().toLowerCase(); draw(); } })),
@@ -712,10 +736,23 @@ function openSlot(pid, kind, back) {
 function thumbs(srcs, cls = '') {
   return h('div.tt-thumbs' + cls, srcs.length ? srcs.map(([src, label]) => h('figure', h('img', { src: src || '', alt: '' }), h('figcaption', label))) : h('span.faint', '비어 있음'));
 }
+/** 고른 출품작 썸네일 + 의상 바꾸기 (예: 투스 페어리를 스킨 입힌 모습으로) */
+function lookThumbs(p, ids, back) {
+  if (!ids.length) return h('div.tt-thumbs', h('span.faint', '비어 있음'));
+  return h('div.tt-thumbs', ids.map((id) => {
+    const c = store.charById(id);
+    const look = p.looks?.[id] && store.skinById(p.looks[id]);
+    return h('figure', h('img', { src: charSrc(id, p) || '', alt: '' }), h('figcaption', cName(id), look ? h('small.tt-look', look.name) : null),
+      c && !c.npc && c.skins?.length > 1 ? h('button.btn.small.ghost.tt-lookbtn', { type: 'button', onclick: () => pickSkin({
+        char: id, selected: p.looks?.[id] || c.insightSkin || c.defaultSkin, onClose: back,
+        onDone: (sid) => edit(p.id, (x) => { x.looks ||= {}; if (!sid || sid === (c.insightSkin || c.defaultSkin)) delete x.looks[id]; else x.looks[id] = sid; }),
+      }) }, '의상') : null);
+  }));
+}
 function personEditor(pid, focus) {
   const p = person(pid);
   if (!p) return;
-  const back = () => setTimeout(() => personEditor(pid), 0);
+  const back = () => setTimeout(() => { if (alive()) personEditor(pid); }, 0);
   const go = (kind) => openSlot(pid, kind, back);
   const row = (label, content, actions) => h('div.tt-row', h('div.tt-row-head', h('b', label), h('div.tt-row-act', actions)), content);
   const name = h('input', { type: 'text', value: p.name, placeholder: '트위터 닉네임', 'aria-label': '닉네임' });
@@ -742,7 +779,7 @@ function personEditor(pid, focus) {
     ),
     h('h3.tt-sec', '속성별 최애', h('small', ` 속성마다 1~${AF_MAX}명`)),
     ...AF.map((k) => row(h('span.tt-afpill', { style: { background: AF_COLOR[k], color: onColor(AF_COLOR[k]) } }, store.AFFLATUS[k]),
-      thumbs(afList(p, k).map((id) => [charSrc(id), cName(id)])),
+      lookThumbs(p, afList(p, k), back),
       h('button.btn.small', { type: 'button', onclick: () => go('af:' + k) }, '고르기'))),
     h('h3.tt-sec', '최애 스토리'),
     row('메인스', p.main ? thumbs([[storySrc(p.main), storyName(p.main)]], '.banner') : thumbs([]), h('button.btn.small', { type: 'button', onclick: () => go('main') }, '고르기')),
@@ -753,7 +790,7 @@ function personEditor(pid, focus) {
       p.skin ? h('button.btn.small.ghost', { type: 'button', title: '표에 들어가는 부분을 아래로', onclick: () => { edit(pid, (x) => { x.skinFocus = Math.min(1, +((x.skinFocus ?? SKIN_FOCUS) + 0.08).toFixed(2)); }); } }, '▼ 아래쪽') : null,
       h('button.btn.small', { type: 'button', onclick: () => go('skin') }, '고르기'),
     ]),
-    ...p.cps.filter(cpFilled).map((cp, i) => row(`씨피 ${i + 1}`, thumbs([cp.a, cp.b].filter(Boolean).map((id) => [charSrc(id), cName(id)])), [
+    ...p.cps.filter(cpFilled).map((cp, i) => row(`씨피 ${i + 1}`, lookThumbs(p, [cp.a, cp.b].filter(Boolean), back), [
       h('button.btn.small', { type: 'button', onclick: () => pickCp(pid, i, back) }, '바꾸기'),
       h('button.btn.small.ghost', { type: 'button', onclick: () => { edit(pid, (x) => { x.cps = x.cps.filter(cpFilled); x.cps.splice(i, 1); }); back(); } }, '지우기'),
     ])),
@@ -815,82 +852,12 @@ function cropEditor(pid, back) {
 
 // ── 화면 ──────────────────────────────────────────────────
 function refresh() { page && page(); }
+/** 아직 취향표 화면에 있는지 (다른 메뉴로 옮긴 뒤 편집 창이 다시 뜨지 않게) */
+const alive = () => !!page && location.hash.startsWith('#/tastes');
 
 export function cleanup() { page = null; }
 
-function lockForm(box, own) {
-  const pass = h('input', { type: 'password', autocomplete: 'current-password', placeholder: '취향표 비밀번호', 'aria-label': '취향표 비밀번호' });
-  const keep = h('input', { type: 'checkbox', checked: true });
-  const go = async () => {
-    if (!pass.value) return;
-    const ok = await unlock(pass.value);
-    if (!ok) { toast('비밀번호가 맞지 않아요.', 'err'); pass.select(); return; }
-    rememberSet(keep.checked ? pass.value : null);
-    session.failed = false;
-    rerender();
-  };
-  pass.addEventListener('keydown', (e) => { if (e.key === 'Enter') go(); });
-  box.replaceChildren(h('section.panel.lock', { style: { maxWidth: '440px' } },
-    h('h3', own ? '공개 비밀번호를 넣어 주세요' : '취향표 비밀번호를 넣어 주세요'),
-    h('p.muted', { style: { fontSize: '14px' } }, own
-      ? '친구 공개를 켜 둔 상태라, 공개본을 열려면 그때 정한 비밀번호가 필요해요.'
-      : '비밀번호는 표를 만든 사람에게 받아 주세요. 맞으면 표를 보고 이미지로 저장할 수 있어요.'),
-    h('div.toolbar', { style: { margin: '12px 0 8px' } }, h('div.grow', pass), h('button.btn.primary', { type: 'button', onclick: go }, '열기')),
-    h('label.check', { style: { fontSize: '13px' } }, keep, '이 기기에서 기억하기'),
-    own ? h('p.faint', { style: { fontSize: '12.5px', marginTop: '14px' } }, '비밀번호를 잊었다면: ',
-      h('button.btn.small.ghost', { type: 'button', onclick: () => {
-        if (!confirmAsk('공개본을 지우고 이 기기의 기록으로 다시 시작할까요? 저장을 누르면 친구들은 더 이상 볼 수 없어요.')) return;
-        store.update('tastes', (m) => { for (const k of Object.keys(m)) delete m[k]; }, { silent: true });
-        session.key = null; rememberSet(null); rerender();
-      } }, '공개 그만두고 새로 시작')) : null,
-  ));
-  setTimeout(() => pass.focus(), 0);
-}
-
-/** 주인용: 친구 공개 설정 */
-function sharePanel() {
-  const m = shared();
-  if (!m.salt || !session.key) {
-    const p1 = h('input', { type: 'password', autocomplete: 'new-password', placeholder: '친구들에게 알려 줄 비밀번호' });
-    const p2 = h('input', { type: 'password', autocomplete: 'new-password', placeholder: '한 번 더' });
-    return h('details.panel.tt-share',
-      h('summary', h('b', '친구 공개'), h('span.faint', ' · 꺼짐 (이 브라우저에만 있어요)')),
-      h('p.muted', { style: { fontSize: '14px' } },
-        '비밀번호를 정하면 표 전체를 그 비밀번호로 잠가서 사이트에 올려요. 친구들은 링크로 들어와 비밀번호를 넣으면 표를 보고 PNG로 저장할 수 있어요. 메뉴 탭은 주인과 비밀번호를 기억한 기기에만 보여요.'),
-      h('p.faint', { style: { fontSize: '12.5px' } }, 'GitHub 토큰은 저장소를 고칠 수 있는 열쇠라서 친구들에게 주면 안 돼요. 친구용으로는 이 비밀번호를 따로 알려 주세요.'),
-      h('div.fields', { style: { margin: '10px 0' } }, p1, p2),
-      h('button.btn.primary', { type: 'button', onclick: async () => {
-        if (p1.value.length < 4) { toast('비밀번호는 4자 이상으로 해 주세요.', 'err'); return; }
-        if (p1.value !== p2.value) { toast('두 비밀번호가 달라요.', 'err'); return; }
-        await setPassword(p1.value);
-        toast('잠가 두었어요. 오른쪽 위 저장을 누르면 사이트에 올라가요.');
-        refresh();
-      } }, '비밀번호 정하고 공개하기'),
-    );
-  }
-  const link = `${location.origin}${location.pathname}#/tastes`;
-  const np = h('input', { type: 'password', autocomplete: 'new-password', placeholder: '새 비밀번호' });
-  return h('details.panel.tt-share',
-    h('summary', h('b', '친구 공개'), h('span', { style: { color: 'var(--teal)' } }, ' · 켜짐'), store.state.dirty.has('tastes') ? h('span', { style: { color: 'var(--rust)' } }, ' · 저장 전') : null),
-    h('p.muted', { style: { fontSize: '14px' } }, '고칠 때마다 잠근 공개본도 같이 바뀌어요. 오른쪽 위 저장을 눌러야 친구들 화면에 반영돼요 (1~2분).'),
-    h('div.toolbar', { style: { margin: '10px 0' } },
-      h('input.grow', { type: 'text', value: link, readOnly: true, 'aria-label': '친구용 링크', onclick: (e) => e.target.select() }),
-      h('button.btn.small', { type: 'button', onclick: async () => { try { await navigator.clipboard.writeText(link); toast('링크를 복사했어요.'); } catch { toast('복사하지 못했어요. 칸을 눌러 직접 복사해 주세요.', 'err'); } } }, '링크 복사')),
-    h('div.toolbar',
-      h('div.grow', np),
-      h('button.btn.small', { type: 'button', onclick: async () => {
-        if (np.value.length < 4) { toast('비밀번호는 4자 이상으로 해 주세요.', 'err'); return; }
-        await setPassword(np.value); toast('비밀번호를 바꿨어요. 저장을 누르면 반영돼요.'); refresh();
-      } }, '비밀번호 바꾸기'),
-      h('button.btn.small.danger', { type: 'button', onclick: () => {
-        if (!confirmAsk('공개를 그만둘까요? 저장을 누르면 사이트의 공개본이 지워져요. 이 기기의 기록은 남아요.')) return;
-        store.update('tastes', (m) => { for (const k of Object.keys(m)) delete m[k]; }, { silent: true });
-        session.key = null; rememberSet(null); refresh();
-      } }, '공개 그만두기')),
-  );
-}
-
-/** 주인용: 빈칸·로고 꾸미기 */
+/** 빈칸·로고 꾸미기 */
 function stylePanel() {
   const o = db.opts;
   const setOpt = (patch) => { Object.assign(db.opts, patch); save(); refresh(); };
@@ -921,34 +888,16 @@ function stylePanel() {
 }
 
 export function render(root) {
-  const own = gate.isOwner();
-  const m = shared();
-  // 주인/친구가 바뀌었으면 처음부터
-  if (session.key && session.readOnly === own) { session.key = null; db = null; }
   root.append(h('div.page-head', h('div', h('h1', h('span.en', 'Taste Chart'), '취향표'),
-    h('p', own
-      ? '트친들 취향을 모아 여럿을 한 장에 모은 가로표와 한 사람씩 보는 세로 카드로 만들어요. 그림 칸을 누르면 바로 고를 수 있어요.'
-      : '함께 만든 리버스: 1999 취향표예요. 가로표와 한 사람씩 보는 카드를 이미지로 저장할 수 있어요.'))));
+    h('p', '트친들 취향을 모아 여럿을 한 장에 모은 가로표와 한 사람씩 보는 세로 카드로 만들어요. 그림 칸을 누르면 바로 고를 수 있어요. 기록은 이 브라우저에만 남아요.'))));
   const box = h('div');
   root.append(box);
-
-  if (m.salt && !session.key) {
-    const saved = rememberGet();
-    if (saved && !session.failed) {
-      box.append(h('p.muted', '여는 중…'));
-      unlock(saved).then((ok) => { if (!ok) { session.failed = true; rememberSet(null); } rerender(); });
-      return;
-    }
-    lockForm(box, own);
+  if (!gh.hasToken()) {
+    box.append(h('div.empty', h('p', '취향표는 GitHub 토큰을 연결한 기기에서만 쓸 수 있어요.'), h('a.btn', { href: '#/settings' }, '설정에서 연결하기')));
     return;
   }
-  if (!own && !m.salt) {
-    box.append(h('div.empty', h('p', '아직 공개된 취향표가 없어요.')));
-    return;
-  }
-  if (!m.salt) { session.readOnly = false; session.key = null; }
   db ||= loadLocal() || fresh();
-  const ro = session.readOnly;
+  const ro = false;
 
   let token = 0;
   page = () => {
@@ -957,10 +906,11 @@ export function render(root) {
     const canvas = h('canvas.tt-canvas', { role: 'img', 'aria-label': '취향표 미리보기' });
     const wrap = h('div.tt-preview' + (view.fit ? '.fit' : ''), canvas);
     let hits = [];
+    let natW = 1;
     const previewScale = Math.min(2, window.devicePixelRatio || 1);
     const at = (e) => {
       const r = canvas.getBoundingClientRect();
-      const k = (canvas.width / previewScale) / r.width;
+      const k = natW / r.width;
       const x = (e.clientX - r.left) * k; const y = (e.clientY - r.top) * k;
       return hits.find((t) => x >= t.x && x <= t.x + t.w && y >= t.y && y <= t.y + t.h);
     };
@@ -970,9 +920,9 @@ export function render(root) {
     }
     const my = ++token;
     const status = h('p.faint.tt-status', '그리는 중…');
-    renderTo(canvas, { mode: view.mode, pid: view.person, scale: previewScale, preview: !ro }).then((out) => {
+    renderTo(canvas, { mode: view.mode, pid: view.person, scale: previewScale, preview: !ro, maxPx: 6e6 }).then((out) => {
       if (my !== token) return;
-      hits = out.hits; status.textContent = '';
+      hits = out.hits; natW = out.W; status.textContent = '';
       canvas.style.setProperty('--natural', out.W + 'px');
     });
 
@@ -1031,7 +981,6 @@ export function render(root) {
         people,
       ),
       ro ? null : stylePanel(),
-      ro ? null : sharePanel(),
       h('div.toolbar.tt-viewbar',
         h('div.stepper', { role: 'group', 'aria-label': '보기' }, seg('table', '가로표 (여럿)'), seg('card', '세로 카드 (한 명)')),
         personSel,

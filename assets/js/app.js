@@ -132,10 +132,8 @@ function updateHeader() {
   enEl.replaceChildren(...en.split(/(\s+)/).map((w) => (/^(de|du|of|the|la|le|des|and|&)$/i.test(w) ? h('em', w) : document.createTextNode(w))));
   document.querySelector('.site-foot .foot-mark').textContent = en;
   document.querySelector('[data-names-tab]').hidden = !set.showNames;
-  // 취향표: 주인, 그리고 취향표 비밀번호를 기억해 둔 친구 기기에만 탭이 보인다 (링크로는 누구나 잠긴 화면까지 들어올 수 있음)
-  let friend = false;
-  try { friend = !!localStorage.getItem('r1999.tastes.pass'); } catch { /* 무시 */ }
-  document.querySelector('[data-tastes-tab]').hidden = !(owner.isOwner() || friend || location.hash.startsWith('#/tastes'));
+  const tastesTab = document.querySelector('[data-tastes-tab]');
+  if (tastesTab) tastesTab.hidden = !gh.hasToken(); // 취향표: 토큰을 연결한 기기에서만
 }
 
 window.addEventListener('beforeunload', (e) => {

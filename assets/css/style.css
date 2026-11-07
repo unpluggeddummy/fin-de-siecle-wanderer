@@ -1240,3 +1240,7 @@ img[src*="img/npc/"]:not([src*="/full"]):not([src*="/live2d"]) { height: 100% !i
 .tt-crop { width: min(320px, 100%); aspect-ratio: 1; touch-action: none; cursor: grab; background: var(--ink-3); }
 .tt-crop:active { cursor: grabbing; }
 .tt-person-top .tt-av { width: 84px; height: 84px; }
+.tt-thumbs figure { position: relative; }
+.tt-look { display: block; color: var(--brass); font-size: 10.5px; }
+.tt-lookbtn { margin-top: 3px; padding: 1px 6px !important; font-size: 11px !important; width: 100%; }
+.tt-nobanner { aspect-ratio: 1202 / 210; display: grid; place-items: center; background: var(--ink-4); color: var(--paper-dim); font-size: 13px; }

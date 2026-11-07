@@ -10,7 +10,6 @@ export const SECTIONS = {
   plans:     { file: 'data/user/plans.json',     label: '육성 계획',     def: () => ({ plans: [], inventory: {}, materialNames: {} }) },
   gacha:     { file: 'data/user/gacha.json',     label: '모집 기록',     def: () => ({ pity: 0, pityLimit: 70, guaranteed: false, currencies: [{ name: '순결의 빗방울', amount: 0 }, { name: '순수의 빗방울', amount: 0 }, { name: '모노로그', amount: 0 }, { name: '데카로그', amount: 0 }], banners: [], wishlist: [] }) },
   stories:   { file: 'data/user/stories.json',   label: '스토리 후기',   def: () => ({ posts: [], ratings: {}, read: {} }) },
-  tastes:    { file: 'data/user/tastes.json',    label: '취향표',       def: () => ({}) },
   profile:   { file: 'data/user/profile.json',   label: '소개',         def: () => defaultProfile() },
   settings:  { file: 'data/user/settings.json',  label: '설정',         def: () => ({ title: '세기말의 방랑자', titleEn: 'Fin de Siècle Wanderer', subtitle: '리버스: 1999 개인 기록', showNames: false, server: '한섭' }) },
 };
