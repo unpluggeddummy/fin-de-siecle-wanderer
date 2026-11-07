@@ -5,10 +5,11 @@ import { rerender } from '../app.js';
 
 export const SKIN_CAT = {
   tarot: '타로카드', collab: '콜라보 (복각 없음)', dushuo: '도삭절', anniv: '세월의 책갈피', series: '테마 시리즈',
-  event: '이벤트 보상', shop: '상점', other: '기타', insight: '통찰', default: '기본',
+  event: '이벤트 보상', shop: '상점', jukebox: '주크박스', content: '컨텐츠 보상', free: '무료', other: '기타', unknown: '미분류', insight: '통찰', default: '기본',
 };
-const CAT_ORDER = ['tarot', 'collab', 'dushuo', 'anniv', 'series', 'event', 'shop', 'other', 'insight', 'default'];
-const COSTUME = new Set(['tarot', 'collab', 'dushuo', 'anniv', 'series', 'event', 'shop', 'other']);
+const CAT_ORDER = ['tarot', 'collab', 'dushuo', 'anniv', 'series', 'event', 'shop', 'jukebox', 'content', 'free', 'other', 'unknown', 'insight', 'default'];
+// 게임 데이터(시뮬레이터)의 획득처 분류 jukebox·content·free 도 의상으로 본다
+const COSTUME = new Set(['tarot', 'collab', 'dushuo', 'anniv', 'series', 'event', 'shop', 'jukebox', 'content', 'free', 'other', 'unknown']);
 const SOURCES = ['', '유료 결제', '상점 재화', '이벤트', '무료 보상', '배틀패스', '복각', '기타'];
 const SORTS = [['version', '버전별'], ['grade', '등급별'], ['cat', '분류별'], ['source', '획득처별'], ['series', '시리즈별'], ['char', '출품작별'], ['new', '최신순']];
 export const GRADE = { 3: '유니크', 2: '어드밴스드', 1: '일반 의상', 0: '등급 없음' };
@@ -23,7 +24,8 @@ export function skinInfo(s) {
   const m = mine(s.id);
   const c = store.charById(s.char);
   return {
-    cat: m.cat || s.cat || 'shop',
+    // 처음 보는 분류(나중에 게임 데이터에 새로 생긴 분류 등)나 분류가 없는 의상은 '미분류'로
+    cat: m.cat || (s.cat && SKIN_CAT[s.cat] ? s.cat : 'unknown'),
     version: m.version || s.version || (s.cat === 'default' || s.cat === 'insight' ? c?.version : null) || null,
     versionKnown: !!(m.version || s.version),
   };

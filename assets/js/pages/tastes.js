@@ -681,7 +681,7 @@ function pickSkin({ selected, onDone, onClose, char = null }) {
     const list = store.state.game.skins
       .filter((s) => (char ? s.char === char : charOf(s.char)?.released))
       .filter((s) => !costumeOnly || !['default', 'insight'].includes(s.cat) || s.id === selected)
-      .filter((s) => !q || [s.name, s.nameEn, cName(s.char)].join(' ').toLowerCase().includes(q))
+      .filter((s) => !q || [s.name, s.nameEn, cName(s.char), s.source, s.series, s.version].join(' ').toLowerCase().includes(q))
       .sort((a, b) => (char ? a.id - b.id : ((b.id === selected) - (a.id === selected)) || store.verNum(b.version) - store.verNum(a.version) || b.id - a.id));
     grid.replaceChildren(...list.map((s) => h('button', {
       type: 'button', class: afClass(charOf(s.char)), 'aria-pressed': String(s.id === selected), title: `${cName(s.char)} · ${s.name}`,
