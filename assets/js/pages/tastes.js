@@ -68,6 +68,15 @@ function loadImg(src) {
   }
   return cache.get(src);
 }
+// 위키 NPC 목록에 없어서 게임 원본(대화 머리 그림)에서 따로 가져온 NPC
+const EXTRA_NPCS = [
+  // 2.5 차이나타운 결투 — 何日君 / Teresa (게임 데이터 story_heroparam 2507, 머리 그림 631001)
+  { id: 'npc-x-teresa', name: { ko: '하일군', en: 'Teresa', zh: '何日君' }, icon: 'assets/img/npc-extra/teresa.webp', firstVersion: '2.5' },
+].map((n) => ({ ...n, npc: true, released: true, rarity: 0, skins: [], art: n.icon, portrait: n.icon }));
+const EXTRA_BY_ID = new Map(EXTRA_NPCS.map((n) => [n.id, n]));
+const charOf = (id) => EXTRA_BY_ID.get(id) || store.charById(id);
+const npcs = () => store.npcList().concat(EXTRA_NPCS);
+
 // 얼굴 위치 (tools/faces.py 로 미리 찾아 둔 값): 그림 경로 -> [cx, cy, 얼굴 크기]
 let FACES = {};
 let FACE_RATIO = 0.42; // 정사각형 칸에서 얼굴 너비가 차지하는 몫 (흉상)
@@ -83,7 +92,7 @@ const faceOf = (im) => { const src = im?.src || ''; const i = src.indexOf('asset
 
 /** 출품작 얼굴: 그 사람이 고른 의상 > 통찰 2 그림 > 기본, NPC는 대화 아이콘 > 전신 */
 function charSrc(id, p) {
-  const c = store.charById(id);
+  const c = charOf(id);
   if (!c) return null;
   if (c.npc) return c.icon || c.art;
   const look = p?.looks?.[id];
@@ -129,7 +138,7 @@ function avatarThumb(p, size, cls = '') {
   });
   return cv;
 }
-const cName = (id) => store.charName(store.charById(id));
+const cName = (id) => store.charName(charOf(id));
 function storyName(id) {
   const s = typeof id === 'object' ? id : store.storyById(id);
   if (!s) return '';
@@ -595,7 +604,7 @@ function pickChars({ title, max, selected = [], af = null, npc = false, onDone, 
   const matchAf = (c) => !afF || c.afflatus === afF || (c.afflatus === 'mineral-star' && (afF === 'mineral' || afF === 'star'));
   const draw = () => {
     const list = store.state.game.characters.filter((c) => c.released)
-      .concat(showNpc ? store.npcList() : store.npcList().filter((n) => pick.includes(n.id)))
+      .concat(showNpc ? npcs() : npcs().filter((n) => pick.includes(n.id)))
       .filter((c) => c.npc || matchAf(c) || pick.includes(c.id))
       .filter((c) => !q || [store.charName(c), ...Object.values(c.name || {})].join(' ').toLowerCase().includes(q))
       .sort((a, b) => (pick.includes(b.id) - pick.includes(a.id)) || (!!a.npc - !!b.npc) || b.rarity - a.rarity || store.charName(a).localeCompare(store.charName(b), 'ko'));
@@ -670,15 +679,15 @@ function pickSkin({ selected, onDone, onClose, char = null }) {
   const grid = h('div.char-pick.skin-pick');
   const draw = () => {
     const list = store.state.game.skins
-      .filter((s) => (char ? s.char === char : store.charById(s.char)?.released))
+      .filter((s) => (char ? s.char === char : charOf(s.char)?.released))
       .filter((s) => !costumeOnly || !['default', 'insight'].includes(s.cat) || s.id === selected)
       .filter((s) => !q || [s.name, s.nameEn, cName(s.char)].join(' ').toLowerCase().includes(q))
       .sort((a, b) => (char ? a.id - b.id : ((b.id === selected) - (a.id === selected)) || store.verNum(b.version) - store.verNum(a.version) || b.id - a.id));
     grid.replaceChildren(...list.map((s) => h('button', {
-      type: 'button', class: afClass(store.charById(s.char)), 'aria-pressed': String(s.id === selected), title: `${cName(s.char)} · ${s.name}`,
+      type: 'button', class: afClass(charOf(s.char)), 'aria-pressed': String(s.id === selected), title: `${cName(s.char)} · ${s.name}`,
       onclick: () => { onDone(s.id); d.close(); },
     }, h('img', { src: (char ? s.portrait : s.art) || s.portrait || s.art, alt: '', loading: 'lazy' }),
-    h('span', char ? null : [h('b', cName(s.char)), h('br')], char && s.id === store.charById(char)?.insightSkin ? '통찰 2 (기본값)' : (s.name || s.nameEn)))));
+    h('span', char ? null : [h('b', cName(s.char)), h('br')], char && s.id === charOf(char)?.insightSkin ? '통찰 2 (기본값)' : (s.name || s.nameEn)))));
   };
   draw();
   const d = drawer({
@@ -740,7 +749,7 @@ function thumbs(srcs, cls = '') {
 function lookThumbs(p, ids, back) {
   if (!ids.length) return h('div.tt-thumbs', h('span.faint', '비어 있음'));
   return h('div.tt-thumbs', ids.map((id) => {
-    const c = store.charById(id);
+    const c = charOf(id);
     const look = p.looks?.[id] && store.skinById(p.looks[id]);
     return h('figure', h('img', { src: charSrc(id, p) || '', alt: '' }), h('figcaption', cName(id), look ? h('small.tt-look', look.name) : null),
       c && !c.npc && c.skins?.length > 1 ? h('button.btn.small.ghost.tt-lookbtn', { type: 'button', onclick: () => pickSkin({
