@@ -206,6 +206,33 @@
   "role": "밸런스"
  },
  {
+  "id": 3160,
+  "name": {
+   "ko": "Evelyn",
+   "en": "Evelyn",
+   "ja": "",
+   "zhCN": "伊芙琳",
+   "zhTW": ""
+  },
+  "rarity": 6,
+  "afflatus": "unknown",
+  "dmg": "unknown",
+  "released": false,
+  "euphoria": 0,
+  "defaultSkin": 316001,
+  "insightSkin": 316002,
+  "skins": [
+   316001,
+   316002
+  ],
+  "kb": null,
+  "nameChecked": false,
+  "tunings": [],
+  "euphorias": [],
+  "version": "3.7",
+  "versionEstimated": true
+ },
+ {
   "id": 3094,
   "name": {
    "ko": "J",
@@ -271,6 +298,33 @@
   "version": "2.0",
   "versionEstimated": false,
   "role": "밸런스"
+ },
+ {
+  "id": 3159,
+  "name": {
+   "ko": "Perchta",
+   "en": "Perchta",
+   "ja": "",
+   "zhCN": "佩施塔",
+   "zhTW": ""
+  },
+  "rarity": 6,
+  "afflatus": "unknown",
+  "dmg": "unknown",
+  "released": false,
+  "euphoria": 0,
+  "defaultSkin": 315901,
+  "insightSkin": 315902,
+  "skins": [
+   315901,
+   315902
+  ],
+  "kb": null,
+  "nameChecked": false,
+  "tunings": [],
+  "euphorias": [],
+  "version": "3.7",
+  "versionEstimated": true
  },
  {
   "id": 3072,
@@ -546,7 +600,7 @@
   "name": {
    "ko": "나르키소스",
    "en": "Narcissus",
-   "ja": "",
+   "ja": "ナルキッソス",
    "zhCN": "纳西索斯",
    "zhTW": "納西索斯"
   },
@@ -4663,7 +4717,7 @@
   "name": {
    "ko": "헤도네",
    "en": "Hedone",
-   "ja": "",
+   "ja": "ヘドネ",
    "zhCN": "赫多涅",
    "zhTW": "赫多涅"
   },
@@ -6814,9 +6868,9 @@
   "name": {
    "ko": "글린두르",
    "en": "Glyndŵr",
-   "ja": "",
+   "ja": "グリンドゥル",
    "zhCN": "格林杜尔",
-   "zhTW": ""
+   "zhTW": "格林杜爾"
   },
   "rarity": 4,
   "afflatus": "beast",
