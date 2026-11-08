@@ -1,5 +1,5 @@
 {
- "pity": 28,
+ "pity": 0,
  "pityLimit": 70,
  "guaranteed": false,
  "currencies": [
@@ -237,15 +237,9 @@
  ],
  "wishlist": [
   {
-   "char": 3156,
-   "when": "",
-   "goal": "P5",
-   "note": ""
-  },
-  {
    "char": 3157,
    "when": "",
-   "goal": "P1",
+   "goal": "P5",
    "note": ""
   },
   {
