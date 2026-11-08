@@ -96,7 +96,8 @@
    "wish": false
   },
   "302503": {
-   "wish": true
+   "wish": false,
+   "owned": true
   },
   "302504": {
    "owned": true,
@@ -165,6 +166,9 @@
    "owned": true,
    "wish": false
   },
+  "304104": {
+   "note": "중 섭 에 만 있 다 고 ㅠ ㅠ "
+  },
   "304203": {
    "owned": true,
    "wish": false
@@ -229,6 +233,10 @@
    "wish": false
   },
   "305305": {
+   "owned": true,
+   "wish": false
+  },
+  "305403": {
    "owned": true,
    "wish": false
   },
@@ -527,6 +535,10 @@
    "wish": false
   },
   "312103": {
+   "owned": true,
+   "wish": false
+  },
+  "312104": {
    "owned": true,
    "wish": false
   },
