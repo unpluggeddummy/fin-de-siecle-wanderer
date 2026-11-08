@@ -355,6 +355,32 @@
     }
    ],
    "note": ""
+  },
+  {
+   "id": "mw7mhhga96lxt",
+   "name": "마도구 (리아논 포함)",
+   "tags": [
+    "갈기의 게시판"
+   ],
+   "members": [
+    {
+     "char": 3146,
+     "psychube": 1568
+    },
+    {
+     "char": 3149,
+     "psychube": 1571
+    },
+    {
+     "char": 3145,
+     "psychube": 1573
+    },
+    {
+     "char": 3156,
+     "psychube": 1570
+    }
+   ],
+   "note": ""
   }
  ]
 }
