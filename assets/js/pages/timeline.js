@@ -20,7 +20,7 @@ export function allVersions() {
     const stories = (g.stories || []).filter((s) => s.version === id);
     // 제목 띠: 위키 버전 배너 > 메인 이벤트 스토리 배너
     const strip = w.banner || stories.find((s) => s.cat === 'mainevent' && s.banner)?.banner || stories.find((s) => s.cat === 'main' && s.banner)?.banner || null;
-    return { ...w, chars, stories, wiki: wiki.has(id) && !w.stub, key: g.versionArt?.[id] || null, strip };
+    return { ...w, chars, stories, wiki: wiki.has(id) && !w.stub, key: g.versionArt?.[id] || w.art || null, strip };
   }).sort((a, b) => store.verNum(b.id) - store.verNum(a.id));
 }
 
@@ -107,7 +107,8 @@ function detail(root, v, list) {
   );
 
   // 새 출품작: 위키 포스터가 있으면 포스터, 없으면 얼굴
-  const posters = v.newChars.filter((n) => n.poster);
+  // 게임 데이터에 그 출품작이 들어오면 빌리빌리 임시 그림 대신 게임 얼굴을 쓴다
+  const posters = v.newChars.filter((n) => n.poster && !(n.posterSrc === 'bilibili' && byName(n)));
   const shown = new Set(posters.map((n) => n.char).filter(Boolean));
   root.append(section('New Arcanists', '새 출품작', [
     posters.length ? h('div.tl-posters', posters.map((n) => {
@@ -115,7 +116,12 @@ function detail(root, v, list) {
       return h(c ? 'a.tl-pcard' : 'div.tl-pcard', c ? { href: `#/roster/${c.id}` } : {}, img(n.poster, ''), h('span', c ? store.charName(c) : (n.ko || n.en)));
     })) : null,
     v.newChars.filter((n) => !n.poster && !n.char && n.ko && !byName(n)).length ? h('div.tl-faces.big', v.newChars.filter((n) => !n.poster && !n.char && n.ko && !byName(n)).map((n) => h('span.tl-namedface', h('span.tl-noface.big', n.ko.slice(0, 1)), h('small', n.ko), n.story ? h('small.faint', n.story) : null))) : null,
-    v.chars.filter((c) => !shown.has(c.id)).length ? h('div.tl-faces.big', v.chars.filter((c) => !shown.has(c.id)).map((c) => h('span.tl-namedface', face(c), h('small', store.charName(c))))) : null,
+    (() => {
+      // 손으로 적은 새 출품작이 게임 데이터에 (버전 번호가 다르게) 들어와 있으면 그 얼굴도 같이
+      const extra = v.newChars.filter((n) => !(n.poster && n.posterSrc !== 'bilibili')).map(byName).filter((c) => c && !v.chars.includes(c));
+      const all = [...v.chars, ...extra].filter((c) => !shown.has(c.id));
+      return all.length ? h('div.tl-faces.big', all.map((c) => h('span.tl-namedface', face(c), h('small', store.charName(c))))) : null;
+    })(),
   ]));
 
   root.append(section('Stories', '스토리', v.stories.length ? h('div.story-grid', v.stories.map((st) => {
@@ -133,9 +139,13 @@ function detail(root, v, list) {
     e.banner ? img(e.banner, '') : null,
     h('span', h('b', e.name.ko || e.name.en), e.name.ko ? h('small.en', e.name.en) : null, e.time ? h('small.faint', e.time) : null)))) : null));
 
-  root.append(section('Garments', '새 의상', v.garments.length ? h('div.tl-garments', v.garments.map((gm) => {
+  root.append(section('Garments', '새 의상', v.garments.length ? h('div.tl-garments', v.garments.map((g0) => {
+    let gm = g0;
     const c = gm.char && store.charById(gm.char);
-    const sk = gm.skin && store.skinById(gm.skin);
+    // 게임 에셋에 같은 스킨이 들어오면 그 그림을 먼저 (빌리빌리 그림은 임시)
+    const nn = (x) => (x || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    const sk = (gm.skin && store.skinById(gm.skin)) || (gm.char && gm.en && store.state.game.skins.find((x) => x.char === gm.char && nn(x.nameEn) === nn(gm.en))) || null;
+    if (sk?.art && gm.posterSrc !== 'wiki') gm = { ...gm, poster: sk.art, skin: sk.id };
     const owned = gm.skin && u.skins?.items?.[gm.skin]?.owned;
     return h('button.tl-gm', { type: 'button', onclick: () => gm.poster && lightbox(gm.poster, `${c ? store.charName(c) : ''} — ${sk?.name || gm.en}`) },
       gm.poster ? img(gm.poster, '') : null,
@@ -150,6 +160,8 @@ function detail(root, v, list) {
   }
   if (v.manual) root.append(h('p.faint.story-src', `이 버전은 게임 데이터가 아직 없어서 손으로 적은 정보예요(${v.source || '중섭 공개 정보'}). 한국어 이름은 가칭이고, 한섭 정보가 나오면 게임 데이터로 바뀌어요.`));
   root.append(h('p.faint.story-src', '버전 정보·그림: Reverse: 1999 Wiki (CC BY-SA 3.0), 모집 배너 이름·픽업 출품작: 게임 데이터'));
+  const usesBili = v.art && v.artSrc === 'bilibili' || [...v.summons, ...v.garments, ...v.newChars].some((x) => x.bannerSrc === 'bilibili' || x.posterSrc === 'bilibili');
+  if (usesBili) root.append(h('p.faint.story-src', '일부 그림: 빌리빌리 重返未来1999 공식 계정 공개 이미지 (© Bluepoch) — 게임 에셋이 들어오면 바뀌어요'));
 }
 
 /** 모집 배너 카드 — 도감과 연대기에서 같이 쓴다 */

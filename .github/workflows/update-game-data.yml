@@ -108,6 +108,10 @@ jobs:
       - name: 버전별 모집 배너와 지금 한섭 버전 갱신
         run: python scripts/summons_from_game.py --global ../src/global --cn ../src/cn --out .
 
+      - name: 에셋에 아직 없는 버전을 빌리빌리 공식 이미지로 채우기
+        continue-on-error: true
+        run: python scripts/fill_from_bili.py --out .
+
       - name: 새 배너에 위키의 네모난 배너 그림 붙이기
         continue-on-error: true
         run: python scripts/wiki_banners.py --out .

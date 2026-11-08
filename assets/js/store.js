@@ -78,6 +78,15 @@ export async function loadAll() {
     cur.periods = { ...(mv.periods || {}), ...(cur.periods || {}) };
     for (const k of ['newChars', 'events', 'summons', 'garments']) if (!(cur[k] || []).length && (mv[k] || []).length) { cur[k] = mv[k]; cur.manual = true; delete cur.stub; }
     if (!cur.tagline && mv.tagline) cur.tagline = mv.tagline;
+    if (!cur.art && mv.art) { cur.art = mv.art; cur.artSrc = mv.artSrc; }
+    if (!cur.source && mv.source) cur.source = mv.source;
+  }
+  // 미출시 출품작(중섭 에셋에 먼저 들어온 캐릭터): 버전은 손으로 적은 버전으로, 한국어 이름이 없으면 손으로 적은 이름으로
+  for (const mv of manual?.versions || []) for (const n of mv.newChars || []) {
+    const c = characters.find((x) => !x.released && (x.name.en === n.en || (n.zh && x.name.zhCN === n.zh)));
+    if (!c) continue;
+    c.version = mv.id; c.versionEstimated = true;
+    if (n.ko && (!c.name.ko || c.name.ko === c.name.en)) c.name = { ...c.name, ko: n.ko };
   }
   // 게임 언어 테이블에 아직 한국어가 없는 새 스토리 이름은, 손으로 적은 이벤트의 한섭 이름으로
   for (const mv of manual?.versions || []) for (const e of mv.events || []) {

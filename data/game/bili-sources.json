@@ -1,0 +1,40 @@
+{
+ "items": [
+  {
+   "version": "4.1",
+   "target": "summon:4.1:m-perchta",
+   "url": "https://i1.hdslb.com/bfs/new_dyn/ba4155e2407198fee1d7b0f186bf5b2a1197454103.jpg",
+   "note": "「果实的赤红」 페르히타 픽업 (11/5~)"
+  },
+  {
+   "version": "4.1",
+   "target": "char:Perchta",
+   "url": "https://i1.hdslb.com/bfs/new_dyn/ba4155e2407198fee1d7b0f186bf5b2a1197454103.jpg",
+   "note": "픽업 배너에서 인물만"
+  },
+  {
+   "version": "4.1",
+   "target": "summon:4.1:m-ripples",
+   "url": "https://i1.hdslb.com/bfs/new_dyn/1ae0b251638bdd724f11be8ae146d9681197454103.jpg",
+   "note": "「湖的涟漪」 활동 征集"
+  },
+  {
+   "version": "4.1",
+   "target": "key",
+   "url": "https://i1.hdslb.com/bfs/new_dyn/17477725e86489bb1eb8607ba041d4aa1197454103.jpg",
+   "note": "4.1 《亚特兰蒂斯谋杀案》 现已开幕"
+  },
+  {
+   "version": "4.1",
+   "target": "garment:Reflection of the Self",
+   "url": "https://i1.hdslb.com/bfs/new_dyn/682cfc294108ca48d59843e3f9b8a19b1197454103.jpg",
+   "note": "活动奖励衣着 自我之鉴"
+  },
+  {
+   "version": "4.1",
+   "target": "garment:Solace for the Lost",
+   "url": "https://i1.hdslb.com/bfs/new_dyn/74cea0ce602a0c45c72c2521d3e9e8051197454103.jpg",
+   "note": "衣着上新 告慰尘与惘"
+  }
+ ]
+}

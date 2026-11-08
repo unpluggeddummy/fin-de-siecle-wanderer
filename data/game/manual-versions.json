@@ -143,8 +143,9 @@
   {
    "id": "4.1",
    "title": {
-    "ko": "로메넬 저택의 죽음",
-    "en": "A Death at Romenel Manor"
+    "ko": "아틀란티스 살인 사건",
+    "en": "A Death at Romenel Manor",
+    "zhCN": "亚特兰蒂斯谋杀案"
    },
    "periods": {
     "kr": "2027-01-28 ~ 2027-03-04 (예정)"
@@ -154,12 +155,14 @@
     {
      "en": "Perchta",
      "ko": "페르히타",
-     "story": "Snow-Red and Rose-White"
+     "story": "Snow-Red and Rose-White",
+     "zh": "佩施塔"
     },
     {
      "en": "Evelyn",
      "ko": "에블린",
-     "story": "The Treacle Well"
+     "story": "The Treacle Well",
+     "zh": "伊芙琳"
     }
    ],
    "summons": [
