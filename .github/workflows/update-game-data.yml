@@ -63,6 +63,8 @@ jobs:
           cat > .git/info/sparse-checkout <<'LIST'
           /singlebg/store/skin/
           /singlebg/summon/banner/*.png
+          /singlebg/summon/heroversion_3_9/
+          /singlebg/summon/heroversion_[4-9]_*/
           /singlebg/characterskin/*.png
           /singlebg/headicon_middle/
           /singlebg/headskinicon_middle/
@@ -111,6 +113,10 @@ jobs:
       - name: 에셋에 아직 없는 버전을 빌리빌리 공식 이미지로 채우기
         continue-on-error: true
         run: python scripts/fill_from_bili.py --out .
+
+      - name: 모집 풀이 아직 없는 버전의 배너를 중섭 에셋 원화로 만들기
+        continue-on-error: true
+        run: python scripts/asset_banners.py --cn ../src/cn --out .
 
       - name: 새 배너에 위키의 네모난 배너 그림 붙이기
         continue-on-error: true

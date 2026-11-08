@@ -8,7 +8,7 @@ import { importRosterJSON } from '../importer.js';
 
 const AF_ORDER = ['star', 'mineral', 'beast', 'plant', 'spirit', 'intellect'];
 const view = {
-  q: '', rarity: new Set(), af: new Set(), own: 'all', euph: false, unreleased: false, sort: 'rarity',
+  q: '', rarity: new Set(), af: new Set(), own: 'all', euph: false, unreleased: true, sort: 'rarity',
   selecting: false, picked: new Set(),
 };
 
@@ -325,7 +325,7 @@ export function openChar(c) {
   const foot = [];
   const side = sideStage(c);
   if (!editing) {
-    body = [hero, readOnly(c, rec), profileBlock(c), skillBlock(c)];
+    body = [hero, readOnly(c, rec), usedIn(c), profileBlock(c), skillBlock(c)];
   } else {
     const r = store.ensureChar(c.id);
     if (!r.euphorias && r.euphoria) r.euphorias = [r.euphoria];
@@ -406,7 +406,6 @@ export function openChar(c) {
       profileBlock(c),
       skillBlock(c),
     ];
-    foot.push(h('a.btn', { href: `#/plans/new/${c.id}`, onclick: () => d.close() }, '육성 계획 만들기'));
   }
   foot.push(h('button.btn.primary', { type: 'button', onclick: () => d.close() }, editing ? '완료' : '닫기'));
   const d = drawer({ title: store.charName(c), body, foot, wide: true, onClose: () => { side.close(); rerender(); } });
@@ -540,3 +539,22 @@ async function doImport() {
 }
 
 export function cleanup() { hoverStop(); }
+
+/** 이 출품작이 들어간 덱과 갈기의 게시판 기록 (형상을 더 올릴지 판단할 때) */
+function usedIn(c) {
+  const decks = store.state.user.decks.decks.filter((d) => (d.members || []).some((m) => m?.char === c.id));
+  const recs = [];
+  for (const [sid, s] of Object.entries(store.state.user.bulletin.seasons || {})) for (const [stage, r] of Object.entries(s.bosses || {})) {
+    if (r?.score && (r.members || []).some((m) => m?.char === c.id)) recs.push({ sid, stage, score: +r.score });
+  }
+  if (!decks.length && !recs.length) return null;
+  const seasons = store.state.game.bulletin;
+  const best = recs.sort((a, b) => b.score - a.score)[0];
+  const bs = best && seasons.find((x) => String(x.id) === String(best.sid));
+  const boss = bs?.bosses.find((b) => String(b.stage) === String(best.stage));
+  return h('div.used-in',
+    h('h3', '덱에서 쓰는 곳'),
+    decks.length ? h('p', h('span.faint', '덱 '), decks.map((d, i) => [i ? ', ' : '', h('a', { href: '#/decks' }, d.name)])) : null,
+    recs.length ? h('p', h('span.faint', '갈기의 게시판 '), `${recs.length}회 출전`, best ? h('span.faint', ` · 최고 ${best.score.toLocaleString('ko-KR')}점${bs ? ` (${bs.version} ${boss?.name || ''})` : ''}`) : null) : null,
+  );
+}

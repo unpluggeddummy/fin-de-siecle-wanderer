@@ -81,6 +81,12 @@ export async function loadAll() {
     if (!cur.art && mv.art) { cur.art = mv.art; cur.artSrc = mv.artSrc; }
     if (!cur.source && mv.source) cur.source = mv.source;
   }
+  // 위키 배너가 아직 없는 메인 이벤트 스토리는 그 버전 대표 그림(게임 에셋)을 배너로
+  for (const st of stories) {
+    if (st.banner || !['mainevent', 'main'].includes(st.cat)) continue;
+    const art = versionArt?.[st.version] || versions.find((v) => v.id === st.version)?.art;
+    if (art) { st.banner = art; st.bannerFallback = true; }
+  }
   // 미출시 출품작(중섭 에셋에 먼저 들어온 캐릭터): 버전은 손으로 적은 버전으로, 한국어 이름이 없으면 손으로 적은 이름으로
   for (const mv of manual?.versions || []) for (const n of mv.newChars || []) {
     const c = characters.find((x) => !x.released && (x.name.en === n.en || (n.zh && x.name.zhCN === n.zh)));

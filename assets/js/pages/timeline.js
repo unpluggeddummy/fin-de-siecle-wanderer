@@ -124,7 +124,8 @@ function detail(root, v, list) {
     })(),
   ]));
 
-  root.append(section('Stories', '스토리', v.stories.length ? h('div.story-grid', v.stories.map((st) => {
+  const vstories = v.stories.filter((st) => st.cat !== 'anec');  // 일화는 스토리 후기 쪽에서만
+  root.append(section('Stories', '스토리', vstories.length ? h('div.story-grid', vstories.map((st) => {
     const n = (u.stories?.posts || []).filter((p) => p.story === st.id).length;
     const r = u.stories?.ratings?.[st.id];
     return h('a.story-card', { href: `#/stories/${st.id}` },
@@ -139,7 +140,11 @@ function detail(root, v, list) {
     e.banner ? img(e.banner, '') : null,
     h('span', h('b', e.name.ko || e.name.en), e.name.ko ? h('small.en', e.name.en) : null, e.time ? h('small.faint', e.time) : null)))) : null));
 
-  root.append(section('Garments', '새 의상', v.garments.length ? h('div.tl-garments', v.garments.map((g0) => {
+  // 위키·손으로 적은 의상 목록이 없으면 게임 데이터에서 그 버전 의상을 모은다
+  const garments = v.garments.length ? v.garments : store.state.game.skins
+    .filter((x) => x.version === v.id && x.type !== 'default' && x.type !== 'insight')
+    .map((x) => ({ char: x.char, skin: x.id, en: x.nameEn || x.name, grade: x.gradeName || '', poster: x.art || x.portrait }));
+  root.append(section('Garments', '새 의상', garments.length ? h('div.tl-garments', garments.map((g0) => {
     let gm = g0;
     const c = gm.char && store.charById(gm.char);
     // 게임 에셋에 같은 스킨이 들어오면 그 그림을 먼저 (빌리빌리 그림은 임시)

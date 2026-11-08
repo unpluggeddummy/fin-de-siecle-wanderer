@@ -1,10 +1,11 @@
-// 갈기의 게시판 — 버전(시즌)별 보스 점수, 덱, 메모, 스크린샷
-import { h, fill, img, fmt, drawer, field, toast, lightbox, pickFile, shrinkImage, uid } from '../ui.js';
+// 갈기의 게시판 — 버전(시즌)별 보스 점수, 덱(덱 페이지와 연결), 메모, 출전 당시 육성 상태
+import { h, img, fmt, drawer, field, toast, uid } from '../ui.js';
 import * as store from '../store.js';
 import { rerender } from '../app.js';
 import { teamView, teamEditor } from '../components.js';
 
 const GRADES = ['', 'SSS+', 'SSS', 'SS', 'S', 'A', 'B', 'C'];
+
 const view = { season: null };
 
 /** 게임 데이터 시즌 + 내가 추가한 시즌 */
@@ -42,6 +43,45 @@ function bestOfType(key) {
   return best;
 }
 
+// ── 덱 페이지와 연결: 저장 데이터는 그대로 두고, 출전 출품작 구성으로 덱을 찾는다 ──
+const charSet = (members) => (members || []).map((m) => m?.char).filter(Boolean);
+/** 기록의 출전 구성과 같은 덱(4명 같음) 또는 비슷한 덱(3명 같음) */
+export function deckMatch(members) {
+  const mine = charSet(members);
+  if (!mine.length) return null;
+  let best = null;
+  for (const d of store.state.user.decks.decks) {
+    const ds = charSet(d.members);
+    const same = mine.filter((c) => ds.includes(c)).length;
+    const exact = same === mine.length && same === ds.length;
+    if (exact) return { deck: d, exact: true };
+    if (same >= 3 && (!best || same > best.same)) best = { deck: d, exact: false, same };
+  }
+  return best;
+}
+/** 덱 하나에 연결되는 게시판 기록들 (덱 페이지에서 쓴다) */
+export function recordsForDeck(deck) {
+  const out = [];
+  for (const s of allSeasons()) for (const b of s.bosses) {
+    const r = rec(s.id, b.stage);
+    if (!r?.score || !r.members?.length) continue;
+    const m = deckMatch(r.members);
+    if (m?.deck.id === deck.id) out.push({ season: s, boss: b, score: +r.score, exact: m.exact });
+  }
+  return out.sort((a, b) => b.score - a.score);
+}
+/** 출전 당시 육성 상태 (기록을 남길 때 찍어 둔다) */
+function snap(m) {
+  if (!m?.char || m.at) return m;
+  const r = store.charRecord(m.char) || {};
+  return { ...m, at: { p: r.portray || 0, e: (r.euphorias || (r.euphoria ? [r.euphoria] : [])).length ? 1 : 0, lv: r.level || 0, ins: r.insight || 0 } };
+}
+function growthLine(members) {
+  const xs = (members || []).filter((m) => m?.char && m.at);
+  if (!xs.length) return null;
+  return h('div.boss-growth', xs.map((m) => h('span', `${store.charName(store.charById(m.char))} `, h('b', `P${m.at.p}`), m.at.e ? h('em', ' 광상') : null)));
+}
+
 export function render(root) {
   const seasons = allSeasons();
   const editing = store.state.editing;
@@ -75,7 +115,14 @@ export function render(root) {
     season ? h('div',
       h('div.toolbar', { style: { justifyContent: 'space-between' } },
         h('h2', { style: { fontSize: '22px' } }, store.COLLAB[season.version] ? `${season.version} · ${store.COLLAB[season.version]} 콜라보 시즌` : `${season.version} 시즌`,
-          h('span.muted', { style: { fontFamily: 'var(--sans)', fontSize: '15px', fontWeight: 400, marginLeft: '12px' } }, `합계 ${fmt(t.total)}점`)),
+          h('span.muted', { style: { fontFamily: 'var(--sans)', fontSize: '15px', fontWeight: 400, marginLeft: '12px' } }, `합계 ${fmt(t.total)}점`),
+          (() => {  // 바로 앞 기록 있는 시즌 대비
+            const i = totals.findIndex((x) => x.id === season.id);
+            const prev = totals.slice(0, i).reverse().find((x) => x.total > 0);
+            if (!t.total || !prev) return null;
+            const dlt = t.total - prev.total;
+            return h('span', { style: { fontFamily: 'var(--sans)', fontSize: '13px', fontWeight: 400, marginLeft: '10px', color: dlt >= 0 ? 'var(--teal)' : '#f0b4a5' } }, `${prev.version} 대비 ${dlt >= 0 ? '+' : ''}${fmt(dlt)} (${dlt >= 0 ? '+' : ''}${(dlt / prev.total * 100).toFixed(1)}%)`);
+          })()),
         season.custom && editing ? h('button.btn.small.danger', { type: 'button', onclick: () => removeSeason(season) }, '이 시즌 삭제') : null,
       ),
       h('div.boss-grid', season.bosses.map((b) => bossCard(season, b))),
@@ -84,7 +131,33 @@ export function render(root) {
     chart(totals),
     h('h2.section', '보스별 최고 기록'),
     bestList(),
+    h('h2.section', '자주 쓴 출품작·의지'),
+    usageStats(),
   );
+}
+
+/** 같은 보스 계열 (형태 접미사 ·II형 등은 무시, 게임 데이터의 유형 번호가 있으면 그걸로) */
+const baseName = (n) => (n || '').replace(/[·・\s]*[ⅠⅡⅢⅣⅤ]+형$/u, '');
+const familyKey = (b) => (b.type != null ? `t:${b.type}` : `n:${baseName(b.name)}`);
+function family(b) {
+  const out = [];
+  for (const s of allSeasons()) for (const bb of s.bosses) {
+    if (familyKey(bb) !== familyKey(b) && baseName(bb.name) !== baseName(b.name)) continue;
+    const r = rec(s.id, bb.stage);
+    out.push({ season: s, boss: bb, r });
+  }
+  return out;
+}
+function familyDrawer(b) {
+  const list = family(b).filter((x) => x.r?.score).sort((x, y) => +y.r.score - +x.r.score);
+  drawer({ title: `${baseName(b.name)} — 지난 기록 모아 보기`, wide: true,
+    body: list.length ? list.map(({ season, boss, r }) => h('article.fam',
+      h('div.fam-head', boss.image ? img(boss.image, '') : null,
+        h('div', h('b', `${season.version} · ${boss.name}`), h('div', h('span.val', fmt(r.score)), r.grade ? h('span.grade', r.grade) : null))),
+      r.members?.some((m) => m?.char) ? teamView(r.members) : null,
+      growthLine(r.members),
+      r.note ? h('p.boss-note', r.note) : null)) : h('p.muted', '같은 계열 보스 기록이 없습니다.'),
+    foot: [] });
 }
 
 function bossCard(season, b) {
@@ -105,7 +178,7 @@ function bossCard(season, b) {
     return p;
   })();
   const diff = r.score && prevBest ? +r.score - prevBest : null;
-  const shot = r.shot ? store.fileURL(r.shot) : null;
+  const dm = deckMatch(r.members);
 
   return h('article.boss',
     h('div.boss-top',
@@ -119,46 +192,58 @@ function bossCard(season, b) {
     ),
     h('div.boss-body',
       r.members?.some((m) => m?.char) ? teamView(r.members) : null,
+      growthLine(r.members),
+      dm ? h('a.boss-deck', { href: '#/decks' }, dm.exact ? `덱 · ${dm.deck.name}` : `덱 · ${dm.deck.name} 변형`) : null,
       r.note ? h('p.boss-note', r.note) : null,
-      shot ? h('div.shot', { onclick: () => lightbox(shot, `${season.version} ${b.name}`) }, img(shot, '결과 스크린샷')) : null,
+      (() => {  // 아직 기록이 없는 보스: 같은 계열 보스의 내 최고 기록과 그때 덱을 미리 보기
+        if (r.score) return null;
+        const prev = family(b).filter((x) => x.r?.score && x.season.id !== season.id).sort((x, y) => +y.r.score - +x.r.score)[0];
+        if (!prev) return null;
+        return h('div.boss-prev',
+          h('p.faint', `같은 계열 내 최고 · ${prev.season.version} ${prev.boss.name} ${fmt(prev.r.score)}점`),
+          prev.r.members?.some((m) => m?.char) ? teamView(prev.r.members) : null,
+          prev.r.note ? h('p.boss-note', prev.r.note) : null);
+      })(),
+      family(b).filter((x) => x.r?.score).length > (r.score ? 1 : 0) ? h('button.btn.small.ghost', { type: 'button', onclick: () => familyDrawer(b) }, '같은 보스 지난 기록') : null,
       h('button.btn.small.edit-only', { type: 'button', onclick: () => editBoss(season, b) }, r.score ? '기록 고치기' : '기록 남기기'),
     ),
   );
 }
 
 function editBoss(season, b) {
-  const cur = JSON.parse(JSON.stringify(rec(season.id, b.stage) || { score: '', grade: '', members: [], note: '', shot: null }));
+  const cur = JSON.parse(JSON.stringify(rec(season.id, b.stage) || { score: '', grade: '', members: [], note: '' }));
   const commit = () => store.update('bulletin', (s) => {
+    cur.members = (cur.members || []).map(snap);
     s.seasons[season.id] ||= { bosses: {} };
     s.seasons[season.id].bosses[b.stage] = cur;
   }, { silent: true });
 
   const teamBox = h('div');
-  const drawTeam = () => teamBox.replaceChildren(teamEditor(cur.members || [], (m) => { cur.members = m; commit(); drawTeam(); }));
+  const drawTeam = () => teamBox.replaceChildren(teamEditor(cur.members || [], (m) => { cur.members = m; commit(); drawTeam(); drawDeck?.(); }));
   drawTeam();
 
-  const shotBox = h('div');
-  const drawShot = () => {
-    const u = cur.shot ? store.fileURL(cur.shot) : null;
-    fill(shotBox,
-      u ? h('div.shot', { style: { marginBottom: '8px' } }, img(u, '결과 스크린샷')) : null,
+  const deckBox = h('div');
+  const drawDeck = () => {
+    const m = deckMatch(cur.members);
+    deckBox.replaceChildren(
+      m ? h('p.faint', { style: { margin: '0 0 6px', fontSize: '13px' } }, m.exact ? `덱 페이지의 「${m.deck.name}」과 같은 구성이에요. 덱 페이지에서도 이 기록이 보여요.` : `덱 페이지의 「${m.deck.name}」과 3명이 같아요 (변형).`) : null,
       h('div.toolbar', { style: { margin: 0 } },
-        h('button.btn.small', { type: 'button', onclick: async () => {
-          const f = await pickFile('image/*');
-          if (!f) return;
-          try {
-            const data = await shrinkImage(f);
-            const ext = data.startsWith('data:image/webp') ? 'webp' : 'jpg';
-            const path = `data/user/shots/bulletin-${season.id}-${b.stage}-${uid()}.${ext}`;
-            store.addPendingFile(path, data);
-            cur.shot = path; commit(); drawShot();
-          } catch (e) { toast(`이미지를 읽지 못했습니다: ${e.message}`, 'err'); }
-        } }, cur.shot ? '스크린샷 바꾸기' : '스크린샷 첨부'),
-        cur.shot ? h('button.btn.small.ghost', { type: 'button', onclick: () => { cur.shot = null; commit(); drawShot(); } }, '빼기') : null,
+        store.state.user.decks.decks.length ? h('select', { onchange: (e) => {
+          const d = store.state.user.decks.decks.find((x) => x.id === e.target.value);
+          if (d) { cur.members = JSON.parse(JSON.stringify(d.members)).map((x) => ({ char: x.char, psychube: x.psychube })); commit(); drawTeam(); drawDeck(); }
+          e.target.value = '';
+        } }, h('option', { value: '' }, '저장한 덱 불러오기'), store.state.user.decks.decks.map((d) => h('option', { value: d.id }, d.name))) : null,
+        !m?.exact && charSet(cur.members).length ? h('button.btn.small', { type: 'button', onclick: () => {
+          const name = prompt('덱 이름', m ? `${m.deck.name} 변형` : '');
+          if (!name) return;
+          store.update('decks', (u) => { u.decks.push({ id: uid(), name: name.trim(), tags: ['갈기의 게시판'], members: cur.members.map((x) => ({ char: x.char, psychube: x.psychube })), note: '' }); }, { silent: true });
+          toast(`「${name.trim()}」 덱으로 저장했어요`);
+          drawDeck();
+        } }, '이 구성을 덱으로 저장') : null,
       ),
     );
   };
-  drawShot();
+  drawDeck();
 
   const body = [
     b.image ? h('div', { style: { height: '120px', overflow: 'hidden', borderRadius: '8px', marginBottom: '14px', background: 'var(--night)' } },
@@ -168,21 +253,13 @@ function editBoss(season, b) {
         onchange: (e) => { cur.score = e.target.value ? +e.target.value : ''; commit(); } })),
       field('등급', h('select', { onchange: (e) => { cur.grade = e.target.value; commit(); } },
         GRADES.map((g) => h('option', { value: g, selected: (cur.grade || '') === g }, g || '—')))),
-      field('기록한 날', h('input', { type: 'date', value: cur.date || '', onchange: (e) => { cur.date = e.target.value; commit(); } })),
     ),
     h('div.form-row', h('div.lbl', h('span', '사용한 덱')), teamBox),
+    h('div.form-row', h('div.lbl', h('span', '덱 페이지')), deckBox),
+    h('p.faint', { style: { fontSize: '12.5px', margin: '-4px 0 12px' } }, '저장할 때 출전 출품작의 형상·광상을 함께 기록해 둬요 (나중에 육성해도 그때 상태가 남아요).'),
     h('div.fields.form-row',
       field('메모 (패턴, 실수한 점, 다음에 바꿀 것)', h('textarea', { rows: 4, onchange: (e) => { cur.note = e.target.value; commit(); } }, cur.note || ''), 'wide'),
     ),
-    h('div.form-row', h('div.lbl', h('span', '결과 스크린샷')), shotBox),
-    store.state.user.decks.decks.length ? h('div.form-row',
-      h('div.lbl', h('span', '저장한 덱 불러오기')),
-      h('select', { onchange: (e) => {
-        const d = store.state.user.decks.decks.find((x) => x.id === e.target.value);
-        if (d) { cur.members = JSON.parse(JSON.stringify(d.members)); commit(); drawTeam(); }
-        e.target.value = '';
-      } }, h('option', { value: '' }, '— 덱 고르기 —'), store.state.user.decks.decks.map((d) => h('option', { value: d.id }, d.name))),
-    ) : null,
   ];
   const foot = [
     h('button.btn.danger', { type: 'button', onclick: () => {
@@ -288,4 +365,32 @@ function bestList() {
       h('div.bimg', img(b.image, '')),
       h('div', h('b', b.name), h('span', `${fmt(score)} · ${s.version} 시즌`)),
     )));
+}
+
+/** 모든 시즌 기록에서 많이 출전한 출품작·의지 */
+function usageStats() {
+  const cc = new Map(), pc = new Map();
+  let n = 0;
+  for (const s of allSeasons()) for (const b of s.bosses) {
+    const r = rec(s.id, b.stage);
+    if (!r?.members?.length) continue;
+    n++;
+    for (const m of r.members) {
+      if (m?.char) cc.set(m.char, (cc.get(m.char) || 0) + 1);
+      if (m?.psychube) pc.set(m.psychube, (pc.get(m.psychube) || 0) + 1);
+    }
+  }
+  if (!n) return h('p.muted', '덱을 남긴 기록이 없습니다.');
+  const top = (m, k) => [...m.entries()].sort((a, b) => b[1] - a[1]).slice(0, k);
+  return h('div.panel.usage',
+    h('p.faint', { style: { margin: '0 0 10px', fontSize: '13px' } }, `덱을 남긴 기록 ${n}개 기준`),
+    h('div.usage-row', top(cc, 12).map(([id, k]) => {
+      const c = store.charById(id);
+      return c ? h('a.usage-item', { href: `#/roster/${id}`, title: store.charName(c) }, img(store.charPortrait(c), ''), h('small', store.charName(c)), h('b', `${k}회`)) : null;
+    })),
+    h('div.usage-row.psy', top(pc, 8).map(([id, k]) => {
+      const p = store.psyById(id);
+      return p ? h('span.usage-item', { title: p.name.ko }, img(p.icon, ''), h('small', p.name.ko), h('b', `${k}회`)) : null;
+    })),
+  );
 }

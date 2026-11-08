@@ -3,6 +3,7 @@ import { h, fill, fmt, drawer, field, uid, toast } from '../ui.js';
 import * as store from '../store.js';
 import { rerender } from '../app.js';
 import { face, charSelect } from '../components.js';
+import { allVersions } from './timeline.js';
 
 const TYPES = ['한정', '상시', '복각', '신규 유저', '기타'];
 
@@ -45,6 +46,7 @@ export function render(root) {
       ))),
       g.currencies.length ? h('p.faint', { style: { fontSize: '13px', margin: '10px 0 0' } }, `빗방울 기준 약 ${fmt(Math.floor(estimatePulls(g)))}회 모집 가능 (빗방울 180개 = 1회, 모노로그 1개 = 1회, 데카로그 1개 = 10회로 계산)`) : null,
     ),
+    nextPickup(g, limit),
     h('section.panel',
       h('div.panel-head', h('h3', '다음 픽업 위시리스트'), h('button.btn.small.edit-only', { type: 'button', onclick: () => editWish(null) }, '추가')),
       g.wishlist.length ? h('div', { style: { display: 'grid', gap: '8px' } }, g.wishlist.map((w, i) => h('div', { style: { display: 'flex', gap: '10px', alignItems: 'center' } },
@@ -163,4 +165,37 @@ function editWish(i) {
     h('button.btn.primary', { type: 'button', onclick: save }, '저장'),
   ];
   const d = drawer({ title: '위시리스트', body, foot, onClose: () => rerender() });
+}
+
+/** 다음 한섭 한정 픽업까지 — 연대기의 한섭 일정과 지금 재화·천장으로 */
+function nextPickup(g, limit) {
+  const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+  const ups = [];
+  for (const v of allVersions()) for (const s of v.summons || []) {
+    const m = /(\d{4}-\d{2}-\d{2})/.exec(s.kr || s.time || '');
+    if (!m || m[1] <= today || !(s.kind === 'pickup' || s.kind === 'collab' || (s.six || []).length)) continue;
+    ups.push({ v, s, start: m[1] });
+  }
+  ups.sort((a, b) => a.start.localeCompare(b.start));
+  const nx = ups[0];
+  if (!nx) return null;
+  const days = Math.round((new Date(nx.start) - new Date(today)) / 864e5);
+  const have = Math.floor(estimatePulls(g));
+  const toSix = Math.max(0, limit - (g.pity || 0));
+  const worst = toSix + (g.guaranteed ? 0 : limit);  // 픽업 확정까지 최악
+  const six = (nx.s.six || []).map((id) => store.charById(id)).filter(Boolean);
+  const name = nx.s.name?.ko || nx.s.name?.en || six.map((c) => store.charName(c)).join(', ');
+  return h('section.panel.next-pick',
+    h('div.panel-head', h('h3', '다음 한섭 픽업까지')),
+    h('div', { style: { display: 'flex', gap: '12px', alignItems: 'center' } },
+      six.length ? h('span', six.map((c) => face(c.id))) : null,
+      h('div', h('a', { href: `#/timeline/${nx.v.id}` }, h('b', name)), h('div.faint', { style: { fontSize: '13px' } }, `${nx.v.id} · ${nx.start} 시작`))),
+    h('div.row',
+      h('div', h('small', '남은 날'), h('b.big', `D-${days}`)),
+      h('div', h('small', '지금 재화로'), h('b.big', `${fmt(have)}회`)),
+      h('div', h('small', g.guaranteed ? '픽업 확정까지 (최대)' : '픽업 확정까지 (최악, 반천장 실패 포함)'), h('b.big', `${fmt(worst)}회`)),
+      h('div', h('small', have >= worst ? '확정까지 여유' : '확정까지 부족'), h('b.big', { style: { color: have >= worst ? 'var(--teal)' : '#f0b4a5' } }, `${have >= worst ? '+' : '−'}${fmt(Math.abs(have - worst))}회`)),
+      have < worst && days > 0 ? h('div', h('small', '하루에 모아야 할 양'), h('b.big', `${(Math.ceil((worst - have) / days * 10) / 10)}회`)) : null,
+    ),
+  );
 }

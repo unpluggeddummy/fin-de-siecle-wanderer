@@ -317,6 +317,84 @@
    "source": "중섭 4.1 개발자 방송·PV 정리(UTTU), 한섭 일정은 커뮤니티 미래시표 기준",
    "art": "assets/img/bili/7780b0a51370-key.webp",
    "artSrc": "bilibili"
+  },
+  {
+   "id": "4.0",
+   "title": {},
+   "periods": {},
+   "newChars": [],
+   "events": [],
+   "garments": [],
+   "summons": [
+    {
+     "id": "4.0:m-drake",
+     "name": {
+      "ko": "드레이크 픽업",
+      "en": "Drake"
+     },
+     "kind": "pickup",
+     "six": [
+      3158
+     ],
+     "five": [],
+     "rerun": false,
+     "source": "manual"
+    },
+    {
+     "id": "4.0:m-lilya",
+     "name": {
+      "ko": "헌츠원 릴리아 픽업",
+      "en": "Huntress Lilya"
+     },
+     "kind": "pickup",
+     "six": [
+      3155
+     ],
+     "five": [],
+     "rerun": false,
+     "source": "manual"
+    },
+    {
+     "id": "4.0:m-glyndwr",
+     "name": {
+      "ko": "글린두르 픽업",
+      "en": "Glyndŵr"
+     },
+     "kind": "pickup",
+     "six": [
+      3163
+     ],
+     "five": [],
+     "rerun": false,
+     "source": "manual"
+    },
+    {
+     "id": "4.0:m-nautika",
+     "name": {
+      "ko": "노티카 (복각)",
+      "en": "Nautika"
+     },
+     "kind": "pickup",
+     "six": [
+      3120
+     ],
+     "five": [],
+     "rerun": true,
+     "source": "manual"
+    },
+    {
+     "id": "4.0:m-ripples",
+     "name": {
+      "ko": "호수의 물결",
+      "en": "Ripples on the Water"
+     },
+     "kind": "ripples",
+     "six": [],
+     "five": [],
+     "source": "manual"
+    }
+   ],
+   "source": "중섭 4.0 에셋의 모집 배너 원화 기준 (5성 픽업·기간은 아직 모름)"
   }
  ]
 }

@@ -19,6 +19,21 @@ const TAROT = ['0', 'Ⅰ', 'Ⅱ', 'Ⅲ', 'Ⅳ', 'Ⅴ', 'Ⅵ', 'Ⅶ', 'Ⅷ', 'Ⅸ
 const view = { q: '', own: 'all', cats: new Set(COSTUME), sources: new Set(), sort: 'version' };
 const mine = (id) => store.state.user.skins.items[id] || {};
 
+/** 게임 데이터에 아직 없는 예정 의상(손으로 적은 버전의 새 의상) — 보유 표시는 게임 데이터가 들어온 뒤에 */
+const nn = (x) => (x || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+function upcoming() {
+  const have = new Set(store.state.game.skins.map((s) => `${s.char}|${nn(s.nameEn)}`));
+  const cat = (g) => (/주크박스/.test(g.grade) ? 'jukebox' : /무료/.test(g.grade) ? 'free' : /콜라보/.test(g.src || '') ? 'collab' : 'shop');
+  const grade = (g) => (/Advanced|어드밴스드/i.test(g.grade) ? 2 : /Unique|유니크/i.test(g.grade) ? 3 : 1);
+  const out = [];
+  for (const v of store.state.game.versions.filter((v) => v.manual)) for (const g of v.garments || []) {
+    if (!g.char || !g.en || have.has(`${g.char}|${nn(g.en)}`)) continue;
+    out.push({ id: `up-${v.id}-${nn(g.en)}`, char: g.char, name: g.ko || g.en, nameEn: g.en, cat: cat(g), version: v.id,
+      art: g.poster || null, portrait: g.poster || store.charPortrait(store.charById(g.char)), grade: grade(g), gradeName: g.grade, series: g.src, upcoming: true });
+  }
+  return out;
+}
+
 /** 사용자가 고친 분류·버전을 반영한 스킨 정보 */
 export function skinInfo(s) {
   const m = mine(s.id);
@@ -33,7 +48,7 @@ export function skinInfo(s) {
 const vnum = store.verNum;
 
 export function render(root) {
-  const all = store.state.game.skins.filter((s) => store.charById(s.char)?.released || mine(s.id).owned);
+  const all = [...store.state.game.skins.filter((s) => store.charById(s.char)), ...upcoming()];
   const costumes = all.filter((s) => COSTUME.has(skinInfo(s).cat));
   const owned = costumes.filter((s) => mine(s.id).owned).length;
   const spent = Object.values(store.state.user.skins.items).reduce((a, x) => a + (x.owned && +x.price ? +x.price : 0), 0);
@@ -122,8 +137,8 @@ function card(s) {
     if (k === 'owned' && x.owned) x.wish = false;
     if (!Object.values(x).some(Boolean)) delete u.items[s.id];
   });
-  return h('article.scard' + (m.owned || !costume ? '' : '.unowned'),
-    m.owned && costume ? h('span.flag.own', '보유') : (m.wish ? h('span.flag.wish', '갖고 싶음') : null),
+  return h('article.scard' + (m.owned || !costume || s.upcoming ? '' : '.unowned'),
+    s.upcoming ? h('span.flag.wish', '출시 예정') : m.owned && costume ? h('span.flag.own', '보유') : (m.wish ? h('span.flag.wish', '갖고 싶음') : null),
     h('span.cat-tag.c-' + info.cat, info.cat === 'tarot' && s.tarot != null ? `타로 ${TAROT[s.tarot] || s.tarot}` : SKIN_CAT[info.cat]),
     s.gradeName && costume ? h('span.grade-tag.g' + s.grade, GRADE[s.grade]) : null,
     h('button.sart', { type: 'button', 'aria-label': `${s.name} 크게 보기`, onclick: () => lightbox(art, `${store.charName(c)} — ${s.name}`) }, img(art, s.name)),
@@ -132,7 +147,7 @@ function card(s) {
       h('span', [store.charName(c), s.tarot != null ? `타로 ${TAROT[s.tarot] || s.tarot}` : s.series, info.version ? `${store.verLabel(info.version, true)}${info.versionKnown || store.COLLAB[info.version] ? '' : ' (추정)'}` : null, s.gradeName ? GRADE[s.grade] : null, s.source].filter(Boolean).join(' · ')),
       m.note ? h('span', { style: { color: 'var(--paper-faint)' } }, m.note) : null,
     ),
-    editing ? h('div.sact',
+    editing && !s.upcoming ? h('div.sact',
       costume ? h('button.btn' + (m.owned ? '.primary' : ''), { type: 'button', 'aria-pressed': String(!!m.owned), onclick: () => toggle('owned') }, m.owned ? '보유 ✓' : '보유') : null,
       costume && !m.owned ? h('button.btn', { type: 'button', 'aria-pressed': String(!!m.wish), onclick: () => toggle('wish') }, m.wish ? '찜 ✓' : '찜') : null,
       h('button.btn', { type: 'button', 'aria-label': '자세히', style: { flex: '0 0 auto' }, onclick: () => details(s) }, '…'),

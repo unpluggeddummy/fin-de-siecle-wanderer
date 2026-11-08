@@ -2,6 +2,7 @@
 import { h, drawer, field, uid, chip, fill, toast } from '../ui.js';
 import * as store from '../store.js';
 import { rerender } from '../app.js';
+import { recordsForDeck } from './bulletin.js';
 import { teamView, teamEditor, charSelect, afImg } from '../components.js';
 import { check, recommend, AF_KO } from '../deckcheck.js';
 
@@ -69,6 +70,13 @@ function deckCard(d) {
     d.tags?.length ? h('div.tagline', d.tags.map((t) => h('span.tag', t))) : null,
     teamView(d.members),
     d.note ? h('p.boss-note', d.note) : null,
+    (() => {  // 갈기의 게시판에서 이 덱(같은 4명, 또는 3명 같은 변형)으로 남긴 기록
+      const rs = recordsForDeck(d);
+      if (!rs.length) return null;
+      return h('details.dc-details',
+        h('summary', `갈기의 게시판 기록 ${rs.length}개 `, h('small.faint', `최고 ${rs[0].score.toLocaleString('ko-KR')}점 · ${rs[0].season.version} ${rs[0].boss.name}`)),
+        h('ul.deck-recs', rs.map((x) => h('li', h('a', { href: '#/bulletin' }, `${x.season.version} ${x.boss.name}`), ` ${x.score.toLocaleString('ko-KR')}점`, x.exact ? null : h('small.faint', ' (변형)')))));
+    })(),
     store.state.game.skills && d.members?.some((m) => m?.char) ? h('details.dc-details',
       h('summary', '덱 분석 ', d.boss ? h('small.faint', `${AF_KO[d.boss]} 보스 기준 `) : null, checkSummary(d.members, d.boss)),
       checkList(d.members, d.boss)) : null,
