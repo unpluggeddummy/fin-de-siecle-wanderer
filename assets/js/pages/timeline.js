@@ -19,7 +19,7 @@ export function allVersions() {
     const chars = g.characters.filter((c) => c.released && c.version === id);
     const stories = (g.stories || []).filter((s) => s.version === id);
     // 제목 띠: 위키 버전 배너 > 메인 이벤트 스토리 배너
-    const strip = w.banner || stories.find((s) => s.cat === 'mainevent' && s.banner)?.banner || stories.find((s) => s.cat === 'main' && s.banner)?.banner || null;
+    const strip = w.banner || stories.find((s) => s.cat === 'mainevent' && s.banner && !s.bannerFallback)?.banner || stories.find((s) => s.cat === 'main' && s.banner && !s.bannerFallback)?.banner || null;
     return { ...w, chars, stories, wiki: wiki.has(id) && !w.stub, key: g.versionArt?.[id] || w.art || null, strip };
   }).sort((a, b) => store.verNum(b.id) - store.verNum(a.id));
 }

@@ -28,7 +28,7 @@
      ],
      "rerun": false,
      "source": "manual",
-     "banner": "assets/img/summon/a-3.9-m-hedone.webp",
+     "banner": "assets/img/summon/a5-3.9-m-hedone.webp",
      "bannerSrc": "asset"
     },
     {
@@ -48,7 +48,7 @@
      ],
      "rerun": false,
      "source": "manual",
-     "banner": "assets/img/summon/a-3.9-m-narcissus.webp",
+     "banner": "assets/img/summon/a5-3.9-m-narcissus.webp",
      "bannerSrc": "asset"
     },
     {
@@ -70,12 +70,13 @@
       3116
      ],
      "source": "manual",
-     "banner": "assets/img/summon/a-3.9-m-ripples.webp",
+     "banner": "assets/img/summon/a5-3.9-m-ripples.webp",
      "bannerSrc": "asset"
     },
     {
      "id": "3.9:m-boon",
      "name": {
+      "ko": "호수의 선물",
       "en": "Boon of the Water"
      },
      "kind": "select",
@@ -95,7 +96,7 @@
       3114
      ],
      "source": "manual",
-     "banner": "assets/img/summon/a-3.9-m-boon.webp",
+     "banner": "assets/img/summon/a5-3.9-m-boon.webp",
      "bannerSrc": "asset"
     }
    ],
@@ -303,9 +304,7 @@
      "char": 3059,
      "en": "Reflection of the Self",
      "grade": "무료",
-     "src": "A Night of the Bizarre",
-     "poster": "assets/img/bili/ed6bdbf5bec7-skin.webp",
-     "posterSrc": "bilibili"
+     "src": "A Night of the Bizarre"
     },
     {
      "char": 3137,
@@ -317,9 +316,7 @@
      "char": 3127,
      "en": "Solace for the Lost",
      "grade": "주크박스",
-     "src": "The Seven Precepts",
-     "poster": "assets/img/bili/0853caabbe2c-skin.webp",
-     "posterSrc": "bilibili"
+     "src": "The Seven Precepts"
     }
    ],
    "source": "중섭 4.1 개발자 방송·PV 정리(UTTU), 한섭 일정은 커뮤니티 미래시표 기준",
@@ -347,7 +344,7 @@
      "five": [],
      "rerun": false,
      "source": "manual",
-     "banner": "assets/img/summon/a-4.0-m-drake.webp",
+     "banner": "assets/img/summon/a5-4.0-m-drake.webp",
      "bannerSrc": "asset"
     },
     {
@@ -363,7 +360,7 @@
      "five": [],
      "rerun": false,
      "source": "manual",
-     "banner": "assets/img/summon/a-4.0-m-lilya.webp",
+     "banner": "assets/img/summon/a5-4.0-m-lilya.webp",
      "bannerSrc": "asset"
     },
     {
@@ -393,8 +390,8 @@
      "five": [],
      "rerun": true,
      "source": "manual",
-     "banner": "assets/img/summon/a-4.0-m-nautika.webp",
-     "bannerSrc": "asset"
+     "banner": "assets/img/summon/a5-2.8-themythatherfingertips.webp",
+     "bannerSrc": "rerun"
     },
     {
      "id": "4.0:m-ripples",
@@ -406,7 +403,7 @@
      "six": [],
      "five": [],
      "source": "manual",
-     "banner": "assets/img/summon/a-4.0-m-ripples.webp",
+     "banner": "assets/img/summon/a5-4.0-m-ripples.webp",
      "bannerSrc": "asset"
     }
    ],

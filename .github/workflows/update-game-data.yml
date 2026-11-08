@@ -64,6 +64,7 @@ jobs:
           /singlebg/store/skin/
           /singlebg/summon/banner/*.png
           /singlebg/summon/heroversion_3_9/
+          /singlebg/summon/heroversion_2_2/selfselectsix/
           /singlebg/summon/heroversion_[4-9]_*/
           /singlebg/characterskin/*.png
           /singlebg/headicon_middle/

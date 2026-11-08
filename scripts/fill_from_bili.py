@@ -114,11 +114,7 @@ def classify(posts, man):
             for s in v.get("summons", []):
                 if s.get("kind") == "ripples":
                     found.append({"version": vid, "target": f"summon:{s['id']}", "url": pics[0], "note": text[:60]})
-        # 의상: "衣着 … 이름 | English Name"
-        if "衣着" in text:
-            for g in v.get("garments", []):
-                if g.get("en") and norm(g["en"]) in norm(text):
-                    found.append({"version": vid, "target": f"garment:{g['en']}", "url": pics[0], "note": text[:60]})
+        # 의상은 가져오지 않는다 (출시 전 의상은 게임 에셋이 들어올 때까지 비워 둠)
         # 버전 대표 그림: "X.Y版本《…》现已开幕/开启"
         if re.search(r"版本[《「].+?[》」]现已(开幕|开启)", text):
             found.append({"version": vid, "target": "key", "url": pics[0], "note": text[:60]})
@@ -225,7 +221,7 @@ def main():
                     if s.get("banner") != rel:
                         s["banner"], s["bannerSrc"] = rel, "bilibili"
                         got += 1
-            elif t.startswith("garment:"):
+            elif t.startswith("garment:") and False:  # 의상은 쓰지 않음
                 g = next((g for g in v.get("garments", []) if norm(g.get("en")) == norm(t[8:])), None)
                 if g and (not g.get("poster") or g.get("posterSrc") == "bilibili"):
                     rel = make(a.out, x["url"], "skin")
@@ -249,6 +245,13 @@ def main():
         except Exception as e:
             print(f"  ! {x['version']} {t}: {e}", file=sys.stderr)
 
+    # 예전에 붙인 빌리빌리 의상 그림은 걷어 낸다
+    src["items"] = [x for x in src["items"] if not x["target"].startswith("garment:")]
+    for v in manual.get("versions", []):
+        for g in v.get("garments", []):
+            if g.get("posterSrc") == "bilibili":
+                g.pop("poster", None)
+                g.pop("posterSrc", None)
     with open(sp, "w", encoding="utf-8") as f:
         json.dump(src, f, ensure_ascii=False, indent=1)
         f.write("\n")

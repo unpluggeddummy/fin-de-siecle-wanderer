@@ -4,7 +4,7 @@ import { h, img, chip, fill, uid, lightbox } from '../ui.js';
 import * as store from '../store.js';
 import { rerender } from '../app.js';
 
-const CATS = [['main', '메인 스토리', 'Main Story'], ['mainevent', '버전 이벤트', 'Version Event'], ['char', '캐릭터 스토리', 'Character Story'], ['anec', '일화', 'Anecdote']];
+const CATS = [['main', '메인 스토리', 'Main Story'], ['mainevent', '버전 이벤트', 'Version Event'], ['char', '캐릭터 스토리', 'Character Story']];  // 일화는 보이지 않게
 const CAT_NAME = Object.fromEntries(CATS.map(([k, ko]) => [k, ko]));
 const view = { cat: 'all', q: '', only: false, sort: 'old' };
 const openSpoilers = new Set();

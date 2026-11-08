@@ -48,7 +48,7 @@ export function skinInfo(s) {
 const vnum = store.verNum;
 
 export function render(root) {
-  const all = [...store.state.game.skins.filter((s) => store.charById(s.char)), ...upcoming()];
+  const all = store.state.game.skins.filter((s) => store.charById(s.char));
   const costumes = all.filter((s) => COSTUME.has(skinInfo(s).cat));
   const owned = costumes.filter((s) => mine(s.id).owned).length;
   const spent = Object.values(store.state.user.skins.items).reduce((a, x) => a + (x.owned && +x.price ? +x.price : 0), 0);

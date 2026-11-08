@@ -4,6 +4,7 @@
   python3 scripts/version_art.py --cn <Reverse-1999-CN-Asset 폴더> --out .
 
 규칙: N.M 버전 → singlebg/vNaM_mainactivity_singlebg/vNaM_enterview_fullbg.png
+(같은 폴더에 _enterview_role.png 인물 레이어가 있으면 배경 위에 얹어 key2.webp 로)
 (옛 버전·콜라보는 아래 OVERRIDE). 파일이 없으면 건너뛰고, 사이트는 위키 배너를 대신 쓴다.
 CN 폴더가 sparse checkout이라 파일이 없으면 `git show`로 꺼내 본다.
 결과: assets/img/ver/<버전>/key.webp, data/game/version-art.json
@@ -65,14 +66,23 @@ def main():
             except ValueError:
                 continue
             rel = f"singlebg/v{n}a{m}_mainactivity_singlebg/v{n}a{m}_enterview_fullbg.png"
-        dst = f"assets/img/ver/{v}/key.webp"
-        if not a.force and v in art and os.path.exists(os.path.join(O, dst)):
+        # 인물이 따로 그려진 버전(3.9 등): 배경(_fullbg) 위에 인물(_role)을 얹는다
+        role_rel = rel.replace("_enterview_fullbg.png", "_enterview_role.png") if rel.endswith("_enterview_fullbg.png") else None
+        role = read(a.cn, role_rel) if role_rel else None
+        dst = f"assets/img/ver/{v}/key2.webp" if role else f"assets/img/ver/{v}/key.webp"
+        if not a.force and art.get(v) == dst and os.path.exists(os.path.join(O, dst)):
             continue
         data = read(a.cn, rel)
         if not data:
             continue
         try:
-            im = Image.open(io.BytesIO(data)).convert("RGB")
+            im = Image.open(io.BytesIO(data)).convert("RGBA")
+            if role:
+                r = Image.open(io.BytesIO(role)).convert("RGBA")
+                if r.height > im.height:
+                    r = r.resize((round(r.width * im.height / r.height), im.height), Image.LANCZOS)
+                im.alpha_composite(r, ((im.width - r.width) // 2, im.height - r.height))
+            im = im.convert("RGB")
         except Exception:
             continue
         if im.width > 1920:
