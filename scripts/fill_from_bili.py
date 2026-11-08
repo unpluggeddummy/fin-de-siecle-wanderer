@@ -141,8 +141,6 @@ def cutout(im):
     if _rembg is None:
         _rembg = new_session("isnet-anime")
     out = remove(im.convert("RGBA"), session=_rembg)
-    # 반쯤 남은 배경(틀·장식의 흐린 자국)은 지우고, 인물 가장자리는 부드럽게 둔다
-    out.putalpha(out.getchannel("A").point(lambda x: 0 if x < 70 else min(255, round((x - 70) * 255 / 150))))
     a = out.getchannel("A").point(lambda x: 255 if x > 24 else 0)
     box = a.getbbox()
     return out.crop(box) if box else out
@@ -158,7 +156,7 @@ def fetch(url):
 
 def make(out_dir, url, kind):
     key = hashlib.sha1(url.encode()).hexdigest()[:12]
-    rel = f"assets/img/bili/{key}-{kind}{'2' if kind == 'skin' else ''}.webp"
+    rel = f"assets/img/bili/{key}-{kind}.webp"
     dest = os.path.join(out_dir, rel)
     if os.path.exists(dest):
         return rel
@@ -175,9 +173,6 @@ def make(out_dir, url, kind):
         if kind == "char" and im.width > im.height:
             # 픽업 배너: 인물은 왼쪽~가운데, 오른쪽은 배너 제목·기간 글자
             im = im.crop((0, 0, round(im.width * 0.62), round(im.height * 0.8)))
-        if kind == "skin" and im.height > im.width:
-            # 의상 홍보 그림: 위쪽 "GARMENT" 띠와 아래쪽 의상 이름 글자를 먼저 잘라 낸다
-            im = im.crop((0, round(im.height * 0.06), im.width, round(im.height * 0.80)))
         im = cutout(im)
         if im.height > 1100:
             im = im.resize((round(im.width * 1100 / im.height), 1100), Image.LANCZOS)
