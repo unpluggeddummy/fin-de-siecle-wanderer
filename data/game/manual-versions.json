@@ -27,7 +27,9 @@
       3076
      ],
      "rerun": false,
-     "source": "manual"
+     "source": "manual",
+     "banner": "assets/img/summon/a-3.9-m-hedone.webp",
+     "bannerSrc": "asset"
     },
     {
      "id": "3.9:m-narcissus",
@@ -45,7 +47,9 @@
       3010
      ],
      "rerun": false,
-     "source": "manual"
+     "source": "manual",
+     "banner": "assets/img/summon/a-3.9-m-narcissus.webp",
+     "bannerSrc": "asset"
     },
     {
      "id": "3.9:m-ripples",
@@ -65,7 +69,9 @@
       3114,
       3116
      ],
-     "source": "manual"
+     "source": "manual",
+     "banner": "assets/img/summon/a-3.9-m-ripples.webp",
+     "bannerSrc": "asset"
     },
     {
      "id": "3.9:m-boon",
@@ -88,7 +94,9 @@
       3128,
       3114
      ],
-     "source": "manual"
+     "source": "manual",
+     "banner": "assets/img/summon/a-3.9-m-boon.webp",
+     "bannerSrc": "asset"
     }
    ],
    "events": [
@@ -296,7 +304,7 @@
      "en": "Reflection of the Self",
      "grade": "무료",
      "src": "A Night of the Bizarre",
-     "poster": "assets/img/bili/ed6bdbf5bec7-skin2.webp",
+     "poster": "assets/img/bili/ed6bdbf5bec7-skin.webp",
      "posterSrc": "bilibili"
     },
     {
@@ -310,7 +318,7 @@
      "en": "Solace for the Lost",
      "grade": "주크박스",
      "src": "The Seven Precepts",
-     "poster": "assets/img/bili/0853caabbe2c-skin2.webp",
+     "poster": "assets/img/bili/0853caabbe2c-skin.webp",
      "posterSrc": "bilibili"
     }
    ],
@@ -338,7 +346,9 @@
      ],
      "five": [],
      "rerun": false,
-     "source": "manual"
+     "source": "manual",
+     "banner": "assets/img/summon/a-4.0-m-drake.webp",
+     "bannerSrc": "asset"
     },
     {
      "id": "4.0:m-lilya",
@@ -352,7 +362,9 @@
      ],
      "five": [],
      "rerun": false,
-     "source": "manual"
+     "source": "manual",
+     "banner": "assets/img/summon/a-4.0-m-lilya.webp",
+     "bannerSrc": "asset"
     },
     {
      "id": "4.0:m-glyndwr",
@@ -380,7 +392,9 @@
      ],
      "five": [],
      "rerun": true,
-     "source": "manual"
+     "source": "manual",
+     "banner": "assets/img/summon/a-4.0-m-nautika.webp",
+     "bannerSrc": "asset"
     },
     {
      "id": "4.0:m-ripples",
@@ -391,7 +405,9 @@
      "kind": "ripples",
      "six": [],
      "five": [],
-     "source": "manual"
+     "source": "manual",
+     "banner": "assets/img/summon/a-4.0-m-ripples.webp",
+     "bannerSrc": "asset"
     }
    ],
    "source": "중섭 4.0 에셋의 모집 배너 원화 기준 (5성 픽업·기간은 아직 모름)"
