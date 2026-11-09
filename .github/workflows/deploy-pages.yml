@@ -1,0 +1,63 @@
+# 사이트 올리기 (GitHub Pages)
+# 기본 "pages build and deployment" 대신 이 워크플로가 사이트를 올린다.
+#   - 올릴 때 기다리는 시간을 10분 → 30분으로 늘리고, 실패하면 한 번 더 시도한다
+#   - 사이트에 필요 없는 파일(scripts, data/raw, .github)은 빼고 올려서 가볍게
+# 쓰려면 저장소 Settings → Pages → Build and deployment → Source 를 "GitHub Actions" 로 바꾼다.
+name: 사이트 올리기
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  # 액션이 올린 커밋(게임 데이터 갱신 등)은 push 로 이 워크플로를 깨우지 못해서, 끝나면 이어서 돌게 한다
+  workflow_run:
+    workflows: ["게임 데이터 갱신", "위키 고화질 그림 받기", "시뮬레이터·위키 정보 받기"]
+    types: [completed]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy2.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: 올릴 파일 모으기
+        run: |
+          mkdir -p _site
+          rsync -a --exclude '.git' --exclude '.github' --exclude 'scripts' --exclude 'data/raw' --exclude '_site' ./ _site/
+          touch _site/.nojekyll
+          du -sh _site
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: 올리기
+        id: deploy
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 1800000
+
+      - name: 한 번 더 올리기 (처음에 실패했을 때만)
+        id: deploy2
+        if: steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 1800000
