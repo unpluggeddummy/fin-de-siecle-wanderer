@@ -8,7 +8,8 @@ const reduce = () => window.matchMedia('(prefers-reduced-motion: reduce)').match
  *  - keyBlack: 검은 배경을 지운다 (투명 배경이 없는 영상용, 화면 섞기 방식)
  * onBounds({ left, right }): 그림이 실제로 있는 가로 범위(화면 좌표) — 뒤 글자를 가리는 데 쓴다
  */
-export function mosaic(host, media, { block = 10, radius = 160, tint = [201, 163, 92], bottomFade = 0.28, onBounds } = {}) {
+export function mosaic(host, media, { block = 10, radius = 160, tint = [201, 163, 92], bottomFade = 0.28, fit = 'contain', onBounds } = {}) {
+  let crop = [0, 0, 1, 1]; // 꽉 채우기(cover)일 때 원본에서 쓸 부분 [x, y, w, h]
   if (typeof media === 'string') media = { src: media, type: 'image' };
   const type = media.type || (/\.(mp4|webm|mov)(\?|$)/i.test(media.src) ? 'video' : /\.gif(\?|$)/i.test(media.src) ? 'gif' : 'image');
   const moving = type !== 'image';
@@ -30,7 +31,7 @@ export function mosaic(host, media, { block = 10, radius = 160, tint = [201, 163
   const tintSmall = () => {
     const sw = small.width, sh = small.height;
     sctx.clearRect(0, 0, sw, sh);
-    sctx.drawImage(el, 0, 0, sw, sh);
+    sctx.drawImage(el, ...crop, 0, 0, sw, sh);
     const d = sctx.getImageData(0, 0, sw, sh), p = d.data;
     const colOn = new Uint16Array(sw);
     for (let i = 0; i < p.length; i += 4) {
@@ -66,7 +67,7 @@ export function mosaic(host, media, { block = 10, radius = 160, tint = [201, 163
       for (let y = -r; y <= r; y += b) for (let x = -r; x <= r; x += b) if (x * x + y * y < r * r) ctx.rect(Math.floor((mx + x) / b) * b, Math.floor((my + y) / b) * b, b, b);
       ctx.clip();
       ctx.imageSmoothingEnabled = true;
-      ctx.drawImage(el, 0, 0, W, H);
+      ctx.drawImage(el, ...crop, 0, 0, W, H);
       ctx.restore();
     }
   };
@@ -77,7 +78,14 @@ export function mosaic(host, media, { block = 10, radius = 160, tint = [201, 163
     // 자리 안에 다 들어가게 (높이 우선, 너무 넓으면 너비에 맞춤)
     const ar = natW() / natH();
     let h = r.height, w = h * ar;
-    if (w > r.width) { w = r.width; h = w / ar; }
+    if (fit === 'cover') { // 자리를 꽉 채우고 넘치는 부분은 가운데 기준으로 잘라 낸다
+      w = r.width; h = r.height;
+      const ha = w / h;
+      crop = ar > ha ? [(natW() - natH() * ha) / 2, 0, natH() * ha, natH()] : [0, (natH() - natW() / ha) / 2, natW(), natW() / ha];
+    } else {
+      crop = [0, 0, natW(), natH()];
+      if (w > r.width) { w = r.width; h = w / ar; }
+    }
     const W = Math.round(w * devicePixelRatio), H = Math.round(h * devicePixelRatio);
     cv.width = W; cv.height = H;
     cv.style.width = `${W / devicePixelRatio}px`; cv.style.height = `${H / devicePixelRatio}px`;

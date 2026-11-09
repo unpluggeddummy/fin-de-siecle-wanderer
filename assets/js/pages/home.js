@@ -333,8 +333,9 @@ const HERO_MAX_MB = 20;
 
 function heroMedia() {
   const x = store.state.user.settings?.hero;
-  if (!x?.file) return { ...HERO_DEFAULT, block: x?.block, keyBlack: false };
-  return { src: store.fileURL(x.file), type: x.type || 'image', keyBlack: !!x.keyBlack, block: x.block };
+  const fit = x?.fit || 'cover';
+  if (!x?.file) return { ...HERO_DEFAULT, block: x?.block, keyBlack: false, fit };
+  return { src: store.fileURL(x.file), type: x.type || 'image', keyBlack: !!x.keyBlack, block: x.block, fit };
 }
 const saveHero = (fn) => store.update('settings', (s) => { s.hero ||= {}; fn(s.hero); });
 
@@ -382,6 +383,9 @@ function heroEditor(m) {
   return h('div.hero-edit',
     h('b', '대표 화면'),
     h('button.btn.small', { type: 'button', onclick: uploadHero }, '그림 · GIF · 영상 올리기'),
+    h('label', '맞춤 ', h('select', { onchange: (e) => saveHero((y) => { y.fit = e.target.value; }) },
+      h('option', { value: 'cover', selected: (x.fit || 'cover') === 'cover' }, '화면 꽉 채우기 (가운데 기준)'),
+      h('option', { value: 'contain', selected: x.fit === 'contain' }, '전체 보이기'))),
     h('label', h('input', { type: 'checkbox', checked: !!x.keyBlack, onchange: (e) => saveHero((y) => { y.keyBlack = e.target.checked; }) }), ' 검은 배경 지우기'),
     h('label', '모자이크 ', h('input', { type: 'range', min: 5, max: 24, value: m.block || 10, onchange: (e) => saveHero((y) => { y.block = +e.target.value; }) })),
     h('label', '박스 글씨 ', h('input', { type: 'range', min: 70, max: 200, step: 5, value: Math.round((x.scale || 1) * 100),
@@ -465,6 +469,6 @@ function hero(p, editing) {
     editing ? heroEditor(m) : null,
   );
   // 그림 전체를 모자이크로 (가운데가 선명해지는 효과 없음)
-  requestAnimationFrame(() => { heroFx = fx.mosaic(fig, m, { block: m.block || 10, radius: 0 }); });
+  requestAnimationFrame(() => { heroFx = fx.mosaic(fig, m, { block: m.block || 10, radius: 0, fit: m.fit, bottomFade: m.fit === 'cover' ? 0 : 0.28 }); });
   return sec;
 }
