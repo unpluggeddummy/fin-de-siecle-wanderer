@@ -239,10 +239,20 @@
    "ref": "3.9:m-ripples",
    "name": "호수의 물결",
    "type": "상시",
-   "start": "",
+   "start": "2026-11-07",
    "version": "3.9",
-   "pulls": 0,
-   "results": [],
+   "pulls": 60,
+   "results": [
+    {
+     "char": 3121,
+     "at": 62
+    },
+    {
+     "char": 3117,
+     "at": 68,
+     "lost": true
+    }
+   ],
    "note": ""
   }
  ],
