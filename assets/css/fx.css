@@ -161,3 +161,10 @@ body[data-route="home"] .site-foot { display: none; }
 .hero .dragging { outline: 1px solid var(--brass-bright); opacity: .9; }
 .hero .dragging .hero-drag { cursor: grabbing; }
 body.editing .hero-tag, body.editing .hero-side, body.editing .hero-chip, body.editing .hero-note { overflow: visible; }
+
+/* 설정 페이지 맨 아래 출처 */
+.credits { max-width: 760px; margin: 48px 0 0; padding-top: 18px; border-top: 1px solid var(--line); font-size: 13px; color: var(--paper-faint); line-height: 1.7; }
+.lock + .credits { margin: 48px auto 0; }
+.credits h2.section { font-size: 16px; margin-bottom: 8px; }
+.credits p { margin: 0 0 6px; }
+.credits a { color: var(--paper-dim); }

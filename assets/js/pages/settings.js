@@ -126,6 +126,7 @@ export function render(root) {
           } }, '저장 안 한 변경 버리기') : null),
       ),
     ),
+    credits(),
   );
 }
 
@@ -139,6 +140,23 @@ async function restore() {
     store.replaceAll(data);
     toast('백업을 불러왔습니다. 확인 후 저장해 주세요.');
   } catch (e) { toast(`불러오지 못했습니다: ${e.message}`, 'err'); }
+}
+
+/** 데이터·그림·라이브러리 출처 (설정 페이지 맨 아래, 잠긴 화면에도 보임) */
+function credits() {
+  const a = (href, t) => h('a', { href, target: '_blank', rel: 'noopener' }, t);
+  return h('section.credits',
+    h('h2.section', '출처'),
+    h('p', '팬이 만든 개인 기록 사이트입니다. 게임 이미지와 데이터의 권리는 Bluepoch에 있습니다.'),
+    h('p', '데이터 출처: ',
+      a('https://github.com/St-Pavlov-Foundation/re1999-data-global', 're1999-data-global'), ', ',
+      a('https://github.com/myssal/Reverse-1999-CN-Asset', 'Reverse-1999-CN-Asset'), ', ',
+      a('https://github.com/windbow27/kornblume', 'Kornblume'), ', ',
+      a('https://github.com/UnderLotus/r1999-roster', 'r1999-roster'), ', ',
+      a('https://reverse1999.fandom.com/', 'Reverse: 1999 Wiki'), ' (CC BY-SA 3.0).'),
+    h('p', 'Live2D 재생: Live2D Cubism, PixiJS, pixi-live2d-display.'),
+    h('p', '글꼴: Pretendard, Wanted Sans, Departure Mono, Geist Mono (모두 SIL OFL).'),
+  );
 }
 
 function lockScreen(root) {
@@ -162,6 +180,6 @@ function lockScreen(root) {
     h('p', '설정은 사이트 주인만 열 수 있어요.'),
     h('form', { onsubmit: submit }, input, err, h('button.btn.primary', { type: 'submit' }, '확인')),
   );
-  root.append(h('div.lock', box));
+  root.append(h('div.lock', box), credits());
   setTimeout(() => input.focus(), 0);
 }
