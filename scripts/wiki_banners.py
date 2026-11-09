@@ -114,7 +114,7 @@ def main():
         if v["id"] in has_game:
             continue
         for s in v.get("summons", []):
-            if s.get("bannerSrc") in ("wiki", "asset", "rerun"):
+            if s.get("bannerSrc") in ("wiki", "asset", "rerun", "kr"):
                 continue
             # 픽업은 영문 배너 이름(wikiName)을 알 때만 — 캐릭터 이름으로 찾으면 엉뚱한 그림이 걸린다
             if s.get("kind") in ("pickup", "collab") and not s.get("wikiName"):
@@ -125,7 +125,7 @@ def main():
     for v in versions:
         for s in v.get("summons", []):
             b = s.get("banner") or ""
-            if s.get("bannerSrc") in ("wiki", "asset", "rerun") or (b and not b.startswith("assets/img/summon/")):
+            if s.get("bannerSrc") in ("wiki", "asset", "rerun", "kr") or (b and not b.startswith("assets/img/summon/")):
                 continue
             c = candidates(s, v["id"])
             if c:

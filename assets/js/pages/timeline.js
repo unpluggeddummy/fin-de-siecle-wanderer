@@ -179,7 +179,7 @@ export function summonCard(s, v, myBanners = store.state.user.gacha?.banners || 
   const five = s.five.map((id) => store.charById(id)).filter(Boolean);
   const choices = (s.choices || []).map((id) => store.charById(id)).filter(Boolean);
   return h('article.tl-su',
-    s.banner ? h('button.tl-su-img', { type: 'button', onclick: () => lightbox(s.banner, s.name.ko || s.name.en) }, img(s.banner, '')) : null,
+    s.banner ? h('button.tl-su-img' + (s.bannerSrc === 'kr' ? '.kr' : ''), { type: 'button', onclick: () => lightbox(s.banner, s.name.ko || s.name.en) }, s.bannerSrc === 'kr' ? null : h('img.fillbg', { src: s.banner, alt: '', 'aria-hidden': 'true', loading: 'lazy' }), img(s.banner, '')) : null,
     h('div.tl-su-body',
       h('b', s.name.ko || s.name.en), s.name.ko ? h('small.en', s.name.en) : null,
       s.kr || s.time || KIND_KO[s.kind] ? h('small.faint', [KIND_KO[s.kind] ? h('span.tl-su-kind', KIND_KO[s.kind]) : null, s.kr ? `한섭 ${s.kr}` : s.time].filter(Boolean)) : null,

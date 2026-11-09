@@ -1284,3 +1284,10 @@ img[src*="img/npc/"]:not([src*="/full"]):not([src*="/live2d"]) { height: 100% !i
 .next-pick .row small { color: var(--paper-faint); font-size: 12px; }
 .fam .team { max-width: 360px; }
 .fam .boss-note { margin-top: 6px; }
+
+/* 모집 배너는 한섭 공식 배너 크기(16:9)로 통일. 한섭 배너가 아닌 것(위키·원화)은 자르지 않고 가운데에 놓는다 */
+.tl-su-img img, .banner-img img { aspect-ratio: 16 / 9; }
+/* 한섭 배너가 아닌 것: 같은 그림을 흐리게 크게 깔아 16:9 칸을 채우고, 그 위에 원본을 잘리지 않게 놓는다 */
+.tl-su-img, .banner-img { position: relative; overflow: hidden; display: block; }
+.tl-su-img:not(.kr) img:not(.fillbg), .banner-img:not(.kr) img:not(.fillbg) { position: relative; object-fit: contain; }
+.tl-su-img img.fillbg, .banner-img img.fillbg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: blur(14px) brightness(.55) saturate(1.1); transform: scale(1.15); }

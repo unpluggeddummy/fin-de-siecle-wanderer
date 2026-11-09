@@ -94,6 +94,12 @@ export async function loadAll() {
     c.version = mv.id; c.versionEstimated = true;
     if (n.ko && (!c.name.ko || c.name.ko === c.name.en)) c.name = { ...c.name, ko: n.ko };
   }
+  // 한섭 공식 모집 배너(한국어 식자)가 있으면 그걸 먼저
+  const krb = await getJSON('data/game/kr-banners.json').catch(() => null);
+  for (const v of versions) for (const s of v.summons || []) {
+    const b = krb?.banners?.[s.id];
+    if (b) { s.banner = b; s.bannerSrc = 'kr'; }
+  }
   // 게임 언어 테이블에 아직 한국어가 없는 새 스토리 이름은, 손으로 적은 이벤트의 한섭 이름으로
   for (const mv of manual?.versions || []) for (const e of mv.events || []) {
     const st = e.story && e.name?.ko && stories.find((x) => x.id === e.story);

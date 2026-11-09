@@ -77,7 +77,7 @@ function bannerCard(b) {
   const res = b.results || [];
   const ref = b.ref && store.summonById(b.ref);
   return h('article.banner' + (ref?.banner ? '.has-img' : ''),
-    ref?.banner ? h('a.banner-img', { href: `#/timeline/${ref.version}`, title: `${ref.version} 연대기에서 보기` }, h('img', { src: ref.banner, alt: '', loading: 'lazy' })) : null,
+    ref?.banner ? h('a.banner-img' + (ref.bannerSrc === 'kr' ? '.kr' : ''), { href: `#/timeline/${ref.version}`, title: `${ref.version} 연대기에서 보기` }, ref.bannerSrc === 'kr' ? null : h('img.fillbg', { src: ref.banner, alt: '', 'aria-hidden': 'true', loading: 'lazy' }), h('img', { src: ref.banner, alt: '', loading: 'lazy' })) : null,
     h('div.banner-head',
       h('div', h('h3', b.name), h('div.faint', { style: { fontSize: '13px' } }, [b.type, b.start, b.version ? `${b.version} 버전` : null].filter(Boolean).join(' · '))),
       h('div', { style: { display: 'flex', gap: '10px', alignItems: 'center' } },
