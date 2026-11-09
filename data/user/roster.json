@@ -1377,9 +1377,11 @@
    "insight": 3,
    "resonance": 13,
    "portray": 4,
-   "euphoria": 0,
-   "euphorias": [],
-   "euphoriaLevel": 0,
+   "euphoria": 1,
+   "euphorias": [
+    1
+   ],
+   "euphoriaLevel": 4,
    "tuning": 13,
    "tunings": [
     13
