@@ -25,15 +25,19 @@
     "y": 6.84
    }
   },
-  "block": 8,
+  "block": 6,
   "text": {
    "sideTitle": "Fin de Siècle",
    "side": "",
-   "chip": "Error.observe(Ms.Stranger);",
-   "t3": "■ DATA ERROR",
+   "chip": "Error.observe(Prelude to the Stars);",
+   "t3": "■ Ground Zero Report",
    "t1": "■ confidential document",
-   "go": "timekeeper.open()"
+   "go": "timekeeper.open()",
+   "t2": "■ Plesetsk 1987"
   },
-  "size": {}
+  "size": {},
+  "file": "data/user/hero/hero-mw94pv863jy2g.webm",
+  "type": "video",
+  "keyBlack": true
  }
 }
