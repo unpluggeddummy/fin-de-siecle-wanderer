@@ -1330,3 +1330,9 @@ img[src*="img/npc/"]:not([src*="/full"]):not([src*="/live2d"]) { height: 100% !i
 .sp-nums > span { display: grid; gap: 1px; }
 .sp-nums small { font-size: 11px; color: var(--paper-faint); }
 .sp-nums b { font-family: var(--mono); font-weight: 500; font-size: 15px; }
+
+/* 진열장 아래 카드 머리줄: 한 줄로 (제목은 줄임표, 더 보기·× 는 줄바꿈 없이) */
+.side-card header { flex-wrap: nowrap; min-width: 0; }
+.side-card header h3 { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; flex: 1 1 auto; }
+.side-card header .en { white-space: nowrap; flex: 0 0 auto; }
+.side-card header .more { white-space: nowrap; flex: 0 0 auto; margin-left: auto; }

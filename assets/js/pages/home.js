@@ -162,7 +162,7 @@ function sideCards(p, editing) {
   const cards = [
     hidden.has('records') ? null : h('section.side-card.rec-slim', recordsCard(), editing ? xBtn('기록 현황 숨기기', () => toggle('records')) : null),
     wrap('version', '현재 버전 · 한섭', 'Now', '#/timeline', versionCard()),
-    wrap('bulletin', '이번 시즌 갈기의 게시판', 'Bulletin', '#/bulletin', bulletinCard()),
+    wrap('bulletin', '갈기의 게시판', 'Bulletin', '#/bulletin', bulletinCard()),
     wrap('pickup', '다음 한섭 픽업', 'Next Summon', '#/gacha', pickupCard()),
   ];
   return h('div.side-cards', cards,
