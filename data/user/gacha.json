@@ -233,6 +233,17 @@
     }
    ],
    "note": ""
+  },
+  {
+   "id": "mw90z7njwr32d",
+   "ref": "3.9:m-ripples",
+   "name": "호수의 물결",
+   "type": "상시",
+   "start": "",
+   "version": "3.9",
+   "pulls": 0,
+   "results": [],
+   "note": ""
   }
  ],
  "wishlist": [
