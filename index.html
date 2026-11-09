@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=JetBrains+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="assets/css/style.css?v=0f050004">
+  <link rel="stylesheet" href="assets/css/fx.css?v=64b9ca26">
 </head>
 <body>
   <a class="skip" href="#main">본문으로 건너뛰기</a>
@@ -32,20 +33,21 @@
       <span class="brand-sub" data-site-title>세기말의 방랑자</span>
     </a>
     <div class="tabs-wrap">
-      <nav class="tabs" aria-label="메뉴">
-        <a href="#/" data-route="home">홈<small>Home</small></a>
-        <a href="#/roster" data-route="roster">출품작<small>Exhibits</small></a>
-        <a href="#/bulletin" data-route="bulletin">갈기의 게시판<small>Bulletin</small></a>
-        <a href="#/stories" data-route="stories">스토리 후기<small>Stories</small></a>
-        <a href="#/timeline" data-route="timeline">연대기<small>Timeline</small></a>
-        <a href="#/codex" data-route="codex">도감<small>Codex</small></a>
-        <a href="#/skins" data-route="skins">스킨<small>Skins</small></a>
-        <a href="#/psychubes" data-route="psychubes">의지<small>Psychubes</small></a>
-        <a href="#/decks" data-route="decks">덱<small>Teams</small></a>
-        <a href="#/gacha" data-route="gacha">모집 기록<small>Summons</small></a>
-        <a href="#/tastes" data-route="tastes" data-tastes-tab hidden>취향표<small>Tastes</small></a>
-        <a href="#/names" data-route="names" data-names-tab hidden>다국어 이름표<small>Names</small></a>
-        <a href="#/settings" data-route="settings" class="owner-only">설정<small>Settings</small></a>
+      <nav class="tabs ftabs" aria-label="메뉴"><a class="ft-mark" href="#/">FDS<em>//</em>WANDERER</a>
+        <a href="#/" data-route="home"><b>Index</b><i>.page</i><span class="ft-ko">홈</span></a>
+        <a href="#/timekeeper" data-route="timekeeper"><b>Timekeeper</b><i>.profile</i><span class="ft-ko">타임키퍼</span></a>
+        <a href="#/roster" data-route="roster"><b>Exhibits</b><i>.page</i><span class="ft-ko">출품작</span></a>
+        <a href="#/bulletin" data-route="bulletin"><b>Bulletin</b><i>.log</i><span class="ft-ko">갈기의 게시판</span></a>
+        <a href="#/stories" data-route="stories"><b>Stories</b><i>.txt</i><span class="ft-ko">스토리 후기</span></a>
+        <a href="#/timeline" data-route="timeline"><b>Timeline</b><i>.section</i><span class="ft-ko">연대기</span></a>
+        <a href="#/codex" data-route="codex"><b>Codex</b><i>.db</i><span class="ft-ko">도감</span></a>
+        <a href="#/skins" data-route="skins"><b>Wardrobe</b><i>.page</i><span class="ft-ko">스킨</span></a>
+        <a href="#/psychubes" data-route="psychubes"><b>Psychubes</b><i>.page</i><span class="ft-ko">의지</span></a>
+        <a href="#/decks" data-route="decks"><b>Teams</b><i>.cfg</i><span class="ft-ko">덱</span></a>
+        <a href="#/gacha" data-route="gacha"><b>Summons</b><i>.log</i><span class="ft-ko">모집 기록</span></a>
+        <a href="#/tastes" data-route="tastes" data-tastes-tab hidden><b>Tastes</b><i>.page</i><span class="ft-ko">취향표</span></a>
+        <a href="#/names" data-route="names" data-names-tab hidden><b>Names</b><i>.db</i><span class="ft-ko">다국어 이름표</span></a>
+        <a href="#/settings" data-route="settings" class="owner-only"><b>Settings</b><i>.cfg</i><span class="ft-ko">설정</span></a>
       </nav>
     </div>
   </header>
@@ -62,13 +64,13 @@
       <a href="https://github.com/myssal/Reverse-1999-CN-Asset">Reverse-1999-CN-Asset</a>,
       <a href="https://github.com/windbow27/kornblume">Kornblume</a>,
       <a href="https://github.com/UnderLotus/r1999-roster">r1999-roster</a>,
-      <a href="https://reverse1999.fandom.com">Reverse: 1999 Wiki</a> (CC BY-SA 3.0). Live2D 재생: Live2D Cubism, PixiJS, pixi-live2d-display. 제목 글꼴: 마루 부리 (NAVER, OFL).
+      <a href="https://reverse1999.fandom.com">Reverse: 1999 Wiki</a> (CC BY-SA 3.0). Live2D 재생: Live2D Cubism, PixiJS, pixi-live2d-display. 글꼴: 갈무리 Galmuri (Minseo Lee, OFL).
     </p>
     <p data-game-updated></p>
   </footer>
 
   <div class="toast-zone" aria-live="polite"></div>
-  <script type="importmap" data-stamp>{"imports": {"./assets/js/app.js": "./assets/js/app.js?v=04d9366f", "./assets/js/components.js": "./assets/js/components.js?v=3f5e40d9", "./assets/js/deckcheck.js": "./assets/js/deckcheck.js?v=42969d5f", "./assets/js/github.js": "./assets/js/github.js?v=e74f1b92", "./assets/js/importer.js": "./assets/js/importer.js?v=07693a42", "./assets/js/live2d.js": "./assets/js/live2d.js?v=b15fa64d", "./assets/js/owner.js": "./assets/js/owner.js?v=c7e6f920", "./assets/js/pages/bulletin.js": "./assets/js/pages/bulletin.js?v=08a6a4f5", "./assets/js/pages/codex.js": "./assets/js/pages/codex.js?v=6fcd1926", "./assets/js/pages/decks.js": "./assets/js/pages/decks.js?v=7ede32b0", "./assets/js/pages/gacha.js": "./assets/js/pages/gacha.js?v=ae7d85d4", "./assets/js/pages/home.js": "./assets/js/pages/home.js?v=5bbf76ff", "./assets/js/pages/memo.js": "./assets/js/pages/memo.js?v=6357518e", "./assets/js/pages/names.js": "./assets/js/pages/names.js?v=36c1a7a0", "./assets/js/pages/plans.js": "./assets/js/pages/plans.js?v=8db613ec", "./assets/js/pages/psychubes.js": "./assets/js/pages/psychubes.js?v=2dfa13d2", "./assets/js/pages/roster.js": "./assets/js/pages/roster.js?v=03e947a2", "./assets/js/pages/settings.js": "./assets/js/pages/settings.js?v=ab0ebe02", "./assets/js/pages/skins.js": "./assets/js/pages/skins.js?v=797f9847", "./assets/js/pages/stories.js": "./assets/js/pages/stories.js?v=bcd68f1a", "./assets/js/pages/tastes.js": "./assets/js/pages/tastes.js?v=cf0610e3", "./assets/js/pages/timeline.js": "./assets/js/pages/timeline.js?v=4fc55e1f", "./assets/js/store.js": "./assets/js/store.js?v=e0721c52", "./assets/js/ui.js": "./assets/js/ui.js?v=b8267b59"}}</script>
-  <script type="module" src="assets/js/app.js?v=04d9366f"></script>
+  <script type="importmap" data-stamp>{"imports": {"./assets/js/app.js": "./assets/js/app.js?v=65ea7990", "./assets/js/components.js": "./assets/js/components.js?v=3f5e40d9", "./assets/js/deckcheck.js": "./assets/js/deckcheck.js?v=42969d5f", "./assets/js/fx.js": "./assets/js/fx.js?v=aee80d7b", "./assets/js/github.js": "./assets/js/github.js?v=e74f1b92", "./assets/js/importer.js": "./assets/js/importer.js?v=07693a42", "./assets/js/live2d.js": "./assets/js/live2d.js?v=b15fa64d", "./assets/js/owner.js": "./assets/js/owner.js?v=c7e6f920", "./assets/js/pages/bulletin.js": "./assets/js/pages/bulletin.js?v=339f4082", "./assets/js/pages/codex.js": "./assets/js/pages/codex.js?v=6fcd1926", "./assets/js/pages/decks.js": "./assets/js/pages/decks.js?v=7ede32b0", "./assets/js/pages/gacha.js": "./assets/js/pages/gacha.js?v=ae7d85d4", "./assets/js/pages/home.js": "./assets/js/pages/home.js?v=59bc93bb", "./assets/js/pages/memo.js": "./assets/js/pages/memo.js?v=6357518e", "./assets/js/pages/names.js": "./assets/js/pages/names.js?v=36c1a7a0", "./assets/js/pages/plans.js": "./assets/js/pages/plans.js?v=8db613ec", "./assets/js/pages/psychubes.js": "./assets/js/pages/psychubes.js?v=2dfa13d2", "./assets/js/pages/roster.js": "./assets/js/pages/roster.js?v=03e947a2", "./assets/js/pages/settings.js": "./assets/js/pages/settings.js?v=ab0ebe02", "./assets/js/pages/skins.js": "./assets/js/pages/skins.js?v=797f9847", "./assets/js/pages/stories.js": "./assets/js/pages/stories.js?v=bcd68f1a", "./assets/js/pages/tastes.js": "./assets/js/pages/tastes.js?v=cf0610e3", "./assets/js/pages/timekeeper.js": "./assets/js/pages/timekeeper.js?v=31114209", "./assets/js/pages/timeline.js": "./assets/js/pages/timeline.js?v=4fc55e1f", "./assets/js/store.js": "./assets/js/store.js?v=e0721c52", "./assets/js/ui.js": "./assets/js/ui.js?v=b8267b59"}}</script>
+  <script type="module" src="assets/js/app.js?v=65ea7990"></script>
 </body>
 </html>

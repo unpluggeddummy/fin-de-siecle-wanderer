@@ -3,6 +3,7 @@ import { h, img, fmt, drawer, field, toast, uid } from '../ui.js';
 import * as store from '../store.js';
 import { rerender } from '../app.js';
 import { teamView, teamEditor } from '../components.js';
+import * as fx from '../fx.js';
 
 const GRADES = ['', 'SSS+', 'SSS', 'SS', 'S', 'A', 'B', 'C'];
 
@@ -92,15 +93,7 @@ export function render(root) {
   }
   const season = seasons.find((s) => String(s.id) === String(view.season));
 
-  const bar = h('div.season-bar', { role: 'group', 'aria-label': '시즌 선택' },
-    [...seasons].reverse().map((s) => {
-      const t = totals.find((x) => x.id === s.id);
-      return h('button' + (t.total ? '.has-record' : '') + (store.COLLAB[s.version] ? '.collab' : ''), { title: store.verLabel(s.version),
-        type: 'button', 'aria-pressed': String(String(s.id) === String(view.season)),
-        onclick: () => { view.season = s.id; rerender(); },
-      }, store.COLLAB[s.version] ? [s.version, h('em.collab-name', store.COLLAB[s.version])] : `${s.version}`, h('small', t.total ? fmt(t.total) : '기록 없음'));
-    }),
-  );
+  const board = scoreBoard(seasons, totals, season);
 
   const t = totals.find((x) => x.id === season?.id);
 
@@ -111,24 +104,11 @@ export function render(root) {
         h('button.btn.edit-only', { type: 'button', onclick: addSeason }, '새 시즌 추가'),
       ),
     ),
-    bar,
+    board,
     season ? h('div',
-      h('div.toolbar', { style: { justifyContent: 'space-between' } },
-        h('h2', { style: { fontSize: '22px' } }, store.COLLAB[season.version] ? `${season.version} · ${store.COLLAB[season.version]} 콜라보 시즌` : `${season.version} 시즌`,
-          h('span.muted', { style: { fontFamily: 'var(--sans)', fontSize: '15px', fontWeight: 400, marginLeft: '12px' } }, `합계 ${fmt(t.total)}점`),
-          (() => {  // 바로 앞 기록 있는 시즌 대비
-            const i = totals.findIndex((x) => x.id === season.id);
-            const prev = totals.slice(0, i).reverse().find((x) => x.total > 0);
-            if (!t.total || !prev) return null;
-            const dlt = t.total - prev.total;
-            return h('span', { style: { fontFamily: 'var(--sans)', fontSize: '13px', fontWeight: 400, marginLeft: '10px', color: dlt >= 0 ? 'var(--teal)' : '#f0b4a5' } }, `${prev.version} 대비 ${dlt >= 0 ? '+' : ''}${fmt(dlt)} (${dlt >= 0 ? '+' : ''}${(dlt / prev.total * 100).toFixed(1)}%)`);
-          })()),
-        season.custom && editing ? h('button.btn.small.danger', { type: 'button', onclick: () => removeSeason(season) }, '이 시즌 삭제') : null,
-      ),
+      season.custom && editing ? h('div.toolbar', { style: { justifyContent: 'flex-end' } }, h('button.btn.small.danger', { type: 'button', onclick: () => removeSeason(season) }, '이 시즌 삭제')) : null,
       h('div.boss-grid', season.bosses.map((b) => bossCard(season, b))),
     ) : h('div.empty', h('p', '시즌 데이터가 없습니다.')),
-    h('h2.section', '점수 추이'),
-    chart(totals),
     h('h2.section', '보스별 최고 기록'),
     bestList(),
     h('h2.section', '자주 쓴 출품작·의지'),
@@ -301,7 +281,69 @@ function removeSeason(season) {
   view.season = null;
 }
 
-/** 시즌별 합계와 보스별 점수 막대·선 그래프 (SVG) */
+/**
+ * 점수판 — 고른 시즌 합계는 숫자 띠가 굴러가고, 시즌별 합계는 픽셀 블록 기둥이 한 칸씩 쌓인다.
+ * 기둥을 누르면 그 시즌으로 바뀐다 (예전 시즌 상자 + 선 그래프 자리).
+ */
+let lastShown = 0;
+function scoreBoard(seasons, totals, season) {
+  const t = totals.find((x) => x.id === season?.id) || { total: 0, bosses: [] };
+  const i = totals.findIndex((x) => x.id === season?.id);
+  const prev = totals.slice(0, i).reverse().find((x) => x.total > 0);
+  const best = Math.max(0, ...totals.map((x) => x.total));
+  const max = best * 1.1 || 1;
+  const colors = ['var(--brass-bright)', 'var(--brass)', '#8a6a35', '#5e4a2a'];
+  const num = h('div.sb2-num');
+  const dlt = t.total && prev ? t.total - prev.total : null;
+  const label = (s) => store.COLLAB[s.version] ? `${s.version} · ${store.COLLAB[s.version]}` : s.version;
+
+  const cols = seasons.map((s, k) => {
+    const x = totals[k];
+    const on = String(s.id) === String(season?.id);
+    const pct = x.total ? Math.max(3, (x.total / max) * 100) : 0;
+    let acc = 0;
+    return h('button.sb2-col' + (on ? '.on' : '') + (x.total ? '' : '.empty') + (store.COLLAB[s.version] ? '.collab' : ''), {
+      type: 'button', title: `${label(s)} · ${x.total ? fmt(x.total) + '점' : '기록 없음'}`, 'aria-pressed': String(on),
+      style: { '--d': `${k * 45}ms` },
+      onclick: () => { view.season = s.id; rerender(); },
+    },
+      h('span.sb2-bar', { style: { height: `${pct}%` } },
+        x.bosses.filter((b) => b.score).map((b, j) => { const seg = h('i', { style: { height: `${(b.score / x.total) * 100}%`, background: colors[j % colors.length] }, title: `${b.name}: ${fmt(b.score)}` }); acc += b.score; return seg; }).reverse(),
+        on && x.total ? h('em.sb2-tag', fmt(x.total)) : null),
+      h('span.sb2-v', s.version));
+  });
+  const ticks = [1, 0.75, 0.5, 0.25].map((f) => h('span', { style: { bottom: `${(f * best / max) * 100}%` } }, best ? `${Math.round(f * best / 10000).toLocaleString('ko-KR')}만` : ''));
+
+  const el = h('section.sb2',
+    h('div.sb2-head',
+      h('div',
+        h('p.sb2-k', `SEASON ${season ? label(season) : '—'} // TOTAL SCORE`),
+        num,
+        h('p.sb2-sub',
+          dlt == null ? (t.total ? '첫 기록' : '아직 기록이 없어요') : h('span' + (dlt >= 0 ? '.up' : '.down'), `${dlt >= 0 ? '▲' : '▼'} ${fmt(Math.abs(dlt))} (${dlt >= 0 ? '+' : ''}${(dlt / prev.total * 100).toFixed(1)}%)`),
+          prev && dlt != null ? h('small', ` vs ${prev.version}`) : null)),
+      h('ul.sb2-boss', t.bosses.map((b, j) => h('li',
+        h('i', { style: { background: colors[j % colors.length] } }),
+        h('span', b.name || `보스 ${j + 1}`),
+        h('b', b.score ? fmt(b.score) : '—'),
+        h('em', t.total && b.score ? `${Math.round(b.score / t.total * 100)}%` : ''))))),
+    h('div.sb2-chart',
+      h('div.sb2-y', ticks),
+      h('div.sb2-cols', cols),
+      h('i.sb2-scan')),
+    h('p.sb2-foot', h('span', `BEST ${fmt(best)}`), h('span', `SEASONS ${totals.filter((x) => x.total).length}/${seasons.length}`), h('span', '기둥을 누르면 그 시즌으로')),
+  );
+  requestAnimationFrame(() => {
+    fx.odometer(num, t.total, lastShown);
+    lastShown = t.total;
+    const wrap = el.querySelector('.sb2-cols');
+    const cur = wrap.querySelector('.on');
+    if (cur) wrap.scrollLeft = cur.offsetLeft - wrap.clientWidth + cur.offsetWidth * 3;
+  });
+  return el;
+}
+
+/** (예전) 시즌별 합계와 보스별 점수 막대·선 그래프 (SVG) — 쓰지 않음 */
 function chart(totals) {
   const data = totals.filter((t) => t.total > 0);
   if (data.length < 1) return h('div.empty', h('p', '점수를 기록하면 시즌별 추이가 여기에 그려집니다.'));

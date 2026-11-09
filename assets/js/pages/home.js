@@ -1,5 +1,5 @@
 // 홈 — 진열관: 소개 카드(프로필·최애·CP·진열장) + 기록 현황
-import { h, img, fmt, pickFile, shrinkImage, uid, lightbox } from '../ui.js';
+import { h, img, fmt, pickFile, shrinkImage, uid, lightbox, toast, readFileDataURL } from '../ui.js';
 import * as store from '../store.js';
 import { teamView, afClass, charPicker } from '../components.js';
 import { seasonTotals, allSeasons } from './bulletin.js';
@@ -7,8 +7,10 @@ import { nextPickupInfo } from './gacha.js';
 import { skinInfo } from './skins.js';
 import * as timeline from './timeline.js';
 import * as codex from './codex.js';
+import * as fx from '../fx.js';
 
-export function cleanup() {}
+let heroFx = null;
+export function cleanup() { heroFx?.destroy(); heroFx = null; }
 
 const P = () => store.state.user.profile;
 
@@ -29,13 +31,22 @@ function avatarSrc(p) {
   return c ? store.charPortrait(c) : null;
 }
 
+/** 홈 = 대표 화면 하나 */
 export function render(root) {
+  cleanup();
+  root.append(hero(P(), store.state.editing));
+}
+
+/** 타임키퍼 메뉴 = 예전 홈 (소개 카드·진열장·기록) */
+export function renderKeeper(root) {
   cleanup();
   const p = P();
   const editing = store.state.editing;
   root.append(
     profileSection(p, editing),
   );
+  // 기록 숫자 굴러 올라오기
+  root.querySelectorAll('[data-count]').forEach((el) => fx.counter(el, +el.dataset.count));
 }
 
 // ── 소개 카드 (편집 모드에서는 그 자리에서 고친다) ─────────────
@@ -269,7 +280,7 @@ function recordsCard() {
   const row = (label, a, b, href) => {
     const pct = b ? (a / b) * 100 : 0;
     return h('a.rec-row', { href },
-      h('span.rec-top', h('span', label), h('span.rec-v', fmt(a), h('small', ` / ${fmt(b)} · ${pct.toFixed(1)}%`))),
+      h('span.rec-top', h('span', label), h('span.rec-v', h('span', { 'data-count': a }, '0'), h('small', ` / ${fmt(b)} · ${pct.toFixed(1)}%`))),
       h('span.rec-bars', h('i', { style: { width: `${pct}%` } })));
   };
   return h('div.rec-meas',
@@ -314,3 +325,127 @@ function score(r, c) {
   return (c.rarity * 1000) + (r.insight || 0) * 200 + (r.portray || 0) * 30 + (r.resonance || 0) * 5 + (r.euphoria ? 50 : 0);
 }
 
+
+// ── 첫 화면: 연구 대상 기록 (Ethiack Hackian 구성을 라플라스 톤으로) ──────────
+// 대표 그림은 편집 모드에서 바꾼다 → data/user/hero/ 에 저장, 설정(settings.hero)에 경로를 적는다
+const HERO_DEFAULT = { src: 'assets/img/hero/hero.webp', type: 'image' };
+const HERO_MAX_MB = 20;
+
+function heroMedia() {
+  const x = store.state.user.settings?.hero;
+  if (!x?.file) return { ...HERO_DEFAULT, block: x?.block, keyBlack: false };
+  return { src: store.fileURL(x.file), type: x.type || 'image', keyBlack: !!x.keyBlack, block: x.block };
+}
+const saveHero = (fn) => store.update('settings', (s) => { s.hero ||= {}; fn(s.hero); });
+
+async function uploadHero() {
+  const f = await pickFile('image/png,image/webp,image/jpeg,image/gif,video/mp4,video/webm');
+  if (!f) return;
+  const mb = f.size / 1048576;
+  if (mb > HERO_MAX_MB) { toast(`파일이 ${mb.toFixed(1)}MB예요. ${HERO_MAX_MB}MB 아래로 줄여 주세요.`); return; }
+  const type = f.type.startsWith('video/') ? 'video' : f.type === 'image/gif' ? 'gif' : 'image';
+  let data, ext;
+  if (type === 'image') { // 그림은 높이 1600 안쪽 webp 로 (투명 배경 유지)
+    data = await shrinkImage(f, 2400, 0.9);
+    ext = data.startsWith('data:image/webp') ? 'webp' : 'jpg';
+  } else {
+    data = await readFileDataURL(f);
+    ext = type === 'gif' ? 'gif' : (f.type === 'video/webm' ? 'webm' : 'mp4');
+  }
+  const path = `data/user/hero/hero-${uid()}.${ext}`;
+  store.addPendingFile(path, data);
+  saveHero((x) => { x.file = path; x.type = type; x.keyBlack = type === 'video'; });
+  if (mb > 8) toast('파일이 커서 첫 화면이 늦게 뜰 수 있어요 (8MB 아래 권장).');
+}
+
+/** 대표 화면 박스 글: 편집 모드에서 그 자리에서 고친다. 비워 두면 그 박스는 숨김, 손대지 않으면 기본 글 */
+function heroText(tag, key, def, { multiline = false, ...attrs } = {}) {
+  const saved = store.state.user.settings?.hero?.text?.[key];
+  const text = saved ?? def;
+  if (!store.state.editing) return text ? h(tag, attrs, text) : null;
+  const el = h(tag + '.ed', { contenteditable: 'true', spellcheck: 'false', 'data-ph': '비우면 숨김', title: '눌러서 고치기 · 비우면 이 박스는 숨겨져요' }, text);
+  el.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !multiline) { e.preventDefault(); el.blur(); }
+    if (e.key === 'Escape') { el.textContent = text; el.blur(); }
+  });
+  el.addEventListener('paste', (e) => { e.preventDefault(); document.execCommand('insertText', false, e.clipboardData.getData('text/plain')); });
+  el.addEventListener('blur', () => {
+    const v = el.innerText.replace(/ /g, ' ').replace(/\n$/, '').trim();
+    if (v === text) return;
+    store.update('settings', (x) => { x.hero ||= {}; x.hero.text ||= {}; x.hero.text[key] = v; }, { silent: true });
+  });
+  return el;
+}
+
+function heroEditor(m) {
+  const x = store.state.user.settings?.hero || {};
+  return h('div.hero-edit',
+    h('b', '대표 화면'),
+    h('button.btn.small', { type: 'button', onclick: uploadHero }, '그림 · GIF · 영상 올리기'),
+    h('label', h('input', { type: 'checkbox', checked: !!x.keyBlack, onchange: (e) => saveHero((y) => { y.keyBlack = e.target.checked; }) }), ' 검은 배경 지우기'),
+    h('label', '모자이크 ', h('input', { type: 'range', min: 5, max: 24, value: m.block || 10, onchange: (e) => saveHero((y) => { y.block = +e.target.value; }) })),
+    h('div.hero-edit-row',
+      x.file ? h('button.btn.small', { type: 'button', onclick: () => saveHero((y) => { delete y.file; delete y.type; delete y.keyBlack; }) }, '기본 그림으로') : null,
+      x.text ? h('button.btn.small', { type: 'button', onclick: () => saveHero((y) => { delete y.text; }) }, '박스 글 처음대로') : null,
+      x.pos ? h('button.btn.small', { type: 'button', onclick: () => saveHero((y) => { delete y.pos; }) }, '박스 자리 처음대로') : null),
+    h('small', '박스 글은 눌러서 바로 고쳐요(비우면 숨김). ⠿ 손잡이를 끌면 박스가 옮겨져요.'),
+    h('small', '권장: 투명 배경 PNG·WebP 세로 1600~2400px · GIF 세로 720px·5MB 이하 · 영상 MP4/WebM 1080p 5~10초 8MB 이하'),
+  );
+}
+
+/** 박스를 끌어서 옮기는 손잡이 — 놓으면 화면 대비 % 로 저장 (화면 크기가 바뀌어도 비슷한 자리) */
+function dragHandle(el, key) {
+  const hd = h('span.hero-drag', { title: '끌어서 옮기기', 'aria-label': '박스 옮기기' }, '⠿');
+  hd.addEventListener('pointerdown', (e) => {
+    e.preventDefault();
+    const sec = el.closest('.hero'), R = sec.getBoundingClientRect(), r = el.getBoundingClientRect();
+    const ox = e.clientX - r.left, oy = e.clientY - r.top;
+    hd.setPointerCapture(e.pointerId);
+    el.classList.add('dragging');
+    let x = 0, y = 0;
+    const move = (ev) => {
+      x = Math.min(Math.max(0, ev.clientX - R.left - ox), R.width - r.width) / R.width * 100;
+      y = Math.min(Math.max(0, ev.clientY - R.top - oy), R.height - r.height) / R.height * 100;
+      Object.assign(el.style, { left: `${x}%`, top: `${y}%`, right: 'auto', bottom: 'auto', transform: el.classList.contains('hero-chip') ? 'rotate(-3deg)' : '' });
+    };
+    const up = () => {
+      hd.removeEventListener('pointermove', move); hd.removeEventListener('pointerup', up);
+      el.classList.remove('dragging');
+      store.update('settings', (s) => { s.hero ||= {}; s.hero.pos ||= {}; s.hero.pos[key] = { x: +x.toFixed(2), y: +y.toFixed(2) }; }, { silent: true });
+    };
+    hd.addEventListener('pointermove', move); hd.addEventListener('pointerup', up);
+  });
+  return hd;
+}
+
+function hero(p, editing) {
+  const m = heroMedia();
+  const c = store.charById(p.avatar?.char || (p.showcase || [])[0]?.char);
+  const name = c ? store.charName(c) : '';
+  const fig = h('div.hero-fig');
+  const grid = h('div.hero-grid', [...Array(4)].map(() => h('i.hx')));
+  const pos = store.state.user.settings?.hero?.pos || {};
+  // 박스: 저장한 자리(%)가 있으면 그 자리에, 편집 모드에서는 손잡이(⠿)로 끌어서 옮긴다
+  const box = (cls, key, ...kids) => {
+    if (!kids.some(Boolean) && !editing) return null;
+    const el = h(cls, { 'data-k': key }, ...kids);
+    const at = pos[key];
+    if (at) Object.assign(el.style, { left: `${at.x}%`, top: `${at.y}%`, right: 'auto', bottom: 'auto' });
+    if (editing) el.prepend(dragHandle(el, key));
+    return el;
+  };
+  const go = heroText(editing ? 'span.hero-go' : 'a.hero-go', 'go', '> timekeeper.open()', { href: '#/timekeeper' });
+  const sec = h('section.hero',
+    grid, fig,
+    box('div.hero-note', 'note', heroText('pre', 'note1', 'HELLO,\nI AM\nTHE\nWANDERER.', { multiline: true }), heroText('pre.b', 'note2', 'THE\nTIMEKEEPER’S\nARCHIVE\nSINCE 1999', { multiline: true })),
+    box('div.hero-chip', 'chip', h('i'), heroText('span', 'chip', `laplace.observe(${(c?.name?.en || 'arcanist').replace(/\s+/g, '')});`)),
+    box('div.hero-side', 'side', heroText('b', 'sideTitle', '⌘ Fin de Siècle'), heroText('p', 'side', '기록한다.\n측정한다.\n계속한다.', { multiline: true }), go),
+    box('div.hero-tag.t1', 't1', heroText('span', 't1', `■ 관측 대상 · ${name}`)),
+    box('div.hero-tag.t2', 't2', heroText('span', 't2', '■ STORM 1999.12.31')),
+    box('div.hero-tag.t3', 't3', heroText('span', 't3', '■ 감응 확인')),
+    editing ? heroEditor(m) : null,
+  );
+  // 그림 전체를 모자이크로 (가운데가 선명해지는 효과 없음)
+  requestAnimationFrame(() => { heroFx = fx.mosaic(fig, m, { block: m.block || 10, radius: 0 }); });
+  return sec;
+}

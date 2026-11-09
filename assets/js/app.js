@@ -5,6 +5,7 @@ import { h, toast, append, closeDrawer } from './ui.js';
 
 const pages = {
   home: () => import('./pages/home.js'),
+  timekeeper: () => import('./pages/timekeeper.js'),
   roster: () => import('./pages/roster.js'),
   bulletin: () => import('./pages/bulletin.js'),
   skins: () => import('./pages/skins.js'),
@@ -50,6 +51,7 @@ async function render(scrollTop = true) {
   pageNote(root, name);
   main.replaceChildren(root);
   const t = document.querySelector(`.tabs a[data-route="${name}"]`)?.firstChild?.textContent;
+  document.body.dataset.route = name;
   document.title = `${t && name !== 'home' ? t + ' — ' : ''}${store.state.user.settings?.title || '세기말의 방랑자'}`;
   if (scrollTop) window.scrollTo(0, 0);
 }

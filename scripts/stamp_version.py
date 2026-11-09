@@ -40,7 +40,10 @@ def main():
     else:
         s = s.replace('<script type="module" src="assets/js/app.js', block + '\n  <script type="module" src="assets/js/app.js', 1)
     s = re.sub(r'src="assets/js/app\.js(\?v=[^"]*)?"', f'src="{imports["./assets/js/app.js"][2:]}"', s)
-    s = re.sub(r'href="assets/css/style\.css(\?v=[^"]*)?"', f'href="assets/css/style.css?v={css_v}"', s)
+    for css in ("style", "fx"):
+        if os.path.exists(os.path.join(ROOT, "assets", "css", f"{css}.css")):
+            v = h([f"assets/css/{css}.css"])
+            s = re.sub(rf'href="assets/css/{css}\.css(\?v=[^"]*)?"', f'href="assets/css/{css}.css?v={v}"', s)
     open(idx, "w", encoding="utf-8").write(s)
     print(f"모듈 {len(imports)}개, css v={css_v}")
 
