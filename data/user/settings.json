@@ -21,8 +21,8 @@
  "hero": {
   "pos": {
    "side": {
-    "x": 83.74,
-    "y": 6.35
+    "x": 83.79,
+    "y": 3.53
    },
    "chip": {
     "x": 21.76,
@@ -40,7 +40,7 @@
    "t2": "■ Plesetsk 1987"
   },
   "size": {},
-  "file": "data/user/hero/hero-mw96m1cgqmpd6.mp4",
+  "file": "data/user/hero/hero-mw98dhf6sk7se.mp4",
   "type": "video",
   "keyBlack": true
  }
