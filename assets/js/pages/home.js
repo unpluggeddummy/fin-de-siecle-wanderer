@@ -384,13 +384,29 @@ function heroEditor(m) {
     h('button.btn.small', { type: 'button', onclick: uploadHero }, '그림 · GIF · 영상 올리기'),
     h('label', h('input', { type: 'checkbox', checked: !!x.keyBlack, onchange: (e) => saveHero((y) => { y.keyBlack = e.target.checked; }) }), ' 검은 배경 지우기'),
     h('label', '모자이크 ', h('input', { type: 'range', min: 5, max: 24, value: m.block || 10, onchange: (e) => saveHero((y) => { y.block = +e.target.value; }) })),
+    h('label', '박스 글씨 ', h('input', { type: 'range', min: 70, max: 200, step: 5, value: Math.round((x.scale || 1) * 100),
+      oninput: (e) => { const sec = e.target.closest('.hero'); sec?.style.setProperty('--hs', e.target.value / 100); e.target.nextSibling.textContent = ` ${e.target.value}%`; },
+      onchange: (e) => store.update('settings', (s) => { s.hero ||= {}; s.hero.scale = +e.target.value / 100; }, { silent: true }) }), h('span.hero-pct', ` ${Math.round((x.scale || 1) * 100)}%`)),
     h('div.hero-edit-row',
       x.file ? h('button.btn.small', { type: 'button', onclick: () => saveHero((y) => { delete y.file; delete y.type; delete y.keyBlack; }) }, '기본 그림으로') : null,
       x.text ? h('button.btn.small', { type: 'button', onclick: () => saveHero((y) => { delete y.text; }) }, '박스 글 처음대로') : null,
-      x.pos ? h('button.btn.small', { type: 'button', onclick: () => saveHero((y) => { delete y.pos; }) }, '박스 자리 처음대로') : null),
-    h('small', '박스 글은 눌러서 바로 고쳐요(비우면 숨김). ⠿ 손잡이를 끌면 박스가 옮겨져요.'),
+      x.pos ? h('button.btn.small', { type: 'button', onclick: () => saveHero((y) => { delete y.pos; }) }, '박스 자리 처음대로') : null,
+      (x.size && Object.keys(x.size).length) || (x.scale && x.scale !== 1) ? h('button.btn.small', { type: 'button', onclick: () => saveHero((y) => { delete y.size; delete y.scale; }) }, '글씨 크기 처음대로') : null),
+    h('small', '박스 글은 눌러서 바로 고쳐요(비우면 숨김). ⠿ 를 끌면 박스가 옮겨지고, − + 로 그 박스 글씨만 줄이고 키워요. 전체 크기는 위 슬라이더로.'),
     h('small', '권장: 투명 배경 PNG·WebP 세로 1600~2400px · GIF 세로 720px·5MB 이하 · 영상 MP4/WebM 1080p 5~10초 8MB 이하'),
   );
+}
+
+/** 박스 하나의 글씨 크기 −/+ (0.6배 ~ 2.5배) */
+function sizeBtn(el, key, dir) {
+  return h('button', { type: 'button', title: dir > 0 ? '이 박스 글씨 키우기' : '이 박스 글씨 줄이기', 'aria-label': dir > 0 ? '글씨 키우기' : '글씨 줄이기',
+    onclick: (e) => {
+      e.preventDefault();
+      const cur = +(el.style.getPropertyValue('--bs') || 1);
+      const v = Math.round(Math.min(2.5, Math.max(0.6, cur + dir * 0.1)) * 10) / 10;
+      el.style.setProperty('--bs', v);
+      store.update('settings', (s) => { s.hero ||= {}; s.hero.size ||= {}; if (v === 1) delete s.hero.size[key]; else s.hero.size[key] = v; }, { silent: true });
+    } }, dir > 0 ? '+' : '−');
 }
 
 /** 박스를 끌어서 옮기는 손잡이 — 놓으면 화면 대비 % 로 저장 (화면 크기가 바뀌어도 비슷한 자리) */
@@ -425,17 +441,20 @@ function hero(p, editing) {
   const fig = h('div.hero-fig');
   const grid = h('div.hero-grid', [...Array(4)].map(() => h('i.hx')));
   const pos = store.state.user.settings?.hero?.pos || {};
+  const size = store.state.user.settings?.hero?.size || {};
   // 박스: 저장한 자리(%)가 있으면 그 자리에, 편집 모드에서는 손잡이(⠿)로 끌어서 옮긴다
   const box = (cls, key, ...kids) => {
     if (!kids.some(Boolean) && !editing) return null;
     const el = h(cls, { 'data-k': key }, ...kids);
     const at = pos[key];
     if (at) Object.assign(el.style, { left: `${at.x}%`, top: `${at.y}%`, right: 'auto', bottom: 'auto' });
-    if (editing) el.prepend(dragHandle(el, key));
+    if (size[key]) el.style.setProperty('--bs', size[key]);
+    if (editing) el.prepend(h('span.hero-tools', dragHandle(el, key), sizeBtn(el, key, -1), sizeBtn(el, key, 1)));
     return el;
   };
   const go = heroText(editing ? 'span.hero-go' : 'a.hero-go', 'go', '> timekeeper.open()', { href: '#/timekeeper' });
-  const sec = h('section.hero',
+  const hs = store.state.user.settings?.hero?.scale || 1;
+  const sec = h('section.hero', { style: { '--hs': hs } },
     grid, fig,
     box('div.hero-note', 'note', heroText('pre', 'note1', 'HELLO,\nI AM\nTHE\nWANDERER.', { multiline: true }), heroText('pre.b', 'note2', 'THE\nTIMEKEEPER’S\nARCHIVE\nSINCE 1999', { multiline: true })),
     box('div.hero-chip', 'chip', h('i'), heroText('span', 'chip', `laplace.observe(${(c?.name?.en || 'arcanist').replace(/\s+/g, '')});`)),
