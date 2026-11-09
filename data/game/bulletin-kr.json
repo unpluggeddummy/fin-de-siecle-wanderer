@@ -1,0 +1,31 @@
+{
+ "_note": "한섭 갈기의 게시판 보스 구성이 게임 데이터(글로벌/중섭 기준)와 다른 시즌을 한섭 공지 기준으로 덮어쓴다. 출처: 한섭 [갈기의 게시판] 이벤트 안내 공지.",
+ "seasons": {
+  "13919": {
+   "source": "2026-11-03 한섭 공지: '급성 선홍증·Ⅱ형', '태양의 충신', '지난날의 영광'",
+   "bosses": [
+    {
+     "stage": 1,
+     "type": 112,
+     "name": "급성 선홍증·Ⅱ형",
+     "nameEn": "Insatiable Bloodsucker Type II",
+     "image": "assets/img/boss/v3a9_bossrush_boss1.webp"
+    },
+    {
+     "stage": 2,
+     "type": 109,
+     "name": "태양의 충신",
+     "nameEn": "The Sun's Thrall",
+     "image": "assets/img/boss/v3a8_bossrush_boss1.webp"
+    },
+    {
+     "stage": 3,
+     "type": 108,
+     "name": "지난날의 영광",
+     "nameEn": "Glory Days Manifest",
+     "image": "assets/img/boss/v3a7_bossrush_boss1.webp"
+    }
+   ]
+  }
+ }
+}

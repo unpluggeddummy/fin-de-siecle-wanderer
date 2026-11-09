@@ -1291,3 +1291,42 @@ img[src*="img/npc/"]:not([src*="/full"]):not([src*="/live2d"]) { height: 100% !i
 .tl-su-img, .banner-img { position: relative; overflow: hidden; display: block; }
 .tl-su-img:not(.kr) img:not(.fillbg), .banner-img:not(.kr) img:not(.fillbg) { position: relative; object-fit: contain; }
 .tl-su-img img.fillbg, .banner-img img.fillbg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: blur(14px) brightness(.55) saturate(1.1); transform: scale(1.15); }
+
+/* 홈 · 기록 현황 (가는 결 계기) */
+.rec-meas { display: grid; gap: 10px; }
+.rec-row { display: grid; gap: 5px; text-decoration: none; color: inherit; }
+.rec-row:hover .rec-bars i { filter: brightness(1.25); }
+.rec-top { display: flex; justify-content: space-between; align-items: baseline; font-size: 13px; color: var(--paper-dim); }
+.rec-v { font-family: var(--mono); font-size: 13px; color: var(--paper); }
+.rec-v small { font-size: 11px; color: var(--paper-faint); }
+.rec-bars { position: relative; height: 14px; background: repeating-linear-gradient(90deg, var(--line-strong) 0 1px, transparent 1px 4px); }
+.rec-bars i { position: absolute; inset: 0 auto 0 0; background: repeating-linear-gradient(90deg, var(--brass) 0 1px, transparent 1px 4px); }
+@media (min-width: 1200px) { .side-cards > .side-card:nth-child(2) { grid-column: 1 / -1; } }
+.side-card.rec-slim { padding: 10px 14px; }
+.rec-slim .rec-meas { grid-template-columns: 1fr 1fr; gap: 18px; }
+.rec-slim .rec-bars { height: 10px; }
+@media (max-width: 600px) { .rec-slim .rec-meas { grid-template-columns: 1fr; gap: 8px; } }
+
+/* 홈 · 이번 시즌 갈기의 게시판 / 다음 한섭 픽업 */
+.side-bul { display: grid; gap: 8px; }
+.sb-row { display: grid; grid-template-columns: 36px 1fr auto; gap: 10px; align-items: center; font-size: 13px; }
+.sb-img { width: 36px; height: 36px; overflow: hidden; background: var(--night); border: 1px solid var(--line); }
+.sb-img img { width: 100%; height: 100%; object-fit: cover; }
+.sb-score { font-family: var(--mono); font-weight: 500; font-size: 13px; }
+.sb-score small { color: var(--brass-bright); font-size: 11px; }
+.sb-none { font-family: var(--mono); font-size: 12px; color: var(--paper-faint); }
+.sb-total { display: flex; align-items: baseline; gap: 8px; padding-top: 8px; border-top: 1px dashed var(--line); font-size: 12.5px; color: var(--paper-dim); }
+.sb-total b { font-family: var(--mono); font-weight: 500; color: var(--paper); margin-left: auto; }
+.side-pick { display: grid; gap: 4px; text-decoration: none; color: inherit; }
+.sp-img { position: relative; overflow: hidden; display: block; aspect-ratio: 16 / 9; margin-bottom: 6px; background: var(--night); }
+.sp-img img { position: relative; width: 100%; height: 100%; object-fit: contain; display: block; }
+.sp-img.kr img { object-fit: cover; }
+.sp-img img.fillbg { position: absolute; inset: 0; object-fit: cover; filter: blur(14px) brightness(.55); transform: scale(1.15); }
+.sp-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.sp-head b { font-family: var(--title); font-size: 15px; }
+.sp-head em { font-style: normal; font-family: var(--mono); color: var(--brass-bright); font-size: 14px; }
+.sp-sub { font-size: 12px; color: var(--paper-faint); }
+.sp-nums { display: flex; gap: 22px; margin-top: 6px; }
+.sp-nums > span { display: grid; gap: 1px; }
+.sp-nums small { font-size: 11px; color: var(--paper-faint); }
+.sp-nums b { font-family: var(--mono); font-weight: 500; font-size: 15px; }

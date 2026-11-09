@@ -105,6 +105,12 @@ export async function loadAll() {
     const st = e.story && e.name?.ko && stories.find((x) => x.id === e.story);
     if (st && (!st.name.ko || st.name.ko === st.name.en)) st.name = { ...st.name, ko: e.name.ko };
   }
+  // 한섭 갈기의 게시판 구성이 게임 데이터와 다른 시즌은 한섭 공지 기준으로
+  const bkr = await getJSON('data/game/bulletin-kr.json').catch(() => null);
+  for (const [id, o] of Object.entries(bkr?.seasons || {})) {
+    const se = bulletin.find((x) => String(x.id) === id);
+    if (se && o.bosses?.length) { se.bosses = o.bosses; se.krNote = o.source; }
+  }
   state.game = { characters, skins, psychubes, materials, bulletin, meta, npcs, stories, versions, profiles, versionArt, skills: null };
   indexGame();
   await loadUser();

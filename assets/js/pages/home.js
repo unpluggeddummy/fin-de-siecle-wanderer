@@ -2,7 +2,8 @@
 import { h, img, fmt, pickFile, shrinkImage, uid, lightbox } from '../ui.js';
 import * as store from '../store.js';
 import { teamView, afClass, charPicker } from '../components.js';
-import { seasonTotals } from './bulletin.js';
+import { seasonTotals, allSeasons } from './bulletin.js';
+import { nextPickupInfo } from './gacha.js';
 import { skinInfo } from './skins.js';
 import * as timeline from './timeline.js';
 import * as codex from './codex.js';
@@ -34,7 +35,6 @@ export function render(root) {
   const editing = store.state.editing;
   root.append(
     profileSection(p, editing),
-    statsSection(),
   );
 }
 
@@ -152,7 +152,7 @@ function profileSection(p, editing) {
 }
 
 // ── 진열장 아래 카드: 현재 버전 · 다가오는 생일 · 스토리 후기 ─────────
-const SIDE = [['version', '현재 버전'], ['birthday', '다가오는 생일'], ['stories', '스토리 후기']];
+const SIDE = [['version', '현재 버전'], ['records', '기록 현황'], ['bulletin', '갈기의 게시판'], ['pickup', '다음 픽업']];
 function sideCards(p, editing) {
   const hidden = new Set(p.hiddenCards || []);
   const toggle = (k) => save((x) => { const s = new Set(x.hiddenCards || []); s.has(k) ? s.delete(k) : s.add(k); x.hiddenCards = [...s]; });
@@ -160,12 +160,62 @@ function sideCards(p, editing) {
     h('header', h('span.en', en), h('h3', title), link ? h('a.more', { href: link }, '더 보기 →') : null, editing ? xBtn(`${title} 카드 숨기기`, () => toggle(k)) : null),
     body));
   const cards = [
+    hidden.has('records') ? null : h('section.side-card.rec-slim', recordsCard(), editing ? xBtn('기록 현황 숨기기', () => toggle('records')) : null),
     wrap('version', '현재 버전 · 한섭', 'Now', '#/timeline', versionCard()),
-    wrap('birthday', '다가오는 생일', 'Birthdays', '#/codex/birthdays', birthdayCard()),
-    wrap('stories', '스토리 후기', 'Stories', '#/stories', storyCard()),
+    wrap('bulletin', '이번 시즌 갈기의 게시판', 'Bulletin', '#/bulletin', bulletinCard()),
+    wrap('pickup', '다음 한섭 픽업', 'Next Summon', '#/gacha', pickupCard()),
   ];
   return h('div.side-cards', cards,
     editing && hidden.size ? h('div.side-restore', SIDE.filter(([k]) => hidden.has(k)).map(([k, l]) => addBtn(`${l} 카드 다시 보기`, () => toggle(k)))) : null);
+}
+
+/** 이번 시즌 갈기의 게시판: 보스 3명과 내 점수, 기록 없는 보스는 같은 보스의 내 최고 */
+function bulletinCard() {
+  const seasons = allSeasons();
+  const cur = store.currentVersion();
+  const se = [...seasons].reverse().find((x) => x.version === cur) || seasons[seasons.length - 1];
+  if (!se) return null;
+  const recs = store.state.user.bulletin.seasons || {};
+  const rec = (sid, st) => recs[sid]?.bosses?.[st] || null;
+  const totals = seasonTotals();
+  const t = totals.find((x) => x.id === se.id);
+  const i = totals.findIndex((x) => x.id === se.id);
+  const prev = totals.slice(0, i).reverse().find((x) => x.total > 0);
+  const best = (b) => {
+    let m = null;
+    for (const s of seasons) for (const bb of s.bosses) {
+      if ((bb.name || `t:${bb.type}`) !== (b.name || `t:${b.type}`) || s.id === se.id) continue;
+      const r = rec(s.id, bb.stage);
+      if (r?.score && (!m || +r.score > m)) m = +r.score;
+    }
+    return m;
+  };
+  return h('div.side-bul',
+    se.bosses.map((b) => {
+      const r = rec(se.id, b.stage);
+      const pb = r?.score ? null : best(b);
+      return h('div.sb-row',
+        b.image ? h('span.sb-img', img(b.image, '')) : null,
+        h('span.sb-name', b.name),
+        r?.score ? h('b.sb-score', fmt(r.score), r.grade ? h('small', ` ${r.grade}`) : null)
+          : h('span.sb-none', pb ? `최고 ${fmt(pb)}` : '기록 없음'));
+    }),
+    h('div.sb-total', h('span', `${se.version} 합계`), h('b', t?.total ? fmt(t.total) : '—'),
+      t?.total && prev ? h('small', { style: { color: t.total >= prev.total ? 'var(--teal)' : '#f0b4a5' } }, ` ${t.total >= prev.total ? '+' : ''}${((t.total - prev.total) / prev.total * 100).toFixed(1)}%`) : null));
+}
+
+/** 다음 한섭 한정 픽업: 배너 · D-day · 지금 재화로 · 확정까지 */
+function pickupCard() {
+  const n = nextPickupInfo();
+  if (!n) return null;
+  const short = n.worst - n.have;
+  return h('a.side-pick', { href: '#/gacha' },
+    n.s.banner ? h('span.sp-img' + (n.s.bannerSrc === 'kr' ? '.kr' : ''), n.s.bannerSrc === 'kr' ? null : h('img.fillbg', { src: n.s.banner, alt: '' }), img(n.s.banner, '')) : null,
+    h('span.sp-head', h('b', n.name), h('em', `D-${n.days}`)),
+    h('span.sp-sub', `${n.v.id} · ${n.start} 시작`),
+    h('span.sp-nums',
+      h('span', h('small', '지금 재화'), h('b', `${fmt(n.have)}회`)),
+      h('span', h('small', '확정까지'), h('b', { style: { color: short > 0 ? '#f0b4a5' : 'var(--teal)' } }, short > 0 ? `−${fmt(short)}회` : '충분'))));
 }
 
 function versionCard() {
@@ -200,6 +250,31 @@ function storyCard() {
     h('div.side-progress', h('span', `읽은 스토리 ${read} / ${g.length}`), h('div.meter', h('i', { style: { width: `${(read / g.length) * 100}%` } }))),
     posts.length ? h('ul', posts.map((p) => { const st = store.storyById(p.story); return st ? h('li', h('a', { href: `#/stories/${st.id}` }, st.banner ? img(st.banner, '') : null, h('span', h('b', p.title || '제목 없음'), h('small', st.name.ko)))) : null; }))
       : h('p.faint', { style: { margin: '6px 0 0', fontSize: '13px' } }, '아직 쓴 후기가 없어요.'));
+}
+
+/** 기록 현황 — 촘촘한 세로선 계기 (진열장 아래) */
+function recordsCard() {
+  const g = store.state.game;
+  const u = store.state.user;
+  const chars = u.roster.chars;
+  const released = g.characters.filter((c) => c.released);
+  const owned = g.characters.filter((c) => chars[c.id]?.owned);
+  const six = released.filter((c) => c.rarity === 6);
+  const sixOwned = owned.filter((c) => c.rarity === 6);
+  const p5 = owned.filter((c) => (chars[c.id].portray || 0) >= 5);
+  const costumes = g.skins.filter((s) => !['default', 'insight'].includes(skinInfo(s).cat) && store.charById(s.char)?.released);
+  const skinOwned = costumes.filter((s) => u.skins.items[s.id]?.owned).length;
+  const psy = g.psychubes.filter((x) => !x.refine);
+  const psyOwned = psy.filter((x) => u.psychubes.items[x.id]?.owned).length;
+  const row = (label, a, b, href) => {
+    const pct = b ? (a / b) * 100 : 0;
+    return h('a.rec-row', { href },
+      h('span.rec-top', h('span', label), h('span.rec-v', fmt(a), h('small', ` / ${fmt(b)} · ${pct.toFixed(1)}%`))),
+      h('span.rec-bars', h('i', { style: { width: `${pct}%` } })));
+  };
+  return h('div.rec-meas',
+    row('보유 출품작', owned.length, released.length, '#/roster'),
+    row('스킨', skinOwned, costumes.length, '#/skins'));
 }
 
 // ── 기록 현황 ───────────────────────────────────────────────

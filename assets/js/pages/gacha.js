@@ -168,6 +168,23 @@ function editWish(i) {
 }
 
 /** 다음 한섭 한정 픽업까지 — 연대기의 한섭 일정과 지금 재화·천장으로 */
+export function nextPickupInfo(g = store.state.user.gacha, limit = g.pityLimit || 70) {
+  const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+  const ups = [];
+  for (const v of allVersions()) for (const s of v.summons || []) {
+    const m = /(\d{4}-\d{2}-\d{2})/.exec(s.kr || s.time || '');
+    if (!m || m[1] <= today || !(s.kind === 'pickup' || s.kind === 'collab' || (s.six || []).length)) continue;
+    ups.push({ v, s, start: m[1] });
+  }
+  ups.sort((a, b) => a.start.localeCompare(b.start));
+  const nx = ups[0];
+  if (!nx) return null;
+  const days = Math.round((new Date(nx.start) - new Date(today)) / 864e5);
+  const have = Math.floor(estimatePulls(g));
+  const worst = Math.max(0, limit - (g.pity || 0)) + (g.guaranteed ? 0 : limit);
+  return { ...nx, days, have, worst, six: (nx.s.six || []).map((id) => store.charById(id)).filter(Boolean), name: nx.s.name?.ko || nx.s.name?.en || '' };
+}
+
 function nextPickup(g, limit) {
   const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
   const ups = [];

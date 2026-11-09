@@ -136,15 +136,14 @@ export function render(root) {
   );
 }
 
-/** 같은 보스 계열 (형태 접미사 ·II형 등은 무시, 게임 데이터의 유형 번호가 있으면 그걸로) */
-const baseName = (n) => (n || '').replace(/[·・\s]*[ⅠⅡⅢⅣⅤ]+형$/u, '');
-const familyKey = (b) => (b.type != null ? `t:${b.type}` : `n:${baseName(b.name)}`);
+/** 같은 보스: 이름까지 같아야 같은 보스 (Ⅰ형·Ⅱ형은 서로 다른 보스) */
+const baseName = (n) => n || '';
+const familyKey = (b) => b.name || `t:${b.type}`;
 function family(b) {
   const out = [];
   for (const s of allSeasons()) for (const bb of s.bosses) {
-    if (familyKey(bb) !== familyKey(b) && baseName(bb.name) !== baseName(b.name)) continue;
-    const r = rec(s.id, bb.stage);
-    out.push({ season: s, boss: bb, r });
+    if (familyKey(bb) !== familyKey(b)) continue;
+    out.push({ season: s, boss: bb, r: rec(s.id, bb.stage) });
   }
   return out;
 }
@@ -156,7 +155,7 @@ function familyDrawer(b) {
         h('div', h('b', `${season.version} · ${boss.name}`), h('div', h('span.val', fmt(r.score)), r.grade ? h('span.grade', r.grade) : null))),
       r.members?.some((m) => m?.char) ? teamView(r.members) : null,
       growthLine(r.members),
-      r.note ? h('p.boss-note', r.note) : null)) : h('p.muted', '같은 계열 보스 기록이 없습니다.'),
+      r.note ? h('p.boss-note', r.note) : null)) : h('p.muted', '같은 보스 기록이 없습니다.'),
     foot: [] });
 }
 
@@ -195,12 +194,12 @@ function bossCard(season, b) {
       growthLine(r.members),
       dm ? h('a.boss-deck', { href: '#/decks' }, dm.exact ? `덱 · ${dm.deck.name}` : `덱 · ${dm.deck.name} 변형`) : null,
       r.note ? h('p.boss-note', r.note) : null,
-      (() => {  // 아직 기록이 없는 보스: 같은 계열 보스의 내 최고 기록과 그때 덱을 미리 보기
+      (() => {  // 아직 기록이 없는 보스: 같은 보스의 내 최고 기록과 그때 덱을 미리 보기
         if (r.score) return null;
         const prev = family(b).filter((x) => x.r?.score && x.season.id !== season.id).sort((x, y) => +y.r.score - +x.r.score)[0];
         if (!prev) return null;
         return h('div.boss-prev',
-          h('p.faint', `같은 계열 내 최고 · ${prev.season.version} ${prev.boss.name} ${fmt(prev.r.score)}점`),
+          h('p.faint', `같은 보스 내 최고 · ${prev.season.version} ${prev.boss.name} ${fmt(prev.r.score)}점`),
           prev.r.members?.some((m) => m?.char) ? teamView(prev.r.members) : null,
           prev.r.note ? h('p.boss-note', prev.r.note) : null);
       })(),
