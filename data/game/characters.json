@@ -215,7 +215,7 @@
    "zhTW": ""
   },
   "rarity": 6,
-  "afflatus": "unknown",
+  "afflatus": "beast",
   "dmg": "unknown",
   "released": false,
   "euphoria": 0,
@@ -225,9 +225,40 @@
    316001,
    316002
   ],
-  "kb": null,
+  "kb": "Evelyn",
   "nameChecked": false,
-  "tunings": [],
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/Cross_0.webp"
+   },
+   {
+    "id": 5,
+    "name": "이해",
+    "icon": "assets/img/tuning/Cross_5.webp"
+   },
+   {
+    "id": 4,
+    "name": "정성",
+    "icon": "assets/img/tuning/Cross_4.webp"
+   },
+   {
+    "id": 14,
+    "name": "불시의 의아함",
+    "icon": "assets/img/tuning/Cross_14.webp"
+   },
+   {
+    "id": 2,
+    "name": "희망",
+    "icon": "assets/img/tuning/Cross_2.webp"
+   },
+   {
+    "id": 6,
+    "name": "순식간의 광증",
+    "icon": "assets/img/tuning/Cross_6.webp"
+   }
+  ],
   "euphorias": [],
   "version": "3.7",
   "versionEstimated": true
@@ -309,7 +340,7 @@
    "zhTW": ""
   },
   "rarity": 6,
-  "afflatus": "unknown",
+  "afflatus": "star",
   "dmg": "unknown",
   "released": false,
   "euphoria": 0,
@@ -319,9 +350,40 @@
    315901,
    315902
   ],
-  "kb": null,
+  "kb": "Perchta",
   "nameChecked": false,
-  "tunings": [],
+  "tunings": [
+   {
+    "id": 0,
+    "name": "평화",
+    "icon": "assets/img/tuning/U-shape_0.webp"
+   },
+   {
+    "id": 1,
+    "name": "광분",
+    "icon": "assets/img/tuning/U-shape_1.webp"
+   },
+   {
+    "id": 8,
+    "name": "포식",
+    "icon": "assets/img/tuning/U-shape_8.webp"
+   },
+   {
+    "id": 9,
+    "name": "고요",
+    "icon": "assets/img/tuning/U-shape_9.webp"
+   },
+   {
+    "id": 10,
+    "name": "절제",
+    "icon": "assets/img/tuning/U-shape_10.webp"
+   },
+   {
+    "id": 12,
+    "name": "편안과 태연",
+    "icon": "assets/img/tuning/U-shape_12.webp"
+   }
+  ],
   "euphorias": [],
   "version": "3.7",
   "versionEstimated": true
@@ -3255,7 +3317,7 @@
   "afflatus": "intellect",
   "dmg": "reality",
   "released": true,
-  "euphoria": 0,
+  "euphoria": 1,
   "defaultSkin": 310701,
   "insightSkin": 310702,
   "skins": [
@@ -3297,7 +3359,14 @@
     "icon": "assets/img/tuning/Cross_6.webp"
    }
   ],
-  "euphorias": [],
+  "euphorias": [
+   {
+    "id": 1,
+    "facetsId": null,
+    "name": "",
+    "icon": "assets/img/euphoria/310701.webp"
+   }
+  ],
   "version": "2.8",
   "versionEstimated": false,
   "role": "공격"
