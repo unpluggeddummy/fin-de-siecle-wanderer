@@ -2269,7 +2269,7 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 13,
+   "resonance": 15,
    "portray": 5,
    "euphoria": 0,
    "euphorias": [],
@@ -2319,7 +2319,7 @@
    "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 13,
+   "resonance": 15,
    "portray": 5,
    "euphoria": 0,
    "euphorias": [],
@@ -2333,6 +2333,7 @@
    "spectrum": "",
    "note": "",
    "psychubes": [
+    1570,
     1443
    ]
   },
