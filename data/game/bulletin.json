@@ -641,8 +641,35 @@
   ]
  },
  {
-  "id": 13919,
+  "id": 13916,
   "version": "3.9",
+  "bosses": [
+   {
+    "stage": 1,
+    "type": 111,
+    "name": "급성 선홍증·Ⅱ형",
+    "nameEn": "Insatiable Bloodsucker Type II",
+    "image": "assets/img/boss/v3a9_bossrush_boss4.webp"
+   },
+   {
+    "stage": 2,
+    "type": 109,
+    "name": "태양의 충신",
+    "nameEn": "The Sun's Thrall",
+    "image": "assets/img/boss/v3a8_bossrush_boss1.webp"
+   },
+   {
+    "stage": 3,
+    "type": 108,
+    "name": "지난날의 영광",
+    "nameEn": "Glory Days Manifest",
+    "image": "assets/img/boss/v3a7_bossrush_boss1.webp"
+   }
+  ]
+ },
+ {
+  "id": 13919,
+  "version": "3.9 (2)",
   "bosses": [
    {
     "stage": 1,

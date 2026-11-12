@@ -260,7 +260,7 @@
    }
   ],
   "euphorias": [],
-  "version": "3.7",
+  "version": "3.9",
   "versionEstimated": true
  },
  {
@@ -385,7 +385,7 @@
    }
   ],
   "euphorias": [],
-  "version": "3.7",
+  "version": "3.9",
   "versionEstimated": true
  },
  {
@@ -664,11 +664,11 @@
    "en": "Narcissus",
    "ja": "ナルキッソス",
    "zhCN": "纳西索斯",
-   "zhTW": "納西索斯"
+   "zhTW": "納西瑟斯"
   },
   "rarity": 6,
   "afflatus": "beast",
-  "dmg": "unknown",
+  "dmg": "mental",
   "released": true,
   "euphoria": 0,
   "defaultSkin": 315701,
@@ -900,8 +900,8 @@
   "euphorias": [
    {
     "id": 1,
-    "facetsId": null,
-    "name": "",
+    "facetsId": 311101,
+    "name": "최고의 테이크는 바로 지금",
     "icon": "assets/img/euphoria/311101.webp"
    }
   ],
@@ -2050,7 +2050,8 @@
    312101,
    312102,
    312103,
-   312104
+   312104,
+   9001121
   ],
   "kb": "Moldir",
   "nameChecked": true,
@@ -2089,8 +2090,8 @@
   "euphorias": [
    {
     "id": 1,
-    "facetsId": null,
-    "name": "",
+    "facetsId": 312101,
+    "name": "돌아가는 모든 길에 늘 축복이 함께하기를",
     "icon": "assets/img/euphoria/312101.webp"
    }
   ],
@@ -2117,7 +2118,8 @@
   "skins": [
    314701,
    314702,
-   314704
+   314704,
+   9001120
   ],
   "kb": "Ms. Stranger",
   "nameChecked": true,
@@ -2373,7 +2375,8 @@
   "skins": [
    313501,
    313502,
-   313503
+   313503,
+   9001123
   ],
   "kb": "Brume",
   "nameChecked": true,
@@ -3587,7 +3590,8 @@
   "skins": [
    314301,
    314302,
-   314303
+   314303,
+   9001119
   ],
   "kb": "Enigma",
   "nameChecked": true,
@@ -4792,7 +4796,7 @@
   },
   "rarity": 6,
   "afflatus": "mineral",
-  "dmg": "unknown",
+  "dmg": "reality",
   "released": true,
   "euphoria": 0,
   "defaultSkin": 315601,

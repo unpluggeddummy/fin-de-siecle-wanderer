@@ -1,5 +1,31 @@
 [
  {
+  "id": 1576,
+  "name": {
+   "ko": "솟구치는 마음을 품고",
+   "en": "Tides Held Within",
+   "ja": "胸にたゆたう潮騒",
+   "zhCN": "拢于心潮间",
+   "zhTW": "攏於心潮間"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1576.webp",
+  "skill": ""
+ },
+ {
+  "id": 1575,
+  "name": {
+   "ko": "활시위의 선포",
+   "en": "Arrow of Verdict",
+   "ja": "弦の調べに託す宣告",
+   "zhCN": "宣告以弦鸣",
+   "zhTW": "宣告以弦鳴"
+  },
+  "rarity": 6,
+  "icon": "assets/img/psychube/1575.webp",
+  "skill": ""
+ },
+ {
   "id": 1574,
   "name": {
    "ko": "빛과 그림자의 거처",
@@ -909,6 +935,19 @@
   "rarity": 5,
   "icon": "assets/img/psychube/4103.webp",
   "skill": "조용한 시"
+ },
+ {
+  "id": 1450,
+  "name": {
+   "ko": "꾸며진 진실",
+   "en": "Dressing Up the Truth",
+   "ja": "真実を装って",
+   "zhCN": "以饰真相",
+   "zhTW": "以飾真相"
+  },
+  "rarity": 5,
+  "icon": "assets/img/psychube/1450.webp",
+  "skill": ""
  },
  {
   "id": 1449,
