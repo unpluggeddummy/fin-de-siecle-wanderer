@@ -5,15 +5,15 @@
  "currencies": [
   {
    "name": "순결의 빗방울",
-   "amount": 1260
+   "amount": 2420
   },
   {
    "name": "순수의 빗방울",
-   "amount": 195
+   "amount": 495
   },
   {
    "name": "모노로그",
-   "amount": 7
+   "amount": 10
   }
  ],
  "banners": [
@@ -200,8 +200,8 @@
   },
   {
    "id": "mw3b1z0i6c02n",
-   "ref": "3.9:m-hedone",
-   "name": "헤도네 픽업",
+   "ref": "3.9:pool39121",
+   "name": "꺼지지 않는 불꽃",
    "type": "한정",
    "start": "2026-11-05",
    "version": "3.9",
