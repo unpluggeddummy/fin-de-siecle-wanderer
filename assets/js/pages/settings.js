@@ -2,7 +2,7 @@
 import { h, field, toast, downloadJSON, pickFile, readFileText } from '../ui.js';
 import * as store from '../store.js';
 import * as gh from '../github.js';
-import { rerender } from '../app.js';
+import { rerender, menuItems } from '../app.js';
 import * as gate from '../owner.js';
 
 export function render(root) {
@@ -104,6 +104,7 @@ export function render(root) {
             onchange: (e) => store.update('settings', (x) => { x.showNames = e.target.checked; }) }), '메뉴에 다국어 이름표 보이기')),
         h('p.faint', { style: { fontSize: '13px', marginBottom: 0 } }, '숨겨 두어도 ', h('a', { href: '#/names' }, '#/names'), ' 주소로는 들어갈 수 있어요.', editing ? '' : ' (바꾸려면 편집 모드를 켜세요)'),
       ),
+      menuPanel(editing),
       h('section.panel',
         h('h3', '게임 데이터 (출품작·스킨·의지·보스 이미지)'),
         h('p.muted', { style: { marginTop: 0, fontSize: '14px' } },
@@ -182,4 +183,41 @@ function lockScreen(root) {
   );
   root.append(h('div.lock', box), credits());
   setTimeout(() => input.focus(), 0);
+}
+
+// 메뉴 순서와 이름 — 위·아래로 옮기고, 영문 이름 · 꼬리(.page 같은 것) · 한국어 이름을 고친다. 비우면 기본 이름.
+function menuPanel(editing) {
+  const defs = menuItems();
+  const s = store.state.user.settings || {};
+  const menu = s.menu || {};
+  const order = [...(menu.order || []).filter((r) => defs.some((d) => d.route === r)), ...defs.map((d) => d.route).filter((r) => !(menu.order || []).includes(r))];
+  const save = (fn) => store.update('settings', (x) => { x.menu ||= {}; x.menu.order ||= [...order]; x.menu.labels ||= {}; fn(x.menu); });
+  const move = (i, j) => save((m) => { if (j < 0 || j >= m.order.length) return; [m.order[i], m.order[j]] = [m.order[j], m.order[i]]; });
+  const setLabel = (route, key) => (e) => save((m) => {
+    const v = e.target.value.trim();
+    const d = defs.find((x) => x.route === route);
+    m.labels[route] ||= {};
+    if (v === '' || v === d[key]) delete m.labels[route][key]; else m.labels[route][key] = v;
+    if (!Object.keys(m.labels[route]).length) delete m.labels[route];
+  });
+  const rows = order.map((r, i) => {
+    const d = defs.find((x) => x.route === r);
+    const l = menu.labels?.[r] || {};
+    return h('div.menu-row',
+      h('span.menu-no', String(i + 1).padStart(2, '0')),
+      h('input', { type: 'text', value: l.en || d.en, placeholder: d.en, disabled: !editing, 'aria-label': `${d.ko} 영문 이름`, onchange: setLabel(r, 'en') }),
+      h('input.menu-ext', { type: 'text', value: l.ext ?? d.ext, placeholder: d.ext, disabled: !editing, 'aria-label': `${d.ko} 꼬리`, onchange: setLabel(r, 'ext') }),
+      h('input', { type: 'text', value: l.ko || d.ko, placeholder: d.ko, disabled: !editing, 'aria-label': `${d.ko} 한국어 이름`, onchange: setLabel(r, 'ko') }),
+      h('div.menu-move',
+        h('button', { type: 'button', disabled: !editing || i === 0, 'aria-label': `${d.ko} 위로`, onclick: () => move(i, i - 1) }, '↑'),
+        h('button', { type: 'button', disabled: !editing || i === order.length - 1, 'aria-label': `${d.ko} 아래로`, onclick: () => move(i, i + 1) }, '↓')));
+  });
+  return h('section.panel',
+    h('h3', '메뉴 순서와 이름'),
+    h('p.muted', { style: { marginTop: 0, fontSize: '14px' } }, '위·아래 화살표로 순서를 바꾸고, 이름을 고치면 맨 위 메뉴에 바로 보여요. 칸을 비우면 기본 이름으로 돌아가요. 각 화면의 제목과 밑 문구는 편집 모드에서 그 화면 제목을 눌러 고쳐요.'),
+    h('div.menu-head', h('span'), h('span', '영문'), h('span', '꼬리'), h('span', '한국어'), h('span')),
+    rows,
+    h('div.toolbar', { style: { margin: '12px 0 0' } },
+      h('button.btn.ghost', { type: 'button', disabled: !editing || !s.menu, onclick: () => store.update('settings', (x) => { delete x.menu; }) }, '기본 순서·이름으로 되돌리기')),
+    editing ? null : h('p.faint', { style: { fontSize: '13px', marginBottom: 0 } }, '바꾸려면 편집 모드를 켜세요.'));
 }

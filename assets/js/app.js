@@ -50,9 +50,10 @@ async function render(scrollTop = true) {
     console.error(e);
     root.replaceChildren(h('div.empty', h('p', `화면을 그리는 중 오류가 났습니다: ${e.message}`)));
   }
-  pageNote(root, name);
   main.replaceChildren(root);
-  const t = document.querySelector(`.tabs a[data-route="${name}"]`)?.firstChild?.textContent;
+  current.root = root;
+  pageHead(root, name);
+  const t = document.querySelector(`.tabs a[data-route="${name}"] .ft-ko`)?.textContent;
   document.body.dataset.route = name;
   document.title = `${t && name !== 'home' ? t + ' — ' : ''}${store.state.user.settings?.title || '세기말의 방랑자'}`;
   if (scrollTop) window.scrollTo(0, 0);
@@ -60,26 +61,90 @@ async function render(scrollTop = true) {
 
 export function rerender() { render(false); }
 
-/** 각 메뉴 제목 밑 문구: 설정에 저장한 문구로 바꾸고, 편집 모드에서는 그 자리에서 고친다 (비우면 기본 문구) */
-function pageNote(root, name) {
-  const p = root.querySelector('.page-head p');
-  if (!p) return;
-  const notes = store.state.user.settings?.pageNotes || {};
-  const def = p.textContent;
-  if (notes[name]) p.textContent = notes[name];
-  if (!store.state.editing) return;
-  p.contentEditable = 'true';
-  p.spellcheck = false;
-  p.classList.add('ed', 'page-note');
-  p.title = '눌러서 고치기 (비우면 기본 문구로 돌아가요)';
-  p.addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); p.blur(); } if (e.key === 'Escape') { p.textContent = notes[name] || def; p.blur(); } });
-  p.addEventListener('paste', (e) => { e.preventDefault(); document.execCommand('insertText', false, e.clipboardData.getData('text/plain')); });
-  p.addEventListener('blur', () => {
-    const v = p.innerText.replace(/\u00a0/g, ' ').trim();
-    if (v === (notes[name] || def)) return;
-    store.update('settings', (x) => { x.pageNotes ||= {}; if (v && v !== def) x.pageNotes[name] = v; else delete x.pageNotes[name]; }, { silent: true });
-    if (!v) p.textContent = def;
-  });
+/**
+ * 각 화면 머리말(// 영문 라벨 · 한국어 제목 · 밑 문구)을 설정에 저장한 글로 바꾸고,
+ * 편집 모드에서는 그 자리에서 고친다. 비우면 기본 글로 돌아간다.
+ * 대사집처럼 머리말을 나중에(불러온 뒤) 그리는 화면도 있어서, 머리말이 생길 때마다 적용한다.
+ */
+let headObserver = null;
+function pageHead(root, name) {
+  headObserver?.disconnect();
+  const apply = () => root.querySelectorAll('.page-head:not([data-ph])').forEach((head) => decorateHead(head, name));
+  apply();
+  headObserver = new MutationObserver(() => { if (current.root !== root) { headObserver?.disconnect(); return; } apply(); });
+  headObserver.observe(root, { childList: true, subtree: true });
+}
+function decorateHead(head, name) {
+  head.dataset.ph = '1';
+  const set = store.state.user.settings || {};
+  const titles = set.pageTitles?.[name] || {};
+  const notes = set.pageNotes || {};
+  const h1 = head.querySelector('h1');
+  const en = h1?.querySelector('.en');
+  // 한국어 제목 글자(h1 안에서 .en 을 뺀 나머지 글자)를 span 으로 감싼다
+  let ko = null;
+  if (h1) {
+    const txt = [...h1.childNodes].filter((n) => n.nodeType === 3 && n.textContent.trim());
+    if (txt.length) { ko = h('span.ph-ko', txt.map((n) => n.textContent).join('').trim()); txt.forEach((n, i) => (i ? n.remove() : n.replaceWith(ko))); }
+  }
+  const p = head.querySelector(':scope > div > p, :scope > p');
+  const parts = [
+    [en, titles.en, (v) => store.update('settings', (x) => { x.pageTitles ||= {}; x.pageTitles[name] ||= {}; if (v) x.pageTitles[name].en = v; else delete x.pageTitles[name].en; }, { silent: true })],
+    [ko, titles.ko, (v) => store.update('settings', (x) => { x.pageTitles ||= {}; x.pageTitles[name] ||= {}; if (v) x.pageTitles[name].ko = v; else delete x.pageTitles[name].ko; }, { silent: true })],
+    [p, notes[name], (v) => store.update('settings', (x) => { x.pageNotes ||= {}; if (v) x.pageNotes[name] = v; else delete x.pageNotes[name]; }, { silent: true })],
+  ];
+  for (const [el, saved, save] of parts) {
+    if (!el) continue;
+    const def = el.textContent;
+    if (saved) el.textContent = saved;
+    if (!store.state.editing) continue;
+    let cur = saved || def;
+    el.contentEditable = 'true';
+    el.spellcheck = false;
+    el.classList.add('ed', 'page-note');
+    el.title = '눌러서 고치기 (비우면 기본 글로 돌아가요)';
+    el.addEventListener('click', (e) => e.preventDefault());
+    el.addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); el.blur(); } if (e.key === 'Escape') { el.textContent = cur; el.blur(); } });
+    el.addEventListener('paste', (e) => { e.preventDefault(); document.execCommand('insertText', false, e.clipboardData.getData('text/plain')); });
+    el.addEventListener('blur', () => {
+      const v = el.innerText.replace(/\u00a0/g, ' ').trim();
+      if (v === cur) return;
+      save(v && v !== def ? v : '');
+      cur = v || def;
+      if (!v) el.textContent = def;
+    });
+  }
+}
+
+// ── 메뉴: 순서와 이름 (설정의 menu 에 저장) ─────────────────
+// menu = { order: ['home', 'roster', …], labels: { roster: { en: 'Exhibits', ext: '.page', ko: '출품작' } } }
+const MENU_DEFAULT = [];
+export function menuItems() {
+  const nav = document.querySelector('.tabs');
+  if (!MENU_DEFAULT.length) {
+    nav.querySelectorAll('a[data-route]').forEach((a) => MENU_DEFAULT.push({
+      route: a.dataset.route,
+      en: a.querySelector('b')?.textContent || '', ext: a.querySelector('i')?.textContent || '', ko: a.querySelector('.ft-ko')?.textContent || '',
+    }));
+  }
+  return MENU_DEFAULT;
+}
+function applyMenu() {
+  const nav = document.querySelector('.tabs');
+  const defs = menuItems();
+  const menu = store.state.user.settings?.menu || {};
+  const order = [...(menu.order || []).filter((r) => defs.some((d) => d.route === r)), ...defs.map((d) => d.route).filter((r) => !(menu.order || []).includes(r))];
+  for (const r of order) {
+    const a = nav.querySelector(`a[data-route="${r}"]`);
+    if (!a) continue;
+    const d = defs.find((x) => x.route === r);
+    const l = menu.labels?.[r] || {};
+    const b = a.querySelector('b'); const i = a.querySelector('i'); const k = a.querySelector('.ft-ko');
+    if (b) b.textContent = l.en || d.en;
+    if (i) i.textContent = l.ext ?? d.ext;
+    if (k) k.textContent = l.ko || d.ko;
+    nav.append(a);   // 순서대로 다시 붙인다 (맨 앞의 FDS 로고는 그대로)
+  }
 }
 
 // ── 헤더: 편집 모드, 저장 버튼 ─────────────────────────────
@@ -138,6 +203,7 @@ function updateHeader() {
   document.querySelector('[data-names-tab]').hidden = !set.showNames;
   const tastesTab = document.querySelector('[data-tastes-tab]');
   if (tastesTab) tastesTab.hidden = !gh.hasToken(); // 취향표: 토큰을 연결한 기기에서만
+  applyMenu();
   const txTab = document.querySelector('[data-tx-tab]');
   if (txTab) txTab.hidden = !gh.hasToken(); // 대사집: 토큰을 연결한 기기에서만
 }

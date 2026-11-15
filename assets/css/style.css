@@ -1414,3 +1414,22 @@ a.st-story:hover, a.st-story:focus-visible { border-color: var(--brass); box-sha
 }
 .st-chart-wrap { overflow-x: auto; }
 @media (max-width: 760px) { .st-chart { min-width: 680px; } }
+
+/* 설정: 메뉴 순서와 이름 */
+.menu-head, .menu-row { display: grid; grid-template-columns: 28px 1fr 90px 1fr auto; gap: 8px; align-items: center; }
+.menu-head { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; color: var(--brass); padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+.menu-row { padding: 6px 0; border-bottom: 1px dashed var(--line); }
+.menu-no { font-family: var(--mono); font-size: 11px; color: var(--paper-faint); }
+.menu-row input { width: 100%; background: var(--ink-3); border: 1px solid var(--line); color: var(--paper); padding: 6px 8px; font: inherit; font-size: 14px; }
+.menu-row input.menu-ext { font-family: var(--mono); font-size: 12px; }
+.menu-row input:disabled { opacity: .7; }
+.menu-move { display: flex; gap: 2px; }
+.menu-move button { width: 32px; height: 32px; background: none; border: 1px solid var(--line); color: var(--paper-dim); cursor: pointer; }
+.menu-move button:hover:not(:disabled) { border-color: var(--brass); color: var(--brass-bright); }
+.menu-move button:disabled { opacity: .35; cursor: default; }
+.page-head h1 .ph-ko.page-note { display: inline-block; }
+@media (max-width: 600px) {
+  .menu-head { display: none; }
+  .menu-row { grid-template-columns: 24px 1fr 1fr auto; }
+  .menu-row .menu-ext { display: none; }
+}
