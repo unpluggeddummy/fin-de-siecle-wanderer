@@ -74,10 +74,12 @@ def parse_part(num, body):
             title = m.group(2) if m else header[-1]
             if re.fullmatch(r"[\w-]{1,8}", title):  # 7SP처럼 번호만 있는 경우
                 title = ""
-        k = arrow
-        while k < len(L) and not re.match(r"^Part \d+$", L[k]):
+        # "← → - 100% + 한국어 N 글자 Share" 버튼 줄 다음이 본문
+        # (메인 스토리는 그 뒤에 "· 영어 제목 ·", "Part N" 이 한 줄씩 더 있다)
+        k = L.index("Share", arrow) + 1 if "Share" in L[arrow:] else arrow + 1
+        while k < len(L) and (not L[k].strip() or re.match(r"^·.*·$", L[k].strip()) or re.match(r"^Part \d+$", L[k].strip())):
             k += 1
-        L = L[k + 1:]
+        L = L[k:]
     except ValueError:
         pass
     L = [l for l in L if l.strip() not in UI_LINES and not re.match(r"^[\d,]+ 글자$", l.strip())]
@@ -150,7 +152,8 @@ def find_story(slug):
 
 def build_doc(f):
     name = unicodedata.normalize("NFC", f.name)
-    m = re.match(r"^\d+_(.+?)_", name)
+    # 파일 이름: <번호>_<chapter-0 | 1_1 | S01_1>_<제목>.txt
+    m = re.match(r"^\d+_(chapter-\w+?|\d+_\d+|S\d+(?:_\d+)?)_", name) or re.match(r"^\d+_(.+?)_", name)
     slug = m.group(1) if m else f.stem
     src = parse_file(f)
     st = find_story(slug)
@@ -168,7 +171,8 @@ def build_doc(f):
     doc = {
         "id": doc_id,
         "story": st["id"] if st else None,
-        "title": (st["name"]["ko"] if st else src["title"]) or src["title"],
+        # 게임 데이터에 한국어 제목이 아직 없으면(영어 그대로면) txt의 한국어 제목을 쓴다
+        "title": (st["name"]["ko"] if st and st["name"].get("ko") and st["name"]["ko"] != st["name"].get("en") else src["title"]) or src["title"],
         "titleEn": (st["name"]["en"] if st else "") or "",
         "version": (st.get("version") if st else "") or "",
         "stages": stages, "order": order, "customStages": custom,
