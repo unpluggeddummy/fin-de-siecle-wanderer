@@ -1,0 +1,4067 @@
+{
+ "id": "main-to-the-new-world",
+ "story": "main-to-the-new-world",
+ "title": "신세계를 향해",
+ "titleEn": "To the New World",
+ "version": "",
+ "stages": {
+  "1": {
+   "lines": [
+    {
+     "id": "mwhtdye07u5np",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Black Box of Conjectures",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0r1e22",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "한 천재가 이상적인 질서의 왕국을 떠나 현상 세계의 난류 속에 뛰어들기로 결심했다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0lflhq",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "지금 그녀는 해안선에 서 있다. 기민한 뇌로 무엇을 계산하고 있는지 알 수 없다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye00wp6l",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "가볍게 그녀의 어깨를 두드린다",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0qe6lg",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀의 옆에 선다",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0b4clf",
+     "kind": "line",
+     "sp": "37",
+     "en": "",
+     "ko": "앗!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0bpbc3",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "예상치 못한 갑작스러운 터치에 그녀는 깜짝 놀란 돌고래처럼 당신 앞을 빙글빙글 돌았다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye09ee55",
+     "kind": "line",
+     "sp": "37",
+     "en": "",
+     "ko": "뭐, 뭐야? 난 현상 세계 해류 구조를 계산하고 있었다고!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye06br6g",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "사실 내가 숫자로만 말하는 사람을 하나 알거든.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0oxtmv",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "섬 밖으로 나가면 뭘 하고 싶어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0r87vl",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이만 갈게.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye00phpd",
+     "kind": "line",
+     "sp": "37",
+     "en": "",
+     "ko": "정말? 나도 예전에 숫자로 말하는 것에 관해 고민해 본 적이 있어. 집회에서 제안도 해 봤고.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0gbnyx",
+     "kind": "line",
+     "sp": "37",
+     "en": "",
+     "ko": "현상 세계의 언어는 정확성이 결여되어 있기 때문에 전달하는 과정에서 오류가 생기기 쉽거든.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0reppp",
+     "kind": "line",
+     "sp": "37",
+     "en": "",
+     "ko": "하지만 막상 시도해보니 대부분 하루도 버티지 못하고, 다음 날 집회에서 이 방안을 기각하더라고.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0eqpza",
+     "kind": "line",
+     "sp": "37",
+     "en": "",
+     "ko": "현상 세계에도 그런 생각을 가진 사람이 있을 줄은 몰랐네. 그 사람은 아주 기묘한 숫자를 가지고 있을 거야!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0ipe8d",
+     "kind": "line",
+     "sp": "37",
+     "en": "",
+     "ko": "응, 내 추측대로라면, 우린 곧 다시 만나게 될 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye08bp5z",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "TALK AGAIN",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0enxey",
+     "kind": "line",
+     "sp": "37",
+     "en": "",
+     "ko": "우리가 다시 만날 시간을 앞당겼네. 버틴, 시계가 또 고장 난 거야?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye07mm99",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "사실 내가 숫자로만 말하는 사람을 하나 알거든.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0ttm6h",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "섬 밖으로 나가면 뭘 하고 싶어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0gyvog",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이만 갈게.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0j4jcr",
+     "kind": "line",
+     "sp": "37",
+     "en": "",
+     "ko": "정말? 나도 예전에 숫자로 말하는 것에 관해 고민해 본 적이 있어. 집회에서 제안도 해 봤고.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0g5yq0",
+     "kind": "line",
+     "sp": "37",
+     "en": "",
+     "ko": "현상 세계의 언어는 정확성이 결여되어 있기 때문에 전달하는 과정에서 오류가 생기기 쉽거든.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye029umk",
+     "kind": "line",
+     "sp": "37",
+     "en": "",
+     "ko": "하지만 막상 시도해보니 대부분 하루도 버티지 못하고, 다음 날 집회에서 이 방안을 기각하더라고.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0pk8u9",
+     "kind": "line",
+     "sp": "37",
+     "en": "",
+     "ko": "현상 세계에도 그런 생각을 가진 사람이 있을 줄은 몰랐네. 그 사람은 아주 기묘한 숫자를 가지고 있을 거야!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0k9vk8",
+     "kind": "line",
+     "sp": "37",
+     "en": "",
+     "ko": "응, 내 추측대로라면, 우린 곧 다시 만나게 될 거야.",
+     "star": false
+    }
+   ]
+  },
+  "2": {
+   "lines": [
+    {
+     "id": "mwhtdye06x3hf",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Yesterday, Today, Tomorrow",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0l93aj",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "붉은 열매 하나가 술 저장고에 잠겨 있다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0vz2hv",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "알코올의 작용인지 오늘 그 붉은 색이 유난히 선명했다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0m2aut",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "좋은 아침입니다... 끅, 좋은 저녁일 수도 있고요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0next7",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "저 APPLe의 예상대로 이 섬의 포도주는 정통 중의 정통이군요...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0akd2b",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "저 APPLe이 책임지고 이곳의 모든 술을 맛보고 기록해 그 맛을 후세에 남길 수 있도록 하겠습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0hy8jz",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "이 존경할 만한 학파를 기리기 위해 ‘아페이론 빈티지’라고 부르겠습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0jzbsv",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "하지만 아페이론 학파는 이미 사분오열됐어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye067vy0",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "레굴루스는 ‘아페이론’이라는 이름을 반대할 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0ukiba",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "난 이만 가 볼게.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0exv7m",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "이념 충돌로 인한 불화로 이 APPLe의 과핵까지 고통이 느껴집니다, 버틴 씨.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0j8xy4",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "하지만 충돌이 꼭 나쁜 것만은 아니죠. 사상의 충돌은 종종 진보를 가져오니 말입니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye07aj8i",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "미적분의 기초가 불안정하다는 걸 발견한 게 수학자가 아니라...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0omqy8",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "종교적 존엄을 되찾으려는 신학자인 것처럼요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0tgdup",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "하지만 결과적으로 그 신학자에게 감사해야 합니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0qhsqe",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "그의 비판과 분노가 수학자들에게 문제를 깨닫게 하고, 그 후 무한소수라는 중대한 기둥을 복원하게 만들었죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye00pvno",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "그의 비판 덕분에 수학이 오류와 거짓의 궁전이 되는 것을 막을 수 있었습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye05bpri",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "아페이론 학파가 지금 불일치하는 것도 언젠가는 통합되어 더 탄탄한 집단이 될 거라고 이 APPLe은 믿습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0s4ssh",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "불일치를 위해, 끅, 건배.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0inr86",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "좋은 여행 되세요(Bon Voyage), 버틴 씨.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye02bg79",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "TALK AGAIN",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0jepur",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "이 와인에 대한 저 APPLe의 평가도 듣고 싶으신가요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye074t2y",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "하지만 아페이론 학파는 이미 사분오열됐어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0g1oey",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "레굴루스는 ‘아페이론’이라는 이름을 반대할 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye01j1s9",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "난 이만 가 볼게.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0kttvb",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "이념 충돌로 인한 불화로 이 APPLe의 과핵까지 고통이 느껴집니다, 버틴 씨.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0pf0cw",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "하지만 충돌이 꼭 나쁜 것만은 아니죠. 사상의 충돌은 종종 진보를 가져오니 말입니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0g6i38",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "미적분의 기초가 불안정하다는 걸 발견한 게 수학자가 아니라...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0uouwl",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "종교적 존엄을 되찾으려는 신학자인 것처럼요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye01u76v",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "하지만 결과적으로 그 신학자에게 감사해야 합니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0rqjaj",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "그의 비판과 분노가 수학자들에게 문제를 깨닫게 하고, 그 후 무한소수라는 중대한 기둥을 복원하게 만들었죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0ijv6g",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "그의 비판 덕분에 수학이 오류와 거짓의 궁전이 되는 것을 막을 수 있었습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye07n7ec",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "아페이론 학파가 지금 불일치하는 것도 언젠가는 통합되어 더 탄탄한 집단이 될 거라고 이 APPLe은 믿습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0dfboc",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "불일치를 위해, 끅, 건배.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye02k6fc",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "좋은 여행 되세요(Bon Voyage), 버틴 씨.",
+     "star": false
+    }
+   ]
+  },
+  "3": {
+   "lines": [
+    {
+     "id": "mwhtdye0hl5xq",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Cheerful",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0x1bsy",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이 남다른 귀재가 섬에 의도가 불분명한 장치를 설치하고 있다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0vip5i",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그것은 지렛대로 구동되는 간이 투석기처럼 보인다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0iedqj",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "안녕하세요, 버틴. 여기서 만나다니 공교롭군요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0thz8n",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "새로운 골드버그 장치를 설계하고 있어요. 여긴 거점 중 한 곳이 될 거고요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0ags44",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "바다를 건너온 갈매기가 이쪽에 와서 지렛대 한쪽 끝에 둥지를 틀면 다른 한쪽 끝의 돌이 던져져요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0bc9ru",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "던져진 돌은...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0i75nq",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "다 설명하면 재미없으니까, 나머지는 완성된 후에 보시죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye08hvcy",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "다른 얘기를 하죠. 아무거나요. 예를 들면 연구 센터? 엄청 어수선한데, 틀림없이 흥미를 느낄 거예요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0gdagh",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "루시의 후계자는 아직 결정되지 않았어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye021s2p",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "의식 각성자가 단식 시위를 하고 있다고 하던데.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0h3kcw",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "난 먼저 가볼게.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0n3ocw",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "아직요, 그 장엄한 환송회에서 알 수 있듯이 그녀는 많은 사랑을 받았거든요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye00lhyy",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "당분간 그 충전 왕좌를 맡을 사람은 없을걸요. 잘못하면 엉덩이를 델 수도 있으니까.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye09oz55",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "그리고 사무실을 다시 사람이 사용할 수 있는 공간으로 바꾸려면 시간이 좀 걸릴 거예요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0r45fj",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "그래도 괜찮아요, 관리자가 없기 때문에 다들 하고 싶은 대로 할 수 있죠. 벌써 여러 가지 흥미로운 프로젝트가 진행 중이에요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye09bqai",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "잘 가요, 장치가 아직 테스트가 좀 더 필요해요. 언제든지 와서 또 얘기해요~",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0x3afh",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "TALK AGAIN",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0ncst4",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "다시 온 걸 환영해요. 이번에는 무슨 얘기가 하고 싶어요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0ng28g",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "루시의 후계자는 아직 결정되지 않았어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0ptc10",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "의식 각성자가 단식 시위를 하고 있다고 하던데.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0wt1xk",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "난 먼저 가볼게.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0djcyq",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "아직요, 그 장엄한 환송회에서 알 수 있듯이 그녀는 많은 사랑을 받았거든요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0vgx0l",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "당분간 그 충전 왕좌를 맡을 사람은 없을걸요. 잘못하면 엉덩이를 델 수도 있으니까.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0kfl1t",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "그리고 사무실을 다시 사람이 사용할 수 있는 공간으로 바꾸려면 시간이 좀 걸릴 거예요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0qg0sf",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "그래도 괜찮아요, 관리자가 없기 때문에 다들 하고 싶은 대로 할 수 있죠. 벌써 여러 가지 흥미로운 프로젝트가 진행 중이에요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0m7i9p",
+     "kind": "line",
+     "sp": "X",
+     "en": "",
+     "ko": "잘 가요, 장치가 아직 테스트가 좀 더 필요해요. 언제든지 와서 또 얘기해요~",
+     "star": false
+    }
+   ]
+  },
+  "4": {
+   "lines": [
+    {
+     "id": "mwhtdye0l343u",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Yesterday, Today, Tomorrow",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0drxy0",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "직속 상사가 눈에 거슬리지 않으며, 사람들 눈에 띄지 않는 적절한 장소를 찾았다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0hqnu6",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀는 왼손에는 훈장을, 오른손에는 연설문을 쥐고 있느라 애용하던 보온컵이 잠시 자리를 잃었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0fo43u",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "축하해, 버틴. 재단이 자네의 이번 공로를 크게 칭찬했어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0mccec",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "재단을 대표해 상을 수여하러 왔어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0pvuw2",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀는 훈장과 연설문을 서류봉투에 담아 그대로 건넸다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0d2mlb",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "자네가 이런 의식에는 관심이 없다는 건 잘 알아. 그러니 나중에 훈장과 추사는 자네가 직접 확인하도록 해.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0kwaj9",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "재단에선 아직도 승리를 축하하고 있나요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0wgcma",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "다 도와주신 덕분입니다, Z 씨.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0n68v0",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "새로운 임무가 있나요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0j4eud",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "그래, 다 그런 건 아니지만.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye02v359",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "승리를 축하하는 동시에 이미 다음 단계에 착수했어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0rbkk7",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "지금 밸런스 우산 연구 프로젝트에 관해 연구 센터와 협력 건을 논의 중이지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0498vk",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "밸런스 우산은 위대한 발명이야. 우산의 발명으로 인해 ‘폭풍우’ 속에서 외출하는 건 더 이상 터무니없는 소리가 아니게 됐어. 위원회는 곧 새로운 외출 법안을 내놓겠지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0sa5nh",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "아마 재단 내에 각 계파 간 밸런스도 밸런스 우산으로 인해 깨질 거야. 그다음은.. 정치인들이 바빠져야겠지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0lwsbz",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "하지만 적어도 외출이 가장 필요한 조사원들에게 먼저 ‘밸런스’를 잡게 할 수는 있을 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye03vjs4",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "서두를 것 없어, 버틴. 자네가 한가해졌다고 자네를 붙잡고 축사를 읊지는 않을 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye06ivol",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "새 시대로 나아가기 전에 좀 쉬면서 새로 알게 된 친구와 얘기도 나눠보도록 해.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0wn4qt",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "그동안 보고는 내가 대신 처리하지. 어쨌든 이건 자네가 타임키퍼가 된 이래로 모처럼 얻은 휴가잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye015ra9",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "TALK AGAIN",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0ahigy",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "또 다른 용건이 있나, 버틴?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0p7cc7",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "재단에선 아직도 승리를 축하하고 있나요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0wwnal",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "다 도와주신 덕분입니다, Z 씨.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0y2gfs",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "새로운 임무가 있나요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0nzew7",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "그래, 다 그런 건 아니지만.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye020wmm",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "승리를 축하하는 동시에 이미 다음 단계에 착수했어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0312tt",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "지금 밸런스 우산 연구 프로젝트에 관해 연구 센터와 협력 건을 논의 중이지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0foxm5",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "밸런스 우산은 위대한 발명이야. 우산의 발명으로 인해 ‘폭풍우’ 속에서 외출하는 건 더 이상 터무니없는 소리가 아니게 됐어. 위원회는 곧 새로운 외출 법안을 내놓겠지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0etbg2",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "아마 재단 내에 각 계파 간 밸런스도 밸런스 우산으로 인해 깨질 거야. 그다음은.. 정치인들이 바빠져야겠지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0cghd9",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "하지만 적어도 외출이 가장 필요한 조사원들에게 먼저 ‘밸런스’를 잡게 할 수는 있을 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0m0kq3",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "서두를 것 없어, 버틴. 자네가 한가해졌다고 자네를 붙잡고 축사를 읊지는 않을 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0li2vb",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "새 시대로 나아가기 전에 좀 쉬면서 새로 알게 된 친구와 얘기도 나눠보도록 해.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0m462p",
+     "kind": "line",
+     "sp": "Z",
+     "en": "",
+     "ko": "그동안 보고는 내가 대신 처리하지. 어쨌든 이건 자네가 타임키퍼가 된 이래로 모처럼 얻은 휴가잖아.",
+     "star": false
+    }
+   ]
+  },
+  "5": {
+   "lines": [
+    {
+     "id": "mwhtdye0uu0nb",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀가 당신이 여기 있을 거라는 걸 알고 있는 것처럼, 당신은 조수가 여기로 올 거라는 걸 알고 있다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye05qh2v",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "당신은 그녀의 사복 차림을 처음 보았다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye06bv74",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "소네트까지 캐주얼 복장으로 갈아입으니 진짜 휴가라는 게 실감이 났다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye00sxue",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "좋은 아침입니다, 타임키퍼. 이제야 임무를 모두 마쳤어요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0mhkoq",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "휴식 시간을 좀 얻었는데...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0mvk6k",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "어떻게 이용해야 할지 생각이 나지 않아서 타임키퍼의 휴식 시간을 방해하게 됐네요. 부디 용서해 주세요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0qlvk4",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "괜찮아, 얘기나 좀 할까?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0cria7",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "방해가 되지 않는다는 걸 확인한 그녀는 이내 어깨의 힘을 풀었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0ed430",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "감사해요! 저도 이 임무에 대해 얘기를 나누고 싶었어요. 특히 소피아...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0u7w52",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "죄송해요, 이건 그냥 업무 보고지 대화라고 할 수 없겠군요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0i0t75",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "제가 이런 대화가 서툴러서 그런데 타임키퍼가 먼저 시작해 주시겠어요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0zg3ph",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "또 소피아를 만나게 될 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0j4r2k",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "무슨 계획이라도 있어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0s4ril",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "미안, 다른 일이 있어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye052p2c",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "그래요, 적으로서요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0d9gow",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "...저는 잘 모르겠어요. 그녀는 누구보다 진리를 믿잖아요. 왜 교파를 배신하고 재건의 손에 합류한 걸까요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0h166j",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "그녀도 재건의 손 신도들이 이성을 잃고, 섬에서 자살 공격을 일으키는 것을 목격했어요. 그리고 재건의 손이 생명을 대하는 태도는 온 세상이 다 알죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye05gudf",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "이 모든 건 전쟁을 일으키려는 재건의 손의 음모에요. 섬에 간 병사들도 그들의 도움을 받은 게 분명해요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye02yy0b",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "그들은 전쟁을 일으켜 교인들의 신념을 무너뜨리고, 그 틈을 타서 그들을 끌어들였죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye00oux7",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "하지만 정답은 알지만 어떻게 말해야 할지 모르는 또 다른 논쟁에서 패배한 기분이 들었어요. 그들을 설득할 수 없었고, 그들이 타락하는 것을 지켜볼 수밖에 없었고요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0om9ar",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "...이번 논쟁에서는 이기면 좋겠어요, 타임키퍼.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0kaugo",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "괜찮아요, 타임키퍼. 여기서 기다릴게요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0kk5q4",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "나중에 또 얘기 나눠요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0v1tel",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "TALK AGAIN",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0ldkwy",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "저 여기 있어요, 타임키퍼. 시간 되세요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye00rtic",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "또 소피아를 만나게 될 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0nolez",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "무슨 계획이라도 있어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0qud5l",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "미안, 다른 일이 있어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0bal0n",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "그래요, 적으로서요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0egy6k",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "...저는 잘 모르겠어요. 그녀는 누구보다 진리를 믿잖아요. 왜 교파를 배신하고 재건의 손에 합류한 걸까요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye08rifm",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "그녀도 재건의 손 신도들이 이성을 잃고, 섬에서 자살 공격을 일으키는 것을 목격했어요. 그리고 재건의 손이 생명을 대하는 태도는 온 세상이 다 알죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0ekzjb",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "이 모든 건 전쟁을 일으키려는 재건의 손의 음모에요. 섬에 간 병사들도 그들의 도움을 받은 게 분명해요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye087ree",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "그들은 전쟁을 일으켜 교인들의 신념을 무너뜨리고, 그 틈을 타서 그들을 끌어들였죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0a95k6",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "하지만 정답은 알지만 어떻게 말해야 할지 모르는 또 다른 논쟁에서 패배한 기분이 들었어요. 그들을 설득할 수 없었고, 그들이 타락하는 것을 지켜볼 수밖에 없었고요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0zjycl",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "...이번 논쟁에서는 이기면 좋겠어요, 타임키퍼.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0kdm6n",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "괜찮아요, 타임키퍼. 여기서 기다릴게요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0zhyrs",
+     "kind": "line",
+     "sp": "소네트",
+     "en": "",
+     "ko": "나중에 또 얘기 나눠요.",
+     "star": false
+    }
+   ]
+  },
+  "6": {
+   "lines": [
+    {
+     "id": "mwhtdye0pi1w9",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이 IDM은 이미 작업이 끝난 상태였지만 디스플레이에는 여전히 희미한 빛과 문자가 반짝이고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0251ld",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "누군가 이 회선을 통해 당신과 연결되어 있다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye07jgf3",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "여기에는 두 번째와 세 번째 알파벳이 각각 ‘a’와 ‘i’이고, 전체 길이가 일곱 자인 영어 단어가 필요해...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0jfa31",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "‘쇠퇴’【failing】, ‘실패’【failure】, ‘감금’【jailing】, ‘고통스러운’【painful】...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0r1il6",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "아냐, 아냐, 생각을 좀 바꿔야 해.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0gapim",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "‘무지개’【rainbow】는 어떤가요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0a8lvb",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "응? 좋은 생각이군요. 여기 여섯 번째가 ‘o’고, 여기는 바로 ‘기회’【opportunity】와 이을 수 있어...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye0u1s24",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "잠깐, 누가 말하는 거지? 주변에 아무도 없는 거 확인했는데.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye12f79s",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "이 IDM인가? 설마 잠복한 의식 각성자...?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1uys9v",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "버틴입니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1ldksc",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "타임키퍼? 제가 너무 긴장을 풀었나 봅니다. 회선이 닫혔는지 확인하는 걸 잊었어요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye16o52r",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "다들 이번 작전의 희생자들을 위해 장례를 준비하느라 바쁩니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye19thsw",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "그러니 하고 싶은 말이 있으면 저한테 전하셔도 돼요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye16bwfe",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "단어들이 다 비관적이네요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1ca3cf",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "루시가 떠나고 연구팀은 어떻게 됐나요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1dzeao",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "딱히 별일은 없어요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1bp5fv",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "전 알파벳순으로 가능한 단어를 떠올리고 있었을 뿐입니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1mzqsd",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "그러니 이건 비관적인 예측이 아니라 현실적인 거죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1u2dkk",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "이게 비관적이라면, 누군가 이 단어들을 비관적으로 고려하고 있다는 겁니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1v6nk5",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "그 거들먹거리는 녀석들이 공중에서 떨어질 때 쿠션이 있도록요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye12xmyf",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "그냥 잡담하러 왔다고요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye12tjxs",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "...고맙습니다. 다른 사람과 말하는 것에 익숙해지라고 당부한 사람이 있거든요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1x73wk",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "TALK AGAIN",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1c2hq3",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "전 마도학자가 아닙니다. 현상에 근거해 결론을 내릴 뿐이죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1331ry",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "그러니 더 할 말이 있다면 솔직하게 말하는 게 더 좋을 거라고 생각합니다, 타임키퍼.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1q4o81",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "단어들이 다 비관적이네요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1bvtey",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "루시가 떠나고 연구팀은 어떻게 됐나요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1ou5x0",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "딱히 별일은 없어요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye13cgmt",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "전 알파벳순으로 가능한 단어를 떠올리고 있었을 뿐입니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1k2g4f",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "그러니 이건 비관적인 예측이 아니라 현실적인 거죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1qcbsn",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "이게 비관적이라면, 누군가 이 단어들을 비관적으로 고려하고 있다는 겁니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1dj552",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "그 거들먹거리는 녀석들이 공중에서 떨어질 때 쿠션이 있도록요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye135e4k",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "그냥 잡담하러 왔다고요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1hptnz",
+     "kind": "line",
+     "sp": "이니그마",
+     "en": "",
+     "ko": "...고맙습니다. 다른 사람과 말하는 것에 익숙해지라고 당부한 사람이 있거든요.",
+     "star": false
+    }
+   ]
+  },
+  "7": {
+   "lines": [
+    {
+     "id": "mwhtdye1ednd1",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "꿈을 만드는 이가 잔뜩 피곤한 모습으로 해변가에 마치 조각상처럼 서 있다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1ag93e",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "금색 무늬가 섞인 수많은 흰색 우산이 그녀의 발치에 쌓여 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1fri1k",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀는 눈을 감은 채 바닷바람을 따라 무의식으로 가볍게 흔들거렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1861nf",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀를 흔들어 깨운다",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1po0h7",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀에게 외투를 덮어준다",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1dabbj",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "그만 흔들어! 누가 나한테 구속 벨트 좀 건네주겠어? 고정 장치를 조이려면...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1t85rd",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "꿈을 만드는 이는 꿈속에서 다른 생물들을 질식시키려는 손짓을 했다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1vokdu",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "격렬한 동작에 그녀는 균형을 잃으며, 순간의 무중력에 두 눈을 떴다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1qwfrb",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "버틴?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1zsv06",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "아, 이제 좀 쉴 수 있겠어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1omnnw",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "오랜만이라고 해야 하나? 재단 밖에서 만난 건.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1tjc4m",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "임시 작업을 추가해 줘서 고마워. 드디어 출장으로 잠시 본업과 떨어질 수 있게 됐거든.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1mrwu9",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "몇몇 재단 사람들은 나를 너와 접선하는 전담자로 생각하는 것 같아. 항상 이런 일은 나한테 던져준단 말이지...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1n6uz8",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "됐다, 환자의 비명을 듣는 것보다는 낫지. 자, 네가 신청한 밸런스 우산.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1nvjay",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "업무를 바꿔야겠다는 생각 해본 적 있어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1vzvb2",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "저주받은 연구원은 괜찮아?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye11y13r",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "우산 고마워.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1je585",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "타임키퍼 소대의 전속 우체부가 된다거나 하는?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1a1b0m",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "안타깝게도 이 세상의 미치광이는 계속 늘어나고 있어. 업무를 바꿀 기회는 영원히 오지 않을걸.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye15xmth",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "이번 밸런스 우산처럼 계속 네가 일을 잘 수행해서 ‘폭풍우’의 피해자를 줄일 수 있다면...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1j6qgh",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "내 일도 훨씬 수월해지겠지, 버틴.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1u0lnv",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "천만에, 이것도 업무의 일부일 뿐이야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye136361",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "가능하면 수량을 꼼꼼하게 체크하고 나서 받도록 해.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1556z2",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "내 휴식 시간은... 네 확인 속도에 달려 있어...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1fpwe7",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀는 더는 버틸 수 없는 눈꺼풀을 감고는 다시 바람에 흔들리는 조각상이 되었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1u452g",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "TALK AGAIN",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1ihq8y",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "벌써 확인 다 했어? 좀 더 신중해도 돼, 버틴.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1pmnif",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "업무를 바꿔야겠다는 생각 해본 적 있어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1u2dxq",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "저주받은 연구원은 괜찮아?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1eh7lo",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "우산 고마워.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1p44wv",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "타임키퍼 소대의 전속 우체부가 된다거나 하는?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1786fx",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "안타깝게도 이 세상의 미치광이는 계속 늘어나고 있어. 업무를 바꿀 기회는 영원히 오지 않을걸.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye18ngeq",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "이번 밸런스 우산처럼 계속 네가 일을 잘 수행해서 ‘폭풍우’의 피해자를 줄일 수 있다면...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1lbgxa",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "내 일도 훨씬 수월해지겠지, 버틴.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1h9icu",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "천만에, 이것도 업무의 일부일 뿐이야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye15zmpu",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "가능하면 수량을 꼼꼼하게 체크하고 나서 받도록 해.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1o1lsy",
+     "kind": "line",
+     "sp": "메스머 주니어",
+     "en": "",
+     "ko": "내 휴식 시간은... 네 확인 속도에 달려 있어...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye15ff2g",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀는 더는 버틸 수 없는 눈꺼풀을 감고는 다시 바람에 흔들리는 조각상이 되었다.",
+     "star": false
+    }
+   ]
+  },
+  "8": {
+   "lines": [
+    {
+     "id": "mwhtdye19t67v",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "녹색 메신저가 태양이 자신의 몸에 햇볕을 내리쬐도 전혀 신경 쓰지 않으며 이 공간에 머무르고 있다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1xdy6v",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "표정으로는 그녀의 상태를 판단할 수 없다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1p60ew",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "하지만 공기 중의 5차원 <물병자리>는 그녀가 기분이 좋다는 걸 의미했다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1txgl6",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이내 당신을 발견하고 현장에서 운명의 노크 소리가 울렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye18elrd",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "헤, 헬로? 버틴 씨. 무슨 일로 오셨나요? 설마 저에 대한 심판이 내려진 건 아니겠죠?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1cl0ig",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "그동안의 제 행동이 결백을 증명하기에 충분했기를.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1gntki",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "라디오의 녹색 케이스가 미세하게 떨렸고, 음악의 주파수 대역도 파동이 일어났다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1nzlhv",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "널 의심하는 사람은 없어, 넌 이번에 큰 공을 세웠잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1ptegm",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "누굴 좀 찾아줬으면 해.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1njo9t",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "당분간은 별일 없어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1pq6cz",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "정말요? 정말 굿뉴스네요! 제가 도움이 된다니 너무 기뻐요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1giyqx",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "요 며칠 배터리 덮개가 뜯기거나 포르말린에 담겨 냉수 목욕을 하는 건 아닐까 걱정했거든요...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1lkco3",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "그다음에는 존재하지 않는 가상의 적의 고유 주파수대를 연구하기 위해 해체되는 거죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1lgq8q",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "믿어 주셔서 감사해요, 버틴 씨.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye124ohj",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "재단에서 좀 더 자유롭게 활동할 수 있겠는데요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye16e8wq",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "절 위해 먼지를 털어내고, 광택을 내주고, 왁스도 칠해 줄 사람을 찾을 수 있을지도 몰라요",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1z23vx",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "그래요? 그럼 같이 한가한 시간을 좀 즐길 수 있을까요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1rvhis",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "가령 윤활유를 바른 후 햇볕을 쬐어 체내의 곰팡이를 제거하는 거죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1gvsar",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "TALK AGAIN",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1y0476",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "새로운 발견이라도 있나요, 버틴 씨?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1sg1fu",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "널 의심하는 사람은 없어, 넌 이번에 큰 공을 세웠잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1hmdn9",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "누굴 좀 찾아줬으면 해.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1171gv",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "당분간은 별일 없어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye18e1lg",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "정말요? 정말 굿뉴스네요! 제가 도움이 된다니 너무 기뻐요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1yjfa0",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "요 며칠 배터리 덮개가 뜯기거나 포르말린에 담겨 냉수 목욕을 하는 건 아닐까 걱정했거든요...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye13fcn4",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "그다음에는 존재하지 않는 가상의 적의 고유 주파수대를 연구하기 위해 해체되는 거죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1xtbxa",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "믿어 주셔서 감사해요, 버틴 씨.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1877tt",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "재단에서 좀 더 자유롭게 활동할 수 있겠는데요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye15t6b0",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "절 위해 먼지를 털어내고, 광택을 내주고, 왁스도 칠해 줄 사람을 찾을 수 있을지도 몰라요",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1trcb3",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "그래요? 그럼 같이 한가한 시간을 좀 즐길 수 있을까요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1gbbg8",
+     "kind": "line",
+     "sp": "미스 라디오",
+     "en": "",
+     "ko": "가령 윤활유를 바른 후 햇볕을 쬐어 체내의 곰팡이를 제거하는 거죠.",
+     "star": false
+    }
+   ]
+  },
+  "9": {
+   "lines": [
+    {
+     "id": "mwhtdye1ttrrx",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Cheerful",
+     "star": false
+    },
+    {
+     "id": "mwhtdye11ta45",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이번의 긴 표류로 모든 에너지를 다 써 버렸다. 지금까지 버틸 수 있었던 이유는 바로 의지였다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye12jnfj",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그런데 로큰롤 해적에게는 무한한 활력이 있는 듯했다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye10bm8m",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀는 태양의 온기가 남아 있는 암초에 앉아 수평선을 마주한 채 탄산음료를 시원하게 들이키고 있었다. 옆에는 아직 뜯지 않은 닥터 페퍼가 한 캔 놓여 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye17zx79",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "캬아~ 시원하다! 역시 일 끝나고 마시는 닥터 페퍼만한 게 없다니까!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1ki8jj",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "왜? 무슨 걱정이 있어? 아르카나도 손봐주고 ‘폭풍우’ 면역 방법도 찾았는데. 좀 쉬어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye13rp6f",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "그리고 가장 좋은 점은 하루 만에 배 두 척의 수확을 이뤄냈다는 점이지!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye19eqj6",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "오늘은 탄산 음료도 좀 마시며 기분을 한껏 내라고, 버틴!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1zvoct",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "닥터 페퍼를 든다",
+     "star": false
+    },
+    {
+     "id": "mwhtdye138piz",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "넌 커피를 마실 줄 알았는데.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1nkhls",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "탄산음료 좀 마신다고 나쁜 일이 생기는 것도 아니니 거절할 방법이 없다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye12ozzo",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "버틴을 위하여!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye177tes",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "분위기가 딱 맞아떨어졌다. 해적의 말대로 당분간은 걱정할 게 없다. 지금은 탄산음료에 ‘취하기’에 좋은 타이밍이다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1wjr2f",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "위대한 해적님께서는 이번 항해를 어떻게 평가해?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1r6f8w",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "우리가 미래로 돌아갈 수 있을 거라 생각해?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye11vedl",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "난 갈게, 닥터 페퍼는 잘 마셨어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye192f1a",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "침몰한 걸 빼면 괜찮아! 모험도 있고, 수확도 있고, 스릴과 놀라움도 있었지. 유일한 문제라면 이 섬이야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1bpabn",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "규칙이 너무 많아. 콩도 못 먹게 하고, 섬의 아브락사스는 사람을 물기도 하는데, 섬사람도 인간을 물잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1nrm3n",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "규칙은 깨지기 위해 만들어진 거라는 걸 모르는 건가?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1ok7pf",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "그렇게 고집불통인 녀석들이 끝내주는 가사를 쓸 리가 없지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye13judu",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "하지만 마지막에 그런 건... 그래, 꽤 로큰롤 같았지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye15mdan",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "신념을 위해 죽고 노래를 부르며 ‘폭풍우’ 속으로 들어가다니 정말 멋있잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1u7n45",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "나도 같이하고 싶어졌다니까! 하지만 이번엔 안 돼. 위대한 로큰롤 해적이 수학 벌레들과 같은 엔딩을 맞이할 순 없잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1qn3n6",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "내 피날레는 세상을 뒤흔드는 피날레가 될 테니까!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye16z581",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "천만에, 닥터 페퍼가 생각나면 언제든지 찾아와!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1h1jvw",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "TALK AGAIN",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1r45z6",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "어때, 한 캔 더?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye19x3up",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "닥터 페퍼를 든다",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1tvlfu",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "넌 커피를 마실 줄 알았는데.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1iyzbr",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "탄산음료 좀 마신다고 나쁜 일이 생기는 것도 아니니 거절할 방법이 없다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1x1znz",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "버틴을 위하여!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1u1cp4",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "위대한 해적님께서는 이번 항해를 어떻게 평가해?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye16u49d",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "난 갈게, 닥터 페퍼는 잘 마셨어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1x9b7i",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "우리가 미래로 돌아갈 수 있을 거라 생각해?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1nepgk",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "침몰한 걸 빼면 괜찮아! 모험도 있고, 수확도 있고, 스릴과 놀라움도 있었지. 유일한 문제라면 이 섬이야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1i3v1k",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "규칙이 너무 많아. 콩도 못 먹게 하고, 섬의 아브락사스는 사람을 물기도 하는데, 섬사람도 인간을 물잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1n8fzo",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "규칙은 깨지기 위해 만들어진 거라는 걸 모르는 건가?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye16lcn2",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "그렇게 고집불통인 녀석들이 끝내주는 가사를 쓸 리가 없지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1vprpj",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "하지만 마지막에 그런 건... 그래, 꽤 로큰롤 같았지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1fpsw7",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "신념을 위해 죽고 노래를 부르며 ‘폭풍우’ 속으로 들어가다니 정말 멋있잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye16935w",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "나도 같이하고 싶어졌다니까! 하지만 이번엔 안 돼. 위대한 로큰롤 해적이 수학 벌레들과 같은 엔딩을 맞이할 순 없잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1ipwvm",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "내 피날레는 세상을 뒤흔드는 피날레가 될 테니까!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1shf1h",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "천만에, 닥터 페퍼가 생각나면 언제든지 찾아와!",
+     "star": false
+    }
+   ]
+  },
+  "10": {
+   "lines": [
+    {
+     "id": "mwhtdye12trek",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Yesterday, Today, Tomorrow",
+     "star": false
+    },
+    {
+     "id": "mwhtdye11l40o",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "한 드루이드가 전쟁 직후의 숲속을 거닐고 있다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye14l2ec",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀는 포화를 피한 올리브 나무를 손으로 어루만지며 나무의 목소리에 귀 기울이고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1me29t",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "좋은 아침이에요, 버틴.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1f0yy3",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "당신 말 대로 기대할 만한 가치가 있는 숲이네요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye16efjt",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "나뭇가지가 완벽한 패턴으로 배열되어 숲에 조화로움을 주네요. 그리고 숲을 지켰던 사람들의 온화함과 배려심이 느껴지네요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1rf8x0",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "상당히 후한 평가네.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1qjitv",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "네, 햇순이든 묵은 싹이든, 가지는 모두 동일한 구조로 외부로 확장되어 새로운 가지가 돼요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1kcj5q",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "사각형의 가장자리는 삼각형을 만들고, 삼각형의 가장자리는 또 사각형을 만들죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1eezgm",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "사실 이런 손질법은 잘 모르지만 나무들이 기쁨의 콧노래를 부르는 것이 느껴져요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye11j8tb",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "이건 피타고라스 나무라고 해.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1qo7qc",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "들어봤어요. 수학자 이름이죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye12667b",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "하지만 그의 이념이 나무에도 드러날 줄은 몰랐네요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1ob79e",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "선현의 지혜에 경의를 표합니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye19ujss",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그동안 잘 지냈어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1s4kwd",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "우리가 드디어 아르카나를 쓰러뜨렸어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1s4ryj",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이만 갈게.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1c3ajj",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "신경 써줘서 고마워요, 버틴.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1uxmge",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "전 잘 지내요. 재단도 제가 광장을 복구할 때 곤란하게 굴지 않았고요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1uz68g",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "대신 갑자기 자란 나무가 재단 건물 안전에 미치는 위협을 재평가했어요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1srdwx",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "그리고 소더비 씨가 남긴 성장 포션도 분석했고요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1vm1hv",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "다음 시위는 쉽지 않을 것 같네요. 새로운 전략이 필요할 것 같아요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1l8tv6",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "잘 가요. 이 나무들의 말이 아주 재미있어서 다시 얘기를 나누고 싶군요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1677jt",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "TALK AGAIN",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1cxlwj",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "또 만나네요, 버틴. 당신도 나무와 이야기하고 싶나요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye17tth9",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그동안 잘 지냈어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1xwt03",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "우리가 드디어 아르카나를 쓰러뜨렸어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1p2fxv",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이만 갈게.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye198o8j",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "신경 써줘서 고마워요, 버틴.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1qaq8j",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "전 잘 지내요. 재단도 제가 광장을 복구할 때 곤란하게 굴지 않았고요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1krqye",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "대신 갑자기 자란 나무가 재단 건물 안전에 미치는 위협을 재평가했어요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye14gcbg",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "그리고 소더비 씨가 남긴 성장 포션도 분석했고요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1u6jje",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "다음 시위는 쉽지 않을 것 같네요. 새로운 전략이 필요할 것 같아요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1t68bp",
+     "kind": "line",
+     "sp": "드루비스",
+     "en": "",
+     "ko": "잘 가요. 이 나무들의 말이 아주 재미있어서 다시 얘기를 나누고 싶군요.",
+     "star": false
+    }
+   ]
+  },
+  "11": {
+   "lines": [
+    {
+     "id": "mwhtdye1ug28c",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Cheerful",
+     "star": false
+    },
+    {
+     "id": "mwhtdye1didfu",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "버틴!!!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2345cw",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "익숙한 목소리 하나가 먼저 당신을 찾았다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2qjue5",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "천재 점술사는 자신의 수정구를 가지고 럭비 공격수에 가까운 기세로 당신에게 달려들었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2d9aq8",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "드디어 찾았다!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2nd2kj",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "날 피할 수 있을 거 같아? 이 규율 보조 교사를 내팽개치고 트위스트 파티를 열 수 있을 것 같냐고?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2dv9nn",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "트위스트 파티?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2mvntg",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "속일 생각은 마. 사랑스러운 소더비 씨가 이미 너희 계획을 전부 폭로했으니까.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye29jzgr",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "하지만 난 너그러운 사람이야. 지금 초대한다면 이번 일은 너희가 그냥 잊어버린 걸로 해주지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2chqlu",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "트위스트 파티 같은 건 없어, 마틸다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2s7bgr",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "계속 날 속이려고 하네! 하지만 난...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye242jad",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "당신의 단호한 태도에 점술사의 거짓된 확신이 무너지기 시작했다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye23r85m",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "저, 정말이야? 설마 그냥 소더비 씨의 농담이었던 건가?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2f51t8",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "소더비가 잊은 거겠지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2vw1pk",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "그러니까 따돌림으로 초대를 받지 못한 사람은 없는 거네. 소더비 씨도 멍청한 트위스트 춤을 추지 않을 거고...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2ryk2a",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "흥! 그럼 됐어. 앞으로 좀 격조 있는 행사를 열었으면 해.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2wk6n8",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "그리고 날 꼭 초대해야 한다? 난 규율 보조 교사로서 현장에서 감독할 의무가 있거든!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye21kvbh",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그냥 우리한테 합류해",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2tr5pp",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "파티를 열 수 있을지도.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2svyi1",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "미안, 다른 일이 있어서.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2bwuge",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "하, 합류라니? 너희랑 같이 밖에 가면, 나중에 그, 그, 그녀와 함께...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye263k5l",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "흥! 날 속여서 규칙을 어기게 하려고?! 난 내 힘으로 재단 조사원이 될 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye255cw6",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "그리고 소네트와 너보다 훨씬 잘할 거야!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2vjcht",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "그날이 오면 내가 아니라 너희가 나한테 합류하게 될걸!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2wa48k",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "다른 일이라는 게 설마 나 모르게 여는 무도회는 아니겠지?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2wsk3q",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "그런 순진한 생각은 하지 않기를 바랄게. 여기 남아서 널 지켜볼 거니까!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2kg1fh",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "TALK AGAIN",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2qcsob",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "왜? 나한테 하고 싶은 말이라도 있어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye25fs9r",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그냥 우리한테 합류해",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2b156a",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "파티를 열 수 있을지도.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2kw2jp",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "미안, 다른 일이 있어서.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye22ip4p",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "하, 합류라니? 너희랑 같이 밖에 가면, 나중에 그, 그, 그녀와 함께...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2z3191",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "흥! 날 속여서 규칙을 어기게 하려고?! 난 내 힘으로 재단 조사원이 될 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2leoh4",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "그리고 소네트와 너보다 훨씬 잘할 거야!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2x6suy",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "그날이 오면 내가 아니라 너희가 나한테 합류하게 될걸!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2w9j4i",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "다른 일이라는 게 설마 나 모르게 여는 무도회는 아니겠지?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2odjt4",
+     "kind": "line",
+     "sp": "마틸다",
+     "en": "",
+     "ko": "그런 순진한 생각은 하지 않기를 바랄게. 여기 남아서 널 지켜볼 거니까!",
+     "star": false
+    }
+   ]
+  },
+  "12": {
+   "lines": [
+    {
+     "id": "mwhtdye2k2yzw",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "768해리의 여정은 그녀의 애마에 광택만 낸 정도였다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye24e98r",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이 조종사는 정상에서 그때의 유쾌한 체험을 음미하고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2fmq5z",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀는 음미하면서 술 주전자 속의 액체도 마실 수 있을 것 같다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2cwjkl",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "이봐, 버틴. 얼른 와서 나랑 같이 마시자.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2agniy",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "맨날 레굴루스랑 탄산음료나 마시고 말이야. 보드카에도 익숙해져야지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2ddjj5",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "아직 그럴 나이는 아니니까.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye21pojt",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "네, 네. 모범생도 아니면서 이럴 때는 꼭 규칙을 지킨다니까.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2qa9fz",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "안 마실 거면 됐어. 그래도 말동무는 좀 해주지?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2i67n7",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "술맛이 안 난단 말이야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2ullo0",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "왜 조종사가 됐어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2qvsmx",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그럼 제노 얘기나 할까.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2n9jdm",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이만 갈게.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2gn0c6",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "그래, 옛 추억은 술자리에서 좋은 안주이지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2k294d",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "당연하게도 난 날기 위해서 조종사가 됐어!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye25th89",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "바람이 귓가를 스치는 상쾌함, 가속할 때 전신에 느껴지는 압박감.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2mw36d",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "급선회할 때 무중력의 자유로움, 그리고 적과 서로 물고 물리는 짜릿함.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2fgcwk",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "가장 좋은 부분은 적기의 날개를 찢어버릴 때 토해내는 비명 소리이지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2j9l8u",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "충성심이 부족한 것처럼 들리겠지만, 나한테 제노는 그냥 비행 면허를 따는 곳이였어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2i2a5c",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "면허증과 애마를 받은 후부터 시원하게 날 수 있는 곳을 찾았지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2cpn2o",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "제노에서 비행하려면 임무가 있어야 하고, 재단에서는 이론 교관만 될 수 있잖아. 번거로운 일이 끊이지 않고 공중에서 무력을 써야 하지만 군기는 없는 곳을 찾아야겠다는 생각이 들었지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye29mddy",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "이 조건에 부합하는 오합지졸이 어떤 녀석들인지 알아?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2t5219",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "네 여행 가방.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye25b7qg",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "Пока, 다음에 같이 바람이나 쐬러 가.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2ko0cq",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "환자 태우는 거 말고, 진짜 공중전이다!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2yt3jr",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "TALK AGAIN",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2xc6r7",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "비행할 준비는 됐어? 잊어버린 건 없고?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2c8rsm",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "왜 조종사가 됐어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2kf9qj",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그럼 제노 얘기나 할까.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2ktwxy",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이만 갈게.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2lgaux",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "그래, 옛 추억은 술자리에서 좋은 안주이지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2kkukv",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "당연하게도 난 날기 위해서 조종사가 됐어!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2lbz4o",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "바람이 귓가를 스치는 상쾌함, 가속할 때 전신에 느껴지는 압박감.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2mmykb",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "급선회할 때 무중력의 자유로움, 그리고 적과 서로 물고 물리는 짜릿함.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2ezxl1",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "가장 좋은 부분은 적기의 날개를 찢어버릴 때 토해내는 비명 소리이지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye28vbd1",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "충성심이 부족한 것처럼 들리겠지만, 나한테 제노는 그냥 비행 면허를 따는 곳이였어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2sfh3o",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "면허증과 애마를 받은 후부터 시원하게 날 수 있는 곳을 찾았지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2wjaj1",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "제노에서 비행하려면 임무가 있어야 하고, 재단에서는 이론 교관만 될 수 있잖아. 번거로운 일이 끊이지 않고 공중에서 무력을 써야 하지만 군기는 없는 곳을 찾아야겠다는 생각이 들었지.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2gfqk3",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "이 조건에 부합하는 오합지졸이 어떤 녀석들인지 알아?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye265qq2",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "네 여행 가방.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2qblga",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "Пока, 다음에 같이 바람이나 쐬러 가.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2kuoyf",
+     "kind": "line",
+     "sp": "릴리아",
+     "en": "",
+     "ko": "환자 태우는 거 말고, 진짜 공중전이다!",
+     "star": false
+    }
+   ]
+  },
+  "13": {
+   "lines": [
+    {
+     "id": "mwhtdye21bz8f",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "한 숙녀가 거의 터질 것 같을 정도로 꽉 찬 트렁크를 끌고 모래사장을 이동하고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2kmrfb",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "평소 그 값비싼 드레스를 유일한 대형 휴대 용기로 삼았던 그녀인데.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2da9ji",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "대체 무엇이길래 이렇게 특별하게 대하는 걸까, 당신은 궁금증을 참을 수 없었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye22jqk2",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "읏... 숙녀의 짐을 들어줄 친절한 신사는 없는 걸까?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2sf8in",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "앗, 버틴! 잘 됐다! 네가 신사역을 좀 맡아 줄래?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2fog8f",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "그건 뭐야?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2hk1ov",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "내가 섬의 새로운 친구들을 위해 엄선한 티폰 판타지 북! <티폰과 자동 섬> 뿐만 아니라...",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2zdb82",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "내 컬렉션 <티폰과 비행 신마>, <티폰 vs 주피터>까지 있어. 전부 새로운 친구를 위한 최고의 선물이지!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye24kjsr",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "네가 뭘 걱정하는지 알지만 걱정할 필요 없어!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2it6vk",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "모두에게 충분히 나눠줄 수 있도록 여러 부 복사해 달라고 재단에 부탁했거든. 무아상 선생님도 괜찮다고 하셨어!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2f1bp2",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "무아상 선생님이 \"이 시대라면 저작권 문제가 없어 괜찮아요\"라고 한 게 무슨 뜻인지는 모르겠지만 말이야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2kjxrn",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "친구에게 나눠줄 땐 시대도 신경 써야 하는 거야? 티폰은 그런 디테일에 관심 없는데.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2ia7ds",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "트렁크 가장자리에 튀어나온 검은 띠 모양의 물질이 가방 안에 든 게 영화 필름이란 걸 알려주었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2nfj29",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "가방 좀 들어줄래? 고마워!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2yr6a4",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "물론이지, 이리 줘.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2kdlwt",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "가방 속의 내용물을 밖으로 노출시키는 건 현명한 처사가 아니지만 그래도 일단 가방을 받아들었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2cy2go",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "고마워, 버틴! 더 어둡고 넓은 곳도 좀 찾아줄 수 있을까?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2fgdog",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "새로운 친구와 함께 벽에 걸린 티폰의 멋진 자태를 감상하는 거야!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2whuiw",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "재단 생활에 불편한 건 없어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2ugftx",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "‘폭풍우’를 또 한 차례 겪었어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2vzrw0",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "티폰은 나한테 맡겨.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2z78ij",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "걱정해 줘서 고마워~ 버틴.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye27sx40",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "재단 사람들은 엄격해 보이지만, 사실 다들 마음씨가 좋아.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2yal9p",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "나무집이 된 집 때문에 보상을 요구하러 왔을 때 굉장히 화가 난 것처럼 보였는데 톱니 동전 50만개만 요구하더라고.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye239nfd",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "믿겨져? 톱니 동전 50만개로는 용의 심장 하나도 살 수 없잖아. 사실 보상금은 숙녀의 죄책감을 덜어주기 위한 제스처였지 아니었을까? 정말 배려심이 깊어!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2nspv7",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "정말 신사적인 매너가 넘치는 사람들이야!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2w46t0",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "게다가 존경하는 부아닉 씨도 알게 됐어! 그녀는 정말 좋은 사람이야. 날 데리고 재단 여기저기를 구경시켜 주려고 하더라고.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye222ioj",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "고마움의 표시로 무도회를 열고 싶었지만, 카슨 씨가 그랬어. 숙녀분께서 당신의 부탁을 고려해 보겠다고 몇 번이나 말하는 건 거절의 의미라고 말이야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2g8tzt",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "혹시 무도회를 안 좋아하나? 버틴, 부아닉 씨랑 얼마나 알고 지냈어? 취미가 뭔지 알아봐 줄 수 있을까?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2t2hr3",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "버틴~ 그럴 줄 알았어. 넌 여행 가방을 들고 다니는 걸 정말 좋아하는구나!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2dh6t9",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "TALK AGAIN",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2cv46k",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "왜 그래, 버틴? 내가 뭐 도울 거라도 있어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2924yl",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "재단 생활에 불편한 건 없어?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2kze7n",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "‘폭풍우’를 또 한 차례 겪었어.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2nrzkf",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "티폰은 나한테 맡겨.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2r42ic",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "걱정해 줘서 고마워~ 버틴.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2s9ljh",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "재단 사람들은 엄격해 보이지만, 사실 다들 마음씨가 좋아.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2dqoqk",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "나무집이 된 집 때문에 보상을 요구하러 왔을 때 굉장히 화가 난 것처럼 보였는데 톱니 동전 50만개만 요구하더라고.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2bmmw5",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "믿겨져? 톱니 동전 50만개로는 용의 심장 하나도 살 수 없잖아. 사실 보상금은 숙녀의 죄책감을 덜어주기 위한 제스처였지 아니었을까? 정말 배려심이 깊어!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2ymzda",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "정말 신사적인 매너가 넘치는 사람들이야!",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2nqmix",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "게다가 존경하는 부아닉 씨도 알게 됐어! 그녀는 정말 좋은 사람이야. 날 데리고 재단 여기저기를 구경시켜 주려고 하더라고.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2sk68s",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "고마움의 표시로 무도회를 열고 싶었지만, 카슨 씨가 그랬어. 숙녀분께서 당신의 부탁을 고려해 보겠다고 몇 번이나 말하는 건 거절의 의미라고 말이야.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2wpsny",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "혹시 무도회를 안 좋아하나? 버틴, 부아닉 씨랑 얼마나 알고 지냈어? 취미가 뭔지 알아봐 줄 수 있을까?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2b11ju",
+     "kind": "line",
+     "sp": "소더비",
+     "en": "",
+     "ko": "버틴~ 그럴 줄 알았어. 넌 여행 가방을 들고 다니는 걸 정말 좋아하는구나!",
+     "star": false
+    }
+   ]
+  },
+  "14": {
+   "lines": [
+    {
+     "id": "mwhtdye27megc",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Yesterday, Today, Tomorrow",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2hgh85",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "무표정한 얼굴을 한 여인이 IDM 옆에 단정하게 앉아 있다. 그녀는 아직 당신을 발견하지 못한 채 오른손으로 자신의 얼굴을 마치 자신의 것이 아닌 것처럼 만지고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye24z6vm",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이 여인에 대한 기억이 없다. 적어도 인간으로서 비치는 한쪽만 봤을 때는 그러했다. 또 다른 쪽으로 돌아가자 보이는 강철 피부와 전류가 흐르는 케이블이 상대방이 누군지 설명해 주었다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye25byfs",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "만나서 반갑습니다, 타임키퍼.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2je9v5",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "직접 찾아뵀어야 하는데 훈련하느라 바빠 여기에서 만날 수밖에 없군요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2g2c7k",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "훈련?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2atqzv",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "네, 훈련이요. 라플라스를 떠나 휴가를 가라는 임무를 받았어요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2p2gii",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "어디서 임무를 완수할지 고민하고 있을 때 Z 씨가 추천하더군요. 당신의 여행 가방이 휴식을 취하기 좋은 곳이라고요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye26e6pl",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "그래서 가방 속 멤버들과 쉽게 소통할 수 있도록 여분의 몸을 준비했습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2r6xl0",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "당신 소대에 미성년자 멤버도 많다는 걸 고려해 더 부드러운 재질을 선택했죠. 아이들이 금속의 온도를 조금 느낄 수 있기를 바라는 마음에서요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2s816e",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "저의 훈련은 휴식의 기술을 습득하는 것입니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2uhgao",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "묻고 싶은 게 있습니다. 인간들은 휴식을 어떻게 정의하고 있죠?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2eew9v",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "휴식은 최상의 몸 상태를 유지하는 거예요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2htwsk",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "휴식은 일을 멈추는 겁니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2n3j1h",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "나중에 또 봐요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2is608",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "저와 같은 결론을 내리시다니 기쁘군요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye23v9tr",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "제가 관찰한 바에 따르면 휴식은 인간이 미래의 업무를 위해 신체 상태를 조절하는 행위입니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2nbss4",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "구체적으로 규칙적인 식사, 적당한 운동, 그리고 충분한 수면으로 나타나죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2i2x2n",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "하지만 이건 의식 각성자에게는 그대로 적용할 수 없어요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2hnqso",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "저는 잠을 잘 필요가 없고, 음식은 충전에 불과합니다. 운동은 신체 손실을 가속할 뿐이고요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye255pgq",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "아마 저는 충전 상태를 유지함으로써 휴식이라는 목적을 달성할 수밖에 없겠어요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2zey2t",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "인간의 관점에서 보면, 이건 폭식이 아닐까요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2nl015",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "또 뵙죠, 타임키퍼. 아직 완전한 휴식 계획을 세우지 못했다는 걸 잊지 마세요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye27nz6k",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "TALK AGAIN",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2nlpdo",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "인간처럼 쉬는 것과 관련해 조언하실 게 있나요, 타임키퍼?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye23mwzs",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "휴식은 최상의 몸 상태를 유지하는 거예요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye28pufy",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "휴식은 일을 멈추는 겁니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2wbpef",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "나중에 또 봐요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2yxrmj",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "저와 같은 결론을 내리시다니 기쁘군요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2e22h1",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "제가 관찰한 바에 따르면 휴식은 인간이 미래의 업무를 위해 신체 상태를 조절하는 행위입니다.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye210akl",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "구체적으로 규칙적인 식사, 적당한 운동, 그리고 충분한 수면으로 나타나죠.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2kmpj9",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "하지만 이건 의식 각성자에게는 그대로 적용할 수 없어요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye272w9z",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "저는 잠을 잘 필요가 없고, 음식은 충전에 불과합니다. 운동은 신체 손실을 가속할 뿐이고요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye2228el",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "아마 저는 충전 상태를 유지함으로써 휴식이라는 목적을 달성할 수밖에 없겠어요.",
+     "star": false
+    },
+    {
+     "id": "mwhtdye22xokn",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "인간의 관점에서 보면, 이건 폭식이 아닐까요?",
+     "star": false
+    },
+    {
+     "id": "mwhtdye27cznq",
+     "kind": "line",
+     "sp": "루시",
+     "en": "",
+     "ko": "또 뵙죠, 타임키퍼. 아직 완전한 휴식 계획을 세우지 못했다는 걸 잊지 마세요.",
+     "star": false
+    }
+   ]
+  }
+ },
+ "order": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14"
+ ],
+ "customStages": {
+  "1": "1장",
+  "2": "2장",
+  "3": "3장",
+  "4": "4장",
+  "5": "5장",
+  "6": "6장",
+  "7": "7. 메스머 주니어",
+  "8": "8. 미스 라디오",
+  "9": "9장",
+  "10": "10장",
+  "11": "11장",
+  "12": "12장",
+  "13": "13장",
+  "14": "14장"
+ },
+ "source": "https://uttu.merui.net/story/main/chapter-7sp/",
+ "updatedAt": "2026-11-15T12:32:09.000Z"
+}

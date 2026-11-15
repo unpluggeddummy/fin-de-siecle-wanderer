@@ -359,6 +359,7 @@ async function docView(id, stageArg) {
         if (!confirmAsk(`"${d.title}" 대사집을 지울까요? 저장을 눌러야 저장소에서도 지워져요.`)) return;
         await deleteDoc(d.id); location.hash = '#/transcripts';
       } }, '지우기') : null),
+    S.editing ? null : stageHead(st, d, cur, ci, order.length),
     body,
     nav,
   );
@@ -375,6 +376,16 @@ async function docView(id, stageArg) {
   return wrap;
 }
 
+// 장 머리말: 장 번호 · 한국어 제목 · 영어 제목
+function stageHead(st, d, cur, ci, total) {
+  const s = st?.stages?.find((x) => String(x.n) === String(cur));
+  const custom = String(d.customStages?.[cur] || '').replace(/^\d+\.\s*/, '');
+  return h('header.tx-stage-head',
+    h('span.tx-stage-no', `Stage ${String(ci + 1).padStart(2, '0')} / ${String(total).padStart(2, '0')}`),
+    h('h2', s?.ko || s?.en || custom || `${cur}장`),
+    s?.en && s.en !== s.ko ? h('span.tx-stage-en', s.en) : null);
+}
+
 async function deleteDoc(id) {
   // 빈 파일 대신 목록에서 빼고, 파일은 비운 채 저장 (git API 로 지우기 대신 간단하게)
   delete S.index.items[id];
@@ -385,17 +396,47 @@ async function deleteDoc(id) {
   delete S.docs[id];
 }
 
+// 말하는 사람 아이콘: NPC 대화 아이콘 → 출품작 초상 순서로 찾는다 (한국어 이름 기준)
+let ICONS = null;
+function speakerIcon(name) {
+  if (!ICONS) {
+    ICONS = new Map();
+    for (const c of store.state.game.characters || []) {
+      const src = c.name?.ko && store.charPortrait?.(c);
+      if (src) ICONS.set(c.name.ko, src);
+    }
+    for (const n of store.state.game.npcs || []) {
+      const src = n.icon || n.moods?.[0]?.src;
+      if (src && n.name?.ko) ICONS.set(n.name.ko, src);
+    }
+  }
+  return ICONS.get(normName(name)) || null;
+}
+const HANGUL = /[가-힣]/;
+
 // 읽기: 말하는 사람 · 영어 · 한국어
 function readLines(d, stage, cur) {
   const lines = stage.lines || [];
   if (!lines.length) return h('div.empty', h('p', '아직 이 장에 옮긴 대사가 없어요.'), h('button.btn', { type: 'button', onclick: () => { S.editing = true; rerender(); } }, '✎ 대사 넣기'));
   const mode = pref.mode;
+  let prevSp = null;
   return h('ol.tx-lines.mode-' + mode, lines.map((l) => {
+    if (l.kind !== 'line') prevSp = null;
     if (l.kind === 'scene') return h('li.tx-scene', h('span', l.ko || l.en || '· · ·'));
     if (l.kind === 'note') return h('li.tx-note', l.ko || l.en);
+    if (l.kind === 'music') return h('li.tx-music', h('span', { 'aria-hidden': 'true' }, '♪ '), l.ko || l.en);
+    if (l.kind === 'combat') return h('li.tx-combat', h('details', h('summary', '⚔ 전투'), h('p', l.ko || l.en || '')));
     const star = h('button.tx-star' + (l.star ? '.on' : ''), { type: 'button', title: '별표', 'aria-pressed': String(!!l.star), onclick: () => { l.star = !l.star; star.classList.toggle('on', l.star); star.setAttribute('aria-pressed', String(l.star)); touch(d); autoSaveSoon(); } }, '★');
-    return h('li.tx-line' + (l.sp ? '' : '.narr') + (l.ko ? '' : '.noko'), { id: `l-${l.id}` },
-      h('div.tx-sp', koName(l.sp)),
+    const name = koName(l.sp);
+    const same = !!name && name === prevSp;   // 같은 사람이 이어서 말하면 아이콘·이름은 한 번만
+    prevSp = name || null;
+    const icon = name && !same ? speakerIcon(name) : null;
+    const latin = l.ko && !HANGUL.test(l.ko);  // 주문·시·외국어 구절
+    return h('li.tx-line' + (l.sp ? '' : '.narr') + (l.ko ? '' : '.noko') + (same ? '.cont' : '') + (latin ? '.latin' : ''), { id: `l-${l.id}` },
+      h('div.tx-sp',
+        name && !same ? (icon ? h('span.tx-ava', h('img', { src: icon, alt: '', loading: 'lazy' }))
+          : h('span.tx-ava.blank', { 'aria-hidden': 'true' })) : null,   // 그림이 없는 사람은 같은 크기의 투명한 자리만 (이름 줄 맞춤)
+        same ? null : h('span.tx-name', name)),
       mode !== 'ko' && l.en ? h('p.tx-en', { lang: 'en' }, l.en) : null,
       mode !== 'en' && l.ko ? h('p.tx-ko', l.ko) : null,
       star);
@@ -421,10 +462,11 @@ function editLines(d, stage, repaint) {
       h('button', { type: 'button', title: '아래로', onclick: () => mv(i, i + 1) }, '↓'),
       h('button', { type: 'button', title: '아래에 대사 추가', onclick: () => ins(i, 'line') }, '+'),
       h('button', { type: 'button', title: '지우기', onclick: () => { lines.splice(i, 1); touch(d); repaint(); } }, '✕'));
-    if (l.kind === 'scene' || l.kind === 'note') {
+    if (['scene', 'note', 'music', 'combat'].includes(l.kind)) {
+      const KIND = { scene: ['장면', '장면 이름 (비우면 · · ·)'], note: ['메모', '메모'], music: ['배경음악', '곡 이름'], combat: ['전투', '전투 안내'] }[l.kind];
       return h('div.tx-edit-row.k-' + l.kind,
-        h('span.tx-kind', l.kind === 'scene' ? '장면' : '메모'),
-        autosize(h('textarea', { rows: 1, placeholder: l.kind === 'scene' ? '장면 이름 (비우면 · · ·)' : '메모', oninput: (e) => { l.ko = e.target.value; touch(d); } }), l.ko || l.en || ''),
+        h('span.tx-kind', KIND[0]),
+        autosize(h('textarea', { rows: 1, placeholder: KIND[1], oninput: (e) => { l.ko = e.target.value; touch(d); } }), l.ko || l.en || ''),
         tools);
     }
     return h('div.tx-edit-row' + (l.chk ? '.chk' : ''), { title: l.chk ? '위키 줄과 이름이 달라요. 영어가 맞는지 확인해 주세요 (고치면 표시가 사라져요)' : null },
