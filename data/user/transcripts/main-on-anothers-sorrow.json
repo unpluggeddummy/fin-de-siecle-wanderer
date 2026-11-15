@@ -22502,17 +22502,17 @@
     {
      "id": "mwhtdyi6is2uy",
      "kind": "line",
-     "sp": "‘폭풍우’까지 앞으로...",
+     "sp": "",
      "en": "",
-     "ko": "00:03",
+     "ko": "‘폭풍우’까지 앞으로... 00:03",
      "star": false
     },
     {
      "id": "mwhtdyi66cske",
      "kind": "line",
-     "sp": "‘폭풍우’까지 앞으로...",
+     "sp": "",
      "en": "",
-     "ko": "00:05",
+     "ko": "‘폭풍우’까지 앞으로... 00:05",
      "star": false
     },
     {
@@ -26574,6 +26574,6 @@
   "25"
  ],
  "customStages": {},
- "updatedAt": "2026-11-15T13:03:07.308Z",
+ "updatedAt": "2026-11-15T13:03:57.617Z",
  "source": "https://uttu.merui.net/story/main/chapter-13/"
 }
