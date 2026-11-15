@@ -143,6 +143,177 @@
    "lines": 3178,
    "stars": 0,
    "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "mainevent-the-theft-of-the-rimet-cup": {
+   "title": "쥘 리메 컵 도난 사건",
+   "titleEn": "The Theft of the Rimet Cup",
+   "version": "1.1",
+   "story": "mainevent-the-theft-of-the-rimet-cup",
+   "lines": 1391,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:00.000Z"
+  },
+  "mainevent-a-nightmare-at-green-lake": {
+   "title": "그린 레이크의 악몽",
+   "titleEn": "A Nightmare at Green Lake",
+   "version": "1.2",
+   "story": "mainevent-a-nightmare-at-green-lake",
+   "lines": 1432,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:00.000Z"
+  },
+  "mainevent-journey-to-mor-pankh": {
+   "title": "모르판크로의 여행",
+   "titleEn": "Journey to Mor Pankh",
+   "version": "1.3",
+   "story": "mainevent-journey-to-mor-pankh",
+   "lines": 1895,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:00.000Z"
+  },
+  "mainevent-revival-the-uluru-games": {
+   "title": "부활! 울루루 대회",
+   "titleEn": "Revival! The Uluru Games",
+   "version": "1.5",
+   "story": "mainevent-revival-the-uluru-games",
+   "lines": 1847,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-notes-on-shuori": {
+   "title": "삭일수기",
+   "titleEn": "Notes on Shuori",
+   "version": "1.6",
+   "story": "mainevent-notes-on-shuori",
+   "lines": 2881,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-farewell-rayashki": {
+   "title": "안녕, 라야시키",
+   "titleEn": "Farewell, Rayashki",
+   "version": "1.8",
+   "story": "mainevent-farewell-rayashki",
+   "lines": 2344,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-floor-it-to-the-golden-city": {
+   "title": "질주! 골든 시티로",
+   "titleEn": "Floor It! To the Golden City",
+   "version": "2.0",
+   "story": "mainevent-floor-it-to-the-golden-city",
+   "lines": 2542,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-route-77-the-haunted-highway": {
+   "title": "루트77: 유령의 도로",
+   "titleEn": "Route 77: The Haunted Highway",
+   "version": "2.1",
+   "story": "mainevent-route-77-the-haunted-highway",
+   "lines": 2173,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-chronicles-of-uluru-london-dawning": {
+   "title": "울루루 연대기: 런던의 여명",
+   "titleEn": "Chronicles of Uluru: London Dawning",
+   "version": "2.3",
+   "story": "mainevent-chronicles-of-uluru-london-dawning",
+   "lines": 2346,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-last-evenings-on-earth": {
+   "title": "지구에서의 마지막 밤",
+   "titleEn": "Last Evenings on Earth",
+   "version": "2.4",
+   "story": "mainevent-last-evenings-on-earth",
+   "lines": 2572,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-showdown-in-chinatown": {
+   "title": "차이나타운 무비",
+   "titleEn": "Showdown in Chinatown",
+   "version": "2.5",
+   "story": "mainevent-showdown-in-chinatown",
+   "lines": 2620,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-1987-cosmic-overture": {
+   "title": "1987 우주의 서곡",
+   "titleEn": "1987 Cosmic Overture",
+   "version": "2.7",
+   "story": "mainevent-1987-cosmic-overture",
+   "lines": 2252,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-the-midnight-whistle": {
+   "title": "한밤의 기적소리",
+   "titleEn": "The Midnight Whistle",
+   "version": "3.1",
+   "story": "mainevent-the-midnight-whistle",
+   "lines": 2788,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-a-flowing-feast": {
+   "title": "흘러가는 축제",
+   "titleEn": "A Flowing Feast",
+   "version": "3.2",
+   "story": "mainevent-a-flowing-feast",
+   "lines": 2194,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-spring-unending": {
+   "title": "불로춘",
+   "titleEn": "Spring Unending",
+   "version": "3.4",
+   "story": "mainevent-spring-unending",
+   "lines": 2482,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-the-turquoise-serpent-club": {
+   "title": "터콰이즈 뱀 클럽",
+   "titleEn": "The Turquoise Serpent Club",
+   "version": "3.5",
+   "story": "mainevent-the-turquoise-serpent-club",
+   "lines": 2328,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-last-and-first-principles": {
+   "title": "사람은 어디로 가는가",
+   "titleEn": "Last and First Principles",
+   "version": "3.6",
+   "story": "mainevent-last-and-first-principles",
+   "lines": 1434,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-the-temporal-scale": {
+   "title": "세기말의 척도",
+   "titleEn": "The Temporal Scale",
+   "version": "3.8",
+   "story": "mainevent-the-temporal-scale",
+   "lines": 2965,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-rekindled-games-of-the-summer-gold-sea": {
+   "title": "다시 타올라라! 황금빛 바다여",
+   "titleEn": "Rekindled! Games of the Summer-Gold Sea",
+   "version": "3.9",
+   "story": "mainevent-rekindled-games-of-the-summer-gold-sea",
+   "lines": 2039,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:44:01.000Z"
   }
  },
  "names": {
