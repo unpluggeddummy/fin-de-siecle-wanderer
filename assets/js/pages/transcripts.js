@@ -246,6 +246,8 @@ function head(titleKo, titleEn, desc, ...right) {
 // 버전 · 장 표시와 정렬
 // 게임 데이터에 버전이 비어 있는 메인 스토리: 4장은 1.0(출시 때), SP 장은 본편과 같은 버전에 나왔다
 const VER_FALLBACK = { 'main-el-oro-de-los-tigres': '1.0', 'main-the-star': '1.4', 'main-to-the-new-world': '1.9' };
+/** 'Ver. 1.2' — 콜라보(S01)는 '콜라보 S01' */
+const verLabel = (v) => (!v ? null : /^S\d/i.test(v) ? `콜라보 ${v}` : `Ver. ${v}`);
 const verOf = (x) => x.version || x.st?.version || VER_FALLBACK[x.story || x.id] || '';
 /** 메인 스토리 장 이름: 00 → 서막, 4TH → 4장, 5SP → 5장 SP */
 function chapterLabel(st) {
@@ -262,7 +264,11 @@ function byVersion(x, y) {
   const sidx = (a) => { const i = stories().indexOf(a.st); return i < 0 ? 99999 : i; };
   const chap = (a) => (a.st?.cat === 'main' ? parseInt(a.st.abbr, 10) || 0 : 0) + (/SP$/i.test(a.st?.abbr || '') ? 0.5 : 0);
   // 콜라보(S01 등)는 버전 숫자가 없어서 스토리 목록에서 놓인 자리를 따른다
-  const key = (a) => { const v = num(verOf(a)); return v < 9999 ? v : num(verOf(stories()[sidx(a) - 1] ? { st: stories()[sidx(a) - 1] } : {})) + 0.5; };
+  const key = (a) => {
+    const v = num(verOf(a)); if (v < 9999) return v;
+    for (let i = sidx(a) - 1; i >= 0; i--) { const w = num(verOf({ st: stories()[i] })); if (w < 9999) return w + 0.5; }  // 앞쪽에서 가장 가까운 버전 바로 뒤
+    return 9999;
+  };
   return key(x) - key(y) || chap(x) - chap(y) || sidx(x) - sidx(y);
 }
 
@@ -291,7 +297,7 @@ async function listView() {
           h('div',
             h('b', x.title || '제목 없음'),
             x.titleEn ? h('small', x.titleEn) : null,
-            h('span.tx-card-meta', [chapterLabel(x.st), verOf(x) ? `Ver. ${verOf(x)}` : null, `${(x.lines || 0).toLocaleString('ko-KR')}줄`, x.stars ? `★ ${x.stars}` : null, S.dirty.has(x.id) ? '저장 안 함' : null].filter(Boolean).join(' · ')))))))),
+            h('span.tx-card-meta', [chapterLabel(x.st), verLabel(verOf(x)), x.stars ? `★ ${x.stars}` : null, S.dirty.has(x.id) ? '저장 안 함' : null].filter(Boolean).join(' · ')))))))),
   );
 }
 
@@ -354,7 +360,7 @@ async function docView(id, stageArg) {
     h('div.tx-doc-head',
       st?.banner ? h('img.tx-banner', { src: st.banner, alt: '' }) : null,
       h('div',
-        h('p.tx-k', [chapterLabel(st), verOf({ ...d, st }) ? `Ver. ${verOf({ ...d, st })}` : null, st ? CATS.find(([k]) => k === st.cat)?.[1] : '직접 만든 대사집'].filter(Boolean).join(' · ')),
+        h('p.tx-k', [chapterLabel(st), verLabel(verOf({ ...d, st })), st ? CATS.find(([k]) => k === st.cat)?.[1] : '직접 만든 대사집'].filter(Boolean).join(' · ')),
         S.editing && !st ? h('input.tx-title-in', { value: d.title, onchange: (e) => { d.title = e.target.value.trim() || '제목 없음'; touch(d); } }) : h('h1', d.title),
         S.editing && !st ? h('input.tx-sub-in', { value: d.titleEn || '', placeholder: '영어 제목', onchange: (e) => { d.titleEn = e.target.value.trim(); touch(d); } }) : (d.titleEn ? h('p.tx-en-title', d.titleEn) : null),
         S.editing && !st ? h('input.tx-sub-in', { value: d.version || '', placeholder: '버전 (예: 3.9)', onchange: (e) => { d.version = e.target.value.trim(); touch(d); } }) : null),

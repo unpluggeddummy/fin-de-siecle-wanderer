@@ -314,6 +314,33 @@
    "lines": 2039,
    "stars": 0,
    "updatedAt": "2026-11-15T12:44:01.000Z"
+  },
+  "mainevent-la-primavera-di-firenze": {
+   "title": "피렌체의 봄",
+   "titleEn": "La Primavera di Firenze",
+   "version": "S01",
+   "story": "mainevent-la-primavera-di-firenze",
+   "lines": 1237,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:55:22.000Z"
+  },
+  "mainevent-drama-in-athens": {
+   "title": "아테네 여행기",
+   "titleEn": "Drama in Athens",
+   "version": "S01",
+   "story": "mainevent-drama-in-athens",
+   "lines": 951,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:55:22.000Z"
+  },
+  "mainevent-polymerized-dreams": {
+   "title": "폴리머 웨이브",
+   "titleEn": "Polymerized Dreams",
+   "version": "S02",
+   "story": "mainevent-polymerized-dreams",
+   "lines": 1615,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:55:22.000Z"
   }
  },
  "names": {
