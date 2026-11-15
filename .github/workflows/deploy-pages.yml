@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
   # 액션이 올린 커밋(게임 데이터 갱신 등)은 push 로 이 워크플로를 깨우지 못해서, 끝나면 이어서 돌게 한다
   workflow_run:
-    workflows: ["게임 데이터 갱신", "위키 고화질 그림 받기", "시뮬레이터·위키 정보 받기"]
+    workflows: ["게임 데이터 갱신", "위키 고화질 그림 받기", "시뮬레이터·위키 정보 받기", "위키 NPC 그림 받기"]
     types: [completed]
 
 permissions:

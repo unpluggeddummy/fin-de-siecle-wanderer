@@ -1,0 +1,42 @@
+# 팬덤 위키 Category:NPCs 에서 NPC 대화 아이콘(표정별)·전신 그림 받기
+# 사이트 설정 화면의 "위키 NPC 그림 받기" 버튼이나 Actions 탭에서 직접 실행한다. 내 기록(data/user)은 건드리지 않는다.
+name: 위키 NPC 그림 받기
+
+on:
+  workflow_dispatch:
+    inputs:
+      redo:
+        description: "받았던 그림도 모두 다시 받기 (true/false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-wiki-npcs
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow requests
+      - name: 위키에서 NPC 그림 받기
+        run: python3 scripts/fetch_wiki_npcs.py ${{ github.event.inputs.redo == 'true' && '--all' || '' }}
+      - name: 버전 표시 갱신
+        run: python3 scripts/stamp_version.py
+      - name: 저장소에 올리기
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/img/npc data/game/npcs.json data/raw/wiki/npc-images-done.json index.html
+          if git diff --cached --quiet; then echo "바뀐 것 없음"; exit 0; fi
+          git commit -m "위키 NPC 그림 받기 ($(date -u +%Y-%m-%d))"
+          for i in 1 2 3; do git pull --rebase --autostash && git push && exit 0; sleep 5; done
+          exit 1

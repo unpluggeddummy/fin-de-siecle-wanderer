@@ -113,7 +113,10 @@ export function render(root) {
         h('div.toolbar', { style: { margin: 0 } }, runBtn,
           h('button.btn', { type: 'button', disabled: !gh.hasToken(), onclick: async () => {
             try { await gh.runWorkflow('scrape-simulator.yml'); toast('정보 받기를 시작했어요. 몇 분 뒤 저장소의 data/raw 폴더에 쌓여요.'); } catch (e) { toast(e.message, 'err'); }
-          } }, '시뮬레이터·위키 정보 받기'), actionsURL ? h('a.btn.ghost', { href: actionsURL, target: '_blank', rel: 'noopener' }, '실행 기록 보기') : null),
+          } }, '시뮬레이터·위키 정보 받기'),
+          h('button.btn', { type: 'button', disabled: !gh.hasToken(), title: '팬덤 위키 Category:NPCs 에서 NPC 대화 아이콘(표정별)과 전신 그림을 받아요', onclick: async () => {
+            try { await gh.runWorkflow('fetch-wiki-npcs.yml', { redo: 'false' }); toast('위키 NPC 그림 받기를 시작했어요. 10~20분 뒤 사이트에 반영돼요.'); } catch (e) { toast(e.message, 'err'); }
+          } }, '위키 NPC 그림 받기'), actionsURL ? h('a.btn.ghost', { href: actionsURL, target: '_blank', rel: 'noopener' }, '실행 기록 보기') : null),
       ),
       h('section.panel',
         h('h3', '백업'),
