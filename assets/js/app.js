@@ -16,8 +16,10 @@ const pages = {
   names: () => import('./pages/names.js'),
   stories: () => import('./pages/stories.js'),
   timeline: () => import('./pages/timeline.js'),
+  storms: () => import('./pages/storms.js'),
   codex: () => import('./pages/codex.js'),
   tastes: () => import('./pages/tastes.js'),
+  transcripts: () => import('./pages/transcripts.js'),
   settings: () => import('./pages/settings.js'),
 };
 
@@ -136,6 +138,8 @@ function updateHeader() {
   document.querySelector('[data-names-tab]').hidden = !set.showNames;
   const tastesTab = document.querySelector('[data-tastes-tab]');
   if (tastesTab) tastesTab.hidden = !gh.hasToken(); // 취향표: 토큰을 연결한 기기에서만
+  const txTab = document.querySelector('[data-tx-tab]');
+  if (txTab) txTab.hidden = !gh.hasToken(); // 대사집: 토큰을 연결한 기기에서만
 }
 
 window.addEventListener('beforeunload', (e) => {
