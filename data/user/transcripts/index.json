@@ -5,9 +5,144 @@
    "titleEn": "Vereinsamt",
    "version": "1.9",
    "story": "main-vereinsamt",
-   "lines": 3731,
+   "lines": 3749,
    "stars": 0,
-   "updatedAt": "2026-11-15T09:36:02.185Z"
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-this-is-tomorrow": {
+   "title": "다가온 미래",
+   "titleEn": "This is Tomorrow",
+   "version": "1.0",
+   "story": "main-this-is-tomorrow",
+   "lines": 371,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-in-our-time": {
+   "title": "우리들의 시대에",
+   "titleEn": "In Our Time",
+   "version": "1.0",
+   "story": "main-in-our-time",
+   "lines": 953,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-tender-is-the-night": {
+   "title": "밤은 부드러워라",
+   "titleEn": "Tender is the Night",
+   "version": "1.0",
+   "story": "main-tender-is-the-night",
+   "lines": 1161,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-nouvelles-et-textes-pour-rien": {
+   "title": "아무것도 아닌 이야기",
+   "titleEn": "Nouvelles et Textes pour Rien",
+   "version": "1.0",
+   "story": "main-nouvelles-et-textes-pour-rien",
+   "lines": 1198,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-el-oro-de-los-tigres": {
+   "title": "호랑이들의 황금",
+   "titleEn": "El Oro de los Tigres",
+   "version": "",
+   "story": "main-el-oro-de-los-tigres",
+   "lines": 1843,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-the-prisoner-in-the-cave": {
+   "title": "동굴 속의 죄수",
+   "titleEn": "The Prisoner in the Cave",
+   "version": "1.4",
+   "story": "main-the-prisoner-in-the-cave",
+   "lines": 1800,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-the-star": {
+   "title": "별",
+   "titleEn": "The Star",
+   "version": "",
+   "story": "main-the-star",
+   "lines": 583,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-e-lucevan-le-stelle": {
+   "title": "별은 빛나건만",
+   "titleEn": "E lucevan le stelle",
+   "version": "1.7",
+   "story": "main-e-lucevan-le-stelle",
+   "lines": 2722,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-to-the-new-world": {
+   "title": "신세계를 향해",
+   "titleEn": "To the New World",
+   "version": "",
+   "story": "main-to-the-new-world",
+   "lines": 474,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-tristes-tropiques": {
+   "title": "슬픈 열대",
+   "titleEn": "Tristes Tropiques",
+   "version": "2.2",
+   "story": "main-tristes-tropiques",
+   "lines": 2478,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-folie-et-deraison": {
+   "title": "광기의 역사",
+   "titleEn": "Folie et Déraison",
+   "version": "2.6",
+   "story": "main-folie-et-deraison",
+   "lines": 2111,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-paradise-regained": {
+   "title": "복낙원",
+   "titleEn": "Paradise Regained",
+   "version": "2.8",
+   "story": "main-paradise-regained",
+   "lines": 3272,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-a-long-long-way": {
+   "title": "머나먼 길",
+   "titleEn": "A Long Long Way",
+   "version": "3.0",
+   "story": "main-a-long-long-way",
+   "lines": 2675,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-the-campaigns-tale": {
+   "title": "원정기",
+   "titleEn": "The Campaign's Tale",
+   "version": "3.3",
+   "story": "main-the-campaigns-tale",
+   "lines": 3073,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
+  },
+  "main-on-anothers-sorrow": {
+   "title": "타인의 슬픔",
+   "titleEn": "On Another's Sorrow",
+   "version": "3.7",
+   "story": "main-on-anothers-sorrow",
+   "lines": 3178,
+   "stars": 0,
+   "updatedAt": "2026-11-15T12:32:09.000Z"
   }
  },
  "names": {
