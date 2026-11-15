@@ -153,6 +153,9 @@ def main():
         slug = re.sub(r"[^a-z0-9]+", "-", norm_slug(x["name"])).strip("-") or "npc"
         ic = pick_icon(x)
         icon = put_image(os.path.join(W, ic["local"]), os.path.join(O, f"assets/img/npc/{slug}.webp"), max_w=160) if ic else None
+        # 위키에 아이콘이 없어도 손으로 넣어 둔 assets/img/npc/<slug>.webp 가 있으면 그대로 쓴다 (예: 버틴)
+        if not icon and os.path.exists(os.path.join(O, f"assets/img/npc/{slug}.webp")):
+            icon = os.path.join(O, f"assets/img/npc/{slug}.webp")
         # 전신 그림: 위키 폴더의 full-*, live2d-* 전부 (full-initial 먼저)
         folder = os.path.join(W, "images", "npc", slug)
         fulls = sorted([f for f in os.listdir(folder) if f.endswith(".webp")] if os.path.isdir(folder) else [],

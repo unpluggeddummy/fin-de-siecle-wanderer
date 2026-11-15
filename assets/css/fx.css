@@ -325,7 +325,6 @@ body.editing .hero-tag, body.editing .hero-side, body.editing .hero-chip, body.e
 .tx-lines .tx-line.cont { margin-top: -6px; }
 .tx-line:has(+ .tx-line.cont) { border-bottom-color: transparent; }
 
-.tx-line.narr .tx-ko { border-left: 2px solid var(--line-strong); padding-left: 14px; }
 .tx-doc .tx-line.latin .tx-ko { font-family: "Source Serif 4", Georgia, serif; font-weight: 400; font-style: italic; font-size: 1.1em; color: var(--brass-bright); letter-spacing: .02em; }
 .tx-doc .tx-line.narr.latin .tx-ko { grid-column: 1 / -1; text-align: center; border-left: 0; padding-left: 0; font-size: .95em; letter-spacing: .05em; color: var(--paper-dim); }
 
