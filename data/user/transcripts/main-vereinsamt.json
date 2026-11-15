@@ -448,6 +448,738 @@
      "star": false
     }
    ]
+  },
+  "2": {
+   "lines": [
+    {
+     "id": "mwhl9gikv4b6e",
+     "kind": "line",
+     "sp": "",
+     "en": "20:30 Jan. 12th The Hall of Apeiron",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik75yul",
+     "kind": "line",
+     "sp": "베르틴",
+     "en": "...",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikeurlk",
+     "kind": "line",
+     "sp": "베르틴",
+     "en": "Nothing's happening?",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9giku3vf6",
+     "kind": "line",
+     "sp": "",
+     "en": "The Hall of Truth is as crowded as ever.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikux3g4",
+     "kind": "line",
+     "sp": "",
+     "en": "Ideas, noises, and arguments are all crammed into one space.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikxs0jq",
+     "kind": "line",
+     "sp": "888",
+     "en": "Ms. Vertin, your attention, please!",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikr6vzs",
+     "kind": "line",
+     "sp": "888",
+     "en": "This is a public inquiry, and your answer determines the fate of you and your friends.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik1z1gz",
+     "kind": "line",
+     "sp": "888",
+     "en": "There will be a vote on your punishment, considering the leak of the island's coordinates and the damages caused by you and Manus Vindictae.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikile8l",
+     "kind": "line",
+     "sp": "888",
+     "en": "Yet, in the past two hours you've looked at your watch ten times. Forgive me for being blunt. What could possibly bother you more than your sentence?",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikolvna",
+     "kind": "line",
+     "sp": "베르틴",
+     "en": "My apologies.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik4a5eh",
+     "kind": "line",
+     "sp": "",
+     "en": "A mocking click of the tongue can be heard from the crowd.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9giknh2nt",
+     "kind": "line",
+     "sp": "210",
+     "en": "Let her look, 888. Doesn't it occur to you that time is also in the form of numbers?",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikt15sq",
+     "kind": "line",
+     "sp": "210",
+     "en": "Perhaps she's waiting for her lucky number to come.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikbnlct",
+     "kind": "line",
+     "sp": "",
+     "en": "His words cause a ripple of chuckles throughout the hall.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikvvzan",
+     "kind": "line",
+     "sp": "",
+     "en": "Clearly, after hours of debate and discussion, this lighthearted moment brings a much-needed sense of relief.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik5rd8t",
+     "kind": "line",
+     "sp": "210",
+     "en": "Besides, what conclusions have the good people here made?",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikdfq9c",
+     "kind": "line",
+     "sp": "210",
+     "en": "We were brought together in this great hall today, for misfortunes have struck us in the past week: Manus followers were found dead in our sacred place, the Gorgon Current was cut off, and a human army has invaded our land.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikw8e9w",
+     "kind": "line",
+     "sp": "210",
+     "en": "There were also the territorial disputes, the threats from external powers, and the conflicts between our guests.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik3m07l",
+     "kind": "line",
+     "sp": "210",
+     "en": "As you can see, our guests have brought us quite the unexpected \"gifts.\"",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikhphe4",
+     "kind": "line",
+     "sp": "210",
+     "en": "They will give us their explanations. But whose words should we trust—those of the Foundation, or Manus Vindictae?",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikklpts",
+     "kind": "line",
+     "sp": "",
+     "en": "He bows slightly, gesturing to the left of the stage.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikinwo9",
+     "kind": "line",
+     "sp": "베르틴",
+     "en": "I swear on the Stone of Truth that I have no knowledge of the leak.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikv8nt2",
+     "kind": "line",
+     "sp": "베르틴",
+     "en": "We never gave any information to the humans. As we speak, the St. Pavlov Foundation is taking measures to mediate the territorial disputes from outside the island.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9giktkg40",
+     "kind": "line",
+     "sp": "888",
+     "en": "But you did report everything here to the Foundation.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9giki6vq3",
+     "kind": "line",
+     "sp": "888",
+     "en": "And you don't know what they did with the information, do you?",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik8y1ov",
+     "kind": "line",
+     "sp": "베르틴",
+     "en": "Right.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9giklp213",
+     "kind": "line",
+     "sp": "210",
+     "en": "A questionable defense, a doubtful explanation. Why should we trust her? We all know that the Foundation is closely associated with the humans.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikzvh73",
+     "kind": "line",
+     "sp": "210",
+     "en": "They are the false friends of the arcanists, with their crocodile tears and broken vows. While many may have changed over time, their nefarious human taint lingers.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gike3tfq",
+     "kind": "line",
+     "sp": "210",
+     "en": "Besides, why should we seek collaboration and assistance from an organization that's seven years behind us on the study of the \"Emanation\"?",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikxdij2",
+     "kind": "line",
+     "sp": "",
+     "en": "His words evoke a murmur of agreement.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikq1eyp",
+     "kind": "line",
+     "sp": "210",
+     "en": "But rush not, brothers and sisters! The moment of decision has not yet arrived. Let's give our old friend Manus Vindictae a fair and equal hearing before casting our pebbles into the pot.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikxh2wv",
+     "kind": "line",
+     "sp": "",
+     "en": "He stretches out his right hand, directing the audience's attention across the stage.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikzjdew",
+     "kind": "line",
+     "sp": "",
+     "en": "On the right, there sits a quiet figure in black and blue.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik4lckr",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "...",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik2d4oz",
+     "kind": "line",
+     "sp": "210",
+     "en": "Indeed, the Foundation's understanding of the \"Emanation\" is seven years behind ours.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik8w288",
+     "kind": "line",
+     "sp": "210",
+     "en": "However, our Manus friends here are unable to speak at all, let alone understand complex mathematical principles.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikyo2j2",
+     "kind": "line",
+     "sp": "210",
+     "en": "Please enlighten us, Ms. Arcana. Why were swaths of your followers found dead at the door of our sacred place?",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikpwb89",
+     "kind": "line",
+     "sp": "210",
+     "en": "Did our math lessons drive them to madness, causing them to bash their heads against the gate of Truth like martyrs?",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikdtx8a",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "So it would seem.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik2kdoi",
+     "kind": "line",
+     "sp": "신도 II",
+     "en": "What?",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikji443",
+     "kind": "line",
+     "sp": "",
+     "en": "Her quick and straight answer causes a commotion in the crowd.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik3ngul",
+     "kind": "line",
+     "sp": "",
+     "en": "Yet she only gently closes the book on her lap, uncaring of the suspicious stares around her.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikjsdif",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "One must confess that our followers were ill-prepared to take on the wisdom of the island.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikdlywe",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "But we didst come seek mutual development with sincerity.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikgf5v1",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "I trust you are aware of the assistance we have provided o'er the years in this World of Matters, which you, though reluctantly, relied upon.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik520tr",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "As to this debate,",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik1tt4m",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "I was once told a story that now seems fitting to recount.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikbdp4m",
+     "kind": "line",
+     "sp": "",
+     "en": "Her gaze falls on the bench.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikuchah",
+     "kind": "line",
+     "sp": "",
+     "en": "The fair-haired judge has not spoken a word since the debate began.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikszms4",
+     "kind": "line",
+     "sp": "6",
+     "en": "Pray, share with us.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikw4w8g",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "Thank you kindly.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik8sneu",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "'Tis the story of the \"circle.\" A young artist told it to me before I arrived on this island.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikdcoij",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "In the ancient past, amid a world of primitive instincts and ignorance, the first intelligent mind awaken'd.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik5o18l",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "Overwhelmed by the enormity of nature and dismayed by its own insignificance, the creature was shaken to its core.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikhszwv",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "In an act of defiance, it drew a magick circle, shielding its powerless self from the formidable world beyond.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9giklcfry",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "This was the first magick, when the primitive man mastered the pneuma within and wielded it against the relentless forces of nature.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikobnsf",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "In that process, man hath gained a deeper understanding of the boundaries and limitations of its power.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikl3fjo",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "This is the tale of the first \"circle.\"",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9giknj1rt",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "The \"circle\" shielded us, and its protection benefits thee to this day.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik474bn",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "What I find intriguing in this story:",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikmlf29",
+     "kind": "line",
+     "sp": "아르카나",
+     "en": "Man hath established its existence, recognized its boundaries, and learned the purpose of life, all by relying upon this very circle.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik7g88p",
+     "kind": "line",
+     "sp": "",
+     "en": "Bang!",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikw1kxf",
+     "kind": "line",
+     "sp": "",
+     "en": "The hall gate bursts open. The intruder with a small figure leans weakly against the doorframe.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9giku6mgd",
+     "kind": "line",
+     "sp": "37",
+     "en": "*panting*",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikyb6rq",
+     "kind": "line",
+     "sp": "베르틴",
+     "en": "37?",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik9d5dg",
+     "kind": "line",
+     "sp": "",
+     "en": "All eyes are fixed on the young girl; some have even risen to their feet in surprise.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikmqpcw",
+     "kind": "line",
+     "sp": "",
+     "en": "The leader on the bench breaks the silence.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik6bmot",
+     "kind": "line",
+     "sp": "6",
+     "en": "What's wrong, 37?",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikhcg4x",
+     "kind": "line",
+     "sp": "37",
+     "en": "The island...",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikuszpr",
+     "kind": "line",
+     "sp": "",
+     "en": "Her pale lips tremble, struggling to get the words out.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikrrieu",
+     "kind": "line",
+     "sp": "37",
+     "en": "Our island has fallen ill.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik9t2af",
+     "kind": "line",
+     "sp": "",
+     "en": "Even the slightest sound is gone. An eerie silence descends upon the hall.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikd5p71",
+     "kind": "line",
+     "sp": "",
+     "en": "Thud!",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikb6j1o",
+     "kind": "line",
+     "sp": "",
+     "en": "Another dull, muffled thump, as if something's struck a hard surface.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikkatts",
+     "kind": "line",
+     "sp": "",
+     "en": "But it's enough to get the rest of the crowd to their feet. They look up at the roof—the thud came from up there.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikrl1yb",
+     "kind": "line",
+     "sp": "",
+     "en": "Thud, thud thud thud!",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikl7n1t",
+     "kind": "line",
+     "sp": "",
+     "en": "More thumps follow.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik0l00h",
+     "kind": "line",
+     "sp": "",
+     "en": "It's as if the hall has turned into a drum, with an out-of-control drummer playing frantically on the dome.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikj95gt",
+     "kind": "line",
+     "sp": "Default",
+     "en": "Argh, what is going on?!",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9giknsb25",
+     "kind": "line",
+     "sp": "Default",
+     "en": "Is that a hailstorm?",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik8hp0i",
+     "kind": "line",
+     "sp": "소피아",
+     "en": "No, I don't think so.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikry9q4",
+     "kind": "line",
+     "sp": "",
+     "en": "Standing outside the gate, the numberless Corrector looks up at the sky.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikouvm9",
+     "kind": "line",
+     "sp": "",
+     "en": "Being barred from entering the hall, she can see better from where she stands.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikxvxr1",
+     "kind": "line",
+     "sp": "소피아",
+     "en": "Those are Abraxases,",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik6mcy3",
+     "kind": "line",
+     "sp": "소피아",
+     "en": "falling from the sky.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikapf9n",
+     "kind": "line",
+     "sp": "베르틴",
+     "en": "...!",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik9gwpg",
+     "kind": "line",
+     "sp": "",
+     "en": "Another look at the watch—it's become something of a habit over the last few hours.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gik4x8xc",
+     "kind": "line",
+     "sp": "",
+     "en": "This is it. The long-anticipated moment has finally arrived.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikm4nt1",
+     "kind": "line",
+     "sp": "베르틴",
+     "en": "It's the \"Storm.\"",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikqfmd7",
+     "kind": "line",
+     "sp": "베르틴",
+     "en": "The \"Storm\" of this era is here.",
+     "ko": "",
+     "star": false
+    },
+    {
+     "id": "mwhl9gikxhalg",
+     "kind": "line",
+     "sp": "",
+     "en": "TO BE CONTINUED...",
+     "ko": "",
+     "star": false
+    }
+   ]
   }
  },
  "order": [
@@ -482,5 +1214,5 @@
   "29"
  ],
  "customStages": {},
- "updatedAt": "2026-11-15T08:43:43.839Z"
+ "updatedAt": "2026-11-15T08:44:43.100Z"
 }

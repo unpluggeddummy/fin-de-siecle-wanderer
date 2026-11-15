@@ -5,15 +5,21 @@
    "titleEn": "Vereinsamt",
    "version": "1.9",
    "story": "main-vereinsamt",
-   "lines": 55,
+   "lines": 146,
    "stars": 0,
-   "updatedAt": "2026-11-15T08:43:43.839Z"
+   "updatedAt": "2026-11-15T08:44:43.100Z"
   }
  },
  "names": {
+  "6": "6",
   "37": "37",
   "77": "77",
+  "210": "210",
+  "888": "888",
   "Kid 37": "어린 37",
-  "Sophia": "소피아"
+  "Sophia": "소피아",
+  "210 NPC": "210",
+  "Arcana": "아르카나",
+  "Believer II": "신도 II"
  }
 }
