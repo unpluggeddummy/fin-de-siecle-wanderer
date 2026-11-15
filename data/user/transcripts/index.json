@@ -5,9 +5,9 @@
    "titleEn": "Vereinsamt",
    "version": "1.9",
    "story": "main-vereinsamt",
-   "lines": 146,
+   "lines": 340,
    "stars": 0,
-   "updatedAt": "2026-11-15T08:44:43.100Z"
+   "updatedAt": "2026-11-15T08:48:06.793Z"
   }
  },
  "names": {
@@ -20,6 +20,8 @@
   "Sophia": "소피아",
   "210 NPC": "210",
   "Arcana": "아르카나",
-  "Believer II": "신도 II"
+  "Believer II": "신도 II",
+  "Believer I": "아페이론 I",
+  "Believer V": "아페이론 V"
  }
 }
