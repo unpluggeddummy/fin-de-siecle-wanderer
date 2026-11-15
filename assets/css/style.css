@@ -1433,3 +1433,28 @@ a.st-story:hover, a.st-story:focus-visible { border-color: var(--brass); box-sha
   .menu-row { grid-template-columns: 24px 1fr 1fr auto; }
   .menu-row .menu-ext { display: none; }
 }
+
+/* 폭풍우 연표 고치기 */
+.st-ed-list { list-style: none; margin: 0 0 14px; padding: 0; }
+.st-ed-era { border: 1px solid var(--line); background: var(--ink-2); padding: 14px; margin-bottom: 10px; }
+.st-ed-head { display: grid; grid-template-columns: 80px 150px 1fr auto auto; gap: 10px; align-items: center; margin-bottom: 8px; }
+.st-edit input[type=text], .st-edit select { width: 100%; background: var(--ink-3); border: 1px solid var(--line); color: var(--paper); padding: 6px 8px; font: inherit; font-size: 14px; }
+.st-edit input[type=text]:focus, .st-edit select:focus { border-color: var(--brass); outline: none; }
+.st-ed-wide { margin-bottom: 8px; }
+.st-ed-meta { margin-bottom: 14px; }
+.st-ed-stories { display: flex; flex-direction: column; gap: 6px; }
+.st-ed-story { border-left: 2px solid var(--line-strong); padding: 6px 0 6px 12px; }
+.st-ed-row { display: grid; grid-template-columns: auto auto 1fr auto; gap: 10px; align-items: baseline; }
+.st-ed-row small { color: var(--paper-dim); }
+.st-ed-fields { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; margin-top: 6px; }
+.st-ed-src { grid-column: 1 / -1; display: flex; gap: 12px; align-items: center; font-size: 12px; color: var(--paper-faint); font-family: var(--mono); }
+.st-ed-tools { display: flex; gap: 4px; align-items: center; }
+.st-ed-tools button { width: 30px; height: 30px; background: none; border: 1px solid var(--line); color: var(--paper-dim); cursor: pointer; }
+.st-ed-tools button:hover { border-color: var(--brass); color: var(--brass-bright); }
+.st-ed-tools select { width: 130px; padding: 4px 6px; font-size: 12px; }
+.st-ed-add { max-width: 360px; margin-top: 4px; }
+.st-ed-storm { display: grid; grid-template-columns: auto 110px 1fr 1fr 1fr auto; gap: 8px; align-items: center; padding: 8px 14px; margin: 0 0 10px 24px; border-left: 2px dashed var(--brass-dim); font-size: 13px; }
+@media (max-width: 760px) {
+  .st-ed-head, .st-ed-storm, .st-ed-fields { grid-template-columns: 1fr; margin-left: 0; }
+  .st-ed-row { grid-template-columns: auto 1fr; }
+}

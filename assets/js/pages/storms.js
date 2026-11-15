@@ -1,18 +1,31 @@
 // 폭풍우 연표 — 폭풍우가 올 때마다 세계가 어느 해로 갔는지, 그 시대에 어떤 스토리가 있었는지
 // 자료: data/game/storm-timeline.json (손으로 정리: 나무위키 + 버틴의 여행가방, 버전·영문 제목은 Reverse: 1999 Wiki)
 // 주소: #/storms   한 시대로 바로: #/storms/<시대 id>  (예: #/storms/e1990)
-import { h, img, chip } from '../ui.js';
+// 아직 확실하지 않은 자료라 토큰을 연결한 기기에서만 메뉴가 보이고 열린다 (취향표·대사집처럼).
+// 편집 모드에서 "✎ 연표 고치기"로 시대·폭풍우·스토리 배치를 고치고, "연표 저장"을 누르면 저장소에 커밋된다.
+import { h, img, chip, toast, confirmAsk } from '../ui.js';
 import * as store from '../store.js';
+import * as gh from '../github.js';
 import { rerender } from '../app.js';
+
+const FILE = 'data/game/storm-timeline.json';
+const DRAFT = 'r1999.storms.draft';
 
 let data = null;
 let loading = null;
 const view = { kind: 'all' };   // all | main | event
 
 function load() {
-  loading ||= fetch('data/game/storm-timeline.json', { cache: 'no-cache' })
-    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then((d) => { data = d; rerender(); })
+  // 토큰이 있으니 저장소에서 바로 읽는다 (사이트 반영을 기다리지 않게). 실패하면 사이트 파일로.
+  loading ||= gh.readText(FILE)
+    .then((f) => (f ? JSON.parse(f.text) : Promise.reject(new Error('없음'))))
+    .catch(() => fetch(FILE, { cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }))
+    .then((d) => {
+      data = d;
+      // 저장하지 않은 고친 내용이 있으면 이어서
+      try { const dr = JSON.parse(localStorage.getItem(DRAFT) || 'null'); if (dr?.eras) { edit.draft = dr; edit.on = true; } } catch { /* 없음 */ }
+      rerender();
+    })
     .catch((e) => { data = { error: e.message }; rerender(); });
   return loading;
 }
@@ -22,12 +35,20 @@ const SRC_SHORT = { namu: '나', suitcase: '여' };
 const yearNum = (y) => parseInt(y, 10);
 
 export function render(root, { arg } = {}) {
+  if (!gh.hasToken()) {
+    root.append(h('div.empty', h('p', '폭풍우 연표는 아직 정리 중이라 GitHub 토큰을 연결한 기기에서만 볼 수 있어요.'), h('a.btn', { href: '#/settings' }, '설정에서 연결하기')));
+    return;
+  }
   root.append(h('div.page-head', h('div',
     h('h1', h('span.en', 'Storm Chronicle'), '폭풍우 연표'),
-    h('p', '폭풍우가 올 때마다 세계가 어느 해로 건너갔는지, 그 시대에 어떤 이야기가 있었는지 순서대로 모았어요. 메인 13장까지 들어 있어요.'))));
+    h('p', '폭풍우가 올 때마다 세계가 어느 해로 건너갔는지, 그 시대에 어떤 이야기가 있었는지 순서대로 모았어요. 메인 13장까지 들어 있어요.')),
+    store.state.editing && data && !data.error ? h('div.tx-head-btns',
+      edit.on ? h('button.btn.small', { type: 'button', disabled: edit.saving, onclick: saveEdit }, edit.saving ? '저장 중…' : '연표 저장') : null,
+      edit.on ? h('button.btn.small.ghost', { type: 'button', onclick: cancelEdit }, '그만 고치기') : h('button.btn.small.ghost', { type: 'button', onclick: startEdit }, '✎ 연표 고치기')) : null));
 
   if (!data) { load(); root.append(h('p.loading', '연표를 불러오는 중…')); return; }
   if (data.error) { root.append(h('div.empty', h('p', `연표 자료를 불러오지 못했어요 (${data.error}).`))); return; }
+  if (edit.on && store.state.editing) { root.append(editView()); return; }
 
   const eras = data.eras;
   const byId = new Map(eras.map((e) => [e.id, e]));
@@ -148,5 +169,128 @@ function pathChart(eras, storms) {
     svg.append(a);
     svg.append(el('text', { x: x(i), y: H - 10, 'text-anchor': 'middle', class: 'st-axis' }, i === 0 ? '출발' : `#${i}`));
   });
-  return h('figure.st-chart-wrap', svg, h('figcaption.faint', `폭풍우 ${storms.length}번 · 가장 먼 과거 1912년 · 가장 큰 도약 76년 (1914 → 1990)`));
+  // 설명 줄은 자료에서 계산 (고쳐도 맞게)
+  const nums = ys.filter((v, i) => yearNum(eras[i].year));
+  const minYear = Math.min(...nums);
+  let big = null;
+  for (let i = 1; i < eras.length; i++) {
+    const a = yearNum(eras[i - 1].year); const b = yearNum(eras[i].year);
+    if (a && b && (!big || Math.abs(b - a) > big.gap)) big = { gap: Math.abs(b - a), a, b };
+  }
+  return h('figure.st-chart-wrap', svg, h('figcaption.faint',
+    [`폭풍우 ${storms.length}번`, isFinite(minYear) ? `가장 먼 과거 ${minYear}년` : null, big ? `가장 큰 도약 ${big.gap}년 (${big.a} → ${big.b})` : null].filter(Boolean).join(' · ')));
+}
+
+// ── 고치기 ────────────────────────────────────────────────
+// 시대(eras)를 순서대로 고치면, 폭풍우(storms)는 "앞 시대 → 다음 시대" 사이에 하나씩 자동으로 맞춰진다.
+// 폭풍우의 날짜·메모·출처 차이·불확실 표시는 몇 번째 폭풍우인지(n)로 이어 붙는다.
+const edit = { on: false, draft: null, saving: false };
+const clone = (o) => JSON.parse(JSON.stringify(o));
+const keep = () => { try { localStorage.setItem(DRAFT, JSON.stringify(edit.draft)); } catch { /* 저장 불가 */ } };
+const touch = (redraw = false) => { keep(); if (redraw) rerender(); };
+
+function startEdit() { edit.draft = clone(data); edit.on = true; rerender(); }
+function cancelEdit() {
+  if (!confirmAsk('고친 내용을 버리고 원래 연표로 돌아갈까요?')) return;
+  edit.on = false; edit.draft = null; try { localStorage.removeItem(DRAFT); } catch { /* 무시 */ }
+  rerender();
+}
+/** 시대 순서에 맞춰 폭풍우를 다시 만든다 */
+function syncStorms(d) {
+  const old = new Map((d.storms || []).map((s) => [s.n, s]));
+  d.storms = d.eras.slice(1).map((e, i) => {
+    const prev = d.eras[i]; const o = old.get(i + 1) || {};
+    return { ...o, n: i + 1, from: prev.id, to: e.id, fromYear: yearNum(prev.year) || null, toYear: yearNum(e.year) || null, date: o.date || '' };
+  });
+}
+async function saveEdit() {
+  const d = edit.draft;
+  syncStorms(d);
+  d.updated = new Date().toISOString().slice(0, 10);
+  edit.saving = true; rerender();
+  try {
+    await gh.commitFiles([{ path: FILE, text: JSON.stringify(d, null, 1) + '\n' }], '폭풍우 연표 고치기');
+    data = clone(d); edit.on = false; edit.draft = null;
+    try { localStorage.removeItem(DRAFT); } catch { /* 무시 */ }
+    toast('폭풍우 연표를 저장했어요.');
+  } catch (e) { toast(`저장 실패: ${e.message}`, 'err'); }
+  edit.saving = false; rerender();
+}
+
+const txt = (obj, key, ph, cls = '') => h('input' + cls, { type: 'text', value: obj[key] ?? '', placeholder: ph, 'aria-label': ph,
+  onchange: (e) => { const v = e.target.value.trim(); if (v) obj[key] = v; else delete obj[key]; touch(); } });
+const check = (obj, key, label) => h('label.check', h('input', { type: 'checkbox', checked: !!obj[key], onchange: (e) => { if (e.target.checked) obj[key] = true; else delete obj[key]; touch(); } }), label);
+const moveIn = (arr, i, j) => { if (j < 0 || j >= arr.length) return; [arr[i], arr[j]] = [arr[j], arr[i]]; touch(true); };
+const tools = (arr, i, extra = []) => h('div.st-ed-tools',
+  h('button', { type: 'button', 'aria-label': '위로', onclick: () => moveIn(arr, i, i - 1) }, '↑'),
+  h('button', { type: 'button', 'aria-label': '아래로', onclick: () => moveIn(arr, i, i + 1) }, '↓'),
+  ...extra,
+  h('button', { type: 'button', 'aria-label': '지우기', onclick: () => { if (confirmAsk('지울까요?')) { arr.splice(i, 1); touch(true); } } }, '✕'));
+
+function editView() {
+  const d = edit.draft;
+  syncStorms(d);
+  const stormBy = new Map(d.storms.map((s) => [s.n, s]));
+  const places = [...d.eras.map((e) => [e.id, `${e.year} ${e.label || ''}`.trim()]), ['__unplaced', '시대를 알 수 없는 이야기']];
+  const listOf = (id) => (id === '__unplaced' ? d.unplaced : d.eras.find((e) => e.id === id)?.stories);
+
+  const storyEditor = (arr, i, here) => {
+    const s = arr[i];
+    const st = s.story && store.storyById(s.story);
+    const moveTo = h('select', { 'aria-label': '다른 시대로 옮기기', onchange: (e) => { const to = listOf(e.target.value); if (!to) return; arr.splice(i, 1); to.push(s); touch(true); } },
+      h('option', { value: '' }, '옮기기…'), places.filter(([id]) => id !== here).map(([id, name]) => h('option', { value: id }, name)));
+    return h('div.st-ed-story',
+      h('div.st-ed-row',
+        h('span.st-code', { class: s.kind }, s.code || '—'),
+        h('b', s.ko || st?.name?.ko || '(제목 없음)'),
+        h('small.en', s.en || st?.name?.en || ''),
+        tools(arr, i, [moveTo])),
+      h('div.st-ed-fields',
+        txt(s, 'when', '언제 (예: 1912년 11월 30일)'),
+        txt(s, 'part', '부분 (예: 회상)'),
+        txt(s, 'note', '메모'),
+        h('span.st-ed-src', '출처', ...Object.entries(d.sources || {}).filter(([k]) => k !== 'fandom').map(([k, v]) =>
+          h('label.check', h('input', { type: 'checkbox', checked: (s.src || []).includes(k), onchange: (e) => { s.src = (s.src || []).filter((x) => x !== k); if (e.target.checked) s.src.push(k); touch(); } }), v.label)))));
+  };
+
+  const addStory = (arr) => {
+    const used = new Set([...d.eras.flatMap((e) => e.stories), ...d.unplaced].map((x) => x.story));
+    const opts = (store.state.game.stories || []).filter((x) => ['main', 'mainevent'].includes(x.cat) && !used.has(x.id));
+    return h('select.st-ed-add', { 'aria-label': '스토리 더하기', onchange: (e) => {
+      const x = opts.find((o) => o.id === e.target.value); if (!x) return;
+      arr.push({ story: x.id, code: x.cat === 'main' ? (x.abbr === '00' ? 'PRO' : x.abbr) : (x.version || ''), kind: x.cat === 'main' ? 'main' : 'event', ko: x.name.ko, en: x.name.en, src: [] });
+      touch(true);
+    } }, h('option', { value: '' }, '+ 스토리 더하기…'), opts.map((o) => h('option', { value: o.id }, `${o.version || ''} ${o.name.ko}`)));
+  };
+
+  const blocks = [];
+  d.eras.forEach((era, i) => {
+    blocks.push(h('li.st-ed-era',
+      h('div.st-ed-head',
+        h('span.st-era-n', i === 0 ? 'ORIGIN' : `ERA ${String(i).padStart(2, '0')}`),
+        txt(era, 'year', '연도 (예: 1966, 1930s)', '.st-ed-year'),
+        txt(era, 'label', '시대 이름'),
+        check(era, 'uncertain', '불확실'),
+        tools(d.eras, i)),
+      txt(era, 'note', '시대 메모', '.st-ed-wide'),
+      h('div.st-ed-stories', era.stories.map((_, k) => storyEditor(era.stories, k, era.id)), addStory(era.stories))));
+    const st = stormBy.get(i + 1);
+    if (st && i < d.eras.length - 1) {
+      blocks.push(h('li.st-ed-storm',
+        h('span.st-storm-mark', h('span', `STORM ${String(st.n).padStart(2, '0')}`)),
+        h('span.faint', `${era.year} → ${d.eras[i + 1].year}`),
+        txt(st, 'date', '날짜 (예: 1999년 12월 31일)'),
+        txt(st, 'note', '메모'),
+        txt(st, 'disagree', '출처끼리 다른 점'),
+        check(st, 'uncertain', '불확실')));
+    }
+  });
+
+  return h('div.st-edit',
+    h('p.muted', '연도·이름·메모는 칸을 고치고 다른 곳을 누르면 바로 반영돼요. 시대 순서를 바꾸면 폭풍우 순서도 같이 맞춰져요. 다 고치면 위의 "연표 저장"을 눌러 주세요. 저장하기 전까지는 이 브라우저에만 임시로 남아요.'),
+    h('div.fields.st-ed-meta', txt(d, 'basis', '기준 (예: 한국 서버 3.9 기준)'), txt(d, 'excluded', '빠진 것 설명', '.st-ed-wide')),
+    h('ol.st-ed-list', blocks),
+    h('button.btn.small.ghost', { type: 'button', onclick: () => { d.eras.push({ id: `e${Date.now().toString(36)}`, year: '', label: '', stories: [] }); touch(true); } }, '+ 시대 더하기'),
+    h('section.st-unplaced', h('h2.group-head', h('span.en', 'Unplaced'), '시대를 알 수 없는 이야기'),
+      h('div.st-ed-stories', d.unplaced.map((_, k) => storyEditor(d.unplaced, k, '__unplaced')), addStory(d.unplaced))));
 }
