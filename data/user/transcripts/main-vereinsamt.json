@@ -1194,7 +1194,7 @@
     {
      "id": "mwhldtoo1330c",
      "kind": "line",
-     "sp": "신도 II",
+     "sp": "아페이론 II",
      "en": "Ms. Vertin, did you just say the \"Emanation\" has happened?",
      "ko": "",
      "star": false
@@ -1202,7 +1202,7 @@
     {
      "id": "mwhldtoo1bfw2",
      "kind": "line",
-     "sp": "신도 II",
+     "sp": "아페이론 II",
      "en": "Just now?",
      "ko": "",
      "star": false
@@ -1522,7 +1522,7 @@
     {
      "id": "mwhldtoojkmxx",
      "kind": "line",
-     "sp": "신도 II",
+     "sp": "아페이론 II",
      "en": "37, you just woke up from a coma. You're not well.",
      "ko": "",
      "star": false
@@ -1530,7 +1530,7 @@
     {
      "id": "mwhldtoomyjp6",
      "kind": "line",
-     "sp": "신도 II",
+     "sp": "아페이론 II",
      "en": "Why don't you take another rest?",
      "ko": "",
      "star": false
@@ -1882,7 +1882,7 @@
     {
      "id": "mwhldtoo4em52",
      "kind": "line",
-     "sp": "신도 II",
+     "sp": "아페이론 II",
      "en": "First the army, then the \"Emanation.\" Everything's been falling apart since the outsiders arrived on this island.",
      "ko": "",
      "star": false
@@ -1890,7 +1890,7 @@
     {
      "id": "mwhldtoo7xogg",
      "kind": "line",
-     "sp": "신도 II",
+     "sp": "아페이론 II",
      "en": "The Foundation and Manus Vindictae—one of them must answer for this.",
      "ko": "",
      "star": false
@@ -2770,5 +2770,5 @@
   "29"
  ],
  "customStages": {},
- "updatedAt": "2026-11-15T08:48:06.793Z"
+ "updatedAt": "2026-11-15T08:49:42.077Z"
 }
