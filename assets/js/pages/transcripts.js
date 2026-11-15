@@ -381,10 +381,9 @@ function stageHead(st, d, cur, ci, total) {
   const s = st?.stages?.find((x) => String(x.n) === String(cur));
   const custom = String(d.customStages?.[cur] || '').replace(/^\d+\.\s*/, '');
   return h('header.tx-stage-head',
-    h('span.tx-stage-no', `${String(ci + 1).padStart(2, '0')} / ${String(total).padStart(2, '0')}`),
+    h('span.tx-stage-no', `Stage ${String(ci + 1).padStart(2, '0')} / ${String(total).padStart(2, '0')}`),
     h('h2', s?.ko || s?.en || custom || `${cur}장`),
-    s?.en && s.en !== s.ko ? h('span.tx-stage-en', s.en) : null,
-    h('span.tx-orn', { 'aria-hidden': 'true' }, '✦'));
+    s?.en && s.en !== s.ko ? h('span.tx-stage-en', s.en) : null);
 }
 
 async function deleteDoc(id) {
@@ -435,7 +434,7 @@ function readLines(d, stage, cur) {
     const latin = l.ko && !HANGUL.test(l.ko);  // 주문·시·외국어 구절
     return h('li.tx-line' + (l.sp ? '' : '.narr') + (l.ko ? '' : '.noko') + (same ? '.cont' : '') + (latin ? '.latin' : ''), { id: `l-${l.id}` },
       h('div.tx-sp',
-        name && !same ? h('span.tx-ava', icon ? h('img', { src: icon, alt: '', loading: 'lazy' }) : h('span', { 'aria-hidden': 'true' }, name.slice(0, 1))) : null,
+        icon ? h('span.tx-ava', h('img', { src: icon, alt: '', loading: 'lazy' })) : null,   // 그림이 없는 사람은 이름만
         same ? null : h('span.tx-name', name)),
       mode !== 'ko' && l.en ? h('p.tx-en', { lang: 'en' }, l.en) : null,
       mode !== 'en' && l.ko ? h('p.tx-ko', l.ko) : null,
