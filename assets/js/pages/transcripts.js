@@ -434,7 +434,8 @@ function readLines(d, stage, cur) {
     const latin = l.ko && !HANGUL.test(l.ko);  // 주문·시·외국어 구절
     return h('li.tx-line' + (l.sp ? '' : '.narr') + (l.ko ? '' : '.noko') + (same ? '.cont' : '') + (latin ? '.latin' : ''), { id: `l-${l.id}` },
       h('div.tx-sp',
-        icon ? h('span.tx-ava', h('img', { src: icon, alt: '', loading: 'lazy' })) : null,   // 그림이 없는 사람은 이름만
+        name && !same ? (icon ? h('span.tx-ava', h('img', { src: icon, alt: '', loading: 'lazy' }))
+          : h('span.tx-ava.blank', { 'aria-hidden': 'true' })) : null,   // 그림이 없는 사람은 같은 크기의 투명한 자리만 (이름 줄 맞춤)
         same ? null : h('span.tx-name', name)),
       mode !== 'ko' && l.en ? h('p.tx-en', { lang: 'en' }, l.en) : null,
       mode !== 'en' && l.ko ? h('p.tx-ko', l.ko) : null,
