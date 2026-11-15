@@ -357,3 +357,7 @@ body.editing .hero-tag, body.editing .hero-side, body.editing .hero-chip, body.e
   .tx-card { grid-template-columns: 1fr; }
   .tx-card img, .tx-card-noimg { width: 100%; }
 }
+
+/* 점수판 그래프: 기둥 길이는 그대로 두고, 위에 30px 여유를 더해 최고 기록 점수 표시가 잘리지 않게 */
+.sb2-chart { height: 280px; }
+.sb2-col { padding-top: 30px; }
