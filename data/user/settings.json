@@ -44,5 +44,40 @@
   "file": "data/user/hero/hero-mw98dhf6sk7se.mp4",
   "type": "video",
   "keyBlack": true
+ },
+ "menu": {
+  "order": [
+   "home",
+   "timekeeper",
+   "roster",
+   "bulletin",
+   "timeline",
+   "skins",
+   "decks",
+   "psychubes",
+   "storms",
+   "stories",
+   "codex",
+   "gacha",
+   "transcripts",
+   "tastes",
+   "names",
+   "settings"
+  ],
+  "labels": {
+   "transcripts": {
+    "en": "Reverse",
+    "ext": ".1999",
+    "ko": "기록"
+   },
+   "stories": {
+    "ext": ".page",
+    "en": "UTTU"
+   },
+   "storms": {
+    "ko": "연표",
+    "en": "Chronology"
+   }
+  }
  }
 }
