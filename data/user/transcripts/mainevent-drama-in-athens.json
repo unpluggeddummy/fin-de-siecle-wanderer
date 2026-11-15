@@ -1,0 +1,8019 @@
+{
+ "id": "mainevent-drama-in-athens",
+ "story": "mainevent-drama-in-athens",
+ "title": "아테네 여행기",
+ "titleEn": "Drama in Athens",
+ "version": "S01",
+ "stages": {
+  "1": {
+   "lines": [
+    {
+     "id": "mwhu7sve86m7g",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이야기의 새로운 시끄러운 페이지가 펼쳐진다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve8ip88",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "오~ 즐거움의 원천인 디오니소스여~",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveht4mb",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "당신께서 하사하신 귀중한 술에서 힘을 얻나이다~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svexwfc8",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "On Sun-Kissed Vines",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveo926r",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "아고라 시장",
+     "star": false
+    },
+    {
+     "id": "mwhu7svebuqe3",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "대지에서 일어난 성스러운 그대는~",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveqoqa7",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "신성한 포도 덩굴을 흩뿌리셨으니~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svecg0np",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "그대는 술과 함께 즐겁게 노래하는 법을 가르쳐주시고~",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve50gi4",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "우리의 영혼이 춤을 추며 날아오르게 했네~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svem4618",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "음유시인 앞에는 도자기 그릇 한 개가 놓여 있었는데, 바삐 오가는 사람들은 그것을 보고도 무시하는 것 같았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svew6bqz",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "포도주가 스며든 것처럼 갈수록 간드러진 노랫소리는 때아닌 헛기침 소리에 끊겼다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveik87k",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "오, 이게 누군가?",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve1nqot",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "끝없이 나아가는 독수리를 거느린 자이자 그리스에 새로운 여명을 가져다줄 전쟁의 신예 카산드라~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svepdz96",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그만, 거기까지 해. 유포니아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svevf82w",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "나는 돈을 받고 일하는 용병일 뿐이야. 집정관 선거에는 아무 관심도 없다고. 차라리 높으신 분들이나 치켜세우는 게 어때.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve8fl4m",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "치켜세우다니. 스파르타인이 메가리스의 사적을 차지하는 데 제일 큰 공을 세운 게 너잖아... 하하, 도시에 이미 소문이 파다하다고.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve3cf2g",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "게다가 말이야, 사람들은 신들의 사자 하나 더 보태는 거라면 별로 꺼리진 않거든. 아테네도 전설 하나쯤 더 생기는 거지 뭐.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svehqrsn",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "음유시인이 계속해서 상대의 뛰어난 무용에 대해 치켜세우려는데, 부러진 창을 든 용병이 고개를 저으며 갑자기 확 다가왔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svew26ok",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "별 걸 다 자랑하네... 유포니아, 내가 진정 알고 싶어 하는 게 뭔지 알고 있잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve874r4",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "엥? 자랑이라니? 너무하네. 세상 사람들 모두 자랑하며 산다고. 시인은 신을 찬양하려고 목청을 뽐내고, 용병은 고용주에게 칼질을 뽐내고...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svehfwlm",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그것도 다 드라크마 몇 푼을 위해서지. 안 그래?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svecmgnt",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용병이 주머니에서 반짝이는 드라크마 한 개를 꺼내 던지자, 공중에서 아름다운 곡선을 그리며 시인의 손바닥에 딱 떨어졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svecnhge",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "물론, 지금 저기 줄잡은 두 녀석도 저마다 ‘뽐내는’ 중이지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve12342",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "너도 눈치챘지?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svem1o72",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "멀리서 수상한 그림자 두 개가 아크로폴리스의 벽 모퉁이에 웅크리고 있었는데, 그들은 손에 줄을 들고 오르내리고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve24snd",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그래서 아크로폴리스의 벽돌을 원래 저렇게 세심하게 ‘조각’했던가?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svedm102",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "그럴 리가. 부서진 벽돌 한 장쯤은 이 동네 인부들이 반나절이면 고칠 수 있어. 다만, 내가 흥미로운 얘길 하나 들었지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svedal3g",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "저 둘 중 하나는 자신이 ‘아테나의 축복’을 받은 인도자라면서 ‘아테나 조각상’, ‘금박’, ‘전쟁 자금’ 같은 걸 중얼거리고, 다른 하나는 뭔가 계속 투덜대더라고...",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveqyxgb",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "사람들이 둘 다 불러서 들판에 나가 열매나 꽃이나 따자고 했는데, 둘 다 거절했대...",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve724k5",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "그래도 너무 신경 쓰지 마. 디오니소스 축제 때면, 별 희한한 녀석들이 다 기어나오는 법이니까.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve2yobw",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그렇구나.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveitx9u",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "고마워, 유포니아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve3qmwg",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "금빛으로 빛나는 드라크마 몇 개가 음유시인 앞의 도자기 그릇에 떨어졌다. 그리고 용병은 이미 사라지고 없었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svetqga9",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve38uhc",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "거리의 어두운 구석에 씩씩한 발걸음이 소리 없이 다가왔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svec8b5b",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "기웃거리는 수상한 자들이 작은 소리로 소곤거리면서 주변을 자꾸만 두리번거렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveltn0q",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Bedtime Stories",
+     "star": false
+    },
+    {
+     "id": "mwhu7svev6hzk",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "이 땅을 위해... 금박을 녹여 전쟁 자금로 사용하는 만행을 절대 용납해서는 안 된다... 아테나를 위해... 집정관 머리에 걸린 현상금을 위해... 이 자리에서 심판을 내리겠다...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svestfnf",
+     "kind": "line",
+     "sp": "지혜로운 '극작가'",
+     "en": "",
+     "ko": "대사를 잘 외웠구나, 도미티우스~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svecep1i",
+     "kind": "line",
+     "sp": "지혜로운 '극작가'",
+     "en": "",
+     "ko": "성공 여부와 관계없이 분명 모두가 너의 암살 소식을 알게 될 거야. 그럼 자연스럽게 모두가 정보상으로부터 그 현상 수배서를 얻게 될 테니, 그렇게 모든 동료에게 우리의 계획을 전할 수 있을 거야!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svejpun1",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "내가 잘할 수 있다고 했잖아, 이소니아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svef6yv0",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "그런데 조직의 소식은 대체 어떻게 전한 거야? ‘현자’는 분명 우리에게 아무것도 알려주지 않았는데...",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve7d8gv",
+     "kind": "line",
+     "sp": "지혜로운 '극작가'",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svecpw6j",
+     "kind": "line",
+     "sp": "지혜로운 '극작가'",
+     "en": "",
+     "ko": "그건 지금 네가 생각해야 할 문제가 아니야, 이 멍청아!",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve6m962",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "아, 너도 ‘현자’가 우리에게 무엇을 원하는지 모르나 보네...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svef3t34",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "스스로 똑똑하다고 자만하는 이소니아는 그런 비판을 받아들일 수 없는 게 분명했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svej75fi",
+     "kind": "line",
+     "sp": "지혜로운 '극작가'",
+     "en": "",
+     "ko": "네가 뭘 안다고. 맨날 ‘현자’, ‘현자’거릴 줄만 알지!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svexhzer",
+     "kind": "line",
+     "sp": "지혜로운 '극작가'",
+     "en": "",
+     "ko": "너만 높으신 분들의 명령을 받았다고 착각하지 마!",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve74w8h",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "지혜로운 ‘극작가’ 이소니아는 울컥했지만, 벌벌 떠는 ‘배우’를 보자 자기도 모르게 빈정댔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svembzp1",
+     "kind": "line",
+     "sp": "지혜로운 '극작가'",
+     "en": "",
+     "ko": "아, 물론 넌 자신을 예술가라 생각하겠지만. 하하.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svej8qg0",
+     "kind": "line",
+     "sp": "지혜로운 '극작가'",
+     "en": "",
+     "ko": "그럼 이걸 잊지 말아야지...",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveros57",
+     "kind": "line",
+     "sp": "지혜로운 '극작가'",
+     "en": "",
+     "ko": "전문적인 예술가에게 필요한 게 바로 이런 암살 도구가 아니겠어?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svezm3vx",
+     "kind": "line",
+     "sp": "지혜로운 '극작가'",
+     "en": "",
+     "ko": "잊지 마. ‘현자’가 줄칼은 인당 한 자루만 받을 수 있다고 했으니, 절대 잃어버려서는 안 돼.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveqfkm1",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "아... 알겠어!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svewiwax",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "하지만 하나도 날카롭지 않은 것 같은데, 이런 무기로 그 집정관들을 죽일 수 있을까?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svekiftv",
+     "kind": "line",
+     "sp": "지혜로운 '극작가'",
+     "en": "",
+     "ko": "그럼 네가 좀 더 날카롭게 갈든가!",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveivpvz",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "여전히 줄칼이나 살피고 있는 멍청한 배우는 무시한 채 짜증을 부리면서 빠르게 멀어졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveoyn4v",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "어디를 가는 거야, 이소니아?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svebpsqa",
+     "kind": "line",
+     "sp": "지혜로운 '극작가'",
+     "en": "",
+     "ko": "당연히 임무를 수행하러 돌아가는 거지, 이 멍청아. 대본을 건네야 하는 건 너뿐만이 아니라고.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveovgms",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "아, 행운을 빌게.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svee1ckw",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그는 손을 흔든 후, 손에 든 줄칼을 꽉 쥐고 벽 쪽으로 느긋하게 움직였다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svenhg8b",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "음... 어두워지기 까지는 아직 시간이 있으니 이걸 더 날카롭게 갈 수 있겠다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svez0bos",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "단순히 힘만으로는 그 위선적이고 교활한 연설가를 해치울 수 없을 거야. 주변에 순찰하는 병사도 상당하고... 내가 암살을 시도할 수 있는 시간도 얼마 없으니...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svehgnu9",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Legend of the Eagle Bearer (Main Theme)",
+     "star": false
+    },
+    {
+     "id": "mwhu7svecoz5d",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그렇게 혼잣말하던 그의 눈앞에 있는 벽돌벽에 갑자기 부러진 창 한 자루가 꽂혔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve64kjh",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveu5va7",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "잠깐 실례하지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve0oup8",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "높으신 분들의 안전을 고려해 수상해 보이는 녀석들을 처리해야 되거든.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve6zcup",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "그게 무슨... 안 돼...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve7wkze",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "상대가 허둥지둥하는 사이 건장한 그림자가 그를 빠르게 덮쳤다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svehir24",
+     "kind": "combat",
+     "sp": "",
+     "en": "",
+     "ko": "불쌍한 광인은 묶인 채 벌벌 떨며 한쪽에 움츠리고 있었고, 카산드라는 손을 깨끗하게 탁탁 털어냈다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveeb0dp",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Confusion",
+     "star": false
+    },
+    {
+     "id": "mwhu7svelwhlp",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "네 암살 대상에 대해 이야기하지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve5i1t2",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svedubc5",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "에클레시아와 불레에 속한 사람은 수가 엄청나지만, 이곳을 지나가는 높으신 분은 손에 꼽지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svea8w4h",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "쓸데없이 주먹을 휘두르고 싶지는 않으니, 너도 쓸데없이 꾀부리지 않는 게 좋을 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svewsmp7",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveshnw7",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "마침내 한참 침묵하던 상대의 입술 사이로 이름 하나가 튀어나왔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveuhlo9",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "페... 페리클레스.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve5xall",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "허, 아테네의 골칫거리네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svej2acq",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "이 이상은 절대 말하지 않을 거야!",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveqcovz",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그래, 말하지 않아도 돼.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svecmf60",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "카산드라가 예의 바르게 고개를 끄덕였다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svejxtqt",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "\"탁...\"",
+     "star": false
+    },
+    {
+     "id": "mwhu7svec797n",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "윽...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svet121c",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "목덜미에 심한 고통을 느낀 그는 거의 정신을 잃을 뻔했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svejp8ri",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "하지만 페리클레스는 아직 죽으면 안 돼.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sved22jc",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "이곳에서 무언가 크게 잘못되는 건 내가 원하는 바가 아니기도 하고.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svenylfu",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "이 이상의 복잡한 문제는 페리클레스가 알아서 하라고 해야지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svetgdwd",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "두꺼운 포대가 상대의 머리를 ‘부드럽게’ 감쌌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svewz8mb",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "잠시 후, 독수리의 우렁찬 울음소리가 하늘에 울려 퍼졌다.",
+     "star": false
+    }
+   ]
+  },
+  "2": {
+   "lines": [
+    {
+     "id": "mwhu7sveumvb4",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "아테네를 아테네로 만들자.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svew1xb4",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "의회장",
+     "star": false
+    },
+    {
+     "id": "mwhu7svei12d6",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "의회 회장은 열띤 분위기로 떠들썩했다. 그곳에서 피어나는 민주주의의 빛이 각자의 자리에서 분투하는 모든 시민을 밝히고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveom4fg",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Objection",
+     "star": false
+    },
+    {
+     "id": "mwhu7svebqwtu",
+     "kind": "line",
+     "sp": "집정관Ⅰ",
+     "en": "",
+     "ko": "안 돼! 디오니소스 극장에 배정된 예산은 한 푼도 줄일 수 없어! 그곳은 위대한 비극을 공연하는 곳이라고, 이 우매한 것들...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svek0fzd",
+     "kind": "line",
+     "sp": "집정관Ⅰ",
+     "en": "",
+     "ko": "아아... 위대한 디오니소스여, 두 눈을 떠 이 재난을 보시게 된다면 그 어떤 향기로운 술로도 그 고통을 해소하지 못하겠죠!",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveyfx1z",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "그건 일리가 있어... 디오니소스 축제에 비극을 상영하는 전통은 예로부터 우리의 자랑이기도 하니까.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveficli",
+     "kind": "line",
+     "sp": "집정관Ⅱ",
+     "en": "",
+     "ko": "하, 혓바닥을 놀리는 것도 정도껏 하지? 헤르미푸스, 우리는 지금 엄청난 위기에 빠졌다고.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveb617v",
+     "kind": "line",
+     "sp": "집정관Ⅱ",
+     "en": "",
+     "ko": "포티다이아의 포위전을 하루빨리 끝내지 않으면 네가 사랑하는 그 디오니소스 축제는 머지않아 네가 경멸하는 스파르타 멍청이들이 개최하게 될 거다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveidj4q",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "그 말이 맞아. 게다가 지금 같은 상황에 축제를 열면 군대의 훈련과 전쟁 준비에 방해될 가능성이 크지...",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve5o4v1",
+     "kind": "line",
+     "sp": "집정관Ⅲ",
+     "en": "",
+     "ko": "그래서 어떻게 할 생각인데, 안드리우스? 모두한테 허리띠를 졸라매라 해서, 언제 끝날지도 모르는 전쟁에 돈과 인력을 쏟아부을 거야?",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve3k5hl",
+     "kind": "line",
+     "sp": "집정관Ⅲ",
+     "en": "",
+     "ko": "모두가 이 축제를 눈이 빠지게 기다리고 있어. 이건 향락을 추구하는 사치스러운 축제가 아니라, 모든 아테네 시민의 소망 같은 거라고.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svex99f5",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "아테네가 길이길이 빛나는 도시 국가가 될 수 있는 건 전통 덕분이지...",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve6haje",
+     "kind": "line",
+     "sp": "집정관Ⅲ",
+     "en": "",
+     "ko": "설마 시민들의 소망을 저버리고 우리의 전통과 신앙을 뒤엎을 생각은 아니겠지?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svegogf8",
+     "kind": "line",
+     "sp": "집정관Ⅱ",
+     "en": "",
+     "ko": "내 말을 멋대로 왜곡하지 말라고! 망할...",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve0wx2k",
+     "kind": "line",
+     "sp": "집정관Ⅱ",
+     "en": "",
+     "ko": "너의 그 날카로운 입이 적의 창 앞에서도 쓸모가 있기를 열심히 기도하기나 해!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svemud89",
+     "kind": "line",
+     "sp": "집정관들",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svebh6f8",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "논쟁을 벌이는 소리가 여기저기서 터져 나왔는데, 심지어 소매를 걷어 올리는 사람까지 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svedvn02",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "아아, 세오도르, 너의 침이 내 옷까지 튀겼잖아...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svexedre",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "진정해, 안드리우스. 수염에는 죄가 없잖아?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svepq81a",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "성숙한 집정관은 회의의 분위기를 일사불란하게 조율하고 있었다. 민주주의의 빛이 지금 이 순간 더 빛나는 것 같았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveh36am",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "...헤로도토스가 그랬었나... 심상치 않은 독수리의 울음소리가 들리면...",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveahd1h",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "\"쾅!!\"",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveaq967",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "On Sun-Kissed Vines",
+     "star": false
+    },
+    {
+     "id": "mwhu7svezvusw",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "날개를 펼친 무언가가 갑자기 집정관들의 머리 위를 휙 지나가더니 입에 문 줄칼을 바닥에 뱉었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svel40dl",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "줄칼은 작은 구멍이 뚫려 점점 더 시끄러운 소리를 내는 풍선처럼 바닥을 굴렀다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve11zay",
+     "kind": "line",
+     "sp": "집정관Ⅰ",
+     "en": "",
+     "ko": "암살자... 아, 암살자야!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svenztl1",
+     "kind": "line",
+     "sp": "집정관Ⅱ",
+     "en": "",
+     "ko": "단도를 문... 독수리?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svemlm4n",
+     "kind": "line",
+     "sp": "집정관Ⅲ",
+     "en": "",
+     "ko": "경비, 경비대는 뭐 하는 거야?! 페리클레스 님을 지켜라!",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveqq555",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "진정하세요, 집정관 여러분. 암살자라면 이미 잡았습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svetwefo",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "바로 여러분 눈앞의 이 포대 안에 있습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveah88l",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용병이 커다랗고 너덜너덜한 포대를 모두의 앞에 내던지자, 포대 안에서 신음이 한 차례 들려왔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve6w8ms",
+     "kind": "line",
+     "sp": "집정관Ⅰ",
+     "en": "",
+     "ko": "허... 이, 이 녀석은...",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve34uqq",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "역시 너였군, 카산드라.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svea0e5e",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "다시 만나서 정말 기쁘지만, 나 때문에 곤란해진 건 아니길 바라... 뭐 보아하니 곤란한 일은 네가 이미 해결한 것 같지만.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svetojbo",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "용병은 귀찮은 일을 마다하지 않죠. 게다가 이 암살자는 심상치 않아서요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svekfj04",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "이것 좀 봐주셨으면 합니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svei1lqv",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "독수리가 발밑에 뱉은 줄칼을 카산드라가 주워서 페리클레스에게 건네자, 그가 손에 쥔 채 자세히 살펴보기 시작했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveaaswx",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Ongoing - Reasoning",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve5q51y",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "나를 찾아온 사람들이 전부 ‘심상치 않은’ 일이 있다고 말해왔지만, 이건...",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve7wypr",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "내가 보기엔 평범하기 그지없는 공구인 것 같은데? 조각상을 조각하거나 목재를 다듬는 데 쓰는 것도 나쁘지 않겠지. 다만 암살에 쓰기에는 적합하지 않은 것 같군.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svefsqcr",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "하지만 그런 게 암살자의 손에 있었죠... 역시 뭔가 이상합니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svegxi98",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "나를 암살하려는 암살자들이 모두 오늘만 같다면 아테네의 용병들은 머지않아 일자리를 잃게 되겠어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve6hkvd",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그렇게 쉽게 생각해도 되는 일이 아니에요, 페리클레스. 아무래도 누군가가 당신을 죽일 결심을 단단히 한 것 같다고요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveq4rn7",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀가 포대를 당겨 벌리자 속박에서 벗어난 ‘배우’가 황급히 외치기 시작했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveyciya",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "이, 이건 잘못됐다고! 이건 내가 생각했던 대본과 전혀 다르잖아...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svev9ds1",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "사, 살려줘. 난... 난 아무 짓도 안 했어!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svea54my",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "난 페리클레스의 현상금을 노렸을 뿐이라고. 제발 믿어줘...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svefb1ls",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "코스모스 교단에서 보냈나? 그놈들은 아주 오래전부터 내 머리를 노려왔지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve7eeat",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "코, 코스모스 교단...?! 그쪽과는 아무 관계도 아니야! 난 어느 정보상의 의뢰를 받았을 뿐이라고... 게다가 현상금을 노리는 건 나뿐만이 아니야!",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveh9py3",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "솔직히 엄청난 금액이긴 하지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve3dasw",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "카산드라가 현상 수배서 한 장을 건넸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sver995e",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "이것 좀 보세요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveq4orc",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "흐음... 이 드라크마를 스파르타인이 무너뜨린 성벽을 보수하는 데 쓸 수 있다면 정말 좋을 텐데 말이지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve8xhrn",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "아쉽게도 당신 머리의 현상금에 쓰이고 있지만요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svec01dl",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "진심으로 말하는 건데, 이건 빨리 안 보이게 치워버렸으면 좋겠군. 그렇지 않으면 집정관 동료들이 이 돈을 보고 나를 노릴까 봐 걱정하게 생겼어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve7uttz",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "사람들이 눈독 들이는 돈주머니가 되는 건 사양이야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svec4hd7",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "당신이 걱정해야 하는 건 그 뒤떨어진 암살자들이 아니라 코스모스 교단입니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svep92cz",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "특히 알렉시오스, 제 동생... 지금은 더 이상 알렉시오스가 아니라 코스모스 교단에서 ‘데이모스’라고 불리지만요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svewio1p",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "전 그를 잘 알고 있어요. 제게 당신을 반드시 죽일 거라고 선언한 이상, 기회를 다른 이에게 넘기지 않을 것입니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svey6t80",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "알려줘서 고맙다고 해야 하나?",
+     "star": false
+    },
+    {
+     "id": "mwhu7sverf6e7",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "역시 집정관 동료분들과 이야기를 더 나눠보는 게 좋겠습니다. 솔직히 지금 다른 분들의 표정은 빈말로도 좋다고 할 수 없어 보이는군요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveg0e2q",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "집정관들은 옆에서 한참이나 얼어붙어 있었는데, 하나같이 안색이 좋지 않았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve473be",
+     "kind": "line",
+     "sp": "집정관Ⅱ",
+     "en": "",
+     "ko": "Malákas!(젠장!) 이건 스파르타인의 음모가 틀림없어. 디오니소스 축제를 틈타 코스모스 교단을 아테네에 잠입시켜 우리 장군을 암살하려는 거라고!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svemus1p",
+     "kind": "line",
+     "sp": "집정관Ⅱ",
+     "en": "",
+     "ko": "디오니소스 축제를 즉시 중단하고 도시 전체에 계엄령을 내려야 해!",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve1oj49",
+     "kind": "line",
+     "sp": "집정관Ⅰ",
+     "en": "",
+     "ko": "안 돼! 절대 안 되네!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svee29ud",
+     "kind": "line",
+     "sp": "집정관Ⅰ",
+     "en": "",
+     "ko": "전쟁 중이어도 아테네의 존엄을 잃어버려서는 안 돼. 디오니소스 축제에 걸려 있는 건 아테네인들의 기쁨과 자신감뿐만이 아니야. 디오니소스의 영광까지 걸려 있다고.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveppa6d",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svezd8bj",
+     "kind": "line",
+     "sp": "집정관Ⅲ",
+     "en": "",
+     "ko": "하지만 페리클레스 님의 안전은...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svepd8bl",
+     "kind": "line",
+     "sp": "집정관Ⅲ",
+     "en": "",
+     "ko": "아테네가 페리클레스 님을 잃는 건 디오니소스 축제가 디오니소스를 잃는 거나 마찬가지야... 우리가 감당할 수 있는 손실이 아니라고.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveb3gtm",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "사람들은 각자의 의견을 내뱉으며 물러서지 않았다. 그리고 마지막에는 약속이라도 한 것처럼 페리클레스를 쳐다봤다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve3xh9p",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "아테네는 모두의 아테네이니, 디오니소스 축제의 개최 여부는 모든 시민이 투표해서 결정해야 해.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveiyvi8",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "페리클레스가 솔선해 발을 내디뎠다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveptb6h",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "The Restless Floating Points",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve5esgt",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "디오니소스 축제 개최에 동의하면 손에 든 도자기 파편을 항아리에 넣어주게. 항아리 안의 도자기 파편 수가 과반수 이상이면 아테네는 예정대로 디오니소스 축제를 개최하도록 하지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve2lt0q",
+     "kind": "line",
+     "sp": "사람들",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svegn7t2",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "아테네의 영광은 겁쟁이들의 위협 따위에 더럽혀지지 않을 거다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svexiyvf",
+     "kind": "line",
+     "sp": "집정관Ⅰ",
+     "en": "",
+     "ko": "페리클레스... 당신...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svemfe40",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "이 도시 국가는 위대하다. 그것과 그것이 품은 모든 것... 민주주의, 축제, 비극, 그리고 신들에게 올리는 제사가 우리를 비호하고 있다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svezexii",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "우리는 아름다움을 사랑하지만 사치스럽지 않고, 지혜를 사랑하지만 약하지 않으며, 스파르타인처럼 고된 훈련을 하지 않지만 그들처럼 용감해질 수 있지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svedvy20",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "그건 전쟁도, 죽음도 우리의 삶을 무너뜨릴 수 없기 때문이다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svev0ijr",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "그리고 우리 또한 그것을 위해서라면 그 어떤 대가도 기꺼이 치르지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveiecxg",
+     "kind": "line",
+     "sp": "집정관Ⅱ",
+     "en": "",
+     "ko": "한 명의 아테네인으로서 감사하다고 하고 싶군, 페리클레스.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve9c1fy",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "멋진 연설이었습니다, 페리클레스.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svepv8r3",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "크흠... 아테네에서는 능숙한 언변으로 사람의 마음을 단기간에 사로잡지 못하면 도자기 파편에 의해 추방될 수도 있거든.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sveza2zo",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "어때, 카산드라? 이제... 디오니소스 축제를 이어서 개최할 수 있을 것 같은데, 네가 원한다면...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svehgmpk",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "신들을 위해 일할 수 있는 건 영광이죠.",
+     "star": false
+    },
+    {
+     "id": "mwhu7sve079kn",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "호오? 그래도 그렇게 바로 결정하지 말고. 이건 결코 쉬운 일이 아니니까.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf11yle",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "물론 현상금이 짭짤해서 그런 것도 있습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfmamgz",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "카산드라도 도자기 파편 한 개를 주워 항아리를 향해 힘차게 던졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf4v59g",
+     "kind": "line",
+     "sp": "집정관Ⅰ",
+     "en": "",
+     "ko": "아니, 외부인에게 투표권은...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svflpr6z",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "도자기 파편이 ‘탁’하는 소리와 함께 항아리 밑바닥에 명중했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf7jlo1",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "제 보수에서 빼든가요... 전부터 해보고 싶었거든요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfaz2ep",
+     "kind": "line",
+     "sp": "사람들",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfyiqpy",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "부러진 창을 든 용병은 손에 묻은 먼지를 탁탁 털어낸 후, 아무도 신경 쓰지 않는 줄칼을 챙겨 으쓱대며 민회장을 성큼성큼 벗어났다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svffz79s",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그리고 이 문제는 금방 아무것도 아니게 됐다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfxup48",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "도자기 파편이 대들보에 떨어지는 빗방울처럼 항아리에 쏟아졌다.",
+     "star": false
+    }
+   ]
+  },
+  "3": {
+   "lines": [
+    {
+     "id": "mwhu7svf3xouc",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "나무에는 열매가 맺히는 건 당연하니 놀랄 것 없다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfubqd8",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Black Box of Conjectures",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfhio6u",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "생각은 하늘을 떠다니고, 영혼은 여전히 어젯밤의 <오레스테이아> 무대에 심취해 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf3asbw",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "가볍고 편안한 호흡이 따뜻한 기류를 품고 천천히 스쳐 지나갔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf9ftnh",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "운 좋은 관객들은 좋은 꿈을 꾼 게 분명했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf0jlvp",
+     "kind": "line",
+     "sp": "???",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfctire",
+     "kind": "line",
+     "sp": "???",
+     "en": "",
+     "ko": "디오니소스 극장은 정말 엄청나네요... 달콤한 술도 독특한 풍미가 있고... 아테네는... 책에 기록된 것보다 훨씬 더 아름답군요...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfqgc5u",
+     "kind": "line",
+     "sp": "???",
+     "en": "",
+     "ko": "새로운 정신의 고향이라고 불러야 할지도 모르겠습니다...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf9ro7t",
+     "kind": "line",
+     "sp": "???",
+     "en": "",
+     "ko": "그런데... 대체 누가 저 APPLe에게... 이렇게 부드러운 이불을 가져다준 거죠...?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfgmpja",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "술에 취해 눈이 풀린 관객은 몸을 뒤집어 이불이 한층 더 몸을 파묻었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf34spj",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "흐릿한 노랫소리가 귓가를 부드럽게 맴돌았다. 무녀들은 춤을 추고, 꽃과 열매가 가득한 버드나무 가지 바구니가 강가 위를 둥둥 떠다녔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf4v88a",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "포도 덩굴이 대지를 휘감고,",
+     "star": false
+    },
+    {
+     "id": "mwhu7svffzcbf",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "술의 신이 주신 선물이 사방에 쏟아지니, 풍작의 열매가 반짝이리.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfqnus2",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그대의 비호하에 세상은 희망으로 물들었네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf6x3yi",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "따스한 햇볕, 촉촉한 바람, 은은한 노랫소리.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfe548b",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이보다 더 편할 수 없었지만, 또 낯설었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfu4cdj",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "한때 피렌체를 휩쓸던 황금색이 며칠간 술에 담긴 탓에 소리 없이 바래졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfv5brm",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "잠깐... 여긴 디오니소스 극장이 아니잖아요?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfoyzb8",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "미스터 APPLe은 당황하며 몸에 덮은 이불... 정확히 말해 나뭇잎으로 자신을 단단히 싸맸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfhrr14",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "나무의 그림자가 흔들리고 열매와 잎 사이에서 흔들리는 소리가 퍼지자, 나무 아래 사람들의 시선이 그 소리에 따라 움직였다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf8ew84",
+     "kind": "line",
+     "sp": "신도Ⅰ",
+     "en": "",
+     "ko": "저것 좀 봐. 어쩜 저렇게 실할 수가 있지? 저렇게 동그랗고 윤이 나는 사과는 처음 봐.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfncbfq",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "무녀가 발돋움해 나무 위에 드러누운 사과를 조심스럽게 땄다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf5e2e1",
+     "kind": "line",
+     "sp": "신도Ⅱ",
+     "en": "",
+     "ko": "킁킁...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfgonzc",
+     "kind": "line",
+     "sp": "신도Ⅱ",
+     "en": "",
+     "ko": "아, 세상에... 껍질에서도 술 향기가 감돌다니!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf80gvp",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfv653t",
+     "kind": "line",
+     "sp": "신도Ⅰ",
+     "en": "",
+     "ko": "내 눈이 이상해진 걸까? 색이 한층 더 붉어진 것 같은데...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf61ieh",
+     "kind": "line",
+     "sp": "신도Ⅱ",
+     "en": "",
+     "ko": "이건 디오니소스 님이 인간계에 내린 은혜가 틀림없어. 그분 또한 에클레시아가 디오니소스 축제를 개최하기로 한 결정에 기쁘신 거겠지!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfbc264",
+     "kind": "line",
+     "sp": "신도Ⅰ",
+     "en": "",
+     "ko": "이 사과라면 가장 향기로운 술을 담글 수 있지 않을까? 이 제물이라면 디오니소스 님께서도 마음에 들어 하실 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfo4f8i",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf1fjqm",
+     "kind": "line",
+     "sp": "신도Ⅲ",
+     "en": "",
+     "ko": "이제 일 좀 하자, 얘들아. 아직 축제에 쓸 열매를 충분히 따지 못했어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf6jtfd",
+     "kind": "line",
+     "sp": "신도Ⅲ",
+     "en": "",
+     "ko": "이처럼 달콤하고 실한 열매가 아직 턱없이 부족하다는 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfo01na",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "더 듬직해 보이는 손이 껍질이 살짝 하얗게 변하기 시작한 사과를 건네받은 후, 똑같이 신선하고 과즙이 풍부한 열매 사이로 던져넣었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfdgvxu",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "캡틴... 버틴... 살려주세요...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfsyamj",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "에취!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfs51pe",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Black Humor",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf7wtwk",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "아고라 시장",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfbsybe",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "큰일이야, 버틴! 아테네를 거의 다 뒤졌는데도 날아다니는 사과를 본 사람이 한 명도 없대...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf8pt23",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "너는? 뭐 알아낸 거 없어?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf5n6ys",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "정말 안타깝게도 내 쪽도 알아낸 게 아무것도 없어. 이것들 외에는...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfawbkb",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "동그랗거나, 불규칙적이거나, 푸르거나 노란 사과가 한 곳에 모여 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf9wp3k",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "아테네 사람들은 마음이 참 따뜻한 것 같아. 내가 사과를 찾고 있다고 하니까... 친절하게도 아직 이슬이 맺혀 있는 사과를 이렇게나 줬어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfinac2",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "게다가 새로 담근 과일주까지 맛보라고 하더라고... 공중에 떠다니는 사과를 찾는 데 도움이 된다면서...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfiezt1",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "...하지만 이것들은 미스터 APPLe이랑 하나도 안 닮았잖아!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfezyyu",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "타일 위를 서성거리던 레굴루스는 화를 내며 그중의 사과 한 개를 베어 먹었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfdultl",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "으...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfecp57",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "퉤퉤퉤!!! 이곳의 사과는 맛이 왜 이래? 아테네 사람들은 평소에 이런 시고 떫은 과일을 먹고사는 거야?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfrffj8",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "레굴루스, 우리가 도착한 시대는 아마 고대 그리스 중에서도 페리클레스가 집권하는 시기일 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf5df73",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "이 시기의 사과는 아직 복잡한 품종 교배를 하기 전이라서 사람들은 주로 포도나 무화과를 먹어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf9uqgq",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "그리고 사과는 대부분 신에게 바치는 제물로 사용됐지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfcwd3l",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "그러니까... 미스터 APPLe을 두 번 다시 만날 수 없을 거라는 거야?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfbgg3n",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "아니, 레굴루스. 그러니까 내 말은...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfej4uc",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "미스터 APPLe이 공교롭게도 어떤 의식의 공물이 됐을 경우, 그 공물을 빼앗으면 아테네 전체를 적으로 돌리게 될 가능성이 크다는 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf33hj7",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svftu5om",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "사람을 찾는 광고를 하거나 사람들에게 전단을 배포하는 건?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf4wi6i",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "지금 우리가 가지고 있는 돈으로는 종이 중에서도 가장 조잡한 파피루스밖에 살 수 없을 거야. 게다가 몇 장 사지도 못할걸.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfj6rgr",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "그리고 사과를 그릴 수 있는 염료의 가격까지 생각하면... 아마 도움을 줄 수 있는 건 이번 작전에 참여하지 않은 소더비 씨뿐일 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfa083f",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "낯설고도 머나먼 시대는 현대 생활에 익숙한 사람들의 모든 상식을 거의 무용지물로 만들어 버렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfaacg6",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그리고 레굴루스가 처음으로 ‘폭풍우’의 위험성을 절실히 깨닫게 된 순간일지도 몰랐다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf4xq5t",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "레굴루스는 괴로운 듯 머리를 긁적였는데, 표정도 상당히 심각했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfazq9s",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "‘폭풍우’ 문제는 반드시 완벽하게 해결해야 해, 버틴.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfob075",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "...?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfolm71",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "크흠, 아무것도 아니야! 그러니까 내 말은, 로렌츠의 비 내리는 무대에 감사하자는 거지~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfp4gd0",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "초조한 가운데 던져진 농담은 애당초 부족한 시간을 잡아먹기만 하고, 아무 의미도 없었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfdq9t7",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "집중이 흐트러진 로큰롤 해적은 분위기 감지 센서를 고치려는 듯이 자신의 머리를 열심히 두드렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfttn0a",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "버틴, 확성기는 언제쯤 발명될까?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfptqtg",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "지금부터 갱단이나 현지 경찰과 친분을 맺는다고 하면 성공률이 얼마나 될까?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfrgk0n",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "씨밖에 찾지 못할 경우 미스터 APPLe을 심으면 본래의 모습으로 되돌릴 수 있을까?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfrqadd",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "무의식적인 영감이 샛별처럼 폭발하고 또 빠르게 붕괴해 하나의 고요한 블랙홀이 됐다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf7hgwd",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfd38ep",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "소용이 없겠네, 다음 방송을 위해 추모곡 리스트를 뽑아보도록 할게.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfgxeht",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "영감이 바닥난 소녀는 손을 흔들었다, 그런데 갑자기 어깨 쪽에서 따뜻하고 힘 있는 촉감이 느껴졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf7rmth",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "레굴루스, 네 말이 맞아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfdjouo",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "아테네에 온 이상 당연히 이 시대의 힘에 의지하는 게 맞겠지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfs6ltc",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "그러니까... 갱단에?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfw5e18",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "아니, 용병 말이야. 아니면 정보상이나.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfffg3k",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfruz7z",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "레굴루스의 눈이 반짝임과 동시에 주변의 떠들썩한 인파 소리와 새의 울음소리가 다시 들려오기 시작했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfkjkuc",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Stage",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf43s02",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "런던이 이 레굴루스의 것인 것처럼 아테네에도 이 도시에 대해 빠삭한 사람이 있을 거야. 그리고 따듯하고 친절한 전설적인 인물도 있겠지!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfrw86n",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "안심하고 나에게 맡겨, 버틴~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfb2d84",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "영웅은 영웅을 알아본다고 하잖아? 분명 공통점이 많을 거야. 내가 보장할게. 분명 합리적인 가격에 해 줄 거야!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfei4lg",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "또다시 기운을 낸 ‘런던의 전설’이 인파가 가장 밀집된 거리를 향해 열정적으로 달려 나갔다.",
+     "star": false
+    }
+   ]
+  },
+  "4": {
+   "lines": [
+    {
+     "id": "mwhu7svf2sclp",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이곳에는 캅카스의 절벽이 없지만, 가벼운 과일 바구니가 똑같이 꽉 묶여 있다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfljl9y",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Black Humor",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfd441d",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "뭐?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfe0is7",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "...23 드라크마?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svftbb29",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "깜짝 놀란 비명이 멀리 퍼져나가자 지붕 위의 갈매기 몇 마리가 놀라서 날아올랐다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf7vceh",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "한때 ‘해적’이었던 그녀가 사납게 미간을 찌푸리며 목소리를 낮췄다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfu06or",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "이봐, 내가 호구로 보여? 우리는 사과에 관한 정보를 알아봐 달라는 거뿐이라고...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf6sz1q",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "내가 이곳의 물가를 아는데, 잘 담근 과일주 1L도 1/6 드라크마밖에 안 돼!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfigbd8",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "마주 보고 있는 음유시인이 몸을 일으키며 가느다란 현을 가볍게 튕기고는 웃으며 두 사람을 바라봤다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfvvpsj",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "그래, 친구. 그대가 찾는 건 신선하고 지혜로운 사과지~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfpuhxa",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "별 일 없으면, 나도 또 디오니소스 축제 한 번 더 가야 할 판이라니까. 그런 특별한 사과는 신들의 품속에나 있으니 말이지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfh45ez",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그게 무슨 의미인지 열심히 고민해 봤지만, 해적은 결국 알아내지 못했다. 고대 그리스 신화는 그녀와 맞지 않는 게 분명했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfdrokv",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "크흠... 아무튼 네가 어떤 웃기거나 허울 좋은 말을 늘어놓든 값을 높이 불렀다는 사실은 변하지 않아!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfx2wt3",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "그래.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfgx6jr",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "게다가, 외지인의 부탁을 받아들인다는 건 항상 위험을 동반하는 법이거든. 너희가 중간에 꽁무니 빼면...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf2vq6j",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "그럴 리가 없잖아. 어느 바다든 상관없으니 가서 레굴루스 캡틴에 대해 한 번 물어보라고!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfgpqxy",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "한창 팽팽하게 대치하고 있는데, 익숙한 발소리가 들려왔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfw9ba7",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "유포니아, 지난번에 네가 대신 감시해 줬던 그 수상한 녀석들 말인데, 일손이 좀 필요해서... 음? 지금 바빠?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf8jznq",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "논쟁을 펼치던 두 사람이 고개를 돌리자 늠름한 용병이 눈앞에 서 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svftuvmt",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "흠, 네게 다른 고객이 있을 줄은 몰랐네. 방해할 생각은 없었어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf8si9x",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "The Restless Floating Points",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfdedx9",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "아, 아니야... 어서 와! 나의 친애하는 독수리를 거느린 자, 너라는 서풍이 언제 어디서 나타날지는 아무도 예측하지 못하니까~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfq2b72",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "그래, 일손이 필요하다고 했지...? 아! 맞다. 그러면 되겠네...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfpe7gi",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "음유시인이 두 눈을 빛내면서 계속해서 무언가 중얼거렸는데, 마치 눈앞의 골칫거리에서 벗어날 묘수를 찾은 것 같았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfq2omx",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "목청을 가다듬은 음유시인이 환한 웃음을 지으며 한 손으로는 레굴루스를 잡고, 또 다른 한 손으로는 카산드라를 잡았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf5ohuu",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "자자, 다들 들어봐. 난 항상 신들에게 계획이 있다고 믿어왔어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svftitmt",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "이 아가씨는 디오니소스 축제에서 특별한 사과를 찾으러 나를 찾아왔지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf2v4p7",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "카산드라, 너는 저번에 수상한 녀석의 조사를 부탁했었지? 조사해 보니까, 그 녀석은 축제 신전 쪽 사원 보수공이었어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfhhlrb",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "그리고 지금 네게 필요한 건 코스모스 교단의 단서를 찾는 데 협조해 줄 사람이지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfmdzlj",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "잠깐, 설마...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfsh2i8",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "그래! 너희들이라면 우애와 상호 이익의 법칙을 지키면서 각자의 바람을 이룰 수 있을 거라고!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf3hldj",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "Maláka(젠장), 너 이 녀석... 그럴 줄 알았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfbt07n",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용병은 어쩔 수 없다는 듯 고개를 저었다. 음유시인의 고집스러운 성격을 잘 아는 그녀는 다른 사람을 찾을 여유가 없기에 일단은 현실을 받아들였다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfcqg23",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "디오니소스 축제에서 무언가를 찾아야 하는 거라면 우리의 목표는 크게 다르지 않을 것 같네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfrdvpo",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "내 목표를 찾는 김에 너희의 것도 찾아줄게. 그렇게 어렵지는 않을 것 같거든.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svffwqy1",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "오... 오! 그렇게 말한다면야... 크흠, 버틴, 넌 어떻게 생각해?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfwn92b",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "해적이 버틴을 향해 윙크했다. 그녀는 공짜 도우미가 한 명 늘어나는 걸 환영하는 게 분명했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfs8t7e",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "네가 그 ‘독수리를 거느린 자’야?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svflqbvx",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "오면서 음유시인들이 너에 대한 찬송가를 부르는 걸 들었어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfh80ga",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "전설의 독수리를 거느린 자는 열정적이고 용감한 영웅으로, 모두를 기꺼이 돕는 수호자이자 영원히 신뢰할 수 있는 친구라고 했지...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf5c81p",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "부러진 창을 든 용병이 손을 허리에 얹은 채 헛기침했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfeglgl",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "거기까지. 그보다 너희 둘, 이곳 주민이 아니지?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfaerff",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "...응?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf1bwrl",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "별거 아닌데, 단지 이곳 사람들은 아무리 아부해도 내 보수는 깎을 수 없다는 걸 잘 알고 있거든.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfc988e",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "아무래도 오해한 것 같네. 난 단지 그 전설이 진짜인지 확인해 보고 싶었을 뿐이야. 원래 협력이라는 건 서로의 이해를 바탕으로 성립하는 거잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf5qal0",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "설마 상대가 협력 파트너의 자질에 대해 의문을 품을 줄은 몰랐는지, 용병이 눈썹을 치켜올렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf1m4sy",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "아무래도 같이 일해야 할 것 같군.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfuj50k",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "스파르타의 카산드라다. 뜻밖의 사고가 일어나지 않는 한, 곧 ‘독수리를 거느린 자’의 실력을 볼 수 있을 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfkviz3",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "카산드라가 두 사람을 향해 손을 내밀었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf761kd",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "난 레굴루스. 그리고 이쪽은 버틴이야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfjt383",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "해적 아가씨가 으쓱대며 상대의 손을 맞잡았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf89a19",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "아, 그런데 어떻게 서로 도우면 돼?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfo4n64",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "아주 간단해.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf2vqy3",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "아테네를 여기저기 돌아다니면서 하고 싶은 일을 하면 돼. 그리고 수상해 보이는 사람이 있으면 한 명도 빠뜨리지 말고 눈여겨 봐줘.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf1xqq7",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "해적은 마치 강적을 맞닥뜨린 것처럼 긴장했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfk2zj0",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "디오니소스 축제를 틈타 아테네에 정체를 알 수 없는 사람들이 많이 들어왔다. 나 혼자서는 모두 확인할 수 없어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf5rwf2",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "정체를 알 수 없는 사람이라... 우리는 의심스럽지 않나 보네?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf70io3",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용병은 눈앞의 이상한 옷차림을 한 두 사람을 또다시 위아래로 훑어봤다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfvh06d",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "아무리 봐도 너희들의 그 복장은 어디 것인지 모르겠단 말이지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfof9os",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그래도 너희가 스파르타, 코린트, 포키스 용병과 아무 관계도 없다는 건 확신할 수 있어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfl79zd",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "페리클레스를 암살하려는 자들이라면 그렇게 이목을 끌 리는 없을 테니까.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfyp87v",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "기이한 침묵이 흐른 후, 해적의 놀란 소리가 하늘까지 울려 퍼졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfsropm",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "뭐!!! 페리클레스를 아, 암살하려고 하다니?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svffarwq",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "우리에게 전설에 나오는 극악무도한... 사람을 죽여도 눈 하나 깜빡하지 않는 악당을 상대하라는 거야?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfg52ep",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "아무래도 전설은 과장된 부분이 있지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfxfwmc",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "게다가 그 이상 알아봤자 너희한테 좋은 것도 없어. 내가 말하는 대로 하는 게 더 쉬울 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfsm2mx",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "캡틴이 예의 바르게 고개를 끄덕이며, 다른 쪽을 향해 작은 소리로 속삭였다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svflutv8",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "버틴, 협력에 관해 다시 생각해봐야 할 것 같아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svflcgwn",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "어서 움직이자, 레굴루스.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf9sw3z",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "레굴루스의 농담은 가차 없이 무시당했다. 근처에서 어렴풋이 들려오는 노랫소리가 모두의 주의를 끌었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf6rz9z",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "어, 저쪽은...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf0i3lq",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "On Sun-Kissed Vines",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfgpynh",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "떠들썩한 인파가 서서히 몰려오면서 그들 앞에 펼쳐진 땅을 구석구석 물들였다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfd8is1",
+     "kind": "line",
+     "sp": "취한 행인",
+     "en": "",
+     "ko": "아테네에 어서 와~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf7gmge",
+     "kind": "line",
+     "sp": "취한 행인",
+     "en": "",
+     "ko": "외지인들~ 한 잔 어때?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfm61qj",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "이건...?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf0b3f9",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "디오니소스 축제가 시작됐어. 그리고 지금이 바로 너희들이 섞여들기 좋은 타이밍이야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfpjo02",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "...물론 적당히 노는 것도 나쁘지 않겠지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfvty03",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "알겠어. 주변에 의심스러운 사람이 있으면 눈여겨볼게.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfj5kg7",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "하지만 용맹한 캡틴은 카산드라의 뒷말만 들은 것 같았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfryaim",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "적당히 놀라고...? 하지만... 미스터 APPLe이...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfc7s9b",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "캡틴이 고통스러워하며 고개를 떨궜다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfpgqij",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "이 캡틴이 반드시 디오니소스 축제를 샅샅이 뒤져 구해줄게...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfoiadp",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀의 목소리가 발소리를 따라 빠르게 멀어졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfj86k0",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "버틴, 네가 증인이야. 알았지?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfnjnv4",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "디오니소스 축제... 내가 간다!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svflzwjr",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그녀를 놓치지 마, 버틴. 그리고 겸사겸사 주변도 잘 살펴봐 줘.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf429ra",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "난 다른 곳을 살펴볼게.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svffgi6i",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "알겠어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfijl8o",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "버틴, 이 그릇 좀 봐. 우리 로비에 장식하면 딱 어울릴 것 같은데!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf0essj",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf2n1vc",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "오, 캡틴의 새로운 린넨 로브 어때? 그래. 이건 여름에 공해 여행을 떠날 때 입는 게 더 어울릴 것 같아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfrwmj6",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "크흠, 레굴루스. 우리 뭐 잊은 거 있지 않아?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfk5jb5",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "역시나, 캡틴을 유혹하는 건 한 두 개가 아니었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfdy1wk",
+     "kind": "line",
+     "sp": "디오니소스 축제 상인",
+     "en": "",
+     "ko": "아가씨들, 자신만의 디오니소스 축제 가면을 하나 만들어볼 생각은 없나요?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfjw9g2",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "다정하게 부르는 소리에 고개를 돌리자 나무, 가죽, 버드나무 가지, 등나무 줄기, 다양한 색상의 광물과 곤충 염료가 테이블 위를 가득 차지하고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfa7b0h",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "미안한데 우리가 좀 바빠서...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf52zzv",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "당연히 있지!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf7chhk",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "신바람 난 해적이 이런 즐거운 일을 놓칠 리가 없었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfpna54",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "그들에게도 기회를 줘야지, 버틴. 내가 APPLe 라디오를 진행했던 시절에는 그런 열정적인 청취자들이 얼마나 많았는데~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svflwq1o",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "그들에게 있어서 내가 직접 사인한 물건은 묘비에 새겨 넣을 정도로 가치가 있었다니까!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfwdu1r",
+     "kind": "line",
+     "sp": "디오니소스 축제 상인",
+     "en": "",
+     "ko": "하하, 이쪽으로 오시죠, 아가씨.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfbrss6",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "두고 봐, 친구. 이 캡틴이 너를 위해 지금 바로 우주에 유일무이한 한정판 레굴루스 가면을 만들어줄게!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfcfzwq",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "캡틴은 손에 든 걸작을 감상하느라 용병이 돌아왔다는 걸 전혀 알아차리지 못했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfvk3r1",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "디필론 성문과 에레크테이온 신전 대로 구역에서는 아무 이상도 발견하지 못했어. 너희 쪽... 은?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf92hsr",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "시선을 사로잡는 가면 두 개에 카산드라는 말문이 막혀버렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfcap87",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "거의 지중해 전역을 돌아다녔던 전설의 독수리를 거느린 자는 기상천외한 비극의 시인과 조각가를 많이 봐왔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfaijge",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "내가 이해할 수 있는 스타일은 아닌 것 같네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfzrix0",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "손 하나가 뻗어져 나와 가면을 조용히 치웠다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfm4hyl",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "이 시대에는 확실히 좀 앞서간 디자인이긴 했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf0xhzh",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용병이 무언가 더 말하려고 했지만, 갈수록 커져 오르는 환호성이 모두의 귀를 덮어버렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfd9n4w",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfzb2h5",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "멀지 않은 곳에서 환호성이 들려오고, 노랫소리와 술이 하늘을 향해 뿌려졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfmwhgn",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "제물이 가득 담긴 과일 바구니가 기이하고도 화려한 옷을 걸친 소녀들의 머리 위에 얹어져 있었고, 활활 타오르는 횃불이 의장대의 손에서 춤추듯이 흩날렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfmgzha",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "긴장 풀어, 버틴. 디오니소스 축제의 퍼레이드가 시작된 거뿐이니까.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfkd9ns",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "퍼레이드 행렬은 아고라 구역에서 합류할 거야. 디오니소스 축제에서 가장 성대한 순간이기도 하지...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfxmbds",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "이곳은 축하하는 사람들로 물 샐 틈 하나 없이 가득 차겠지. 내가 만약 나쁜 짓을 한다면 반드시 이 순간을 노릴 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf1yayn",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용병이 갈수록 붐비는 인파를 날렵하게 피하면서 뒤에 있는 두 사람을 향해 손을 흔들었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfdttfl",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "등 뒤의 두 사람은 맑게 울려 퍼지는 독수리 소리에 시선을 옮겼다가 다시 고개를 돌렸는데, 용병은 이미 온데간데없었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfadndr",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "지상은 너희에게 맡길게. 난 하늘을 맡겠어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf5x2op",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "정말 떠들썩하네. 하지만...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfwvyel",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf7ho1w",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "레굴루스, 버틴.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfcexti",
+     "kind": "line",
+     "sp": "레굴루스&버틴",
+     "en": "",
+     "ko": "?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfhgiwz",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "너희가 찾는 미스터 APPLe 말인데, 혹시 저 사과야?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfyevi8",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfjph84",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "아무래도 찾은 것 같아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf5yrg2",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "보아하니 디오니소스가 내린 중요한 사명을 짊어지게 됐나 보네.",
+     "star": false
+    }
+   ]
+  },
+  "5": {
+   "lines": [
+    {
+     "id": "mwhu7svfdzbtd",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "더 빠르게, 더 높게, 더 강하게...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfuffm2",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "On Sun-Kissed Vines",
+     "star": false
+    },
+    {
+     "id": "mwhu7svftmiry",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfybn80",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "시끄러운 노랫소리와 흔들리는 과일 바구니 속에서, APPLe의 과육이 갈수록 창백해졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svftz5kb",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "저 APPLe의 과육과 씨가 점점 분리되는 것 같습니다...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfodfp3",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "살려주세요... 캡틴...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf8hoxv",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "퍼레이드 행렬이 모여들면서 점차 하나의 거대한 홍수를 이루었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfir8zv",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "형형색색의 깃발과 등나무 줄기로 엮은 쿠션이 하늘로 던져지고, 온갖 색상의 신화 가면을 쓴 사람들과 꽃마차가 대로를 물 샐 틈 하나 없이 막아버렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf5c4oy",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "카산드라, 버틴... 뭐라도 해야 하지 않을까!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfe2jza",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "APPLe 과일주 라디오로 이름이 바뀌면 청소년 청취자가 엄청나게 떨어질 거라고!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfwlmzx",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "저기! 잠깐 좀 지나갈게...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf4z2st",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "절박해진 캡틴은 용감하게 앞을 밀치며 나아갔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svffcgpo",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "미스터 APPLe, 내가 구하러 왔어! 조금만 기다려!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfu4b9e",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그 아무리 거센 파도라도 용기라는 배를 타고 일등 항해사를 구하러 가는 의리 있는 캡틴을 막을 수 없었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfin0cj",
+     "kind": "line",
+     "sp": "퍼레이드 중인 신도Ⅰ",
+     "en": "",
+     "ko": "아가씨, 내 로브를 밟으면 어떡해. 조심 좀 해~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfqq97g",
+     "kind": "line",
+     "sp": "퍼레이드 중인 신도Ⅱ",
+     "en": "",
+     "ko": "손을 들어 올려봐. 바로 이렇게 말이야, 하하. 디오니소스를 위하여!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svftncrh",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "레굴루스, 조심해. 인파에 휩쓸리지 않게 내 손을 꽉 잡아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfn74l6",
+     "kind": "combat",
+     "sp": "",
+     "en": "",
+     "ko": "인파가 점점 멀어졌다. 인파 속으로 휩쓸린 사람도 있고, 파도에 육지 위로 내던져진 사람도 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfamyvi",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "레... 레굴루스?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfz6w9x",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "캡틴의 소매는 온데간데없고, 떫은 냄새를 은은하게 풍기고 있는 불규칙적인 푸른색 사과 한 개가 그 자리를 대신하고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svflnpw6",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfvdpep",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "추진력이 좋아 보이지만 너무 충동적이야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfw6ayz",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "인파를 피하는 최선의 방법을 아직 배우지 못했나 봐.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svflzfnn",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "어?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfn69m0",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "소리를 따라 시선을 옮기니 카산드라가 지붕 위에서 서서 그녀를 향해 손을 뻗고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf64g5t",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "올라오지 않을 생각이야, 버틴?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfaft0y",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "시간은 기다려주지 않아. 내 경험상 이 길이 그들을 가장 빨리 따라잡을 수 있는 지름길이야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfda684",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "...넌 정말로 레굴루스와 말이 잘 통할 것 같네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf4mqvm",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "쓸데없는 소리는 그만하고... 자, 버틴. 내 손을 잡아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfts4jg",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "내가 처음 포도 덩굴 지지대에 오르려 했을 때, 너보다 더 긴장했어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfhwoua",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "그러니까... 이게 지름길이라는 거야?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfvno7d",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그래.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf943sf",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfd6803",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "우선 두 건물 사이의 거리를 대략적으로 계산해야 해. 도약 속도와 점프 높이를 적당히 조절해야 하지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf9vw5g",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "몸을 긴장시키고, 전방을 주시해. 그리고 착지 지점을 파악해.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfgvalq",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "바로 이렇게...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfrilhp",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "착지할 때는 무릎을 살짝 굽히고, 빠르게 균형을 잡아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf2gbd3",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "맞은편 지붕에서 안정적인 발소리가 들려왔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf9z3eh",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf0o06b",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "시선이 지붕 사이에서 점점 흐트러지더니 다리까지 살짝 떨렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfmb844",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "아테네의 지붕 사이가 원래 이렇게 멀고 험난했나?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfkw0ma",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "심호흡한 후 점프했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf64k13",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "머릿속의 그 모습을 상상하면서...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf9w8q2",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "버틴, 조심해!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf4898c",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Assassin's Creed - The Flight",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf2i9fj",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "윽...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfgg79v",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용병이 떨어질 뻔한 몸을 안정적으로 받아냈다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfitqon",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "고마워, 카산드라.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfmi5t9",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "미안, 내가 좀 성급했나 봐. 동작 자체에는 큰 문제가 없었지만, 아직 훈련이 좀 필요할 것 같아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfzgctx",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "사죄의 뜻으로 더 빠른 방법으로 가도록 하지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfnha3e",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "아까보다... 더 위험한 거야?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfwd5kb",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "아니, 아주 안전해.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfs8d01",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "벽 사이의 튀어나온 벽돌을 눈대중한 용병은 멀어서 희미하게 보이는 신전으로 시선을 옮겼다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfkvr49",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "몸에 힘 풀어, 버틴.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svf29gyx",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "...?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfi3uij",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "힘이 넘치는 팔이 그녀를 감싸 올랐다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfi13e9",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그리고 바로 뒤이어 바람이 계속해서 얼굴을 스쳐 지나갔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svfzfiec",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "이건 감탄을 표할 수밖에 없네, 카산드라.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgzcksm",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "하지만 어떻게 내려가야 하지?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgft51w",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "한 바퀴, 두 바퀴... 처마 주변을 계속해서 맴돌며 주위에 튀어나온 벽돌이나 대들보가 있는지 살폈다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg02r0h",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "안타깝게도 신전의 보수를 담당하는 장인들은 책임감이 상당한지 신전의 벽은 먼지 한 톨조차 묻지 않은 것처럼 깨끗하고 가지런했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgvupld",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "당황할 것 없어. 좀 더 꽉 붙잡기나 해.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgpbnpq",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "귓가에 또다시 부드러운 바람이 스쳐 지나갔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg3u1lz",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그리고 뒤이어 몸이 또 한 번 가볍게 떠올랐다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgno18x",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "왜 이곳에 두었는지 알 수 없는 짚 더미가 두 사람을 안정적으로 받아냈다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgcrncj",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "두근거리는 심장이 서서히 가라앉으면서 발걸음도 점차 안정을 되찾았다. 앞뒤로 한 줄을 이룬 그림자가 신전에 조심스럽게 숨어들었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgdwq47",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "이번 여정은 내가 예상했던 것보다 훨씬 더 스릴 넘치는 것 같아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg0ucyw",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "용병에게 ‘스릴’ 넘치는 여정은 일상이나 다름없지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgqu583",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "뭐야?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg38c0g",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "뒤늦게 도착한 캡틴이 숨을 헐떡였다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svggjlz8",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "어, 어떻게 나보다 더 일찍 도착할 수 있는...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgce4r8",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용병이 빠르게 다가가 레굴루스의 항의 소리가 새어나오지 못하도록 입을 즉시 막아냈다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgczufb",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "쉿... 안에 무언가 있어.",
+     "star": false
+    }
+   ]
+  },
+  "6": {
+   "lines": [
+    {
+     "id": "mwhu7svgzuseh",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "장인의 밤중에 솟구치는 영감은 멈출 수 없다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgste5f",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "신전 내부",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg15xdw",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "깜빡이는 등불이 신전의 부조물을 비추는 가운데, 수상한 그림자 몇 개가 마이나스(Maenads)와 사티로스(Satyr) 사이를 가로질렀다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgfv9ht",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Black Humor",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg5oeth",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "카산드라, 네가 말한 이상한 점을 발견했어!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg0vzdk",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "일부러 목소리를 낮춘 해적이 상당히 심각한 표정을 지었는데, 그 모습은 마치 합이 잘 맞는 오래된 친구 사이 같았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgpeo90",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "이 벽화들을 봐. 몸을 흔드는 아가씨들, 음악에 심취한 비스티 보이즈 팬들, 그리고 제멋대로 행동하는 산양 가죽 모자를 쓴 녀석...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgy3uuw",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "세상에... 그런데도 이곳이 로큰롤의 신을 섬기는 게 아니라고?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgjo76a",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "크흠...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgoi2rs",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "...역시 시공이 뒤죽박죽된 거야!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgunx5k",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "이건 단순히 디오니소스가 마침 혼돈, 열정, 그리고 자유를 대표하는 신이어서 그런 거겠지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgq6ecq",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "그래, 그래~ 몇천 년 일찍 태어나버린 로큰롤 마니아일 뿐이라는 거잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgjd1vn",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "스산한 찬바람이 한차례 스쳐 지나갔다. 긴장된 분위기를 풀고자 한 캡틴의 작전은 실패로 끝났다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgxppc5",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "레굴루스... 아무래도 아직 내가 알아야 할 게 많은 것 같군.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgx5l5u",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "카산드라는 무언가 더 말하고자 했지만, 바람에 따라 흔들리는 띠에 시선을 빼앗겨 버렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgc0icz",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgdogrt",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "The Revelation of Anangu",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg02hdz",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "카산드라가 띠를 확 잡은 후 조심스럽게 잘라냈다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg9mp3p",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "지렁이 같은 괴상한 무늬가 띠 위를 꿈틀꿈틀 기어가는 것 같았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgy44hp",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "헤이, 친구! 그렇게 보지 마! 이건 절대 우리가 한 일이 아니야!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg3ouil",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "언뜻 봐서는 비슷하긴 하지만, 이걸 준비할 시간이 없었다는 것쯤은 알고 있어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgx9vt3",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "카산드라가 띠를 문지르자 곧바로 석탄처럼 검은 자국이 한 줄 생겨났다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgi4utg",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "미리 말하지만, 너의 공공기물 파손 행위에 나는 관여하지 않았다는 건 확실히 해두자.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg8z8h6",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "소리 좀 낮춰.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgb16kf",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "이건 아테네 공예가들의 솜씨가 아닌 것 같아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgmcs0l",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그들은 이렇게 신을 모독할 배짱이 없거든.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg4dhy0",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "이게 바로 그 페리클레스 암살의 현상 수배서야? 여기에 묶인 띠에도 비슷한 기호가 있네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg4k8ni",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "이 정도로 비슷하면 우연의 일치라고 할 수 없지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg9mjbf",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "레굴루스는 눈이 튀어나올 정도의 숫자로부터 애써 눈을 떼며, 그보다 더 관심을 가져야 할 문제에 시선을 돌렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgwky9p",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "현상금은 일단 제쳐두고... 그보다 음산한 바람이 끊이지 않는 이곳에서 미스터 APPLe을 찾아내는 게 급선무가 아닐까?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgezm3e",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "과일의 유통기한은 우리가 생각하는 것보다 훨씬 더 짧다고.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgzu17j",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "물론이지. 하지만 그 전에 너희들의 안전을 확보해야겠어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgmrzpy",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "카산드라가 허리를 굽히며 손가락으로 대리석 타일을 문질렀다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg2aqu3",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "여러 개의 발자국 위에 젖은 흙이 희미하게 섞여 있었는데, 그것은 신전의 내부 홀로 조용히 뻗어 나가고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgk4s8o",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "아무래도 우리 예상보다 이곳을 다녀간 자들이 많은 것 같아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg4r53l",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "발자국의 크기와 깊이가 다 달라서 정확히 몇 명인지는 알아낼 수 없겠는걸.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg89sl7",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "이곳을 드나드는 건 공물을 바치는 신도뿐이야. 조각상을 운반하는 의장대도 축제가 끝나기 전까지는 이곳으로 돌아오지 않아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg4ntmd",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "그러니까 너 말은... 이 신전 안에 아직도 폭도들이 숨어 있다는 거야?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svggkmd6",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그럴 가능성이 높지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgbno6k",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "카산드라가 몸을 낮추며 내부 홀을 조심스럽게 살폈다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgd0cjk",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "무슨 일이 있어도, 내 뒤에 서 있어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg62qbc",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "걱정마, 나 자신은 지킬 정도의 실력은 있으니까~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgm0lka",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Forest",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgniw5x",
+     "kind": "line",
+     "sp": "‘공예가’Ⅰ",
+     "en": "",
+     "ko": "조심해, 티몬. 항아리를 깨뜨리기라도 하면 어쩌려고 그래! 독수리보다 더 날카로운 눈을 가진 독수리를 거느린 자에게 흔적이라도 남길 생각이야?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgin0he",
+     "kind": "line",
+     "sp": "‘공예가’Ⅰ",
+     "en": "",
+     "ko": "아리스토스, 이 멍청한 녀석, 설마 갈대 펜을 처음 써보는 거야?! 그 숯 가루는 싸구려가 아니라고!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgk3zx7",
+     "kind": "line",
+     "sp": "‘공예가’Ⅰ",
+     "en": "",
+     "ko": "데이모스 님을 화나게 하면 우리 모두 끝이라는 걸 몰라?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgjuo0v",
+     "kind": "line",
+     "sp": "‘공예가’Ⅱ",
+     "en": "",
+     "ko": "리시아스, 작업하는 걸 방해할 생각은 없는데... 우리가 작업하는 소리보다 네 목소리가 더 커.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgrtfdl",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그건 나도 동의해.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svga0ih1",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "‘서풍’이 한 차례 스쳐 지나가면서 차가운 창이 상대의 목에 겨눠졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgwh7s9",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "내가 알기로 아테네의 공예가들은 자신의 작품에 열정을 쏟는데 말이지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgzeow6",
+     "kind": "line",
+     "sp": "‘공예가’Ⅱ",
+     "en": "",
+     "ko": "도... 독수리를 거느린 자?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgg3zey",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그런데... 장소도 맞지 않고, 신분은 더더욱 맞지 않네?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg10jbe",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용병의 말은 부러진 창보다 더 차가웠는데, 창이 겨눠진 상대의 목이 덜덜 떨릴 정도였다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgmj3hr",
+     "kind": "line",
+     "sp": "‘공예가’Ⅱ",
+     "en": "",
+     "ko": "우... 우리는 권세 있는 높으신 분의 부탁으로 벽을 칠하러 온 공예가야. 아, 알다시피 곧 디오니소스 축제잖아...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgg65lb",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "시치미 그만 떼. 너희들은 디오니소스 축제와 아무 관련도 없잖아? 하지만 처음에 한 그 말은 사실이겠지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg5ygvj",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "말해! 그 ‘권세 있는 높으신 분’은 어디 있지?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgxbepy",
+     "kind": "line",
+     "sp": "‘공예가’Ⅱ",
+     "en": "",
+     "ko": "너, 너...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgvlr5j",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "‘공예가’가 손에 든 줄칼을 한층 더 꽉 쥐었다. 어둠 속에서 이를 악문 분노의 외침이 다른 공예가의 입에서 튀어나왔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgyaf7d",
+     "kind": "line",
+     "sp": "‘공예가’Ⅰ",
+     "en": "",
+     "ko": "젠장, 이 이상 시치미 떼봤자 의미 없어. 해치워버려!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg4st7c",
+     "kind": "combat",
+     "sp": "",
+     "en": "",
+     "ko": "충돌은 꽤 빠르게 진압됐다.\n레오니다스의 창이 ‘공예가’들의 허접한 위장을 베어내자 검은 강철 흉갑과 보호 장갑이 로브 속에서 모습을 드러냈다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg0yzde",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그 무장은... 역시 코스모스 교단이 맞았네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg5px21",
+     "kind": "line",
+     "sp": "‘공예가’Ⅰ",
+     "en": "",
+     "ko": "화를 돋우는구나, 독수리를 거느린 자.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svguo774",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그가 흉악한 가면 하나를 얼굴에 썼다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgewz0i",
+     "kind": "line",
+     "sp": "‘교단원’Ⅰ",
+     "en": "",
+     "ko": "보잘것없는 그 목숨을 아꼈다면...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgalfjb",
+     "kind": "line",
+     "sp": "‘교단원’Ⅰ",
+     "en": "",
+     "ko": "우리에게 맞서지 않았겠지!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgobpr6",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그가 숨겨둔 도끼를 들어 앞을 막으며 카산드라를 향해 으르렁거렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgzxyh8",
+     "kind": "line",
+     "sp": "???",
+     "en": "",
+     "ko": "...잠깐.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgqx5z7",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "어둠 속에서 싸늘한 목소리가 들려왔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg3xe4t",
+     "kind": "line",
+     "sp": "???",
+     "en": "",
+     "ko": "내가 상대하지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgtf35c",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "이 목소리는... 네가 바로 그 ‘권세 있는 높으신 분’인가 보네, 알렉시오스.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgn04xg",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "오랜만이야, 부러진 창을 든 용병... 아니, ‘누나’라고 불러야 하나?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgkzpda",
+     "kind": "line",
+     "sp": "‘교단원’Ⅰ",
+     "en": "",
+     "ko": "데이모스 님, 죄송합니다. 실패했습니다...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgd96ja",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "닥쳐! 이 멍청한 놈들... 어서 내 눈앞에서 꺼져.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg1du88",
+     "kind": "line",
+     "sp": "‘교단원’Ⅰ",
+     "en": "",
+     "ko": "예, 예...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgxahd6",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "널 보게 될 줄이야. 예상치 못했지만 어찌 보면 당연하기도 하네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg6y22h",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "쓸데없는 참견은 그만하라고 했을 텐데, 카산드라.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgycnv6",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "...귀담아 듣지 않는군.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg82mv7",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "The Prisoner in the Cave",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgge5jc",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "넌 코스모스 교단에 속고 있는 거야. 페리클레스를 죽이는 게 어떤 의미인지 전혀 모르고 있잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg1jdz8",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "교단의 명을 거슬렀으니 당연한 거다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgku2no",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "교단에는 계획이 있다. 그리고 우리의 앞을 막는 사람은 그것에 대한 대가를 치러야 할 뿐.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgbv70y",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgsj4rk",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "파멸은 평화를 가져다주지 않아, 알렉시오스.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg8to9j",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "그건 맹목적인 충성도 마찬가지지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgn6bkj",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "알렉시오스는 다모클레스의 검을 꽉 쥐며 주변을 경계하면서 살폈다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgaeckr",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "알록달록한 띠가 신전의 대리석 기둥에 묶여 있고, 옆에는 항아리와 주전자가 놓여 있었다. 코스모스 교단원은 허겁지겁 달아나느라 현장을 정리할 겨를이 없었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgcc5iy",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "페리클레스를 죽이고 싶다면... 그 전에 나를 넘어야 할 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svggooo1",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "카산드라가 부러진 창을 들어 올리며 언제든지 공격할 수 있는 자세를 취했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgd5f8c",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg1q9xd",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "알렉시오스는 제자리에 선 채 여러 차례 심호흡한 끝에야 가슴에 쌓인 분노를 억누를 수 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgr7efs",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "내가 너를 봐주는 건 이번이 마지막이다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgjw0if",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "연막탄 하나가 바닥에 사정없이 던져지고, 짙은 연기가 피어올랐다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg8z1jp",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "...?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgd3x3w",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "알렉시오스의 비정상적인 태도를 깊이 생각하기도 전에 멀지 않은 곳에서 누군가 외치는 소리에 카산드라는 생각을 멈출 수밖에 없었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgxb23e",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "카산드라, 어서 도와줘!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgzl1om",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "캡틴... 버틴... 저 APPLe은 여기에 있습니다...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg4xsca",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "시럽과 벌꿀 범벅이 된 과일이 힘겹게 구조를 청했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgpu7or",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "끈적이는 액체가 버드나무 가지 과일 바구니에서 떨어지고, 새 몇 마리가 버드나무 가지 주위를 맴돌았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svghu6xx",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "아무래도 도움이 필요할 것 같군.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg2ytsq",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "‘독수리를 거느린 자’라는 이름으로 불리는 용병이 고개를 들고 팔을 들어 올렸다. 잠시 후, 독수리의 맑은 울음소리가 대리석 기둥 사이에서 메아리쳤다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgwyq3d",
+     "kind": "line",
+     "sp": "이카로스",
+     "en": "",
+     "ko": "\"키이익!!!\"",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgtdcdb",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "독수리 씨, 발톱에 주의해 주세요. 저는 아테네 본토의 품종이 아니다 보니 껍질이 그리 튼튼하지 않답니다...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svggyxgj",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "아... 감사해요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgw62bq",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "달콤한 열매가 안정적으로 착지하면서 열정적인 포옹을 맞이했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svglp3gm",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "On Sun-Kissed Vines",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgfmxnm",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "다시 만나서 반가워, 일등 항해사! 조금만 더 늦었으면, APPLe 라디오에서 네 부고를 읽어야 할 뻔했잖아!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgcuqri",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "만나서 정말 기뻐요, 캡틴.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgfp8wh",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "저 APPLe도 27세 클럽에 가입하는 건가 걱정했습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgdvo34",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "물론이지! 이 캡틴이 그런 일이 일어나는 걸 두고 볼 리가 없잖아! 내 허락 없이는 죽으면 안 돼!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgzm0bo",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "드디어 일등 항해사를 되찾은 캡틴은 상당히 열정적이었다. 그녀는 까치발을 하며 카산드라의 어깨를 기세 좋게 토닥였다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg95h3t",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "나중에 APPLe 라디오에서 틀 감사 곡에 관해 특별한 요구 사항 있어? 예를 들어 독보적으로 멋진 제목이라던가...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg15vd3",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "<영웅과 도시 국가 밖에 울려 퍼지는 한밤중의 독수리 울음소리>, <신전 가장자리의 속삭임, 달빛 아래에서 사랑과 용기가 함께 춤을>, <자유롭게 타오르는 어두운 밤, 별과 독수리를 거느린 자가 우리를 인도하리라> 같은 거 말이야...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgq04m8",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "...그 비극 제목들은 내가 이해할 수 있는 게 아닌 것 같네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgwvm50",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "도와줘서 고마워, 카산드라.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgw1gh9",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "천만에. 이렇게 서로 돕는 거지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgvfi3g",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "별거 아니라고 생각하는 그녀는 전혀 개의치 않는다는 듯 소매를 가볍게 털었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgvwfn4",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "...그걸로는 우리의 감사를 다 표현할 수 없어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgwe486",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "APPLe을 구해준 보답으로 너만 괜찮다면 페리클레스 암살 사건의 조사를 계속 돕고 싶어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgf12x4",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "그래! 미스터 APPLe은 이 시기의 역사를 아주 잘 알고 있거든. 우리의 박식함이 분명 도움이 될 거야!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg340hw",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "좋아, 너희는 항상 이해하기 어려운 이상한 말을 하지만...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgnkya8",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "계속 협력하게 돼서 정말 기뻐.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgjeob7",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "서로의 손을 열정적으로 맞잡았다.",
+     "star": false
+    }
+   ]
+  },
+  "7": {
+   "lines": [
+    {
+     "id": "mwhu7svge23i8",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "난 나의 친구를 사랑하지만, 그보다 정의를 사랑한다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg7l1ds",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Ongoing - Reasoning",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgcymb0",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "공예가로 위장해 신전에서 소란을 피운 수상한 녀석들은 바로 코스모스 교단원이야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgqu3xj",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "코스모스 교단은 단순히 신전을 파괴하는 것에 그치지 않아. 신전에 이상한 도안과 기호를 남겼지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgyogsx",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그 현상 수배서에도 비슷한 게 있었어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgqsg6i",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "비슷한 기호를 썼다면 코스모스 교단과 공범일 가능성이 매우 크겠는데...?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg92slz",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "그러니까 이상한 기호가 새겨진 물건을 가진 모든 사람을 조사해야 한다는 거네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgodmno",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그래.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgxs6jl",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "대체 어디에 숨어있는 걸까...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgbk2fg",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "아고라, 플라카 구역, 파나티나이코 대로... 어디에도 코스모스 교단의 흔적은 없었어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgsuvfz",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "알렉시오스가 갑자기 나타나지 않았다면 어젯밤 일은 환각으로 의심했을지도 몰라.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg555h6",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "디오니소스 극장에서도 그런 수상한 사람은 보지 못했어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg95ebd",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "두 사람이 이야기를 나누고 있는데, 멀지 않은 곳에서 열렬한 환호성이 울려 퍼졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg6lujr",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "The Restless Floating Points",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgc76t4",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "친구들, 아주 큰 수확이야! 그 이상한 기호와 관련 있는 수상한 사람들을 잔뜩 발견했어!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg0eler",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "거만하게 앞장선 캡틴의 양옆에는 아테네의 경비병이 고개를 쳐들고 가슴을 펴며 따라오고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg9q9px",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "아테네 경비병 뒤에는 물에 적신 소가죽 끈에 묶인 ‘용의자’들이 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgplrjl",
+     "kind": "line",
+     "sp": "아테네 경비병",
+     "en": "",
+     "ko": "카산드라 씨, 저희도 페리클레스 님의 도움이 되고 싶습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgompsr",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "잠깐, 왜 너희들이 여기 있는 거지?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgg4e6d",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그리고 저기 붙잡힌 사람들은 설마...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgthmf7",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "그래. 네가 생각하는 그게 맞아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg3eprn",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "이 수상한 사람들을 잡은 게 다 이 해적님 덕분이라는 거지!!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg7lsuy",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "내가 이 열정적인 경비병들에게 집정관 페리클레스 씨가 지금 어떤 위험에 처해 있는지 진지하게 설명해 줬어. 상황을 알자 페리클레스를 위해서라면 기꺼이 도움을 주겠다고 하더라고. 음... 크흠, 다소 ‘강경’하긴 했지만.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg2qf6l",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "이건 인정해야겠네. 일 처리 속도만 본다면 너한테도 용병의 자질이 있는 것 같아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgk4nu5",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "...부디 외교적인 일로 번지지 않았으면 좋겠네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgwwwbv",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "괜찮아, 버틴. 조사는 네가 맡아. 나머지는 내가 처리하지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgd23e7",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "알겠어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgm6ud4",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "에헴! 역시 내 절친이야, 고마워!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg5pjrm",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그리고 마침내 모두의 시선이 다시 눈앞의 수상한 사람들에게 집중됐다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svghg0gl",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "우리의 조사에 협조해 줘서 고마워.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgd61n8",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "지금부터 논리적인 추론을 통해 유죄 또는 무죄를 판단할 거야. 당신들은 자신이 코스모스 교단과 어떤 관계인지 명확히 밝히면 돼.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg7o11i",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "자, 그럼 첫 번째 사람부터 시작할까.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg71394",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "머리까지 벌벌 떨던 그 자는 목을 움츠리며 고개를 들었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg0ynjm",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Debate Battle",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgyhkls",
+     "kind": "line",
+     "sp": "수상한 사람Ⅰ",
+     "en": "",
+     "ko": "선생님, 제, 제 죄를 인정하겠습니다...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgzfqx5",
+     "kind": "line",
+     "sp": "수상한 사람Ⅰ",
+     "en": "",
+     "ko": "헤시오도스 대로에서 얼굴이 번질번질한 녀석들을 계속 관찰했던 건 사실입니다. 그리고 따로 기록한 것도 인정하지만...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgv19sp",
+     "kind": "line",
+     "sp": "수상한 사람Ⅰ",
+     "en": "",
+     "ko": "제가 아무리 그림을 못 그린다고 해도 코스모스 교단의 신도로 몰아세우는 건 너무하지 않습니까...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg0nhgu",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgkgkyi",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그는 코스모스 교단과 관계가 없는 것 같네. 경비병들에게 넘기자.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgticrt",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그럼 다음.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgzheph",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "축제용 등잔... 3 드라크마... 축제용 특선 포도주... 50 드라크마... 축제용 특제 리라... 600 드라크마...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgpnp8q",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "따로 숨겨진 뜻이 있는 건가?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg932bj",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "풀어줘도 될 것 같아, 버틴. 이건 평범한 거래 명세서일 뿐이야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgu4l61",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그래도 노린 건 아니지만 악덕 상인을 한 명 찾아냈네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svglm74h",
+     "kind": "line",
+     "sp": "수상한 사람Ⅱ",
+     "en": "",
+     "ko": "제, 제가 무슨 죄를 저질렀다고 그러십니까!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgrl4v9",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "흐음... 소티리우스 씨라 했나? ‘축제’라는 명목으로 물건값을 몇 배나 올리는 게 정당하다고 생각하나?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgrnx37",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "나는 상인의 논리를 이해하지 못하지만, 용병이 드라크마 한 닢에도 목숨을 걸어야 한다는 것쯤은 알아. 그리고 아테네의 빈민들도 마찬가지겠지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgyuxgc",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그러니 다시는 가격을 부풀리는 짓을 하지 마. 그렇지 않으면...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg7lsef",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "카산드라가 부러진 창을 꺼내 손바닥을 탁탁 쳤다. 그녀의 위협을 뒤로하고, 아테네 경비병들은 벌벌 떠는 상인을 곧바로 심문 현장에서 끌고 나갔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgv5ts3",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "다음은...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgwpwqp",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "여기 입니다, 여러분.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgf31p1",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Black Humor",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg37v80",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "사과...?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgwdpd8",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "맞아. 이 캡틴이 빈틈없이 조사하면서 이 용의자를 발견했지... 바로 나의 친구를 말이야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgbukpo",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "침통한 목소리로 말을 마친 캡틴은 머나먼 거리의 끝을 바라봤는데, 그 모습은 위엄 있어 보이면서도 단호했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgm01g3",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "그가 그 사악한 과일 바구니에서 무슨 일을 겪었는지는 모르겠지만, 그래도 나는... 우리가 어떤 희생을 치르더라도 항상 정의의 길을 걷기를 바라!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgikt4z",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "역사서의 기록에 따르면 저 APPLe에게 쓰인 시럽과 벌꿀은 디오니소스 축제에 전통 제사를 올리거나 양조를 준비할 때 쓰인 걸로 추정됩니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgai5hj",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "수상한 교단의 비밀 기호가 아니라요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgnfzri",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "동의해. 코스모스 교단은 외부인을 쉽게 받아들이지 않아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgv76jd",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "더욱이 말을 하는 사과를 믿을 리도 없지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg7egto",
+     "kind": "line",
+     "sp": "레굴루스&APPLe",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgej5k3",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "조사는 난항을 겪을 수밖에 없었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgiequy",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "카산드라, 코스모스 교단원으로 의심되는 암살자를 한 명 잡았다고 했었지?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgl2s9e",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "어. 하지만 그 녀석도 그렇고 도망친 그의 동료도 그렇고, 위장을 꽤 잘해서 코스모스 교단과 관련된 단서를 하나도 찾지 못했어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg438oh",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "단서라고 할 만한 건...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg7dpy1",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그녀가 노획했던 그 흉기를 꺼냈다. 이 조잡한 줄칼은 당시 의회 회장에서 집정관들을 놀라게 했지만, 그 후에는 아무도 눈길을 주지 않았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgvt9ag",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "원래는 이걸 증거로 삼으려고 했어. 그 녀석을 몇 번이나 심문했지만, 안타깝게도 생각했던 것보다 입이 무겁더라고.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgwc9oh",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "너무 큰 기대는 하지 마, 버틴. 그 녀석, 코스모스 교단에서의 처벌을 두려워하고 있어. 다른 교단원을 잡기 전까지는 입을 열지 않을 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svghyrwv",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg7oq4l",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "희망은 아득하고도 희미한 빛처럼 순간 반짝였다가 다시 어둠에 잠겼다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg82cih",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "잠깐, 카산드라. 방금 ‘도망친 그의 동료’를 봤다고 했지?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgb5mw7",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "어. 자신의 임무에 관해 이야기하는 중인 것 같았어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgrgkhw",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그 두 사람이 ‘현자’, 그리고 ‘줄칼’에 대해 계속 언급했는데... 잠깐.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg5j0us",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "생각이 번개처럼 빠르게 스쳐 지나가면서 용병의 머릿속에 그날의 장면이 점차 떠올랐다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg7iwdf",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Bedtime Stories",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg8446l",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "그런데 조직의 소식은 대체 어떻게 전한 거야? ‘현자’는 분명 우리에게 아무것도 알려주지 않았는데...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svglk3gb",
+     "kind": "line",
+     "sp": "지혜로운 '극작가'",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg5cpsc",
+     "kind": "line",
+     "sp": "지혜로운 '극작가'",
+     "en": "",
+     "ko": "그건 지금 네가 생각해야 할 문제가 아니야, 이 멍청아!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg4lo2z",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "아, 너도 ‘현자’가 우리에게 무엇을 원하는지 모르나 보네...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgs0s6f",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "아무래도 그들에게 명령을 내린 게 바로 ‘현자’인 것 같아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgps5z0",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "하지만 이걸 알아냈다고는 하나, 지금 우리가 그 사람을 잡아둔 것도 아니니...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgr5yqh",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "그 사람은 필요 없어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgdrzlp",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그 말이 깊은 못에 떨어진 돌맹이처럼 침묵을 일으켰다. 카산드라가 질문하려는 찰나에 바로 다음 말이 이어졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgx5khd",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "코스모스 교단의 ‘현자’가 필요한 순간에...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svga58n7",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "...‘때마침’ 이곳에 나타나기만 하면 되는 거니까.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgxuf18",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "차분한 목소리가 모두의 귀에 흘러들어왔다. 그리고 진정한 현자는 상황을 빠르게 파악했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgajkie",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "나쁘지 않은 계책입니다. 마치 아테네 정치가가 표를 얻기 위해 펼치는 사기극 같기도 하군요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgdp7z0",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "좋았어, 미스터 APPLe. 보아하니 아테네식의 연기에 대해 이미 숙지하고 있는 것 같네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg29wg3",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "너의 연기 비법을 우리에게 전수해 줄 수 있을까? 나중에 심문 연기를 할 때 도움이 될 것 같아서.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgqo0b2",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "노련한 용병은 중요한 부분을 금방 이해했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgxel83",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "버틴, 그러니까 연극을 해서 그 코스모스 교단 암살자의 입을 열자는 거지?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg5dgml",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "응. 그 코스모스 교단원은 분명 그런 상황에 전혀 대비하지 못하고 있을 테니까.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg0f1ot",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "연극에는 딱히 관심이 없지만...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg704xc",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "이번에는 예외로 둬야겠네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgd456q",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "그럼 카산드라, 시간이 없으니 우선 아테네의 감옥으로 안내해 줘.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgkez2j",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "얼마든지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg3fx76",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "뭐?! 또 감옥이라니...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg0dajk",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "아테네 감옥",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgoewva",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "여전히 감옥에서 불평을 늘어놓고 있는 서투른 ‘배우’는 뜻밖에도 새로운 손님을 맞이했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgxkkgz",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "넌 누구야?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg9nziz",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Intermission",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgxwaj6",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "안녕하세요, 도미티우스 씨. 저는 현재 아테네의 법에 따라 최선을 다해 당신을 감옥에서 빼낼 변호사예요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgvuidu",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "아테네 집정관이 ‘코스모스 교단의 시종 도미티우스’라는 죄목으로 당신을 고발했는데, 사실인가요?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgi38wg",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "그게 무슨... 시종이라니? 도대체 무슨 소리를 하는 거야!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgw68ve",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "그렇군요. 정말 코스모스 교단원과는 관계가 없나 보네요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg9caol",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "당연하지. 내가 그런 극악무도한 광인들과 관련이 있을 리가 없잖아?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg7lgn8",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "그러겠죠.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgn9hcy",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "카산드라, 제가 이분의 보증인이 되겠습니다. 그는 무죄예요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg3t4bu",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "눈앞의 어디서 왔는지 알 수 없는 ‘변호사’가 벽을 두드리자, 얼마 안 있어 익숙한 실루엣이 감옥에서 걸어 나왔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svghe5y2",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "안녕, 도미티우스.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svghn0v0",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "너, 너... 대체 무엇을 하려는 거야?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg4hdqj",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "당연히 우리의 실수를 바로잡기 위해서지. 우리가 애먼 사람을 잡아... 아테네의 법을 더럽히고 말았으니...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgj35ro",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "심지어 문명의 찬란한 빛에 그늘이 드리우게 했죠.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg4909r",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "...?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgrwln8",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그러니까 우리는 반드시 이 모든 것을 만회해야 해.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgnolxk",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "네 변호사의 요청대로 아테네 시내의 모든 눈에 띄는 장소에 성명서를 붙일 거야...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg7ny7q",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "도미티우스는 코스모스 교단과 아무 관계도 없고, 코스모스 교단의 모든 행위를 증오하며, 심지어 아테네 당국에 스스로 코스모스 교단의 현상 수배서를 제출했다고 할 겁니다...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg7dfr9",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "맞장구치는 두 사람은 합이 꽤 잘 맞았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgfklcn",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "그게 무슨... 난... 그런 적 없...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgd9xiw",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그의 협조하에 코스모스 교단의 음모를 적발하고, 중요한 교단원을 체포하는 데 성공했지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgnqf6e",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "체포라니... 누굴?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgy4pm9",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "긴장 풀어, 도미티우스. 그 박학다식한 선생은 지금 옆에서 심문받는 중이니까.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svguo4b8",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "박학다식... 설마 ‘현자’가...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg1jzkc",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "도미티우스가 믿기지 않는다는 듯 작은 소리로 중얼거렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg4rjo4",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "크흠, 이것도 다 네 덕이야. 현상 수배서의 띠에서 단서를 찾았고, 너희의 접선 암호를 해독할 수 있었지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgbozju",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "카산드라는 일부러 띠 위에 새겨진 그 이상한 기호를 상대의 앞에서 흔들었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgpotmf",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "말도 안 돼... 그게 연락용 암호라는 걸 대체 어떻게 알아낸 거지... 아니, 아니야... 에바투스는 심지어 내게도 아직 스키테일 암호의 해독법을 알려주지 않았는데...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg4tdqg",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그는 끝까지 말하기 전에 중얼거리던 걸 멈췄지만...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgr4fjy",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "모든 건 이미 늦었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svggdoev",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "그러니까... 고대 그리스 시기에 스파르타 병사들이 정보를 전달하는 데 썼던 스키테일 암호를 말하는 겁니까?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgefx90",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "흥분 섞인 외침이 옆의 감옥에서 전해졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg4tib9",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용의자들은 드디어 소원대로 얼굴을 마주쳤다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgiztf2",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "날아다니는 사과라니?! 그보다 그걸 어떻게 알...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg39s3r",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "좋았어, 우리의 즉흥 연극이 성공적이었던 것 같군.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgd12bp",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "미스터 APPLe, 중요한 정보는 알아냈어?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg05klz",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "저 APPLe이 스키테일 암호의 개념에 대해 조금 알고 있다고는 하지만, 그래도 중요한 정보는 당시 암호를 쓴 사람에게 달렸습니다...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgun5bn",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그렇다면 도미티우스 씨의 도움이 더 필요할 것 같네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svge66yy",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "The Second Hand Trophy",
+     "star": false
+    },
+    {
+     "id": "mwhu7svg25ig7",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "여러 쌍의 눈이 같은 방향을 일제히 바라봤다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgewg70",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "날 노려봤자 소용없어! 내가 말할 것 같아?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svgfuw2c",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "교단에 관한 그 어떤 비밀도 알아내지 못할 거다...!",
+     "star": false
+    }
+   ]
+  },
+  "8": {
+   "lines": [
+    {
+     "id": "mwhu7svhxmyee",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "우리는 교리, 질서, 그리고 ‘선택받은 자’에 대한 지극한 존경과 관심을 가슴에 깊이 새기고 있다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhs3krz",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "코스모스 교단 신전 밀실",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhft1yh",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Modern Times",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhlhjt7",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "어두운 전당은 사람들로 북적거렸는데, 검은 강철 투구와 흉악한 가면을 걸치고 있어 냉혹한 분위기를 조성하고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh097u1",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "젊은 선택받은 자가 제단 앞을 천천히 걸었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhvftte",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "이곳이 안전하다고 보장할 수 있나?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh16w8g",
+     "kind": "line",
+     "sp": "교단원Ⅰ",
+     "en": "",
+     "ko": "물론이죠, 데이모스 님.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhjb7fe",
+     "kind": "line",
+     "sp": "교단원Ⅰ",
+     "en": "",
+     "ko": "어리석은 교단원 하나가 아테네 감옥에 갇혔다고는 하나, 그는 절대로 우리의 위치를 발설하지 못할 겁니다. 그리고 아테네의 경비병은 디오니소스 축제와 포위전 때문에 골머리를 앓고 있어 우리를 조사할 여력이 없고요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh8c65s",
+     "kind": "line",
+     "sp": "교단원Ⅰ",
+     "en": "",
+     "ko": "게다가... 데이모스 님이 계시지 않습니까. 첩자든 용병이든 쳐들어오면 손쉽게 해치우실 텐데요. 시신조차 되찾지 못하겠죠.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svht0eay",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "하, 펜도로스, 너의 성실함은 높이 평가하지만...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhvhd88",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "부디 자신의 실수를 숨기기 위해 핑계 대는 건 아니길 바란다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhfe07k",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "그 암호문은 안전한 게 맞나? 우리 사람들만 그것에 담긴 정보를 알아볼 수 있다고 어떻게 보장할 수 있지?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh1cajr",
+     "kind": "line",
+     "sp": "교단원Ⅰ",
+     "en": "",
+     "ko": "그건 전혀 걱정할 필요 없습니다, 데이모스 님. 아테네 사람이 그 암호문을 해독하는 건 절대로 불가능하니까요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhylv98",
+     "kind": "line",
+     "sp": "교단원Ⅰ",
+     "en": "",
+     "ko": "스키테일 암호는 데이모스 님의 고향인 스파르타에서 온 거지 않습니까.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhjatsc",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "아무래도 잊은 것 같은데, 부러진 창을 든 그 녀석도 스파르타 출신이다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhgb2kl",
+     "kind": "line",
+     "sp": "교단원Ⅰ",
+     "en": "",
+     "ko": "알고 있습니다. 하지만 독수리를 거느린 자는 말할 것도 없고, 스파르타 왕국의 아주 용맹한 전사들조차도 통일된 학습을 거치지 않는 이상 이 스키테일 암호를 알아볼 수 없습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhob0uc",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "고작 이 우스꽝스러운 띠와 위협조차 되지 않는 줄칼 몇 자루로?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh78qfw",
+     "kind": "line",
+     "sp": "교단원Ⅱ",
+     "en": "",
+     "ko": "줄칼은 위장일 뿐입니다, 데이모스 님.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh2xial",
+     "kind": "line",
+     "sp": "교단원Ⅱ",
+     "en": "",
+     "ko": "이 중에서도 중요한 건 줄의 손잡이 부분이죠.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhgkfcc",
+     "kind": "line",
+     "sp": "교단원Ⅱ",
+     "en": "",
+     "ko": "좀 똑똑한 비둘기들은 우리의 줄칼과 공예가를 알아차리겠지만, 그건 위대한 교단이 남긴 또 다른 미끼에 불과합니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh07w8w",
+     "kind": "line",
+     "sp": "교단원Ⅱ",
+     "en": "",
+     "ko": "그들이 머리를 쥐어짜며 그 가엾은 공예가들과 외지인들을 조사하는 동안, 우리 사람들은 이미 각 신전에 걸려 있는 띠를 통해 교단의 암살 명령을 받았을 겁니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhftoot",
+     "kind": "line",
+     "sp": "교단원Ⅱ",
+     "en": "",
+     "ko": "우리가 진짜 움직이는 시간은 아무도 모르겠죠.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhjd4mf",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "내 앞을 가로막는 사람이 더 이상 없었으면 좋겠군.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhgnpu0",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "줄칼을 건네받은 알렉시오스는 그것을 한쪽으로 던져버렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhnyqr0",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "너희가 신전에 배치해 둔 그 이상한 것들을 파괴하지 않기 위해 내가 많이 참아주고 있다는 걸 알아줬으면 좋겠군.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhlyx33",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "그렇지 않았다면 신전에서 그 망할 용병을 진작에 죽였을 거다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhk31qh",
+     "kind": "line",
+     "sp": "교단원Ⅱ",
+     "en": "",
+     "ko": "아테네의 ‘현자’께서는 데이모스 님의 인내심에 아주 만족스러워하십니다. 다모클레스의 검이 어울리는 건 역시 당신처럼 용맹하고 신중한 군신이죠.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhc0gk1",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "...‘만족’ 같은 말로 날 모욕하지 마라.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhd2756",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "그리고 이 검은... 언젠가 이 검으로 페리클레스의 목을 칠 거다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhoghwe",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "알렉시오스가 검을 뽑아내 가볍게 휘두르자 암호가 새겨진 띠는 가볍게 산산조각이 났다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhmvvw9",
+     "kind": "line",
+     "sp": "교단원Ⅱ",
+     "en": "",
+     "ko": "그대의 빛이 아테네를 비추기를...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhnfqmu",
+     "kind": "line",
+     "sp": "교단원들",
+     "en": "",
+     "ko": "그대의 빛이 아테네를 비추기를.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhd13dx",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "여기저기서 읊조리는 소리가 이 비밀스러운 전당에 뒤섞이면서 울려 퍼졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh6qem7",
+     "kind": "line",
+     "sp": "‘교단원’Ⅲ",
+     "en": "",
+     "ko": "지... 질문이 하나 더 있습니다...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhp5m16",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "인파 속에서 목이 쉰 목소리가 들려왔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh8l9xb",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Intermission",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhh7mr7",
+     "kind": "line",
+     "sp": "‘교단원’Ⅲ",
+     "en": "",
+     "ko": "제가 어리석어 그 띠를 감는 순서를... 잊어버리고 말았습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh7fr1v",
+     "kind": "line",
+     "sp": "교단원Ⅱ",
+     "en": "",
+     "ko": "하, 멍청한 놈. 네놈들은 대체 언제쯤 한몫할 거지? 교단에 쓸모없는 놈은 필요 없다!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhnn8kb",
+     "kind": "line",
+     "sp": "‘교단원’Ⅲ",
+     "en": "",
+     "ko": "옳은 말씀입니다. 그런 어리석은 질문은 하지 말아야 했는데... 제 잘못입니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svht8zvh",
+     "kind": "line",
+     "sp": "‘교단원’Ⅲ",
+     "en": "",
+     "ko": "의식이 끝난 후에 ‘데이모스’ 님에게 스키테일 암호의 답을 여쭤봐야 했는데...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhkod52",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhl3lce",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "선택받은 자의 미소가 다소 수그러들었다. 그는 여기저기 널브러져 있는 조각난 띠를 몰래 흘끗 봤다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhll0w3",
+     "kind": "line",
+     "sp": "‘교단원’Ⅲ",
+     "en": "",
+     "ko": "모두가 그러더군요. ‘데이모스’ 님께서는 평범한 인간을 뛰어넘는 힘과 지혜를 가지셨다고요... 분명 저의 모든 궁금증을 풀어주시겠죠.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh37ydb",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "선택받은 자의 당당한 발걸음이 멈칫하자, 눈치 빠른 신도가 예민하게 알아차렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhhpoq5",
+     "kind": "line",
+     "sp": "교단원Ⅰ",
+     "en": "",
+     "ko": "닥쳐라, 이 어리석은 것!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh535gk",
+     "kind": "line",
+     "sp": "교단원Ⅰ",
+     "en": "",
+     "ko": "그런 쉬운 문제로 데이모스 님의 귀중한 시간을 빼앗을 셈이냐?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhca0e2",
+     "kind": "line",
+     "sp": "교단원Ⅰ",
+     "en": "",
+     "ko": "방금 물어봤던 녀석은 이리 와라... 내가 스키테일봉을 묶는 순서를 보여주겠다. 이번이 마지막이니 잘 기억하도록.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhewibi",
+     "kind": "line",
+     "sp": "‘교단원’Ⅲ",
+     "en": "",
+     "ko": "아아... 넓은 마음에 감사드립니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhwpl76",
+     "kind": "line",
+     "sp": "‘교단원’Ⅲ",
+     "en": "",
+     "ko": "이끌어주신 선택받은 자께도 감사드립니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhfbbvj",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhfahra",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "교단원들이 흩날리는 모래처럼 흩어지면서 아테네 안으로 흔적 없이 사라져 버렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhxmhwi",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그중에서도 가장 ‘멍청한’ 그 모래알을 제외하고는...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh2ydxs",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그것은 인파 속으로 섞여들지 않고 아테네의 가장 큰 감옥으로 조용히 뛰어올랐다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh3sqxr",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "스산해야 하는 감옥은 생각과 달리 떠들썩했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhe8o7o",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "익숙한 한 친구의 욕설이 넓은 감옥 안에서 한참이나 메아리쳤다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhs0njp",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "망할 사기꾼놈들! 분명 신전의 위치를 알려주면 나를 풀어주겠다고 약속했잖아!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhpjgpy",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "사악한 외지인놈들! 부끄러운 줄 모르는 사기꾼들! 코스모스 교단의 동료들보다 뻔뻔하다니...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh2ptpo",
+     "kind": "line",
+     "sp": "교단원Ⅲ",
+     "en": "",
+     "ko": "도미티우스, 네 정신 상태는 내가 생각했던 것보다 나은 것 같네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhl1fry",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "이소니아...?! 네가 어떻게 여기에...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhcc8o6",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그가 갑자기 나타난 교단 동료에 당황했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhskcu5",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "아, 아니, 넌 이소니아가 아니지? 그녀의 팔뚝은 그렇게 튼실하지 않아...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhijn6v",
+     "kind": "line",
+     "sp": "교단원Ⅲ",
+     "en": "",
+     "ko": "그래. 관찰력은 나쁘지 않네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh1hpsd",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "The Second Hand Trophy",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhzfuoq",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "교단원이 가면을 벗자 땋은 갈색 머리가 로브 속에서 튀어나왔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh36u3f",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "약속대로 풀어줄게. 어찌 되었든 넌 페리클레스를 지키는 데 많은 공을 세웠으니까.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh9oecj",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "특히 스키테일 암호를 푸는 데 많은 도움이 됐어. 덕분에 APPLe의 결백도 증명했고.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh50lfp",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "너...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhmvy60",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "옆에서 한참이나 떠 있던 APPLe이 성실하게도 상대를 향해 허리를 굽혔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhc6sh8",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "그만...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhnmw0h",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "아뇨, 아직 멀었어요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhpiw9g",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "당신이 카산드라와 ‘긴밀한’ 대화를 나누던 중 ‘스키테일 암호’에 대해 언급하지 않았다면 저 APPLe은 누명을 썼을 겁니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh246ky",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "미스터 APPLe, 설마 고대 스파르타 군대의 암호에도 어느 정도 일가견이 있을 줄은 몰랐어... 역시 이 캡틴이 심혈을 기울여 뽑은 APPLe호의 유일한 일등 항해사다운 걸!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhyvmns",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "재단에서 활동할 때 저 APPLe은 암호와 해독에 능한 어느 전문가와 암호에 관한 학술적 의견을 주고받곤 했거든요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh6g0z7",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "아마 캡틴도 들어본 적 있을 거예요. 이니...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhy0gub",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "스톱, 스톱! 자유로운 해적은 ‘암호’ 알레르기가 있다고.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhcm54d",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "인간의 슬픔과 기쁨은 서로 통하는 게 아니었다. 비통하고 분한 도미티우스는 이 모든 것을 받아들일 수 없는 게 분명했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhacgz7",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "하지만 펜도로스가 몇 번이나 보장했는데! 스파르타에서도 스키테일 암호는 일부 군대에만 전해지는 거라 했다고... 그 어떤 문자 기록도 남기지 않았을 텐데!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhkso1f",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "너희는... 대체 어떻게 안 거야?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhjh96b",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "한쪽에 주저앉은 그가 넋을 놓은 채 중얼거렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh75zfe",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "정말 유감이지만 시간은 우리의 편이라서.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh3zt2z",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "비밀을 유지하고자 하는 그 의지에는 경의를 표하는 바입니다, 도미티우스 씨.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhap77l",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "단순히 역사 자료만으로는 저도 당신들의 스키테일 암호를 해독하지 못했을 겁니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh6w9x3",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "스키테일 암호 자체의 설계에 관한 건 역사서에 기록되어 있지만, 아무래도 암호를 쓴 사람의 띠를 묶는 방식과 순서는 기록할 수 없었을 테니까요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhivwcb",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "열정적인 손 한 쌍이 도미티우스의 어깨를 힘껏 두드렸다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh2l9l2",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "괜찮아. 너의 공은 아테네의 음유시인이 널리 퍼트려 줄 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh5k4k8",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "도리와 정의를 아는 도미티우스는~ 코스모스 교단의 음모 장소를 폭로하고~ 독수리를 거느린 자가 집회에 잠입하는 걸 도왔네~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhtump9",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "계속해서 빗나가는 음정에 모두가 웃었다. 심지어 카산드라도 그 우스꽝스러운 노래에 웃음을 참지 못했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhmq0re",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "어쩌면 페리클레스도 그의 이름을 칭송할지도.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhxued7",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "그만! 제발 그만해!!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh3y6mb",
+     "kind": "line",
+     "sp": "서투른 '배우'",
+     "en": "",
+     "ko": "난 이 감옥에 영원히 갇혀 있겠어. 아무 데도 안 갈 거야!",
+     "star": false
+    }
+   ]
+  },
+  "9": {
+   "lines": [
+    {
+     "id": "mwhu7svhbx605",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "벽화, 항아리, 그리고 삶에 있다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhiqpuk",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "On Sun-Kissed Vines",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhdbdvk",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "디오니소스 극장의 축제 개회장",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhn6onj",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "즐거운 노랫소리가 성대한 회장 안에서 울려 퍼졌다. 술 주전자와 제물이 올려져 있고, 알록달록한 강물이 천천히 흐르고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhhl3lw",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "책이나 벽화 속에서나 봤던 장면이 지금 저 APPLe의 눈앞에서 실제로 펼쳐지고 있군요...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh6lzw5",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "하위헌스-프레넬 간섭계는 역사 연구의 의미만 두고 봐도, 충분히 위대한 발명이라고 할 수 있죠.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh6vxt2",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "보아하니 X가 마음 놓고 너를 다음 실험자 명단에 올릴 수 있겠네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh9ejj2",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "저야 환영이죠.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh7ivae",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "부디 너희의 캡틴을 잊지 말아줘, 일등 항해사, 버틴!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhshlm2",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "로봇 세계이든, 뉴아메리카든, 아니면 달에서 외계인을 찾는 거든 다 상관없으니 절대 이 캡틴을 두고 떠나지 마!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhia4oa",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "머나먼 땅에서 온 친구들이 시끄럽게 떠드는 가운데, 아테네의 주인이 강단에 천천히 올라왔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh76yhf",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "아테네 시민 여러분, 그리고 모든 폴리스에서 온 귀빈 여러분...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhatgmu",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "이 자리에 모여 여러분과 함께 디오니소스 축제의 막을 올리게 되어 진심으로 기쁩니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhdcak5",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "우리가 사랑하고, 아테네의 삶에 언제나 존재하며, 아테네의 문명 속에 영원히 존재하는 ‘비극’이 곧 막이 오를 예정입니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh6d8ij",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "그 누구도 우리에게서 그것을 즐길 권리를 빼앗아 갈 수 없습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhciefg",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "재난이든, 외부의 적이든, 우리는 두려워할 필요 없습니다. 알려지지 않은 공포는 더더욱 두려워할 필요 없습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh1hb45",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "강단 아래의 용병이 허리띠를 꽉 조여 매며 잘 감은 스키테일봉을 호주머니 속에 다시 넣었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhnjdbe",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "디오니소스 축제가 시작되면... 아테네의 독수리가 속삭이고...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhyds39",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "이제 데이모스가 인간계에 강림하겠지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh0553m",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "알렉시오스... 아니, 데이모스, 넌 정말로 이런 도발을 참을 수 있을까?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhyy4u2",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용병은 레오니다스의 창을 손에 꽉 쥐었다. 이카로스는 회장의 상공을 맴돌고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhdq2p0",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Legend of the Eagle Bearer (Main Theme)",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh4n826",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "이 잡듯이 진행되던 조사는 예상한 목표가 카펫 끝에 태연하게 나타나자 끊기고 말았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svht5gh5",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "코스모스 교단은 너를 기억할 것이다, 페리클레스.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhfeiuq",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "우리의 그리스 통일을 위해서는 너의 희생이 불가결하다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svht4au8",
+     "kind": "line",
+     "sp": "아테네 경비병",
+     "en": "",
+     "ko": "페리클레스 님을 지켜라...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhai5n5",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "알렉시오스, 코스모스 교단이 대체 얼마나 많은 잘못된 지식을 너에게 주입한 거지...?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhpdcgj",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "내가 생각했던 것보다 훨씬 더 빠르군, 용병.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh7vjog",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "그 멍청한 놈들이 말한 암호는 역시 아무 쓸모도 없었네. 애초에 그들의 헛소리를 믿지 말아야 했어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh2cuai",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "다모클레스의 검이 하늘을 가리키자, 매서운 차가운 빛이 태양 아래에서 빛의 고리를 만들어냈다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh09z79",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "저리 비켜, 카산드라. 널 죽이는 건 페리클레스를 죽이고 난 다음이다!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh6aazu",
+     "kind": "line",
+     "sp": "교단원Ⅰ",
+     "en": "",
+     "ko": "데이모스 님, 이 건방진 용병은 저희가 막을 테니 데이모스 님은 교단의 임무를 완수하는 데 집중하시죠.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhum7di",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "여러 개의 그림자가 인파를 뚫고 나왔다. 그들이 신분 위장을 위해 걸친 짙은 색의 로브를 벗자 검은 강철 재질의 갑옷과 투구가 햇빛 아래에서 모습을 완전히 드러냈다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhraxkb",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "역시 이 싸움은...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhvqp4j",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "한숨을 내뱉은 카산드라는 곧바로 부러진 창을 꽉 쥐며, 진지하게 전투 태세를 취했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh3bw8v",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "피할 수 없나 보네.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhc9d1c",
+     "kind": "line",
+     "sp": "아테네 경비병",
+     "en": "",
+     "ko": "카산드라, 지원하러 왔습니다...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhyykv3",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "회장 밖 여기저기서 호응하는 소리가 울려 퍼졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhybgim",
+     "kind": "line",
+     "sp": "교단원Ⅱ",
+     "en": "",
+     "ko": "젠장! 도미티우스 그놈이... 우리를 팔아넘긴 게 틀림없어!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhewb75",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그가 침을 뱉으면서 분노를 터트리며 욕설을 내뱉었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhocnzf",
+     "kind": "line",
+     "sp": "교단원Ⅱ",
+     "en": "",
+     "ko": "교단에 돌아오면 ‘현자’께서 절대 가만두지 않을 거다!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhzynr6",
+     "kind": "line",
+     "sp": "교단원Ⅰ",
+     "en": "",
+     "ko": "오르에스테스, 진정해! ‘현자’님의 안배를 믿어야지. 이 어리석은 아테네 병사들은 우리가 얼마나 더 많은 사람을 준비했는지 절대 몰라!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhdzegm",
+     "kind": "line",
+     "sp": "교단원Ⅰ",
+     "en": "",
+     "ko": "해치워!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhefpna",
+     "kind": "combat",
+     "sp": "",
+     "en": "",
+     "ko": "당황한 사람들이 사방으로 흩어져 도망치자 상황은 한층 더 혼란에 빠졌다.\n인파 속에서 이상한 가면을 쓴 교단원이 갑자기 튀어나와 지원하러 온 경비병을 계속해서 공격했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh46bwc",
+     "kind": "line",
+     "sp": "아테네 경비병",
+     "en": "",
+     "ko": "카산드라! 얼마나 많은 코스모스 교단원이 회장에 잠입했는지 예측할 수가 없는 데다, 상당수의 교단원이 아테네 시민으로 위장하고 있습니다... 게다가 그들과 일반 시민의 가면을 전혀 구별할 수 없어요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh9d3xe",
+     "kind": "line",
+     "sp": "아테네 경비병",
+     "en": "",
+     "ko": "일단 페리클레스 님의 대피를 돕는 게 좋겠습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh0j7ca",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "병사들이여, 너희 자신을 지키는 걸 최우선으로 해라.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhbqsnx",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhvkna7",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "너무 자책하지 마, 카산드라. 디오니소스 축제를 개최하자고 고집한 건 나니까, 어떤 결과든 받아들일 거다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhsoe07",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "강단 위로 천천히 걸어오는 알렉시오스의 손에 쥔 다모클레스의 검이 울부짖고 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh9flmk",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "교단이 지정한 암살 시간은 당연히 우리가 심혈을 기울여 정한 거다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh7165k",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "우리에게 대비해 똑같이 멍청한 아테네 하이에나들을 잔뜩 준비해 놨다 한들, 너희가 할 수 있는 게 뭐가 있겠나?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhs6e0a",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "심지어 벌벌 떨며 도망치는 시민들조차 어찌하지 못하지 않나... 하하.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhd2wnn",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "디오니소스 축제 회장에서 혼란에 빠진 곳은 한 곳뿐만이 아니었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhrcyhm",
+     "kind": "line",
+     "sp": "디오니소스 축제 행인Ⅰ",
+     "en": "",
+     "ko": "모두 도망쳐!! 암살자야...!!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh61osy",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "헤이~ 친구들, 어디 가는 거야?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svho8cw3",
+     "kind": "line",
+     "sp": "디오니소스 축제 행인Ⅱ",
+     "en": "",
+     "ko": "당기지 마, 나는 축제에 참여하러 온 거뿐이라고. 여기서 죽긴 싫어!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhfn35q",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "아수라장이 된 회장 곳곳에서 사람들의 외침이 울려 퍼졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhaz02f",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "레이디, 출구는 저쪽입니다. 지금 방향을 착각하신 것 같아서요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh471ut",
+     "kind": "line",
+     "sp": "디오니소스 축제 행인Ⅲ",
+     "en": "",
+     "ko": "날 내버려 둬! 난 어디에도 가지 않겠어... 이대로 디오니소스 축제가 끝나버리면 디오니소스의 분노가 아테네를 피의 바다로 만들어 버릴 거야...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svheuuiv",
+     "kind": "line",
+     "sp": "디오니소스 축제 행인Ⅲ",
+     "en": "",
+     "ko": "그건 평범한 인간들의 살육전보다 훨씬 무서운 거라고!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhdl99j",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "레굴루스, 미스터 APPLe, 카산드라를 도와야 해.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhliyi9",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "하지만... 우리가 할 수 있는 게 있나? 저 빌어먹을 녀석들은 로큰롤 뮤직 페스티벌의 관객들보다 더 미쳤어...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhe5m36",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "저걸 막겠다고 가는 거는 우리도 잔디밭에서 막춤을 추면서 ‘로큰롤 네버다이’를 외치고 모자와 목도리를 공중으로 던지는 거라고!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhv52s9",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "이곳에 모인 사람들은 로큰롤 팬들과 본질적으로 똑같아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhcu0yg",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "분명 모두의 주의를 끌 수 있는 무언가가 있을 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh10gul",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "모두가 얼굴에 딱 달라붙게 쓰고 있는 연극 가면, 포도 덩굴과 담쟁이덩굴로 엮은 화환, 신과 신화 전설 속의 영웅 조각상, 제사 의식에 쓰이는 제단과 제물...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh5f8yp",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "술의 신 디오니소스의 전설? 아니면 사람들의 시선을 사로잡는 연극? 그것도 아니면 모두가 수없이 들어 익숙한 신화 전설...?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhumqex",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "버틴, 고대 그리스 시기의 아테네에 관한 정보가 필요하다면 저 APPLe이 기꺼이 돕겠습니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh4ptuu",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "갑자기 들려온 진지한 말이 마치 하늘에서 들려오는 소리 같았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhhf3fb",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhui0oj",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "도와줘, 미스터 APPLe. 우리는 지금 너의 ‘희생’이 너무나도 간절해.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhi4k7q",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "자, 잠깐... 버틴, 캡틴? 저 APPLe의 몸에 무엇을 바르는 거죠?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhghy3q",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "긴장 풀어, 미스터 APPLe... 가면 제작에 썼던 물감이 얼마 남지 않았어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhb8032",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "오! 여기에 금색이 좀 부족하네!",
+     "star": false
+    }
+   ]
+  },
+  "10": {
+   "lines": [
+    {
+     "id": "mwhu7svhp6huf",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "오해받는 건 모든 사과의 숙명이다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhp6qow",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "머나먼 천국, 은은한 선율~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhl722k",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "황금 사과는 눈부시네~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh8mhhe",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "지혜롭고 때론 활기 넘치고~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhjedl2",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "다툼과 소동을 일으키곤 한다네~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhrth6x",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "세이렌의 노래, 파도를 불러~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhajesq",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용감한 영웅만 사과를 따지~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhjvpno",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "사실 저 APPLe은 전부터 가벼운 고소공포증이 있었습니다. 건의하건대, 다음 봉사 활동에서는 봉사자의 신체 상황을 고려해 선별했으면 좋겠습니다만...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh98gus",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "힘센 전사가 여정을 떠나네~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh263je",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "사실 저 APPLe은 전부터 가벼운 고소공포증이 있었습니다. 건의하건대, 다음 봉사 활동에서는 봉사자의 신체 상황을 고려해 선별했으면 좋겠습니다만...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhvrd23",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "모두가 우러러보고 칭송하네~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhkq8fp",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "정말 훌륭한 건의 사항이야, 미스터 APPLe!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhfo9cr",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "하지만 그건 나중에 얘기하고—",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh1jl52",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "미스터 APPLe, 연줄의 길이를 확인해 줘.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhcqijo",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "머나먼 천국, 은은한 선율~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhihpiz",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "으악! 지금 제 꼴을 보시고도...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhqwj9g",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "좋아, 힘내!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh5clpd",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh5cc22",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "황금 사과는 눈부시네~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhshy3k",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "지혜롭고 때론 활기 넘치고~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhvv8k8",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "다툼과 소동을 일으키곤 한다네~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhkdxfx",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "여러분, 모두 다같이 고개를 들어봐~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhwvpnd",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "세이렌의 노래, 파도를 불러~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhwjwhe",
+     "kind": "line",
+     "sp": "디오니소스 축제 행인Ⅰ",
+     "en": "",
+     "ko": "저길 봐!! 설마 전설의 황금 사과?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhe5lyn",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용감한 영웅만 사과를 따지~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhdtk6d",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "힘센 전사가 여정을 떠나네~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhyoa38",
+     "kind": "line",
+     "sp": "디오니소스 축제 행인Ⅱ",
+     "en": "",
+     "ko": "저걸 신에게 바치면 모든 슬픔과 고통이 완전히 사라진다고 들었어...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhiso4n",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "모두가 우러러보고 칭송하네~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhzf5kt",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "훗, 황금 사과를 가장 먼저 손에 넣는 건 내가 될 테니, 괜히 힘 빼지 마~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhdqy2g",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "훗, 황금 사과를 가장 먼저 손에 넣는 건 내가 될 테니, 괜히 힘 빼지 마~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhn0si8",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "힘센 전사가 여정을 떠나네~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhr3dwh",
+     "kind": "line",
+     "sp": "디오니소스 축제 행인Ⅲ",
+     "en": "",
+     "ko": "저걸 위대한 디오니소스에게 바치겠어...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhhj0au",
+     "kind": "line",
+     "sp": "디오니소스 축제 행인Ⅰ",
+     "en": "",
+     "ko": "어서 저 사람을 쫓아! 외지인에게 황금 사과를 빼앗겨선 안 돼!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhjhed0",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "모두가 우러러보고 칭송하네~",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhgnssl",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "잘했어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhp8s6c",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "이것도 너희의 계획대로인가?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh4rrf5",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "회장이 떠들썩했던 탓인지 유난히 쓸쓸하고 조용한 것 같았다. 회장 안에는 실루엣 몇 개가 텅 빈 대리석 타일 위에 외로이 서 있었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhn55no",
+     "kind": "line",
+     "sp": "아테네 경비병＆교단원",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhgbll5",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "그 황금색 실루엣은 점점 멀어지면서 알렉시오스의 시야에서 완전히 사라졌다. 얼이 빠져 있던 그는 그제야 다시 눈앞의 임무에 집중했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhq9avh",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Legend of the Eagle Bearer (Main Theme)",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhi70ic",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "네가 무엇을 꾸미고 있는지는 모르겠지만, 넌 아직 이기지 않았어, 카산드라.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhljr2p",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "우스운 음모나 계략은 집어치워. 이건 너와 나의 대결이다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhkjpwj",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용병이 레오니다스의 창을 왼쪽 손가락 뼈마디가 하얗게 변할 정도로 꽉 쥐었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhhc3pb",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "난 이러고 싶지 않았어, 알렉시오스. 우리는 가족이었잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhcyu5c",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "그건 네 혼자만의 생각이겠지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh1pqwu",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "순간 다모클레스의 검과 레오니다스의 창이 격하게 부딪치면서 불꽃이 튀었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhhodzj",
+     "kind": "combat",
+     "sp": "",
+     "en": "",
+     "ko": "알렉시오스... 지금이라도 그만둬. 아직 늦지 않았어.\n하, 네가 지금 누굴 상대하고 있다고 생각하지?\n네 눈앞에 있는 건 이 그리스 전체가 숭배하고 두려워하는 위대한 데이모스야.\n고작 부러진 창을 든 용병 주제에... 네 목숨은 여기서 끝이다. 걱정 마라, 네 친구들도 곧 따라갈 테니까.\nMaláka(망할 자식)... 고집 좀 그만 부려! 네가 하는 짓은 여기 있는 모든 사람을 위험에 빠뜨리는 거야.\n그거야말로 우리가 원하는 거지.\nMaláka(망할 자식)... 코스모스 교단은 대체 네게 무엇을 가르친 거야?!\n하... 하하... 하하하하! 알고 싶나?\n그들은 세상이, 그리고 네가 가져온 고통을 느끼게 해줬다.\n내가 겪은 고통은 나를 강하게 만들었다... 나를 해친 모든 이들에게 되돌려줄 정도로 말이지.\n...\n콜록, 콜록콜록... 아무래도 승패는 결정 난 것 같군.\n...\n콜록... 방금 그건 뭐지... 빛?\n아직도 살아있을 줄이야. 잡초보다 질긴 목숨이군.\n뿌리째 뽑아주마...!\n...망할 용병놈이!\n후우, 설마 땅을 뒤엎으려 하다니... 그건 네가 할 수 있는 일이 아니야.\n할 수 있는지 없는지는 네 목숨으로 증명해 주마.\n격렬한 충돌 후, 다모클레스의 검이 한쪽으로 날아가고, 레오니다스의 창도 땅에 비스듬히 꽂혔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhhm7qd",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "내가... 졌다고? 말도 안 돼...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svho03er",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Assassin's Creed - The Flight",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh4ju0f",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "넌 지지 않았어. 나 또한 마찬가지고.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhuy18p",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "숨을 헐떡이는 용병이 무릎을 짚고 힘겹게 몸을 일으키면서 고개를 들고 말했다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhaor8l",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "넌 아직 젊어... 알렉시오스, 얼마든지 돌아올 수 있어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhhshz6",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "...그러니까 ‘데이모스’라는 이름을 버려.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh01eq6",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "집으로 돌아와. 나를 이기고 싶다면 언제든 기회가 있을 거야.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhrp2r0",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh9007v",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "우리는 다른 길을 걷는 게 운명이다, 카산드라.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhftiuq",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "벽돌 틈새에 꽂힌 검을 품에 넣는 그의 모습은 패배한 한 마리의 독수리 같았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh0pmuw",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "다음에 만날 때는 너와 너의 ‘친구들’ 모두 내 손으로 죽여주마.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh3xvhe",
+     "kind": "line",
+     "sp": "알렉시오스",
+     "en": "",
+     "ko": "가자...!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh3ro3o",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "코스모스 교단의 잔당들은 눈을 뜰 수 없을 정도의 안개를 틈타 회장에서 빠르게 사라졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh1d6uf",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "백발이 성성한 머리가 대리석 기둥 뒤에서 고개를 내밀었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhr90ux",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "The Restless Floating Points",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh2tvzn",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "네가 아테네를 구했군, 독수리를 거느린 자.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhzcyt9",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "크흠... 기뻐하기는 아직 이릅니다, 페리클레스. 코스모스 교단이 그렇게 쉽게 포기할 리가 없어요...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhkv7fy",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "제 고집불통 동생은 더 그렇고요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhzo728",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "카산드라가 지끈거리는 관자놀이를 문질렀다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhctgpi",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "그 또한 이후의 일이지, 나의 친구.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhg0k1e",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "적어도 지금 아테네는 네 덕에 평화를 유지하고 있어.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svho8021",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "별거 아닙니다. 저는 용병으로서 맡은 바를 다한 거뿐인걸요. 게다가...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh2hs67",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "제가 그리 단순한 일이 아닐 거라고 했죠? 보수는 만만치 않을 겁니다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhzq2gp",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "그건 안심해도 좋아. 보수 지불에 관해서는 언제나 약속을 지켜왔으니.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhurd3q",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "그리고 넌 가서 좀 쉬어야 할 것 같군. 코스섬에 가서 히포크라테스에게 좀 봐달라 해. 좀 멀긴 해도 소문에 따르면 아폴론보다 더 영험하다더군... 아, 그러고 보니.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhdy0kx",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "뭐죠?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhwpmub",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "페리클레스가 먼 지평선을 향해 시선을 옮겼다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhtyrqw",
+     "kind": "line",
+     "sp": "페리클레스",
+     "en": "",
+     "ko": "전설에 나오는 황금 사과가 정말 아테네에 강림했나?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh6fjst",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "......",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh24vxd",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "어쩌면요.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhkexso",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "한쪽에서 한참 기다렸던 음유시인이 잔뜩 기대하면서 기지개를 켜는 카산드라에게 다가갔다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhdofeu",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "헤헤, 카산드라, 내 노래 한 곡쯤은 박수 쳐줘야 하는 거 아냐?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhz4kbh",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "유포니아, 인정할게. 전에는 네 시끄러운 노래들에 편견이 있었지.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhv7m4i",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "돌아가서 귀를 좀 씻어야겠어, 다음에는 네 노래에 반드시 갈채를 보낼게.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh5brby",
+     "kind": "line",
+     "sp": "음유시인",
+     "en": "",
+     "ko": "그럼 너의 이야기를 이어서 불러도 되는 거야, 카산드라?!",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh1e2fu",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그럴 리가 없잖아.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhiwknq",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "용병의 방어는 언제나 빈틈이 없었다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhy1jjq",
+     "kind": "line",
+     "sp": "카산드라",
+     "en": "",
+     "ko": "그나저나... 내 용감한 친구들은 어디 있지?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhgp6mj",
+     "kind": "music",
+     "sp": "",
+     "en": "",
+     "ko": "Drive Car",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhgdtey",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "버, 버틴, 대체... 언제까지 연을 날려야 해?",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh9rvyd",
+     "kind": "line",
+     "sp": "레굴루스",
+     "en": "",
+     "ko": "나, 나 이제 더는 못 뛰겠어...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhn33gh",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "하늘에서도 똑같이 약해질 대로 약해진 목소리가 전해졌다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhtc8qr",
+     "kind": "line",
+     "sp": "APPLe",
+     "en": "",
+     "ko": "캡틴, 저 APPLe도 캡틴보다 힘들면 더 힘들었지 덜 하지는 않습니다...",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh2hdvh",
+     "kind": "line",
+     "sp": "",
+     "en": "",
+     "ko": "‘황금 사과’ 연을 뒤쫓는 열광적인 신도들의 외침은 하나도 줄지 않았다.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh12hui",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "미안, 조금만 더 버텨.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svhu73tl",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "이번 일이 끝나면 여행가방의 물자를 신청할 때 쉐리 와인을 더 주문해 줄게.",
+     "star": false
+    },
+    {
+     "id": "mwhu7svh52vme",
+     "kind": "line",
+     "sp": "버틴",
+     "en": "",
+     "ko": "아, 그리고 레코드도 더 보충할 때가 됐지.",
+     "star": false
+    }
+   ]
+  }
+ },
+ "order": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10"
+ ],
+ "customStages": {
+  "1": "1. 고대 도시에서",
+  "2": "2. 비극과 삶",
+  "3": "3. 과즙이 가득하고 달콤한",
+  "4": "4. 결박된 프로메테우스",
+  "5": "5. 지붕 위의 경주",
+  "6": "6. 뮤즈에게 축복 받은",
+  "7": "7. 그대라면 어땠을까, 친구여",
+  "8": "8. 암호 해독자",
+  "9": "9. <아테네에서의 하루>",
+  "10": "10. 황금 사과에게 바치는 송가"
+ },
+ "source": "https://uttu.merui.net/story/event/S01_2/",
+ "updatedAt": "2026-11-15T12:55:22.000Z"
+}

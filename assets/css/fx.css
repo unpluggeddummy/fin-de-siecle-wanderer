@@ -345,3 +345,15 @@ body.editing .hero-tag, body.editing .hero-side, body.editing .hero-chip, body.e
   .tx-line.cont .tx-sp { display: none; }
   .tx-combat { margin-left: 0; }
 }
+
+/* 대사집 목록 카드: 배너를 위에 크게, 그 밑에 제목 · 영어 제목 · 장·버전·줄 수 */
+.tx-cards { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.tx-card { grid-template-columns: 1fr; grid-template-rows: auto 1fr; gap: 0; padding: 0; align-items: stretch; }
+.tx-card img, .tx-card-noimg { width: 100%; aspect-ratio: 1202 / 210; border-bottom: 1px solid var(--line); }
+.tx-card > div { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 2px; }
+.tx-card b { font-size: 16px; }
+.tx-card-meta { margin-top: auto; padding-top: 10px; }
+@media (max-width: 760px) {
+  .tx-card { grid-template-columns: 1fr; }
+  .tx-card img, .tx-card-noimg { width: 100%; }
+}
