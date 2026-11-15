@@ -37,8 +37,8 @@ function blankDoc(id) {
     titleEn: st ? (st.name.en || '') : '',
     version: st?.version || '',
     stages: {},          // { "<장 번호>": { title, lines: [...] } }
-    order: st ? (st.stages || []).map((s) => String(s.n)) : ['1'],
-    customStages: st ? {} : { 1: '1장' },
+    order: st?.stages?.length ? st.stages.map((s) => String(s.n)) : ['1'],
+    customStages: st?.stages?.length ? {} : { 1: st ? '본편' : '1장' },
     updatedAt: null,
   };
 }
@@ -305,7 +305,7 @@ async function docView(id, stageArg) {
         S.editing && !st ? h('input.tx-sub-in', { value: d.version || '', placeholder: '버전 (예: 3.9)', onchange: (e) => { d.version = e.target.value.trim(); touch(d); } }) : null),
       h('div.tx-head-btns', saveBtnEl)),
     h('nav.tx-stages', order.map((n) => h('a' + (n === cur ? '.on' : ''), { href: `#/transcripts/${id}/${n}` }, stageName(n), count(n) ? h('em', count(n)) : null)),
-      S.editing && !st ? h('button.tx-add-stage', { type: 'button', onclick: () => {
+      S.editing && !st?.stages?.length ? h('button.tx-add-stage', { type: 'button', onclick: () => {
         const name = prompt('새 장 이름', `${order.length + 1}장`); if (!name) return;
         const n = String(Math.max(0, ...order.map(Number).filter((x) => !isNaN(x))) + 1);
         d.order = [...order, n]; d.customStages = { ...(d.customStages || {}), [n]: name }; d.stages[n] = { lines: [] }; touch(d);
@@ -507,6 +507,40 @@ async function wikiText(page) {
   if (j.error) throw new Error(j.error.code === 'missingtitle' ? `위키에 "${page}" 문서가 없어요` : j.error.info);
   return j.parse.wikitext['*'];
 }
+/** 위키 주소(https://reverse1999.fandom.com/wiki/7TH-01/Story)나 문서 이름 → 문서 이름 */
+function wikiTitle(v) {
+  let t = String(v || '').trim();
+  const m = t.match(/\/wiki\/([^?#]+)/);
+  if (m) t = m[1];
+  try { t = decodeURIComponent(t); } catch { /* 그대로 */ }
+  return t.replace(/_/g, ' ').trim();
+}
+async function wikiApi(q) {
+  return fetch(`${WIKI}/api.php?format=json&origin=*&${q}`).then((r) => r.json());
+}
+/** 있는 문서만 골라 순서대로 */
+async function wikiExisting(titles) {
+  const j = await wikiApi(`action=query&redirects=1&titles=${encodeURIComponent(titles.join('|'))}`);
+  const norm = Object.fromEntries((j.query?.normalized || []).map((x) => [x.from, x.to]));
+  const ok = new Set(Object.values(j.query?.pages || {}).filter((p) => p.missing === undefined).map((p) => p.title));
+  return titles.filter((t) => ok.has(norm[t] || t));
+}
+async function wikiSearch(q) {
+  const j = await wikiApi(`action=query&list=search&srlimit=8&srsearch=${encodeURIComponent(q)}`);
+  return (j.query?.search || []).map((x) => x.title).sort((a, b) => (/\/Story$/.test(b) ? 1 : 0) - (/\/Story$/.test(a) ? 1 : 0));
+}
+/** 이 장의 위키 문서 이름: 7장 이후는 "7TH-01/Story", 프롤로그 같은 예전 장은 장 이름 문서 */
+async function wikiStagePage(st, idx) {
+  const sg = st.stages[idx];
+  const nn = String(sg.n).padStart(2, '0');
+  const cands = [];
+  if (st.abbr) cands.push(`${st.abbr}-${nn}/Story`, `${st.abbr}-${sg.n}/Story`);
+  if (sg.en) cands.push(sg.en, `${sg.en}/Story`);
+  try { const ok = await wikiExisting([...new Set(cands)]); if (ok.length) return ok[0]; } catch { /* 아래로 */ }
+  const pages = await wikiStagePages(st);
+  return pages[idx] || sg.en || '';
+}
+
 /** 스토리의 장 문서 이름들 (순서대로) */
 async function wikiStagePages(st) {
   try {
@@ -555,7 +589,7 @@ function wikiLines(w) {
 
 function wikiDrawer(d, st, cur, stage, done) {
   const idx = st ? (st.stages || []).findIndex((x) => String(x.n) === String(cur)) : -1;
-  const page = h('input', { type: 'text', placeholder: '위키 문서 이름 (예: Rock \'n\' Roll Radio)', value: idx >= 0 ? st.stages[idx].en : '' });
+  const page = h('input', { type: 'text', placeholder: '위키 문서 이름이나 주소 (예: 7TH-01/Story)', value: idx >= 0 ? st.stages[idx].en : '' });
   const mode = h('select',
     h('option', { value: 'fill' }, '지금 있는 줄에 순서대로 영어 채우기 (한국어는 그대로)'),
     h('option', { value: 'append' }, '이 장 끝에 이어 붙이기'),
@@ -565,20 +599,40 @@ function wikiDrawer(d, st, cur, stage, done) {
   let got = null;
   const fetchIt = async () => {
     got = null;
+    let title = wikiTitle(page.value);
+    if (!title) { fill(info, h('p.muted', '위키 문서 이름이나 주소를 넣어 주세요.')); return; }
+    page.value = title;
     fill(info, h('p.muted', '위키에서 읽는 중…'));
     try {
-      const lines = wikiLines(await wikiText(page.value.trim()));
-      if (!lines.length) throw new Error('이 문서에서 대사 표를 찾지 못했어요. 문서 이름을 확인해 주세요.');
+      let lines = [];
+      let err = null;
+      try { lines = wikiLines(await wikiText(title)); } catch (e) { err = e; }
+      // 장 설명 문서면 대사는 "/Story" 쪽에 있다
+      if (!lines.length && !/\/Story$/.test(title)) {
+        try { const l2 = wikiLines(await wikiText(`${title}/Story`)); if (l2.length) { lines = l2; title = `${title}/Story`; page.value = title; err = null; } } catch { /* 없음 */ }
+      }
+      if (!lines.length) {
+        const hits = await wikiSearch(title.replace(/\/Story$/, '')).catch(() => []);
+        fill(info,
+          h('p.tx-warn', err ? `위키에 "${title}" 문서가 없어요.` : '이 문서에서 대사 표를 찾지 못했어요.'),
+          hits.length ? h('div.tx-wiki-hits', h('p.muted', '혹시 이 문서인가요? 누르면 바로 읽어요.'),
+            hits.map((t) => h('button.btn.small.ghost', { type: 'button', onclick: () => { page.value = t; fetchIt(); } }, t))) : null,
+          h('p.muted', '위키에서 그 장의 대사가 보이는 페이지 주소를 그대로 붙여 넣어도 돼요. (예: …/wiki/7TH-01/Story)'));
+        return;
+      }
       got = lines;
       const map = nameMap();
       const unknown = [...new Set(lines.map((l) => l.sp).filter((n) => isUnmapped(n, map)))];
       fill(info,
-        h('p', `대사 ${lines.length}줄 (지문 ${lines.filter((l) => !l.sp).length}줄 포함)`),
+        h('p', `대사 ${lines.length}줄 (지문 ${lines.filter((l) => !l.sp).length}줄 포함) · 문서: ${title}`),
         unknown.length ? h('p.tx-warn', `한국어 이름이 없는 사람 ${unknown.length}명: ${unknown.join(', ')} — "가져오기"를 누르면 이름을 정하는 칸이 떠요.`) : h('p.muted', '말하는 사람 이름은 모두 한국어로 바뀌어요.'),
         h('ol.tx-lines.tx-preview', lines.slice(0, 4).map((l) => h('li.tx-line' + (l.sp ? '' : '.narr'), h('div.tx-sp', koName(l.sp, map)), h('p.tx-en', { lang: 'en' }, l.en)))));
     } catch (e) { fill(info, h('p.tx-warn', e.message || '읽지 못했어요.')); }
   };
-  if (st && idx >= 0) wikiStagePages(st).then((pages) => { if (pages[idx]) page.value = pages[idx]; fetchIt(); }); else if (page.value) fetchIt(); else fill(info, h('p.muted', '위키 문서 이름을 적고 "읽기"를 눌러 주세요.'));
+  page.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); fetchIt(); } });
+  if (st?.stages?.length && idx >= 0) wikiStagePage(st, idx).then((t) => { if (t) page.value = t; fetchIt(); }).catch(() => fetchIt());
+  else if (page.value) fetchIt();
+  else fill(info, h('p.muted', '위키 문서 이름이나 주소를 넣고 "읽기"를 눌러 주세요.'));
   const apply = () => {
     const map = nameMap();
     const lines = got.map((l) => ({ ...blankLine(), sp: koName(l.sp, map), en: l.en }));

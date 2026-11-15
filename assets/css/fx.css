@@ -281,3 +281,5 @@ body.editing .hero-tag, body.editing .hero-side, body.editing .hero-chip, body.e
 .tx-doc[data-font="serif"] .tx-ko, .tx-doc[data-font="serif"] .tx-scene span, .tx-doc[data-font="serif"] .tx-note { font-family: "Gowun Batang", "Pretendard Variable", serif; }
 .tx-doc[data-font="serif"] .tx-en { font-family: "Source Serif 4", "Gowun Batang", Georgia, serif; font-size: 1.03em; }
 .tx-doc[data-font="serif"] .tx-line.narr .tx-en, .tx-doc[data-font="serif"] .tx-line.narr .tx-ko { font-style: italic; }
+.tx-wiki-hits { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 10px; }
+.tx-wiki-hits p { flex-basis: 100%; margin: 0; }
