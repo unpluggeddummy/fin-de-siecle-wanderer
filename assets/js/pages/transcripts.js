@@ -3,7 +3,7 @@
 // 저장: data/user/transcripts/<문서 id>.json (스토리 한 편 = 한 파일) + data/user/transcripts/index.json (목록)
 //   ※ 저장소가 공개라서 파일 자체는 저장소에서 열 수 있다. 사이트 화면에서만 숨긴다.
 // 주소: #/transcripts 목록 · #/transcripts/<문서 id>/<장 번호> 읽기 · #/transcripts/stars 별표 모아 보기 · #/transcripts/search 검색
-import { h, fill, toast, drawer, debounce, uid, confirmAsk } from '../ui.js';
+import { h, fill, toast, drawer, debounce, uid, confirmAsk, pickFile, readFileText } from '../ui.js';
 import * as store from '../store.js';
 import * as gh from '../github.js';
 
@@ -17,7 +17,9 @@ const ls = {
   get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } },
   set(k, v) { try { v === null ? localStorage.removeItem(k) : localStorage.setItem(k, JSON.stringify(v)); } catch { /* 저장 불가 */ } },
 };
-const pref = { mode: 'side', size: 16, lh: 1.85, font: 'serif', ...(ls.get(PREF) || {}) };
+const pref = { mode: 'sub', size: 17, lh: 1.75, font: 'serif', ...(ls.get(PREF) || {}) };
+if ((pref.v || 0) < 3) { pref.mode = 'sub'; pref.v = 3; }  // 보기는 자막(한국어 크게 · 영어 작게) 하나로
+if (!['sub', 'ko'].includes(pref.mode)) pref.mode = 'sub';  // ko = 영어 자막 끄기
 const savePref = () => ls.set(PREF, pref);
 
 // 불러온 문서와 목록 (페이지를 옮겨 다녀도 유지)
@@ -47,7 +49,8 @@ const blankLine = (kind = 'line') => ({ id: uid(), kind, sp: '', en: '', ko: '',
 
 // ── 이름표: 말하는 사람 이름은 한국어로 통일 ─────────────
 // 출품작 이름(게임 데이터) + 내가 정한 이름(index.json 의 names) 으로 영어 이름을 한국어로 바꾼다
-const BASE_NAMES = { Vertin: '베르틴', Schneider: '슈나이더' };
+// 영어 → 한국어, 그리고 잘못 들어간 한국어 표기 → 맞는 표기 (예: 베르틴 → 버틴)
+const BASE_NAMES = { Vertin: '버틴', Schneider: '슈나이더', 베르틴: '버틴' };
 function nameMap() {
   const m = { ...BASE_NAMES };
   for (const c of store.state.game.characters || []) if (c.name?.en && c.name?.ko) m[c.name.en] = c.name.ko;
@@ -58,19 +61,20 @@ const normName = (n) => String(n || '').trim();
 function koName(en, map = nameMap()) {
   const n = normName(en);
   if (!n) return '';
+  if (map[n] && map[n] !== n) return map[n];          // 이름표에 있으면 (영어든 한국어든) 바꾼다
   if (/[가-힣]/.test(n)) return n;
-  return map[n] || map[Object.keys(map).find((k) => k.toLowerCase() === n.toLowerCase())] || n;
+  return map[Object.keys(map).find((k) => k.toLowerCase() === n.toLowerCase())] || n;
 }
 const isUnmapped = (n, map) => n && !/[가-힣]/.test(n) && koName(n, map) === n;
 /** 아직 한국어 이름이 없는 영어 이름들을 한 번에 적는 칸 */
-function namesForm(names, onDone, { title = '말하는 사람 이름 (한국어로 통일)', note } = {}) {
+function namesForm(names, onDone, { title = '말하는 사람 이름 (한국어로 통일)', note, suggest = {} } = {}) {
   const map = nameMap();
-  const rows = names.map((en) => ({ en, input: h('input', { type: 'text', value: map[en] && map[en] !== en ? map[en] : '', placeholder: '한국어 이름' }) }));
+  const rows = names.map((en) => ({ en, input: h('input', { type: 'text', value: suggest[en] || (map[en] && map[en] !== en ? map[en] : ''), placeholder: /[가-힣]/.test(en) ? '바꿀 이름 (비우면 그대로)' : '한국어 이름' }) }));
   const dr = drawer({
     title,
     body: h('div.tx-names',
       h('p.muted', note || '영어로 된 이름에 한국어 이름을 적어 주세요. 한 번 적으면 모든 대사집에 똑같이 쓰여요. 비워 두면 영어 그대로 둬요.'),
-      rows.length ? rows.map((r) => h('label.tx-name-row', h('span', r.en), r.input)) : h('p', '바꿀 영어 이름이 없어요.')),
+      rows.length ? [h('div.tx-name-row.head', h('span', '지금 이름'), h('span', '바꿀 이름')), rows.map((r) => h('label.tx-name-row', h('span', r.en), r.input))] : h('p', '바꿀 이름이 없어요.')),
     foot: h('button.btn', { type: 'button', onclick: () => {
       S.index.names ||= {};
       for (const r of rows) { const v = r.input.value.trim(); if (v) S.index.names[r.en] = v; else delete S.index.names[r.en]; }
@@ -95,17 +99,42 @@ async function applyNamesEverywhere() {
   S.dirty.add('__index');
   return n;
 }
+/** 위키에서 먼저 불러온 영어 줄(한국어가 없는 줄)을 모든 대사집에서 지운다 */
+async function cleanEnglishOnly() {
+  const docs = (await loadAll()).filter((d) => !d.deleted);
+  const count = docs.reduce((n, d) => n + Object.values(d.stages).reduce((k, st) => k + (st.lines || []).filter((l) => l.kind === 'line' && !l.ko).length, 0), 0);
+  if (!count) { toast('지울 영어만 있는 줄이 없어요.'); return; }
+  if (!confirmAsk(`한국어가 없는 줄 ${count}줄을 모든 대사집에서 지울까요? 한국어가 있는 줄은 그대로 둬요.`)) return;
+  for (const d of docs) {
+    let changed = false;
+    for (const st of Object.values(d.stages)) {
+      const before = (st.lines || []).length;
+      st.lines = (st.lines || []).filter((l) => !(l.kind === 'line' && !l.ko));
+      // 대사가 하나도 안 남은 장은 장면 구분·메모도 같이 비운다
+      if (!st.lines.some((l) => l.kind === 'line')) st.lines = [];
+      if (st.lines.length !== before) changed = true;
+    }
+    if (changed) touch(d);
+  }
+  toast(`${count}줄을 지웠어요. 저장소에 올리는 중…`);
+  await saveAll();
+  rerender();
+}
+
 function namesDrawer() {
   loadAll().then((docs) => {
     const map = nameMap();
     const seen = new Set();
-    docs.forEach((d) => Object.values(d.stages || {}).forEach((st) => (st.lines || []).forEach((l) => isUnmapped(normName(l.sp), map) && seen.add(normName(l.sp)))));
+    docs.forEach((d) => Object.values(d.stages || {}).forEach((st) => (st.lines || []).forEach((l) => { const n = normName(l.sp); if (n) seen.add(n); })));
     const mine = Object.keys(S.index.names || {});
-    namesForm([...new Set([...seen, ...mine])].sort(), async () => {
+    const all = [...new Set([...seen, ...mine])];
+    // 아직 정하지 않은 영어 이름을 맨 위로, 나머지는 가나다순
+    all.sort((a, b) => (isUnmapped(b, map) - isUnmapped(a, map)) || a.localeCompare(b, 'ko'));
+    namesForm(all, async () => {
       const n = await applyNamesEverywhere();
-      toast(n ? `이름 ${n}곳을 한국어로 바꿨어요.` : '이름표를 정했어요.');
+      toast(n ? `이름 ${n}곳을 고쳤어요.` : '이름표를 정했어요.');
       paintSave(); autoSave();
-    }, { note: '대사집에 남아 있는 영어 이름과 내가 정한 이름이에요. 고치면 모든 대사집의 이름이 바뀌어요.' });
+    }, { title: '이름표 — 이름 고치기', note: '대사집에 나오는 모든 이름이에요. 오른쪽에 바꿀 이름을 적으면 모든 대사집에서 한꺼번에 바뀌고, 앞으로 가져오는 대사에도 똑같이 쓰여요. 이미 한국어로 쓴 이름도 여기서 고쳐요 (예: 베르틴 → 버틴). 비우면 그대로 둬요.' });
   });
 }
 
@@ -134,6 +163,8 @@ async function loadDoc(id) {
   const draft = ls.get(DRAFT + id);
   if (draft && (!d || String(draft.updatedAt || '') >= String(d.updatedAt || ''))) { d = draft; S.dirty.add(id); }
   d = d ? { ...blankDoc(id), ...d } : blankDoc(id);
+  const map = nameMap();
+  for (const st of Object.values(d.stages || {})) for (const l of st.lines || []) { const k = koName(l.sp, map); if (k !== (l.sp || '')) l.sp = k; }
   S.docs[id] = d;
   return d;
 }
@@ -225,6 +256,7 @@ async function listView() {
       h('a.btn.small.ghost', { href: '#/transcripts/search' }, '⌕ 검색'),
       h('a.btn.small.ghost', { href: '#/transcripts/stars' }, `★ 별표 대사 ${stars}`),
       h('button.btn.small.ghost', { type: 'button', onclick: namesDrawer }, '이름표'),
+      h('button.btn.small.ghost', { type: 'button', onclick: cleanEnglishOnly, title: '한국어가 없는 영어 줄을 모든 대사집에서 지워요' }, '영어만 있는 줄 지우기'),
       h('button.btn.small', { type: 'button', onclick: newDocDrawer }, '+ 새 대사집')),
     S.loadErr ? h('p.tx-warn', `목록을 불러오지 못했어요: ${S.loadErr}`) : null,
     h('p.tx-stat', `대사집 ${items.length}편 · 대사 ${total.toLocaleString('ko-KR')}줄`),
@@ -312,12 +344,14 @@ async function docView(id, stageArg) {
         location.hash = `#/transcripts/${id}/${n}`;
       } }, '+ 장') : null),
     h('div.tx-tools',
-      h('div.tx-seg', modeBtn('side', '나란히'), modeBtn('stack', '위아래'), modeBtn('en', 'EN'), modeBtn('ko', '한국어')),
+      h('div.tx-seg', modeBtn('sub', '영어 자막 켜기'), modeBtn('ko', '끄기')),
       h('div.tx-seg', ['serif', 'sans'].map((f) => h('button' + (pref.font === f ? '.on' : ''), { type: 'button', title: f === 'serif' ? '대사를 명조(고운 바탕 · Source Serif)로' : '대사를 고딕(프리텐다드)으로',
         onclick: () => { pref.font = f; savePref(); wrap.dataset.font = f; wrap.querySelectorAll('[data-fbtn]').forEach((b) => b.classList.toggle('on', b.dataset.fbtn === f)); }, 'data-fbtn': f }, f === 'serif' ? '명조' : '고딕'))),
       h('div.tx-seg', h('button', { type: 'button', title: '글씨 작게', onclick: () => size(-1) }, 'A−'), h('button', { type: 'button', title: '글씨 크게', onclick: () => size(1) }, 'A+'),
         h('button', { type: 'button', title: '줄 간격 좁게', onclick: () => lh(-0.1) }, '≡−'), h('button', { type: 'button', title: '줄 간격 넓게', onclick: () => lh(0.1) }, '≡+')),
       h('span.tx-gap'),
+      S.editing ? h('button.btn.small.ghost', { type: 'button', onclick: () => scriptDrawer(d, st) }, '한국어 대본 파일 넣기') : null,
+      S.editing && st?.stages?.length ? h('button.btn.small.ghost', { type: 'button', onclick: () => wikiAllStages(d, st) }, '모든 장 영어 채우기') : null,
       S.editing ? h('button.btn.small.ghost', { type: 'button', onclick: () => wikiDrawer(d, st, cur, stage, () => { touch(d); paint(); }) }, '위키에서 영어 가져오기') : null,
       S.editing ? h('button.btn.small.ghost', { type: 'button', onclick: () => pasteDrawer(d, stage, () => { touch(d); paint(); }) }, '붙여넣기로 넣기') : null,
       h('button.btn.small' + (S.editing ? '' : '.ghost'), { type: 'button', 'aria-pressed': String(S.editing), onclick: () => { const leaving = S.editing; S.editing = !S.editing; rerender(); if (leaving) autoSave(); } }, S.editing ? '읽고 저장하기' : '✎ 고치기'),
@@ -360,7 +394,7 @@ function readLines(d, stage, cur) {
     if (l.kind === 'scene') return h('li.tx-scene', h('span', l.ko || l.en || '· · ·'));
     if (l.kind === 'note') return h('li.tx-note', l.ko || l.en);
     const star = h('button.tx-star' + (l.star ? '.on' : ''), { type: 'button', title: '별표', 'aria-pressed': String(!!l.star), onclick: () => { l.star = !l.star; star.classList.toggle('on', l.star); star.setAttribute('aria-pressed', String(l.star)); touch(d); autoSaveSoon(); } }, '★');
-    return h('li.tx-line' + (l.sp ? '' : '.narr'), { id: `l-${l.id}` },
+    return h('li.tx-line' + (l.sp ? '' : '.narr') + (l.ko ? '' : '.noko'), { id: `l-${l.id}` },
       h('div.tx-sp', koName(l.sp)),
       mode !== 'ko' && l.en ? h('p.tx-en', { lang: 'en' }, l.en) : null,
       mode !== 'en' && l.ko ? h('p.tx-ko', l.ko) : null,
@@ -381,7 +415,7 @@ function editLines(d, stage, repaint) {
   const mv = (i, j) => { if (j < 0 || j >= lines.length) return; [lines[i], lines[j]] = [lines[j], lines[i]]; touch(d); repaint(); };
   const ins = (i, kind) => { lines.splice(i + 1, 0, blankLine(kind)); touch(d); repaint(); requestAnimationFrame(() => rootEl.querySelectorAll('.tx-edit-row')[i + 1]?.querySelector('input,textarea')?.focus()); };
   const row = (l, i) => {
-    const set = (k) => (e) => { l[k] = e.target.value; touch(d); };
+    const set = (k) => (e) => { l[k] = e.target.value; delete l.chk; touch(d); };
     const tools = h('div.tx-row-tools',
       h('button', { type: 'button', title: '위로', onclick: () => mv(i, i - 1) }, '↑'),
       h('button', { type: 'button', title: '아래로', onclick: () => mv(i, i + 1) }, '↓'),
@@ -393,7 +427,7 @@ function editLines(d, stage, repaint) {
         autosize(h('textarea', { rows: 1, placeholder: l.kind === 'scene' ? '장면 이름 (비우면 · · ·)' : '메모', oninput: (e) => { l.ko = e.target.value; touch(d); } }), l.ko || l.en || ''),
         tools);
     }
-    return h('div.tx-edit-row',
+    return h('div.tx-edit-row' + (l.chk ? '.chk' : ''), { title: l.chk ? '위키 줄과 이름이 달라요. 영어가 맞는지 확인해 주세요 (고치면 표시가 사라져요)' : null },
       h('input.tx-sp-in', { list: 'tx-speakers', placeholder: '말하는 사람', value: l.sp || '', oninput: set('sp') }),
       autosize(h('textarea', { rows: 1, lang: 'en', placeholder: 'English', oninput: set('en') }), l.en || ''),
       autosize(h('textarea', { rows: 1, placeholder: '한국어', oninput: set('ko') }), l.ko || ''),
@@ -411,14 +445,20 @@ function editLines(d, stage, repaint) {
 
 /** "이름: 대사" / "이름 : 대사" / "[이름] 대사" 를 나눈다 */
 function splitSpeaker(s) {
+  if (/^\s*[(（\[［*].*[)）\]］*]\s*$/.test(s)) return ['', s.trim()];   // (행동 묘사) → 이름 없이
   const m = s.match(/^\s*\[([^\]]{1,40})\]\s*(.+)$/) || s.match(/^\s*([^:：]{1,30}?)\s*[:：]\s*(.+)$/);
   return m ? [m[1].trim(), m[2].trim()] : ['', s.trim()];
 }
 function pasteDrawer(d, stage, done) {
   const en = h('textarea.tx-paste', { rows: 12, lang: 'en', placeholder: 'English — 한 줄에 대사 하나\nVertin: Where are we?\nSonetto: ...' });
-  const ko = h('textarea.tx-paste', { rows: 12, placeholder: '한국어 — 영어와 같은 순서로 한 줄에 하나\n베르틴: 여긴 어디지?\n소네트: ...' });
+  const ko = h('textarea.tx-paste', { rows: 12, placeholder: '한국어 — 영어와 같은 순서로 한 줄에 하나\n버틴: 여긴 어디지?\n소네트: ...' });
   const sp = h('input', { type: 'checkbox', checked: true });
-  const replace = h('input', { type: 'checkbox' });
+  const how = h('select',
+    h('option', { value: 'append' }, '이 장 끝에 이어 붙이기'),
+    h('option', { value: 'fillko' }, '지금 있는 줄에 한국어만 순서대로 채우기 (영어는 그대로)'),
+    h('option', { value: 'replace' }, '이 장을 모두 바꾸기'));
+  const slots = () => stage.lines.filter((l) => l.kind === 'line');
+  how.value = slots().length && slots().every((l) => !l.ko) ? 'fillko' : 'append';
   const info = h('p.tx-paste-info');
   const parse = () => {
     const a = en.value.split('\n').map((x) => x.trim()).filter(Boolean);
@@ -431,12 +471,17 @@ function pasteDrawer(d, stage, done) {
       if (/^(-{3,}|={3,}|#\s*.+)$/.test(a[i] || b[i] || '')) { out.push({ ...blankLine('scene'), ko: (b[i] || a[i]).replace(/^#\s*|^[-=]+$/g, '') }); continue; }
       out.push({ ...blankLine(), sp: koName(s2 || s1), en: t1, ko: t2 });
     }
-    fill(info, `영어 ${a.length}줄 · 한국어 ${b.length}줄 → 대사 ${out.length}줄`,
+    if (how.value === 'fillko') {
+      const n2 = slots().length, k = out.filter((l) => l.kind === 'line').length;
+      fill(info, `이 장의 대사 ${n2}줄 · 붙여 넣은 한국어 ${k}줄`,
+        n2 !== k ? h('b', ` · 줄 수가 달라요. ${Math.min(n2, k)}번째 줄까지 채우고${k > n2 ? ', 남는 한국어는 끝에 새 줄로 붙여요' : ''}. 넣은 뒤 어긋난 곳은 고치기에서 맞춰 주세요.`) : h('span', ' · 줄 수가 딱 맞아요.'));
+    } else fill(info, `영어 ${a.length}줄 · 한국어 ${b.length}줄 → 대사 ${out.length}줄`,
       a.length && b.length && a.length !== b.length ? h('b', ' · 줄 수가 달라요. 남는 줄은 한쪽만 들어가요.') : null);
     return out;
   };
   [en, ko, sp].forEach((x) => x.addEventListener('input', parse));
   sp.addEventListener('change', parse);
+  how.addEventListener('change', parse);
   parse();
   const dr = drawer({
     title: '붙여넣기로 넣기', wide: true,
@@ -444,13 +489,21 @@ function pasteDrawer(d, stage, done) {
       h('p.muted', '영어와 한국어를 같은 순서로 한 줄에 하나씩 붙여 넣으면 줄끼리 짝을 지어요. 한쪽만 넣어도 돼요. "---" 나 "# 장면 이름" 줄은 장면 구분이 돼요.'),
       h('div.tx-paste-cols', h('label', 'English', en), h('label', '한국어', ko)),
       h('label.tx-check', sp, ' "이름: 대사" 형식이면 말하는 사람을 따로 나누기'),
-      h('label.tx-check', replace, ' 이 장의 대사를 모두 바꾸기 (끄면 끝에 이어 붙임)'),
+      h('label.tx-check', '넣는 방법 ', how),
       info),
     foot: h('button.btn', { type: 'button', onclick: () => {
       const out = parse();
       if (!out.length) { toast('붙여 넣은 대사가 없어요.'); return; }
-      if (replace.checked) { if (stage.lines.length && !confirmAsk(`이 장의 대사 ${stage.lines.length}줄을 바꿀까요?`)) return; stage.lines = out; }
-      else stage.lines.push(...out);
+      if (how.value === 'replace') { if (stage.lines.length && !confirmAsk(`이 장의 대사 ${stage.lines.length}줄을 바꿀까요?`)) return; stage.lines = out; }
+      else if (how.value === 'fillko') {
+        const ss = slots();
+        out.filter((l) => l.kind === 'line').forEach((l, i) => {
+          const t = ss[i];
+          if (!t) { stage.lines.push(l); return; }
+          t.ko = l.ko || l.en;
+          if (!t.sp && l.sp) t.sp = l.sp;
+        });
+      } else stage.lines.push(...out);
       dr.close(); done(); toast(`대사 ${out.length}줄을 넣었어요. 저장소에 올리는 중…`); autoSave();
     } }, '넣기'),
   });
@@ -463,7 +516,7 @@ async function starsView() {
   return h('div.tx',
     head('별표 대사', 'Starred Lines', '대사집에서 별표한 대사를 한곳에 모았어요.', h('a.btn.small.ghost', { href: '#/transcripts' }, '← 목록')),
     groups.length ? groups.map(([d, list]) => h('section.tx-group', h('h2.section', d.title),
-      h('ol.tx-lines.mode-' + pref.mode, list.map(([n, l]) => h('li.tx-line' + (l.sp ? '' : '.narr'),
+      h('ol.tx-lines.mode-' + pref.mode, list.map(([n, l]) => h('li.tx-line' + (l.sp ? '' : '.narr') + (l.ko ? '' : '.noko'),
         h('div.tx-sp', koName(l.sp)),
         pref.mode !== 'ko' && l.en ? h('p.tx-en', { lang: 'en' }, l.en) : null,
         pref.mode !== 'en' && l.ko ? h('p.tx-ko', l.ko) : null,
@@ -485,7 +538,7 @@ async function searchView() {
       if (l.kind === 'line' && `${l.sp} ${l.en} ${l.ko}`.toLowerCase().includes(t)) hits.push([d, n, l]);
     }
     fill(out, h('p.tx-stat', `${hits.length}줄 찾음`),
-      h('ol.tx-lines.mode-' + pref.mode, hits.slice(0, 300).map(([d, n, l]) => h('li.tx-line' + (l.sp ? '' : '.narr'),
+      h('ol.tx-lines.mode-' + pref.mode, hits.slice(0, 300).map(([d, n, l]) => h('li.tx-line' + (l.sp ? '' : '.narr') + (l.ko ? '' : '.noko'),
         h('div.tx-sp', koName(l.sp)),
         pref.mode !== 'ko' && l.en ? h('p.tx-en', { lang: 'en' }, l.en) : null,
         pref.mode !== 'en' && l.ko ? h('p.tx-ko', l.ko) : null,
@@ -587,16 +640,44 @@ function wikiLines(w) {
   return out;
 }
 
+/**
+ * 한국어 줄(이름)과 위키 줄(이름)을 순서대로 맞춘다 — 이름이 같은 줄끼리 짝짓고, 한쪽에만 있는 줄은 건너뛴다.
+ * 이름이 다른데 짝지은 줄은 chk 표시(고치기 화면에서 확인).  행동 묘사(이름 없음)끼리도 짝을 짓는다.
+ */
+function alignFill(slots, wiki) {
+  const A = slots.map((l) => normName(l.sp)), B = wiki.map((l) => normName(l.sp));
+  const n = A.length, m = B.length, SUB = 1.6, GAP = 1;
+  const D = Array.from({ length: n + 1 }, () => new Float32Array(m + 1));
+  for (let i = 1; i <= n; i++) D[i][0] = i * GAP;
+  for (let j = 1; j <= m; j++) D[0][j] = j * GAP;
+  for (let i = 1; i <= n; i++) for (let j = 1; j <= m; j++) {
+    D[i][j] = Math.min(D[i - 1][j - 1] + (A[i - 1] === B[j - 1] ? 0 : SUB), D[i - 1][j] + GAP, D[i][j - 1] + GAP);
+  }
+  let i = n, j = m, filled = 0, check = 0, used = 0;
+  while (i > 0 && j > 0) {
+    const same = A[i - 1] === B[j - 1];
+    if (D[i][j] === D[i - 1][j - 1] + (same ? 0 : SUB)) {
+      const t = slots[i - 1];
+      t.en = wiki[j - 1].en; filled++; used++;
+      if (same) delete t.chk; else { t.chk = true; check++; }
+      i--; j--;
+    } else if (D[i][j] === D[i - 1][j] + GAP) i--;
+    else j--;
+  }
+  return { filled, check, leftover: m - used, missing: n - filled };
+}
+
 function wikiDrawer(d, st, cur, stage, done) {
   const idx = st ? (st.stages || []).findIndex((x) => String(x.n) === String(cur)) : -1;
   const page = h('input', { type: 'text', placeholder: '위키 문서 이름이나 주소 (예: 7TH-01/Story)', value: idx >= 0 ? st.stages[idx].en : '' });
   const mode = h('select',
-    h('option', { value: 'fill' }, '지금 있는 줄에 순서대로 영어 채우기 (한국어는 그대로)'),
+    h('option', { value: 'fill' }, '한국어 줄에 맞춰 영어 채우기 (말하는 사람 순서로 맞춤)'),
     h('option', { value: 'append' }, '이 장 끝에 이어 붙이기'),
     h('option', { value: 'replace' }, '이 장을 모두 바꾸기'));
   mode.value = stage.lines.length ? 'fill' : 'append';
   const info = h('div.tx-wiki-info', h('p.muted', '문서를 찾는 중…'));
   let got = null;
+  let lastAlign = null;
   const fetchIt = async () => {
     got = null;
     let title = wikiTitle(page.value);
@@ -626,7 +707,7 @@ function wikiDrawer(d, st, cur, stage, done) {
       fill(info,
         h('p', `대사 ${lines.length}줄 (지문 ${lines.filter((l) => !l.sp).length}줄 포함) · 문서: ${title}`),
         unknown.length ? h('p.tx-warn', `한국어 이름이 없는 사람 ${unknown.length}명: ${unknown.join(', ')} — "가져오기"를 누르면 이름을 정하는 칸이 떠요.`) : h('p.muted', '말하는 사람 이름은 모두 한국어로 바뀌어요.'),
-        h('ol.tx-lines.tx-preview', lines.slice(0, 4).map((l) => h('li.tx-line' + (l.sp ? '' : '.narr'), h('div.tx-sp', koName(l.sp, map)), h('p.tx-en', { lang: 'en' }, l.en)))));
+        h('ol.tx-lines.tx-preview', lines.slice(0, 4).map((l) => h('li.tx-line' + (l.sp ? '' : '.narr') + (l.ko ? '' : '.noko'), h('div.tx-sp', koName(l.sp, map)), h('p.tx-en', { lang: 'en' }, l.en)))));
     } catch (e) { fill(info, h('p.tx-warn', e.message || '읽지 못했어요.')); }
   };
   page.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); fetchIt(); } });
@@ -641,21 +722,16 @@ function wikiDrawer(d, st, cur, stage, done) {
       if (stage.lines.length && !confirmAsk(`이 장의 대사 ${stage.lines.length}줄을 위키 영어로 바꿀까요? 적어 둔 한국어도 사라져요.`)) return false;
       stage.lines = lines;
     } else if (m === 'append' || !stage.lines.length) stage.lines.push(...lines);
-    else { // fill: 장면 구분·메모는 건너뛰고 대사 줄끼리 순서대로
-      const slots = stage.lines.filter((l) => l.kind === 'line');
-      lines.forEach((l, i) => {
-        const t = slots[i];
-        if (!t) { stage.lines.push(l); return; }
-        t.en = l.en;
-        if (!t.sp) t.sp = l.sp;
-      });
+    else { // fill: 한국어 줄(이름)과 위키 줄(이름)을 맞춰서 영어만 채운다. 이름·한국어는 건드리지 않는다
+      const r = alignFill(stage.lines.filter((l) => l.kind === 'line'), lines);
+      lastAlign = r;
     }
     return true;
   };
   const dr = drawer({
     title: '위키에서 영어 가져오기', wide: true,
     body: h('div.tx-wiki',
-      h('p.muted', 'Reverse: 1999 팬덤 위키(CC BY-SA 3.0)의 스토리 기록에서 이 장의 영어 대사와 지문을 가져와요. 말하는 사람은 한국어 이름으로 바꿔 넣어요.'),
+      h('p.muted', 'Reverse: 1999 팬덤 위키(CC BY-SA 3.0)의 스토리 기록에서 이 장의 영어 대사와 지문을 가져와요. 한국어를 먼저 넣어 두면, 말하는 사람 순서를 보고 한국어 줄마다 영어 자막을 맞춰 채워요.'),
       h('div.tx-wiki-row', page, h('button.btn.small', { type: 'button', onclick: fetchIt }, '읽기')),
       h('label.tx-check', '넣는 방법 ', mode),
       info),
@@ -663,10 +739,181 @@ function wikiDrawer(d, st, cur, stage, done) {
       if (!got) { toast('먼저 위키에서 읽어 와야 해요.'); return; }
       const map = nameMap();
       const unknown = [...new Set(got.map((l) => l.sp).filter((n) => isUnmapped(n, map)))];
-      const finish = () => { if (!apply()) return; done(); toast(`영어 대사 ${got.length}줄을 넣었어요. 저장소에 올리는 중…`); autoSave(); };
+      const finish = () => { if (!apply()) return; done(); const r = lastAlign; toast(r ? `영어 ${r.filled}줄을 맞춰 넣었어요${r.check ? ` · 이름이 달라 확인할 줄 ${r.check}` : ''}${r.leftover ? ` · 짝이 없는 위키 줄 ${r.leftover}` : ''}. 저장소에 올리는 중…` : `영어 대사 ${got.length}줄을 넣었어요. 저장소에 올리는 중…`); autoSave(); };
       dr.close();
       if (unknown.length) namesForm(unknown, () => { S.dirty.add('__index'); finish(); });
       else finish();
     } }, '가져오기'),
   });
+}
+
+// ── 한국어 대본 파일(텍스트) 넣기 ─────────────────────────
+// 노션 등에서 복사해 온 대본 형식:
+//   1.9 고독의 노래            ← 스토리 제목 (건너뜀)
+//   1. 대각선의 비밀(섬)        ← 장 머리말: 번호. 이름(장소)
+//   1914/1/12 20:30            ← 날짜·시간 → 장면 구분
+//   37                         ← 말하는 사람 (짧은 줄, 문장부호 없음)
+//   …엄마, 궁금한 게 있어.       ← 대사 (다음 이름/지문이 나올 때까지)
+//   모래사장에 서 있던 여인이…   ← 지문 (…다. 로 끝나는 서술) → 이름 없이
+//   -  /  -전투-                ← 구분 줄 → 장면 구분
+const SEP_RE = /^-+$|^-[^-]{1,10}-$/;
+const DATE_RE = /^\d{3,4}[/.]\d{1,2}[/.]\d{1,2}(\s+\d{1,2}:\d{2})?$/;
+const STAGE_RE = /^(\d{1,3})\.\s+(.+?)\s*$/;
+const STORY_RE = /^\d+\.\d+\s+\S/;
+const ENDPUNCT_RE = /[.!?…~,"”’'」』)\]）:：]$/;
+/** 서술(지문)처럼 끝나는 줄: "…했다." "…이었다." (존댓말 "…니다."는 대사로 본다) */
+const isNarration = (t) => /다[.。]?["”’]?$/.test(t) && !/(니다|니까|란다|단다|거든다)[.。]?$/.test(t) && !/^[…"“'‘]/.test(t);
+function parseKoScript(text) {
+  const L = text.replace(/\r/g, '').split('\n').map((x) => x.trim());
+  // 말하는 사람 후보: 짧고 문장부호 없이 끝나는 줄 중 두 번 넘게 나오거나 이름표·출품작 이름인 것
+  const map = nameMap();
+  const known = new Set([...Object.values(map), ...(store.state.game.characters || []).map((c) => c.name?.ko).filter(Boolean)]);
+  const cand = (t) => t && t.length <= 16 && !ENDPUNCT_RE.test(t) && !SEP_RE.test(t) && !DATE_RE.test(t) && !STAGE_RE.test(t) && !STORY_RE.test(t);
+  const freq = {};
+  L.forEach((t, i) => { if (cand(t) && L[i + 1]) freq[t] = (freq[t] || 0) + 1; });
+  const isSpeaker = (t, next) => cand(t) && !!next && !cand(next) && (freq[t] >= 2 || known.has(t) || /^\d{1,4}$/.test(t));
+  const stages = [];
+  let cur = null, sp = '', inSpeech = false;
+  const push = (l) => { if (!cur) { cur = { n: '0', title: '', lines: [] }; stages.push(cur); } cur.lines.push(l); };
+  for (let i = 0; i < L.length; i++) {
+    const t = L[i];
+    if (!t) { inSpeech = false; continue; }
+    const m = t.match(STAGE_RE);
+    if (m && !STORY_RE.test(t)) {
+      const place = (m[2].match(/\(([^)]*)\)\s*$/) || [])[1] || '';
+      cur = { n: m[1], title: m[2].replace(/\s*\([^)]*\)\s*$/, ''), place, lines: [] };
+      stages.push(cur); sp = ''; inSpeech = false; continue;
+    }
+    if (STORY_RE.test(t) && !cur) continue;
+    if (DATE_RE.test(t)) { push({ ...blankLine('scene'), ko: t }); inSpeech = false; continue; }
+    if (SEP_RE.test(t)) { push({ ...blankLine('scene'), ko: t.replace(/^-+|-+$/g, '') }); inSpeech = false; continue; }
+    if (isSpeaker(t, L[i + 1])) { sp = koName(t, map); inSpeech = 'first'; continue; }
+    // "이름: 대사" 한 줄 형식도 받는다
+    const [s1, body] = splitSpeaker(t);
+    if (s1 && (known.has(s1) || freq[s1] >= 2)) { push({ ...blankLine(), sp: koName(s1, map), ko: body }); inSpeech = false; continue; }
+    if (inSpeech === 'first' || (inSpeech && !isNarration(t))) { push({ ...blankLine(), sp, ko: t }); inSpeech = true; continue; }
+    push({ ...blankLine(), sp: '', ko: t });   // 지문(행동 묘사)은 이름 없이
+    inSpeech = false;
+  }
+  return stages.filter((x) => x.lines.length || x.n !== '0');
+}
+
+function scriptDrawer(d, st) {
+  const ta = h('textarea.tx-paste', { rows: 10, placeholder: '대본 텍스트를 붙여 넣거나, 위의 "파일 고르기"로 .txt 파일을 열어요.' });
+  const how = h('select',
+    h('option', { value: 'empty' }, '비어 있는 장에만 넣기 (이미 쓴 장은 건너뜀)'),
+    h('option', { value: 'replace' }, '들어 있는 장도 모두 바꾸기'));
+  const info = h('div.tx-script-info');
+  let parsed = [];
+  const known = (n) => (d.order || []).includes(String(n));
+  const paint = () => {
+    parsed = parseKoScript(ta.value);
+    if (!parsed.length) { fill(info, h('p.muted', '장 머리말("1. 장 이름")을 찾으면 장별로 나눠서 보여 줘요.')); return; }
+    const total = parsed.reduce((n, x) => n + x.lines.filter((l) => l.kind === 'line').length, 0);
+    const narr = parsed.reduce((n, x) => n + x.lines.filter((l) => l.kind === 'line' && !l.sp).length, 0);
+    const who = {};
+    parsed.forEach((x) => x.lines.forEach((l) => { if (l.sp) who[l.sp] = (who[l.sp] || 0) + 1; }));
+    fill(info,
+      h('p', `${parsed.length}장 · 대사 ${total}줄 (그중 이름 없는 지문 ${narr}줄)`),
+      h('p.muted', '말하는 사람: ', Object.entries(who).sort((a, b) => b[1] - a[1]).slice(0, 24).map(([k, v]) => `${k} ${v}`).join(' · ')),
+      h('ol.tx-script-stages', parsed.map((x) => {
+        const have = (d.stages[x.n]?.lines || []).length;
+        return h('li', h('b', `${x.n}. ${x.title}`), x.place ? h('small', ` (${x.place})`) : null,
+          h('span', ` ${x.lines.filter((l) => l.kind === 'line').length}줄`),
+          !known(x.n) && x.n !== '0' ? h('em', ' · 새 장으로 추가') : null,
+          have ? h('em', how.value === 'empty' ? ' · 이미 있어서 건너뜀' : ' · 바꿈') : null);
+      })),
+      h('p.muted', '지문과 대사는 문장 끝 모양으로 나눠요. 잘못 나뉜 줄은 넣은 뒤 고치기에서 이름 칸만 고치면 돼요.'));
+  };
+  ta.addEventListener('input', debounce(paint, 300));
+  how.addEventListener('change', paint);
+  const pick = h('button.btn.small', { type: 'button', onclick: async () => {
+    const f = await pickFile('.txt,.md,text/plain');
+    if (!f) return;
+    ta.value = await readFileText(f);
+    paint();
+  } }, '파일 고르기');
+  paint();
+  const dr = drawer({
+    title: '한국어 대본 파일 넣기', wide: true,
+    body: h('div.tx-script',
+      h('p.muted', '장 머리말("1. 대각선의 비밀(섬)")로 장을 나누고, 이름 줄 다음 줄들은 그 사람의 대사로, "…다."로 끝나는 서술은 이름 없는 지문으로 넣어요. 날짜 줄과 "-" 줄은 장면 구분이 돼요.'),
+      h('div.tx-wiki-row', pick),
+      ta,
+      h('label.tx-check', '넣는 방법 ', how),
+      info),
+    foot: [
+      h('button.btn.ghost', { type: 'button', onclick: () => { if (doPut()) { autoSave(); rerender(); } } }, '한국어만 넣기'),
+      st?.stages?.length ? h('button.btn', { type: 'button', onclick: async () => {
+        if (!doPut()) return;
+        await wikiAllStages(d, st, { ask: false });   // 이어서 모든 장 영어 채우기 (저장까지)
+      } }, '넣고 영어까지 채우기') : null,
+    ],
+  });
+  /** 나눈 대본을 장마다 넣는다. 넣은 장 수를 돌려준다 */
+  function doPut() {
+    if (!parsed.length) { toast('넣을 대본이 없어요.'); return 0; }
+    let put = 0, skip = 0;
+    for (const x of parsed) {
+      if (x.n === '0') continue;
+      const have = (d.stages[x.n]?.lines || []).length;
+      if (have && how.value === 'empty') { skip++; continue; }
+      d.stages[x.n] = { ...(d.stages[x.n] || {}), lines: x.lines };
+      if (!(d.order || []).includes(x.n)) {
+        d.order = [...(d.order || []), x.n].sort((p, q) => Number(p) - Number(q));
+        d.customStages = { ...(d.customStages || {}), [x.n]: `${x.n}. ${x.title}` };
+      }
+      put++;
+    }
+    dr.close();
+    if (!put) { toast(skip ? `${skip}장이 이미 있어서 넣을 장이 없어요. 넣는 방법을 "모두 바꾸기"로 고르면 바꿔 넣어요.` : '넣을 장이 없어요.'); return 0; }
+    touch(d);
+    toast(`한국어 ${put}장을 넣었어요${skip ? ` · ${skip}장은 이미 있어서 건너뜀` : ''}.`);
+    return put;
+  }
+}
+
+// ── 모든 장 영어 채우기 (위키) ────────────────────────────
+async function wikiAllStages(d, st, { ask = true } = {}) {
+  const order = d.order?.length ? d.order : st.stages.map((x) => String(x.n));
+  const todo = order.filter((n) => (d.stages[n]?.lines || []).some((l) => l.kind === 'line' && l.ko && !l.en));
+  if (!todo.length) { if (ask) toast('영어를 채울 장이 없어요. 한국어가 있고 영어가 빈 장만 채워요.'); else { await saveAll(); rerender(); } return; }
+  if (ask && !confirmAsk(`${todo.length}개 장에 위키 영어를 채울까요? 한국어 줄에 말하는 사람 순서로 맞춰 넣어요.`)) return;
+  const log = h('ol.tx-batch-log');
+  const dr = drawer({ title: '모든 장 영어 채우기', wide: true, body: h('div', h('p.muted', '한 장씩 위키에서 읽어서 맞추는 중이에요. 창을 닫아도 계속돼요.'), log) });
+  const pairs = {};   // 위키 영어 이름 → 짝지어진 한국어 이름 (이름표 추천용)
+  let total = 0, chk = 0;
+  for (const n of todo) {
+    const idx = st.stages.findIndex((x) => String(x.n) === String(n));
+    const row = h('li', `${n}장 … `);
+    log.append(row);
+    try {
+      if (idx < 0) { row.append('사이트 장 목록에 없는 장이라 건너뜀 (위키에서 영어 가져오기로 직접)'); continue; }
+      const title = await wikiStagePage(st, idx);
+      const w = wikiLines(await wikiText(title));
+      if (!w.length) { row.append(`위키 문서(${title})에서 대사를 못 찾음`); continue; }
+      const map = nameMap();
+      const slots = d.stages[n].lines.filter((l) => l.kind === 'line');
+      const wl = w.map((l) => ({ ...l, sp: koName(l.sp, map), raw: l.sp }));
+      const r = alignFill(slots, wl);
+      // 이름이 달랐던 짝: 아직 한국어 이름이 없는 영어 이름이면 추천으로 모은다
+      slots.forEach((t) => { if (t.chk && t._raw) delete t._raw; });
+      wl.forEach((l) => { if (isUnmapped(l.raw, map)) { const hit = slots.find((t) => t.en === l.en && t.chk); if (hit?.sp) { pairs[l.raw] ||= {}; pairs[l.raw][hit.sp] = (pairs[l.raw][hit.sp] || 0) + 1; } } });
+      total += r.filled; chk += r.check;
+      row.append(`영어 ${r.filled}줄${r.check ? ` · 확인 ${r.check}` : ''}${r.leftover ? ` · 짝 없는 위키 줄 ${r.leftover}` : ''}`);
+      touch(d);
+    } catch (e) { row.append(`실패: ${e.message}`); }
+  }
+  log.append(h('li', h('b', `끝 — 영어 ${total}줄${chk ? `, 이름이 달라 확인할 줄 ${chk}` : ''}. 저장소에 올리는 중…`)));
+  await saveAll();
+  rerender();
+  // 위키에만 있는 영어 이름(예: 직원 Ⅰ)에 한국어 이름을 추천해서 이름표에 넣을 수 있게
+  const unknown = Object.keys(pairs);
+  if (unknown.length) {
+    dr.close();
+    S.index.names ||= {};
+    const suggest = Object.fromEntries(unknown.map((k) => [k, Object.entries(pairs[k]).sort((a, b) => b[1] - a[1])[0][0]]));
+    namesForm(unknown, async () => { S.dirty.add('__index'); await saveAll(); toast('이름표를 정했어요. 다음 장부터는 이 이름으로 맞춰요.'); },
+      { title: '위키 영어 이름 → 한국어 이름', note: '위키에만 있는 영어 이름이에요. 같은 자리에 있던 한국어 이름을 미리 적어 뒀어요. 맞으면 그대로 "이름 정하기"를 누르세요. 다음에 영어를 채울 때 더 정확하게 맞춰요.', suggest });
+  }
 }
