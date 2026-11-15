@@ -312,7 +312,8 @@ function scoreBoard(seasons, totals, season) {
         on && x.total ? h('em.sb2-tag', fmt(x.total)) : null),
       h('span.sb2-v', s.version));
   });
-  const ticks = [1, 0.75, 0.5, 0.25].map((f) => h('span', { style: { bottom: `${(f * best / max) * 100}%` } }, best ? `${Math.round(f * best / 10000).toLocaleString('ko-KR')}만` : ''));
+  // 기둥은 아래 24px(시즌 이름) · 위 30px(점수 표시 자리)을 뺀 높이에 그려지므로 눈금도 같은 기준으로
+  const ticks = [1, 0.75, 0.5, 0.25].map((f) => h('span', { style: { bottom: `calc(24px + (100% - 54px) * ${(f * best / max).toFixed(4)})` } }, best ? `${Math.round(f * best / 10000).toLocaleString('ko-KR')}만` : ''));
 
   const el = h('section.sb2',
     h('div.sb2-head',
