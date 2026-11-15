@@ -1,0 +1,19 @@
+{
+ "items": {
+  "main-vereinsamt": {
+   "title": "고독의 노래",
+   "titleEn": "Vereinsamt",
+   "version": "1.9",
+   "story": "main-vereinsamt",
+   "lines": 55,
+   "stars": 0,
+   "updatedAt": "2026-11-15T08:43:22.383Z"
+  }
+ },
+ "names": {
+  "37": "37",
+  "77": "77",
+  "Kid 37": "어린 37",
+  "Sophia": "소피아"
+ }
+}
