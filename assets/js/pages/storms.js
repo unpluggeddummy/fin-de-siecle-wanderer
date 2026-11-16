@@ -1,5 +1,6 @@
 // 폭풍우 연표 — 폭풍우가 올 때마다 세계가 어느 해로 갔는지, 그 시대에 어떤 스토리가 있었는지
-// 자료: data/game/storm-timeline.json (손으로 정리: 나무위키 + 버틴의 여행가방, 버전·영문 제목은 Reverse: 1999 Wiki)
+// 자료: data/game/storm-timeline.json (손으로 정리: 나무위키 + 버틴의 여행가방, 버전·영문 제목은 Reverse: 1999 Wiki,
+//        시대별 사건·1999년 이전 연표는 UTTU 아카이브 타임라인을 한국어로 요약)
 // 주소: #/storms   한 시대로 바로: #/storms/<시대 id>  (예: #/storms/e1990)
 // 아직 확실하지 않은 자료라 토큰을 연결한 기기에서만 메뉴가 보이고 열린다 (취향표·대사집처럼).
 // 편집 모드에서 "✎ 연표 고치기"로 시대·폭풍우·스토리 배치를 고치고, "연표 저장"을 누르면 저장소에 커밋된다.
@@ -13,7 +14,7 @@ const DRAFT = 'r1999.storms.draft';
 
 let data = null;
 let loading = null;
-const view = { kind: 'all' };   // all | main | event
+const view = { kind: 'all', events: true };   // kind: all | main | event, events: 시대별 사건 보이기
 
 function load() {
   // 토큰이 있으니 저장소에서 바로 읽는다 (사이트 반영을 기다리지 않게). 실패하면 사이트 파일로.
@@ -31,7 +32,7 @@ function load() {
 }
 
 const U = () => store.state.user.stories || {};
-const SRC_SHORT = { namu: '나', suitcase: '여' };
+const SRC_SHORT = { namu: '나', suitcase: '여', uttu: 'U' };
 const yearNum = (y) => parseInt(y, 10);
 
 export function render(root, { arg } = {}) {
@@ -60,11 +61,15 @@ export function render(root, { arg } = {}) {
     h('div.chips',
       chip('전체', view.kind === 'all', () => { view.kind = 'all'; rerender(); }),
       chip('메인 스토리', view.kind === 'main', () => { view.kind = 'main'; rerender(); }),
-      chip('버전 이벤트', view.kind === 'event', () => { view.kind = 'event'; rerender(); })),
+      chip('버전 이벤트', view.kind === 'event', () => { view.kind = 'event'; rerender(); }),
+      chip('사건 보기', view.events, () => { view.events = !view.events; rerender(); })),
     h('span.st-legend',
       h('span.st-src', '나'), ' 나무위키 ',
       h('span.st-src', '여'), ' 버틴의 여행가방 ',
+      h('span.st-src', 'U'), ' UTTU ',
       h('span.st-flag', '?'), ' 출처끼리 다르거나 불확실')));
+
+  if (data.prehistory && view.events) root.append(prehistoryBlock(data.prehistory));
 
   const list = h('ol.st-list');
   eras.forEach((era, i) => {
@@ -97,11 +102,42 @@ function eraBlock(era, i) {
     h('div.st-era-year',
       h('span.st-era-n', i === 0 ? 'ORIGIN' : `ERA ${String(i).padStart(2, '0')}`),
       h('b', era.year === '1930s' ? '1930년대' : era.year, era.uncertain ? h('span.st-flag', { title: '출처마다 다르거나 확실하지 않아요' }, '?') : null),
-      h('small', era.label)),
+      h('small', era.label),
+      era.realYears ? h('small.st-real', { title: 'UTTU 타임라인에 적힌, 폭풍우 밖에서 실제로 흐른 해' }, `실제 ${era.realYears}`) : null),
     h('div.st-era-body',
       stories.length ? h('ul.st-stories', stories.map((s) => storyRow(s)))
         : era.stories.length ? h('p.st-empty', '이 필터에 맞는 스토리가 없어요.') : era.note ? null : h('p.st-empty', '이 시대가 무대인 스토리는 아직 없어요.'),
-      era.note ? h('p.st-note', era.note) : null));
+      era.note ? h('p.st-note', era.note) : null,
+      view.events && era.events?.length ? h('div.st-events',
+        h('p.st-events-head', h('span.st-src', 'U'), ` 이 시대의 사건 ${era.events.length}`),
+        h('ol.st-evlist', era.events.map(eventRow))) : null));
+}
+
+/** UTTU 타임라인 사건 한 줄 — 내 스토리 목록에 있으면 그 스토리로, 아니면 UTTU 원문 페이지로 */
+function eventRow(e) {
+  const st = e.story && store.storyById(e.story);
+  const label = e.mineTitle || e.ko;
+  const title = st ? h('a', { href: `#/stories/${e.story}` }, label)
+    : e.link ? h('a', { href: e.link, target: '_blank', rel: 'noopener' }, label) : label;
+  return h('li.st-ev',
+    h('span.st-ev-date', e.date || '—'),
+    h('span.st-ev-body',
+      h('b', title, e.ver ? h('em.st-ev-ver', e.ver) : null),
+      e.en ? h('small.en', { title: 'UTTU 원문 제목' }, e.en) : null,
+      e.mineTitle && e.mineTitle !== e.ko ? h('small.st-ev-alt', `Claude 번역: ${e.ko}`) : null,
+      e.note ? h('span.st-ev-note', e.note) : null,
+      e.mine ? h('span.st-ev-mine', h('em', '내 번역'), e.mine) : null,
+      e.orig ? h('details.st-ev-orig', h('summary', '원문 메모'), h('p', e.orig)) : null));
+}
+
+/** 첫 폭풍우 전 원래 흐르던 시간 — 접어 둘 수 있게 */
+function prehistoryBlock(p) {
+  return h('details.st-pre', { open: true },
+    h('summary', h('span.en', 'Before the Storm'), ` ${p.label}`, h('small.faint', ` · 사건 ${p.years.reduce((n, y) => n + y.events.length, 0)}`)),
+    p.note ? h('p.st-note', p.note) : null,
+    h('ol.st-pre-list', p.years.map((y) => h('li.st-pre-year',
+      h('b.st-pre-y', y.year),
+      h('ol.st-evlist', y.events.map(eventRow))))));
 }
 
 function storyRow(s) {
@@ -227,6 +263,26 @@ const tools = (arr, i, extra = []) => h('div.st-ed-tools',
   ...extra,
   h('button', { type: 'button', 'aria-label': '지우기', onclick: () => { if (confirmAsk('지울까요?')) { arr.splice(i, 1); touch(true); } } }, '✕'));
 
+const area = (obj, key, ph) => h('textarea.st-ed-area', { rows: 2, placeholder: ph, 'aria-label': ph,
+  onchange: (e) => { const v = e.target.value.trim(); if (v) obj[key] = v; else delete obj[key]; touch(); } }, obj[key] ?? '');
+
+/** UTTU 사건 번역 고치기 — 원문 제목(en) · Claude 번역(ko·note) · 내 번역(mineTitle·mine) · 원문 메모(orig) */
+function eventsEditor(holder, key, head) {
+  const list = (holder[key] ||= []);
+  return h('details.st-ed-events', h('summary', `${head} · 사건 ${list.length}`),
+    list.map((e, k) => h('div.st-ed-ev',
+      h('div.st-ed-row', h('span.st-ev-date', e.date || '—'), h('small.en', e.en || ''), h('span'), tools(list, k)),
+      h('div.st-ed-evgrid',
+        txt(e, 'date', '날짜 (예: 1987.06)'),
+        txt(e, 'en', '원문 제목 (영어)'),
+        txt(e, 'ko', 'Claude 번역 제목'),
+        txt(e, 'mineTitle', '내 번역 제목 (쓰면 이걸 먼저 보여줘요)'),
+        area(e, 'note', 'Claude 요약'),
+        area(e, 'mine', '내 번역'),
+        area(e, 'orig', '원문 메모 (직접 옮겨 적기)')))),
+    h('button.btn.small.ghost', { type: 'button', onclick: () => { list.push({ date: '', ko: '', en: '' }); touch(true); } }, '+ 사건 더하기'));
+}
+
 function editView() {
   const d = edit.draft;
   syncStorms(d);
@@ -273,7 +329,8 @@ function editView() {
         check(era, 'uncertain', '불확실'),
         tools(d.eras, i)),
       txt(era, 'note', '시대 메모', '.st-ed-wide'),
-      h('div.st-ed-stories', era.stories.map((_, k) => storyEditor(era.stories, k, era.id)), addStory(era.stories))));
+      h('div.st-ed-stories', era.stories.map((_, k) => storyEditor(era.stories, k, era.id)), addStory(era.stories)),
+      eventsEditor(era, 'events', `${era.year} 시대의 사건`)));
     const st = stormBy.get(i + 1);
     if (st && i < d.eras.length - 1) {
       blocks.push(h('li.st-ed-storm',
@@ -286,7 +343,10 @@ function editView() {
     }
   });
 
+  const pre = d.prehistory;
   return h('div.st-edit',
+    pre ? h('details.st-ed-pre', h('summary', `${pre.label} 사건 번역 고치기 (${pre.years.reduce((n, y) => n + y.events.length, 0)})`),
+      pre.years.map((y) => eventsEditor(y, 'events', y.year))) : null,
     h('p.muted', '연도·이름·메모는 칸을 고치고 다른 곳을 누르면 바로 반영돼요. 시대 순서를 바꾸면 폭풍우 순서도 같이 맞춰져요. 다 고치면 위의 "연표 저장"을 눌러 주세요. 저장하기 전까지는 이 브라우저에만 임시로 남아요.'),
     h('div.fields.st-ed-meta', txt(d, 'basis', '기준 (예: 한국 서버 3.9 기준)'), txt(d, 'excluded', '빠진 것 설명', '.st-ed-wide')),
     h('ol.st-ed-list', blocks),

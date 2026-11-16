@@ -1458,3 +1458,42 @@ a.st-story:hover, a.st-story:focus-visible { border-color: var(--brass); box-sha
   .st-ed-head, .st-ed-storm, .st-ed-fields { grid-template-columns: 1fr; margin-left: 0; }
   .st-ed-row { grid-template-columns: auto 1fr; }
 }
+
+/* 폭풍우 연표 — UTTU 사건 */
+.st-real { font-family: var(--mono); font-size: 11px; color: var(--paper-faint); letter-spacing: .04em; }
+.st-events { margin-top: 10px; padding: 8px 12px; border-left: 2px solid var(--line-strong); }
+.st-events-head { margin: 0 0 6px; font-size: 12px; color: var(--paper-faint); display: flex; align-items: center; gap: 6px; }
+.st-evlist { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.st-ev { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 10px; align-items: baseline; }
+.st-ev-date { font-family: var(--mono); font-size: 11.5px; color: var(--brass); white-space: nowrap; }
+.st-ev-body { display: grid; min-width: 0; }
+.st-ev-body b { font-family: var(--title); font-weight: 600; font-size: 14px; line-height: 1.4; color: var(--paper); }
+.st-ev-body b a { color: inherit; text-decoration: underline; text-decoration-color: var(--brass-dim); text-underline-offset: 3px; }
+.st-ev-body b a:hover { color: var(--brass-bright); }
+.st-ev-body .en { color: var(--paper-faint); font-size: 11.5px; }
+.st-ev-ver { font-style: normal; font-family: var(--mono); font-size: 11px; margin-left: 6px; color: var(--paper-dim); }
+.st-ev-note { font-size: 12.5px; color: var(--paper-dim); line-height: 1.5; }
+.st-pre { margin: 0 0 var(--gap); padding: 10px 14px; border: 1px solid var(--line); background: var(--ink-2); }
+.st-pre summary { cursor: pointer; font-family: var(--title); font-size: 16px; color: var(--paper); }
+.st-pre summary .en { font-family: var(--mono); font-size: 11px; letter-spacing: .16em; color: var(--brass); margin-right: 6px; }
+.st-pre-list { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 10px; }
+.st-pre-year { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 12px; padding-top: 8px; border-top: 1px dashed var(--line); }
+.st-pre-y { font-family: var(--display); font-weight: 600; font-size: 22px; color: var(--paper); line-height: 1.1; }
+@media (max-width: 720px) {
+  .st-pre-year, .st-ev { grid-template-columns: 1fr; gap: 2px; }
+}
+
+/* 폭풍우 연표 — 사건 번역 */
+.st-ev-alt { color: var(--paper-faint); font-size: 11.5px; }
+.st-ev-mine { font-size: 13px; color: var(--paper); line-height: 1.55; padding-left: 8px; border-left: 2px solid var(--brass); margin-top: 2px; }
+.st-ev-mine em { font-style: normal; font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; color: var(--brass); margin-right: 8px; }
+.st-ev-orig summary { cursor: pointer; font-family: var(--mono); font-size: 11px; color: var(--paper-faint); }
+.st-ev-orig p { margin: 4px 0 0; font-size: 12.5px; color: var(--paper-dim); white-space: pre-wrap; }
+.st-ed-pre, .st-ed-events { margin: 10px 0; }
+.st-ed-pre > summary, .st-ed-events > summary { cursor: pointer; font-size: 13px; color: var(--brass); }
+.st-ed-pre { border: 1px solid var(--line); background: var(--ink-2); padding: 10px 14px; }
+.st-ed-ev { border-left: 2px solid var(--line-strong); padding: 6px 0 6px 12px; margin-top: 8px; }
+.st-ed-evgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-top: 6px; }
+.st-ed-area { width: 100%; background: var(--ink-3); border: 1px solid var(--line); color: var(--paper); padding: 6px 8px; font: inherit; font-size: 13.5px; resize: vertical; }
+.st-ed-area:focus { border-color: var(--brass); outline: none; }
+@media (max-width: 760px) { .st-ed-evgrid { grid-template-columns: 1fr; } }
