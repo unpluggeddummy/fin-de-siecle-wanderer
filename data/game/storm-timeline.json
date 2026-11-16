@@ -1,15 +1,7 @@
 {
  "updated": "2026-11-15",
- "basis": "한국 서버 3.9 기준",
+ "basis": "UTTU 아카이브 타임라인 기준 · 한국 서버 3.9",
  "sources": {
-  "namu": {
-   "label": "나무위키",
-   "url": "https://namu.wiki/w/%EB%A6%AC%EB%B2%84%EC%8A%A4:%201999/%EC%8A%A4%ED%86%A0%EB%A6%AC"
-  },
-  "suitcase": {
-   "label": "버틴의 여행가방",
-   "url": "https://www.reverse1999-simulator.com/ko/storm_timeline"
-  },
   "fandom": {
    "label": "Reverse: 1999 Wiki",
    "url": "https://reverse1999.fandom.com"
@@ -54,10 +46,7 @@
      "ko": "세기말의 척도",
      "en": "The Temporal Scale",
      "when": "1996년 4월 ~ 11월",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "mainevent-farewell-rayashki",
@@ -67,8 +56,7 @@
      "en": "Farewell, Rayashki",
      "when": "1996년 여름",
      "src": [
-      "namu",
-      "suitcase"
+      "uttu"
      ]
     }
    ],
@@ -128,8 +116,7 @@
      "when": "1987년",
      "part": "과거 회상",
      "src": [
-      "namu",
-      "suitcase"
+      "uttu"
      ]
     },
     {
@@ -140,8 +127,7 @@
      "en": "1987 Cosmic Overture",
      "when": "1987년",
      "src": [
-      "namu",
-      "suitcase"
+      "uttu"
      ]
     },
     {
@@ -153,8 +139,7 @@
      "when": "1987년 무렵",
      "part": "그레타 호프만이 77을 만나는 장면",
      "src": [
-      "namu",
-      "suitcase"
+      "uttu"
      ]
     },
     {
@@ -165,9 +150,7 @@
      "en": "The Temporal Scale",
      "when": "",
      "part": "에필로그",
-     "src": [
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "mainevent-the-turquoise-serpent-club",
@@ -177,9 +160,7 @@
      "en": "The Turquoise Serpent Club",
      "when": "",
      "part": "로렌츠 회상",
-     "src": [
-      "suitcase"
-     ]
+     "src": []
     }
    ],
    "realYears": "2000 ~ 2003",
@@ -225,7 +206,7 @@
      "date": "1986.04",
      "ko": "그레타 호프만, 이집트로",
      "en": "Greta Hofmann departs for Egypt",
-     "note": "루시의 임무에 지원, 가는 길에 77을 만남 ※ 나무위키·여행가방은 그레타가 77을 만나는 시점을 1987년 무렵으로 봐요",
+     "note": "루시의 임무에 지원, 가는 길에 77을 만남",
      "story": "main-the-star"
     },
     {
@@ -290,14 +271,14 @@
    "year": "1977",
    "label": "기록이 흐릿한 시대",
    "stories": [],
-   "note": "나무위키는 버틴이 타임키퍼로 활동을 시작한 시기로 봐요. 이 시대가 무대인 메인·이벤트 스토리는 없어요.",
-   "realYears": "2003 ~ 2004 이후"
+   "note": "이 시대가 무대인 메인·이벤트 스토리는 없어요.",
+   "realYears": "2003 ~ 2004 이후",
+   "span": "1977 ~ 1978"
   },
   {
    "id": "e1930s",
-   "year": "1930s",
+   "year": "1934",
    "label": "1930년대",
-   "uncertain": true,
    "stories": [
     {
      "story": "mainevent-chronicles-of-uluru-london-dawning",
@@ -306,10 +287,7 @@
      "ko": "울루루 연대기: 런던의 여명",
      "en": "Chronicles of Uluru: London Dawning",
      "when": "1936년 겨울",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "mainevent-a-flowing-feast",
@@ -318,14 +296,11 @@
      "ko": "흘러가는 축제",
      "en": "A Flowing Feast",
      "when": "1936년 (1930년대 파리)",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     }
    ],
-   "note": "도착한 해가 확실하지 않아요. 나무위키는 1936년 또는 그 이전, 여행가방은 1930년대로 적었어요.",
-   "realYears": "2004 ~ 2006"
+   "realYears": "2004 ~ 2006",
+   "span": "1934 ~ 1936"
   },
   {
    "id": "e1912",
@@ -339,13 +314,11 @@
      "ko": "한밤의 기적소리",
      "en": "The Midnight Whistle",
      "when": "1912년 11월 30일",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     }
    ],
-   "realYears": "2006 ~ 2007"
+   "realYears": "2006 ~ 2007",
+   "span": "1912 ~ 1913"
   },
   {
    "id": "e1966",
@@ -359,10 +332,7 @@
      "ko": "다가온 미래",
      "en": "This is Tomorrow",
      "when": "1966년 6월",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "mainevent-the-theft-of-the-rimet-cup",
@@ -371,10 +341,7 @@
      "ko": "쥘 리메 컵 도난 사건",
      "en": "The Theft of the Rimet Cup",
      "when": "1966년",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "mainevent-journey-to-mor-pankh",
@@ -383,10 +350,7 @@
      "ko": "모르판크로의 여행",
      "en": "Journey to Mor Pankh",
      "when": "1966년",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     }
    ],
    "realYears": "2007 ~"
@@ -403,10 +367,7 @@
      "ko": "우리들의 시대에",
      "en": "In Our Time",
      "when": "1929년 2월 14일",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "main-tender-is-the-night",
@@ -415,10 +376,7 @@
      "ko": "밤은 부드러워라",
      "en": "Tender is the Night",
      "when": "1929년 2월 14일 ~ 15일",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     }
    ],
    "note": "도착하고 이틀 만에 다음 폭풍우가 왔어요. 지금까지 가장 짧았던 시대예요.",
@@ -436,10 +394,7 @@
      "ko": "아무것도 아닌 이야기",
      "en": "Nouvelles et Textes pour Rien",
      "when": "1913년 8월",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "main-el-oro-de-los-tigres",
@@ -448,10 +403,7 @@
      "ko": "호랑이들의 황금",
      "en": "El Oro de los Tigres",
      "when": "1913년 8월 ~ 10월",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "main-the-prisoner-in-the-cave",
@@ -461,10 +413,7 @@
      "en": "The Prisoner in the Cave",
      "when": "1914년 1월",
      "ver": "1.4",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "main-the-star",
@@ -474,9 +423,7 @@
      "en": "The Star",
      "when": "1914년 1월",
      "part": "외부 시점",
-     "src": [
-      "namu"
-     ]
+     "src": []
     },
     {
      "story": "main-e-lucevan-le-stelle",
@@ -486,10 +433,7 @@
      "en": "E lucevan le stelle",
      "when": "1914년 1월",
      "ver": "1.7",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "main-vereinsamt",
@@ -500,10 +444,7 @@
      "when": "1914년 1월 12일 ~ 13일",
      "ver": "1.9",
      "part": "전반부",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     }
    ],
    "realYears": "2007 ~"
@@ -522,10 +463,7 @@
      "when": "1990년 8월",
      "ver": "1.9",
      "part": "후반부",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "mainevent-a-nightmare-at-green-lake",
@@ -534,10 +472,7 @@
      "ko": "그린 레이크의 악몽",
      "en": "A Nightmare at Green Lake",
      "when": "1990년 9월",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "mainevent-floor-it-to-the-golden-city",
@@ -547,10 +482,7 @@
      "en": "Floor It! To the Golden City",
      "when": "1990년 9월",
      "note": "8장 선행 스토리",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "mainevent-route-77-the-haunted-highway",
@@ -560,10 +492,7 @@
      "en": "Route 77: The Haunted Highway",
      "when": "1990년 (달 미상)",
      "note": "8장 선행 스토리",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "main-tristes-tropiques",
@@ -573,10 +502,7 @@
      "en": "Tristes Tropiques",
      "when": "1990년 11월",
      "ver": "2.2",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "mainevent-revival-the-uluru-games",
@@ -585,10 +511,7 @@
      "ko": "부활! 울루루 대회",
      "en": "Revival! The Uluru Games",
      "when": "1991년 1월",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "mainevent-showdown-in-chinatown",
@@ -597,10 +520,7 @@
      "ko": "차이나타운 무비",
      "en": "Showdown in Chinatown",
      "when": "1991년 1월",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "mainevent-last-evenings-on-earth",
@@ -610,10 +530,7 @@
      "en": "Last Evenings on Earth",
      "when": "1991년 1월 15일",
      "note": "9장 선행 스토리",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "main-folie-et-deraison",
@@ -623,10 +540,7 @@
      "en": "Folie et Déraison",
      "when": "1991년 3월",
      "ver": "2.6",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "main-paradise-regained",
@@ -636,13 +550,11 @@
      "en": "Paradise Regained",
      "when": "1991년 3월 30일 ~ 31일",
      "ver": "2.8",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     }
    ],
-   "realYears": "2007 ~ 2008"
+   "realYears": "2007 ~ 2008",
+   "span": "1990 ~ 1991"
   },
   {
    "id": "e1920",
@@ -657,10 +569,7 @@
      "en": "A Long Long Way",
      "when": "1920년 10월 ~ 11월",
      "ver": "3.0",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "mainevent-the-turquoise-serpent-club",
@@ -669,10 +578,7 @@
      "ko": "터콰이즈 뱀 클럽",
      "en": "The Turquoise Serpent Club",
      "when": "1920년 11월",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "main-the-campaigns-tale",
@@ -682,10 +588,7 @@
      "en": "The Campaign's Tale",
      "when": "1920년 11월 ~ 12월",
      "ver": "3.3",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "mainevent-last-and-first-principles",
@@ -694,10 +597,7 @@
      "ko": "사람은 어디로 가는가",
      "en": "Last and First Principles",
      "when": "1920년",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     },
     {
      "story": "main-on-anothers-sorrow",
@@ -708,10 +608,7 @@
      "when": "1921년 1월 31일",
      "ver": "3.7",
      "part": "전반부",
-     "src": [
-      "namu",
-      "suitcase"
-     ]
+     "src": []
     }
    ],
    "realYears": "2008 ~"
@@ -730,9 +627,7 @@
      "when": "1935년 4월",
      "ver": "3.7",
      "part": "후반부",
-     "src": [
-      "namu"
-     ]
+     "src": []
     }
    ],
    "note": "다음 폭풍우는 아직 오지 않았어요."
@@ -767,11 +662,9 @@
    "n": 4,
    "from": "e1977",
    "to": "e1930s",
-   "date": "1977년 또는 1978년",
-   "fromYear": 1977,
-   "toYear": 1936,
-   "uncertain": true,
-   "disagree": "발생 연도: 나무위키 1977년, 여행가방 1978년 (UTTU는 1977·1978년을 이어서 둠) / 도착: 나무위키 1936년?, 여행가방 1930년대, UTTU 1934년"
+   "date": "1978년",
+   "fromYear": 1978,
+   "toYear": 1934
   },
   {
    "n": 5,
@@ -839,10 +732,7 @@
    "ko": "삭일수기",
    "en": "Notes on Shuori",
    "note": "연도나 폭풍우 단서가 없어요",
-   "src": [
-    "namu",
-    "suitcase"
-   ]
+   "src": []
   },
   {
    "story": "mainevent-spring-unending",
@@ -851,10 +741,7 @@
    "ko": "불로춘",
    "en": "Spring Unending",
    "note": "회상 부분은 17세기 초, 현재 시점은 불명",
-   "src": [
-    "namu",
-    "suitcase"
-   ]
+   "src": []
   },
   {
    "story": "mainevent-rekindled-games-of-the-summer-gold-sea",
@@ -863,9 +750,7 @@
    "ko": "다시 타올라라, 황금빛 바다여!",
    "en": "Rekindled! Games of the Summer-Gold Sea",
    "note": "아직 어느 연표에도 들어가지 않았어요",
-   "src": [
-    "suitcase"
-   ]
+   "src": []
   },
   {
    "story": "main-to-the-new-world",

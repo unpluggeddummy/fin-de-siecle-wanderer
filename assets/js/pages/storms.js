@@ -1,6 +1,5 @@
 // 폭풍우 연표 — 폭풍우가 올 때마다 세계가 어느 해로 갔는지, 그 시대에 어떤 스토리가 있었는지
-// 자료: data/game/storm-timeline.json (손으로 정리: 나무위키 + 버틴의 여행가방, 버전·영문 제목은 Reverse: 1999 Wiki,
-//        시대별 사건·1999년 이전 연표는 UTTU 아카이브 타임라인을 한국어로 요약)
+// 자료: data/game/storm-timeline.json (UTTU 아카이브 타임라인 기준 — 시대 구분·사건은 UTTU를 한국어로 요약, 버전·영문 제목은 Reverse: 1999 Wiki)
 // 주소: #/storms   한 시대로 바로: #/storms/<시대 id>  (예: #/storms/e1990)
 // 아직 확실하지 않은 자료라 토큰을 연결한 기기에서만 메뉴가 보이고 열린다 (취향표·대사집처럼).
 // 편집 모드에서 "✎ 연표 고치기"로 시대·폭풍우·스토리 배치를 고치고, "연표 저장"을 누르면 저장소에 커밋된다.
@@ -32,7 +31,7 @@ function load() {
 }
 
 const U = () => store.state.user.stories || {};
-const SRC_SHORT = { namu: '나', suitcase: '여', uttu: 'U' };
+const SRC_SHORT = { uttu: 'U' };
 const yearNum = (y) => parseInt(y, 10);
 
 export function render(root, { arg } = {}) {
@@ -64,10 +63,8 @@ export function render(root, { arg } = {}) {
       chip('버전 이벤트', view.kind === 'event', () => { view.kind = 'event'; rerender(); }),
       chip('사건 보기', view.events, () => { view.events = !view.events; rerender(); })),
     h('span.st-legend',
-      h('span.st-src', '나'), ' 나무위키 ',
-      h('span.st-src', '여'), ' 버틴의 여행가방 ',
-      h('span.st-src', 'U'), ' UTTU ',
-      h('span.st-flag', '?'), ' 출처끼리 다르거나 불확실')));
+      h('span.st-src', 'U'), ' UTTU 사건에 나오는 스토리 ',
+      h('span.st-flag', '?'), ' 불확실')));
 
   if (data.prehistory && view.events) root.append(prehistoryBlock(data.prehistory));
 
@@ -103,6 +100,7 @@ function eraBlock(era, i) {
       h('span.st-era-n', i === 0 ? 'ORIGIN' : `ERA ${String(i).padStart(2, '0')}`),
       h('b', era.year === '1930s' ? '1930년대' : era.year, era.uncertain ? h('span.st-flag', { title: '출처마다 다르거나 확실하지 않아요' }, '?') : null),
       h('small', era.label),
+      era.span ? h('small.st-real', era.span) : null,
       era.realYears ? h('small.st-real', { title: 'UTTU 타임라인에 적힌, 폭풍우 밖에서 실제로 흐른 해' }, `실제 ${era.realYears}`) : null),
     h('div.st-era-body',
       stories.length ? h('ul.st-stories', stories.map((s) => storyRow(s)))
@@ -157,7 +155,7 @@ function storyRow(s) {
         rating ? h('span.stars', '★'.repeat(rating)) : null,
         read ? h('span.read-mark', '읽음') : null,
         (s.src || []).map((k) => h('span.st-src', { title: data.sources[k]?.label }, SRC_SHORT[k] || k)),
-        s.src && s.src.length === 1 && s.src[0] === 'suitcase' ? h('span.st-flag', { title: '여행가방에만 있는 배치예요' }, '?') : null)),
+        null)),
   ];
   return h('li', st ? h('a.st-story', { href: `#/stories/${s.story}` }, inner) : h('div.st-story', inner));
 }
@@ -326,6 +324,7 @@ function editView() {
         h('span.st-era-n', i === 0 ? 'ORIGIN' : `ERA ${String(i).padStart(2, '0')}`),
         txt(era, 'year', '연도 (예: 1966, 1930s)', '.st-ed-year'),
         txt(era, 'label', '시대 이름'),
+        txt(era, 'span', '연도 범위 (예: 1977 ~ 1978)'),
         check(era, 'uncertain', '불확실'),
         tools(d.eras, i)),
       txt(era, 'note', '시대 메모', '.st-ed-wide'),

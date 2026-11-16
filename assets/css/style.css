@@ -1437,7 +1437,7 @@ a.st-story:hover, a.st-story:focus-visible { border-color: var(--brass); box-sha
 /* 폭풍우 연표 고치기 */
 .st-ed-list { list-style: none; margin: 0 0 14px; padding: 0; }
 .st-ed-era { border: 1px solid var(--line); background: var(--ink-2); padding: 14px; margin-bottom: 10px; }
-.st-ed-head { display: grid; grid-template-columns: 80px 150px 1fr auto auto; gap: 10px; align-items: center; margin-bottom: 8px; }
+.st-ed-head { display: grid; grid-template-columns: 80px 120px 1fr 150px auto auto; gap: 10px; align-items: center; margin-bottom: 8px; }
 .st-edit input[type=text], .st-edit select { width: 100%; background: var(--ink-3); border: 1px solid var(--line); color: var(--paper); padding: 6px 8px; font: inherit; font-size: 14px; }
 .st-edit input[type=text]:focus, .st-edit select:focus { border-color: var(--brass); outline: none; }
 .st-ed-wide { margin-bottom: 8px; }
