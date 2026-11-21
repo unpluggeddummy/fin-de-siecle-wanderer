@@ -27,7 +27,7 @@ function upcoming() {
   const grade = (g) => (/Advanced|어드밴스드/i.test(g.grade) ? 2 : /Unique|유니크/i.test(g.grade) ? 3 : 1);
   const out = [];
   for (const v of store.state.game.versions.filter((v) => v.manual)) for (const g of v.garments || []) {
-    if (!g.char || !g.en || have.has(`${g.char}|${nn(g.en)}`) || (g.skin && store.skinById?.(g.skin))) continue;
+    if (!g.char || !g.en || have.has(`${g.char}|${nn(g.en)}`) || (g.skin && store.skinById(g.skin) && !store.skinById(g.skin).upcoming)) continue;
     out.push({ id: g.skin || `up-${v.id}-${nn(g.en)}`, char: g.char, name: g.ko || g.en, nameEn: g.en, cat: cat(g), version: v.id,
       art: g.poster || null, portrait: g.poster || store.charPortrait(store.charById(g.char)), grade: grade(g), gradeName: g.grade, series: g.src, upcoming: true });
   }

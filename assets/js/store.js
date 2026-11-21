@@ -225,7 +225,17 @@ function indexGame() {
     idx.npc.set(n.id, { ...n, npc: true, released: true, rarity: 0, skins: [], portrait: n.icon || n.art, art: n.art || n.icon });
   }
   for (const st of state.game.stories || []) idx.story.set(st.id, st);
+  // 아직 한섭 게임 데이터에 없는 예정 의상(손으로 적은 버전 + 중섭 에셋 그림) — 스킨 번호로 찾을 수 있게
+  idx.upcoming = new Map();
+  for (const v of (state.game.versions || []).filter((v) => v.manual)) for (const g of v.garments || []) {
+    if (!g.skin || !g.poster || idx.skin.has(g.skin)) continue;
+    const s = { id: g.skin, char: g.char, type: 'shop', name: g.ko || g.en, nameEn: g.en, art: g.poster, portrait: g.poster, version: v.id, upcoming: true };
+    idx.skin.set(s.id, s);
+    idx.upcoming.set(s.id, s);
+  }
 }
+/** 출품작의 예정 의상 (진열장·대표 화면 스킨 고르기용) */
+export const upcomingSkinsFor = (charId) => [...(idx.upcoming?.values() || [])].filter((s) => s.char === +charId);
 export const isNpcId = (id) => typeof id === 'string' && id.startsWith('npc-');
 export const charById = (id) => (isNpcId(id) ? idx.npc.get(id) : idx.char.get(+id));
 export const npcList = () => [...idx.npc.values()];

@@ -1,5 +1,5 @@
 // 홈 — 진열관: 소개 카드(프로필·최애·CP·진열장) + 기록 현황
-import { h, img, fmt, pickFile, shrinkImage, uid, lightbox, toast, readFileDataURL } from '../ui.js';
+import { h, img, fmt, pickFile, shrinkImage, uid, lightbox, toast, readFileDataURL, drawer } from '../ui.js';
 import * as store from '../store.js';
 import { teamView, afClass, charPicker } from '../components.js';
 import { seasonTotals, allSeasons } from './bulletin.js';
@@ -152,7 +152,8 @@ function profileSection(p, editing) {
         editing ? h('div.show-tools',
           c.npc ? null : h('select', { 'aria-label': '걸 스킨', onchange: (e) => save((x) => { x.showcase[i].skin = e.target.value ? +e.target.value : null; }) },
             h('option', { value: '' }, '스킨: 자동'),
-            c.skins.map((sid) => { const sk = store.skinById(sid); return h('option', { value: sid, selected: slot.skin === sid }, sk?.type === 'default' ? '기본' : sk?.type === 'insight' ? '통찰' : sk?.name); })),
+            c.skins.map((sid) => { const sk = store.skinById(sid); return h('option', { value: sid, selected: slot.skin === sid }, sk?.type === 'default' ? '기본' : sk?.type === 'insight' ? '통찰' : sk?.name); }),
+            store.upcomingSkinsFor(c.id).map((sk) => h('option', { value: sk.id, selected: slot.skin === sk.id }, `${sk.name} (예정)`))),
           h('button', { type: 'button', onclick: () => charPicker({ npc: true, title: '진열할 출품작 바꾸기', onDone: ([id]) => save((x) => { x.showcase[i] = { char: id, skin: null }; }) }) }, '바꾸기'),
           xBtn('진열장에서 빼기', () => save((x) => { x.showcase.splice(i, 1); }))) : null);
     }),
@@ -337,6 +338,8 @@ const HERO_MAX_MB = 20;
 function heroMedia() {
   const x = store.state.user.settings?.hero;
   const fit = x?.fit || 'cover';
+  const sk = x?.skin && store.skinById(x.skin);
+  if (sk?.art && !x?.file) return { src: sk.art, type: 'image', keyBlack: false, block: x.block, fit };
   if (!x?.file) return { ...HERO_DEFAULT, block: x?.block, keyBlack: false, fit };
   return { src: store.fileURL(x.file), type: x.type || 'image', keyBlack: !!x.keyBlack, block: x.block, fit };
 }
@@ -381,11 +384,28 @@ function heroText(tag, key, def, { multiline = false, ...attrs } = {}) {
   return el;
 }
 
+/** 대표 화면 그림을 스킨 그림에서 고른다 (출품작 → 그 출품작의 스킨, 예정 의상 포함) */
+function pickHeroSkin() {
+  charPicker({ title: '대표 화면에 쓸 출품작', onDone: ([id]) => {
+    const c = store.charById(id);
+    if (!c) return;
+    const list = [...(c.skins || []).map((sid) => store.skinById(sid)), ...store.upcomingSkinsFor(c.id)].filter((s) => s?.art);
+    if (!list.length) { toast('이 출품작은 쓸 수 있는 스킨 그림이 없어요.'); return; }
+    let dr = null;
+    const pick = (s) => { saveHero((y) => { y.skin = s.id; delete y.file; delete y.type; delete y.keyBlack; }); dr?.close(); };
+    if (list.length === 1) { pick(list[0]); return; }
+    dr = drawer({ title: `${store.charName(c)} — 스킨 고르기`, wide: true,
+      body: h('div.hero-skin-pick', list.map((s) => h('button', { type: 'button', onclick: () => pick(s) },
+        img(s.art, s.name), h('span', s.type === 'default' ? '기본' : s.type === 'insight' ? '통찰' : s.name, s.upcoming ? ' (예정)' : '')))) });
+  } });
+}
+
 function heroEditor(m) {
   const x = store.state.user.settings?.hero || {};
   return h('div.hero-edit',
     h('b', '대표 화면'),
     h('button.btn.small', { type: 'button', onclick: uploadHero }, '그림 · GIF · 영상 올리기'),
+    h('button.btn.small', { type: 'button', onclick: pickHeroSkin }, '스킨 그림으로 고르기'),
     h('label', '맞춤 ', h('select', { onchange: (e) => saveHero((y) => { y.fit = e.target.value; }) },
       h('option', { value: 'cover', selected: (x.fit || 'cover') === 'cover' }, '화면 꽉 채우기 (가운데 기준)'),
       h('option', { value: 'contain', selected: x.fit === 'contain' }, '전체 보이기'))),
@@ -395,7 +415,7 @@ function heroEditor(m) {
       oninput: (e) => { const sec = e.target.closest('.hero'); sec?.style.setProperty('--hs', e.target.value / 100); e.target.nextSibling.textContent = ` ${e.target.value}%`; },
       onchange: (e) => store.update('settings', (s) => { s.hero ||= {}; s.hero.scale = +e.target.value / 100; }, { silent: true }) }), h('span.hero-pct', ` ${Math.round((x.scale || 1) * 100)}%`)),
     h('div.hero-edit-row',
-      x.file ? h('button.btn.small', { type: 'button', onclick: () => saveHero((y) => { delete y.file; delete y.type; delete y.keyBlack; }) }, '기본 그림으로') : null,
+      x.file || x.skin ? h('button.btn.small', { type: 'button', onclick: () => saveHero((y) => { delete y.file; delete y.type; delete y.keyBlack; delete y.skin; }) }, '기본 그림으로') : null,
       x.text ? h('button.btn.small', { type: 'button', onclick: () => saveHero((y) => { delete y.text; }) }, '박스 글 처음대로') : null,
       x.pos ? h('button.btn.small', { type: 'button', onclick: () => saveHero((y) => { delete y.pos; }) }, '박스 자리 처음대로') : null,
       (x.size && Object.keys(x.size).length) || (x.scale && x.scale !== 1) ? h('button.btn.small', { type: 'button', onclick: () => saveHero((y) => { delete y.size; delete y.scale; }) }, '글씨 크기 처음대로') : null),
