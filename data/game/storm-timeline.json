@@ -161,6 +161,42 @@
      "when": "",
      "part": "로렌츠 회상",
      "src": []
+    },
+    {
+     "story": "char-dawn-arrives-as-usual",
+     "code": "빌라",
+     "kind": "char",
+     "ko": "그래도 여명은 밝는다",
+     "en": "Dawn Arrives as Usual",
+     "when": "",
+     "src": []
+    },
+    {
+     "story": "char-silver-knot",
+     "code": "윈드송",
+     "kind": "char",
+     "ko": "은색 매듭",
+     "en": "Silver Knot",
+     "when": "",
+     "src": []
+    },
+    {
+     "story": "char-counterpoint-of-life-and-death",
+     "code": "로렌츠",
+     "kind": "char",
+     "ko": "삶과 죽음의 대립",
+     "en": "Counterpoint of Life and Death",
+     "when": "",
+     "src": []
+    },
+    {
+     "story": "char-see-you-in-the-new-world",
+     "code": "코너스톤",
+     "kind": "char",
+     "ko": "신세계에서의 재회",
+     "en": "See You in the New World",
+     "when": "",
+     "src": []
     }
    ],
    "realYears": "2000 ~ 2003",
@@ -270,7 +306,26 @@
    "id": "e1977",
    "year": "1977",
    "label": "기록이 흐릿한 시대",
-   "stories": [],
+   "stories": [
+    {
+     "story": "anec-a-night-without-end",
+     "code": "메스머 주니어",
+     "kind": "char",
+     "ko": "끝나지 않는 밤",
+     "en": "A Night Without End",
+     "when": "",
+     "src": []
+    },
+    {
+     "story": "char-doomsday-the-days-after",
+     "code": "키페리나",
+     "kind": "char",
+     "ko": "종말 그리고 그 후",
+     "en": "Doomsday & The Days After",
+     "when": "",
+     "src": []
+    }
+   ],
    "note": "이 시대가 무대인 메인·이벤트 스토리는 없어요.",
    "realYears": "2003 ~ 2004 이후",
    "span": "1977 ~ 1978"
@@ -445,6 +500,33 @@
      "ver": "1.9",
      "part": "전반부",
      "src": []
+    },
+    {
+     "story": null,
+     "code": "디거스",
+     "kind": "char",
+     "ko": "권리는 꽃에게",
+     "en": "",
+     "when": "",
+     "src": []
+    },
+    {
+     "story": null,
+     "code": "제멜바이스",
+     "kind": "char",
+     "ko": "산속의 메아리",
+     "en": "",
+     "when": "",
+     "src": []
+    },
+    {
+     "story": null,
+     "code": "제멜바이스",
+     "kind": "char",
+     "ko": "황혼의 소리",
+     "en": "",
+     "when": "",
+     "src": []
     }
    ],
    "realYears": "2007 ~"
@@ -533,6 +615,42 @@
      "src": []
     },
     {
+     "story": "anec-a-day-plotted-logarithmically",
+     "code": "37",
+     "kind": "char",
+     "ko": "곱셈축 위의 하루",
+     "en": "A Day Plotted Logarithmically",
+     "when": "",
+     "src": []
+    },
+    {
+     "story": "anec-where-the-fire-starts",
+     "code": "블로니",
+     "kind": "char",
+     "ko": "불이 처음 번지는 곳",
+     "en": "Where the Fire Starts",
+     "when": "",
+     "src": []
+    },
+    {
+     "story": "anec-the-third-circumstance",
+     "code": "제멜바이스",
+     "kind": "char",
+     "ko": "세 번째 각성",
+     "en": "The Third Circumstance",
+     "when": "",
+     "src": []
+    },
+    {
+     "story": "anec-the-eaglet-takes-wing",
+     "code": "은빛 이글",
+     "kind": "char",
+     "ko": "폭풍 속 새끼 독수리의 날갯짓",
+     "en": "The Eaglet Takes Wing",
+     "when": "",
+     "src": []
+    },
+    {
      "story": "main-folie-et-deraison",
      "code": "9장",
      "kind": "main",
@@ -597,6 +715,24 @@
      "ko": "사람은 어디로 가는가",
      "en": "Last and First Principles",
      "when": "1920년",
+     "src": []
+    },
+    {
+     "story": "anec-the-tombstone-museum",
+     "code": "네크롤로지스트",
+     "kind": "char",
+     "ko": "묘비 박물관",
+     "en": "The Tombstone Museum",
+     "when": "",
+     "src": []
+    },
+    {
+     "story": "anec-in-the-shadow-of-the-mountains",
+     "code": "몰디르",
+     "kind": "char",
+     "ko": "산 아래에서",
+     "en": "In the Shadow of the Mountains",
+     "when": "",
      "src": []
     },
     {
@@ -1231,5 +1367,6 @@
     ]
    }
   ]
- }
+ },
+ "note_char": "캐릭터 스토리 배치는 버틴의 여행가방 폭풍우 연표(2026-11-10 확인)를 따랐어요."
 }

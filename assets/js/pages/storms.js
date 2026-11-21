@@ -13,7 +13,7 @@ const DRAFT = 'r1999.storms.draft';
 
 let data = null;
 let loading = null;
-const view = { kind: 'all', events: true };   // kind: all | main | event, events: 시대별 사건 보이기
+const view = { kind: 'all', events: true };   // kind: all | main | event | char, events: 시대별 사건 보이기
 
 function load() {
   // 토큰이 있으니 저장소에서 바로 읽는다 (사이트 반영을 기다리지 않게). 실패하면 사이트 파일로.
@@ -61,6 +61,7 @@ export function render(root, { arg } = {}) {
       chip('전체', view.kind === 'all', () => { view.kind = 'all'; rerender(); }),
       chip('메인 스토리', view.kind === 'main', () => { view.kind = 'main'; rerender(); }),
       chip('버전 이벤트', view.kind === 'event', () => { view.kind = 'event'; rerender(); }),
+      chip('캐릭터 스토리', view.kind === 'char', () => { view.kind = 'char'; rerender(); }),
       chip('사건 보기', view.events, () => { view.events = !view.events; rerender(); })),
     h('span.st-legend',
       h('span.st-src', 'U'), ' UTTU 사건에 나오는 스토리 ',
@@ -84,6 +85,7 @@ export function render(root, { arg } = {}) {
       h('ul.st-stories', un.map((s) => storyRow(s)))));
   }
   if (data.excluded) root.append(h('p.faint.story-src', data.excluded));
+  if (data.note_char) root.append(h('p.faint.story-src', data.note_char));
   root.append(h('p.faint.story-src',
     `${data.basis} · ${data.updated} 정리 · 출처: `,
     ...Object.values(data.sources).flatMap((s, i) => [i ? ', ' : '', h('a', { href: s.url, target: '_blank', rel: 'noopener' }, s.label)])));

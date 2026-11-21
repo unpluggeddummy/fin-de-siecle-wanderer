@@ -1497,3 +1497,8 @@ a.st-story:hover, a.st-story:focus-visible { border-color: var(--brass); box-sha
 .st-ed-area { width: 100%; background: var(--ink-3); border: 1px solid var(--line); color: var(--paper); padding: 6px 8px; font: inherit; font-size: 13.5px; resize: vertical; }
 .st-ed-area:focus { border-color: var(--brass); outline: none; }
 @media (max-width: 760px) { .st-ed-evgrid { grid-template-columns: 1fr; } }
+.st-code.char { color: var(--teal, #8fc7c0); }
+/* 진열장 두 줄 */
+.showcase { grid-template-columns: repeat(var(--cols, 4), minmax(0, 1fr)); min-height: 0; }
+.show-item, .show-add { aspect-ratio: 3 / 4.6; }
+@media (max-width: 600px) { .showcase { grid-template-columns: repeat(2, minmax(0, 1fr)); } .show-item, .show-add { aspect-ratio: 3 / 4.6; } }

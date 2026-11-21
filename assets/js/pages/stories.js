@@ -5,7 +5,7 @@ import * as store from '../store.js';
 import { rerender } from '../app.js';
 
 const CATS = [['main', '메인 스토리', 'Main Story'], ['mainevent', '버전 이벤트', 'Version Event'], ['char', '캐릭터 스토리', 'Character Story']];  // 일화는 보이지 않게
-const CAT_NAME = Object.fromEntries(CATS.map(([k, ko]) => [k, ko]));
+const CAT_NAME = { ...Object.fromEntries(CATS.map(([k, ko]) => [k, ko])), anec: '일화' };  // 일화는 목록엔 없지만 연표에서 열 수 있다
 const view = { cat: 'all', q: '', only: false, sort: 'old' };
 const openSpoilers = new Set();
 let composing = null; // 쓰는 중인 글 { id?, title, body, spoiler, tags }
