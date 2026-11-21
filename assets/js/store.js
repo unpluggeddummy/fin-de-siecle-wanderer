@@ -111,6 +111,8 @@ export async function loadAll() {
     const se = bulletin.find((x) => String(x.id) === id);
     if (se && o.bosses?.length) { se.bosses = o.bosses; se.krNote = o.source; }
   }
+  // 한섭에 아직 열리지 않은 시즌 (기록이 있으면 갈기의 게시판에서 그대로 보인다)
+  for (const se of bulletin) if (bkr?.hide?.[se.id]) se.krHidden = true;
   state.game = { characters, skins, psychubes, materials, bulletin, meta, npcs, stories, versions, profiles, versionArt, skills: null };
   indexGame();
   await loadUser();

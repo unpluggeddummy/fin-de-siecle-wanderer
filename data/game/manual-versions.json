@@ -286,37 +286,55 @@
      "char": 3113,
      "en": "In His Palace",
      "grade": "Advanced",
-     "src": "대영도서관 콜라보 · 문학의 집"
+     "src": "대영도서관 콜라보 · 문학의 집",
+     "skin": 311304,
+     "poster": "assets/img/skin/311304.webp",
+     "posterSrc": "cn-asset"
     },
     {
      "char": 3144,
      "en": "A World Through the Porthole",
      "grade": "Advanced",
-     "src": "대영도서관 콜라보 · 문학의 집"
+     "src": "대영도서관 콜라보 · 문학의 집",
+     "skin": 314404,
+     "poster": "assets/img/skin/314404.webp",
+     "posterSrc": "cn-asset"
     },
     {
      "char": 3139,
      "en": "The Beast Within Me",
      "grade": "Advanced",
-     "src": "대영도서관 콜라보 · 문학의 집"
+     "src": "대영도서관 콜라보 · 문학의 집",
+     "skin": 313904,
+     "poster": "assets/img/skin/313904.webp",
+     "posterSrc": "cn-asset"
     },
     {
      "char": 3059,
      "en": "Reflection of the Self",
      "grade": "무료",
-     "src": "A Night of the Bizarre"
+     "src": "A Night of the Bizarre",
+     "skin": 305903,
+     "poster": "assets/img/skin/305903.webp",
+     "posterSrc": "cn-asset"
     },
     {
      "char": 3137,
      "en": "The Third Second",
      "grade": "Basic",
-     "src": "Wind of the New World"
+     "src": "Wind of the New World",
+     "skin": 313703,
+     "poster": "assets/img/skin/313703.webp",
+     "posterSrc": "cn-asset"
     },
     {
      "char": 3127,
      "en": "Solace for the Lost",
      "grade": "주크박스",
-     "src": "The Seven Precepts"
+     "src": "The Seven Precepts",
+     "skin": 312704,
+     "poster": "assets/img/skin/312704.webp",
+     "posterSrc": "cn-asset"
     }
    ],
    "source": "중섭 4.1 개발자 방송·PV 정리(UTTU), 한섭 일정은 커뮤니티 미래시표 기준",

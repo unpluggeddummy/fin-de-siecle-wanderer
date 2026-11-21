@@ -12,7 +12,7 @@ const view = { season: null };
 /** 게임 데이터 시즌 + 내가 추가한 시즌 */
 export function allSeasons() {
   const u = store.state.user.bulletin;
-  const game = store.state.game.bulletin.map((s) => ({ ...s, custom: false }));
+  const game = store.state.game.bulletin.filter((s) => !s.krHidden || u.seasons?.[s.id]).map((s) => ({ ...s, custom: false }));
   const custom = (u.customSeasons || []).map((s) => ({ ...s, custom: true }));
   return [...game, ...custom];
 }

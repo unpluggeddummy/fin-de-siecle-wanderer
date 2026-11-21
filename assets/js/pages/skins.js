@@ -27,7 +27,7 @@ function upcoming() {
   const grade = (g) => (/Advanced|어드밴스드/i.test(g.grade) ? 2 : /Unique|유니크/i.test(g.grade) ? 3 : 1);
   const out = [];
   for (const v of store.state.game.versions.filter((v) => v.manual)) for (const g of v.garments || []) {
-    if (!g.char || !g.en || have.has(`${g.char}|${nn(g.en)}`)) continue;
+    if (!g.char || !g.en || have.has(`${g.char}|${nn(g.en)}`) || (g.skin && store.skinById?.(g.skin))) continue;
     out.push({ id: `up-${v.id}-${nn(g.en)}`, char: g.char, name: g.ko || g.en, nameEn: g.en, cat: cat(g), version: v.id,
       art: g.poster || null, portrait: g.poster || store.charPortrait(store.charById(g.char)), grade: grade(g), gradeName: g.grade, series: g.src, upcoming: true });
   }
@@ -48,8 +48,9 @@ export function skinInfo(s) {
 const vnum = store.verNum;
 
 export function render(root) {
-  const all = store.state.game.skins.filter((s) => store.charById(s.char));
-  const costumes = all.filter((s) => COSTUME.has(skinInfo(s).cat));
+  // 게임 데이터 의상 + 아직 한섭에 없는 예정 의상(중섭 에셋 그림이 있는 것만)
+  const all = [...store.state.game.skins.filter((s) => store.charById(s.char)), ...upcoming().filter((s) => s.art && store.charById(s.char))];
+  const costumes = all.filter((s) => !s.upcoming && COSTUME.has(skinInfo(s).cat));
   const owned = costumes.filter((s) => mine(s.id).owned).length;
   const spent = Object.values(store.state.user.skins.items).reduce((a, x) => a + (x.owned && +x.price ? +x.price : 0), 0);
 
