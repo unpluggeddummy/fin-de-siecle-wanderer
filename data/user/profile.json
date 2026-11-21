@@ -3,12 +3,18 @@
  "avatar": {
   "type": "file",
   "char": 3147,
-  "file": "data/user/shots/avatar-mw0snky4egp0t.webp"
+  "file": "data/user/shots/avatar-mwqialm1dku9v.webp",
+  "crop": {
+   "zoom": 1.2,
+   "x": 42,
+   "y": 32
+  }
  },
  "lines": [
   "인게임 닉 : 빈",
   "ID : 701088348 / KR",
-  "게임 스토리 + 엔드컨텐츠 위주"
+  "게임 스토리 + 엔드컨텐츠 위주",
+  "인장 팽패 님♥︎"
  ],
  "favorites": [
   {
