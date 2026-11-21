@@ -1,5 +1,5 @@
 // 홈 — 진열관: 소개 카드(프로필·최애·CP·진열장) + 기록 현황
-import { h, img, fmt, pickFile, shrinkImage, uid, lightbox, toast, readFileDataURL } from '../ui.js';
+import { h, img, fmt, pickFile, shrinkImage, uid, lightbox, toast, readFileDataURL, drawer } from '../ui.js';
 import * as store from '../store.js';
 import { teamView, afClass, charPicker } from '../components.js';
 import { seasonTotals, allSeasons } from './bulletin.js';
@@ -22,6 +22,43 @@ function showcaseSkin(slot) {
   const rec = store.charRecord(c.id) || {};
   const sid = slot.skin || rec.skin || c.insightSkin || c.defaultSkin;
   return store.skinById(sid) || store.skinById(c.defaultSkin);
+}
+
+/** 프로필 그림 자르기: 확대(zoom, 1 = 칸에 꽉 맞춤)와 보이는 자리(x·y, 0~100%) */
+function avatarCrop(a = {}) {
+  const def = a.type === 'file' ? { zoom: 1, x: 50, y: 50 } : { zoom: 1.8, x: 50, y: 0 };   // 출품작 얼굴은 예전처럼 위쪽을 크게
+  return { ...def, ...(a.crop || {}) };
+}
+function applyAvatarCrop(box, a) {
+  const c = avatarCrop(a || {});
+  const im = box.querySelector('img');
+  if (!im) return;
+  Object.assign(im.style, { width: '100%', height: '100%', objectFit: 'cover', objectPosition: `${c.x}% ${c.y}%`,
+    transform: `scale(${c.zoom})`, transformOrigin: `${c.x}% ${c.y}%` });
+}
+function avatarCropDrawer(p, save) {
+  const cur = avatarCrop(p.avatar || {});
+  const prev = h('div.prof-avatar.crop-preview', img(avatarSrc(p), ''));
+  const paint = () => applyAvatarCrop(prev, { ...(p.avatar || {}), crop: cur });
+  const slider = (label, key, min, max, step, fmtv) => {
+    const out = h('span', fmtv(cur[key]));
+    return h('label.crop-row', h('b', label), h('input', { type: 'range', min, max, step, value: cur[key],
+      oninput: (e) => { cur[key] = +e.target.value; out.textContent = fmtv(cur[key]); paint(); } }), out);
+  };
+  paint();
+  const dr = drawer({
+    title: '프로필 그림 위치·크기',
+    body: h('div.crop-box', prev,
+      h('div',
+        slider('확대', 'zoom', 1, 3, 0.05, (v) => `${Math.round(v * 100)}%`),
+        slider('가로', 'x', 0, 100, 1, (v) => `${v}%`),
+        slider('세로', 'y', 0, 100, 1, (v) => `${v}%`),
+        h('p.muted', '확대 100%면 그림이 칸에 꽉 맞아요. 가로·세로로 보일 자리를 옮겨요.'))),
+    foot: [
+      h('button.btn.ghost', { type: 'button', onclick: () => { save((x) => { if (x.avatar) delete x.avatar.crop; }); dr.close(); } }, '처음대로'),
+      h('button.btn', { type: 'button', onclick: () => { save((x) => { x.avatar ||= {}; x.avatar.crop = { ...cur }; }); dr.close(); } }, '저장'),
+    ],
+  });
 }
 
 function avatarSrc(p) {
@@ -81,6 +118,7 @@ function profileSection(p, editing) {
 
   // 프로필 그림
   const avatar = h('div.prof-avatar', img(avatarSrc(p), p.nickname || ''));
+  applyAvatarCrop(avatar, p.avatar);
   if (editing) {
     avatar.classList.add('can-edit');
     avatar.append(h('div.avatar-menu',
@@ -91,7 +129,8 @@ function profileSection(p, editing) {
         const path = `data/user/shots/avatar-${uid()}.${data.startsWith('data:image/webp') ? 'webp' : 'jpg'}`;
         store.addPendingFile(path, data);
         save((x) => { x.avatar = { type: 'file', char: x.avatar?.char || null, file: path }; });
-      } }, '그림 올리기')));
+      } }, '그림 올리기'),
+      h('button', { type: 'button', onclick: () => avatarCropDrawer(p, save) }, '위치·크기 조절')));
   }
 
   const lines = p.lines || [];

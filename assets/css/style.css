@@ -1504,3 +1504,10 @@ a.st-story:hover, a.st-story:focus-visible { border-color: var(--brass); box-sha
 @media (max-width: 600px) { .showcase { grid-template-columns: repeat(2, minmax(0, 1fr)); } .show-item, .show-add { aspect-ratio: 3 / 4.6; } }
 .showcase .show-add { grid-column: 1 / -1; aspect-ratio: auto; grid-auto-flow: column; padding: 12px; }
 .showcase .show-add span { font-size: 20px; }
+/* 프로필 그림 위치·크기 조절 */
+.crop-box { display: grid; grid-template-columns: 160px 1fr; gap: 18px; align-items: start; }
+.crop-preview { width: 160px; height: 160px; }
+.crop-row { display: grid; grid-template-columns: 40px 1fr 48px; gap: 8px; align-items: center; margin-bottom: 10px; font-size: 13px; }
+.crop-row b { font-weight: 600; color: var(--brass); }
+.crop-row span { font-family: var(--mono); font-size: 12px; color: var(--paper-dim); text-align: right; }
+@media (max-width: 600px) { .crop-box { grid-template-columns: 1fr; } }
