@@ -17,7 +17,8 @@
   "plans": "재화 계산기",
   "gacha": "빗방울 소환 마도술",
   "tastes": "탐라 취향을 모아모아",
-  "storms": "오지 않을 21세기여"
+  "storms": "오지 않을 21세기여",
+  "transcripts": "? : 기록하지 않으면 돌아오지 않아."
  },
  "hero": {
   "pos": {
@@ -78,6 +79,11 @@
     "ko": "연표",
     "en": "Chronology"
    }
+  }
+ },
+ "pageTitles": {
+  "transcripts": {
+   "ko": "기록"
   }
  }
 }
