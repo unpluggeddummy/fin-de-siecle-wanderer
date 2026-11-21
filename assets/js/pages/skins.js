@@ -138,7 +138,7 @@ function card(s) {
     if (k === 'owned' && x.owned) x.wish = false;
     if (!Object.values(x).some(Boolean)) delete u.items[s.id];
   });
-  return h('article.scard' + (m.owned || !costume || s.upcoming ? '' : '.unowned'),
+  return h('article.scard' + (m.owned || !costume ? '' : '.unowned'),   // 출시 예정 의상도 아직 없으면 회색
     m.owned && costume ? h('span.flag.own', '보유') : m.wish ? h('span.flag.wish', '갖고 싶음') : s.upcoming ? h('span.flag.wish', '출시 예정') : null,
     h('span.cat-tag.c-' + info.cat, info.cat === 'tarot' && s.tarot != null ? `타로 ${TAROT[s.tarot] || s.tarot}` : SKIN_CAT[info.cat]),
     s.gradeName && costume ? h('span.grade-tag.g' + s.grade, GRADE[s.grade]) : null,
