@@ -1502,3 +1502,5 @@ a.st-story:hover, a.st-story:focus-visible { border-color: var(--brass); box-sha
 .showcase { grid-template-columns: repeat(var(--cols, 4), minmax(0, 1fr)); min-height: 0; }
 .show-item, .show-add { aspect-ratio: 3 / 4.6; }
 @media (max-width: 600px) { .showcase { grid-template-columns: repeat(2, minmax(0, 1fr)); } .show-item, .show-add { aspect-ratio: 3 / 4.6; } }
+.showcase .show-add { grid-column: 1 / -1; aspect-ratio: auto; grid-auto-flow: column; padding: 12px; }
+.showcase .show-add span { font-size: 20px; }

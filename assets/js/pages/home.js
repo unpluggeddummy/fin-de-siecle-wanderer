@@ -161,7 +161,7 @@ function profileSection(p, editing) {
       : (shows.some((x) => x.s) ? null : h('div.empty', h('p', '진열장이 비어 있어요.'))),
   );
   // 진열장은 두 줄로: 칸 수의 절반(올림)만큼 열을 만든다
-  const n = shows.filter((x) => x.s).length + (editing ? 1 : 0);
+  const n = shows.filter((x) => x.s).length;   // '진열 추가'는 칸 수에 넣지 않고 아래에 가로로
   right.style.setProperty('--cols', Math.max(2, Math.ceil(n / 2)));
   return h('section.prof' + (editing ? '.editing' : ''), left, h('div.prof-right', right, sideCards(p, editing)));
 }
