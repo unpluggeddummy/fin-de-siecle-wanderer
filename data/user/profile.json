@@ -118,7 +118,7 @@
  "showcase": [
   {
    "char": 3147,
-   "skin": 314704,
+   "skin": 314702,
    "scale": 1.2
   },
   {
@@ -143,11 +143,15 @@
   },
   {
    "char": 3139,
-   "skin": 313903
+   "skin": 313904
   },
   {
    "char": 3132,
    "skin": null
+  },
+  {
+   "char": 3121,
+   "skin": 312103
   }
  ],
  "showcaseLive2d": false
