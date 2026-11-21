@@ -361,7 +361,3 @@ body.editing .hero-tag, body.editing .hero-side, body.editing .hero-chip, body.e
 /* 점수판 그래프: 기둥 길이는 그대로 두고, 위에 30px 여유를 더해 최고 기록 점수 표시가 잘리지 않게 */
 .sb2-chart { height: 280px; }
 .sb2-col { padding-top: 30px; }
-.hero-skin-pick { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; }
-.hero-skin-pick button { display: grid; gap: 6px; padding: 6px; background: var(--ink-2); border: 1px solid var(--line); color: var(--paper); cursor: pointer; text-align: left; font-size: 12px; }
-.hero-skin-pick button:hover { border-color: var(--brass); }
-.hero-skin-pick img { width: 100%; aspect-ratio: 3 / 4.2; object-fit: cover; object-position: top; }
