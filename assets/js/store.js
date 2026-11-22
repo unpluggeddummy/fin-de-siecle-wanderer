@@ -100,6 +100,20 @@ export async function loadAll() {
     const b = krb?.banners?.[s.id];
     if (b) { s.banner = b; s.bannerSrc = 'kr'; }
   }
+  // 복각은 언제 다시 열려도 처음 등장했을 때의 배너로 (같은 이름, 아니면 같은 6성 하나짜리 픽업)
+  const firstBanner = new Map();
+  const baseName = (s) => (s.name?.ko || s.name?.en || '').replace(/\s*\(복각\)\s*$/, '').trim();
+  for (const v of versions) for (const s of v.summons || []) {
+    if (s.rerun || /\(복각\)/.test(s.name?.ko || '') || !s.banner) continue;
+    const keys = [`n:${baseName(s)}`];
+    if (s.six?.length === 1) keys.push(`c:${s.six[0]}`);
+    for (const k of keys) if (!firstBanner.has(k)) firstBanner.set(k, s);
+  }
+  for (const v of versions) for (const s of v.summons || []) {
+    if (!(s.rerun || /\(복각\)/.test(s.name?.ko || ''))) continue;
+    const o = firstBanner.get(`n:${baseName(s)}`) || (s.six?.length === 1 && firstBanner.get(`c:${s.six[0]}`));
+    if (o && o.banner !== s.banner) { s.banner = o.banner; s.bannerSrc = o.bannerSrc; }
+  }
   // 게임 언어 테이블에 아직 한국어가 없는 새 스토리 이름은, 손으로 적은 이벤트의 한섭 이름으로
   for (const mv of manual?.versions || []) for (const e of mv.events || []) {
     const st = e.story && e.name?.ko && stories.find((x) => x.id === e.story);
