@@ -5,7 +5,7 @@
  "currencies": [
   {
    "name": "순결의 빗방울",
-   "amount": 6160
+   "amount": 7250
   },
   {
    "name": "순수의 빗방울",
@@ -13,7 +13,7 @@
   },
   {
    "name": "모노로그",
-   "amount": 14
+   "amount": 15
   }
  ],
  "banners": [
