@@ -212,12 +212,12 @@
    "en": "Evelyn",
    "ja": "",
    "zhCN": "伊芙琳",
-   "zhTW": ""
+   "zhTW": "伊芙琳"
   },
   "rarity": 6,
   "afflatus": "beast",
   "dmg": "unknown",
-  "released": false,
+  "released": true,
   "euphoria": 0,
   "defaultSkin": 316001,
   "insightSkin": 316002,
@@ -337,12 +337,12 @@
    "en": "Perchta",
    "ja": "",
    "zhCN": "佩施塔",
-   "zhTW": ""
+   "zhTW": "佩施塔"
   },
   "rarity": 6,
   "afflatus": "star",
   "dmg": "unknown",
-  "released": false,
+  "released": true,
   "euphoria": 0,
   "defaultSkin": 315901,
   "insightSkin": 315902,
