@@ -1,3 +1,126 @@
 {
- "seasons": {}
+ "seasons": {
+  "13919": {
+   "bosses": {
+    "1": {
+     "score": 132418239,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3146,
+       "psychube": 1568
+      },
+      {
+       "char": 3145,
+       "psychube": 1573
+      },
+      {
+       "char": 3156,
+       "psychube": 1570
+      },
+      {
+       "char": 3149,
+       "psychube": 1571
+      }
+     ],
+     "coop": [
+      {
+       "char": 3144
+      },
+      {
+       "char": 3080
+      },
+      {
+       "char": 3039
+      },
+      {
+       "char": 3047
+      }
+     ],
+     "friend": null,
+     "note": "",
+     "date": "2026-11-28"
+    },
+    "2": {
+     "score": 123369933,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3146,
+       "psychube": 1568
+      },
+      {
+       "char": 3141,
+       "psychube": 1563
+      },
+      {
+       "char": 3053,
+       "psychube": 1540
+      },
+      {
+       "char": 3117,
+       "psychube": 1547
+      }
+     ],
+     "coop": [
+      {
+       "char": 3048
+      },
+      {
+       "char": 3003
+      },
+      {
+       "char": 3105
+      },
+      {
+       "char": 3087
+      }
+     ],
+     "friend": null,
+     "note": "",
+     "date": "2026-11-28"
+    },
+    "3": {
+     "score": 76775233,
+     "grade": "SSS+",
+     "members": [
+      {
+       "char": 3143,
+       "psychube": 1537
+      },
+      {
+       "char": 3132,
+       "psychube": 1521
+      },
+      {
+       "char": 3146,
+       "psychube": 1568
+      },
+      {
+       "char": 3105,
+       "psychube": 1547
+      }
+     ],
+     "coop": [
+      {
+       "char": 3086
+      },
+      {
+       "char": 3107
+      },
+      {
+       "char": 3092
+      },
+      {
+       "char": 3100
+      }
+     ],
+     "friend": 3143,
+     "note": "콟 형상 올리면 더 올라갈듯 ;ㅅ;",
+     "date": "2026-11-28"
+    }
+   },
+   "best": 332563405
+  }
+ }
 }
