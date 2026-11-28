@@ -286,7 +286,7 @@ function removeSeason(season) {
  * 기둥을 누르면 그 시즌으로 바뀐다 (예전 시즌 상자 + 선 그래프 자리).
  */
 let lastShown = 0;
-function scoreBoard(seasons, totals, season) {
+export function scoreBoard(seasons, totals, season, onPick = (s) => { view.season = s.id; rerender(); }) {
   const t = totals.find((x) => x.id === season?.id) || { total: 0, bosses: [] };
   const i = totals.findIndex((x) => x.id === season?.id);
   const prev = totals.slice(0, i).reverse().find((x) => x.total > 0);
@@ -305,7 +305,7 @@ function scoreBoard(seasons, totals, season) {
     return h('button.sb2-col' + (on ? '.on' : '') + (x.total ? '' : '.empty') + (store.COLLAB[s.version] ? '.collab' : ''), {
       type: 'button', title: `${label(s)} · ${x.total ? fmt(x.total) + '점' : '기록 없음'}`, 'aria-pressed': String(on),
       style: { '--d': `${k * 45}ms` },
-      onclick: () => { view.season = s.id; rerender(); },
+      onclick: () => onPick(s),
     },
       h('span.sb2-bar', { style: { height: `${pct}%` } },
         x.bosses.filter((b) => b.score).map((b, j) => { const seg = h('i', { style: { height: `${(b.score / x.total) * 100}%`, background: colors[j % colors.length] }, title: `${b.name}: ${fmt(b.score)}` }); acc += b.score; return seg; }).reverse(),

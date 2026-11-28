@@ -121,7 +121,7 @@ body[data-route="home"] .site-foot { display: none; }
 .sb2-y { position: relative; padding-bottom: 24px; }
 .sb2-y > span { position: absolute; right: 8px; transform: translateY(50%); font-family: var(--mono); font-size: 10px; color: var(--paper-faint); white-space: nowrap; }
 .sb2-y > span::after { content: ""; position: absolute; left: calc(100% + 8px); top: 50%; width: 3000px; border-top: 1px dashed rgba(201,163,92,.14); }
-.sb2-cols { position: relative; z-index: 1; padding-right: 40px; display: flex; align-items: stretch; gap: 4px; overflow-x: auto; scrollbar-width: thin; scrollbar-color: var(--brass-dim) transparent; }
+.sb2-cols { position: relative; z-index: 1; padding-right: 40px; padding-left: 40px; display: flex; align-items: stretch; gap: 4px; overflow-x: auto; scrollbar-width: thin; scrollbar-color: var(--brass-dim) transparent; }
 .sb2-col { position: relative; flex: 0 0 46px; height: 100%; padding: 0 0 24px; display: flex; flex-direction: column; justify-content: flex-end; align-items: center;
   background: none; border: 0; cursor: pointer; color: inherit; }
 .sb2-bar { position: relative; width: 28px; display: flex; flex-direction: column; opacity: .5; transition: opacity .2s;

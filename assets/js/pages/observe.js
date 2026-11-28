@@ -3,6 +3,7 @@ import { h, img, fmt, drawer, field } from '../ui.js';
 import * as store from '../store.js';
 import { rerender } from '../app.js';
 import { teamView, teamEditor, charSelect } from '../components.js';
+import { scoreBoard } from './bulletin.js';
 
 const GRADES = ['', 'SSS+', 'SSS', 'SS', 'S', 'A', 'B', 'C'];
 const view = { season: null, allBonds: false };
@@ -74,8 +75,11 @@ export function render(root) {
 
   root.append(
     head(),
-    list.length > 1 ? h('div.chips', { style: { marginBottom: '14px' } }, list.map((s) =>
-      h('button.chip', { type: 'button', 'aria-pressed': String(s.id === season.id), onclick: () => { view.season = s.id; rerender(); } }, `${s.version} ${s.label}`))) : null,
+    // 갈기의 게시판과 같은 점수판: 특별 관찰 시즌마다 기둥 하나 (기둥을 누르면 그 시즌으로)
+    scoreBoard(list, list.map((x) => {
+      const bosses = x.bosses.map((b) => ({ ...b, score: +(rec(x.id, b.stage)?.score) || 0 }));
+      return { id: x.id, version: x.version, bosses, total: bosses.reduce((a, b) => a + b.score, 0) };
+    }), season, (x) => { view.season = x.id; rerender(); }),
     summary(season),
     h('div.boss-grid', season.bosses.map((b) => bossCard(season, b))),
     rules(),
@@ -90,19 +94,11 @@ function head() {
 }
 
 function summary(season) {
-  const t = total(season);
   const best = bestTotal(season);
-  const colors = ['var(--brass-bright)', 'var(--brass)', '#8a6a35'];
   return h('section.obs-sum',
     h('div.obs-tot',
-      h('p.sb2-k', `${season.version} // ${season.label.toUpperCase?.() || season.label}`),
-      h('div', h('small', '현재 총점'), h('b', t ? fmt(t) : '—')),
-      h('div', h('small', '역대 최고 총점'), h('b.obs-best', best ? fmt(best) : '—'),
+      h('div', h('small', `${season.version} ${season.label} · 역대 최고 총점 (괴이체를 초기화하기 전 최고)`), h('b.obs-best', best ? fmt(best) : '—'),
         h('button.btn.small.ghost.edit-only', { type: 'button', onclick: () => editBest(season) }, '고치기'))),
-    h('div.obs-bar', season.bosses.map((b, j) => {
-      const s = +(rec(season.id, b.stage)?.score) || 0;
-      return t && s ? h('i', { style: { flex: s, background: colors[j % 3] }, title: `${b.name}: ${fmt(s)}` }, h('span', `${b.name} ${Math.round(s / t * 100)}%`)) : null;
-    })),
   );
 }
 
