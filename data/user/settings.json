@@ -63,7 +63,8 @@
    "transcripts",
    "tastes",
    "names",
-   "settings"
+   "settings",
+   null
   ],
   "labels": {
    "transcripts": {

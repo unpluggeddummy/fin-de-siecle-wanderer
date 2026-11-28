@@ -146,7 +146,7 @@
    "type": "한정",
    "start": "",
    "version": "3.8",
-   "pulls": 230,
+   "pulls": 210,
    "results": [
     {
      "char": 3144,
@@ -205,7 +205,7 @@
    "type": "한정",
    "start": "2026-11-05",
    "version": "3.9",
-   "pulls": 300,
+   "pulls": 310,
    "results": [
     {
      "char": 3156,
@@ -241,7 +241,7 @@
    "type": "상시",
    "start": "2026-11-07",
    "version": "3.9",
-   "pulls": 60,
+   "pulls": 70,
    "results": [
     {
      "char": 3121,
@@ -254,15 +254,38 @@
     }
    ],
    "note": ""
+  },
+  {
+   "id": "mx079tbsu22la",
+   "ref": "3.9:pool39122",
+   "name": "호숫가의 속삭임",
+   "type": "한정",
+   "start": "2026-11-26",
+   "version": "3.9",
+   "pulls": 170,
+   "results": [
+    {
+     "char": 3157,
+     "at": 77
+    },
+    {
+     "char": 3157,
+     "at": 128
+    },
+    {
+     "char": 3088,
+     "at": 167,
+     "lost": true
+    },
+    {
+     "char": 3157,
+     "at": 168
+    }
+   ],
+   "note": ""
   }
  ],
  "wishlist": [
-  {
-   "char": 3157,
-   "when": "",
-   "goal": "P5",
-   "note": ""
-  },
   {
    "char": 3155,
    "when": "",
