@@ -20,6 +20,7 @@ const pages = {
   codex: () => import('./pages/codex.js'),
   tastes: () => import('./pages/tastes.js'),
   transcripts: () => import('./pages/transcripts.js'),
+  observe: () => import('./pages/observe.js'),
   settings: () => import('./pages/settings.js'),
 };
 

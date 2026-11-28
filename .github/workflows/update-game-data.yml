@@ -97,6 +97,10 @@ jobs:
           python scripts/build_skills.py --global ../src/global --out .
           python scripts/game_profiles.py --global ../src/global --out .
 
+      - name: 갈기의 게시판 특별 관찰 (협동 스킬·출품작 태그)
+        continue-on-error: true
+        run: python scripts/observe_data.py --global ../src/global --out .
+
       - name: 버전 대표 일러스트 (게임 원본)
         continue-on-error: true
         run: python scripts/version_art.py --cn ../src/cn --out .

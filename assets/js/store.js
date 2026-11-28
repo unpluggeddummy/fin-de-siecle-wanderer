@@ -5,6 +5,7 @@ export const SECTIONS = {
   roster:    { file: 'data/user/roster.json',    label: '출품작',       def: () => ({ chars: {}, nameOverrides: {} }) },
   psychubes: { file: 'data/user/psychubes.json', label: '의지',         def: () => ({ items: {} }) },
   bulletin:  { file: 'data/user/bulletin.json',  label: '갈기의 게시판', def: () => ({ seasons: {}, customSeasons: [] }) },
+  observe:   { file: 'data/user/observe.json',   label: '특별 관찰',     def: () => ({ seasons: {} }) },
   skins:     { file: 'data/user/skins.json',     label: '스킨',         def: () => ({ items: {} }) },
   decks:     { file: 'data/user/decks.json',     label: '덱',           def: () => ({ decks: [] }) },
   plans:     { file: 'data/user/plans.json',     label: '육성 계획',     def: () => ({ plans: [], inventory: {}, materialNames: {} }) },
@@ -127,7 +128,12 @@ export async function loadAll() {
   }
   // 한섭에 아직 열리지 않은 시즌 (기록이 있으면 갈기의 게시판에서 그대로 보인다)
   for (const se of bulletin) if (bkr?.hide?.[se.id]) se.krHidden = true;
-  state.game = { characters, skins, psychubes, materials, bulletin, meta, npcs, stories, versions, profiles, versionArt, skills: null };
+  // 특별 관찰(공동 보도) 시즌은 갈기의 게시판과 따로 기록한다: bulletin-kr.json 의 special, 또는 같은 버전의 두 번째 시즌
+  const observeData = await getJSON('data/game/observe.json').catch(() => null);
+  const special = (se) => bkr?.special?.[se.id] || / \(\d\)$/.test(se.version) || observeData?.seasons?.[se.id];
+  const observe = bulletin.filter(special).map((se) => ({ ...se, version: se.version.replace(/ \(\d\)$/, ''), label: bkr?.special?.[se.id]?.label || '특별 관찰', bonds: observeData?.seasons?.[se.id]?.bonds || [] }));
+  const regular = bulletin.filter((se) => !special(se));
+  state.game = { characters, skins, psychubes, materials, bulletin: regular, observe, charTags: observeData?.chars || {}, meta, npcs, stories, versions, profiles, versionArt, skills: null };
   indexGame();
   await loadUser();
 }
