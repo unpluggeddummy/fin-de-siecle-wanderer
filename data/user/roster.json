@@ -2338,20 +2338,24 @@
    ]
   },
   "3157": {
-   "owned": false,
+   "owned": true,
    "level": 60,
    "insight": 3,
-   "resonance": 10,
-   "portray": 0,
+   "resonance": 13,
+   "portray": 2,
    "euphoria": 0,
    "euphorias": [],
    "euphoriaLevel": 0,
-   "tuning": null,
-   "tunings": [],
-   "psychube": null,
+   "tuning": 1,
+   "tunings": [
+    1
+   ],
    "skin": null,
    "spectrum": "",
-   "note": ""
+   "note": "",
+   "psychubes": [
+    1576
+   ]
   }
  },
  "nameOverrides": {}
