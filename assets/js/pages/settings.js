@@ -194,7 +194,7 @@ function menuPanel(editing) {
   const s = store.state.user.settings || {};
   const menu = s.menu || {};
   const order = [...(menu.order || []).filter((r) => defs.some((d) => d.route === r)), ...defs.map((d) => d.route).filter((r) => !(menu.order || []).includes(r))];
-  const save = (fn) => store.update('settings', (x) => { x.menu ||= {}; x.menu.order ||= [...order]; x.menu.labels ||= {}; fn(x.menu); });
+  const save = (fn) => store.update('settings', (x) => { x.menu ||= {}; x.menu.order = [...order]; /* 새로 생긴 메뉴도 저장된 순서에 넣는다 */ x.menu.labels ||= {}; fn(x.menu); });
   const move = (i, j) => save((m) => { if (j < 0 || j >= m.order.length) return; [m.order[i], m.order[j]] = [m.order[j], m.order[i]]; });
   const setLabel = (route, key) => (e) => save((m) => {
     const v = e.target.value.trim();
