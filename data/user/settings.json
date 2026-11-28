@@ -52,6 +52,7 @@
    "timekeeper",
    "roster",
    "bulletin",
+   "observe",
    "timeline",
    "skins",
    "decks",
@@ -63,8 +64,7 @@
    "transcripts",
    "tastes",
    "names",
-   "settings",
-   null
+   "settings"
   ],
   "labels": {
    "transcripts": {
