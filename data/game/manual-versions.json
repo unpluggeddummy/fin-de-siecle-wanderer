@@ -350,22 +350,6 @@
    "garments": [],
    "summons": [
     {
-     "id": "4.0:m-drake",
-     "name": {
-      "ko": "드레이크 픽업",
-      "en": "Drake"
-     },
-     "kind": "pickup",
-     "six": [
-      3158
-     ],
-     "five": [],
-     "rerun": false,
-     "source": "manual",
-     "banner": "assets/img/summon/a5-4.0-m-drake.webp",
-     "bannerSrc": "asset"
-    },
-    {
      "id": "4.0:m-lilya",
      "name": {
       "ko": "헌츠원 릴리아 픽업",
@@ -379,6 +363,24 @@
      "rerun": false,
      "source": "manual",
      "banner": "assets/img/summon/a5-4.0-m-lilya.webp",
+     "bannerSrc": "asset",
+     "kr": "2026-12-17 ~ 2027-01-07 (예정)",
+     "krNote": "한섭 4.0 첫 픽업 (3.9 호숫가의 속삭임이 12-17에 끝남)"
+    },
+    {
+     "id": "4.0:m-drake",
+     "name": {
+      "ko": "드레이크 픽업",
+      "en": "Drake"
+     },
+     "kind": "pickup",
+     "six": [
+      3158
+     ],
+     "five": [],
+     "rerun": false,
+     "source": "manual",
+     "banner": "assets/img/summon/a5-4.0-m-drake.webp",
      "bannerSrc": "asset"
     },
     {
